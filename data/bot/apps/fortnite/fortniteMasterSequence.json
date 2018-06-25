@@ -2,14 +2,14 @@
   {
     "GroupName": "Fortnite",
     "SequenceFiles": [
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
-      { "order" : 35, "file": ["/data/bot/sequences/appspecials/fortnite/Diana.json"]},
-      { "order" : 35, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/fortnite/Diana.json"]},
+      { "order" : 25, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey2.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Lucy.json"]},
-      { "order" : 35, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses.json"]},
-      { "order" : 35, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses2.json"]}
+      { "order" : 35, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey2.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/fortnite/Lucy.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses.json"]},
+      { "order" : 55, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses2.json"]}
     ]
   }
 ]
