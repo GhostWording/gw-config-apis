@@ -2,9 +2,8 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
-      { "order": 1010, "file":[
-            "/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]},
-       { "order": 1240, "file":[
+       { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_continue_after_error_bad_fragment_name.json"]},
+       { "order": 11240, "file":[
             "data/bot/sequences/experiments/rui/OneStepWithPredictProbability1.json"]},
       ]
    }
