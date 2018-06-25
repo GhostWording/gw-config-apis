@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "AstrologyPower",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you believe in the powers of astrology?",
+        "fr": "Croyez-vous aux pouvoirs de l'astrologie ?",
+        "es": "¿Crees en los poderes de la astrología?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AstrologyPowerYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "mtUeq68vgeJQ4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AstrologyPowerNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non‍",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10TI5vPyELuuHu"
+          }
+        }
+      ]
+    }
+  ]
+}
