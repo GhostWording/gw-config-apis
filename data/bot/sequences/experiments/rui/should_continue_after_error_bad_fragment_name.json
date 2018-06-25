@@ -1,2 +1,36 @@
 {
+  "Type": "Node",
+  "Comments": "it should show directly without error because the referenced fragment do not exist",
+  "Id": "continueafterbadfragmentname",
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "it should show directly without error because the referenced fragment [xxx12345] do not exist",
+            "fr": "it should show directly without error because the referenced fragment [xxx12345] do not exist"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "leafNoStepWithOneLeafCommandContinue",
+      "CommandLabel": {
+        "en": "Continue",
+        "fr": "Continue"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "trying to load fragment xxx12345",
+            "fr": "trying to load fragment xxx12345"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath":"xxx12345"
+      }
+    }
+  ]
 }
