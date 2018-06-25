@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "Senses",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are your senses awakened by the presence of others around you or by your inner energy?",
+        "fr": "Vos sens s'activent-ils plus par la présence des autres autour de vous ou par votre énergie ?",
+        "es": "¿Se despiertan tus sentidos más por la presencia de los demás o más por tu propia energía?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SensesOthers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Presence of others",
+        "fr": "l'initiative",
+        "es": "la iniciativa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "v2Y5T0U5pB60w"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SensesEnergy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Inner energy",
+        "fr": "se laisser guidé",
+        "es": "dejarse guíado"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l4FGDAx6u3hthMhgI"
+          }
+        }
+      ]
+    }
+  ]
+}
