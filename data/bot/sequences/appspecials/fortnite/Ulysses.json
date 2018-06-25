@@ -1,412 +1,412 @@
 {
-    "Type": "Node",
-    "Id": "Ulysses",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Ulysses",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "So there’s another guy you need to hear about - Unprepared Ulysses",
+        "fr": "So there’s another guy you need to hear about - Unprepared Ulysses",
+        "es": "So there’s another guy you need to hear about - Unprepared Ulysses"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "UlyssesCalled",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "He’s called that?",
+        "fr": "He’s called that?",
+        "es": "He’s called that?"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "So there’s another guy you need to hear about - Unprepared Ulysses",
-                "fr": "So there’s another guy you need to hear about - Unprepared Ulysses",
-                "es": "So there’s another guy you need to hear about - Unprepared Ulysses"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "UlyssesCalled",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "He’s called that?",
-                "fr": "He’s called that?",
-                "es": "He’s called that?"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "By me, yes",
-                        "fr": "By me, yes",
-                        "es": "By me, yes"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Ulysses was great at most stuff…",
-                        "fr": "Ulysses was great at most stuff…",
-                        "es": "Ulysses was great at most stuff…"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "and so he had a few visits to the island.",
-                        "fr": "and so he had a few visits to the island.",
-                        "es": "and so he had a few visits to the island."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "But every time he came, he landed in a different area!",
-                        "fr": "But every time he came, he landed in a different area!",
-                        "es": "But every time he came, he landed in a different area!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "montage"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "UlyssesCalledLand",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "UlyssesCalledSo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "So?",
-                            "fr": "So?",
-                            "es": "So?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "es": "It meant that he really didn’t know his way around, and kept getting surprised"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Yeah... that's him running aimlessly around the football pitch",
-                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
-                                    "es": "Yeah... that's him running aimlessly around the football pitch"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I wish he had just learned one area really well…",
-                                    "fr": "I wish he had just learned one area really well…",
-                                    "es": "I wish he had just learned one area really well…"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "UlyssesCalledSoLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesCalledSoSmart",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Smart!",
-                                        "fr": "Smart!",
-                                        "es": "Smart!"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesCalledSoDo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That’s what I do",
-                                        "fr": "That’s what I do",
-                                        "es": "That’s what I do"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "UlyssesCalledOh",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Oh dear",
-                            "fr": "Oh dear",
-                            "es": "Oh dear"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "es": "It meant that he really didn’t know his way around, and kept getting surprised"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Yeah... that's him running aimlessly around the football pitch",
-                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
-                                    "es": "Yeah... that's him running aimlessly around the football pitch"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I wish he had just learned one area really well…",
-                                    "fr": "I wish he had just learned one area really well…",
-                                    "es": "I wish he had just learned one area really well…"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "UlyssesCalledOhLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesCalledOhSmart",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Smart!",
-                                        "fr": "Smart!",
-                                        "es": "Smart!"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesCalledOhDo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That’s what I do",
-                                        "fr": "That’s what I do",
-                                        "es": "That’s what I do"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "By me, yes",
+            "fr": "By me, yes",
+            "es": "By me, yes"
+          }
         },
         {
+          "Type": "Text",
+          "Label": {
+            "en": "Ulysses was great at most stuff…",
+            "fr": "Ulysses was great at most stuff…",
+            "es": "Ulysses was great at most stuff…"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "and so he had a few visits to the island.",
+            "fr": "and so he had a few visits to the island.",
+            "es": "and so he had a few visits to the island."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But every time he came, he landed in a different area!",
+            "fr": "But every time he came, he landed in a different area!",
+            "es": "But every time he came, he landed in a different area!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410787/Ulysses/MontageLanding.gif"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UlyssesCalledLand",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "UlyssesHear",
+            "Id": "UlyssesCalledSo",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Let's hear it!",
-                "fr": "Let's hear it!",
-                "es": "Let's hear it!"
+              "en": "So?",
+              "fr": "So?",
+              "es": "So?"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "By me, yes",
-                        "fr": "By me, yes",
-                        "es": "By me, yes"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Ulysses was great at most stuff…",
-                        "fr": "Ulysses was great at most stuff…",
-                        "es": "Ulysses was great at most stuff…"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "and so he had a few visits to the island.",
-                        "fr": "and so he had a few visits to the island.",
-                        "es": "and so he had a few visits to the island."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "But every time he came, he landed in a different area!",
-                        "fr": "But every time he came, he landed in a different area!",
-                        "es": "But every time he came, he landed in a different area!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "montage"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "es": "It meant that he really didn’t know his way around, and kept getting surprised"
                 }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410787/Ulysses/LostSurprised.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Yeah... that's him running aimlessly around the football pitch",
+                  "fr": "Yeah... that's him running aimlessly around the football pitch",
+                  "es": "Yeah... that's him running aimlessly around the football pitch"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I wish he had just learned one area really well…",
+                  "fr": "I wish he had just learned one area really well…",
+                  "es": "I wish he had just learned one area really well…"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "UlyssesHearLand",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "UlyssesHearSo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "So?",
-                            "fr": "So?",
-                            "es": "So?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "es": "It meant that he really didn’t know his way around, and kept getting surprised"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Yeah... that's him running aimlessly around the football pitch",
-                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
-                                    "es": "Yeah... that's him running aimlessly around the football pitch"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I wish he had just learned one area really well…",
-                                    "fr": "I wish he had just learned one area really well…",
-                                    "es": "I wish he had just learned one area really well…"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "UlyssesHearSoLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesHearSoSmart",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Smart!",
-                                        "fr": "Smart!",
-                                        "es": "Smart!"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesHearSoDo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That’s what I do",
-                                        "fr": "That’s what I do",
-                                        "es": "That’s what I do"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "UlyssesHearOh",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Oh dear",
-                            "fr": "Oh dear",
-                            "es": "Oh dear"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
-                                    "es": "It meant that he really didn’t know his way around, and kept getting surprised"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Yeah... that's him running aimlessly around the football pitch",
-                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
-                                    "es": "Yeah... that's him running aimlessly around the football pitch"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I wish he had just learned one area really well…",
-                                    "fr": "I wish he had just learned one area really well…",
-                                    "es": "I wish he had just learned one area really well…"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "UlyssesHearOhLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesHearOhSmart",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Smart!",
-                                        "fr": "Smart!",
-                                        "es": "Smart!"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "UlyssesHearOhDo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That’s what I do",
-                                        "fr": "That’s what I do",
-                                        "es": "That’s what I do"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+              "Type": "Node",
+              "Id": "UlyssesCalledSoLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesCalledSoSmart",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Smart!",
+                    "fr": "Smart!",
+                    "es": "Smart!"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesCalledSoDo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s what I do",
+                    "fr": "That’s what I do",
+                    "es": "That’s what I do"
+                  }
+                }
+              ]
             }
+          },
+          {
+            "Type": "Node",
+            "Id": "UlyssesCalledOh",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Oh dear",
+              "fr": "Oh dear",
+              "es": "Oh dear"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "es": "It meant that he really didn’t know his way around, and kept getting surprised"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410787/Ulysses/LostSurprised.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Yeah... that's him running aimlessly around the football pitch",
+                  "fr": "Yeah... that's him running aimlessly around the football pitch",
+                  "es": "Yeah... that's him running aimlessly around the football pitch"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I wish he had just learned one area really well…",
+                  "fr": "I wish he had just learned one area really well…",
+                  "es": "I wish he had just learned one area really well…"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "UlyssesCalledOhLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesCalledOhSmart",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Smart!",
+                    "fr": "Smart!",
+                    "es": "Smart!"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesCalledOhDo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s what I do",
+                    "fr": "That’s what I do",
+                    "es": "That’s what I do"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "UlyssesHear",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Let's hear it!",
+        "fr": "Let's hear it!",
+        "es": "Let's hear it!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "By me, yes",
+            "fr": "By me, yes",
+            "es": "By me, yes"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ulysses was great at most stuff…",
+            "fr": "Ulysses was great at most stuff…",
+            "es": "Ulysses was great at most stuff…"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "and so he had a few visits to the island.",
+            "fr": "and so he had a few visits to the island.",
+            "es": "and so he had a few visits to the island."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But every time he came, he landed in a different area!",
+            "fr": "But every time he came, he landed in a different area!",
+            "es": "But every time he came, he landed in a different area!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410787/Ulysses/MontageLanding.gif"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UlyssesHearLand",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "UlyssesHearSo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "So?",
+              "fr": "So?",
+              "es": "So?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "es": "It meant that he really didn’t know his way around, and kept getting surprised"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410787/Ulysses/LostSurprised.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Yeah... that's him running aimlessly around the football pitch",
+                  "fr": "Yeah... that's him running aimlessly around the football pitch",
+                  "es": "Yeah... that's him running aimlessly around the football pitch"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I wish he had just learned one area really well…",
+                  "fr": "I wish he had just learned one area really well…",
+                  "es": "I wish he had just learned one area really well…"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "UlyssesHearSoLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesHearSoSmart",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Smart!",
+                    "fr": "Smart!",
+                    "es": "Smart!"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesHearSoDo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s what I do",
+                    "fr": "That’s what I do",
+                    "es": "That’s what I do"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "UlyssesHearOh",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Oh dear",
+              "fr": "Oh dear",
+              "es": "Oh dear"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "fr": "It meant that he really didn’t know his way around, and kept getting surprised",
+                  "es": "It meant that he really didn’t know his way around, and kept getting surprised"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410787/Ulysses/LostSurprised.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Yeah... that's him running aimlessly around the football pitch",
+                  "fr": "Yeah... that's him running aimlessly around the football pitch",
+                  "es": "Yeah... that's him running aimlessly around the football pitch"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I wish he had just learned one area really well…",
+                  "fr": "I wish he had just learned one area really well…",
+                  "es": "I wish he had just learned one area really well…"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "UlyssesHearOhLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesHearOhSmart",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Smart!",
+                    "fr": "Smart!",
+                    "es": "Smart!"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "UlyssesHearOhDo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s what I do",
+                    "fr": "That’s what I do",
+                    "es": "That’s what I do"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
