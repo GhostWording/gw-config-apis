@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TrueSelf",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you often feel that people do not see you as you really are?",
+        "fr": "Est-ce que vous avez souvent l'impression que les gens ne vous perçoivent pas tel vous êtes vraiment ?",
+        "es": "¿Sientes a menudo que la gente no te ve como realmente eres?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TrueSelfYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "116a8zosxwA0SI"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TrueSelfNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non‍",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QEdCVanGbeoLzXy"
+          }
+        }
+      ]
+    }
+  ]
+}
