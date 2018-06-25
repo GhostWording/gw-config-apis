@@ -1,0 +1,21 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "britishmuseumbot",
+      "Source": "github",
+      "File": "/data/bot/apps/britishmuseumbot/britishmuseumbotMaster.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/sequences/fragments/FragmentsMain03.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ]
+}
