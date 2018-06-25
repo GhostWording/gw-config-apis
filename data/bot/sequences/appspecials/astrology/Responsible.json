@@ -31,10 +31,18 @@
           "Name": "ShowSurveyResults"
         },
         {
+            "Type": "Text",
+            "Label": {
+              "en": "I guess you don't do this then!",
+              "fr": "Je suppose que tu ne fais pas ça alors!",
+              "es": "¡Supongo que no haces eso entonces!"
+            }
+        }
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "l0HlLx7TFxzHmclEs"
+            "Path": "3oKIPeYIJSEUcbKdt6"
           }
         }
       ]
