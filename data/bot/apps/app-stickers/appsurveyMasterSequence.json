@@ -5,10 +5,13 @@
       { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
-      { "order" : 40, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteHeard.json"]},
-      { "order" : 42, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteBalance.json"]},
-      { "order" : 43, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteVehicles.json"]},
-      { "order" : 44, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteBuff.json"]},
+      { "order" : 36, "file": ["/data/bot/sequences/appspecials/astrology/AstrologyPower.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/InitiativePassive.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/TrueSelf.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/Senses.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/LifeFulfilled.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/Seek.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/Soulmate.json"]},
       { "order" : 46, "file": ["/data/bot/sequences/surveys/TrumpIran.json"]},
       { "order" : 47, "file": ["/data/bot/sequences/surveys/TrumpNorthKorea.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/connectors/ConnectSpecial02.json"]},
@@ -36,6 +39,7 @@
       { "order" : 310, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]},
       { "order" : 315, "file": ["/data/bot/sequences/connectors/SurveySurvey03.json"]},
       { "order" : 320, "file": ["/data/bot/sequences/surveys/HowOftenDoYouThinkAboutLife.json"]},
+      { "order" : 400, "file": ["/data/bot/sequences/smalltalk/LikeMakeJokes.json"]},
       { "order" : 890, "file": ["/data/bot/sequences/surveys/YouPreferFishOrMeat.json"]},
       { "order" : 920, "file": ["/data/bot/sequences/surveys/WHumanityBeyondEarth.json"]},
       { "order" : 950, "file": ["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
@@ -191,4 +195,4 @@
       { "order" : 1000, "file": ["/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"]}
     ]
   }
-]
+] 
