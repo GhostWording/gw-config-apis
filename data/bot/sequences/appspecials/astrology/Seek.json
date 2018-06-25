@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "Seek",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you seek?",
+        "fr": "Que cherchez-vous?",
+        "es": "¿Qué buscas?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Seek",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Love and Health",
+        "fr": "amour et santé",
+        "es": "amor y salud"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xTiQytOEqr2U33lYkg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Seek",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Fame and Fortune",
+        "fr": "gloire et richesse",
+        "es": "fama y fortuna"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41m4x7mJhkrGWgZa"
+          }
+        }
+      ]
+    }
+  ]
+}
