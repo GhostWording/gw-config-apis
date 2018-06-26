@@ -1,0 +1,678 @@
+{
+  "Type": "Node",
+  "Id": "Foolish Fiona",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now, a lot of 1v1 fights seem to happen on this island...",
+        "fr": "Now, a lot of 1v1 fights seem to happen on this island...",
+        "es": "Now, a lot of 1v1 fights seem to happen on this island..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I had a friend, Foolish Fiona, who did so much right, but always messed up with these",
+        "fr": "I had a friend, Foolish Fiona, who did so much right, but always messed up with these",
+        "es": "I had a friend, Foolish Fiona, who did so much right, but always messed up with these"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Firstly, she never shot the enemy buildings...",
+        "fr": "Firstly, she never shot the enemy buildings...",
+        "es": "Firstly, she never shot the enemy buildings..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "FoolishFionaExplain",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Explain?",
+        "fr": "Explain?",
+        "es": "Explain?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, Sylvie always shoots at the enemy's buildings, to panic them and to knock them down...",
+            "fr": "Well, Sylvie always shoots at the enemy's buildings, to panic them and to knock them down...",
+            "es": "Well, Sylvie always shoots at the enemy's buildings, to panic them and to knock them down..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410830/Y/SylvieShootingBuilding.gif"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "FoolishFionaExplainShoot",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "FoolishFionaExplainNice",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Nice one Sylvie",
+              "fr": "Nice one Sylvie",
+              "es": "Nice one Sylvie"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Another thing, which sounds silly, is that she panicked like crazy in every fight!",
+                  "fr": "Another thing, which sounds silly, is that she panicked like crazy in every fight!",
+                  "es": "Another thing, which sounds silly, is that she panicked like crazy in every fight!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/Panicking1v1.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She needed to stay calm, build, and heal up. Instead of just going to pieces...",
+                  "fr": "She needed to stay calm, build, and heal up. Instead of just going to pieces...",
+                  "es": "She needed to stay calm, build, and heal up. Instead of just going to pieces..."
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "FoolishFionaExplainNicePieces",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "FoolishFionaExplainNiceMe",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Sounds like me...",
+                    "fr": "Sounds like me...",
+                    "es": "Sounds like me..."
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "fr": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "es": "She also totally mistimed his rushing attacks... and got caught in the middle"
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/BuildingIntoEnemyBase.gif"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "fr": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "es": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "FoolishFionaExplainNiceMeWait",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainNiceMeThanks",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "OK, thanks",
+                          "fr": "OK, thanks",
+                          "es": "OK, thanks"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainNiceMeRight",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Sounds right",
+                          "fr": "Sounds right",
+                          "es": "Sounds right"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "FoolishFionaExplainNiceAlways",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I'm always calm",
+                    "fr": "I'm always calm",
+                    "es": "I'm always calm"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's a good start, then!",
+                        "fr": "That's a good start, then!",
+                        "es": "That's a good start, then!"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "fr": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "es": "She also totally mistimed his rushing attacks... and got caught in the middle"
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/BuildingIntoEnemyBase.gif"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "fr": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "es": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "FoolishFionaExplainNiceAlwaysWait",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainNiceAlwaysThanks",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "OK, thanks",
+                          "fr": "OK, thanks",
+                          "es": "OK, thanks"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainNiceAlwaysRight",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Sounds right",
+                          "fr": "Sounds right",
+                          "es": "Sounds right"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "FoolishFionaExplainSimple",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Simple!",
+              "fr": "Simple!",
+              "es": "Simple!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Another thing, which sounds silly, is that she panicked like crazy in every fight!",
+                  "fr": "Another thing, which sounds silly, is that she panicked like crazy in every fight!",
+                  "es": "Another thing, which sounds silly, is that she panicked like crazy in every fight!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/Panicking1v1.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She needed to stay calm, build, and heal up. Instead of just going to pieces...",
+                  "fr": "She needed to stay calm, build, and heal up. Instead of just going to pieces...",
+                  "es": "She needed to stay calm, build, and heal up. Instead of just going to pieces..."
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "FoolishFionaExplainSimplePieces",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "FoolishFionaExplainSimpleMe",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Sounds like me...",
+                    "fr": "Sounds like me...",
+                    "es": "Sounds like me..."
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "fr": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "es": "She also totally mistimed his rushing attacks... and got caught in the middle"
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "fr": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "es": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "FoolishFionaExplainSimpleMeWait",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainSimpleMeThanks",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "OK, thanks",
+                          "fr": "OK, thanks",
+                          "es": "OK, thanks"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainSimpleMeRight",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Sounds right",
+                          "fr": "Sounds right",
+                          "es": "Sounds right"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "FoolishFionaExplainSimpleAlways",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I'm always calm",
+                    "fr": "I'm always calm",
+                    "es": "I'm always calm"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's a good start, then!",
+                        "fr": "That's a good start, then!",
+                        "es": "That's a good start, then!"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "fr": "She also totally mistimed his rushing attacks... and got caught in the middle",
+                        "es": "She also totally mistimed his rushing attacks... and got caught in the middle"
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/BuildingIntoEnemyBase.gif"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "fr": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!",
+                        "es": "From my experience, it seems to work more often when you wait until the enemy is healing or reloading!"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "FoolishFionaExplainSimpleAlwaysWait",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainSimpleAlwaysThanks",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "OK, thanks",
+                          "fr": "OK, thanks",
+                          "es": "OK, thanks"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "FoolishFionaExplainSimpleAlwaysRight",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Sounds right",
+                          "fr": "Sounds right",
+                          "es": "Sounds right"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "fr": "The last thing that ended up getting her killed was that she never took the high ground...",
+                              "es": "The last thing that ended up getting her killed was that she never took the high ground..."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "fr": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!",
+                              "es": "I've watched a lot of my friends in these fights, and it's definitely the most important thing!"
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410831/Y/EnemytakingHighGround.gif"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I really miss Foolish Fiona... 😔",
+                              "fr": "I really miss Foolish Fiona... 😔",
+                              "es": "I really miss Foolish Fiona... 😔"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
