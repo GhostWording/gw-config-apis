@@ -7,7 +7,7 @@
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/TestSequenceNewActions.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/GifTest1.json"]},
             { "order": 6, "file":["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
-            { "order": 10, "file": ["/data/bot/sequences/experiments/rui/oneFragmentForTag1.json"]},
+            { "order": 1, "file": ["/data/bot/sequences/experiments/rui/oneFragmentForTag1.json"]},
             { "order": 10, "file":["/data/bot/sequences/experiments/rui/TestiOSCarouselImages.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
@@ -23,7 +23,7 @@
             { "order": 1100, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
             { "order": 1150, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
             { "order": 1500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
-            { "order": 1610, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]}
+            { "order": 2, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]}
         ]
     }
 ]
