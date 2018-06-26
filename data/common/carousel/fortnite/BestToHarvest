@@ -1,0 +1,38 @@
+{
+    "Id": "BestToHarvest",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Wood",
+                "fr": "Bois",
+                "es": "Madera"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1530032635/CarouselWood.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "Brick",
+                "fr": "Brique",
+                "es": "Ladrillo"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1530032634/CarouselMetal.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Metal",
+                "fr": "Métal",
+                "es": "Metal"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1530032634/CarouselRock.jpg"
+            }
+        }
+    ]
+}
