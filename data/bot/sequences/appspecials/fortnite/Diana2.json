@@ -5,24 +5,24 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Just when I was planning on getting to know her more,  I saw her change a green weapon for a grey!",
-                "fr": "Just when I was planning on getting to know her more, I saw her change a green weapon for a grey!",
-                "es": "Just when I was planning on getting to know her more, I saw her change a green weapon for a grey!"
+                "en": "Just when I was planning on getting to know her more, I saw her do this",
+                "fr": "Just when I was planning on getting to know her more, I saw her do this",
+                "es": "Just when I was planning on getting to know her more, I saw her do this"
             }
         },
         {
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "sRKeMj8L5Pv8yLYM1k"
+                "Path": "changeweapon"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "I should have shown her this!",
-                "fr": "I should have shown here this!",
-                "es": "I should have shown here this!"
+                "fr": "I should have shown her this!",
+                "es": "I should have shown her this!"
             }
         },
         {
@@ -44,14 +44,6 @@
                 "es": "Useful tip!"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Glad it helps!",
-                        "fr": "Glad it helps!",
-                        "es": "Glad it helps!"
-                    }
-                },
                 {
                     "Type": "Text",
                     "Label": {
@@ -80,7 +72,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
+                        "Path": "roofhide"
                     }
                 }
             ],
@@ -110,16 +102,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "She was killed horrifically",
-                                    "fr": "She was killed horrifically",
-                                    "es": "She was killed horrifically"
+                                    "en": "She was killed horrifically while looting slowly...",
+                                    "fr": "She was killed horrifically while looting slowly...",
+                                    "es": "She was killed horrifically while looting slowly..."
                                 }
                             },
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "3nk3iarVrR4ST5Q2D8"
+                                    "Path": "killed"
                                 }
                             },
                             {
@@ -169,9 +161,9 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
+                                                "en": "OK, next story then!",
+                                                "fr": "OK, next story then!",
+                                                "es": "OK, next story then!"
                                             }
                                         }
                                     ]
@@ -200,16 +192,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "She was killed horrifically",
-                                    "fr": "She was killed horrifically",
-                                    "es": "She was killed horrifically"
+                                    "en": "She was killed horrifically while looting slowly...",
+                                    "fr": "She was killed horrifically while looting slowly...",
+                                    "es": "She was killed horrifically while looting slowly..."
                                 }
                             },
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "3nk3iarVrR4ST5Q2D8"
+                                    "Path": "killed"
                                 }
                             },
                             {
@@ -259,9 +251,9 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
+                                                "en": "OK, next story then!",
+                                                "fr": "OK, next story then!",
+                                                "es": "OK, next story then!"
                                             }
                                         }
                                     ]
@@ -318,7 +310,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
+                        "Path": "roofhide"
                     }
                 }
             ],
@@ -348,16 +340,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "She was killed horrifically",
-                                    "fr": "She was killed horrifically",
-                                    "es": "She was killed horrifically"
+                                    "en": "She was killed horrifically while looting slowly...",
+                                    "fr": "She was killed horrifically while looting slowly...",
+                                    "es": "She was killed horrifically while looting slowly..."
                                 }
                             },
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "3nk3iarVrR4ST5Q2D8"
+                                    "Path": "killed"
                                 }
                             },
                             {
@@ -407,9 +399,9 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
+                                                "en": "OK, next story then!",
+                                                "fr": "OK, next story then!",
+                                                "es": "OK, next story then!"
                                             }
                                         }
                                     ]
@@ -438,16 +430,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "She was killed horrifically",
-                                    "fr": "She was killed horrifically",
-                                    "es": "She was killed horrifically"
+                                    "en": "She was killed horrifically while looting slowly...",
+                                    "fr": "She was killed horrifically while looting slowly...",
+                                    "es": "She was killed horrifically while looting slowly..."
                                 }
                             },
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "3nk3iarVrR4ST5Q2D8"
+                                    "Path": "killed"
                                 }
                             },
                             {
@@ -497,9 +489,9 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
+                                                "en": "OK, next story then!",
+                                                "fr": "OK, next story then!",
+                                                "es": "OK, next story then!"
                                             }
                                         }
                                     ]
