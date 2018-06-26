@@ -1384,49 +1384,6 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "NebamunCorrectEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "That's enough",
-                            "fr": "That's enough",
-                            "es": "That's enough"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "OK 😊",
-                                    "fr": "OK 😊",
-                                    "es": "OK 😊"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                    "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                    "es": "I only showed you a fraction of what we have on Nebamun's tomb"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You can see all the rest in the British Museum, room 61",
-                                    "fr": "You can see all the rest in the British Museum, room 61",
-                                    "es": "You can see all the rest in the British Museum, room 61"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
-                                }
-                            }
-                        ]
                     }
                 ]
             }
@@ -2796,49 +2753,6 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "NebamunFalseEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "That's enough",
-                            "fr": "That's enough",
-                            "es": "That's enough"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "OK 😊",
-                                    "fr": "OK 😊",
-                                    "es": "OK 😊"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                    "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                    "es": "I only showed you a fraction of what we have on Nebamun's tomb"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You can see all the rest in the British Museum, room 61",
-                                    "fr": "You can see all the rest in the British Museum, room 61",
-                                    "es": "You can see all the rest in the British Museum, room 61"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
-                                }
-                            }
-                        ]
                     }
                 ]
             }
