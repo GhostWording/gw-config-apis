@@ -91,13 +91,6 @@
           }
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/SylvieRpg1v1.gif"
-          }
-        },
-        {
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
