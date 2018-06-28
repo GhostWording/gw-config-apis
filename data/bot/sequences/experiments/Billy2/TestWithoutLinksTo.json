@@ -1,0 +1,50 @@
+{
+  "Type": "Node",
+  "Id": "TestWithoutLinksTo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Showing the typing bar 1" ,
+        "fr": "FR - showing the typing bar",
+        "es": "ES - showing the typing bar"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "TypingBarHideShowTestNext",
+      "CommandLabel": [
+        {
+          "en": "Next 1",
+          "fr": "FR - Next",
+          "es": "ES - Next"
+        }
+      ],
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Showing the typing bar 2",
+            "fr": "FR - showing the typing bar",
+            "es": "ES - showing the typing bar"
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "TypingBarHideShowTestNext",
+          "CommandLabel": [
+            {
+              "en": "Next 2",
+              "fr": "FR - Next",
+              "es": "ES - Next"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
