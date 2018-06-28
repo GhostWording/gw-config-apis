@@ -1,2038 +1,2037 @@
 {
-    "Type": "Node",
-    "Id": "Carol",
-    "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Now, as we all know, there are some pretty dangerous explosives lying around this island",
-          "fr": "Now, as we all know, there are some pretty dangerous explosives lying around this island",
-          "es": "Now, as we all know, there are some pretty dangerous explosives lying around this island"
-        }
-      },
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "And from what I've seen, those who master them seem to last the longest",
-          "fr": "And from what I've seen, those who master them seem to last the longest",
-          "es": "And from what I've seen, those who master them seem to last the longest"
-        }
-      },
-      {
-        "Type": "Pause",
-        "Parameters": {
-          "Mode": "Wait",
-          "ms": 2000
-        }
-      },
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Have you ever heard of Careless Carol?",
-          "fr": "Have you ever heard of Careless Carol?",
-          "es": "Have you ever heard of Careless Carol?"
-        }
+  "Type": "Node",
+  "Id": "Carol",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now, as we all know, there are some pretty dangerous explosives lying around this island",
+        "fr": "Now, as we all know, there are some pretty dangerous explosives lying around this island",
+        "es": "Now, as we all know, there are some pretty dangerous explosives lying around this island"
       }
-    ],
-    "Commands": [
-      {
-        "Type": "Node",
-        "Id": "CarolYes",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Yes",
-          "fr": "Yes",
-          "es": "Yes"
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "And from what I've seen, those who master them seem to last the longest",
+        "fr": "And from what I've seen, those who master them seem to last the longest",
+        "es": "And from what I've seen, those who master them seem to last the longest"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever heard of Careless Carol?",
+        "fr": "Have you ever heard of Careless Carol?",
+        "es": "Have you ever heard of Careless Carol?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "CarolYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Yes",
+        "es": "Yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow... she's more famous than I thought... but probably for the wrong reasons!",
+            "fr": "Wow... she's more famous than I thought... but probably for the wrong reasons!",
+            "es": "Wow... she's more famous than I thought... but probably for the wrong reasons!"
+          }
         },
-        "Steps": [
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So everyone knows that the rpg is awesome for blowing stuff up",
+            "fr": "So everyone knows that the rpg is awesome for blowing stuff up",
+            "es": "So everyone knows that the rpg is awesome for blowing stuff up"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But Carol never used it to blow PEOPLE up...",
+            "fr": "But Carol never used it to blow PEOPLE up...",
+            "es": "But Carol never used it to blow PEOPLE up..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/SylvieRpg1v1_2.gif"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Sylvie is a master at it as you can see",
+            "fr": "Sylvie is a master at it as you can see",
+            "es": "Sylvie is a master at it as you can see"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CarolYesMaster",
+        "ElementValue": "1",
+        "Commands": [
           {
-            "Type": "Text",
-            "Label": {
-              "en": "Wow... she's more famous than I thought... but probably for the wrong reasons!",
-              "fr": "Wow... she's more famous than I thought... but probably for the wrong reasons!",
-              "es": "Wow... she's more famous than I thought... but probably for the wrong reasons!"
+            "Type": "Node",
+            "Id": "CarolYesDanger",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Looks dangerous",
+              "fr": "Looks dangerous",
+              "es": "Looks dangerous"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Not if you're good at it!",
+                  "fr": "Not if you're good at it!",
+                  "es": "Not if you're good at it!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was also pretty terrible at throwing grenades...",
+                  "fr": "She was also pretty terrible at throwing grenades...",
+                  "es": "She was also pretty terrible at throwing grenades..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "fr": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "es": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "CarolYesDangerBase",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "CarolYesDangerYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Yep, of course",
+                    "fr": "Yep, of course",
+                    "es": "Yep, of course"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolYesDangerYesPulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesDangerYesCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesDangerYesTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "CarolYesDangerNice",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Nice tip!",
+                    "fr": "Nice tip!",
+                    "es": "Nice tip!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolYesDangerNicePulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesDangerNiceCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesDangerNiceTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           },
           {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 2000
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "So everyone knows that the rpg is awesome for blowing stuff up",
-              "fr": "So everyone knows that the rpg is awesome for blowing stuff up",
-              "es": "So everyone knows that the rpg is awesome for blowing stuff up"
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "But Carol never used it to blow PEOPLE up...",
-              "fr": "But Carol never used it to blow PEOPLE up...",
-              "es": "But Carol never used it to blow PEOPLE up..."
-            }
-          },
-          {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 2000
-            }
-          },
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/SylvieRpg1v1_2.gif"
-            }
-          },
-          {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 2000
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Sylvie is a master at it as you can see",
-              "fr": "Sylvie is a master at it as you can see",
-              "es": "Sylvie is a master at it as you can see"
+            "Type": "Node",
+            "Id": "CarolYesSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Smart idea!",
+              "fr": "Smart idea!",
+              "es": "Smart idea!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was also pretty terrible at throwing grenades...",
+                  "fr": "She was also pretty terrible at throwing grenades...",
+                  "es": "She was also pretty terrible at throwing grenades..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "fr": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "es": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "CarolYesSmartBase",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "CarolYesSmartYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Yep, of course",
+                    "fr": "Yep, of course",
+                    "es": "Yep, of course"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolYesSmartYesPulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesSmartYesCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesSmartYesTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "CarolYesSmartNice",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Nice tip!",
+                    "fr": "Nice tip!",
+                    "es": "Nice tip!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolYesSmartNicePulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesSmartNiceCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolYesSmartNiceTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           }
-        ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "CarolYesMaster",
-          "ElementValue": "1",
-          "Commands": [
-            {
-              "Type": "Node",
-              "Id": "CarolYesDanger",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Looks dangerous",
-                "fr": "Looks dangerous",
-                "es": "Looks dangerous"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Not if you're good at it!",
-                    "fr": "Not if you're good at it!",
-                    "es": "Not if you're good at it!"
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "She was also pretty terrible at throwing grenades...",
-                    "fr": "She was also pretty terrible at throwing grenades...",
-                    "es": "She was also pretty terrible at throwing grenades..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Sylvie loves to throw them into the top of people's bases...",
-                    "fr": "Sylvie loves to throw them into the top of people's bases...",
-                    "es": "Sylvie loves to throw them into the top of people's bases..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
-                  }
-                }
-              ],
-              "LinksTo": {
-                "Type": "Node",
-                "Id": "CarolYesDangerBase",
-                "ElementValue": "1",
-                "Commands": [
-                  {
-                    "Type": "Node",
-                    "Id": "CarolYesDangerYes",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Yep, of course",
-                      "fr": "Yep, of course",
-                      "es": "Yep, of course"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolYesDangerYesPulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesDangerYesCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesDangerYesTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "Type": "Node",
-                    "Id": "CarolYesDangerNice",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Nice tip!",
-                      "fr": "Nice tip!",
-                      "es": "Nice tip!"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolYesDangerNicePulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesDangerNiceCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesDangerNiceTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "Type": "Node",
-              "Id": "CarolYesSmart",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Smart idea!",
-                "fr": "Smart idea!",
-                "es": "Smart idea!"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "She was also pretty terrible at throwing grenades...",
-                    "fr": "She was also pretty terrible at throwing grenades...",
-                    "es": "She was also pretty terrible at throwing grenades..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Sylvie loves to throw them into the top of people's bases...",
-                    "fr": "Sylvie loves to throw them into the top of people's bases...",
-                    "es": "Sylvie loves to throw them into the top of people's bases..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
-                  }
-                }
-              ],
-              "LinksTo": {
-                "Type": "Node",
-                "Id": "CarolYesSmartBase",
-                "ElementValue": "1",
-                "Commands": [
-                  {
-                    "Type": "Node",
-                    "Id": "CarolYesSmartYes",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Yep, of course",
-                      "fr": "Yep, of course",
-                      "es": "Yep, of course"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolYesSmartYesPulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesSmartYesCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesSmartYesTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "Type": "Node",
-                    "Id": "CarolYesSmartNice",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Nice tip!",
-                      "fr": "Nice tip!",
-                      "es": "Nice tip!"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolYesSmartNicePulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesSmartNiceCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolYesSmartNiceTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "CarolNever",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Never",
+        "fr": "Never",
+        "es": "Never"
       },
-      {
-        "Type": "Node",
-        "Id": "CarolNever",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Never",
-          "fr": "Never",
-          "es": "Never"
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, let me tell you all about her...",
+            "fr": "Well, let me tell you all about her...",
+            "es": "Well, let me tell you all about her..."
+          }
         },
-        "Steps": [
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So everyone knows that the rpg is awesome for blowing stuff up",
+            "fr": "So everyone knows that the rpg is awesome for blowing stuff up",
+            "es": "So everyone knows that the rpg is awesome for blowing stuff up"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But Carol never used it to blow PEOPLE up...",
+            "fr": "But Carol never used it to blow PEOPLE up...",
+            "es": "But Carol never used it to blow PEOPLE up..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/SylvieRpg1v1_2.gif"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Sylvie is a master at it as you can see",
+            "fr": "Sylvie is a master at it as you can see",
+            "es": "Sylvie is a master at it as you can see"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CarolNeverMaster",
+        "ElementValue": "1",
+        "Commands": [
           {
-            "Type": "Text",
-            "Label": {
-              "en": "Well, let me tell you all about her...",
-              "fr": "Well, let me tell you all about her...",
-              "es": "Well, let me tell you all about her..."
+            "Type": "Node",
+            "Id": "CarolNeverDangerous",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Looks dangerous",
+              "fr": "Looks dangerous",
+              "es": "Looks dangerous"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Not if you're good at it!",
+                  "fr": "Not if you're good at it!",
+                  "es": "Not if you're good at it!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was also pretty terrible at throwing grenades...",
+                  "fr": "She was also pretty terrible at throwing grenades...",
+                  "es": "She was also pretty terrible at throwing grenades..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "fr": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "es": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "CarolNeverDangerousBase",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "CarolNeverDangerousYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Yep, of course",
+                    "fr": "Yep, of course",
+                    "es": "Yep, of course"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolNeverDangerousYesPulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverDangerousYesCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverDangerousYesTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "CarolNeverDangerousNice",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Nice tip!",
+                    "fr": "Nice tip!",
+                    "es": "Nice tip!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolNeverDangerousNicePulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverDangerousNiceCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverDangerousNiceTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           },
           {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 2000
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "So everyone knows that the rpg is awesome for blowing stuff up",
-              "fr": "So everyone knows that the rpg is awesome for blowing stuff up",
-              "es": "So everyone knows that the rpg is awesome for blowing stuff up"
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "But Carol never used it to blow PEOPLE up...",
-              "fr": "But Carol never used it to blow PEOPLE up...",
-              "es": "But Carol never used it to blow PEOPLE up..."
-            }
-          },
-          {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 2000
-            }
-          },
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/SylvieRpg1v1_2.gif"
-            }
-          },
-          {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 2000
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Sylvie is a master at it as you can see",
-              "fr": "Sylvie is a master at it as you can see",
-              "es": "Sylvie is a master at it as you can see"
+            "Type": "Node",
+            "Id": "CarolNeverSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Smart idea!",
+              "fr": "Smart idea!",
+              "es": "Smart idea!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was also pretty terrible at throwing grenades...",
+                  "fr": "She was also pretty terrible at throwing grenades...",
+                  "es": "She was also pretty terrible at throwing grenades..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "fr": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases...",
+                  "es": "In contrast, Skilful Sylvie loves to throw them into the top of people's bases..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "CarolNeverSmartBase",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "CarolNeverSmartYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Yep, of course",
+                    "fr": "Yep, of course",
+                    "es": "Yep, of course"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolNeverSmartYesPulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverSmartYesCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverSmartYesTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "CarolNeverSmartNice",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Nice tip!",
+                    "fr": "Nice tip!",
+                    "es": "Nice tip!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That goes for pulse grenades too... she never used them correctly either",
+                        "fr": "That goes for pulse grenades too... she never used them correctly either",
+                        "es": "That goes for pulse grenades too... she never used them correctly either"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I'd actually say that she used them INcorrectly",
+                        "fr": "I'd actually say that she used them INcorrectly",
+                        "es": "I'd actually say that she used them INcorrectly"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "CarolNeverSmartNicePulse",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverSmartNiceCarol",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Carol... 😒",
+                          "fr": "Carol... 😒",
+                          "es": "Carol... 😒"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I share your frustration",
+                              "fr": "I share your frustration",
+                              "es": "I share your frustration"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "CarolNeverSmartNiceTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "They're tough to use",
+                          "fr": "They're tough to use",
+                          "es": "They're tough to use"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Keep practicing!",
+                              "fr": "Keep practicing!",
+                              "es": "Keep practicing!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The last thing was really the nail in the coffin though...",
+                              "fr": "The last thing was really the nail in the coffin though...",
+                              "es": "The last thing was really the nail in the coffin though..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I'm not sure she understood what an explosion radius is...",
+                              "fr": "I'm not sure she understood what an explosion radius is...",
+                              "es": "I'm not sure she understood what an explosion radius is..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "AnimatedGif",
+                            "Parameters": {
+                              "Source": "Web",
+                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "I am still finding pieces of her today 😣",
+                              "fr": "I am still finding pieces of her today 😣",
+                              "es": "I am still finding pieces of her today 😣"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           }
-        ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "CarolNeverMaster",
-          "ElementValue": "1",
-          "Commands": [
-            {
-              "Type": "Node",
-              "Id": "CarolNeverDangerous",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Looks dangerous",
-                "fr": "Looks dangerous",
-                "es": "Looks dangerous"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Not if you're good at it!",
-                    "fr": "Not if you're good at it!",
-                    "es": "Not if you're good at it!"
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "She was also pretty terrible at throwing grenades...",
-                    "fr": "She was also pretty terrible at throwing grenades...",
-                    "es": "She was also pretty terrible at throwing grenades..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Sylvie loves to throw them into the top of people's bases...",
-                    "fr": "Sylvie loves to throw them into the top of people's bases...",
-                    "es": "Sylvie loves to throw them into the top of people's bases..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
-                  }
-                }
-              ],
-              "LinksTo": {
-                "Type": "Node",
-                "Id": "CarolNeverDangerousBase",
-                "ElementValue": "1",
-                "Commands": [
-                  {
-                    "Type": "Node",
-                    "Id": "CarolNeverDangerousYes",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Yep, of course",
-                      "fr": "Yep, of course",
-                      "es": "Yep, of course"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolNeverDangerousYesPulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverDangerousYesCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverDangerousYesTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "Type": "Node",
-                    "Id": "CarolNeverDangerousNice",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Nice tip!",
-                      "fr": "Nice tip!",
-                      "es": "Nice tip!"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolNeverDangerousNicePulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverDangerousNiceCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverDangerousNiceTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "Type": "Node",
-              "Id": "CarolNeverSmart",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Smart idea!",
-                "fr": "Smart idea!",
-                "es": "Smart idea!"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "She was also pretty terrible at throwing grenades...",
-                    "fr": "She was also pretty terrible at throwing grenades...",
-                    "es": "She was also pretty terrible at throwing grenades..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/BadGrenade.gif"
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Sylvie loves to throw them into the top of people's bases...",
-                    "fr": "Sylvie loves to throw them into the top of people's bases...",
-                    "es": "Sylvie loves to throw them into the top of people's bases..."
-                  }
-                },
-                {
-                  "Type": "Pause",
-                  "Parameters": {
-                    "Mode": "Wait",
-                    "ms": 2000
-                  }
-                },
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/GrenadeKill.gif"
-                  }
-                }
-              ],
-              "LinksTo": {
-                "Type": "Node",
-                "Id": "CarolNeverSmartBase",
-                "ElementValue": "1",
-                "Commands": [
-                  {
-                    "Type": "Node",
-                    "Id": "CarolNeverSmartYes",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Yep, of course",
-                      "fr": "Yep, of course",
-                      "es": "Yep, of course"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolNeverSmartYesPulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverSmartYesCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverSmartYesTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "Type": "Node",
-                    "Id": "CarolNeverSmartNice",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Nice tip!",
-                      "fr": "Nice tip!",
-                      "es": "Nice tip!"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "That goes for pulse grenades too... she never used them correctly either",
-                          "fr": "That goes for pulse grenades too... she never used them correctly either",
-                          "es": "That goes for pulse grenades too... she never used them correctly either"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "I'd actually say that she used them INcorrectly",
-                          "fr": "I'd actually say that she used them INcorrectly",
-                          "es": "I'd actually say that she used them INcorrectly"
-                        }
-                      },
-                      {
-                        "Type": "Pause",
-                        "Parameters": {
-                          "Mode": "Wait",
-                          "ms": 2000
-                        }
-                      },
-                      {
-                        "Type": "AnimatedGif",
-                        "Parameters": {
-                          "Source": "Web",
-                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410725/Carol/PulseGrenadeBad.gif"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "CarolNeverSmartNicePulse",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverSmartNiceCarol",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "Carol... 😒",
-                            "fr": "Carol... 😒",
-                            "es": "Carol... 😒"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I share your frustration",
-                                "fr": "I share your frustration",
-                                "es": "I share your frustration"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "Type": "Leaf",
-                          "Id": "CarolNeverSmartNiceTough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "They're tough to use",
-                            "fr": "They're tough to use",
-                            "es": "They're tough to use"
-                          },
-                          "Steps": [
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "Keep practicing!",
-                                "fr": "Keep practicing!",
-                                "es": "Keep practicing!"
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "The last thing was really the nail in the coffin though...",
-                                "fr": "The last thing was really the nail in the coffin though...",
-                                "es": "The last thing was really the nail in the coffin though..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I'm not sure she understood what an explosion radius is...",
-                                "fr": "I'm not sure she understood what an explosion radius is...",
-                                "es": "I'm not sure she understood what an explosion radius is..."
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "AnimatedGif",
-                              "Parameters": {
-                                "Source": "Web",
-                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410726/Carol/RPG1v1.gif"
-                              }
-                            },
-                            {
-                              "Type": "Pause",
-                              "Parameters": {
-                                "Mode": "Wait",
-                                "ms": 2000
-                              }
-                            },
-                            {
-                              "Type": "Text",
-                              "Label": {
-                                "en": "I am still finding pieces of her today 😣",
-                                "fr": "I am still finding pieces of her today 😣",
-                                "es": "I am still finding pieces of her today 😣"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
+        ]
       }
-    ]
-  }
-  
+    }
+  ]
+}
