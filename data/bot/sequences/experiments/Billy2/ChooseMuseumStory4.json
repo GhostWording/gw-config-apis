@@ -1,0 +1,115 @@
+{
+    "Type": "Node",
+    "Comments": "choice for british museum sequences",
+    "Id": "ChooseMuseumStory4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Alright... choose what you want to hear about!",
+                "fr": "Alright... choose what you want to hear about!",
+                "es": "Alright... choose what you want to hear about!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ChooseItemMeroe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Meroe Head",
+                "fr": "Meroe Head",
+                "es": "Meroe Head"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🗽",
+                    "fr": "🗽",
+                    "es": "🗽"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Meroe"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChooseItemNebamun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nebamun",
+                "fr": "Nebamun",
+                "es": "Nebamun"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "👤",
+                    "fr": "👤",
+                    "es": "👤"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChooseItemMausoleum",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Halicarnassus",
+                "fr": "Halicarnassus",
+                "es": "Halicarnassus"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏛",
+                    "fr": "🏛",
+                    "es": "🏛"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Mausoleum"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChooseItemVolute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Berlin Krater",
+                "fr": "Berlin Krater",
+                "es": "Berlin Krater"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏺",
+                    "fr": "🏺",
+                    "es": "🏺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BerlinVolute"
+            }
+        }
+    ]
+}
