@@ -1,1970 +1,1956 @@
 {
-  "Type": "Node",
-  "Id": "Ben",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "OK, so listen to this sad story about Brainless Ben, the worst builder ever",
-        "fr": "OK, so listen to this sad story about Brainless Ben, the worst builder ever",
-        "es": "OK, so listen to this sad story about Brainless Ben, the worst builder ever"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "First of all, he didn’t know which materials build the fastest!",
-        "fr": "First of all, he didn’t know which materials build the fastest!",
-        "es": "First of all, he didn’t know which materials build the fastest!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Why is he trying to build metal here?!",
-        "fr": "Why is he trying to build metal here?!",
-        "es": "Why is he trying to build metal here?!"
-      }
-    },
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenBuildMetal.gif"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I thought everyone knew that wood is the fastest, then stone, then metal!",
-        "fr": "I thought everyone knew that wood is the fastest, then stone, then metal!",
-        "es": "I thought everyone knew that wood is the fastest, then stone, then metal!"
-      }
-    },
-    {
-      "Type": "Action",
-      "Name": "ShowCarouselFromList",
-      "Parameters": {
-        "Path": "/data/common/carousel/fortnite/Materials.json"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "...",
-        "fr": "...",
-        "es": "..."
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "BenKnew",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "I knew it",
-        "fr": "I knew it",
-        "es": "I knew it"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You’re smart!",
-            "fr": "You’re smart!",
-            "es": "You’re smart!"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But Ben’s woes didn’t end there…",
-            "fr": "But Ben’s woes didn’t end there…",
-            "es": "But Ben’s woes didn’t end there…"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "he panicked while building and it didn't end well... he needed to plan where he was going!",
-            "fr": "he panicked while building and it didn't end well... he needed to plan where he was going!",
-            "es": "he panicked while building and it didn't end well... he needed to plan where he was going!"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenFailingBuilding.gif"
-          }
+    "Type": "Node",
+    "Id": "Ben",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "OK, so listen to this sad story about Brainless Ben, the worst builder ever",
+          "fr": "OK, so listen to this sad story about Brainless Ben, the worst builder ever",
+          "es": "OK, so listen to this sad story about Brainless Ben, the worst builder ever"
         }
-      ],
-      "LinksTo": {
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "First of all, he didn’t know which materials build the fastest!",
+          "fr": "First of all, he didn’t know which materials build the fastest!",
+          "es": "First of all, he didn’t know which materials build the fastest!"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Why is he trying to build metal here?!",
+          "fr": "Why is he trying to build metal here?!",
+          "es": "Why is he trying to build metal here?!"
+        }
+      },
+      {
+        "Type": "AnimatedGif",
+        "Parameters": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenBuildMetal.gif"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Metal is too slow for such a tight situation, he should have built wood!",
+          "fr": "Metal is too slow for such a tight situation, he should have built wood!",
+          "es": "Metal is too slow for such a tight situation, he should have built wood!"
+        }
+      }
+    ],
+    "Commands": [
+      {
         "Type": "Node",
-        "Id": "BenKnewBuild",
+        "Id": "BenKnew",
         "ElementValue": "1",
-        "Commands": [
+        "CommandLabel": {
+          "en": "I knew it",
+          "fr": "I knew it",
+          "es": "I knew it"
+        },
+        "Steps": [
           {
-            "Type": "Node",
-            "Id": "BenKnewKlutz",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "What a klutz",
-              "fr": "What a klutz",
-              "es": "What a klutz"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s called Brainless for a reason!",
-                  "fr": "He’s called Brainless for a reason!",
-                  "es": "He’s called Brainless for a reason!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "It's no surprise that Skilful Sylvie did a much better job",
-                  "fr": "It's no surprise that Skilful Sylvie did a much better job",
-                  "es": "It's no surprise that Skilful Sylvie did a much better job"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "BenKnewKlutzSylvie",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "BenKnewKlutzCan",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "I can do that",
-                    "fr": "I can do that",
-                    "es": "I can do that"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Great! Maybe you’ll survive and we can become great friends!",
-                        "fr": "Great! Maybe you’ll survive and we can become great friends!",
-                        "es": "Great! Maybe you’ll survive and we can become great friends!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenKnewKlutzCanLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewKlutzCanCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewKlutzCanCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzCanCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzCanCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewKlutzCanNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewKlutzCanNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzCanNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzCanNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "BenKnewKlutzSkill",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "How skillful!",
-                    "fr": "How skillful!",
-                    "es": "How skillful!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "She’s the best!",
-                        "fr": "She’s the best!",
-                        "es": "She’s the best!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenKnewKlutzSkillLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewKlutzSkillCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewKlutzSkillCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzSkillCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzSkillCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewKlutzSkillNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewKlutzSkillNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzSkillNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewKlutzSkillNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
+            "Type": "Text",
+            "Label": {
+              "en": "You’re smart!",
+              "fr": "You’re smart!",
+              "es": "You’re smart!"
             }
           },
           {
-            "Type": "Node",
-            "Id": "BenKnewDo",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I do that",
-              "fr": "I do that",
-              "es": "I do that"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Try not to, you’ll die!",
-                  "fr": "Try not to, you’ll die!",
-                  "es": "Try not to, you’ll die!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "It's no surprise that Skilful Sylvie did a much better job",
-                  "fr": "It's no surprise that Skilful Sylvie did a much better job",
-                  "es": "It's no surprise that Skilful Sylvie did a much better job"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "BenKnewDoSylvie",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "BenKnewDoCan",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "I can do that",
-                    "fr": "I can do that",
-                    "es": "I can do that"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Great! Maybe you’ll survive and we can become great friends!",
-                        "fr": "Great! Maybe you’ll survive and we can become great friends!",
-                        "es": "Great! Maybe you’ll survive and we can become great friends!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenKnewDoCanLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewDoCanCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewDoCanCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoCanCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoCanCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewDoCanNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewDoCanNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoCanNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoCanNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "BenKnewDoSkill",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "How skillful!",
-                    "fr": "How skillful!",
-                    "es": "How skillful!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "She’s the best!",
-                        "fr": "She’s the best!",
-                        "es": "She’s the best!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenKnewDoSkillLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewDoSkillCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewDoSkillCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoSkillCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoSkillCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenKnewDoSkillNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenKnewDoSkillNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoSkillNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenKnewDoSkillNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "BenNo",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "I didn’t",
-        "fr": "I didn’t",
-        "es": "I didn’t"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Now you do!",
-            "fr": "Now you do!",
-            "es": "Now you do!"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But Ben’s woes didn’t end there…",
-            "fr": "But Ben’s woes didn’t end there…",
-            "es": "But Ben’s woes didn’t end there…"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "he panicked while building and it didn't end well... he needed to plan where he was going!",
-            "fr": "he panicked while building and it didn't end well... he needed to plan where he was going!",
-            "es": "he panicked while building and it didn't end well... he needed to plan where he was going!"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
-          }
-        }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "BenNoBuild",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Node",
-            "Id": "BenNoKlutz",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "What a klutz",
-              "fr": "What a klutz",
-              "es": "What a klutz"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s called Brainless for a reason!",
-                  "fr": "He’s called Brainless for a reason!",
-                  "es": "He’s called Brainless for a reason!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "It's no surprise that Skilful Sylvie did a much better job",
-                  "fr": "It's no surprise that Skilful Sylvie did a much better job",
-                  "es": "It's no surprise that Skilful Sylvie did a much better job"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "BenNoKlutzSylvie",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "BenNoKlutzCan",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "I can do that",
-                    "fr": "I can do that",
-                    "es": "I can do that"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Great! Maybe you’ll survive and we can become great friends!",
-                        "fr": "Great! Maybe you’ll survive and we can become great friends!",
-                        "es": "Great! Maybe you’ll survive and we can become great friends!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenNoKlutzCanLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenNoKlutzCanCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoKlutzCanCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzCanCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzCanCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenNoKlutzCanNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoKlutzCanNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzCanNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzCanNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "BenNoKlutzSkill",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "How skillful!",
-                    "fr": "How skillful!",
-                    "es": "How skillful!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "She’s the best!",
-                        "fr": "She’s the best!",
-                        "es": "She’s the best!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenNoKlutzSkillLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenNoKlutzSkillCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoKlutzSkillCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzSkillCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzSkillCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenNoKlutzSkillNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoKlutzSkillNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzSkillNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoKlutzSkillNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
+            "Type": "Text",
+            "Label": {
+              "en": "But Ben’s woes didn’t end there…",
+              "fr": "But Ben’s woes didn’t end there…",
+              "es": "But Ben’s woes didn’t end there…"
             }
           },
           {
-            "Type": "Node",
-            "Id": "BenNoDo",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I do that",
-              "fr": "I do that",
-              "es": "I do that"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Try not to, you’ll die!",
-                  "fr": "Try not to, you’ll die!",
-                  "es": "Try not to, you’ll die!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "It's no surprise that Skilful Sylvie did a much better job",
-                  "fr": "It's no surprise that Skilful Sylvie did a much better job",
-                  "es": "It's no surprise that Skilful Sylvie did a much better job"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
-                }
-              }
-            ],
-            "LinksTo": {
+            "Type": "Text",
+            "Label": {
+              "en": "he panicked while building and it didn't end well... he needed to plan where he was going!",
+              "fr": "he panicked while building and it didn't end well... he needed to plan where he was going!",
+              "es": "he panicked while building and it didn't end well... he needed to plan where he was going!"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenFailingBuilding.gif"
+            }
+          }
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "BenKnewBuild",
+          "ElementValue": "1",
+          "Commands": [
+            {
               "Type": "Node",
-              "Id": "BenNoDoSylvie",
+              "Id": "BenKnewKlutz",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "What a klutz",
+                "fr": "What a klutz",
+                "es": "What a klutz"
+              },
+              "Steps": [
                 {
-                  "Type": "Node",
-                  "Id": "BenNoDoCan",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "I can do that",
-                    "fr": "I can do that",
-                    "es": "I can do that"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Great! Maybe you’ll survive and we can become great friends!",
-                        "fr": "Great! Maybe you’ll survive and we can become great friends!",
-                        "es": "Great! Maybe you’ll survive and we can become great friends!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "BenNoDoCanLook",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "BenNoDoCanCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoDoCanCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoCanCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoCanCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "BenNoDoCanNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoDoCanNoobLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoCanNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoCanNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s called Brainless for a reason!",
+                    "fr": "He’s called Brainless for a reason!",
+                    "es": "He’s called Brainless for a reason!"
                   }
                 },
                 {
-                  "Type": "Node",
-                  "Id": "BenNoDoSkill",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "How skillful!",
-                    "fr": "How skillful!",
-                    "es": "How skillful!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "She’s the best!",
-                        "fr": "She’s the best!",
-                        "es": "She’s the best!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "So when Ben was shot, he didn’t build straight away!!",
-                        "fr": "So when Ben was shot, he didn’t build straight away!!",
-                        "es": "So when Ben was shot, he didn’t build straight away!!"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "He tried to dodge bullets instead, like Neo",
-                        "fr": "He tried to dodge bullets instead, like Neo",
-                        "es": "He tried to dodge bullets instead, like Neo"
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It didn’t look quite as cool when Ben tried it though...",
-                        "fr": "It didn’t look quite as cool when Ben tried it though...",
-                        "es": "It didn’t look quite as cool when Ben tried it though..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "It's no surprise that Skilful Sylvie did a much better job",
+                    "fr": "It's no surprise that Skilful Sylvie did a much better job",
+                    "es": "It's no surprise that Skilful Sylvie did a much better job"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "BenKnewKlutzSylvie",
+                "ElementValue": "1",
+                "Commands": [
+                  {
                     "Type": "Node",
-                    "Id": "BenNoDoSkillLook",
+                    "Id": "BenKnewKlutzCan",
                     "ElementValue": "1",
-                    "Commands": [
+                    "CommandLabel": {
+                      "en": "I can do that",
+                      "fr": "I can do that",
+                      "es": "I can do that"
+                    },
+                    "Steps": [
                       {
-                        "Type": "Node",
-                        "Id": "BenNoDoSkillCool",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "He looks cool",
-                          "fr": "He looks cool",
-                          "es": "He looks cool"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "BenNoDoSkillCoolLearn",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoSkillCoolYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoSkillCoolNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
-                              }
-                            }
-                          ]
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Great! Maybe you’ll survive and we can become great friends!",
+                          "fr": "Great! Maybe you’ll survive and we can become great friends!",
+                          "es": "Great! Maybe you’ll survive and we can become great friends!"
                         }
                       },
                       {
-                        "Type": "Node",
-                        "Id": "BenNoDoSkillNoob",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Typical noob",
-                          "fr": "Typical noob",
-                          "es": "Typical noob"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
-                              "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And...err… well, he’s toast now.",
-                              "fr": "And...err… well, he’s toast now.",
-                              "es": "And...err… well, he’s toast now."
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Did you learn anything from Ben’s failures?",
-                              "fr": "Did you learn anything from Ben’s failures?",
-                              "es": "Did you learn anything from Ben’s failures?"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenKnewKlutzCanLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
                           "Type": "Node",
-                          "Id": "BenNoDoSkillNoobLearn",
+                          "Id": "BenKnewKlutzCanCool",
                           "ElementValue": "1",
-                          "Commands": [
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
                             {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoSkillNoobYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes, thanks LL",
-                                "fr": "Yes, thanks LL",
-                                "es": "Yes, thanks LL"
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                               }
                             },
                             {
-                              "Type": "Leaf",
-                              "Id": "BenNoDoSkillNoobNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Nope",
-                                "fr": "Nope",
-                                "es": "Nope"
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
                               }
                             }
-                          ]
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewKlutzCanCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzCanCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzCanCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewKlutzCanNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewKlutzCanNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzCanNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzCanNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "BenKnewKlutzSkill",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "How skillful!",
+                      "fr": "How skillful!",
+                      "es": "How skillful!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "She’s the best!",
+                          "fr": "She’s the best!",
+                          "es": "She’s the best!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
                         }
                       }
-                    ]
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenKnewKlutzSkillLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewKlutzSkillCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewKlutzSkillCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzSkillCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzSkillCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewKlutzSkillNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewKlutzSkillNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzSkillNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewKlutzSkillNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "BenKnewDo",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "I do that",
+                "fr": "I do that",
+                "es": "I do that"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Try not to, you’ll die!",
+                    "fr": "Try not to, you’ll die!",
+                    "es": "Try not to, you’ll die!"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "It's no surprise that Skilful Sylvie did a much better job",
+                    "fr": "It's no surprise that Skilful Sylvie did a much better job",
+                    "es": "It's no surprise that Skilful Sylvie did a much better job"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
                   }
                 }
-              ]
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "BenKnewDoSylvie",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "BenKnewDoCan",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "I can do that",
+                      "fr": "I can do that",
+                      "es": "I can do that"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Great! Maybe you’ll survive and we can become great friends!",
+                          "fr": "Great! Maybe you’ll survive and we can become great friends!",
+                          "es": "Great! Maybe you’ll survive and we can become great friends!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenKnewDoCanLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewDoCanCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewDoCanCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoCanCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoCanCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewDoCanNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewDoCanNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoCanNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoCanNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "BenKnewDoSkill",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "How skillful!",
+                      "fr": "How skillful!",
+                      "es": "How skillful!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "She’s the best!",
+                          "fr": "She’s the best!",
+                          "es": "She’s the best!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenKnewDoSkillLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewDoSkillCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewDoSkillCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoSkillCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoSkillCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenKnewDoSkillNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenKnewDoSkillNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoSkillNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenKnewDoSkillNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Type": "Node",
+        "Id": "BenNo",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "I didn’t",
+          "fr": "I didn’t",
+          "es": "I didn’t"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Now you do!",
+              "fr": "Now you do!",
+              "es": "Now you do!"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "But Ben’s woes didn’t end there…",
+              "fr": "But Ben’s woes didn’t end there…",
+              "es": "But Ben’s woes didn’t end there…"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "he panicked while building and it didn't end well... he needed to plan where he was going!",
+              "fr": "he panicked while building and it didn't end well... he needed to plan where he was going!",
+              "es": "he panicked while building and it didn't end well... he needed to plan where he was going!"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
             }
           }
-        ]
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "BenNoBuild",
+          "ElementValue": "1",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "BenNoKlutz",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "What a klutz",
+                "fr": "What a klutz",
+                "es": "What a klutz"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s called Brainless for a reason!",
+                    "fr": "He’s called Brainless for a reason!",
+                    "es": "He’s called Brainless for a reason!"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "It's no surprise that Skilful Sylvie did a much better job",
+                    "fr": "It's no surprise that Skilful Sylvie did a much better job",
+                    "es": "It's no surprise that Skilful Sylvie did a much better job"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "BenNoKlutzSylvie",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "BenNoKlutzCan",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "I can do that",
+                      "fr": "I can do that",
+                      "es": "I can do that"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Great! Maybe you’ll survive and we can become great friends!",
+                          "fr": "Great! Maybe you’ll survive and we can become great friends!",
+                          "es": "Great! Maybe you’ll survive and we can become great friends!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenNoKlutzCanLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoKlutzCanCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoKlutzCanCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzCanCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzCanCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoKlutzCanNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoKlutzCanNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzCanNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzCanNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "BenNoKlutzSkill",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "How skillful!",
+                      "fr": "How skillful!",
+                      "es": "How skillful!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "She’s the best!",
+                          "fr": "She’s the best!",
+                          "es": "She’s the best!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenNoKlutzSkillLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoKlutzSkillCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoKlutzSkillCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzSkillCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzSkillCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoKlutzSkillNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoKlutzSkillNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzSkillNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoKlutzSkillNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "BenNoDo",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "I do that",
+                "fr": "I do that",
+                "es": "I do that"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Try not to, you’ll die!",
+                    "fr": "Try not to, you’ll die!",
+                    "es": "Try not to, you’ll die!"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "It's no surprise that Skilful Sylvie did a much better job",
+                    "fr": "It's no surprise that Skilful Sylvie did a much better job",
+                    "es": "It's no surprise that Skilful Sylvie did a much better job"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/SylvieSkilledBuilding.gif"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "BenNoDoSylvie",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "BenNoDoCan",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "I can do that",
+                      "fr": "I can do that",
+                      "es": "I can do that"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Great! Maybe you’ll survive and we can become great friends!",
+                          "fr": "Great! Maybe you’ll survive and we can become great friends!",
+                          "es": "Great! Maybe you’ll survive and we can become great friends!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenNoDoCanLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoDoCanCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoDoCanCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoCanCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoCanCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoDoCanNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoDoCanNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoCanNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoCanNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "BenNoDoSkill",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "How skillful!",
+                      "fr": "How skillful!",
+                      "es": "How skillful!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "She’s the best!",
+                          "fr": "She’s the best!",
+                          "es": "She’s the best!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "So when Ben was shot, he didn’t build straight away!!",
+                          "fr": "So when Ben was shot, he didn’t build straight away!!",
+                          "es": "So when Ben was shot, he didn’t build straight away!!"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "He tried to dodge bullets instead, like Neo",
+                          "fr": "He tried to dodge bullets instead, like Neo",
+                          "es": "He tried to dodge bullets instead, like Neo"
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529572126/Ben/Neo.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "It didn’t look quite as cool when Ben tried it though...",
+                          "fr": "It didn’t look quite as cool when Ben tried it though...",
+                          "es": "It didn’t look quite as cool when Ben tried it though..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410711/Ben/BenDodgingBullet.gif"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "BenNoDoSkillLook",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoDoSkillCool",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "He looks cool",
+                            "fr": "He looks cool",
+                            "es": "He looks cool"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoDoSkillCoolLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoSkillCoolYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoSkillCoolNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "BenNoDoSkillNoob",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "Typical noob",
+                            "fr": "Typical noob",
+                            "es": "Typical noob"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And...err… well, he’s toast now.",
+                                "fr": "And...err… well, he’s toast now.",
+                                "es": "And...err… well, he’s toast now."
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410712/Ben/BenDyingSpikeTrap.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Did you learn anything from Ben’s failures?",
+                                "fr": "Did you learn anything from Ben’s failures?",
+                                "es": "Did you learn anything from Ben’s failures?"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BenNoDoSkillNoobLearn",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoSkillNoobYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes, thanks LL",
+                                  "fr": "Yes, thanks LL",
+                                  "es": "Yes, thanks LL"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "BenNoDoSkillNoobNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Nope",
+                                  "fr": "Nope",
+                                  "es": "Nope"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
+  
