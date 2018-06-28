@@ -1,506 +1,506 @@
 {
-    "Type": "Node",
-    "Id": "Diana2",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Diana2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Just when I was planning on getting to know her more, I saw her do this",
+        "fr": "Just when I was planning on getting to know her more, I saw her do this",
+        "es": "Just when I was planning on getting to know her more, I saw her do this"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/SwitchGreenGrey.gif"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I should have shown her this!",
+        "fr": "I should have shown her this!",
+        "es": "I should have shown her this!"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromList",
+      "Parameters": {
+        "Path": "/data/common/carousel/kitten/GiacomoCard.json"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Diana2Useful",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Useful tip!",
+        "fr": "Useful tip!",
+        "es": "Useful tip!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Just when I was planning on getting to know her more, I saw her do this",
-                "fr": "Just when I was planning on getting to know her more, I saw her do this",
-                "es": "Just when I was planning on getting to know her more, I saw her do this"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "I bet you thought that was the last of her mistakes, but nooo",
+            "fr": "I bet you thought that was the last of her mistakes, but nooo",
+            "es": "I bet you thought that was the last of her mistakes, but nooo"
+          }
         },
         {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "changeweapon"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "I saw her leave awesome stuff on the ground for anyone to find!",
+            "fr": "I saw her leave awesome stuff on the ground for anyone to find!",
+            "es": "I saw her leave awesome stuff on the ground for anyone to find!"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "I should have shown her this!",
-                "fr": "I should have shown her this!",
-                "es": "I should have shown her this!"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
+            "fr": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
+            "es": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!"
+          }
         },
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/kitten/GiacomoCard.json"
-            }
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/BuildRoof.gif"
+          }
         }
-    ],
-    "Commands": [
-        {
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Diana2UsefulRoof",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "Diana2Useful",
+            "Id": "Diana2UsefulSmart",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Useful tip!",
-                "fr": "Useful tip!",
-                "es": "Useful tip!"
+              "en": "Hmm, smart",
+              "fr": "Hmm, smart",
+              "es": "Hmm, smart"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I bet you thought that was the last of her mistakes, but nooo",
-                        "fr": "I bet you thought that was the last of her mistakes, but nooo",
-                        "es": "I bet you thought that was the last of her mistakes, but nooo"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I saw her leave awesome stuff on the ground for anyone to find!",
-                        "fr": "I saw her leave awesome stuff on the ground for anyone to find!",
-                        "es": "I saw her leave awesome stuff on the ground for anyone to find!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
-                        "fr": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
-                        "es": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "roofhide"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
                 }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was killed horrifically while looting slowly...",
+                  "fr": "She was killed horrifically while looting slowly...",
+                  "es": "She was killed horrifically while looting slowly..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaDyingTooLongLooting.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "Diana2UsefulRoof",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "Diana2UsefulSmartLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2UsefulSmartYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I will",
+                    "fr": "I will",
+                    "es": "I will"
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "Diana2UsefulSmart",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Hmm, smart",
-                            "fr": "Hmm, smart",
-                            "es": "Hmm, smart"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She was killed horrifically while looting slowly...",
-                                    "fr": "She was killed horrifically while looting slowly...",
-                                    "es": "She was killed horrifically while looting slowly..."
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "killed"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "Diana2UsefulSmartLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2UsefulSmartYes",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I will",
-                                        "fr": "I will",
-                                        "es": "I will"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2UsefulSmartNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I knew it all",
-                                        "fr": "I knew it all",
-                                        "es": "I knew it all"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "OK, next story then!",
-                                                "fr": "OK, next story then!",
-                                                "es": "OK, next story then!"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "Diana2UsefulCmon",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Cmon Diana...",
-                            "fr": "Cmon Diana...",
-                            "es": "Cmon Diana..."
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She was killed horrifically while looting slowly...",
-                                    "fr": "She was killed horrifically while looting slowly...",
-                                    "es": "She was killed horrifically while looting slowly..."
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "killed"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "Diana2UsefulCmonLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2UsefulCmonYes",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I will",
-                                        "fr": "I will",
-                                        "es": "I will"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2UsefulCmonNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I knew it all",
-                                        "fr": "I knew it all",
-                                        "es": "I knew it all"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "OK, next story then!",
-                                                "fr": "OK, next story then!",
-                                                "es": "OK, next story then!"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Now, next story!",
+                        "fr": "Now, next story!",
+                        "es": "Now, next story!"
+                      }
                     }
-                ]
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2UsefulSmartNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I knew it all",
+                    "fr": "I knew it all",
+                    "es": "I knew it all"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "OK, next story then!",
+                        "fr": "OK, next story then!",
+                        "es": "OK, next story then!"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
-        },
-        {
+          },
+          {
             "Type": "Node",
-            "Id": "Diana2Obvious",
+            "Id": "Diana2UsefulCmon",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Everyone knows that",
-                "fr": "Everyone knows that",
-                "es": "Everyone knows that"
+              "en": "Cmon Diana...",
+              "fr": "Cmon Diana...",
+              "es": "Cmon Diana..."
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Diana didn't!",
-                        "fr": "Diana didn't!",
-                        "es": "Diana didn't!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Anyway, I bet you thought that was the last of her mistakes, but nooo",
-                        "fr": "Anyway, I bet you thought that was the last of her mistakes, but nooo",
-                        "es": "Anyway, I bet you thought that was the last of her mistakes, but nooo"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I saw her leave awesome stuff on the ground for anyone to find!",
-                        "fr": "I saw her leave awesome stuff on the ground for anyone to find!",
-                        "es": "I saw her leave awesome stuff on the ground for anyone to find!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
-                        "fr": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
-                        "es": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "roofhide"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
                 }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was killed horrifically while looting slowly...",
+                  "fr": "She was killed horrifically while looting slowly...",
+                  "es": "She was killed horrifically while looting slowly..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaDyingTooLongLooting.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "Diana2ObviousRoof",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "Diana2UsefulCmonLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2UsefulCmonYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I will",
+                    "fr": "I will",
+                    "es": "I will"
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "Diana2ObviousSmart",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Hmm, smart",
-                            "fr": "Hmm, smart",
-                            "es": "Hmm, smart"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She was killed horrifically while looting slowly...",
-                                    "fr": "She was killed horrifically while looting slowly...",
-                                    "es": "She was killed horrifically while looting slowly..."
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "killed"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "Diana2ObviousSmartLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2ObviousSmartYes",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I will",
-                                        "fr": "I will",
-                                        "es": "I will"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2ObviousSmartNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I knew it all",
-                                        "fr": "I knew it all",
-                                        "es": "I knew it all"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "OK, next story then!",
-                                                "fr": "OK, next story then!",
-                                                "es": "OK, next story then!"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "Diana2ObviousCmon",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Cmon Diana...",
-                            "fr": "Cmon Diana...",
-                            "es": "Cmon Diana..."
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
-                                    "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She was killed horrifically while looting slowly...",
-                                    "fr": "She was killed horrifically while looting slowly...",
-                                    "es": "She was killed horrifically while looting slowly..."
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "killed"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
-                                    "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "Diana2ObviousCmonLearn",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2ObviousCmonYes",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I will",
-                                        "fr": "I will",
-                                        "es": "I will"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Now, next story!",
-                                                "fr": "Now, next story!",
-                                                "es": "Now, next story!"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Diana2ObviousCmonNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "I knew it all",
-                                        "fr": "I knew it all",
-                                        "es": "I knew it all"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "OK, next story then!",
-                                                "fr": "OK, next story then!",
-                                                "es": "OK, next story then!"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Now, next story!",
+                        "fr": "Now, next story!",
+                        "es": "Now, next story!"
+                      }
                     }
-                ]
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2UsefulCmonNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I knew it all",
+                    "fr": "I knew it all",
+                    "es": "I knew it all"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "OK, next story then!",
+                        "fr": "OK, next story then!",
+                        "es": "OK, next story then!"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Diana2Obvious",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Everyone knows that",
+        "fr": "Everyone knows that",
+        "es": "Everyone knows that"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Diana didn't!",
+            "fr": "Diana didn't!",
+            "es": "Diana didn't!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Anyway, I bet you thought that was the last of her mistakes, but nooo",
+            "fr": "Anyway, I bet you thought that was the last of her mistakes, but nooo",
+            "es": "Anyway, I bet you thought that was the last of her mistakes, but nooo"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I saw her leave awesome stuff on the ground for anyone to find!",
+            "fr": "I saw her leave awesome stuff on the ground for anyone to find!",
+            "es": "I saw her leave awesome stuff on the ground for anyone to find!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
+            "fr": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!",
+            "es": "Super Serious Skilful Sylvie ALWAYS builds a roof over items she leaves to hide them!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/BuildRoof.gif"
+          }
         }
-    ]
-}                    
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Diana2ObviousRoof",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "Diana2ObviousSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Hmm, smart",
+              "fr": "Hmm, smart",
+              "es": "Hmm, smart"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was killed horrifically while looting slowly...",
+                  "fr": "She was killed horrifically while looting slowly...",
+                  "es": "She was killed horrifically while looting slowly..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaDyingTooLongLooting.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "Diana2ObviousSmartLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2ObviousSmartYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I will",
+                    "fr": "I will",
+                    "es": "I will"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Now, next story!",
+                        "fr": "Now, next story!",
+                        "es": "Now, next story!"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2ObviousSmartNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I knew it all",
+                    "fr": "I knew it all",
+                    "es": "I knew it all"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "OK, next story then!",
+                        "fr": "OK, next story then!",
+                        "es": "OK, next story then!"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "Diana2ObviousCmon",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Cmon Diana...",
+              "fr": "Cmon Diana...",
+              "es": "Cmon Diana..."
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "fr": "Well, no surprises, but failing to do all this stuff finally caught up with Diana",
+                  "es": "Well, no surprises, but failing to do all this stuff finally caught up with Diana"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She was killed horrifically while looting slowly...",
+                  "fr": "She was killed horrifically while looting slowly...",
+                  "es": "She was killed horrifically while looting slowly..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaDyingTooLongLooting.gif"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "fr": "So ended Disorganised Diana. I hope you can learn from her mistakes...",
+                  "es": "So ended Disorganised Diana. I hope you can learn from her mistakes..."
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "Diana2ObviousCmonLearn",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2ObviousCmonYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I will",
+                    "fr": "I will",
+                    "es": "I will"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Now, next story!",
+                        "fr": "Now, next story!",
+                        "es": "Now, next story!"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Diana2ObviousCmonNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I knew it all",
+                    "fr": "I knew it all",
+                    "es": "I knew it all"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "OK, next story then!",
+                        "fr": "OK, next story then!",
+                        "es": "OK, next story then!"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
