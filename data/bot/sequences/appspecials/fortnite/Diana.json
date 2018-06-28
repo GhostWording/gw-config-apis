@@ -1,453 +1,444 @@
 {
-    "Type": "Node",
-    "Id": "Diana",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Diana",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Ohhhh, I just remembered about Disorganized Diana",
+        "fr": "Ohhhh, I just remembered about Disorganized Diana",
+        "es": "Ohhhh, I just remembered about Disorganized Diana"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DianaHow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "How could you forget",
+        "fr": "How could you forget",
+        "es": "How could you forget"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Ohhhh, I just remembered about Disorganized Diana",
-                "fr": "Ohhhh, I just remembered about Disorganized Diana",
-                "es": "Ohhhh, I just remembered about Disorganized Diana"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "DianaHow",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "How could you forget",
-                "fr": "How could you forget",
-                "es": "How could you forget"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "This lady had so much potential, but had a few fatal flaws...",
-                        "fr": "This lady had so much potential, but had a few fatal flaws...",
-                        "es": "This lady had so much potential, but had a few fatal flaws..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "She looted items so terribly!",
-                        "fr": "She looted items so terribly!",
-                        "es": "She looted items so terribly!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!",
-                        "fr": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!",
-                        "es": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "DianaHowInv",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "DianaHowMess",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "What a mess",
-                            "fr": "What a mess",
-                            "es": "What a mess"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "DianaHowMessWeapon",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaHowMessClever",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Clever",
-                                        "fr": "Clever",
-                                        "es": "Clever"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaHowMessMistake",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Bad mistake",
-                                        "fr": "Bad mistake",
-                                        "es": "Bad mistake"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "DianaHowSmart",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Smart tip",
-                            "fr": "Smart tip",
-                            "es": "Smart tip"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "DianaHowSmartWeapon",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaHowSmartClever",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Clever",
-                                        "fr": "Clever",
-                                        "es": "Clever"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaHowSmartMistake",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Bad mistake",
-                                        "fr": "Bad mistake",
-                                        "es": "Bad mistake"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "This lady had so much potential, but had a few fatal flaws...",
+            "fr": "This lady had so much potential, but had a few fatal flaws...",
+            "es": "This lady had so much potential, but had a few fatal flaws..."
+          }
         },
         {
+          "Type": "Text",
+          "Label": {
+            "en": "She looted items so terribly!",
+            "fr": "She looted items so terribly!",
+            "es": "She looted items so terribly!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaFailingLooting.gif"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!",
+            "fr": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!",
+            "es": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DianaHowInv",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "DianaTell",
+            "Id": "DianaHowMess",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Tell me!",
-                "fr": "Tell me!",
-                "es": "Tell me!"
+              "en": "What a mess",
+              "fr": "What a mess",
+              "es": "What a mess"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "This lady had so much potential, but had a few fatal flaws...",
-                        "fr": "This lady had so much potential, but had a few fatal flaws...",
-                        "es": "This lady had so much potential, but had a few fatal flaws..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "She looted items so terribly!",
-                        "fr": "She looted items so terribly!",
-                        "es": "She looted items so terribly!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Why on earth didn't she switch to her axe before looting?",
-                        "fr": "Why on earth didn't she switch to her axe before looting?",
-                        "es": "Why on earth didn't she switch to her axe before looting?"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Her inventory filled up with stuff she didn't want",
-                        "fr": "Her inventory filled up with stuff she didn't want",
-                        "es": "Her inventory filled up with stuff she didn't want"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
                 }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaImproperInventory.gif"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "DianaTellInv",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "DianaHowMessWeapon",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaHowMessClever",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Clever",
+                    "fr": "Clever",
+                    "es": "Clever"
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "DianaTellMess",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "What a mess",
-                            "fr": "What a mess",
-                            "es": "What a mess"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "DianaTellMessWeapon",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaTellMessClever",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Clever",
-                                        "fr": "Clever",
-                                        "es": "Clever"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaTellMessMistake",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Bad mistake",
-                                        "fr": "Bad mistake",
-                                        "es": "Bad mistake"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "DianaTellSmart",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Smart tip",
-                            "fr": "Smart tip",
-                            "es": "Smart tip"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
-                                    "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
-                                    "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "DianaTellSmartWeapon",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaTellSmartClever",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Clever",
-                                        "fr": "Clever",
-                                        "es": "Clever"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "DianaTellSmartMistake",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Bad mistake",
-                                        "fr": "Bad mistake",
-                                        "es": "Bad mistake"
-                                    },
-                                    "Steps":[
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "That's not even the worst of it",
-                                                "fr": "That's not even the worst of it",
-                                                "es": "That's not even the worst of it"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
                     }
-                ]
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaHowMessMistake",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Bad mistake",
+                    "fr": "Bad mistake",
+                    "es": "Bad mistake"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
+          },
+          {
+            "Type": "Node",
+            "Id": "DianaHowSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Smart tip",
+              "fr": "Smart tip",
+              "es": "Smart tip"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaImproperInventory.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "DianaHowSmartWeapon",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaHowSmartClever",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Clever",
+                    "fr": "Clever",
+                    "es": "Clever"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaHowSmartMistake",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Bad mistake",
+                    "fr": "Bad mistake",
+                    "es": "Bad mistake"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "DianaTell",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Tell me!",
+        "fr": "Tell me!",
+        "es": "Tell me!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This lady had so much potential, but had a few fatal flaws...",
+            "fr": "This lady had so much potential, but had a few fatal flaws...",
+            "es": "This lady had so much potential, but had a few fatal flaws..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "She looted items so terribly!",
+            "fr": "She looted items so terribly!",
+            "es": "She looted items so terribly!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaFailingLooting.gif"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!",
+            "fr": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!",
+            "es": "I was thinking... slow down, Diana! Just look for the weapon you want and carefully grab it!"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DianaTellInv",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "DianaTellMess",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "What a mess",
+              "fr": "What a mess",
+              "es": "What a mess"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaImproperInventory.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "DianaTellMessWeapon",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaTellMessClever",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Clever",
+                    "fr": "Clever",
+                    "es": "Clever"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaTellMessMistake",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Bad mistake",
+                    "fr": "Bad mistake",
+                    "es": "Bad mistake"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "DianaTellSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Smart tip",
+              "fr": "Smart tip",
+              "es": "Smart tip"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "fr": "On a similar note... she really should have kept her items in the same slots every time she visited...",
+                  "es": "On a similar note... she really should have kept her items in the same slots every time she visited..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "fr": "It meant she kept pulling out the wrong weapon at the wrong time!",
+                  "es": "It meant she kept pulling out the wrong weapon at the wrong time!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410735/Diana/DianaImproperInventory.gif"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "DianaTellSmartWeapon",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaTellSmartClever",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Clever",
+                    "fr": "Clever",
+                    "es": "Clever"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "DianaTellSmartMistake",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Bad mistake",
+                    "fr": "Bad mistake",
+                    "es": "Bad mistake"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "That's not even the worst of it",
+                        "fr": "That's not even the worst of it",
+                        "es": "That's not even the worst of it"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
-                            
