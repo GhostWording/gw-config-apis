@@ -73,6 +73,16 @@
                 "Type": "Node",
                 "Id": "BMVoluteYesMore",
                 "ElementValue": "1",
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Want to know more?",
+                            "fr": "Want to know more?",
+                            "es": "Want to know more?"
+                        }
+                    }
+                ],
                 "Commands": [
                     {
                         "Type": "Node",
