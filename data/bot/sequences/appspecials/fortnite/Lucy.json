@@ -1,2048 +1,2049 @@
 {
-  "Type": "Node",
-  "Id": "Lucy",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Next is a story about the least stealthy person I have ever met... Loud Lucy",
-        "fr": "Next is a story about the least stealthy person I have ever met... Loud Lucy",
-        "es": "Next is a story about the least stealthy person I have ever met... Loud Lucy"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "She had a bad habit of shooting everywhere for no reason",
-        "fr": "She had a bad habit of shooting everywhere for no reason",
-        "es": "She had a bad habit of shooting everywhere for no reason"
-      }
-    },
-    {
-      "Type": "Pause",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 2000
-      }
-    },
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/ShootingAroundHilariously.gif"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "LucyIdea",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Bad idea",
-        "fr": "Bad idea",
-        "es": "Bad idea"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Exactly... she gave away her position all the time",
-            "fr": "Exactly... she gave away her position all the time",
-            "es": "Exactly... she gave away her position all the time"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "and took fights she couldn’t win",
-            "fr": "and took fights she couldn’t win",
-            "es": "and took fights she couldn’t win"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Sylvie loves to wait until people kill each other... and then clean up after",
-            "fr": "Sylvie loves to wait until people kill each other... and then clean up after",
-            "es": "Sylvie loves to wait until people kill each other... and then clean up after"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieWaitingKill.gif"
-          }
+    "Type": "Node",
+    "Id": "Lucy",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Next is a story about the least stealthy person I have ever met... Loud Lucy",
+          "fr": "Next is a story about the least stealthy person I have ever met... Loud Lucy",
+          "es": "Next is a story about the least stealthy person I have ever met... Loud Lucy"
         }
-      ],
-      "LinksTo": {
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "She had a bad habit of shooting everywhere for no reason",
+          "fr": "She had a bad habit of shooting everywhere for no reason",
+          "es": "She had a bad habit of shooting everywhere for no reason"
+        }
+      },
+      {
+        "Type": "Pause",
+        "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+        }
+      },
+      {
+        "Type": "AnimatedGif",
+        "Parameters": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/ShootingAroundHilariously.gif"
+        }
+      }
+    ],
+    "Commands": [
+      {
         "Type": "Node",
-        "Id": "LucyIdeaFinish",
+        "Id": "LucyIdea",
         "ElementValue": "1",
-        "Commands": [
+        "CommandLabel": {
+          "en": "Bad idea",
+          "fr": "Bad idea",
+          "es": "Bad idea"
+        },
+        "Steps": [
           {
-            "Type": "Node",
-            "Id": "LucyIdeaSmart",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "That’s smart!",
-              "fr": "That’s smart!",
-              "es": "That’s smart!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Sure is!",
-                  "fr": "Sure is!",
-                  "es": "Sure is!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "LucyIdeaSmartDeaf",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "LucyIdeaSmartIssue",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "What's the issue?",
-                    "fr": "What's the issue?",
-                    "es": "What's the issue?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well... here's Sylvie in the exact same spot...",
-                        "fr": "Well... here's Sylvie in the exact same spot...",
-                        "es": "Well... here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyIdeaSmartIssueListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaSmartIssueLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaSmartIssueLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartIssueLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartIssueLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaSmartIssueAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaSmartIssueAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartIssueAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartIssueAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "LucyIdeaSmartMistake",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Big mistake",
-                    "fr": "Big mistake",
-                    "es": "Big mistake"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "You're right...",
-                        "fr": "You're right...",
-                        "es": "You're right..."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here's Sylvie in the exact same spot...",
-                        "fr": "Here's Sylvie in the exact same spot...",
-                        "es": "Here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyIdeaSmartMistakeListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaSmartMistakeLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaSmartMistakeLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartMistakeLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartMistakeLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaSmartMistakeAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaSmartMistakeAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartMistakeAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaSmartMistakeAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
+            "Type": "Text",
+            "Label": {
+              "en": "Exactly... she gave away her position all the time",
+              "fr": "Exactly... she gave away her position all the time",
+              "es": "Exactly... she gave away her position all the time"
             }
           },
           {
-            "Type": "Node",
-            "Id": "LucyIdeaKnew",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I knew that",
-              "fr": "I knew that",
-              "es": "I knew that"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I’ve got a feeling you’ll do well here",
-                  "fr": "I’ve got a feeling you’ll do well here",
-                  "es": "I’ve got a feeling you’ll do well here"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "LucyIdeaKnewDeaf",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "LucyIdeaKnewIssue",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "What's the issue?",
-                    "fr": "What's the issue?",
-                    "es": "What's the issue?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well... here's Sylvie in the exact same spot...",
-                        "fr": "Well... here's Sylvie in the exact same spot...",
-                        "es": "Well... here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyIdeaKnewIssueListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaKnewIssueLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaKnewIssueLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewIssueLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewIssueLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaKnewIssueAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaKnewIssueAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewIssueAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewIssueAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "LucyIdeaKnewMistake",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Big mistake",
-                    "fr": "Big mistake",
-                    "es": "Big mistake"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "You're right...",
-                        "fr": "You're right...",
-                        "es": "You're right..."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here's Sylvie in the exact same spot...",
-                        "fr": "Here's Sylvie in the exact same spot...",
-                        "es": "Here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyIdeaKnewMistakeListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaKnewMistakeLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaKnewMistakeLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewMistakeLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewMistakeLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyIdeaKnewMistakeAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyIdeaKnewMistakeAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewMistakeAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyIdeaKnewMistakeAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "LucyWhy",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Why not?",
-        "fr": "Why not?",
-        "es": "Why not?"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Well, she gave away her position all the time",
-            "fr": "Well, she gave away her position all the time",
-            "es": "Well, she gave away her position all the time"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "and took fights she couldn’t win",
-            "fr": "and took fights she couldn’t win",
-            "es": "and took fights she couldn’t win"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Sylvie loves to wait until people kill each other... and then clean up after",
-            "fr": "Sylvie loves to wait until people kill each other... and then clean up after",
-            "es": "Sylvie loves to wait until people kill each other... and then clean up after"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieWaitingKill.gif"
-          }
-        }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "LucyWhyPeople",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Node",
-            "Id": "LucyWhySmart",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "That’s smart!",
-              "fr": "That’s smart!",
-              "es": "That’s smart!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "sure is!",
-                  "fr": "sure is!",
-                  "es": "sure is!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "LucyWhySmartDeaf",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "LucyWhySmartIssue",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "What's the issue?",
-                    "fr": "What's the issue?",
-                    "es": "What's the issue?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well... here's Sylvie in the exact same spot...",
-                        "fr": "Well... here's Sylvie in the exact same spot...",
-                        "es": "Well... here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyWhySmartIssueListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyWhySmartIssueLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhySmartIssueLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartIssueLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartIssueLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyWhySmartIssueAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhySmartIssueAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartIssueAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartIssueAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "LucyWhySmartMistake",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Big mistake",
-                    "fr": "Big mistake",
-                    "es": "Big mistake"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "You're right...",
-                        "fr": "You're right...",
-                        "es": "You're right..."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here's Sylvie in the exact same spot...",
-                        "fr": "Here's Sylvie in the exact same spot...",
-                        "es": "Here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyWhySmartMistakeListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyWhySmartMistakeLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhySmartMistakeLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartMistakeLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartMistakeLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyWhySmartMistakeAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhySmartMistakeAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartMistakeAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhySmartMistakeAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
+            "Type": "Text",
+            "Label": {
+              "en": "and took fights she couldn’t win",
+              "fr": "and took fights she couldn’t win",
+              "es": "and took fights she couldn’t win"
             }
           },
           {
-            "Type": "Node",
-            "Id": "LucyWhyKnew",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I knew that",
-              "fr": "I knew that",
-              "es": "I knew that"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I’ve got a feeling you’ll do well here",
-                  "fr": "I’ve got a feeling you’ll do well here",
-                  "es": "I’ve got a feeling you’ll do well here"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
-                  "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
-                }
-              }
-            ],
-            "LinksTo": {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Skilful Sylvie loves to wait until people kill each other... and then clean up after",
+              "fr": "Skilful Sylvie loves to wait until people kill each other... and then clean up after",
+              "es": "Skilful Sylvie loves to wait until people kill each other... and then clean up after"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieWaitingKill.gif"
+            }
+          }
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "LucyIdeaFinish",
+          "ElementValue": "1",
+          "Commands": [
+            {
               "Type": "Node",
-              "Id": "LucyWhyKnewDeaf",
+              "Id": "LucyIdeaSmart",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "That’s smart!",
+                "fr": "That’s smart!",
+                "es": "That’s smart!"
+              },
+              "Steps": [
                 {
-                  "Type": "Node",
-                  "Id": "LucyWhyKnewIssue",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "What's the issue?",
-                    "fr": "What's the issue?",
-                    "es": "What's the issue?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well... here's Sylvie in the exact same spot...",
-                        "fr": "Well... here's Sylvie in the exact same spot...",
-                        "es": "Well... here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "LucyWhyKnewIssueListen",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Node",
-                        "Id": "LucyWhyKnewIssueLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhyKnewIssueLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewIssueLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewIssueLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "Type": "Node",
-                        "Id": "LucyWhyKnewIssueAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhyKnewIssueAlwaysMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewIssueAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewIssueAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Sure is!",
+                    "fr": "Sure is!",
+                    "es": "Sure is!"
                   }
                 },
                 {
-                  "Type": "Node",
-                  "Id": "LucyWhyKnewMistake",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Big mistake",
-                    "fr": "Big mistake",
-                    "es": "Big mistake"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "You're right...",
-                        "fr": "You're right...",
-                        "es": "You're right..."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here's Sylvie in the exact same spot...",
-                        "fr": "Here's Sylvie in the exact same spot...",
-                        "es": "Here's Sylvie in the exact same spot..."
-                      }
-                    },
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Listening can help you find cool stuff!",
-                        "fr": "Listening can help you find cool stuff!",
-                        "es": "Listening can help you find cool stuff!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "LucyIdeaSmartDeaf",
+                "ElementValue": "1",
+                "Commands": [
+                  {
                     "Type": "Node",
-                    "Id": "LucyWhyKnewMistakeListen",
+                    "Id": "LucyIdeaSmartIssue",
                     "ElementValue": "1",
-                    "Commands": [
+                    "CommandLabel": {
+                      "en": "What's the issue?",
+                      "fr": "What's the issue?",
+                      "es": "What's the issue?"
+                    },
+                    "Steps": [
                       {
-                        "Type": "Node",
-                        "Id": "LucyWhyKnewMistakeLearn",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I can learn from that",
-                          "fr": "I can learn from that",
-                          "es": "I can learn from that"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
-                          "Type": "Node",
-                          "Id": "LucyWhyKnewMistakeLearnMistakes",
-                          "ElementValue": "1",
-                          "Commands": [
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewMistakeLearnNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
-                              }
-                            },
-                            {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewMistakeLearnYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
-                              }
-                            }
-                          ]
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well... here's Sylvie in the exact same spot...",
+                          "fr": "Well... here's Sylvie in the exact same spot...",
+                          "es": "Well... here's Sylvie in the exact same spot..."
                         }
                       },
                       {
-                        "Type": "Node",
-                        "Id": "LucyWhyKnewMistakeAlways",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "I always listen",
-                          "fr": "I always listen",
-                          "es": "I always listen"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
-                              "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Even the worst hunters could find her…",
-                              "fr": "Even the worst hunters could find her…",
-                              "es": "Even the worst hunters could find her…"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And… well… it all added up to a grisly end for Lucy",
-                              "fr": "And… well… it all added up to a grisly end for Lucy",
-                              "es": "And… well… it all added up to a grisly end for Lucy"
-                            }
-                          },
-                          {
-                            "Type": "AnimatedGif",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Will you repeat her mistakes?!",
-                              "fr": "Will you repeat her mistakes?!",
-                              "es": "Will you repeat her mistakes?!"
-                            }
-                          }
-                        ],
-                        "LinksTo": {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyIdeaSmartIssueListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
                           "Type": "Node",
-                          "Id": "LucyWhyKnewMistakeAlwaysMistakes",
+                          "Id": "LucyIdeaSmartIssueLearn",
                           "ElementValue": "1",
-                          "Commands": [
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
                             {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewMistakeAlwaysNo",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "No way!",
-                                "fr": "No way!",
-                                "es": "No way!"
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
                               }
                             },
                             {
-                              "Type": "Leaf",
-                              "Id": "LucyWhyKnewMistakeAlwaysYes",
-                              "ElementValue": "1",
-                              "CommandLabel": {
-                                "en": "Yes 😃",
-                                "fr": "Yes 😃",
-                                "es": "Yes 😃"
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
                               }
                             }
-                          ]
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaSmartIssueLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartIssueLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartIssueLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaSmartIssueAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaSmartIssueAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartIssueAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartIssueAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "LucyIdeaSmartMistake",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Big mistake",
+                      "fr": "Big mistake",
+                      "es": "Big mistake"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "You're right...",
+                          "fr": "You're right...",
+                          "es": "You're right..."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Here's Sylvie in the exact same spot...",
+                          "fr": "Here's Sylvie in the exact same spot...",
+                          "es": "Here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
                         }
                       }
-                    ]
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyIdeaSmartMistakeListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaSmartMistakeLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaSmartMistakeLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartMistakeLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartMistakeLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaSmartMistakeAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaSmartMistakeAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartMistakeAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaSmartMistakeAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "LucyIdeaKnew",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "I knew that",
+                "fr": "I knew that",
+                "es": "I knew that"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "I’ve got a feeling you’ll do well here",
+                    "fr": "I’ve got a feeling you’ll do well here",
+                    "es": "I’ve got a feeling you’ll do well here"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
                   }
                 }
-              ]
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "LucyIdeaKnewDeaf",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "LucyIdeaKnewIssue",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "What's the issue?",
+                      "fr": "What's the issue?",
+                      "es": "What's the issue?"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well... here's Sylvie in the exact same spot...",
+                          "fr": "Well... here's Sylvie in the exact same spot...",
+                          "es": "Well... here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyIdeaKnewIssueListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaKnewIssueLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaKnewIssueLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewIssueLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewIssueLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaKnewIssueAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaKnewIssueAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewIssueAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewIssueAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "LucyIdeaKnewMistake",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Big mistake",
+                      "fr": "Big mistake",
+                      "es": "Big mistake"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "You're right...",
+                          "fr": "You're right...",
+                          "es": "You're right..."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Here's Sylvie in the exact same spot...",
+                          "fr": "Here's Sylvie in the exact same spot...",
+                          "es": "Here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyIdeaKnewMistakeListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaKnewMistakeLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaKnewMistakeLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewMistakeLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewMistakeLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyIdeaKnewMistakeAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaKnewMistakeAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewMistakeAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyIdeaKnewMistakeAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Type": "Node",
+        "Id": "LucyWhy",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Why not?",
+          "fr": "Why not?",
+          "es": "Why not?"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Well, she gave away her position all the time",
+              "fr": "Well, she gave away her position all the time",
+              "es": "Well, she gave away her position all the time"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "and took fights she couldn’t win",
+              "fr": "and took fights she couldn’t win",
+              "es": "and took fights she couldn’t win"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Sylvie loves to wait until people kill each other... and then clean up after",
+              "fr": "Sylvie loves to wait until people kill each other... and then clean up after",
+              "es": "Sylvie loves to wait until people kill each other... and then clean up after"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieWaitingKill.gif"
             }
           }
-        ]
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "LucyWhyPeople",
+          "ElementValue": "1",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "LucyWhySmart",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "That’s smart!",
+                "fr": "That’s smart!",
+                "es": "That’s smart!"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "sure is!",
+                    "fr": "sure is!",
+                    "es": "sure is!"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "LucyWhySmartDeaf",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "LucyWhySmartIssue",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "What's the issue?",
+                      "fr": "What's the issue?",
+                      "es": "What's the issue?"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well... here's Sylvie in the exact same spot...",
+                          "fr": "Well... here's Sylvie in the exact same spot...",
+                          "es": "Well... here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyWhySmartIssueListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhySmartIssueLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhySmartIssueLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartIssueLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartIssueLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhySmartIssueAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhySmartIssueAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartIssueAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartIssueAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "LucyWhySmartMistake",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Big mistake",
+                      "fr": "Big mistake",
+                      "es": "Big mistake"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "You're right...",
+                          "fr": "You're right...",
+                          "es": "You're right..."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Here's Sylvie in the exact same spot...",
+                          "fr": "Here's Sylvie in the exact same spot...",
+                          "es": "Here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyWhySmartMistakeListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhySmartMistakeLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhySmartMistakeLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartMistakeLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartMistakeLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhySmartMistakeAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhySmartMistakeAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartMistakeAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhySmartMistakeAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "LucyWhyKnew",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "I knew that",
+                "fr": "I knew that",
+                "es": "I knew that"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "I’ve got a feeling you’ll do well here",
+                    "fr": "I’ve got a feeling you’ll do well here",
+                    "es": "I’ve got a feeling you’ll do well here"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/BeingDeafToChest.gif"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "LucyWhyKnewDeaf",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "LucyWhyKnewIssue",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "What's the issue?",
+                      "fr": "What's the issue?",
+                      "es": "What's the issue?"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well... here's Sylvie in the exact same spot...",
+                          "fr": "Well... here's Sylvie in the exact same spot...",
+                          "es": "Well... here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyWhyKnewIssueListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhyKnewIssueLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhyKnewIssueLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewIssueLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewIssueLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhyKnewIssueAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhyKnewIssueAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewIssueAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewIssueAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "LucyWhyKnewMistake",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Big mistake",
+                      "fr": "Big mistake",
+                      "es": "Big mistake"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "You're right...",
+                          "fr": "You're right...",
+                          "es": "You're right..."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Here's Sylvie in the exact same spot...",
+                          "fr": "Here's Sylvie in the exact same spot...",
+                          "es": "Here's Sylvie in the exact same spot..."
+                        }
+                      },
+                      {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/SylvieUsingSound.gif"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Listening can help you find cool stuff!",
+                          "fr": "Listening can help you find cool stuff!",
+                          "es": "Listening can help you find cool stuff!"
+                        }
+                      }
+                    ],
+                    "LinksTo": {
+                      "Type": "Node",
+                      "Id": "LucyWhyKnewMistakeListen",
+                      "ElementValue": "1",
+                      "Commands": [
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhyKnewMistakeLearn",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I can learn from that",
+                            "fr": "I can learn from that",
+                            "es": "I can learn from that"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhyKnewMistakeLearnMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewMistakeLearnNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewMistakeLearnYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Type": "Node",
+                          "Id": "LucyWhyKnewMistakeAlways",
+                          "ElementValue": "1",
+                          "CommandLabel": {
+                            "en": "I always listen",
+                            "fr": "I always listen",
+                            "es": "I always listen"
+                          },
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410775/Lucy/LeavingTrailStufff.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Even the worst hunters could find her…",
+                                "fr": "Even the worst hunters could find her…",
+                                "es": "Even the worst hunters could find her…"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "And… well… it all added up to a grisly end for Lucy",
+                                "fr": "And… well… it all added up to a grisly end for Lucy",
+                                "es": "And… well… it all added up to a grisly end for Lucy"
+                              }
+                            },
+                            {
+                              "Type": "AnimatedGif",
+                              "Parameters": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1529410774/Lucy/DyingAfterFollowed.gif"
+                              }
+                            },
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "Will you repeat her mistakes?!",
+                                "fr": "Will you repeat her mistakes?!",
+                                "es": "Will you repeat her mistakes?!"
+                              }
+                            }
+                          ],
+                          "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhyKnewMistakeAlwaysMistakes",
+                            "ElementValue": "1",
+                            "Commands": [
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewMistakeAlwaysNo",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "No way!",
+                                  "fr": "No way!",
+                                  "es": "No way!"
+                                }
+                              },
+                              {
+                                "Type": "Leaf",
+                                "Id": "LucyWhyKnewMistakeAlwaysYes",
+                                "ElementValue": "1",
+                                "CommandLabel": {
+                                  "en": "Yes 😃",
+                                  "fr": "Yes 😃",
+                                  "es": "Yes 😃"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
+  
