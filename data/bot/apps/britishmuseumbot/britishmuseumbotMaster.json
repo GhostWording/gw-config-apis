@@ -2,8 +2,6 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
-      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]},
-      { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/TestWithoutLinksTo.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
       { "order" : 70, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
