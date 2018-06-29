@@ -15,7 +15,7 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "Seek",
+      "Id": "SeekLoveHealth",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Love and Health",
@@ -42,7 +42,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "Seek",
+      "Id": "SeekFameFortune",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Fame and Fortune",
