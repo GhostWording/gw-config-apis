@@ -2,6 +2,8 @@
   {
     "GroupName": "Fortnite",
     "SequenceFiles": [
+      { "order" : 0, "file": ["/data/bot/sequences/appspecials/fortnite/Diana.json"]},
+      { "order" : 5, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey.json"]},
       { "order" : 25, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey2.json"]},
