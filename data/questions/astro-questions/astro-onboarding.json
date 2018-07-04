@@ -38,6 +38,7 @@
   { 
   "Id" : "PracticalBrain",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultLayout" : "EliteEmoji",
   "Question":
     [
     {"Language":"en-EN","Label":"Would people say that you possess a practical, methodical brain?"},
@@ -71,6 +72,7 @@
   { 
   "Id" : "Senses",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultLayout" : "EliteEmoji",
   "Question":
     [
     {"Language":"en-EN","Label":"Are your senses awakened by the presence of others around you or by your inner energy?"},
@@ -103,6 +105,7 @@
   ,
   { 
   "Id" : "AppearanceMatters",
+  "DefaultLayout" : "EliteEmoji",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
   "Question":
     [
@@ -137,6 +140,7 @@
   { 
   "Id" : "MindDesires",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultLayout" : "EliteEmoji",
   "Question":
     [
     {"Language":"en-EN","Label":"Do your instinctive desires often conflict with your rational side?"},
@@ -170,6 +174,7 @@
   { 
   "Id" : "TrueSelf",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultLayout" : "EliteEmoji",
   "Question":
     [
     {"Language":"en-EN","Label":"Do you often feel that people do not see you as you really are?"},
@@ -203,6 +208,7 @@
   { 
   "Id" : "Soulmate",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultLayout" : "EliteEmoji",
   "Question":
     [
     {"Language":"en-EN","Label":"Do you think you have found your soulmate yet?"},
@@ -236,6 +242,7 @@
   { 
   "Id" : "InitiativePassive",
   "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultLayout" : "EliteEmoji",
   "Question":
     [
     {"Language":"en-EN","Label":"Do you allow yourself to be carried along, or do you like to take the initiative?"},
