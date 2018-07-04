@@ -1,0 +1,270 @@
+{
+  "Questions":
+  [
+  { 
+  "Id" : "Seek",
+  "DefaultImage" : "themes/emoticons/small/000018292730.jpg",
+  "DefaultLayout" : "EliteEmoji",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"What do you seek?"},
+    {"Language":"fr-FR","Label":"Que cherchez-vous?"},
+    {"Language":"es-ES","Label":"¿Qué buscas?"}
+    ],
+  "Answers":
+    [
+    {
+    "Id" : "SeekLoveHealth",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"Love and Health"},
+      {"Language":"fr-FR","Label":"Amour et Santé"},
+      {"Language":"es-ES","Label":"Amor y Salud"}
+      ]
+    }
+    ,
+    {
+    "Id" : "SeekFameFortune",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"Fame and Fortune"},
+      {"Language":"fr-FR","Label":"Gloire et Richesse"},
+      {"Language":"es-ES","Label":"Fama y Fortuna"}
+      ]
+    }
+   ]
+  }
+  ,
+  { 
+  "Id" : "PracticalBrain",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Would people say that you possess a practical, methodical brain?"},
+    {"Language":"fr-FR","Label":"Est-ce que les gens diraient que tu as une intelligence pratique, méthodique ?"},
+    {"Language":"es-ES","Label":"¿Diría la gente que tienes una mente práctica y metódica?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "YesPracticalBrain",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Yes"},
+        {"Language":"fr-FR","Label":"Oui"},
+        {"Language":"es-ES","Label":"Sí"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "NoPracticalBrain",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"No"},
+        {"Language":"fr-FR","Label":"Non"},
+        {"Language":"es-ES","Label":"No"}
+        ]
+      }
+    ]
+  }
+  ,
+  { 
+  "Id" : "Senses",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Are your senses awakened by the presence of others around you or by your inner energy?"},
+    {"Language":"fr-FR","Label":"Vos sens s'éveillent-ils plus par la présence des autres autour de vous ou par votre énergie intérieure ?"},
+    {"Language":"es-ES","Label":"¿Se despiertan tus sentidos más por la presencia de los demás o más por tu propia energía?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "SensesOthers",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Presence of others"},
+        {"Language":"fr-FR","Label":"Par les autres"},
+        {"Language":"es-ES","Label":"Para los otros"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "SensesEnergy",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Inner energy"},
+        {"Language":"fr-FR","Label":"Votre énergie"},
+        {"Language":"es-ES","Label":"Tu propia energía"}
+        ]
+      }
+    ]
+  }
+  ,
+  { 
+  "Id" : "AppearanceMatters",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Is your physical appearance important to you?"},
+    {"Language":"fr-FR","Label":"Est-ce que ton apparence physique est importante pour toi ?"},
+    {"Language":"es-ES","Label":"¿Es tu apariencia física importante para ti?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "YesAppearanceMatters",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Yes"},
+        {"Language":"fr-FR","Label":"Oui"},
+        {"Language":"es-ES","Label":"Sí"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "NoAppearanceMatters",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"No"},
+        {"Language":"fr-FR","Label":"Non"},
+        {"Language":"es-ES","Label":"No"}
+        ]
+      }
+    ]
+  }
+  ,
+  { 
+  "Id" : "MindDesires",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Do your instinctive desires often conflict with your rational side?"},
+    {"Language":"fr-FR","Label":"Est-ce que tes désirs rentrent souvent en conflit avec ton esprit ?"},
+    {"Language":"es-ES","Label":"¿Tus deseos a menudo entran en conflicto con tu mente?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "YesMindDesires",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Yes"},
+        {"Language":"fr-FR","Label":"Oui"},
+        {"Language":"es-ES","Label":"Sí"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "NoMindDesires",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"No"},
+        {"Language":"fr-FR","Label":"Non"},
+        {"Language":"es-ES","Label":"No"}
+        ]
+      }
+    ]
+  }
+  ,
+  { 
+  "Id" : "TrueSelf",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Do you often feel that people do not see you as you really are?"},
+    {"Language":"fr-FR","Label":"Est-ce que vous avez souvent l'impression que les gens ne vous perçoivent pas tel vous êtes vraiment ?"},
+    {"Language":"es-ES","Label":"¿Sientes a menudo que la gente no te ve como realmente eres?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "TrueSelfYes",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Yes"},
+        {"Language":"fr-FR","Label":"Oui"},
+        {"Language":"es-ES","Label":"Sí"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "TrueSelfNo",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"No"},
+        {"Language":"fr-FR","Label":"Non"},
+        {"Language":"es-ES","Label":"No"}
+        ]
+      }
+    ]
+  }
+  ,
+  { 
+  "Id" : "Soulmate",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Do you think you have found your soulmate yet?"},
+    {"Language":"fr-FR","Label":"Pensez-vous avoir déjà trouvé votre âme sœur ?"},
+    {"Language":"es-ES","Label":"¿Piensas que ya encontraste a tu alma gemela?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "SoulmateYes",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Yes"},
+        {"Language":"fr-FR","Label":"Oui"},
+        {"Language":"es-ES","Label":"Sí"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "SoulmateNo",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"No"},
+        {"Language":"fr-FR","Label":"Non"},
+        {"Language":"es-ES","Label":"No"}
+        ]
+      }
+    ]
+  }
+  ,
+  { 
+  "Id" : "InitiativePassive",
+  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "Question":
+    [
+    {"Language":"en-EN","Label":"Do you allow yourself to be carried along, or do you like to take the initiative?"},
+    {"Language":"fr-FR","Label":"Préferez-vous vous laisser guider ou aimez-vous prendre l'initiative ?"},
+    {"Language":"es-ES","Label":"¿Te prefieres dejarte guíar, o te gusta tomar la iniciativa?"}
+    ],
+  "Answers":
+    [
+      {
+      "Id" : "InitiativePassiveInitiative",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Initiative"},
+        {"Language":"fr-FR","Label":"Initiative"},
+        {"Language":"es-ES","Label":"Iniciativa"}
+        ]
+       }
+    ,  
+      {
+      "Id" : "InitiativePassivePassive",
+      "Labels":
+        [
+        {"Language":"en-EN","Label":"Carried along"},
+        {"Language":"fr-FR","Label":"Se laisser guider"},
+        {"Language":"es-ES","Label":"Dejarse guíado"}
+        ]
+      }
+    ]
+  }
+
+  ]
+  }
