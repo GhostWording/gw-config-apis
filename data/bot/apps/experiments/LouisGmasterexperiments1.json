@@ -2,8 +2,8 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order": 4, "file": ["/data/bot/sequences/experiments/Andreas/SkipExample.json"]},
-            { "order": 6, "file": ["/data/bot/sequences/experiments/Andreas/SkipExampleTwo.json"]},
+            { "order": 4, "file": ["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
+            { "order": 6, "file": ["/data/bot/sequences/experiments/Billy2/FlowerPrefer.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
             { "order": 15, "file":["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/TestSequenceNewActions.json"]},
