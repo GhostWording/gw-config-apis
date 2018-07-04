@@ -3,7 +3,7 @@
   [
   { 
   "Id" : "Seek",
-  "DefaultImage" : "themes/emoticons/small/000018292730.jpg",
+  "DefaultImage" : "questions/small/1.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
@@ -37,7 +37,7 @@
   ,
   { 
   "Id" : "PracticalBrain",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultImage" : "questions/small/2.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
@@ -71,7 +71,7 @@
   ,
   { 
   "Id" : "Senses",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultImage" : "questions/small/3.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
@@ -105,8 +105,8 @@
   ,
   { 
   "Id" : "AppearanceMatters",
+  "DefaultImage" : "questions/small/4.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
   "Question":
     [
     {"Language":"en-EN","Label":"Is your physical appearance important to you?"},
@@ -139,7 +139,7 @@
   ,
   { 
   "Id" : "MindDesires",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultImage" : "questions/small/5.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
@@ -173,7 +173,7 @@
   ,
   { 
   "Id" : "TrueSelf",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultImage" : "questions/small/6.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
@@ -207,7 +207,7 @@
   ,
   { 
   "Id" : "Soulmate",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultImage" : "questions/small/7.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
@@ -241,7 +241,7 @@
   ,
   { 
   "Id" : "InitiativePassive",
-  "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+  "DefaultImage" : "questions/small/8.Onboarding_Background.jpg",
   "DefaultLayout" : "EliteEmoji",
   "Question":
     [
