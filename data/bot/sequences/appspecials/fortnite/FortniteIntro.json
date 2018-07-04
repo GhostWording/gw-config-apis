@@ -1,0 +1,251 @@
+{
+    "Type": "Node",
+    "Id": "FortniteIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello! Are you planning on dropping on to this island any time soon?",
+                "fr": "Hello! Are you planning on dropping on to this island any time soon?",
+                "es": "Hello! Are you planning on dropping on to this island any time soon?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FortniteIntroYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes indeed",
+                "fr": "Yes indeed",
+                "es": "Yes indeed"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! We can meet",
+                        "fr": "Great! We can meet",
+                        "es": "Great! We can meet"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm a llama. A lonely llama. I've lived on this island all my life",
+                        "fr": "I'm a llama. A lonely llama. I've lived on this island all my life",
+                        "es": "I'm a llama. A lonely llama. I've lived on this island all my life"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "About a year ago, humans started falling from the sky",
+                        "fr": "About a year ago, humans started falling from the sky",
+                        "es": "About a year ago, humans started falling from the sky"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I try to make friends with all of them, but they just keep dying",
+                        "fr": "I try to make friends with all of them, but they just keep dying",
+                        "es": "I try to make friends with all of them, but they just keep dying"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FortniteIntroYesChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FortniteIntroYesSad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's so sad",
+                            "fr": "That's so sad",
+                            "es": "That's so sad"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, I'm going to make sure you don't die by telling you what they did wrong",
+                                    "fr": "Well, I'm going to make sure you don't die by telling you what they did wrong",
+                                    "es": "Well, I'm going to make sure you don't die by telling you what they did wrong"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely to my stories!",
+                                    "fr": "Listen closely to my stories!",
+                                    "es": "Listen closely to my stories!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FortniteIntroYesWont",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I won't die",
+                            "fr": "I won't die",
+                            "es": "I won't die"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Great! And I'm going to make sure of that by showing you what they did wrong",
+                                    "fr": "Great! And I'm going to make sure of that by showing you what they did wrong",
+                                    "es": "Great! And I'm going to make sure of that by showing you what they did wrong"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely to my stories!",
+                                    "fr": "Listen closely to my stories!",
+                                    "es": "Listen closely to my stories!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FortniteMaybe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Maybe, why?",
+                "fr": "Maybe, why?",
+                "es": "Maybe, why?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So we can meet!",
+                        "fr": "So we can meet!",
+                        "es": "So we can meet!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm a llama. A lonely llama. I've lived on this island all my life",
+                        "fr": "I'm a llama. A lonely llama. I've lived on this island all my life",
+                        "es": "I'm a llama. A lonely llama. I've lived on this island all my life"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "About a year ago, humans started falling from the sky",
+                        "fr": "About a year ago, humans started falling from the sky",
+                        "es": "About a year ago, humans started falling from the sky"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I try to make friends with all of them, but they just keep dying",
+                        "fr": "I try to make friends with all of them, but they just keep dying",
+                        "es": "I try to make friends with all of them, but they just keep dying"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FortniteMaybeChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FortniteMaybeSad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's so sad",
+                            "fr": "That's so sad",
+                            "es": "That's so sad"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, I'm going to make sure you don't die by telling you what they did wrong",
+                                    "fr": "Well, I'm going to make sure you don't die by telling you what they did wrong",
+                                    "es": "Well, I'm going to make sure you don't die by telling you what they did wrong"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely to my stories!",
+                                    "fr": "Listen closely to my stories!",
+                                    "es": "Listen closely to my stories!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FortniteMaybeWont",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I won't die",
+                            "fr": "I won't die",
+                            "es": "I won't die"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Great! And I'm going to make sure of that by showing you what they did wrong",
+                                    "fr": "Great! And I'm going to make sure of that by showing you what they did wrong",
+                                    "es": "Great! And I'm going to make sure of that by showing you what they did wrong"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely to my stories!",
+                                    "fr": "Listen closely to my stories!",
+                                    "es": "Listen closely to my stories!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
