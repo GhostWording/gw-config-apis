@@ -9,7 +9,7 @@
         }
     },
     {
-      "words" : ["love","amour","aime","like"],
+      "words" : ["a test of  partial love"],
       "matchingType":"partial",
         "fragment" : {
           "path" : "OneFragmentForKeywordLove"
