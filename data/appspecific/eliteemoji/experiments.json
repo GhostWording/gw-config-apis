@@ -2,7 +2,7 @@
     "Experiments": [
         { 
             "Name": "NotificationAlert",
-            "Tests": ["CustomAlert", "CustomAlert", "SystemAlert", "SystemAlert"] 
+            "Variations": ["CustomAlert", "CustomAlert", "SystemAlert", "SystemAlert"] 
         }
     ]
 }
