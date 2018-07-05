@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "InitiativePassive",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/MoonSky.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you allow yourself to be carried along, or do you like to take the initiative?",
+        "fr": "Préferez-vous vous laisser guider ou aimez-vous prendre l'initiative ?",
+        "es": "¿Te prefieres dejarte guíar, o te gusta tomar la iniciativa?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "InitiativePassiveInitiative",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Initiative",
+        "fr": "Initiative",
+        "es": "Iniciativa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "vIJaz7nMJhTUc"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "InitiativePassivePassive",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Carried along",
+        "fr": "Se laisser guider",
+        "es": "Dejarse guíado"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6UBkjJGHqYDtvo6Q"
+          }
+        }
+      ]
+    }
+  ]
+}
