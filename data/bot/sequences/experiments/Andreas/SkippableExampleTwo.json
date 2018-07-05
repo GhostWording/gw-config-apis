@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "SkipExampleTwo",
+  "Id": "SkippableExampleTwo",
   "Steps": [
     {
       "Type": "Text",
@@ -11,6 +11,9 @@
       }
     }
   ],
+  "Skippable":{
+     "value": true
+   },
   "Commands": [
     {
       "Type": "Node",
@@ -302,16 +305,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "CarrickVolcSkip",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Skip",
-        "fr": "Passer",
-        "es": "Saltar"
       }
     }
   ]
