@@ -135,7 +135,7 @@
         },
         {
             "Type": "Node",
-            "Id": "FortniteMaybe",
+            "Id": "FortniteIntroMaybe",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Maybe, why?",
@@ -185,12 +185,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "FortniteMaybeChoice",
+                "Id": "FortniteIntroMaybeChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "FortniteMaybeSad",
+                        "Id": "FortniteIntroMaybeSad",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "That's so sad",
@@ -218,7 +218,7 @@
                     },
                     {
                         "Type": "Leaf",
-                        "Id": "FortniteMaybeWont",
+                        "Id": "FortniteIntroMaybeWont",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I won't die",
