@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "Soulmate",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/MoonSky.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you think you have found your soulmate yet?",
+        "fr": "Pensez-vous avoir déjà trouvé votre âme sœur ?",
+        "es": "¿Piensas que ya encontraste a tu alma gemela?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SoulmateYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "o1sziFtJofCGk"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SoulmateNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non‍",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "VfyC5j7sR4cso"
+          }
+        }
+      ]
+    }
+  ]
+}
