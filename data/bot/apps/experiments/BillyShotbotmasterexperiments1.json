@@ -4,6 +4,7 @@
     "SequenceFiles": [
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteIntro.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/AstroIntro.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Responsible.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/AppearanceMatters.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/ConflictTeenager.json"]},
