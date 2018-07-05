@@ -131,17 +131,24 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Because of this, I know about every artwork to have ever existed",
-                        "es": "Because of this, I know about every artwork to have ever existed"
+                        "en": "I have been around in every era",
+                        "fr": "I have been around in every era",
+                        "es": "I have been around in every era"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/museum/OwlPlaces.json"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I have been around in every era",
-                        "fr": "I have been around in every era",
-                        "es": "I have been around in every era"
+                        "en": "Because of this, I know about every artwork to have ever existed",
+                        "fr": "Because of this, I know about every artwork to have ever existed",
+                        "es": "Because of this, I know about every artwork to have ever existed"
                     }
                 }
             ],
