@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "Seek",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/DarkNight.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you seek?",
+        "fr": "Que cherchez-vous?",
+        "es": "¿Qué buscas?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SeekLoveHealth",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Love and Health",
+        "fr": "Amour et Santé",
+        "es": "Amor y Salud"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xTiQytOEqr2U33lYkg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SeekFameFortune",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Fame and Fortune",
+        "fr": "Gloire et Richesse",
+        "es": "Fama y Fortuna"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41m4x7mJhkrGWgZa"
+          }
+        }
+      ]
+    }
+  ]
+}
