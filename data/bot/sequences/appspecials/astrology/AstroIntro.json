@@ -1,0 +1,300 @@
+{
+    "Type": "Node",
+    "Id": "AstroIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Good day. I am a mystical owl, trained for years in the art of divination...",
+                "fr": "Good day. I am a mystical owl, trained for years in the art of divination...",
+                "es": "Good day. I am a mystical owl, trained for years in the art of divination..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can tell you who you are, who you aren't, and who I am (which I just did)",
+                "fr": "I can tell you who you are, who you aren't, and who I am (which I just did)",
+                "es": "I can tell you who you are, who you aren't, and who I am (which I just did)"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AstroIntroAmazing",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Amazing",
+                "fr": "Amazing",
+                "es": "Amazing"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
+                        "fr": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
+                        "es": "I don't much like to show off... but let me show you how powerful I am in the mystic arts"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_Table.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have scanned the area where the stars and your soul overlap",
+                        "fr": "I have scanned the area where the stars and your soul overlap",
+                        "es": "I have scanned the area where the stars and your soul overlap"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_Body.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Prepare yourself for a psychic prediction!",
+                        "fr": "Prepare yourself for a psychic prediction!",
+                        "es": "Prepare yourself for a psychic prediction!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstroIntroAmazingChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AstroIntroAmazingReady",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm ready",
+                            "fr": "I'm ready",
+                            "es": "I'm ready"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I say boldly that you wear glasses!",
+                                    "fr": "I say boldly that you wear glasses!",
+                                    "es": "I say boldly that you wear glasses!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "AstroIntroAmazingReadyChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "AstroIntroAmazingReadyCorrect",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Correct! Amazing!",
+                                        "fr": "Correct! Amazing!",
+                                        "es": "Correct! Amazing!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The stars never lie",
+                                                "fr": "The stars never lie",
+                                                "es": "The stars never lie"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_StarMeditate.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "AstroIntroAmazingReadyIncorrect",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That's not right",
+                                        "fr": "That's not right",
+                                        "es": "That's not right"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "How frustrating... I think my inner eye had some dust in it",
+                                                "fr": "How frustrating... I think my inner eye had some dust in it",
+                                                "es": "How frustrating... I think my inner eye had some dust in it"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_Eye.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AstroIntroMeet",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nice to meet you",
+                "fr": "Nice to meet you",
+                "es": "Nice to meet you"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
+                        "fr": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
+                        "es": "I don't much like to show off... but let me show you how powerful I am in the mystic arts"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_Table.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have scanned the area where the stars and your soul overlap",
+                        "fr": "I have scanned the area where the stars and your soul overlap",
+                        "es": "I have scanned the area where the stars and your soul overlap"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_Body.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Prepare yourself for a psychic prediction!",
+                        "fr": "Prepare yourself for a psychic prediction!",
+                        "es": "Prepare yourself for a psychic prediction!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstroIntroMeetChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AstroIntroMeetReady",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm ready",
+                            "fr": "I'm ready",
+                            "es": "I'm ready"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I say boldly that you wear glasses!",
+                                    "fr": "I say boldly that you wear glasses!",
+                                    "es": "I say boldly that you wear glasses!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "AstroIntroMeetReadyChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "AstroIntroMeetReadyCorrect",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Correct! Amazing!",
+                                        "fr": "Correct! Amazing!",
+                                        "es": "Correct! Amazing!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The stars never lie",
+                                                "fr": "The stars never lie",
+                                                "es": "The stars never lie"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_StarMeditate.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "AstroIntroMeetReadyIncorrect",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That's not right",
+                                        "fr": "That's not right",
+                                        "es": "That's not right"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "How frustrating... I think my inner eye had some dust in it",
+                                                "fr": "How frustrating... I think my inner eye had some dust in it",
+                                                "es": "How frustrating... I think my inner eye had some dust in it"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530796166/Astro_Eye.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
