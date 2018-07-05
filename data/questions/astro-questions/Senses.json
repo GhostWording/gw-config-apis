@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "Senses",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/MoonSky.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are your senses awakened by the presence of others around you or by your inner energy?",
+        "fr": "Vos sens s'éveillent-ils plus par la présence des autres autour de vous ou par votre énergie intérieure ?",
+        "es": "¿Se despiertan tus sentidos más por la presencia de los demás o más por tu propia energía?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SensesOthers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Presence of others",
+        "fr": "Par les autres",
+        "es": "Para los otros"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "v2Y5T0U5pB60w"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SensesEnergy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Inner energy",
+        "fr": "Votre énergie",
+        "es": "Tu propia energía"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l4FGDAx6u3hthMhgI"
+          }
+        }
+      ]
+    }
+  ]
+}
