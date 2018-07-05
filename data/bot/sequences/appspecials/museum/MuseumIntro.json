@@ -120,7 +120,7 @@
         },
         {
             "Type": "Node",
-            "Id": "MuseumMaybe",
+            "Id": "MuseumIntroMaybe",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Possibly",
@@ -154,12 +154,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "MuseumMaybeChoice",
+                "Id": "MuseumIntroMaybeChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "MuseumMaybeYes",
+                        "Id": "MuseumIntroMaybeYes",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm convinced",
@@ -187,7 +187,7 @@
                     },
                     {
                         "Type": "Leaf",
-                        "Id": "MuseumMaybeNot",
+                        "Id": "MuseumIntroMaybeNot",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm not convinced",
