@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "AppearanceMatters",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/TreeSky.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is your physical appearance important to you?",
+        "fr": "Est-ce que ton apparence physique est importante pour toi ?",
+        "es": "¿Es tu apariencia física importante para ti?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesAppearanceMatters",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l0MYyHHapr8nWKloc"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoAppearanceMatters",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "7M7tYqjjZZO3S"
+            }
+          }
+      ]
+    }
+  ]
+}
