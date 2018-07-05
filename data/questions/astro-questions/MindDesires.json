@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "MindDesires",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/BlueTree.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do your instinctive desires often conflict with your rational side?",
+        "fr": "Est-ce que tes désirs rentrent souvent en conflit avec ton esprit ?",
+        "es": "¿Tus deseos a menudo entran en conflicto con tu mente?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesMindDesires",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "NbgeJftsErO5q"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoMindDesires",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "13uqSsDkBBbgg8"
+            }
+          }
+      ]
+    }
+  ]
+}
