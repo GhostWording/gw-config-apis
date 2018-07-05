@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "PracticalBrain",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/LightNight.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would people say that you possess a practical, methodical brain?",
+        "fr": "Est-ce que les gens diraient que tu as une intelligence pratique, méthodique ?",
+        "es": "¿Diría la gente que tienes una mente práctica y metódica?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesPracticalBrain",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ZThQqlxY5BXMc"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoPracticalBrain",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "gJwndwkdZ2umk"
+            }
+          }
+      ]
+    }
+  ]
+}
