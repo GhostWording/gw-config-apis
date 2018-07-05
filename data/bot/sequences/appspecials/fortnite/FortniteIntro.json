@@ -75,7 +75,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "FortniteIntroYesSad",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -103,7 +103,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "FortniteIntroYesWont",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -189,7 +189,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "FortniteMaybeSad",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -217,7 +217,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "FortniteMaybeWont",
                         "ElementValue": "1",
                         "CommandLabel": {
