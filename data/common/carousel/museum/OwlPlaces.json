@@ -1,0 +1,28 @@
+{
+    "Id": "OwlPlaces",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "⚔ 🏛",
+                "fr": "⚔ 🏛",
+                "es": "⚔ 🏛"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530787562/RomanPeriod.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "🌋🦖",
+                "fr": "🌋🦖",
+                "es": "🌋🦖"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530787558/DinosaurPeriod.jpg"
+            }
+        }
+    ]
+}
