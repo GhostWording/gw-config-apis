@@ -1,0 +1,213 @@
+{
+    "Type": "Node",
+    "Id": "MuseumIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi!",
+                "fr": "Hi!",
+                "es": "Hi!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I am an owl, and that means I am wise 🦉",
+                "fr": "I am an owl, and that means I am wise 🦉",
+                "es": "I am an owl, and that means I am wise 🦉"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MuseumIntroYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Right!",
+                "fr": "Right!",
+                "es": "Right!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have been around in every era",
+                        "fr": "I have been around in every era",
+                        "es": "I have been around in every era"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/museum/OwlPlaces.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Because of this, I know about every artwork to have ever existed",
+                        "fr": "Because of this, I know about every artwork to have ever existed",
+                        "es": "Because of this, I know about every artwork to have ever existed"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MuseumIntroYesChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "MuseumIntroYesYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm convinced",
+                            "fr": "I'm convinced",
+                            "es": "I'm convinced"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Good. I have fantastic stories to tell about them...",
+                                    "fr": "Good. I have fantastic stories to tell about them...",
+                                    "es": "Good. I have fantastic stories to tell about them..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely...",
+                                    "fr": "Listen closely...",
+                                    "es": "Listen closely..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "MuseumIntroYesNot",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm not convinced",
+                            "fr": "I'm not convinced",
+                            "es": "I'm not convinced"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll prove it by telling you fantastic stories about them",
+                                    "fr": "I'll prove it by telling you fantastic stories about them",
+                                    "es": "I'll prove it by telling you fantastic stories about them"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely...",
+                                    "fr": "Listen closely...",
+                                    "es": "Listen closely..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MuseumMaybe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Possibly",
+                "fr": "Possibly",
+                "es": "Possibly"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Because of this, I know about every artwork to have ever existed",
+                        "fr": "Because of this, I know about every artwork to have ever existed",
+                        "es": "Because of this, I know about every artwork to have ever existed"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have been around in every era",
+                        "fr": "I have been around in every era",
+                        "es": "I have been around in every era"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MuseumMaybeChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "MuseumMaybeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm convinced",
+                            "fr": "I'm convinced",
+                            "es": "I'm convinced"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Good. I have fantastic stories to tell about them...",
+                                    "fr": "Good. I have fantastic stories to tell about them...",
+                                    "es": "Good. I have fantastic stories to tell about them..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely...",
+                                    "fr": "Listen closely...",
+                                    "es": "Listen closely..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "MuseumMaybeNot",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm not convinced",
+                            "fr": "I'm not convinced",
+                            "es": "I'm not convinced"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll prove it by telling you fantastic stories about them",
+                                    "fr": "I'll prove it by telling you fantastic stories about them",
+                                    "es": "I'll prove it by telling you fantastic stories about them"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Listen closely...",
+                                    "fr": "Listen closely...",
+                                    "es": "Listen closely..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
