@@ -1,0 +1,80 @@
+{
+  "Type": "Node",
+  "Id": "Future",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "questions/small/MoonSky.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"Are you curious about your future?",
+        "fr":"Voulez-vous connaître votre futur ?",
+        "es":"¿Quieres conocer a tu futuro?"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "FutureYes",
+      "CommandLabel": {
+        "en":"Yes",
+        "fr":"Oui",
+        "es":"Sí"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "Future",
+            "value": "FutureYes"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "FutureNo",
+      "CommandLabel": {
+        "en":"No",
+        "fr":"Non",
+        "es":"No"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "Future",
+            "value": "FutureNo"
+          }
+        }
+      ]
+    }
+  ]
+}
