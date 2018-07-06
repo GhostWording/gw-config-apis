@@ -1,0 +1,414 @@
+{
+    "Type": "Node",
+    "Id": "Mausoleum2",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The two statues above are from the very top of the monument, and are believed to be Mausolus and Artemisia themselves!",
+                "fr": "The two statues above are from the very top of the monument, and are believed to be Mausolus and Artemisia themselves!",
+                "es": "The two statues above are from the very top of the monument, and are believed to be Mausolus and Artemisia themselves!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Mausoleum2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "C'est un génie",
+                "es": "Es un genio"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Mausolus was a governor of a small region in the Persian Empire in the 4th Century BC",
+                        "fr": "Mausolus was a governor of a small region in the Persian Empire in the 4th Century BC",
+                        "es": "Mausolus was a governor of a small region in the Persian Empire in the 4th Century BC"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Before he died, he was determined to make a name for himself and cement his legacy",
+                        "fr": "Before he died, he was determined to make a name for himself and cement his legacy",
+                        "es": "Before he died, he was determined to make a name for himself and cement his legacy"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So how better to do that than build one of the biggest and most extravagant monuments the world had ever seen?",
+                        "fr": "So how better to do that than build one of the biggest and most extravagant monuments the world had ever seen?",
+                        "es": "So how better to do that than build one of the biggest and most extravagant monuments the world had ever seen?"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Mausoleum2MoreBig",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Mausoleum2MoreMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course",
+                            "fr": "Of course",
+                            "es": "Of course"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's located here (or what's left of it!)",
+                                    "fr": "It's located here (or what's left of it!)",
+                                    "es": "It's located here (or what's left of it!)"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "dZdXVP8TI9Wqqpc6dh"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But although he was from this area, he knew Greeks were the best at sculpture and architecture",
+                                    "fr": "But although he was from this area, he knew Greeks were the best at sculpture and architecture",
+                                    "es": "But although he was from this area, he knew Greeks were the best at sculpture and architecture"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So he hired four famous sculptors to do one side each of the monument!",
+                                    "fr": "So he hired four famous sculptors to do one side each of the monument!",
+                                    "es": "So he hired four famous sculptors to do one side each of the monument!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Mausoleum2MoreMoreFamous",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Mausoleum2MoreMoreSmart",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Smart plan",
+                                        "fr": "Smart plan",
+                                        "es": "Smart plan"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Right! And it paid off too... it was famous even in ancient times!",
+                                                "fr": "Right! And it paid off too... it was famous even in ancient times!",
+                                                "es": "Right! And it paid off too... it was famous even in ancient times!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Many authors, such as Pliny the Elder, wrote about it, and it was included in the Seven Ancient Wonders of the World",
+                                                "fr": "Many authors, such as Pliny the Elder, wrote about it, and it was included in the Seven Ancient Wonders of the World",
+                                                "es": "Many authors, such as Pliny the Elder, wrote about it, and it was included in the Seven Ancient Wonders of the World"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661083/wonders.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "In other words, the ancients found it just as awesome as we do now!",
+                                                "fr": "In other words, the ancients found it just as awesome as we do now!",
+                                                "es": "In other words, the ancients found it just as awesome as we do now!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Mausoleum2MoreMoreSmartAuthor",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Mausoleum2MoreMoreSmartMore",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Tell me more",
+                                                    "fr": "Tell me more",
+                                                    "es": "Tell me more"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "So the art... each side displays a classic battle scene... the best surviving is the Amazonomachy!",
+                                                            "fr": "So the art... each side displays a classic battle scene... the best surviving is the Amazonomachy!",
+                                                            "es": "So the art... each side displays a classic battle scene... the best surviving is the Amazonomachy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661231/Amazonomachy.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Lots of this is currently in the British Museum, and it is exquisite!",
+                                                            "fr": "Lots of this is currently in the British Museum, and it is exquisite!",
+                                                            "es": "Lots of this is currently in the British Museum, and it is exquisite!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "Mausoleum2MoreMoreSmartMoreCurrent",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Node",
+                                                            "Id": "Mausoleum2MoreMoreSmartMoreMore",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Tell me about it!",
+                                                                "fr": "Tell me about it!",
+                                                                "es": "Tell me about it!"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "The sculptors really went all out... every figure is contorted, twisted and stretched",
+                                                                        "fr": "The sculptors really went all out... every figure is contorted, twisted and stretched",
+                                                                        "es": "The sculptors really went all out... every figure is contorted, twisted and stretched"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "They're in the most dramatic poses possible... showing intense emotion and agony",
+                                                                        "fr": "They're in the most dramatic poses possible... showing intense emotion and agony",
+                                                                        "es": "They're in the most dramatic poses possible... showing intense emotion and agony"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661363/AmazonomachyPoses.jpg"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "LinksTo": {
+                                                                "Type": "Node",
+                                                                "Id": "Mausoleum2MoreMoreSmartMoreMorePose",
+                                                                "ElementValue": "1",
+                                                                "Commands": [
+                                                                    {
+                                                                        "Type": "Leaf",
+                                                                        "Id": "Mausoleum2MoreMoreSmartMoreMoreMore",
+                                                                        "ElementValue": "1",
+                                                                        "CommandLabel": {
+                                                                            "en": "Tell me about it!",
+                                                                            "fr": "Tell me about it!",
+                                                                            "es": "Tell me about it!"
+                                                                        },
+                                                                        "Steps": [
+                                                                            {
+                                                                                "Type": "Text",
+                                                                                "Label": {
+                                                                                    "en": "It might remind you of baroque art from the 1600s, such as this sculpture by Bernini...",
+                                                                                    "fr": "It might remind you of baroque art from the 1600s, such as this sculpture by Bernini...",
+                                                                                    "es": "It might remind you of baroque art from the 1600s, such as this sculpture by Bernini..."
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "Type": "Image",
+                                                                                "Parameters": {
+                                                                                    "Source": "Web",
+                                                                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661766/saint_teresa.jpg"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "Type": "Text",
+                                                                                "Label": {
+                                                                                    "en": "I can't say everything about it here... you can find it displayed in room 21!",
+                                                                                    "fr": "I can't say everything about it here... you can find it displayed in room 21!",
+                                                                                    "es": "I can't say everything about it here... you can find it displayed in room 21!"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "Type": "Image",
+                                                                                "Parameters": {
+                                                                                    "Source": "Web",
+                                                                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "Type": "Leaf",
+                                                                        "Id": "Mausoleum2MoreMoreSmartMoreMoreEnough",
+                                                                        "ElementValue": "1",
+                                                                        "CommandLabel": {
+                                                                            "en": "That's enough",
+                                                                            "fr": "That's enough",
+                                                                            "es": "That's enough"
+                                                                        },
+                                                                        "Steps": [
+                                                                            {
+                                                                                "Type": "Text",
+                                                                                "Label": {
+                                                                                    "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                                                                                    "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                                                                                    "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "Type": "Image",
+                                                                                "Parameters": {
+                                                                                    "Source": "Web",
+                                                                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "Mausoleum2MoreMoreSmartMoreEnough",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "That's enough",
+                                                                "fr": "That's enough",
+                                                                "es": "That's enough"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                                                                        "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                                                                        "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Mausoleum2MoreMoreSmartEnough",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "That's enough",
+                                                    "fr": "That's enough",
+                                                    "es": "That's enough"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                                                            "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                                                            "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Mausoleum2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's enough",
+                "fr": "That's enough",
+                "es": "That's enough"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                        "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                        "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+                    }
+                }
+            ]
+        }
+    ]
+}
