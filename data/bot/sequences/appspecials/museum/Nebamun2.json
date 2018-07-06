@@ -1,0 +1,602 @@
+{
+    "Type": "Node",
+    "Id": "Nebamun2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's important to remember that only the rich, scribes and priests, could read",
+                "fr": "It's important to remember that only the rich, scribes and priests, could read",
+                "es": "It's important to remember that only the rich, scribes and priests, could read"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                "fr": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                "es": "And so Nebamun is bragging to other elites how fantastic his life was!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Nebamun2Showoff",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a showoff...",
+                "fr": "What a showoff...",
+                "es": "What a showoff..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Agreed! He shows off his beautiful wife and daughter...",
+                        "fr": "Agreed! He shows off his beautiful wife and daughter...",
+                        "es": "Agreed! He shows off his beautiful wife and daughter..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022112/NebamunFamily.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His skill in hunting and exploring...",
+                        "fr": "His skill in hunting and exploring...",
+                        "es": "His skill in hunting and exploring..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And his super talented cat!",
+                        "fr": "And his super talented cat!",
+                        "es": "And his super talented cat!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530028644/NebamunCat.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Nebamun2ShowoffQuestion",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Nebamun2ShowoffMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me more!",
+                            "fr": "Tell me more!",
+                            "es": "Tell me more!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How do you show age and status and power in a painting?",
+                                    "fr": "How do you show age and status and power in a painting?",
+                                    "es": "How do you show age and status and power in a painting?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With relative size, of course!",
+                                    "fr": "With relative size, of course!",
+                                    "es": "With relative size, of course!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!",
+                                    "fr": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!",
+                                    "es": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Nebamun2ShowoffMoreQuestion",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Nebamun2ShowoffMoreSense",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Makes sense!",
+                                        "fr": "Makes sense!",
+                                        "es": "Makes sense!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!",
+                                                "fr": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!",
+                                                "es": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "But realism is less fun than showing off every one of your skills at the same time!",
+                                                "fr": "But realism is less fun than showing off every one of your skills at the same time!",
+                                                "es": "But realism is less fun than showing off every one of your skills at the same time!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!",
+                                                "fr": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!",
+                                                "es": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022111/NebamunHiero.jpg"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Nebamun2ShowoffMoreSenseQuestion",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Nebamun2ShowoffMoreSenseMore",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Tell me more!",
+                                                    "fr": "Tell me more!",
+                                                    "es": "Tell me more!"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "You might also notice how there's barely any empty space...",
+                                                            "fr": "You might also notice how there's barely any empty space...",
+                                                            "es": "You might also notice how there's barely any empty space..."
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase",
+                                                            "fr": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase",
+                                                            "es": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530030196/horror_vacui_dipylon.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!",
+                                                            "fr": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!",
+                                                            "es": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "Nebamun2ShowoffMoreSenseMoreQuestion",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "Nebamun2ShowoffMoreSenseMoreThanks",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Thanks!",
+                                                                "fr": "Thanks!",
+                                                                "es": "Thanks!"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                                        "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                                        "es": "I only showed you a fraction of what we have on Nebamun's tomb"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "You can see all the rest in the British Museum, room 61",
+                                                                        "fr": "You can see all the rest in the British Museum, room 61",
+                                                                        "es": "You can see all the rest in the British Museum, room 61"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Nebamun2ShowoffEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's enough",
+                            "fr": "That's enough",
+                            "es": "That's enough"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK 😊",
+                                    "fr": "OK 😊",
+                                    "es": "OK 😊"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                    "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                    "es": "I only showed you a fraction of what we have on Nebamun's tomb"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You can see all the rest in the British Museum, room 61",
+                                    "fr": "You can see all the rest in the British Museum, room 61",
+                                    "es": "You can see all the rest in the British Museum, room 61"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Nebamun2How",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How exactly?",
+                "fr": "How exactly?",
+                "es": "How exactly?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, he shows off his beautiful wife and daughter...",
+                        "fr": "Well, he shows off his beautiful wife and daughter...",
+                        "es": "Well, he shows off his beautiful wife and daughter..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022112/NebamunFamily.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His skill in hunting and exploring...",
+                        "fr": "His skill in hunting and exploring...",
+                        "es": "His skill in hunting and exploring..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And his super talented cat!",
+                        "fr": "And his super talented cat!",
+                        "es": "And his super talented cat!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530028644/NebamunCat.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Nebamun2HowQuestion",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Nebamun2HowMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me more!",
+                            "fr": "Tell me more!",
+                            "es": "Tell me more!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How do you show age and status and power in a painting?",
+                                    "fr": "How do you show age and status and power in a painting?",
+                                    "es": "How do you show age and status and power in a painting?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With relative size, of course!",
+                                    "fr": "With relative size, of course!",
+                                    "es": "With relative size, of course!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!",
+                                    "fr": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!",
+                                    "es": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Nebamun2HowMoreQuestion",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Nebamun2HowMoreSense",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Makes sense!",
+                                        "fr": "Makes sense!",
+                                        "es": "Makes sense!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!",
+                                                "fr": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!",
+                                                "es": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "But realism is less fun than showing off every one of your skills at the same time!",
+                                                "fr": "But realism is less fun than showing off every one of your skills at the same time!",
+                                                "es": "But realism is less fun than showing off every one of your skills at the same time!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!",
+                                                "fr": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!",
+                                                "es": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022111/NebamunHiero.jpg"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Nebamun2HowMoreSenseQuestion",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Nebamun2HowMoreSenseMore",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Tell me more!",
+                                                    "fr": "Tell me more!",
+                                                    "es": "Tell me more!"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "You might also notice how there's barely any empty space...",
+                                                            "fr": "You might also notice how there's barely any empty space...",
+                                                            "es": "You might also notice how there's barely any empty space..."
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase",
+                                                            "fr": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase",
+                                                            "es": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530030196/horror_vacui_dipylon.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!",
+                                                            "fr": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!",
+                                                            "es": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "Nebamun2HowMoreSenseMoreQuestion",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "Nebamun2HowMoreSenseMoreThanks",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Thanks!",
+                                                                "fr": "Thanks!",
+                                                                "es": "Thanks!"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                                        "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                                        "es": "I only showed you a fraction of what we have on Nebamun's tomb"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "You can see all the rest in the British Museum, room 61",
+                                                                        "fr": "You can see all the rest in the British Museum, room 61",
+                                                                        "es": "You can see all the rest in the British Museum, room 61"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Nebamun2Enough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's enough",
+                            "fr": "That's enough",
+                            "es": "That's enough"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK 😊",
+                                    "fr": "OK 😊",
+                                    "es": "OK 😊"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                    "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                    "es": "I only showed you a fraction of what we have on Nebamun's tomb"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You can see all the rest in the British Museum, room 61",
+                                    "fr": "You can see all the rest in the British Museum, room 61",
+                                    "es": "You can see all the rest in the British Museum, room 61"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
