@@ -122,54 +122,44 @@
                                         "fr": "Tell me more!",
                                         "es": "Tell me more!"
                                     },
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Nebamun2"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "NebamunCorrectHowEnough",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That's enough",
-                                        "fr": "That's enough",
-                                        "es": "That's enough"
-                                    },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "OK 😊",
-                                                "fr": "OK 😊",
-                                                "es": "OK 😊"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                                "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                                "es": "I only showed you a fraction of what we have on Nebamun's tomb"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You can see all the rest in the British Museum, room 61",
-                                                "fr": "You can see all the rest in the British Museum, room 61",
-                                                "es": "You can see all the rest in the British Museum, room 61"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
-                                            "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                                "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                                "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                                "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Nebamun2"
+                                    }
                                 }
                             ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NebamunCorrectDetails",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Give me details!",
+                            "fr": "Give me details!",
+                            "es": "Give me details!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                    "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                    "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Nebamun2"
                         }
                     }
                 ]
@@ -188,9 +178,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Not quite!",
-                        "fr": "Not quite!",
-                        "es": "Not quite!"
+                        "en": "No I'm afraid not",
+                        "fr": "No I'm afraid not",
+                        "es": "No I'm afraid not"
                     }
                 },
                 {
@@ -278,54 +268,44 @@
                                         "fr": "Tell me more!",
                                         "es": "Tell me more!"
                                     },
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Nebamun2"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "NebamunCorrectHowEnough",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That's enough",
-                                        "fr": "That's enough",
-                                        "es": "That's enough"
-                                    },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "OK 😊",
-                                                "fr": "OK 😊",
-                                                "es": "OK 😊"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                                "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
-                                                "es": "I only showed you a fraction of what we have on Nebamun's tomb"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You can see all the rest in the British Museum, room 61",
-                                                "fr": "You can see all the rest in the British Museum, room 61",
-                                                "es": "You can see all the rest in the British Museum, room 61"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
-                                            "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                                "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                                "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                                "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Nebamun2"
+                                    }
                                 }
                             ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NebamunFalseDetails",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Give me details!",
+                            "fr": "Give me details!",
+                            "es": "Give me details!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                    "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                                    "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Nebamun2"
                         }
                     }
                 ]
