@@ -1,1 +1,146 @@
-
+[
+  {
+    "Id": "Aries",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_548522368.jpg"
+    },
+    "Labels": {
+      "en": "Aries",
+      "fr": "Bélier",
+      "es": "Aries"
+    }
+  },
+  {
+    "Id": "Taurus",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_548521537.jpg"
+    },
+    "Labels": {
+      "en": "Taurus",
+      "fr": "Taureau",
+      "es": "Tauro"
+    }
+  },
+  {
+    "Id": "Gemini",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_554583379.jpg"
+    },
+    "Labels": {
+      "en": "Gemini",
+      "fr": "Gémeaux",
+      "es": "Géminis"
+    }
+  },
+  {
+    "Id": "Cancer",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_551266849.jpg"
+    },
+    "Labels": {
+      "en": "Cancer",
+      "fr": "Cancer",
+      "es": "Cáncer"
+    }
+  },
+  {
+    "Id": "Leo",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_548584465.jpg"
+    },
+    "Labels": {
+      "en": "Leo",
+      "fr": "Lion",
+      "es": "Leo"
+    }
+  },
+  {
+    "Id": "Virgo",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_555862066.jpg"
+    },
+    "Labels": {
+      "en": "Virgo",
+      "fr": "Vierge",
+      "es": "Virgo"
+    }
+  },
+  {
+    "Id": "Libra",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_554561449.jpg"
+    },
+    "Labels": {
+      "en": "Libra",
+      "fr": "Balance",
+      "es": "Libra"
+    }
+  },
+  {
+    "Id": "Scorpio",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_551941993.jpg"
+    },
+    "Labels": {
+      "en": "Scorpio",
+      "fr": "Scorpion",
+      "es": "Escorpio"
+    }
+  },
+  {
+    "Id": "Sagittarius",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_551787661.jpg"
+    },
+    "Labels": {
+      "en": "Sagittarius",
+      "fr": "Sagittaire",
+      "es": "Sagitario"
+    }
+  },
+  {
+    "Id": "Capricorn",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+    },
+    "Labels": {
+      "en": "Capricorn",
+      "fr": "Capricorne",
+      "es": "Capricornio"
+    }
+  },
+  {
+    "Id": "Aquarius",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_549441640.jpg"
+    },
+    "Labels": {
+      "en": "Aquarius",
+      "fr": "Verseau",
+      "es": "Acuario"
+    }
+  },
+  {
+    "Id": "Pisces",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "themes/emojiAstro/small/shutterstock_555415696.jpg"
+    },
+    "Labels": {
+      "en": "Pisces",
+      "fr": "Poissons",
+      "es": "Piscis"
+    }
+  }
+]
