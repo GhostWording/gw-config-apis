@@ -1,0 +1,335 @@
+{
+    "Type": "Node",
+    "Id": "Nebamun",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you know the identity of this man?",
+                "fr": "Do you know the identity of this man?",
+                "es": "Do you know the identity of this man?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NebamunCorrect",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nebamun",
+                "fr": "Nebamun",
+                "es": "Nebamun"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes! 😃",
+                        "fr": "Yes! 😃",
+                        "es": "Yes! 😃"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+                        "fr": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+                        "es": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "FDu0PDP5q0aJGIkiED"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+                        "fr": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+                        "es": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NebamunCorrectQuestion",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NebamunCorrectHow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How was it found?",
+                            "fr": "How was it found?",
+                            "es": "How was it found?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                                    "fr": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                                    "es": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Amazingly, he died before revealing the location of the tomb...",
+                                    "fr": "Amazingly, he died before revealing the location of the tomb...",
+                                    "es": "Amazingly, he died before revealing the location of the tomb..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So the tomb was lost... found... and then lost again!",
+                                    "fr": "So the tomb was lost... found... and then lost again!",
+                                    "es": "So the tomb was lost... found... and then lost again!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "NebamunCorrectHowQuestion",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "NebamunCorrectHowMore",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Tell me more!",
+                                        "fr": "Tell me more!",
+                                        "es": "Tell me more!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Nebamun2"
+                                    }
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "NebamunCorrectHowEnough",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That's enough",
+                                        "fr": "That's enough",
+                                        "es": "That's enough"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "OK 😊",
+                                                "fr": "OK 😊",
+                                                "es": "OK 😊"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                "es": "I only showed you a fraction of what we have on Nebamun's tomb"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You can see all the rest in the British Museum, room 61",
+                                                "fr": "You can see all the rest in the British Museum, room 61",
+                                                "es": "You can see all the rest in the British Museum, room 61"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "NebamunFalse",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "King Arthur",
+                "fr": "King Arthur",
+                "es": "King Arthur"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite!",
+                        "fr": "Not quite!",
+                        "es": "Not quite!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+                        "fr": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+                        "es": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "FDu0PDP5q0aJGIkiED"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+                        "fr": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+                        "es": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NebamunFalseQuestion",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NebamunFalseHow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How was it found?",
+                            "fr": "How was it found?",
+                            "es": "How was it found?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                                    "fr": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                                    "es": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Amazingly, he died before revealing the location of the tomb...",
+                                    "fr": "Amazingly, he died before revealing the location of the tomb...",
+                                    "es": "Amazingly, he died before revealing the location of the tomb..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So the tomb was lost... found... and then lost again!",
+                                    "fr": "So the tomb was lost... found... and then lost again!",
+                                    "es": "So the tomb was lost... found... and then lost again!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "NebamunFalseHowQuestion",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "NebamunFalseHowMore",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Tell me more!",
+                                        "fr": "Tell me more!",
+                                        "es": "Tell me more!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Nebamun2"
+                                    }
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "NebamunCorrectHowEnough",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That's enough",
+                                        "fr": "That's enough",
+                                        "es": "That's enough"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "OK 😊",
+                                                "fr": "OK 😊",
+                                                "es": "OK 😊"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                "fr": "I only showed you a fraction of what we have on Nebamun's tomb",
+                                                "es": "I only showed you a fraction of what we have on Nebamun's tomb"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You can see all the rest in the British Museum, room 61",
+                                                "fr": "You can see all the rest in the British Museum, room 61",
+                                                "es": "You can see all the rest in the British Museum, room 61"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
