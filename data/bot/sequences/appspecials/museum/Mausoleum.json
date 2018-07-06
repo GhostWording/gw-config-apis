@@ -1,0 +1,356 @@
+{
+    "Type": "Node",
+    "Id": "Mausoleum",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What would you call this?",
+                "fr": "What would you call this?",
+                "es": "What would you call this?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660241/mausoleum_drawing.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MausoleumCorrect",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A mausoleum",
+                "fr": "A mausoleum",
+                "es": "A mausoleum"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct! 😃",
+                        "fr": "Correct! 😃",
+                        "es": "Correct! 😃"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But did you know where the word originates from?",
+                        "fr": "But did you know where the word originates from?",
+                        "es": "But did you know where the word originates from?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MausoleumCorrectWord",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MausoleumCorrectNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "From Mausolus himself!",
+                                    "fr": "From Mausolus himself!",
+                                    "es": "From Mausolus himself!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "fr": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "es": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Mausoleum2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MausoleumCorrectYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right... from Mausolus himself!",
+                                    "fr": "Right... from Mausolus himself!",
+                                    "es": "Right... from Mausolus himself!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "fr": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "es": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Mausoleum2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MausoleumBike",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A bicycle",
+                "fr": "A bicycle",
+                "es": "A bicycle"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hmm 🤨 not quite! It's a mausoleum!",
+                        "fr": "Hmm 🤨 not quite! It's a mausoleum!",
+                        "es": "Hmm 🤨 not quite! It's a mausoleum!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But did you know where the word originates from?",
+                        "fr": "But did you know where the word originates from?",
+                        "es": "But did you know where the word originates from?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MausoleumBikeWord",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MausoleumBikeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "From Mausolus himself!",
+                                    "fr": "From Mausolus himself!",
+                                    "es": "From Mausolus himself!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "fr": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "es": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Mausoleum2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MausoleumBikeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right... from Mausolus himself!",
+                                    "fr": "Right... from Mausolus himself!",
+                                    "es": "Right... from Mausolus himself!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "fr": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "es": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Mausoleum2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MausoleumSalad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A salad",
+                "fr": "A salad",
+                "es": "A salad"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hmm 🤨 not quite! It's a mausoleum!",
+                        "fr": "Hmm 🤨 not quite! It's a mausoleum!",
+                        "es": "Hmm 🤨 not quite! It's a mausoleum!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But did you know where the word originates from?",
+                        "fr": "But did you know where the word originates from?",
+                        "es": "But did you know where the word originates from?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MausoleumSaladWord",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MausoleumSaladNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "From Mausolus himself!",
+                                    "fr": "From Mausolus himself!",
+                                    "es": "From Mausolus himself!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "fr": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "es": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Mausoleum2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MausoleumSaladYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right... from Mausolus himself!",
+                                    "fr": "Right... from Mausolus himself!",
+                                    "es": "Right... from Mausolus himself!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "fr": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
+                                    "es": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Mausoleum2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
