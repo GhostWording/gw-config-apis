@@ -7,9 +7,9 @@
       "Path": "imagePath1.jpg"
     },
     "PeriodSequencePath" : "periodPath1.json",
-    "ArtworkList" : [
-        {"Path": "data/.../artworkPath1.json"},
-        {"Path": "data/.../artworkPath2.json"}
+    "Artworks" : [
+        {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath1.json"},
+        {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath2.json"}
     ]
   },
   {
@@ -20,9 +20,9 @@
       "Path": "imagePath2.jpg"
     },
     "PeriodSequencePath" : "periodPath1.json",
-    "ArtworkList" : [
-      {"Path": "data/.../artworkPath3.json"},
-      {"Path": "data/.../artworkPath4.json"}
+    "Artworks" : [
+      {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath3.json"},
+      {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath4.json"}
     ]
   }
 ]
