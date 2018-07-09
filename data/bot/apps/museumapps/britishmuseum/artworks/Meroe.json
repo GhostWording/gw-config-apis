@@ -1,0 +1,11 @@
+[
+  {
+    "Id": "artwork1",
+    "Caption": "caption1",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "imagePath1.jpg"
+    },
+    "SequencePath" : "data/bot/sequences/appspecials/museum/path1.json"
+  }
+]
