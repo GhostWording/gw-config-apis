@@ -1,0 +1,28 @@
+[
+  {
+    "Id": "period1",
+    "Caption": "caption1",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "imagePath1.jpg"
+    },
+    "PeriodSequencePath" : "periodPath1.json",
+    "ArtworkList" : [
+        {"Path": "data/.../artworkPath1.json"},
+        {"Path": "data/.../artworkPath2.json"}
+    ]
+  },
+  {
+    "Id": "period2",
+    "Caption": "caption2",
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "imagePath2.jpg"
+    },
+    "PeriodSequencePath" : "periodPath1.json",
+    "ArtworkList" : [
+      {"Path": "data/.../artworkPath3.json"},
+      {"Path": "data/.../artworkPath4.json"}
+    ]
+  }
+]
