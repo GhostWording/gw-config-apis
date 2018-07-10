@@ -1,14 +1,14 @@
 [
   {
-    "Id": "period1",
-    "Caption": "caption1",
+    "Id": "Rome",
+    "Caption": "Ancient Rome",
     "DefaultImage": {
       "Type": "Image",
       "Path": "imagePath1.jpg"
     },
     "PeriodSequencePath" : "periodPath1.json",
     "Artworks" : [
-        {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath1.json"},
+        {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/Meroe.json"},
         {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath2.json"}
     ]
   },
