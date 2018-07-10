@@ -31,6 +31,14 @@
       "Parameters": {
         "Path": "/data/common/carousel/fortnite/TypeOfWeapon.json"
       }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Follow that order when swapping out weapons!",
+        "fr": "Follow that order when swapping out weapons!",
+        "es": "Follow that order when swapping out weapons!"
+      }
     }
   ],
   "Commands": [
