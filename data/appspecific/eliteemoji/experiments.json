@@ -3,10 +3,10 @@
         { 
             "Name": "NotificationAlert",
             "Variations": {
+                "0" : "CustomAlert", 
                 "1" : "CustomAlert", 
-                "2" : "CustomAlert", 
-                "3" : "SystemAlert", 
-                "4" : "SystemAlert"
+                "2" : "SystemAlert", 
+                "3" : "SystemAlert"
             }
         }
     ]
