@@ -1,28 +1,84 @@
 [
   {
     "Id": "Rome",
-    "Caption": "Ancient Rome",
-    "DefaultImage": {
+    "Caption": {
+      "en": "Ancient Rome",
+      "fr": "Rome antique",
+      "es" : "Roma antigua"
+    },
+      "DefaultImage": {
       "Type": "Image",
-      "Path": "imagePath1.jpg"
+      "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
     },
     "PeriodSequencePath" : "periodPath1.json",
     "Artworks" : [
-        {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/Meroe.json"},
-        {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath2.json"}
+        {
+          "Id": "Meroe",
+          "Caption": {
+            "en": "Meroe head",
+            "fr": "Tête de Meroe",
+            "es" : "Cabeza de Meroe"
+          },
+          "DefaultImage": {
+            "Type": "Image",
+            "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+          },
+          "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+        },
+        {
+          "Id": "Artowrk2",
+          "Caption": {
+            "en": "Artowrk 2",
+            "fr": "Oeuvre 2",
+            "es" : "Obra 2"
+          },
+          "DefaultImage": {
+            "Type": "Image",
+            "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+          },
+          "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+        }
     ]
   },
   {
     "Id": "period2",
-    "Caption": "caption2",
+    "Caption": {
+      "en": "Period 2",
+      "fr": "Période 2",
+      "es" : "Período 2"
+    },
     "DefaultImage": {
       "Type": "Image",
       "Path": "imagePath2.jpg"
     },
     "PeriodSequencePath" : "periodPath1.json",
     "Artworks" : [
-      {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath3.json"},
-      {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath4.json"}
-    ]
+      {
+        "Id": "Meroe",
+        "Caption": {
+          "en": "Meroe head",
+          "fr": "Tête de Meroe",
+          "es" : "Cabeza de Meroe"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+        },
+        "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+      },
+      {
+        "Id": "Artowrk2",
+        "Caption": {
+          "en": "Artowrk 2",
+          "fr": "Oeuvre 2",
+          "es" : "Obra 2"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+        },
+        "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+      }
+  ]
   }
 ]
