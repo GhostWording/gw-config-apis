@@ -1,1 +1,12 @@
-
+[
+  {
+    "GroupName":"BritishMuseum",
+    "SequenceFiles" : [
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
+      ]
+   }
+]
