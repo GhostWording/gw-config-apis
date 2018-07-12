@@ -12,11 +12,11 @@
   "Sequences" : [
     {
       "Type" : "Intro",
-      "Path" : "data/bot/sequences/appspecials/museum/museumIntro.json"
+      "Id" : "BestTestFragmentEver"
     },
     {
       "Type" : "type2",
-      "Path" : "data/bot/sequences/appspecials/museum/museumSequence2.json"
+      "Id" : "BestTestFragmentEver"
     }
   ],
   "Artworks" : [
@@ -31,7 +31,7 @@
         "Type": "Image",
         "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
       },
-      "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+      "SequenceId": "BestTestFragmentEver"
     },
     {
       "Id": "Artowrk2",
@@ -44,7 +44,7 @@
         "Type": "Image",
         "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
       },
-      "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+      "SequenceId": "BestTestFragmentEver"
     }
   ]
 }
