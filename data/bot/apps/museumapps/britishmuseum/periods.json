@@ -10,7 +10,7 @@
       "Type": "Image",
       "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
     },
-    "PeriodSequence" : "BestTestFragmentEver",
+    "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {
         "Id": "Meroe",
@@ -23,7 +23,7 @@
             "Type": "Image",
             "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
           },
-          "Sequence": "BestTestFragmentEver"
+          "SequenceId": "BestTestFragmentEver"
       },
       {
         "Id": "Artowrk2",
@@ -36,7 +36,7 @@
           "Type": "Image",
           "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
         },
-        "Sequence": "BestTestFragmentEver"
+        "SequenceId": "BestTestFragmentEver"
       }
     ]
   },
@@ -51,7 +51,7 @@
       "Type": "Image",
       "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
     },
-    "PeriodSequence" : "BestTestFragmentEver",
+    "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {
         "Id": "Meroe",
@@ -64,7 +64,7 @@
           "Type": "Image",
           "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
         },
-        "Sequence": "BestTestFragmentEver"
+        "SequenceId": "BestTestFragmentEver"
       },
       {
         "Id": "Artowrk2",
@@ -77,7 +77,7 @@
           "Type": "Image",
           "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
         },
-        "Sequence": "BestTestFragmentEver"
+        "SequenceId": "BestTestFragmentEver"
       }
     ]
   }
