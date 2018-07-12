@@ -1,0 +1,22 @@
+{
+  "Id": "BritishMuseum",
+  "Caption": "British Museum",
+  "DefaultImage": {
+    "Type": "Image",
+    "Path": "imagePath1.jpg"
+  },
+  "Artworks" : [
+    {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/Meroe.json"},
+    {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath2.json"}
+  ],
+  "Sequences" : [
+    {
+      "Type" : "Intro",
+      "Path" : "data/bot/sequences/appspecials/museum/museumIntro.json"
+    },
+    {
+      "Type" : "type2",
+      "Path" : "data/bot/sequences/appspecials/museum/museumSequence2.json"
+    }
+  ]
+}
