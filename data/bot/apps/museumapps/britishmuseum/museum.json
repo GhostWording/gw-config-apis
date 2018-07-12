@@ -1,16 +1,14 @@
 {
   "Id": "BritishMuseum",
-  "Caption": "British Museum",
+  "Caption": {
+    "en": "British Museum",
+    "fr": "British Museum",
+    "es" : "British Museum"
+  },
   "DefaultImage": {
     "Type": "Image",
-    "Path": "imagePath1.jpg"
+    "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
   },
-  "Artworks" : [
-    {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/Meroe.json"},
-    {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath2.json"},
-    {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath3.json"},
-    {"Path": "data/bot/apps/museumapps/britishmuseum/artworks/artworkPath4.json"}
-  ],
   "Sequences" : [
     {
       "Type" : "Intro",
@@ -19,6 +17,34 @@
     {
       "Type" : "type2",
       "Path" : "data/bot/sequences/appspecials/museum/museumSequence2.json"
+    }
+  ],
+  "Artworks" : [
+    {
+      "Id": "Meroe",
+      "Caption": {
+        "en": "Meroe head",
+        "fr": "Tête de Meroe",
+        "es" : "Cabeza de Meroe"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+      },
+      "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
+    },
+    {
+      "Id": "Artowrk2",
+      "Caption": {
+        "en": "Artowrk 2",
+        "fr": "Oeuvre 2",
+        "es" : "Obra 2"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+      },
+      "SequencePath": "data/bot/sequences/appspecials/museum/Meroe.json"
     }
   ]
 }
