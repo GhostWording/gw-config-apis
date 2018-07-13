@@ -1,237 +1,245 @@
 {
-  "Type": "Node",
-  "Id": "Chatelet1",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "As I’m sure you know, the Place Du Chatelet is bang in the centre of Paris, just north of the Ile de la Cite",
-        "fr": "As I’m sure you know, the Place Du Chatelet is bang in the centre of Paris, just north of the Ile de la Cite",
-        "es": "As I’m sure you know, the Place Du Chatelet is bang in the centre of Paris, just north of the Ile de la Cite"
-      }
-    },
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Giphy",
-        "Path": "1ylPeNqPw5MBxVfXP8"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Chatelet1Right",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Right",
-        "fr": "Right",
-        "es": "Right"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Chatelet1",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "But, in fact, it used to be right at the north edge!",
-            "fr": "But, in fact, it used to be right at the north edge!",
-            "es": "But, in fact, it used to be right at the north edge!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "As I’m sure you know, the Place Du Châtelet is bang in the centre of Paris, just north of the Ile de la Cite",
+                "fr": "As I’m sure you know, the Place Du Châtelet is bang in the centre of Paris, just north of the Ile de la Cite",
+                "es": "As I’m sure you know, the Place Du Châtelet is bang in the centre of Paris, just north of the Ile de la Cite"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "The ‘chatelet’ it gets its name from was the north gate.",
-            "fr": "The ‘chatelet’ it gets its name from was the north gate.",
-            "es": "The ‘chatelet’ it gets its name from was the north gate."
-          }
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "1ylPeNqPw5MBxVfXP8"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1531481431/Chatelet9th.jpg"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "...",
+                "fr": "...",
+                "es": "..."
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Chatelet1RightCentre",
-        "ElementValue": "1",
-        "Commands": [
-          {
+    ],
+    "Commands": [
+        {
             "Type": "Node",
-            "Id": "Chatelet1RightCool",
+            "Id": "Chatelet1Right",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Cool",
-              "fr": "Cool",
-              "es": "Cool"
+                "en": "Right",
+                "fr": "Right",
+                "es": "Right"
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Unlike now, parisians in the 9th century had the reasonably bothersome issue of frequent raids from vikings from the north.",
-                  "fr": "Unlike now, parisians in the 9th century had the reasonably bothersome issue of frequent raids from vikings from the north.",
-                  "es": "Unlike now, parisians in the 9th century had the reasonably bothersome issue of frequent raids from vikings from the north."
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But, in fact, it used to be right at the north edge!",
+                        "fr": "But, in fact, it used to be right at the north edge!",
+                        "es": "But, in fact, it used to be right at the north edge!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The ‘châtelet’ it gets its name from was the north gate.",
+                        "fr": "The ‘châtelet’ it gets its name from was the north gate.",
+                        "es": "The ‘châtelet’ it gets its name from was the north gate."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1531481431/Chatelet9th.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "...",
+                        "fr": "...",
+                        "es": "..."
+                    }
                 }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "The city was sacked at least four times between 860-890.",
-                  "fr": "The city was sacked at least four times between 860-890.",
-                  "es": "The city was sacked at least four times between 860-890."
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "How irritating!",
-                  "fr": "How irritating!",
-                  "es": "How irritating!"
-                }
-              }
             ],
             "LinksTo": {
-              "Type": "Node",
-              "Id": "Chatelet1RightCoolIrritating",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "Chatelet1RightCoolRight",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Right",
-                    "fr": "Right",
-                    "es": "Right"
-                  },
-                  "Steps": [
+                "Type": "Node",
+                "Id": "Chatelet1RightCentre",
+                "ElementValue": "1",
+                "Commands": [
                     {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate.",
-                        "fr": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate.",
-                        "es": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate."
-                      }
+                        "Type": "Node",
+                        "Id": "Chatelet1RightWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why?",
+                            "fr": "Why?",
+                            "es": "Why?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Unlike now, parisians in the 9th century had the mildly bothersome issue of frequent raiding from vikings from the north.",
+                                    "fr": "Unlike now, parisians in the 9th century had the mildly bothersome issue of frequent raiding from vikings from the north.",
+                                    "es": "Unlike now, parisians in the 9th century had the mildly bothersome issue of frequent raiding from vikings from the north."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The city was sacked at least four times between 860-890.",
+                                    "fr": "The city was sacked at least four times between 860-890.",
+                                    "es": "The city was sacked at least four times between 860-890."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Chatelet1RightWhyChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Chatelet1RightWhyIrritating",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "How irritating!",
+                                        "fr": "How irritating!",
+                                        "es": "How irritating!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate.",
+                                                "fr": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate.",
+                                                "es": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It seems to have worked, too! The Franks won in the 890 siege of paris!",
+                                                "fr": "It seems to have worked, too! The Franks won in the 890 siege of paris!",
+                                                "es": "It seems to have worked, too! The Franks won in the 890 siege of paris!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1531481736/Siege_of_Paris.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
+                                                "fr": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
+                                                "es": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     },
                     {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It seems to have worked, too! The Franks won in the 890 siege of paris!",
-                        "fr": "It seems to have worked, too! The Franks won in the 890 siege of paris!",
-                        "es": "It seems to have worked, too! The Franks won in the 890 siege of paris!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1531481736/Siege_of_Paris.jpg"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
-                        "fr": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
-                        "es": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right."
-                      }
+                        "Type": "Node",
+                        "Id": "Chatelet1RightSmart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Seems smart",
+                            "fr": "Seems smart",
+                            "es": "Seems smart"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was!",
+                                    "fr": "It was!",
+                                    "es": "It was!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Unlike now, Parisians in the 9th century had the mildly bothersome issue of frequent raiding from vikings from the north.",
+                                    "fr": "Unlike now, Parisians in the 9th century had the mildly bothersome issue of frequent raiding from vikings from the north.",
+                                    "es": "Unlike now, Parisians in the 9th century had the mildly bothersome issue of frequent raiding from vikings from the north."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The city was sacked at least four times between 840-890 CE.",
+                                    "fr": "The city was sacked at least four times between 840-890 CE.",
+                                    "es": "The city was sacked at least four times between 840-890 CE."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Chatelet1RightSmartChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Chatelet1RightSmartIrritating",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "How irritating!",
+                                        "fr": "How irritating!",
+                                        "es": "How irritating!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "To deter the bothersome vikings, Charles the Bald refurbished fortifications at the north gate.",
+                                                "fr": "To deter the bothersome vikings, Charles the Bald refurbished fortifications at the north gate.",
+                                                "es": "To deter the bothersome vikings, Charles the Bald refurbished fortifications at the north gate."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It seems to have worked, too! The Franks won in the 890 siege of Paris!",
+                                                "fr": "It seems to have worked, too! The Franks won in the 890 siege of Paris!",
+                                                "es": "It seems to have worked, too! The Franks won in the 890 siege of Paris!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1531481736/Siege_of_Paris.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Charles the Fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
+                                                "fr": "Charles the Fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
+                                                "es": "Charles the Fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
-                  ]
-                }
-              ]
+                ]
             }
-          },
-          {
-            "Type": "Node",
-            "Id": "Chatelet1RightNotCool",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Not cool",
-              "fr": "Not cool",
-              "es": "Not cool"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Unlike now, parisians in the 9th century had the reasonably bothersome issue of frequent raids from vikings from the north.",
-                  "fr": "Unlike now, parisians in the 9th century had the reasonably bothersome issue of frequent raids from vikings from the north.",
-                  "es": "Unlike now, parisians in the 9th century had the reasonably bothersome issue of frequent raids from vikings from the north."
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "The city was sacked at least four times between 860-890.",
-                  "fr": "The city was sacked at least four times between 860-890.",
-                  "es": "The city was sacked at least four times between 860-890."
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "How irritating!",
-                  "fr": "How irritating!",
-                  "es": "How irritating!"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "Chatelet1RightNotCoolIrritating",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "Chatelet1RightNotCoolRight",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Right",
-                    "fr": "Right",
-                    "es": "Right"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate.",
-                        "fr": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate.",
-                        "es": "To deter the bothersome vikings, Charles the bald refurbished fortifications at the north gate."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It seems to have worked, too! The Franks won in the 890 siege of paris!",
-                        "fr": "It seems to have worked, too! The Franks won in the 890 siege of paris!",
-                        "es": "It seems to have worked, too! The Franks won in the 890 siege of paris!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1531481736/Siege_of_Paris.jpg"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
-                        "fr": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right.",
-                        "es": "Charles the fat sent the vikings north up the river instead to sack the revolting Burgundians. Serves them right."
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    }
-  ]
+        }
+    ]
 }
