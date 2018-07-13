@@ -16,7 +16,7 @@
         }
     },
     {
-        "words" : ["dogs"],
+        "words" : ["dogs","dog"],
         "matchingType":"exact",
         "fragment" : {
             "tags" : ["cats"]
