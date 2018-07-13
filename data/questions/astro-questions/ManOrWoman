@@ -1,0 +1,33 @@
+{
+  "Label": {
+    "en": "You are",
+    "fr": "Vous êtes",
+    "es": "Es"
+  },
+  "Answers": [
+    {
+      "Id": "Male",
+      "Label": {
+        "en": "A man",
+        "fr": "Un homme",
+        "es": "Un hombre"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "questions/small/Male.jpg"
+      }
+    },
+    {
+      "Id": "Female",
+      "Label": {
+        "en": "A woman",
+        "fr": "Une femme",
+        "es": "Una mujer"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "questions/small/Female.jpg"
+      }
+    }
+  ]
+}
