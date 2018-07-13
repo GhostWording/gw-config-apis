@@ -2,13 +2,14 @@
   {
     "GroupName": "Nutty",
     "SequenceFiles": [
+      { "order" : 400, "file": ["/data/bot/sequences/experiments/Billy2/Chatelet1.json"]},
       { "order" : 400, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
       { "order" : 400, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteIntro.json"]},
       { "order" : 400, "file": ["/data/bot/sequences/appspecials/astrology/AstroIntro.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
-      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
-      { "order" : 70, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]},
+      { "order" : 500, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
+      { "order" : 600, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
+      { "order" : 700, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
+      { "order" : 800, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]},
       { "order" : 200, "file":["/data/bot/sequences/experiments/NuttyConditionTest1.json"]},
       { "order" : 210, "file":["/data/bot/sequences/experiments/NuttyConditionTest2.json"]},
       { "order" : 220, "file":["/data/bot/sequences/nationaltrust/NuttyIntro.json"]},
