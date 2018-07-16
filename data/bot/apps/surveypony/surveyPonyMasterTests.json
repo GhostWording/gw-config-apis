@@ -2,9 +2,11 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
-       { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_continue_after_error_bad_fragment_name.json"]},
-       { "order": 1302, "file":[
-            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/experiments/Billy2/Chatelet1.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 400, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteIntro.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/astrology/AstroIntro.json"]},
+      { "order" : 500, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]}
       ]
    }
 ]
