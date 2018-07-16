@@ -1,14 +1,9 @@
 {
   "MasterFiles": [
     {
-      "Name": "unittestbot",
+      "Name": "nuttynow",
       "Source": "github",
-      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
-    },
-    {
-      "Name": "rcdevbot",
-      "Source": "github",
-      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+      "File": "/data/bot/apps/nuttynow/nuttyMaster.json"
     }
   ],
   "FragmentsFiles": [
