@@ -2,10 +2,10 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+            { "order" : 4, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
             { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]},
             { "order" : 3, "file": ["/data/bot/sequences/experiments/Andreas/FullScreenWidthTest.json"]},
-            { "order" : 4, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
+            { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
             { "order": 5, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExampleTwo.json"]},
             { "order": 8, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExample.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
