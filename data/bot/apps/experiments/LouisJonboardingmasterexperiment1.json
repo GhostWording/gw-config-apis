@@ -2,10 +2,10 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-          { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+          { "order" : 4, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
           { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]},
           { "order" : 3, "file": ["/data/bot/sequences/experiments/Andreas/FullScreenWidthTest.json"]},
-          { "order" : 4, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
+          { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
           { "order": 1000, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
           { "order": 2000, "file": ["/data/bot/sequences/experiments/Billy2/Mausoleum.json"]},
           { "order": 3000, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
