@@ -2,6 +2,7 @@
   {
     "GroupName": "Fortnite",
     "SequenceFiles": [
+      { "order" : 1, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
       { "order" : 3, "file": ["/data/bot/sequences/appspecials/fortnite/Diana.json"]},
       { "order" : 5, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
