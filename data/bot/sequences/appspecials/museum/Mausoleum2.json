@@ -3,13 +3,6 @@
     "Id": "Mausoleum2",
     "Steps": [
         {
-            "Type": "Image",
-            "Parameters": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-            }
-        },
-        {
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
