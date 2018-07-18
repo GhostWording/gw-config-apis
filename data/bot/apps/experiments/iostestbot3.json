@@ -1,0 +1,9 @@
+[
+    {
+        "GroupName":"Test",
+        "SequenceFiles":[
+            { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]}
+         ]
+    }
+]
