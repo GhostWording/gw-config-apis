@@ -2,12 +2,13 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/Meroe.json"]},
-      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
-      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
-      { "order" : 70, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/Meroe.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/Mausoleum.json"]},
+      { "order" : 35, "file": ["/data/bot/sequences/appspecials/museum/Mausoleum2.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/BerlinVolute.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Nebamun.json"]},
+      { "order" : 55, "file": ["/data/bot/sequences/appspecials/museum/Nebamun2.json"]}
       ]
    }
 ]
