@@ -15,13 +15,41 @@
       "Caption": {
         "en": "Meroe head",
         "fr": "Tête de Meroe",
-        "es" : "Cabeza de Meroe"
+        "es": "Cabeza de Meroe"
       },
       "DefaultImage": {
         "Type": "Image",
         "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
       },
       "Artist" : "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "TestArtwork",
+      "Caption": {
+        "en": "Test Artwork",
+        "fr": "Test Artwork",
+        "es": "Test Artwork"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/nature/small/205592_466709553367839_911718846_n.jpg"
+      },
+      "Artist" : "Charles Matausch",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "TestArtwork2",
+      "Caption": {
+        "en": "Test Artwork2",
+        "fr": "Test Artwork2",
+        "es": "Test Artwork2"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/nature/small/323017_10150555001298641_191505283640_8863497_288634533_o.jpg"
+      },
+      "Artist" : "Billy Robinson",
       "SequenceId": "BestTestFragmentEver"
     },
     {
