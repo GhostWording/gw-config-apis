@@ -27,13 +27,13 @@
     {
       "Id": "TestArtwork",
       "Caption": {
-        "en": "Test Artwork",
-        "fr": "Test Artwork",
-        "es": "Test Artwork"
+        "en": "Nebamun",
+        "fr": "Nebamun",
+        "es": "Nebamun"
       },
       "DefaultImage": {
-        "Type": "Image",
-        "Path": "themes/nature/small/205592_466709553367839_911718846_n.jpg"
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
       },
       "Artist" : "Charles Matausch",
       "SequenceId": "BestTestFragmentEver"
@@ -41,13 +41,13 @@
     {
       "Id": "TestArtwork2",
       "Caption": {
-        "en": "Test Artwork2",
-        "fr": "Test Artwork2",
-        "es": "Test Artwork2"
+        "en": "Berlin Volute Krater",
+        "fr": "Berlin Volute Krater",
+        "es": "Berlin Volute Krater"
       },
       "DefaultImage": {
-        "Type": "Image",
-        "Path": "themes/nature/small/323017_10150555001298641_191505283640_8863497_288634533_o.jpg"
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
       },
       "Artist" : "Billy Robinson",
       "SequenceId": "BestTestFragmentEver"
