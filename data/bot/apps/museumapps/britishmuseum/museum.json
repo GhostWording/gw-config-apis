@@ -19,51 +19,191 @@
       },
       "DefaultImage": {
         "Type": "Image",
-        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "Meroe"
+    },
+    {
+      "Id": "ExekiasAchilles",
+      "Caption": {
+        "en": "Attic Black Figure Amphora",
+        "fr": "Attic Black Figure Amphora",
+        "es": "Attic Black Figure Amphora"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532354484/AN00034520_001_l.jpg"
+      },
+      "Artist" : "Exekias",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "StAgnesCup",
+      "Caption": {
+        "en": "Royal Gold Cup",
+        "fr": "Royal Gold Cup",
+        "es": "Royal Gold Cup"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354600/AN00036306_001_l.jpg"
       },
       "Artist" : "Unknown",
       "SequenceId": "BestTestFragmentEver"
     },
     {
-      "Id": "TestArtwork",
+      "Id": "LewisChessmen",
+      "Caption": {
+        "en": "Lewis Chessmen",
+        "fr": "Lewis Chessmen",
+        "es": "Lewis Chessmen"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532354378/AN00285974_001_l.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "RosettaStone",
+      "Caption": {
+        "en": "The Rosetta Stone",
+        "fr": "The Rosetta Stone",
+        "es": "The Rosetta Stone"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354684/AN00016456_004_l.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "Nebamun",
       "Caption": {
         "en": "Nebamun",
         "fr": "Nebamun",
         "es": "Nebamun"
       },
       "DefaultImage": {
-        "Type": "Web",
+        "Type": "Image",
         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
       },
       "Artist" : "Charles Matausch",
-      "SequenceId": "BestTestFragmentEver"
+      "SequenceId": "Nebamun"
     },
     {
-      "Id": "TestArtwork2",
+      "Id": "BerlinKrater",
       "Caption": {
         "en": "Berlin Volute Krater",
         "fr": "Berlin Volute Krater",
         "es": "Berlin Volute Krater"
       },
       "DefaultImage": {
-        "Type": "Web",
+        "Type": "Image",
         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
       },
-      "Artist" : "Billy Robinson",
-      "SequenceId": "BestTestFragmentEver"
+      "Artist": "The Berlin Painter",
+      "SequenceId": "BerlinVolute"
     },
     {
-      "Id": "Artowrk2",
+      "Id": "AmenhotepHead",
       "Caption": {
-        "en": "Artowrk 2",
-        "fr": "Oeuvre 2",
-        "es" : "Obra 2"
+        "en": "Head of Amenhotep III",
+        "fr": "Head of Amenhotep III",
+        "es": "Head of Amenhotep III"
       },
       "DefaultImage": {
         "Type": "Image",
-        "Path": "questions/small/Forest.jpg"
+        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354919/AN00167400_001_l.jpg"
       },
       "Artist" : "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "PortlandVase",
+      "Caption": {
+        "en": "The Portland Vase",
+        "fr": "The Portland Vase",
+        "es": "The Portland Vase"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355065/AN00251730_001_l.jpg"
+      },
+      "Artist": "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "DavidVases",
+      "Caption": {
+        "en": "The David Vases",
+        "fr": "The David Vases",
+        "es": "The David Vases"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355131/AN00440946_001_l.jpg"
+      },
+      "Artist": "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "Mausoleum",
+      "Caption": {
+        "en": "Tomb of Mausolus",
+        "fr": "Tomb of Mausolus",
+        "es": "Tomb of Mausolus"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+      },
+      "Artist": "Multiple",
+      "SequenceId": "Mausoleum"
+    },
+    {
+      "Id": "LionHunt",
+      "Caption": {
+        "en": "Lion Hunt Reliefs",
+        "fr": "Lion Hunt Reliefs",
+        "es": "Lion Hunt Reliefs"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532355345/museum%20app/Lion_hunt.jpg"
+      },
+      "Artist": "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "HolyThorn",
+      "Caption": {
+        "en": "Holy Thorn Reliquary",
+        "fr": "Holy Thorn Reliquary",
+        "es": "Holy Thorn Reliquary"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354632/museum%20app/Holy_Thorn_Reliquary.jpg"
+      },
+      "Artist": "Unknown",
+      "SequenceId": "BestTestFragmentEver"
+    },
+    {
+      "Id": "ParthenonPediment",
+      "Caption": {
+        "en": "Parthenon Pediment",
+        "fr": "Parthenon Pediment",
+        "es": "Parthenon Pediment"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
+      },
+      "Artist": "Multiple",
       "SequenceId": "BestTestFragmentEver"
     }
   ]
