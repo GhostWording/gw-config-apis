@@ -1,0 +1,27 @@
+{
+  "Type": "Node",
+  "Id": "ClearHistory",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Click below to start over",
+        "fr": "Cliquez ci-dessous pour recommencer",
+        "es": "Haga clic a continuación para comenzar de nuevo"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ClearHistoryClick",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cmd:history clear",
+        "fr": "cmd:history clear",
+        "es": "cmd:history clear"
+      }
+    }
+  ]
+}
