@@ -2,7 +2,11 @@
 {
   "FirstLaunch": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/6495403866"
+    "ID": "ca-app-pub-7822741681642396/6495403866",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/9704288761"
+    }
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
