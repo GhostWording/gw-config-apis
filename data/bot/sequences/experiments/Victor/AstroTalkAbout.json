@@ -1,0 +1,92 @@
+{
+  "Type": "Node",
+  "Id": "AstroTalkAbout",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you have something in particular that you want to talk about ?",
+        "fr": "Do you have something in particular that you want to talk about ?",
+        "es": "Do you have something in particular that you want to talk about ?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AstroTalkAboutParticular",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "How did you know ?",
+        "fr": "How did you know ?",
+        "es": "How did you know ?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You'll be surprised be everything I know. I'm going to read your mind now to find what's on it..",
+            "fr": "You'll be surprised be everything I know. I'm going to read your mind now to find what's on it..",
+            "es": "You'll be surprised be everything I know. I'm going to read your mind now to find what's on it.."
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AstroTalkAboutParticularGuess",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "AstroTalkAboutParticularGuessYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Try me !",
+              "fr": "Try me !",
+              "es": "Try me !"
+            },
+            "LinksToFragment": {
+              "FragmentPath": "AstroLoveWork"
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "AstroTalkAboutParticularGuessNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I'd rather tell you",
+              "fr": "I'd rather tell you",
+              "es": "I'd rather tell you"
+            },
+            "Steps":[
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Ok if you insist, I am all out ",
+                  "fr": "Ok if you insist, I am all out ",
+                  "es": "Ok if you insist, I am all out "
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "AstroLoveWorkHealth"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "AstroTalkAboutSurprise",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No, surpise me!",
+        "fr": "No, surpise me!",
+        "es": "No, surpise me!"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AstroPlanet"
+      }
+    }
+  ]
+}
