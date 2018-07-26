@@ -1,0 +1,21 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "SurviveInFortnite",
+      "Source": "github",
+      "File": "/data/bot/sequences/experiments/Victor/AstroTalkAbout.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/sequences/fragments/FragmentsMain04.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ]
+}
