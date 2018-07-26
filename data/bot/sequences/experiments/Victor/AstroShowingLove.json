@@ -13,7 +13,7 @@
   ],
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "AstroShowingLoveYes",
       "ElementValue": "1",
       "CommandLabel": {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "AstroShowingLoveNo",
       "ElementValue": "1",
       "CommandLabel": {
