@@ -1,0 +1,42 @@
+{
+  "Type": "Node",
+  "Id" : "AstroSoulmate",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you found soulmate yet ?",
+        "fr": "Have you found soulmate yet ?",
+        "es": "Have you found soulmate yet ?"
+       }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AstroSoulmateYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Yes",
+        "es": "Yes"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AstroShowingLove"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "AstroSoulmateNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "No",
+        "es": "No"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AstroGetCloser"
+      }
+    }
+  ]
+}
