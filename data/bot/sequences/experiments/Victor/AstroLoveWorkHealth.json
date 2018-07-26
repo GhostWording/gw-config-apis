@@ -1,14 +1,85 @@
 {
-  "Type": "Leaf",
+  "Type": "Node",
   "Id" : "AstroLoveWorkHealth",
   "Steps": [
     {
       "Type": "Text",
       "Label": {
-        "en": "AstroLoveWorkHealth",
-        "fr": "AstroLoveWorkHealth",
-        "es": "AstroLoveWorkHealth"
+        "en": "Tell me what you want to talk about :",
+        "fr": "Tell me what you want to talk about :",
+        "es": "Tell me what you want to talk about :"
        }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AstroLoveWorkHealthLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Love",
+        "fr": "Love",
+        "es": "Love"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AstroSoulmate"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AstroLoveWorkHealthWork",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Work",
+        "fr": "Work",
+        "es": "Work"
+      },
+      "Steps":[
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain.",
+            "fr": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain.",
+            "es": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards.",
+            "fr": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards.",
+            "es": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AstroLoveWorkHealthHealth",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Health",
+        "fr": "Health",
+        "es": "Health"
+      },
+      "Steps":[
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The present planetary configuration helps you to set the necessary boundaries - whatever is right for you - for your health. Structure needs to be flexible but very, very strong. Try to enjoy the process of integrating structure into your life.",
+            "fr": "The present planetary configuration helps you to set the necessary boundaries - whatever is right for you - for your health. Structure needs to be flexible but very, very strong. Try to enjoy the process of integrating structure into your life.",
+            "es": "The present planetary configuration helps you to set the necessary boundaries - whatever is right for you - for your health. Structure needs to be flexible but very, very strong. Try to enjoy the process of integrating structure into your life."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You will benefit from eating fish instead of meat as often as possible. Enjoy the lighter things in life: fresh vegetables, bean curd, soy products and herbal tea. Even if you make substitutes only once a week, you will benefit in the long run from your effort.",
+            "fr": "You will benefit from eating fish instead of meat as often as possible. Enjoy the lighter things in life: fresh vegetables, bean curd, soy products and herbal tea. Even if you make substitutes only once a week, you will benefit in the long run from your effort.",
+            "es": "You will benefit from eating fish instead of meat as often as possible. Enjoy the lighter things in life: fresh vegetables, bean curd, soy products and herbal tea. Even if you make substitutes only once a week, you will benefit in the long run from your effort."
+          }
+        }
+      ]
     }
   ]
 }
