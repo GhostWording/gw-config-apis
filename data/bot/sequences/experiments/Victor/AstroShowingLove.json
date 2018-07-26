@@ -1,0 +1,56 @@
+{
+  "Type": "Node",
+  "Id" : "AstroShowingLove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you having trouble showing your love lately ?",
+        "fr": "Are you having trouble showing your love lately ?",
+        "es": "Are you having trouble showing your love lately ?"
+       }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AstroShowingLoveYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Indeed",
+        "fr": "Indeed",
+        "es": "Indeed"
+      },
+      "Steps":[
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I can see you are usually showing your love with hugs, but I suggest you sometimes rather go for flowers instead",
+            "fr": "I can see you are usually showing your love with hugs, but I suggest you sometimes rather go for flowers instead",
+            "es": "I can see you are usually showing your love with hugs, but I suggest you sometimes rather go for flowers instead"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "AstroShowingLoveNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not really",
+        "fr": "Not really",
+        "es": "Not really"
+      },
+      "Steps":[
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I do not want to alarm you, but that may change soon. I can see you always showing your love with hugs when sometimes, just simple flowers would be appreciated.",
+            "fr": "I do not want to alarm you, but that may change soon. I can see you always showing your love with hugs when sometimes, just simple flowers would be appreciated.",
+            "es": "I do not want to alarm you, but that may change soon. I can see you always showing your love with hugs when sometimes, just simple flowers would be appreciated."
+          }
+        }
+      ]
+    }
+  ]
+}
