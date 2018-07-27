@@ -75,7 +75,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "RamessesOneWhat",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -183,7 +183,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "RamessesTwoWhat",
                         "ElementValue": "1",
                         "CommandLabel": {
