@@ -1,0 +1,232 @@
+{
+  "Type": "Node",
+  "Id": "Amenhotep",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you recognise this handsome fellow?",
+        "fr": "Do you recognise this handsome fellow?",
+        "es": "Do you recognise this handsome fellow?"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_1.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AmenhotepJack",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Jack from accounting",
+        "fr": "Jack from accounting",
+        "es": "Jack from accounting"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Are you sure? Is he made of granite?",
+            "fr": "Are you sure? Is he made of granite?",
+            "es": "Are you sure? Is he made of granite?"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I think it’s actually Amenhotep III",
+            "fr": "I think it’s actually Amenhotep III",
+            "es": "I think it’s actually Amenhotep III"
+          }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_2.jpg"
+            }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Although we know this now, this man was actually quite hard to identify",
+            "fr": "Although we know this now, this man was actually quite hard to identify",
+            "es": "Although we know this now, this man was actually quite hard to identify"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AmenhotepJackChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "AmenhotepJackWhy",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Why?",
+              "fr": "Why?",
+              "es": "Why?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                  "fr": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                  "es": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "After all, why waste money making a whole new statue?",
+                  "fr": "After all, why waste money making a whole new statue?",
+                  "es": "After all, why waste money making a whole new statue?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "AmenhotepJackWhyChoice",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "AmenhotepJackWhyPoint",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "You’ve got a point",
+                    "fr": "You’ve got a point",
+                    "es": "You’ve got a point"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                        "fr": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                        "es": "For example, the corners of the statues mouth have been drilled to make it appear smaller"
+                      }
+                    },
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_2.jpg"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "AmenhotepCorrect",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Amenhotep III",
+        "fr": "Amenhotep III",
+        "es": "Amenhotep III"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You are correct!",
+            "fr": "You are correct!",
+            "es": "You are correct!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Although we know this now, this man was actually quite hard to identify",
+            "fr": "Although we know this now, this man was actually quite hard to identify",
+            "es": "Although we know this now, this man was actually quite hard to identify"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AmenhotepCorrectChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "AmenhotepCorrectWhy",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Why?",
+              "fr": "Why?",
+              "es": "Why?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                  "fr": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                  "es": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "After all, why waste money making a whole new statue?",
+                  "fr": "After all, why waste money making a whole new statue?",
+                  "es": "After all, why waste money making a whole new statue?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "AmenhotepCorrectWhyChoice",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "AmenhotepCorrectWhyPoint",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "You’ve got a point",
+                    "fr": "You’ve got a point",
+                    "es": "You’ve got a point"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                        "fr": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                        "es": "For example, the corners of the statues mouth have been drilled to make it appear smaller"
+                      }
+                    },
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_2.jpg"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
