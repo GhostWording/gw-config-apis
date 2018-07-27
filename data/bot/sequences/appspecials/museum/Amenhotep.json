@@ -99,7 +99,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "AmenhotepJackWhyPoint",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -199,7 +199,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "AmenhotepCorrectWhyPoint",
                                     "ElementValue": "1",
                                     "CommandLabel": {
