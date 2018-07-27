@@ -99,7 +99,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "AgnesCupBeautifulHearThen",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -217,7 +217,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "AgnesCupSimilarHearThen",
                                     "ElementValue": "1",
                                     "CommandLabel": {
