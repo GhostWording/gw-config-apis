@@ -1,0 +1,137 @@
+{
+      "Type": "Node",
+      "Id": "ChessmenYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Yes",
+        "es": "Yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh really? Was it with these?",
+            "fr": "Oh really? Was it with these?",
+            "es": "Oh really? Was it with these?"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis1_bis.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "These were found in the outer hebrides",
+            "fr": "These were found in the outer hebrides",
+            "es": "These were found in the outer hebrides"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BWuPyWncMtKmxQKP9f"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Many stories exist about how exactly the treasure was discovered",
+            "fr": "Many stories exist about how exactly the treasure was discovered",
+            "es": "Many stories exist about how exactly the treasure was discovered"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!",
+            "fr": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!",
+            "es": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ChessmenYesClever",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "ChessmenYesClever1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Clever cow!",
+              "fr": "Clever cow!",
+              "es": "Clever cow!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
+                  "fr": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
+                  "es": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery."
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis2.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Apparently, nuns love chess!",
+                  "fr": "Apparently, nuns love chess!",
+                  "es": "Apparently, nuns love chess!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "ChessmenYesCleverMoreEnough",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "ChessmenYesCleverMore",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Tell me more!",
+                    "fr": "Tell me more!",
+                    "es": "Tell me more!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The pieces themselves are really cool to look at!",
+                        "fr": "The pieces themselves are really cool to look at!",
+                        "es": "The pieces themselves are really cool to look at!"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "ChessmenYesCleverEnough",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s enough",
+                    "fr": "That’s enough",
+                    "es": "That’s enough"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
