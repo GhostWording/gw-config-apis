@@ -3,6 +3,7 @@
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Chessmen.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Ramesses.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
