@@ -1,24 +1,16 @@
 [
   {
-    "GroupName": "Hero",
-    "SequenceFiles": [
-      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
-      { "order" : 40, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteIntro.json"]},
-      { "order" : 40, "file": ["/data/bot/sequences/appspecials/astrology/AstroIntro.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Responsible.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/AppearanceMatters.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/ConflictTeenager.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/CriticalThinking.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/GreatHeart.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/HealthyFinSit.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/HideOpinions.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Initiative.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Innovator.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/HonestyMatters.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/MindDesires.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/PeaceIndepend.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/PracticalBrain.json"]},
-      { "order" : 300, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses2.json"]}
-    ]
-  }
+    "GroupName":"BritishMuseum",
+    "SequenceFiles" : [
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Chessmen.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Ramesses.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
+      { "order" : 500, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
+      { "order" : 600, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
+      { "order" : 700, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
+      { "order" : 800, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
+      ]
+   }
 ]
