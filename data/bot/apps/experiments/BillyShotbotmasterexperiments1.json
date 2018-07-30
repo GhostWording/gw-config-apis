@@ -2,7 +2,8 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
-      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 19, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/Meroe.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/UrStandard.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/LionHunt.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/Caryatids.json"]},
