@@ -41,6 +41,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
                     }
@@ -95,6 +96,7 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Display": "FullScreenWidth",
                                     "Source": "Web",
                                     "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
                                 }
@@ -136,13 +138,6 @@
                                                 "en": "It's just like when we in the present make books and films about medieval times!",
                                                 "fr": "It's just like when we in the present make books and films about medieval times!",
                                                 "es": "It's just like when we in the present make books and films about medieval times!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
-                                            "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529060395/robin_hood.jpg"
                                             }
                                         },
                                         {
@@ -286,6 +281,7 @@
                                                                 {
                                                                     "Type": "Image",
                                                                     "Parameters": {
+                                                                        "Display": "FullScreenWidth",
                                                                         "Source": "Web",
                                                                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
                                                                     }
@@ -308,6 +304,7 @@
                                                                 {
                                                                     "Type": "Image",
                                                                     "Parameters": {
+                                                                        "Display": "FullScreenWidth",
                                                                         "Source": "Web",
                                                                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
                                                                     }
@@ -418,6 +415,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
                     }
@@ -472,6 +470,7 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Display": "FullScreenWidth",
                                     "Source": "Web",
                                     "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
                                 }
@@ -513,13 +512,6 @@
                                                 "en": "It's just like when we in the present make books and films about medieval times!",
                                                 "fr": "It's just like when we in the present make books and films about medieval times!",
                                                 "es": "It's just like when we in the present make books and films about medieval times!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
-                                            "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529060395/robin_hood.jpg"
                                             }
                                         },
                                         {
@@ -663,6 +655,7 @@
                                                                 {
                                                                     "Type": "Image",
                                                                     "Parameters": {
+                                                                        "Display": "FullScreenWidth",
                                                                         "Source": "Web",
                                                                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
                                                                     }
@@ -685,6 +678,7 @@
                                                                 {
                                                                     "Type": "Image",
                                                                     "Parameters": {
+                                                                        "Display": "FullScreenWidth",
                                                                         "Source": "Web",
                                                                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
                                                                     }
