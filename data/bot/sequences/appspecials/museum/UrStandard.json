@@ -5,6 +5,7 @@
     {
       "Type": "Image",
       "Parameters": {
+        "Display": "FullScreenWidth",
         "Source": "Web",
         "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
       }
