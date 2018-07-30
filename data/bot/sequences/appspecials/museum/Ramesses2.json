@@ -13,6 +13,7 @@
     {
       "Type": "Image",
       "Parameters": {
+        "Display": "FullScreenWidth",
         "Source": "Web",
         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_1_bis.jpg"
       }
@@ -71,8 +72,9 @@
               {
                 "Type": "Image",
                 "Parameters": {
+                  "Display": "FullScreenWidth",
                   "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532950426/Ramses_II_3bis.jpg"
+                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
                 }
               },
               {
@@ -81,13 +83,6 @@
                   "en": "The project took 17 days and 130 men to complete!",
                   "fr": "The project took 17 days and 130 men to complete!",
                   "es": "The project took 17 days and 130 men to complete!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
                 }
               }
             ],
@@ -182,7 +177,7 @@
                 "Type": "Image",
                 "Parameters": {
                   "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532950426/Ramses_II_3bis.jpg"
+                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
                 }
               },
               {
@@ -191,13 +186,6 @@
                   "en": "The project took 17 days and 130 men to complete!",
                   "fr": "The project took 17 days and 130 men to complete!",
                   "es": "The project took 17 days and 130 men to complete!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
                 }
               }
             ],
