@@ -14,7 +14,7 @@
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_1.jpg"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
             }
         }
     ],
@@ -119,8 +119,9 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
+                                                "Display":"FullScreenWidth",
                                                 "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_2.jpg"
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946354/AmenhotepIII_2bis.jpg"
                                             }
                                         }
                                     ],
@@ -219,8 +220,9 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
+                                                "Display":"FullScreenWidth",
                                                 "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532534626/AmenhotepIII_2.jpg"
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946354/AmenhotepIII_2bis.jpg"
                                             }
                                         }
                                     ],
