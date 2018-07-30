@@ -212,7 +212,10 @@
                   "Path": "/data/common/carousels/museum/StandardOfUr.json"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard2"
+            }
           },
           {
             "Type": "Leaf",
@@ -239,7 +242,10 @@
                   "Path": "/data/common/carousels/museum/StandardOfUr.json"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard2"
+            }
           }
         ]
       }
@@ -324,7 +330,10 @@
                   "Path": "/data/common/carousels/museum/StandardOfUr.json"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard2"
+            }
           },
           {
             "Type": "Leaf",
@@ -351,7 +360,10 @@
                   "Path": "/data/common/carousels/museum/StandardOfUr.json"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard2"
+            }
           }
         ]
       }
