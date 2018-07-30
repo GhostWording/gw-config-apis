@@ -1,0 +1,85 @@
+{
+  "Type": "Node",
+  "Id": "LionHunt",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you know the favourite hobby of Assyrian kings?",
+        "fr": "Do you know the favourite hobby of Assyrian kings?",
+        "es": "Do you know the favourite hobby of Assyrian kings?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LionHuntBoxing",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Boxing 🥊",
+        "fr": "Boxing 🥊",
+        "es": "Boxing 🥊"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Incorrect! It was hunting!",
+            "fr": "Incorrect! It was hunting!",
+            "es": "Incorrect! It was hunting!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "LionHunt2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LionHuntDarts",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Darts 🎯",
+        "fr": "Darts 🎯",
+        "es": "Darts 🎯"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Incorrect! It was hunting!",
+            "fr": "Incorrect! It was hunting!",
+            "es": "Incorrect! It was hunting!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "LionHunt2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LionHuntHunting",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Hunting 🏹",
+        "fr": "Hunting 🏹",
+        "es": "Hunting 🏹"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Correct! Nice job!",
+            "fr": "Correct! Nice job!",
+            "es": "Correct! Nice job!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "LionHunt2"
+      }
+    }
+  ]
+}
