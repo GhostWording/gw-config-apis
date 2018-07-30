@@ -1,0 +1,162 @@
+{
+    "Type": "Node",
+    "Id": "UrStandard2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The scene of war has one thing that is particularly interesting…",
+                "fr": "The scene of war has one thing that is particularly interesting…",
+                "es": "The scene of war has one thing that is particularly interesting…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "UrStandard2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What is it?",
+                "fr": "What is it?",
+                "es": "What is it?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well… there are many people riding chariots",
+                        "fr": "Well… there are many people riding chariots",
+                        "es": "Well… there are many people riding chariots"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532537646/Standard_of_Ur_3.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Which, in fact, is our earliest pictorial representation of the wheel!",
+                        "fr": "Which, in fact, is our earliest pictorial representation of the wheel!",
+                        "es": "Which, in fact, is our earliest pictorial representation of the wheel!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "UrStandard2Step",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "UrStandard2Interesting",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Interesting!",
+                            "fr": "Interesting!",
+                            "es": "Interesting!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, although the scenes show the chariots trampling their unfortunate enemies..",
+                                    "fr": "Now, although the scenes show the chariots trampling their unfortunate enemies..",
+                                    "es": "Now, although the scenes show the chariots trampling their unfortunate enemies.."
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532537646/Standard_of_Ur_4.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We’re not sure they would have been as deadly as they seem…",
+                                    "fr": "We’re not sure they would have been as deadly as they seem…",
+                                    "es": "We’re not sure they would have been as deadly as they seem…"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "UrStandard2InterestingStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "UrStandard2InterestingWhy",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Why?",
+                                        "fr": "Why?",
+                                        "es": "Why?"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Well, for one, we don’t think it would have been possible to turn them very easily",
+                                                "fr": "Well, for one, we don’t think it would have been possible to turn them very easily",
+                                                "es": "Well, for one, we don’t think it would have been possible to turn them very easily"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Meaning their enemies could have just… moved out of the way",
+                                                "fr": "Meaning their enemies could have just… moved out of the way",
+                                                "es": "Meaning their enemies could have just… moved out of the way"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "They were probably most useful for storing extra weapons",
+                                                "fr": "They were probably most useful for storing extra weapons",
+                                                "es": "They were probably most useful for storing extra weapons"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Display": "FullScreenWidth",
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532537646/Standard_of_Ur_5.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "And the shock factor helps, too!",
+                                                "fr": "And the shock factor helps, too!",
+                                                "es": "And the shock factor helps, too!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "They must have been terrifying for enemies who had never seen a vehicle like that before!",
+                                                "fr": "They must have been terrifying for enemies who had never seen a vehicle like that before!",
+                                                "es": "They must have been terrifying for enemies who had never seen a vehicle like that before!"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
