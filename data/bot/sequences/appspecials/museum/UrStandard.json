@@ -1,0 +1,359 @@
+{
+  "Type": "Node",
+  "Id": "UrStandard",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Any idea what this is?",
+        "fr": "Any idea what this is?",
+        "es": "Any idea what this is?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "UrStandardBox",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A box",
+        "fr": "A box",
+        "es": "A box"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hmm… truth is… we don’t know!",
+            "fr": "Hmm… truth is… we don’t know!",
+            "es": "Hmm… truth is… we don’t know!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "People have suggested all of the above!",
+            "fr": "People have suggested all of the above!",
+            "es": "People have suggested all of the above!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was found here",
+            "fr": "It was found here",
+            "es": "It was found here"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "cID3LCUcGE8geafKJ4"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Next to a man who seems to have been ritually sacrificed…",
+            "fr": "Next to a man who seems to have been ritually sacrificed…",
+            "es": "Next to a man who seems to have been ritually sacrificed…"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UrStandardBoxChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UrStandardBoxGruesome",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "How gruesome",
+              "fr": "How gruesome",
+              "es": "How gruesome"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It shows a scene of war on one side and peace on the other.",
+                  "fr": "It shows a scene of war on one side and peace on the other.",
+                  "es": "It shows a scene of war on one side and peace on the other."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCarouselFromList",
+                "Parameters": {
+                  "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "UrStandardBoxStrange",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Strange",
+              "fr": "Strange",
+              "es": "Strange"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It shows a scene of war on one side and peace on the other.",
+                  "fr": "It shows a scene of war on one side and peace on the other.",
+                  "es": "It shows a scene of war on one side and peace on the other."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCarouselFromList",
+                "Parameters": {
+                  "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "UrStandardFlag",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A flag",
+        "fr": "A flag",
+        "es": "A flag"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hmm… truth is… we don’t know!",
+            "fr": "Hmm… truth is… we don’t know!",
+            "es": "Hmm… truth is… we don’t know!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "People have suggested all of the above!",
+            "fr": "People have suggested all of the above!",
+            "es": "People have suggested all of the above!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was found here",
+            "fr": "It was found here",
+            "es": "It was found here"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "cID3LCUcGE8geafKJ4"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Next to a man who seems to have been ritually sacrificed…",
+            "fr": "Next to a man who seems to have been ritually sacrificed…",
+            "es": "Next to a man who seems to have been ritually sacrificed…"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UrStandardFlagChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UrStandardFlagGruesome",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "How gruesome",
+              "fr": "How gruesome",
+              "es": "How gruesome"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It shows a scene of war on one side and peace on the other.",
+                  "fr": "It shows a scene of war on one side and peace on the other.",
+                  "es": "It shows a scene of war on one side and peace on the other."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCarouselFromList",
+                "Parameters": {
+                  "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "UrStandardFlagStrange",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Strange",
+              "fr": "Strange",
+              "es": "Strange"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It shows a scene of war on one side and peace on the other.",
+                  "fr": "It shows a scene of war on one side and peace on the other.",
+                  "es": "It shows a scene of war on one side and peace on the other."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCarouselFromList",
+                "Parameters": {
+                  "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "UrStandardInstrument",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A musical instrument",
+        "fr": "A musical instrument",
+        "es": "A musical instrument"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hmm… truth is… we don’t know!",
+            "fr": "Hmm… truth is… we don’t know!",
+            "es": "Hmm… truth is… we don’t know!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "People have suggested all of the above!",
+            "fr": "People have suggested all of the above!",
+            "es": "People have suggested all of the above!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was found here",
+            "fr": "It was found here",
+            "es": "It was found here"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "cID3LCUcGE8geafKJ4"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Next to a man who seems to have been ritually sacrificed…",
+            "fr": "Next to a man who seems to have been ritually sacrificed…",
+            "es": "Next to a man who seems to have been ritually sacrificed…"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UrStandardInstrumentChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UrStandardInstrumentGruesome",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "How gruesome",
+              "fr": "How gruesome",
+              "es": "How gruesome"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It shows a scene of war on one side and peace on the other.",
+                  "fr": "It shows a scene of war on one side and peace on the other.",
+                  "es": "It shows a scene of war on one side and peace on the other."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCarouselFromList",
+                "Parameters": {
+                  "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "UrStandardInstrumentStrange",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Strange",
+              "fr": "Strange",
+              "es": "Strange"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It shows a scene of war on one side and peace on the other.",
+                  "fr": "It shows a scene of war on one side and peace on the other.",
+                  "es": "It shows a scene of war on one side and peace on the other."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCarouselFromList",
+                "Parameters": {
+                  "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
