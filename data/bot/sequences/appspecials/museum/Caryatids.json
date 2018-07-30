@@ -14,7 +14,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousels/museum/GreekColumns"
+                "Path": "/data/common/carousels/museum/GreekColumns.json"
             }
         },
         {
@@ -48,9 +48,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Display": "FullScreenWidth",
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690461/museum%20app/Caryatid-Erechtheum-British_Museum-3_2.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532948244/museum%20app/Caryatid-Erechtheum-British_Museum-3_2.jpg"
                     }
                 },
                 {
