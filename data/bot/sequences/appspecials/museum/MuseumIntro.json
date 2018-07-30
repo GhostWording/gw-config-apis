@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Hi!",
-                "fr": "Hi!",
+                "fr": "Salut !",
                 "es": "Hi!"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I am an owl, and that means I am wise 🦉",
-                "fr": "I am an owl, and that means I am wise 🦉",
+                "fr": "Je suis une chouette, et cela veut dire que je suis sage 🦉",
                 "es": "I am an owl, and that means I am wise 🦉"
             }
         }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Right!",
-                "fr": "Right!",
+                "fr": "Correct !",
                 "es": "Right!"
             },
             "Steps": [
@@ -34,7 +34,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I have been around in every era",
-                        "fr": "I have been around in every era",
+                        "fr": "J'ai traversé toutes les époques",
                         "es": "I have been around in every era"
                     }
                 },
@@ -49,7 +49,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Because of this, I know about every artwork to have ever existed",
+                        "fr": "Grâce à cela, je connais toutes les oeuvres qui ont jamais existé",
                         "es": "Because of this, I know about every artwork to have ever existed"
                     }
                 }
@@ -65,7 +65,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm convinced",
-                            "fr": "I'm convinced",
+                            "fr": "Je suis convaincu",
                             "es": "I'm convinced"
                         },
                         "Steps": [
@@ -73,7 +73,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Good. I have fantastic stories to tell about them...",
-                                    "fr": "Good. I have fantastic stories to tell about them...",
+                                    "fr": "Bien. J'ai d'incroyables histoires à raconter à leur sujet...",
                                     "es": "Good. I have fantastic stories to tell about them..."
                                 }
                             },
@@ -81,7 +81,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Listen closely...",
-                                    "fr": "Listen closely...",
+                                    "fr": "Ecoute attentivement...",
                                     "es": "Listen closely..."
                                 }
                             }
@@ -93,7 +93,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm not convinced",
-                            "fr": "I'm not convinced",
+                            "fr": "Je ne suis pas convaincu",
                             "es": "I'm not convinced"
                         },
                         "Steps": [
@@ -101,7 +101,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll prove it by telling you fantastic stories about them",
-                                    "fr": "I'll prove it by telling you fantastic stories about them",
+                                    "fr": "Je le prouverai en te racontant d'incroyables histoires à leur sujet...",
                                     "es": "I'll prove it by telling you fantastic stories about them"
                                 }
                             },
@@ -109,7 +109,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Listen closely...",
-                                    "fr": "Listen closely...",
+                                    "fr": "Ecoute attentivement...",
                                     "es": "Listen closely..."
                                 }
                             }
@@ -124,7 +124,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Possibly",
-                "fr": "Possibly",
+                "fr": "Possible",
                 "es": "Possibly"
             },
             "Steps": [
@@ -132,7 +132,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I have been around in every era",
-                        "fr": "I have been around in every era",
+                        "fr": "J'ai traversé toutes les époques",
                         "es": "I have been around in every era"
                     }
                 },
@@ -147,7 +147,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Because of this, I know about every artwork to have ever existed",
+                        "fr": "Grâce à cela, je connais toutes les oeuvres qui ont jamais existé",
                         "es": "Because of this, I know about every artwork to have ever existed"
                     }
                 }
@@ -163,7 +163,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm convinced",
-                            "fr": "I'm convinced",
+                            "fr": "Je suis convaincu",
                             "es": "I'm convinced"
                         },
                         "Steps": [
@@ -171,7 +171,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Good. I have fantastic stories to tell about them...",
-                                    "fr": "Good. I have fantastic stories to tell about them...",
+                                    "fr": "Bien. J'ai d'incroyables histoires à raconter à leur sujet...",
                                     "es": "Good. I have fantastic stories to tell about them..."
                                 }
                             },
@@ -179,7 +179,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Listen closely...",
-                                    "fr": "Listen closely...",
+                                    "fr": "Ecoute attentivement...",
                                     "es": "Listen closely..."
                                 }
                             }
@@ -191,7 +191,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm not convinced",
-                            "fr": "I'm not convinced",
+                            "fr": "Je ne suis pas convaincu",
                             "es": "I'm not convinced"
                         },
                         "Steps": [
@@ -199,7 +199,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll prove it by telling you fantastic stories about them",
-                                    "fr": "I'll prove it by telling you fantastic stories about them",
+                                    "fr": "Je le prouverai en te racontant d'incroyables histoires à leur sujet...",
                                     "es": "I'll prove it by telling you fantastic stories about them"
                                 }
                             },
@@ -207,7 +207,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Listen closely...",
-                                    "fr": "Listen closely...",
+                                    "fr": "Ecoute attentivement...",
                                     "es": "Listen closely..."
                                 }
                             }
