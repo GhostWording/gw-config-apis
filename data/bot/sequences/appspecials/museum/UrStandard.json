@@ -7,7 +7,7 @@
       "Parameters": {
         "Display": "FullScreenWidth",
         "Source": "Web",
-        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
       }
     },
     {
@@ -76,7 +76,7 @@
         "ElementValue": "1",
         "Commands": [
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "UrStandardBoxGruesome",
             "ElementValue": "1",
             "CommandLabel": {
@@ -100,10 +100,13 @@
                   "Path": "/data/common/carousels/museum/StandardOfUr.json"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard2"
+            }
           },
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "UrStandardBoxStrange",
             "ElementValue": "1",
             "CommandLabel": {
@@ -127,7 +130,10 @@
                   "Path": "/data/common/carousels/museum/StandardOfUr.json"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard2"
+            }
           }
         ]
       }
@@ -188,7 +194,7 @@
         "ElementValue": "1",
         "Commands": [
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "UrStandardFlagGruesome",
             "ElementValue": "1",
             "CommandLabel": {
@@ -218,7 +224,7 @@
             }
           },
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "UrStandardFlagStrange",
             "ElementValue": "1",
             "CommandLabel": {
@@ -306,7 +312,7 @@
         "ElementValue": "1",
         "Commands": [
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "UrStandardInstrumentGruesome",
             "ElementValue": "1",
             "CommandLabel": {
@@ -336,7 +342,7 @@
             }
           },
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "UrStandardInstrumentStrange",
             "ElementValue": "1",
             "CommandLabel": {
