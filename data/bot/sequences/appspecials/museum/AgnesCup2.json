@@ -14,9 +14,17 @@
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_3.jpg"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944052/RoyalCup_3.3.jpg"
             }
-        }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944052/RoyalCup_3.4.jpg"
+            }
+        }        
     ],
     "Commands": [
         {
@@ -41,7 +49,7 @@
                     "Type": "Action",
                     "Name": "ShowCarouselFromList",
                     "Parameters": {
-                        "Path": "/data/common/carousels/museum/StandardOfUr.json"
+                        "Path": "/data/common/carousels/museum/GoldCupVelasco.json"
                     }
                 },
                 {
@@ -56,7 +64,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "PO5Eo7wEXRkkr5txvb"
+                        "Path": "3486W9RaI4XRG9J1Et"
                     }
                 },
                 {
@@ -142,7 +150,7 @@
                                             "Type": "Image",
                                             "Parameters": {
                                                 "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532620997/RoyalCup_7.png"
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532942689/RoyalCup_7.png"
                                             }
                                         }
                                     ]
