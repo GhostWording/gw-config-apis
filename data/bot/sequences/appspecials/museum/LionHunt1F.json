@@ -1,0 +1,89 @@
+{
+    "Type": "Node",
+    "Id": "LionHunt1F",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There’s nothing they loved more…",
+                "fr": "There’s nothing they loved more…",
+                "es": "There’s nothing they loved more…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "aside from maybe building fancy palaces to outshine their predecessors",
+                "fr": "aside from maybe building fancy palaces to outshine their predecessors",
+                "es": "aside from maybe building fancy palaces to outshine their predecessors"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So King Assurbanipal I found a way to do both at the same time!",
+                "fr": "So King Assurbanipal I found a way to do both at the same time!",
+                "es": "So King Assurbanipal I found a way to do both at the same time!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942386/museum%20app/King_Assurbanipal_1.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "LionHunt1FHow",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How?",
+                "fr": "How?",
+                "es": "How?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He built a gorgeous palace, and then decorated it with relief sculpture showing his skills in hunting!",
+                        "fr": "He built a gorgeous palace, and then decorated it with relief sculpture showing his skills in hunting!",
+                        "es": "He built a gorgeous palace, and then decorated it with relief sculpture showing his skills in hunting!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Naturally, he presents himself as very skillful… whether it was true or not!",
+                        "fr": "Naturally, he presents himself as very skillful… whether it was true or not!",
+                        "es": "Naturally, he presents himself as very skillful… whether it was true or not!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He even kills lions barehanded!",
+                        "fr": "He even kills lions barehanded!",
+                        "es": "He even kills lions barehanded!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/King_killing_a_lion.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
