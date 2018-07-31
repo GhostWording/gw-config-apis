@@ -1,0 +1,181 @@
+{
+    "Type": "Node",
+    "Id": "Exekias",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This may look like an ordinary vase for storing wine…",
+                "fr": "This may look like an ordinary vase for storing wine…",
+                "es": "This may look like an ordinary vase for storing wine…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_whole_pic.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But it tells a fascinating story  - a perfect study in contrasts…",
+                "fr": "But it tells a fascinating story  - a perfect study in contrasts…",
+                "es": "But it tells a fascinating story  - a perfect study in contrasts…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Man and woman, Greek and barbarian, father and son, human and god, war and peace",
+                "fr": "Man and woman, Greek and barbarian, father and son, human and god, war and peace",
+                "es": "Man and woman, Greek and barbarian, father and son, human and god, war and peace"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ExekiasMean",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What do you mean?",
+                "fr": "What do you mean?",
+                "es": "What do you mean?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "On one side… we have Achilles, the Greek hero",
+                        "fr": "On one side… we have Achilles, the Greek hero",
+                        "es": "On one side… we have Achilles, the Greek hero"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "killing Penthesilea, the female warrior-queen of the Amazons",
+                        "fr": "killing Penthesilea, the female warrior-queen of the Amazons",
+                        "es": "killing Penthesilea, the female warrior-queen of the Amazons"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_1.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The powerful Achilles towers over the helpless Penthesilea, piercing her eye with his",
+                        "fr": "The powerful Achilles towers over the helpless Penthesilea, piercing her eye with his",
+                        "es": "The powerful Achilles towers over the helpless Penthesilea, piercing her eye with his"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_1_eyes.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ExekiasMeanMoreChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ExekiasMeanMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me more!",
+                            "fr": "Tell me more!",
+                            "es": "Tell me more!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He wears simple, all black, functional armour, where she wears a fancy panther-skin, embroidered and coloured.",
+                                    "fr": "He wears simple, all black, functional armour, where she wears a fancy panther-skin, embroidered and coloured.",
+                                    "es": "He wears simple, all black, functional armour, where she wears a fancy panther-skin, embroidered and coloured."
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_1clothes.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The idea is that Achilles - the male hero",
+                                    "fr": "The idea is that Achilles - the male hero",
+                                    "es": "The idea is that Achilles - the male hero"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "is triumphing over the strange, exotic woman who stands for everything the Greeks despised…",
+                                    "fr": "is triumphing over the strange, exotic woman who stands for everything the Greeks despised…",
+                                    "es": "is triumphing over the strange, exotic woman who stands for everything the Greeks despised…"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In many versions of the story, the pair were lovers, too… what a twist!",
+                                    "fr": "In many versions of the story, the pair were lovers, too… what a twist!",
+                                    "es": "In many versions of the story, the pair were lovers, too… what a twist!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ExekiasMeanMoreInterestedChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ExekiasMeanMoreInterested",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I’m interested",
+                                        "fr": "I’m interested",
+                                        "es": "I’m interested"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Exekias2"
+                                    }
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "ExekiasMeanEnough",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That’s enough",
+                                        "fr": "That’s enough",
+                                        "es": "That’s enough"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
