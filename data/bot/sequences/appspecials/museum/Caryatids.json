@@ -121,12 +121,22 @@
                                         "en": "What happened?",
                                         "fr": "What happened?",
                                         "es": "What happened?"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Well, the Greeks symbolically punished the people of Caryae…",
+                                                "fr": "Well, the Greeks symbolically punished the people of Caryae…",
+                                                "es": "Well, the Greeks symbolically punished the people of Caryae…"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Caryatids2"
                                     }
                                 }
-                            ],
-                            "LinksToFragment": {
-                                "FragmentPath": "Caryatids2"
-                            }
+                            ]
                         }
                     },
                     {
