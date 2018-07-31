@@ -1,0 +1,114 @@
+{
+    "Type": "Node",
+    "Id": "Exekias2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine.",
+                "fr": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine.",
+                "es": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685325/museum%20app/Exekias_Achilles_Penthesileia_close_up_2.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
+                "fr": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
+                "es": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_2_clothes.jpg"
+            }
+        }
+    ],
+    "LinksTo": {
+        "Type": "Node",
+        "Id": "Exekias2MoreChoice",
+        "ElementValue": "1",
+        "Commands": [
+            {
+                "Type": "Node",
+                "Id": "Exekias2More",
+                "ElementValue": "1",
+                "CommandLabel": {
+                    "en": "Tell me more!",
+                    "fr": "Tell me more!",
+                    "es": "Tell me more!"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other.",
+                            "fr": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other.",
+                            "es": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other."
+                        }
+                    },
+                    {
+                        "Type": "Image",
+                        "Parameters": {
+                            "Source": "Web",
+                            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685326/museum%20app/side_by_side.png"
+                        }
+                    },
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
+                            "fr": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
+                            "es": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!"
+                        }
+                    }
+                ],
+                "LinksTo": {
+                    "Type": "Node",
+                    "Id": "Exekias2MoreThksChoice",
+                    "ElementValue": "1",
+                    "Commands": [
+                        {
+                            "Type": "Leaf",
+                            "Id": "Exekias2MoreThks",
+                            "ElementValue": "1",
+                            "CommandLabel": {
+                                "en": "Thanks!",
+                                "fr": "Thanks!",
+                                "es": "Thanks!"
+                            },
+                            "Steps": [
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "It’s in room 20a, go check it out!",
+                                        "fr": "It’s in room 20a, go check it out!",
+                                        "es": "It’s in room 20a, go check it out!"
+                                    }
+                                },
+                                {
+                                    "Type": "Image",
+                                    "Parameters": {
+                                        "Source": "Web",
+                                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532941556/Achilles_BMMap.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}                           
