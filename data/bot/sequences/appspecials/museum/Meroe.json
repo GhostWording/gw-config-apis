@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "So you're Octavian, and you've just won a decisive victory over Mark Antony at Actium, and are now the sole ruler of the Empire",
-                "fr": "Donc tu es Octave et tu viens de remporter une victoire décisive sur Marc Antoine à Actium, et tu es maintenant l'unique dirigeant de l'Empire",
+                "en": "So you're Octavian, and you've just won a decisive victory over Mark Antony at Actium, and are now the sole ruler of the Roman Empire",
+                "fr": "Donc, tu es Octave et tu viens de remporter une victoire décisive sur Marc Antoine à Actium, et tu es désormais l'unique dirigeant de l'Empire romain",
                 "es": "Este pequeño tío es un gatito curioso desde que nació"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "How do you let people in the corners of your empire know that you're their new ruler?",
-                "fr": "Comment fais-tu savoir aux gens aux 4 coins de ton empire que tu es leur nouveau dirigeant ?",
+                "fr": "Comment faire savoir aux 4 coins de ton empire que tu es leur nouveau dirigeant ?",
                 "es": "Este pequeño tío es un gatito curioso desde que nació"
             }
         },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "As well as putting your face on every coin! Now people have a picture of you every time they look in their pocket!",
-                        "fr": "Ainsi que mettre ton visage sur chaque pièce de monnaie ! Maintenant, les gens ont une image de toi dès qu'ils regardent dans leur poche !",
+                        "fr": "Et tu t'affiches sur toutes les pièces de monnaie ! Maintenant, les gens voient ta tête dès qu'ils regardent dans leur poche !",
                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                     }
                 },
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "This head was discovered in Meroe, in Modern Sudan",
-                        "fr": "Cette tête a été découverte à Méroé, dans le Soudan actuel",
+                        "fr": "La sculpture a été découverte à Méroé, dans le Soudan actuel",
                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                     }
                 },
@@ -109,7 +109,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Not many original bronzes survive through history... since they often got melted down for the raw materials during conquests",
-                                    "fr": "Peu de bronzes d'origine ont survécu à travers l'histoire... puisqu'ils ont souvent été fondus pour obtenir de la matière première pendant les conquêtes",
+                                    "fr": "Peu de bronzes d'origine ont survécu à travers l'histoire. Ils ont souvent été fondus pour obtenir de la matière première pendant les conquêtes",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                 }
                             },
@@ -131,7 +131,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Unfortunately for Augustus, there's a particular reason this head survived until the present day...",
-                                    "fr": "Malheureusement pour Auguste, il y a une bonne raison pour laquelle cette tête a survécu jusqu'à aujourd'hui...",
+                                    "fr": "Hélas pour Auguste, cette tête a survécu jusqu'aujourd'hui pour une bonne raison...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                 }
                             }
@@ -147,7 +147,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "What was it?",
-                                        "fr": "Qu'est-ce que c'était ?",
+                                        "fr": "Laquelle ?",
                                         "es": "Es un genio"
                                     },
                                     "Steps": [
@@ -155,7 +155,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The statue was looted by raiders, who hacked the head off and buried it deep under the steps to their temple in Meroe",
-                                                "fr": "La statue a été volée par des pillards, qui ont amputé la tête et l'ont enterrée profondément sous les marches de leur temple à Méroé",
+                                                "fr": "La statue a été volée par des pillards. Ils ont amputé la tête et l'ont enterrée profondément sous les marches du temple de Méroé",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
                                         },
@@ -163,7 +163,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "So that everyone who walked inside trampled all over the ruler's image!",
-                                                "fr": "Ainsi, tous ceux qui marchaient à l'intérieur piétinaient l'image du souverain !",
+                                                "fr": "Ainsi, tous ceux qui marchaient à l'intérieur piétinaient l'image de l'empereur !",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
                                         },
@@ -200,7 +200,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "But we may never know! We only have the head...",
-                                                "fr": "Mais on ne le saura sûrement jamais ! Nous avons seulement la tête...",
+                                                "fr": "On ne le saura sûrement jamais ! Nous avons seulement la tête...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
                                         }
@@ -284,7 +284,7 @@
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Anything else?",
-                                                                "fr": "Autre chose ?",
+                                                                "fr": "Quoi d'autre ?",
                                                                 "es": "Es un genio"
                                                             },
                                                             "Steps": [
@@ -307,7 +307,7 @@
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
-                                                                        "fr": "Sans aucun doute, il se présente comme un jeune et beau héros, avec des cheveux fournis et bien bouclés",
+                                                                        "fr": "En tout cas, il se présente comme un jeune et beau héros, avec des cheveux fournis et harmonieusement ondulés",
                                                                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                                     }
                                                                 },
@@ -329,7 +329,7 @@
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "But of course, for people in the provinces, who would never see him in the flesh, this didn't matter so much",
-                                                                        "fr": "Mais bien sûr, pour les gens de province, qui ne le verraient jamais en chair et en os, cela n'avait pas tellement d'importance",
+                                                                        "fr": "Mais bien sûr, pour les habitants des provinces, peu susceptibles de le voir en chair et en os, cela n'avait pas tellement d'importance",
                                                                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                                     }
                                                                 }
@@ -344,7 +344,7 @@
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "No thanks",
-                                                    "fr": "Non merci",
+                                                    "fr": "J'en sais assez",
                                                     "es": "Es un genio"
                                                 },
                                                 "Steps": [
@@ -370,7 +370,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
-                            "fr": "Non merci",
+                            "fr": "J'en sais assez",
                             "es": "Es un genio"
                         },
                         "Steps": [
