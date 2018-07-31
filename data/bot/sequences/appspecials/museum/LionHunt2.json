@@ -70,24 +70,51 @@
                     }
                 },
                 {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "He even kills lions barehanded!",
-                        "fr": "He even kills lions barehanded!",
-                        "es": "He even kills lions barehanded!"
-                    }
-                },
-                {
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Web",
                         "Display": "FullScreenWidth",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/King_killing_a_lion.jpg"
                     }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He even kills lions barehanded!",
+                        "fr": "He even kills lions barehanded!",
+                        "es": "He even kills lions barehanded!"
+                    }
                 }
             ],
-            "LinksToFragment": {
-                "FragmentPath": "LionHunt3"
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LionHunt2HowStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "LionHunt2HowImpressive",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Impressive!",
+                            "fr": "Impressive!",
+                            "es": "Impressive!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! I kind of feel sorry for the lions, though...",
+                                    "fr": "Right! I kind of feel sorry for the lions, though...",
+                                    "es": "Right! I kind of feel sorry for the lions, though..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LionHunt3"
+                        }
+                    }
+                ]
             }
         }
     ]
