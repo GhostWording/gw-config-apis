@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id" : "AstroLoveWork",
+  "Id" : "AstroTest",
   "Steps": [
     {
       "Type": "Text",
@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "AstroLoveWorkYes",
+      "Id": "AstroTestYes",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Indeed!",
@@ -27,7 +27,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "AstroLoveWorkNo",
+      "Id": "AstroTestNo",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Not really ...",
