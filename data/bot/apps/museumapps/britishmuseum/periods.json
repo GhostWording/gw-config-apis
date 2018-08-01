@@ -1,124 +1,217 @@
 [
   {
-    "Id": "Rome",
+    "Id": "Ancient",
     "Caption": {
-      "en": "Ancient Rome",
-      "fr": "Rome antique",
-      "es" : "Roma antigua"
+      "en": "Ancient Period",
+      "fr": "Ancient Period",
+      "es": "Ancient Period"
     },
       "DefaultImage": {
       "Type": "Image",
-      "Path": "questions/small/Forest.jpg"
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {
-        "Id": "Meroe",
+        "Id": "Ramesses",
         "Caption": {
-          "en": "Meroe head",
-          "fr": "Tête de Meroe",
-          "es" : "Cabeza de Meroe"
+          "en": "Statue of Ramesses II",
+          "fr": "Statue of Ramesses II",
+          "es": "Statue of Ramesses II"
           },
           "DefaultImage": {
             "Type": "Image",
-            "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
           },
-          "SequenceId": "BestTestFragmentEver"
+          "SequenceId": "Ramesses"
       },
       {
-        "Id": "Artowrk2",
+        "Id": "UrStandard",
         "Caption": {
-          "en": "Artowrk 2",
-          "fr": "Oeuvre 2",
-          "es" : "Obra 2"
+          "en": "The Standard of Ur",
+          "fr": "The Standard of Ur",
+          "es": "The Standard of Ur"
         },
         "DefaultImage": {
           "Type": "Image",
-          "Path": "questions/small/LightTrees.jpg"
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
         },
-        "SequenceId": "BestTestFragmentEver"
+        "SequenceId": "UrStandard"
+      },
+      {
+        "Id": "Nebamun",
+        "Caption": {
+          "en": "Tomb of Nebamun",
+          "fr": "Tomb of Nebamun",
+          "es": "Tomb of Nebamun"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
+        },
+        "SequenceId": "Nebamun"
+      },
+      {
+        "Id": "Amenhotep",
+        "Caption": {
+          "en": "Head of Amenhotep III",
+          "fr": "Head of Amenhotep III",
+          "es": "Head of Amenhotep III"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
+        },
+        "SequenceId": "Amenhotep"
       }
     ]
   },
   {
-    "Id": "Rome",
+    "Id": "Archaic",
     "Caption": {
-      "en": "The Modern Era",
-      "fr": "The Modern Era",
-      "es" : "The Modern Era"
+      "en": "The Archaic Era",
+      "fr": "The Archaic Era",
+      "es": "The Archaic Era"
     },
       "DefaultImage": {
       "Type": "Image",
-      "Path": "themes/nature/small/998385_394290847348858_240754470_n.jpg"
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {
-        "Id": "Meroe",
+        "Id": "LionHunt",
         "Caption": {
-          "en": "Meroe head",
-          "fr": "Tête de Meroe",
-          "es" : "Cabeza de Meroe"
+          "en": "Lion Hunts of Assurbanipal I",
+          "fr": "Lion Hunts of Assurbanipal I",
+          "es": "Lion Hunts of Assurbanipal I"
           },
           "DefaultImage": {
             "Type": "Image",
-            "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
           },
-          "SequenceId": "BestTestFragmentEver"
+          "SequenceId": "LionHunt"
       },
       {
-        "Id": "Artowrk2",
+        "Id": "Exekias",
         "Caption": {
-          "en": "Artowrk 2",
-          "fr": "Oeuvre 2",
-          "es" : "Obra 2"
+          "en": "Exekias Amphora",
+          "fr": "Exekias Amphora",
+          "es": "Exekias Amphora"
         },
         "DefaultImage": {
           "Type": "Image",
-          "Path": "questions/small/LightTrees.jpg"
+          "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
         },
-        "SequenceId": "BestTestFragmentEver"
+        "SequenceId": "Exekias"
+      },
+      {
+        "Id": "Mausoleum",
+        "Caption": {
+          "en": "Mausoleum at Halicarnassus",
+          "fr": "Mausoleum at Halicarnassus",
+          "es": "Mausoleum at Halicarnassus"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
+        },
+        "SequenceId": "Mausoleum"
       }
     ]
   },
   {
-    "Id": "period2",
+    "Id": "Classical",
     "Caption": {
-      "en": "Period 2",
-      "fr": "Période 2",
-      "es" : "Período 2"
+      "en": "Classical Period",
+      "fr": "Classical Period",
+      "es": "Classical Period"
     },
     "DefaultImage": {
       "Type": "Image",
-      "Path": "questions/small/LightTrees.jpg"
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533119268/parthenon.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {
-        "Id": "Meroe",
+        "Id": "ParthenonPediment",
         "Caption": {
-          "en": "Meroe head",
-          "fr": "Tête de Meroe",
-          "es" : "Cabeza de Meroe"
+          "en": "Parthenon Pediment",
+          "fr": "Parthenon Pediment",
+          "es": "Parthenon Pediment"
         },
         "DefaultImage": {
           "Type": "Image",
-          "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+          "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
         },
         "SequenceId": "BestTestFragmentEver"
       },
       {
-        "Id": "Artowrk2",
+        "Id": "BerlinVolute",
         "Caption": {
-          "en": "Artowrk 2",
-          "fr": "Oeuvre 2",
-          "es" : "Obra 2"
+          "en": "Berlin Volute Krater",
+          "fr": "Berlin Volute Krater",
+          "es": "Berlin Volute Krater"
         },
         "DefaultImage": {
           "Type": "Image",
-          "Path": "questions/small/Forest.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
         },
-        "SequenceId": "BestTestFragmentEver"
+        "SequenceId": "BerlinVolute"
+      },
+      {
+        "Id": "Caryatids",
+        "Caption": {
+          "en": "Erechtheion Caryatids",
+          "fr": "Erechtheion Caryatids",
+          "es": "Erechtheion Caryatids"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690463/museum%20app/5_Caryatids.jpg"
+        },
+        "SequenceId": "Caryatids"
+      }
+    ]
+  },
+  {
+    "Id": "MiddleAges",
+    "Caption": {
+      "en": "The Middle Ages",
+      "fr": "The Middle Ages",
+      "es": "The Middle Ages"
+    },
+    "DefaultImage": {
+      "Type": "Image",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120048/MiddleAgesKnight.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {
+        "Id": "AgnesCup",
+        "Caption": {
+          "en": "The Royal Gold Cup",
+          "fr": "The Royal Gold Cup",
+          "es": "The Royal Gold Cup"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_1Reduced.jpg"
+        },
+        "SequenceId": "AgnesCup"
+      },
+      {
+        "Id": "Chessmen",
+        "Caption": {
+          "en": "Lewis Chessmen",
+          "fr": "Lewis Chessmen",
+          "es": "Lewis Chessmen"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120250/Beserker__Lewis_Chessmen__British_Museum.jpg"
+        },
+        "SequenceId": "Chessmen"
       }
     ]
   }
