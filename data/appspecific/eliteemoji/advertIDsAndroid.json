@@ -23,6 +23,14 @@
       "ID": "ca-app-pub-7822741681642396/4077307864"
     }   
   },
+  "After10InterstitialDisplays": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/7689426217",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4077307864"
+    }   
+  },  
   "OtherResumeActivityAlternativeOld": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4009261578",
