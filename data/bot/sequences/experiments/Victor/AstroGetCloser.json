@@ -1,150 +1,171 @@
 {
-  "Type": "Node",
-  "Id" : "AstroGetCloser",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I feel you are trying to get closer to someone",
-        "fr": "I feel you are trying to get closer to someone",
-        "es": "I feel you are trying to get closer to someone"
-       }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "AstroGetCloserYes",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Indeed",
-        "fr": "Indeed",
-        "es": "Indeed"
-      },
-      "Steps":[
+    "Type": "Node",
+    "Id": "AstroGetCloser",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "But you don't really know how to ",
-            "fr": "But you don't really know how to ",
-            "es": "But you don't really know how to "
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "I feel you are trying to get closer to someone",
+                "fr": "I feel you are trying to get closer to someone",
+                "es": "I feel you are trying to get closer to someone"
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "AstroGetCloserYesDontKnow",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "AstroGetCloserYesDontKnowExactly",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Exactly",
-              "fr": "Exactly",
-              "es": "Exactly"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
-                  "fr": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
-                  "es": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ..."
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "AstroGetCloserYesDontKnowShy",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I'm just shy",
-              "fr": "I'm just shy",
-              "es": "I'm just shy"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
-                  "fr": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
-                  "es": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ..."
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "AstroGetCloserNo",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Not really",
-        "fr": "Not really",
-        "es": "Not really"
-      },
-      "Steps":[
+    ],
+    "Commands": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I am pretty sure about it though. Unless ... I am not seeing your present but your future",
-            "fr": "I am pretty sure about it though. Unless ... I am not seeing your present but your future",
-            "es": "I am pretty sure about it though. Unless ... I am not seeing your present but your future"
-          }
+            "Type": "Node",
+            "Id": "AstroGetCloserYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Indeed",
+                "fr": "Indeed",
+                "es": "Indeed"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But you don't really know how to ",
+                        "fr": "But you don't really know how to ",
+                        "es": "But you don't really know how to "
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstroGetCloserYesDontKnow",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroGetCloserYesDontKnowExactly",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exactly",
+                            "fr": "Exactly",
+                            "es": "Exactly"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
+                                    "fr": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
+                                    "es": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ..."
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533140164/couple_hugging.jpg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroGetCloserYesDontKnowShy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'm just shy",
+                            "fr": "I'm just shy",
+                            "es": "I'm just shy"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
+                                    "fr": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ...",
+                                    "es": "I feel you are the kind of person that is more likely to show love with hugs than flowers, and that must be why you are in this situation : sometimes also like flowers. I hope you see what I mean ..."
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533140164/couple_hugging.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AstroGetCloserNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really",
+                "fr": "Not really",
+                "es": "Not really"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I am pretty sure about it though. Unless ... I am not seeing your present but your future",
+                        "fr": "I am pretty sure about it though. Unless ... I am not seeing your present but your future",
+                        "es": "I am pretty sure about it though. Unless ... I am not seeing your present but your future"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533140952/crystalball_future.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstroGetCloserNoPresent",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroGetCloserNoPresentYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Really ?",
+                            "fr": "Really ?",
+                            "es": "Really ?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
+                                    "fr": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
+                                    "es": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come."
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroGetCloserNoPresentNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I don't believe you",
+                            "fr": "I don't believe you",
+                            "es": "I don't believe you"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
+                                    "fr": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
+                                    "es": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "AstroGetCloserNoPresent",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "AstroGetCloserNoPresentYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Really ?",
-              "fr": "Really ?",
-              "es": "Really ?"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
-                  "fr": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
-                  "es": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come."
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "AstroGetCloserNoPresentNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I don't believe you",
-              "fr": "I don't believe you",
-              "es": "I don't believe you"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
-                  "fr": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come.",
-                  "es": "I can see that you will be trying to show your love with hugs rather than flowers, except that approach may not work for you. I would suggest you think about it when the times come."
-                }
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ]
+    ]
 }
