@@ -13,8 +13,8 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
-      "Id": "AstroLoveWorkYes",
+      "Type": "Node",
+      "Id": "AstroLoveWorkLove",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Indeed!",
@@ -27,7 +27,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "AstroLoveWorkNo",
+      "Id": "AstroLoveWorkWork",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Not really ...",
