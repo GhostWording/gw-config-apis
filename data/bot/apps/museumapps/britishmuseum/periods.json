@@ -7,7 +7,7 @@
       "es": "Ancient Period"
     },
       "DefaultImage": {
-      "Type": "Image",
+      "Type": "Web",
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
@@ -20,7 +20,7 @@
           "es": "Statue of Ramesses II"
           },
           "DefaultImage": {
-            "Type": "Image",
+            "Type": "Web",
             "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
           },
           "SequenceId": "Ramesses"
@@ -33,7 +33,7 @@
           "es": "The Standard of Ur"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
         },
         "SequenceId": "UrStandard"
@@ -46,7 +46,7 @@
           "es": "Tomb of Nebamun"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
         },
         "SequenceId": "Nebamun"
@@ -59,7 +59,7 @@
           "es": "Head of Amenhotep III"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
         },
         "SequenceId": "Amenhotep"
@@ -74,7 +74,7 @@
       "es": "The Archaic Era"
     },
       "DefaultImage": {
-      "Type": "Image",
+      "Type": "Web",
       "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
@@ -87,7 +87,7 @@
           "es": "Lion Hunts of Assurbanipal I"
           },
           "DefaultImage": {
-            "Type": "Image",
+            "Type": "Web",
             "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
           },
           "SequenceId": "LionHunt"
@@ -100,7 +100,7 @@
           "es": "Exekias Amphora"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
         },
         "SequenceId": "Exekias"
@@ -113,7 +113,7 @@
           "es": "Mausoleum at Halicarnassus"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
         },
         "SequenceId": "Mausoleum"
@@ -128,7 +128,7 @@
       "es": "Classical Period"
     },
     "DefaultImage": {
-      "Type": "Image",
+      "Type": "Web",
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533119268/parthenon.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
@@ -141,7 +141,7 @@
           "es": "Parthenon Pediment"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
         },
         "SequenceId": "BestTestFragmentEver"
@@ -154,7 +154,7 @@
           "es": "Berlin Volute Krater"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
         },
         "SequenceId": "BerlinVolute"
@@ -167,7 +167,7 @@
           "es": "Erechtheion Caryatids"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690463/museum%20app/5_Caryatids.jpg"
         },
         "SequenceId": "Caryatids"
@@ -182,7 +182,7 @@
       "es": "The Middle Ages"
     },
     "DefaultImage": {
-      "Type": "Image",
+      "Type": "Web",
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120048/MiddleAgesKnight.jpg"
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
@@ -195,7 +195,7 @@
           "es": "The Royal Gold Cup"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_1Reduced.jpg"
         },
         "SequenceId": "AgnesCup"
@@ -208,7 +208,7 @@
           "es": "Lewis Chessmen"
         },
         "DefaultImage": {
-          "Type": "Image",
+          "Type": "Web",
           "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120250/Beserker__Lewis_Chessmen__British_Museum.jpg"
         },
         "SequenceId": "Chessmen"
