@@ -1,0 +1,174 @@
+{
+    "Type": "Node",
+    "Id": "Hadrian3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Notice how he has a beard here in the bust…",
+                "fr": "Notice how he has a beard here in the bust…",
+                "es": "Notice how he has a beard here in the bust…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display":"FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533123225/Hadrians-beard.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "…",
+                "fr": "…",
+                "es": "…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Hadrian3What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So what?",
+                "fr": "So what?",
+                "es": "So what?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, no emperors or statesmen to this point had such bold facial hair!",
+                        "fr": "Well, no emperors or statesmen to this point had such bold facial hair!",
+                        "es": "Well, no emperors or statesmen to this point had such bold facial hair!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He’s nearly always shown with a beard, even if his face is slightly different!",
+                        "fr": "He’s nearly always shown with a beard, even if his face is slightly different!",
+                        "es": "He’s nearly always shown with a beard, even if his face is slightly different!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533123226/other_bust.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Apparently, this popularised the style around the Roman Empire",
+                        "fr": "Apparently, this popularised the style around the Roman Empire",
+                        "es": "Apparently, this popularised the style around the Roman Empire"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Hadrian3WhatStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Hadrian3WhatReally",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Oh, really?",
+                            "fr": "Oh, really?",
+                            "es": "Oh, really?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! Since every Roman would have been trading coins with a bearded emperor stamped on them!",
+                                    "fr": "Right! Since every Roman would have been trading coins with a bearded emperor stamped on them!",
+                                    "es": "Right! Since every Roman would have been trading coins with a bearded emperor stamped on them!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It’s just like a fashion magazine!",
+                                    "fr": "It’s just like a fashion magazine!",
+                                    "es": "It’s just like a fashion magazine!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display":"FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533123228/Coin_Hadrian.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aside from that, he was also very well travelled!",
+                                    "fr": "Aside from that, he was also very well travelled!",
+                                    "es": "Aside from that, he was also very well travelled!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Like an Instagram celebrity!",
+                                    "fr": "Like an Instagram celebrity!",
+                                    "es": "Like an Instagram celebrity!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Hadrian3WhatReallyTellVsEnough",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Hadrian3WhatReallyTell",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Tell me!",
+                                        "fr": "Tell me!",
+                                        "es": "Tell me!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "He was nearly constantly on the move…",
+                                                "fr": "He was nearly constantly on the move…",
+                                                "es": "He was nearly constantly on the move…"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Hadrian4"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Hadrian3WhatReallyEnough",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That’s enough",
+                                        "fr": "That’s enough",
+                                        "es": "That’s enough"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
