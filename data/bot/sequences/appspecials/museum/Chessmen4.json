@@ -13,8 +13,9 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display":"FullScreenWidth",
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis4.jpg"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532941022/Lewis4_bis.jpg"
             }
         },
         {
@@ -48,8 +49,9 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis5_Reduced.jpg"
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532945617/Lewis5.2.jpg"
                     }
                 },
                 {
@@ -95,6 +97,7 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Display":"FullScreenWidth",
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis6.png"
                                 }
