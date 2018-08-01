@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "Hadrian2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It gets its name from this handsome man!",
+                "fr": "It gets its name from this handsome man!",
+                "es": "It gets its name from this handsome man!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533123227/Head_of_Hadrian_BM.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hadrian was not a typical emperor…",
+                "fr": "Hadrian was not a typical emperor…",
+                "es": "Hadrian was not a typical emperor…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Hadrian2How",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How so?",
+                "fr": "How so?",
+                "es": "How so?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, firstly, he was something of a fashion icon!",
+                        "fr": "Well, firstly, he was something of a fashion icon!",
+                        "es": "Well, firstly, he was something of a fashion icon!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Hadrian3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Hadrian2Stop",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not interested",
+                "fr": "Not interested",
+                "es": "Not interested"
+            }
+        }
+    ]
+}
