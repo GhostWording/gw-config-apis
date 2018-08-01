@@ -5,8 +5,9 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display": "FullScreenWidth",
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis1_bis.jpg"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533115795/Lewis_Chessman__British_Museum.jpg"
             }
         },
         {
@@ -58,6 +59,13 @@
                         "en": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
                         "fr": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
                         "es": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533052747/Lewis_Ruins.jpg"
                     }
                 },
                 {
