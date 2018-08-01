@@ -2,61 +2,68 @@
     "Type": "Node",
     "Id": "Chessmen",
     "Steps": [
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Ever played chess with pieces made from walrus tusks or whale teeth?",
-                "fr": "Ever played chess with pieces made from walrus tusks or whale teeth?",
-                "es": "Ever played chess with pieces made from walrus tusks or whale teeth?"
-            }
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Ever played chess with pieces made from walrus tusks or whale teeth?",
+          "fr": "Ever played chess with pieces made from walrus tusks or whale teeth?",
+          "es": "Ever played chess with pieces made from walrus tusks or whale teeth?"
         }
+      },
+      {
+        "Type": "Image",
+        "Parameters": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532943086/Lewis0.jpg"
+        }
+      }
     ],
     "Commands": [
-        {
-            "Type": "Node",
-            "Id": "ChessmenNever",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Never",
-                "fr": "Never",
-                "es": "Never"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I’m not surprised, it’s rare!",
-                        "fr": "I’m not surprised, it’s rare!",
-                        "es": "I’m not surprised, it’s rare!"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Chessmen2"
-            }
+      {
+        "Type": "Node",
+        "Id": "ChessmenNever",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Never",
+          "fr": "Never",
+          "es": "Never"
         },
-        {
-            "Type": "Node",
-            "Id": "ChessmenYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Yes",
-                "fr": "Yes",
-                "es": "Yes"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Oh really? Was it with these?",
-                        "fr": "Oh really? Was it with these?",
-                        "es": "Oh really? Was it with these?"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Chessmen2"
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I’m not surprised, it’s rare!",
+              "fr": "I’m not surprised, it’s rare!",
+              "es": "I’m not surprised, it’s rare!"
             }
+          }
+        ],
+        "LinksToFragment": {
+          "FragmentPath": "Chessmen2"
         }
+      },
+      {
+        "Type": "Node",
+        "Id": "ChessmenYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yes",
+          "fr": "Yes",
+          "es": "Yes"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Oh really? Was it with these?",
+              "fr": "Oh really? Was it with these?",
+              "es": "Oh really? Was it with these?"
+            }
+          }
+        ],
+        "LinksToFragment": {
+          "FragmentPath": "Chessmen2"
+        }
+      }
     ]
-}
+  }
