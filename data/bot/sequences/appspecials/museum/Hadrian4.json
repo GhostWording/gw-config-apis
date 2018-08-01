@@ -1,0 +1,81 @@
+{
+    "Type": "Node",
+    "Id": "Hadrian4",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533123225/Map.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We think he visited nearly every corner of the empire at least once!",
+                "fr": "We think he visited nearly every corner of the empire at least once!",
+                "es": "We think he visited nearly every corner of the empire at least once!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Talk about air miles!",
+                "fr": "Talk about air miles!",
+                "es": "Talk about air miles!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Hadrian4Else",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Anything else?",
+                "fr": "Anything else?",
+                "es": "Anything else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
+                        "fr": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
+                        "es": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was found in the Thames, after all!",
+                        "fr": "It was found in the Thames, after all!",
+                        "es": "It was found in the Thames, after all!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3gMc2X72vgjqGEqdJ5"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It hasn’t travelled far! It’s in the British Museum, room 49!",
+                        "fr": "It hasn’t travelled far! It’s in the British Museum, room 49!",
+                        "es": "It hasn’t travelled far! It’s in the British Museum, room 49!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533123227/Room_49.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
