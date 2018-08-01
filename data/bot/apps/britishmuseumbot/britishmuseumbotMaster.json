@@ -3,17 +3,10 @@
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/UrStandard.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/LionHunt.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/Caryatids.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Chessmen.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Ramesses.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
-      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
-      { "order" : 6, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
-      { "order" : 7, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
-      { "order" : 8, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
+      { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
       ]
    }
 ]
