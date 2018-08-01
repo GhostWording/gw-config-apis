@@ -1,156 +1,137 @@
 {
-    "Type": "Node",
-    "Id": "Caryatids",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Caryatids2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "By making their women (Caryatides) support the rooves of their buildings for eternity!",
+        "fr": "By making their women (Caryatides) support the rooves of their buildings for eternity!",
+        "es": "By making their women (Caryatides) support the rooves of their buildings for eternity!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690463/museum%20app/5_Caryatids.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "And that’s how the statues get their name!",
+        "fr": "And that’s how the statues get their name!",
+        "es": "And that’s how the statues get their name!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Caryatids2Tell",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Tell me more!",
+        "fr": "Tell me more!",
+        "es": "Tell me more!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "As I’m sure you know, Greek pillars are very famous for their pretty patterns",
-                "fr": "As I’m sure you know, Greek pillars are very famous for their pretty patterns",
-                "es": "As I’m sure you know, Greek pillars are very famous for their pretty patterns"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens",
+            "fr": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens",
+            "es": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens"
+          }
         },
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/museum/GreekColumns.json"
-            }
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532948372/museum%20app/caryatids_full.jpg"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "But, some artists took it further!",
-                "fr": "But, some artists took it further!",
-                "es": "But, some artists took it further!"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "She had 5 sisters to help her, and those are held in the Acropolis Museum",
+            "fr": "She had 5 sisters to help her, and those are held in the Acropolis Museum",
+            "es": "She had 5 sisters to help her, and those are held in the Acropolis Museum"
+          }
         }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "CaryatidsHow",
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Caryatids2TellStep",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Caryatids2TellElse",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "How so?",
-                "fr": "How so?",
-                "es": "How so?"
+              "en": "Anything else?",
+              "fr": "Anything else?",
+              "es": "Anything else?"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Well, they decided to create full statues out of columns!",
-                        "fr": "Well, they decided to create full statues out of columns!",
-                        "es": "Well, they decided to create full statues out of columns!"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532948244/museum%20app/Caryatid-Erechtheum-British_Museum-3_2.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "This is called a ‘Caryatid’",
-                        "fr": "This is called a ‘Caryatid’",
-                        "es": "This is called a ‘Caryatid’"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "The way it gets its name is a fascinating story!",
-                        "fr": "The way it gets its name is a fascinating story!",
-                        "es": "The way it gets its name is a fascinating story!"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, the Caryatids all have very thick, blocky hair… ",
+                  "fr": "Well, the Caryatids all have very thick, blocky hair… ",
+                  "es": "Well, the Caryatids all have very thick, blocky hair… "
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "CaryatidsHowChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "CaryatidsHowHear",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Let’s hear it!",
-                            "fr": "Let’s hear it!",
-                            "es": "Let’s hear it!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, when the Greeks fought the Persians in the 5th Century BC, the people of Caryae (a Greek city) supported the Persians!",
-                                    "fr": "Well, when the Greeks fought the Persians in the 5th Century BC, the people of Caryae (a Greek city) supported the Persians!",
-                                    "es": "Well, when the Greeks fought the Persians in the 5th Century BC, the people of Caryae (a Greek city) supported the Persians!"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "2yyFSIM9jeJcUWLtYB"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Unfortunately for them, the Greeks won, and they didn’t forget Caryae’s betrayal!",
-                                    "fr": "Unfortunately for them, the Greeks won, and they didn’t forget Caryae’s betrayal!",
-                                    "es": "Unfortunately for them, the Greeks won, and they didn’t forget Caryae’s betrayal!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "CaryatidsHowHearStep",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "CaryatidsHowHearWhat",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "What happened?",
-                                        "fr": "What happened?",
-                                        "es": "What happened?"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Well, the Greeks symbolically punished the people of Caryae…",
-                                                "fr": "Well, the Greeks symbolically punished the people of Caryae…",
-                                                "es": "Well, the Greeks symbolically punished the people of Caryae…"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Caryatids2"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "CaryatidsHowNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "No thanks",
-                            "es": "No thanks"
-                        }
-                    }
-                ]
-            }
-        }
-    ]
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                    "Display": "FullScreenWidth",
+                  "Source": "Web",
+                  "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690460/museum%20app/Hair_of_Caryatids.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "not because that was the fashion…",
+                  "fr": "not because that was the fashion…",
+                  "es": "not because that was the fashion…"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "But because it’s vital for making them actually able to support the temple!",
+                  "fr": "But because it’s vital for making them actually able to support the temple!",
+                  "es": "But because it’s vital for making them actually able to support the temple!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Talk about a bad hair day!",
+                  "fr": "Talk about a bad hair day!",
+                  "es": "Talk about a bad hair day!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Caryatids2Enough",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "That’s enough",
+        "fr": "That’s enough",
+        "es": "That’s enough"
+      }
+    }
+  ]
 }
