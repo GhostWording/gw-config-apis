@@ -10,10 +10,10 @@
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Ramesses.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
-      { "order" : 500, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
-      { "order" : 600, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
-      { "order" : 700, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
-      { "order" : 800, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
+      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
+      { "order" : 6, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
+      { "order" : 7, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
+      { "order" : 8, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]}
       ]
    }
 ]
