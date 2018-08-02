@@ -1,0 +1,63 @@
+{
+  "Type": "Node",
+  "Id": "AstroStoriesOrEmojis",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"Welcome",
+        "fr":"Welcome",
+        "es":"Welcome"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"What are you here for?",
+        "fr":"What are you here for?",
+        "es":"What are you here for?"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "AstroEmojis",
+      "CommandLabel": {
+        "en":"Astrology emojis",
+        "fr":"Astrology emojis",
+        "es":"Astrology emojis"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"🚀🚀🚀",
+            "fr":"🚀🚀🚀",
+            "es":"🚀🚀🚀"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/themes/emojiAstro/small"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "AstroStories",
+      "CommandLabel": {
+        "en":"My future",
+        "fr":"My future",
+        "es":"My future"
+      }
+    }
+  ]
+}
