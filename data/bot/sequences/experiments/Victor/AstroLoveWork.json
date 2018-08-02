@@ -1,73 +1,101 @@
 {
-  "Type": "Node",
-  "Id" : "AstroLoveWork",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I believe you want to talk about love",
-        "fr": "I believe you want to talk about love",
-        "es": "I believe you want to talk about love"
-       }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "AstroLoveWorkLove",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Indeed!",
-        "fr": "Indeed!",
-        "es": "Indeed!"
-      },
-      "LinksToFragment": {
-        "FragmentPath": "AstroSoulmate"
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "AstroLoveWorkWork",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Not really ...",
-        "fr": "Not really ...",
-        "es": "Not really ..."
-      },
-      "Steps":[
+    "Type": "Node",
+    "Id": "AstroLoveWork",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I guess I should stop trying to read minds and start reading the stars instead !",
-            "fr": "I guess I should stop trying to read minds and start reading the stars instead !",
-            "es": "I guess I should stop trying to read minds and start reading the stars instead !"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Let me tell you about what I see about your work",
-            "fr": "Let me tell you about what I see about your work",
-            "es": "Let me tell you about what I see about your work"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain.",
-            "fr": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain.",
-            "es": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain."
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards.",
-            "fr": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards.",
-            "es": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "I believe you want to talk about love ❤",
+                "fr": "I believe you want to talk about love ❤",
+                "es": "I believe you want to talk about love ❤"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AstroLoveWorkLove",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Indeed!",
+                "fr": "Indeed!",
+                "es": "Indeed!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "AstroSoulmate"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AstroLoveWorkWork",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really ...",
+                "fr": "Not really ...",
+                "es": "Not really ..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess I should stop trying to read minds and start reading the stars instead !",
+                        "fr": "I guess I should stop trying to read minds and start reading the stars instead !",
+                        "es": "I guess I should stop trying to read minds and start reading the stars instead !"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533141443/stars_sky.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me tell you about what I see about your work 💻",
+                        "fr": "Let me tell you about what I see about your work 💻",
+                        "es": "Let me tell you about what I see about your work 💻"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain.",
+                        "fr": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain.",
+                        "es": "Your working life may be harder than usual this week, but you're learning important skills that will advance you up the food chain."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533142349/people_working.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards.",
+                        "fr": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards.",
+                        "es": "Meanwhile, your career is going through a lot of changes. Take it one step at a time for greater rewards."
+                    }
+                }
+            ]
+        }
+    ]
 }
