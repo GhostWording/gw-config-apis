@@ -2,7 +2,9 @@
   {
     "GroupName": "Astrology",
     "SequenceFiles": [
-      { "order" : 20, "file": ["/data/bot/sequences/experiments/Victor/AstroTalkAbout.json"]}
+       { "order" : 10, "file": ["/data/bot/sequences/appspecials/astrology/AstroIntro.json"]},
+       { "order" : 20, "file": ["/data/bot/sequences/experiments/Victor/AstroTalkAbout.json"]},
+       { "order" : 30, "file": ["/data/bot/sequences/appspecials/astrology/AstroStoriesOrEmojis.json"]}
     ]
   }
 ]
