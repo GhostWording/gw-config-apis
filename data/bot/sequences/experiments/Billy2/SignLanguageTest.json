@@ -1,14 +1,17 @@
-"Steps": [
-  {
-    "Type": "Text",
-    "Label": {
-      "en": "Showing an image full size",
-      "fr": "FR - Showing an image full size!",
-      "es": "ES - Showing an image full size"
-      },
-     "AnimatedGifTranslation": {
-        "Source": "Giphy",
-        "Path": "QvwMDYpAMUm6Q"
-      }
-  }
+[
+  "Type":"Leaf",
+  "Id": "SignLanguageTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Showing an image full size",
+        "fr": "FR - Showing an image full size!",
+        "es": "ES - Showing an image full size"
+        },
+       "AnimatedGifTranslation": {
+          "Source": "Giphy",
+          "Path": "QvwMDYpAMUm6Q"
+        }
+    }
 ]
