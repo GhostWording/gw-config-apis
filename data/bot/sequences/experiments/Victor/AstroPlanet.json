@@ -1,130 +1,144 @@
 {
-  "Type": "Node",
-  "Id" : "AstroPlanet",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Do you know that our destiny is ruled by the alignment of planets and stars ?",
-        "fr": "Do you know that our destiny is ruled by the alignment of planets and stars ?",
-        "es": "Do you know that our destiny is ruled by the alignment of planets and stars ?"
-       }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "AstroPlanetYes",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Of course !",
-        "fr": "Of course !",
-        "es": "Of course !"
-      },
-      "Steps":[
+    "Type": "Node",
+    "Id": "AstroPlanet",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Good, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
-            "fr": "Good, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
-            "es": "Good, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Do you know that our destiny is ruled by the alignment of planets and stars ?",
+                "fr": "Do you know that our destiny is ruled by the alignment of planets and stars ?",
+                "es": "Do you know that our destiny is ruled by the alignment of planets and stars ?"
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "AstroPlanetYesHelpfulPeople",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "AstroPlanetYesHelpfulPeopleYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "I see !",
-              "fr": "I see !",
-              "es": "I see !"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Thus you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave.",
-                  "fr": "Thus you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave.",
-                  "es": "Thus you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave."
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "AstroPlanetYesHelpfulPeopleWhat",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Meaning what ?",
-              "fr": "Meaning what ?",
-              "es": "Meaning what ?"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave. ",
-                  "fr": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave. ",
-                  "es": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave. "
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "AstroPlanetNo",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That's a lie",
-        "fr": "That's a lie",
-        "es": "That's a lie"
-      },
-      "Steps":[
+    ],
+    "Commands": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Too bad you don't believe it, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
-            "fr": "Too bad you don't believe it, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
-            "es": "Too bad you don't believe it, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon."
-          }
-        }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "AstroPlanetNoHelpfulPeople",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "AstroPlanetNoHelpfulPeopleWhat",
+            "Type": "Node",
+            "Id": "AstroPlanetYes",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Meaning what ?",
-              "fr": "Meaning what ?",
-              "es": "Meaning what ?"
+                "en": "Of course !",
+                "fr": "Of course !",
+                "es": "Of course !"
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready before the helpful people leave.",
-                  "fr": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready before the helpful people leave.",
-                  "es": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready before the helpful people leave."
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Good, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
+                        "fr": "Good, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
+                        "es": "Good, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533198372/planet_aligned.jpg"
+                    }
                 }
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstroPlanetYesHelpfulPeople",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroPlanetYesHelpfulPeopleYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I see !",
+                            "fr": "I see !",
+                            "es": "I see !"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thus you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave.",
+                                    "fr": "Thus you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave.",
+                                    "es": "Thus you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroPlanetYesHelpfulPeopleWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Meaning what ?",
+                            "fr": "Meaning what ?",
+                            "es": "Meaning what ?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave. ",
+                                    "fr": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave. ",
+                                    "es": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready. Check what is left undone when they leave. "
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AstroPlanetNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's a lie",
+                "fr": "That's a lie",
+                "es": "That's a lie"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Too bad you don't believe it, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
+                        "fr": "Too bad you don't believe it, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon.",
+                        "es": "Too bad you don't believe it, because the helpful people who seem to magically appear when the morning moon sextiles Mercury today could just as magically disappear when the moon goes void-of-course this afternoon."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533198372/planet_aligned.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstroPlanetNoHelpfulPeople",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "AstroPlanetNoHelpfulPeopleWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Meaning what ?",
+                            "fr": "Meaning what ?",
+                            "es": "Meaning what ?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready before the helpful people leave.",
+                                    "fr": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready before the helpful people leave.",
+                                    "es": "Meaning you would be wise to take advantage of the previous moments by having your list of projects ready before the helpful people leave."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
 }
