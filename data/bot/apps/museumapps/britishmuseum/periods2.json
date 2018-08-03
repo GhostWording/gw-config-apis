@@ -12,6 +12,8 @@
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
+      {"Id": "Amenhotep"},
+      {"Id": "Nebamun"},
       {"Id": "Ramesses"},
       {"Id": "UrStandard"}
     ]
@@ -29,8 +31,44 @@
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
+      {"Id": "Exekias"},
       {"Id": "LionHunt"},
-      {"Id": "Exekias"}
+      {"Id": "Mausoleum"}
+    ]
+  },
+  {
+    "Id": "Classical",
+    "Caption": {
+      "en": "Classical Period",
+      "fr": "Classical Period",
+      "es": "Classical Period"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533304829/parthenon.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "BerlinVolute"},
+      {"Id": "Caryatids"},
+      {"Id": "ParthenonPediment"}
+    ]
+  },
+  {
+    "Id": "MiddleAges",
+    "Caption": {
+      "en": "The Middle Ages",
+      "fr": "The Middle Ages",
+      "es": "The Middle Ages"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120048/MiddleAgesKnight.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "AgnesCup"},
+      {"Id": "Chessmen"}
     ]
   }
 ]
