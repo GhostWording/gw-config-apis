@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "Ancient",
+    "Caption": {
+      "en": "Ancient Period",
+      "fr": "Ancient Period",
+      "es": "Ancient Period"
+    },
+      "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "Ramesses"},
+      {"Id": "UrStandard"}
+    ]
+  },
+  {
+    "Id": "Archaic",
+    "Caption": {
+      "en": "The Archaic Era",
+      "fr": "The Archaic Era",
+      "es": "The Archaic Era"
+    },
+      "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "LionHunt"},
+      {"Id": "Exekias"}
+    ]
+  }
+]
