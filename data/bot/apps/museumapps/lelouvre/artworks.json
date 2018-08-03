@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "Ramesses",
+    "Caption": {
+      "en": "Statue of Ramesses II",
+      "fr": "Statue of Ramesses II",
+      "es": "Statue of Ramesses II"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "Ramesses"
+  },
+  {
+    "Id": "UrStandard",
+        "Caption": {
+          "en": "The Standard of Ur",
+          "fr": "The Standard of Ur",
+          "es": "The Standard of Ur"
+        },
+        "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
+        },
+      "Artist" : "Unknown",
+      "SequenceId": "UrStandard"
+  },
+  {
+    "Id": "LionHunt",
+    "Caption": {
+      "en": "Lion Hunts of Assurbanipal I",
+      "fr": "Lion Hunts of Assurbanipal I",
+      "es": "Lion Hunts of Assurbanipal I"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "LionHunt"
+  },
+  {
+    "Id": "Exekias",
+    "Caption": {
+      "en": "Exekias Amphora",
+      "fr": "Exekias Amphora",
+      "es": "Exekias Amphora"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Exekias"
+  }
+]
