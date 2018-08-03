@@ -39,10 +39,19 @@
                     }
                 },
                 {
-                    "Type": "Action",
-                    "Name": "ShowCarouselFromList",
+                    "Type": "Image",
                     "Parameters": {
-                        "Path": "/data/common/carousel/museum/OwlPlaces.json"
+                        "Display":"FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533295368/DinosaurPeriod.jpg"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display":"FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533295422/RomanPeriod.jpg"
                     }
                 },
                 {
@@ -121,10 +130,19 @@
                     }
                 },
                 {
-                    "Type": "Action",
-                    "Name": "ShowCarouselFromList",
+                    "Type": "Image",
                     "Parameters": {
-                        "Path": "/data/common/carousel/museum/OwlPlaces.json"
+                        "Display":"FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533295368/DinosaurPeriod.jpg"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display":"FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533295422/RomanPeriod.jpg"
                     }
                 },
                 {
