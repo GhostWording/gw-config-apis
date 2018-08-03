@@ -1,4 +1,3 @@
-
 {
   "Id": "LeLouvre",
   "Caption": {
@@ -11,47 +10,9 @@
     "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
   },
   "Artworks" : [
-    {
-      "Id": "Meroe"
-    },
-    {
-      "Id": "ExekiasAchilles"
-    },
-    {
-      "Id": "AgnesCup"
-    },
-    {
-      "Id": "LewisChessmen"
-    },
-    {
-      "Id": "RosettaStone"
-    },
-    {
-      "Id": "Nebamun"
-    },
-    {
-      "Id": "BerlinKrater"
-    },
-    {
-      "Id": "AmenhotepHead"
-    },
-    {
-      "Id": "PortlandVase"
-    },
-    {
-      "Id": "DavidVases"
-    },
-    {
-      "Id": "Mausoleum"
-    },
-    {
-      "Id": "LionHunt"
-    },
-    {
-      "Id": "HolyThorn"
-    },
-    {
-      "Id": "ParthenonPediment"
-    }
+    {"Id": "Ramesses"},
+    {"Id": "UrStandard"},
+    {"Id": "LionHunt"},
+    {"Id": "Exekias"}
   ]
 }
