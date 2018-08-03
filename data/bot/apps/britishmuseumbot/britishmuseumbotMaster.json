@@ -2,6 +2,7 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/Victor/AstroTest3.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
