@@ -12,200 +12,46 @@
   },
   "Artworks" : [
     {
-      "Id": "Meroe",
-      "Caption": {
-        "en": "Mona Lisa seeing her portrait",
-        "fr": "Tête de Meroe",
-        "es": "Cabeza de Meroe"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
-      },
-      "Artist" : "Unknown",
-      "SequenceId": "Meroe"
+      "Id": "Meroe"
     },
     {
-      "Id": "ExekiasAchilles",
-      "Caption": {
-        "en": "Attic Black Figure Amphora",
-        "fr": "Attic Black Figure Amphora",
-        "es": "Attic Black Figure Amphora"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532354484/AN00034520_001_l.jpg"
-      },
-      "Artist" : "Exekias",
-      "SequenceId": "BestTestFragmentEver"
+      "Id": "ExekiasAchilles"
     },
     {
-      "Id": "AgnesCup",
-      "Caption": {
-        "en": "Royal Gold Cup",
-        "fr": "Royal Gold Cup",
-        "es": "Royal Gold Cup"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354600/AN00036306_001_l.jpg"
-      },
-      "Artist" : "Unknown",
-      "SequenceId": "AgnesCup"
+      "Id": "AgnesCup"
     },
     {
-      "Id": "LewisChessmen",
-      "Caption": {
-        "en": "Lewis Chessmen",
-        "fr": "Lewis Chessmen",
-        "es": "Lewis Chessmen"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532354378/AN00285974_001_l.jpg"
-      },
-      "Artist" : "Unknown",
-      "SequenceId": "Chessmen"
+      "Id": "LewisChessmen"
     },
     {
-      "Id": "RosettaStone",
-      "Caption": {
-        "en": "The Rosetta Stone",
-        "fr": "The Rosetta Stone",
-        "es": "The Rosetta Stone"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354684/AN00016456_004_l.jpg"
-      },
-      "Artist" : "Unknown",
-      "SequenceId": "Rosetta"
+      "Id": "RosettaStone"
     },
     {
-      "Id": "Nebamun",
-      "Caption": {
-        "en": "Nebamun",
-        "fr": "Nebamun",
-        "es": "Nebamun"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
-      },
-      "Artist" : "Charles Matausch",
-      "SequenceId": "Nebamun"
+      "Id": "Nebamun"
     },
     {
-      "Id": "BerlinKrater",
-      "Caption": {
-        "en": "Berlin Volute Krater",
-        "fr": "Berlin Volute Krater",
-        "es": "Berlin Volute Krater"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
-      },
-      "Artist": "The Berlin Painter",
-      "SequenceId": "BerlinVolute"
+      "Id": "BerlinKrater"
     },
     {
-      "Id": "AmenhotepHead",
-      "Caption": {
-        "en": "Head of Amenhotep III",
-        "fr": "Head of Amenhotep III",
-        "es": "Head of Amenhotep III"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354919/AN00167400_001_l.jpg"
-      },
-      "Artist" : "Unknown",
-      "SequenceId": "Amenhotep"
+      "Id": "AmenhotepHead"
     },
     {
-      "Id": "PortlandVase",
-      "Caption": {
-        "en": "The Portland Vase",
-        "fr": "The Portland Vase",
-        "es": "The Portland Vase"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355065/AN00251730_001_l.jpg"
-      },
-      "Artist": "Unknown",
-      "SequenceId": "BestTestFragmentEver"
+      "Id": "PortlandVase"
     },
     {
-      "Id": "DavidVases",
-      "Caption": {
-        "en": "The David Vases",
-        "fr": "The David Vases",
-        "es": "The David Vases"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355131/AN00440946_001_l.jpg"
-      },
-      "Artist": "Unknown",
-      "SequenceId": "BestTestFragmentEver"
+      "Id": "DavidVases"
     },
     {
-      "Id": "Mausoleum",
-      "Caption": {
-        "en": "Tomb of Mausolus",
-        "fr": "Tomb of Mausolus",
-        "es": "Tomb of Mausolus"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-      },
-      "Artist": "Multiple",
-      "SequenceId": "Mausoleum"
+      "Id": "Mausoleum"
     },
     {
-      "Id": "LionHunt",
-      "Caption": {
-        "en": "Lion Hunt Reliefs",
-        "fr": "Lion Hunt Reliefs",
-        "es": "Lion Hunt Reliefs"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532355345/museum%20app/Lion_hunt.jpg"
-      },
-      "Artist": "Unknown",
-      "SequenceId": "BestTestFragmentEver"
+      "Id": "LionHunt"
     },
     {
-      "Id": "HolyThorn",
-      "Caption": {
-        "en": "Holy Thorn Reliquary",
-        "fr": "Holy Thorn Reliquary",
-        "es": "Holy Thorn Reliquary"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354632/museum%20app/Holy_Thorn_Reliquary.jpg"
-      },
-      "Artist": "Unknown",
-      "SequenceId": "BestTestFragmentEver"
+      "Id": "HolyThorn"
     },
     {
-      "Id": "ParthenonPediment",
-      "Caption": {
-        "en": "Parthenon Pediment",
-        "fr": "Parthenon Pediment",
-        "es": "Parthenon Pediment"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
-      },
-      "Artist": "Multiple",
-      "SequenceId": "BestTestFragmentEver"
+      "Id": "ParthenonPediment"
     }
   ]
 }
