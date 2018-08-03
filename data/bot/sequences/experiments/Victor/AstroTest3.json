@@ -1,0 +1,29 @@
+{
+  "Type": "Node",
+  "Id" : "AstroTest3",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I believe you want to talk about love",
+        "fr": "I believe you want to talk about love",
+        "es": "I believe you want to talk about love"
+       }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AstroTest3Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Indeed!",
+        "fr": "Indeed!",
+        "es": "Indeed!"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AstroTest2"
+      }
+    }
+  ]
+}
