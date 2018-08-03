@@ -1,0 +1,18 @@
+{
+  "Id": "BritishMuseum",
+  "Caption": {
+    "en": "British Museum",
+    "fr": "British Museum",
+    "es" : "British Museum"
+  },
+  "DefaultImage": {
+    "Type": "Image",
+    "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+  },
+  "Artworks" : [
+    {"Id": "Ramesses"},
+    {"Id": "UrStandard"},
+    {"Id": "LionHunt"},
+    {"Id": "Exekias"}
+  ]
+}
