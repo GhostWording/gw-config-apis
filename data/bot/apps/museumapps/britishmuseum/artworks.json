@@ -1,31 +1,115 @@
 [
   {
-    "Id": "Ramesses",
+    "Id": "AgnesCup",
     "Caption": {
-      "en": "Statue of Ramesses II",
-      "fr": "Statue of Ramesses II",
-      "es": "Statue of Ramesses II"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
-      },
-      "Artist" : "Unknown",
-      "SequenceId": "Ramesses"
+      "en": "The Royal Gold Cup",
+      "fr": "The Royal Gold Cup",
+      "es": "The Royal Gold Cup"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_1Reduced.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "AgnesCup"
   },
   {
-    "Id": "UrStandard",
-        "Caption": {
-          "en": "The Standard of Ur",
-          "fr": "The Standard of Ur",
-          "es": "The Standard of Ur"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
-        },
-      "Artist" : "Unknown",
-      "SequenceId": "UrStandard"
+    "Id": "Amenhotep",
+    "Caption": {
+      "en": "Head of Amenhotep III",
+      "fr": "Head of Amenhotep III",
+      "es": "Head of Amenhotep III"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Amenhotep"
+  },
+  {
+    "Id": "BerlinVolute",
+    "Caption": {
+      "en": "Berlin Volute Krater",
+      "fr": "Berlin Volute Krater",
+      "es": "Berlin Volute Krater"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "BerlinVolute"
+  },
+  {
+    "Id": "Caryatids",
+    "Caption": {
+      "en": "Erechtheion Caryatids",
+      "fr": "Erechtheion Caryatids",
+      "es": "Erechtheion Caryatids"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690463/museum%20app/5_Caryatids.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Caryatids"
+  },
+  {
+    "Id": "Chessmen",
+    "Caption": {
+      "en": "Lewis Chessmen",
+      "fr": "Lewis Chessmen",
+      "es": "Lewis Chessmen"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120250/Beserker__Lewis_Chessmen__British_Museum.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Chessmen"
+  },
+  {
+    "Id": "DavidVases",
+    "Caption": {
+      "en": "The David Vases",
+      "fr": "The David Vases",
+      "es": "The David Vases"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355131/AN00440946_001_l.jpg"
+    },
+    "Artist": "Unknown",
+    "SequenceId": "BestTestFragmentEver"
+  },
+  {
+    "Id": "Exekias",
+    "Caption": {
+      "en": "Exekias Amphora",
+      "fr": "Exekias Amphora",
+      "es": "Exekias Amphora"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Exekias"
+  },
+  {
+    "Id": "HolyThorn",
+    "Caption": {
+      "en": "Holy Thorn Reliquary",
+      "fr": "Holy Thorn Reliquary",
+      "es": "Holy Thorn Reliquary"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354632/museum%20app/Holy_Thorn_Reliquary.jpg"
+    },
+    "Artist": "Unknown",
+    "SequenceId": "BestTestFragmentEver"
   },
   {
     "Id": "LionHunt",
@@ -42,17 +126,115 @@
       "SequenceId": "LionHunt"
   },
   {
-    "Id": "Exekias",
+    "Id": "Mausoleum",
     "Caption": {
-      "en": "Exekias Amphora",
-      "fr": "Exekias Amphora",
-      "es": "Exekias Amphora"
+      "en": "Mausoleum at Halicarnassus",
+      "fr": "Mausoleum at Halicarnassus",
+      "es": "Mausoleum at Halicarnassus"
     },
     "DefaultImage": {
       "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Exekias"
+    "SequenceId": "Mausoleum"
+  },
+  {
+    "Id": "Meroe",
+    "Caption": {
+      "en": "Meroe head",
+      "fr": "Tête de Meroe",
+      "es": "Cabeza de Meroe"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Meroe"
+  },
+  {
+    "Id": "Nebamun",
+    "Caption": {
+      "en": "Tomb of Nebamun",
+      "fr": "Tomb of Nebamun",
+      "es": "Tomb of Nebamun"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Nebamun"
+  },
+  {
+    "Id": "ParthenonPediment",
+    "Caption": {
+      "en": "Parthenon Pediment",
+      "fr": "Parthenon Pediment",
+      "es": "Parthenon Pediment"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "BestTestFragmentEver"
+  },
+  {
+    "Id": "PortlandVase",
+    "Caption": {
+      "en": "The Portland Vase",
+      "fr": "The Portland Vase",
+      "es": "The Portland Vase"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355065/AN00251730_001_l.jpg"
+    },
+    "Artist": "Unknown",
+    "SequenceId": "BestTestFragmentEver"
+  },
+  {
+    "Id": "Ramesses",
+    "Caption": {
+      "en": "Statue of Ramesses II",
+      "fr": "Statue of Ramesses II",
+      "es": "Statue of Ramesses II"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "Ramesses"
+  },
+  {
+    "Id": "RosettaStone",
+    "Caption": {
+      "en": "The Rosetta Stone",
+      "fr": "The Rosetta Stone",
+      "es": "The Rosetta Stone"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354684/AN00016456_004_l.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Rosetta"
+  },
+  {
+    "Id": "UrStandard",
+        "Caption": {
+          "en": "The Standard of Ur",
+          "fr": "The Standard of Ur",
+          "es": "The Standard of Ur"
+        },
+        "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
+        },
+      "Artist" : "Unknown",
+      "SequenceId": "UrStandard"
   }
 ]
