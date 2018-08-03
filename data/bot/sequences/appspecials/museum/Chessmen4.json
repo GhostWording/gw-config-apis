@@ -3,117 +3,64 @@
     "Id": "Chessmen4",
     "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Here are the bishops… look at their chubby faces!",
-                "fr": "Here are the bishops… look at their chubby faces!",
-                "es": "Here are the bishops… look at their chubby faces!"
-            }
-        },
-        {
-            "Type": "Image",
+            "Type": "AnimatedGif",
             "Parameters": {
-                "Display":"FullScreenWidth",
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532941022/Lewis4_bis.jpg"
+                "Source": "Giphy",
+                "Path": "BWuPyWncMtKmxQKP9f"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "This was a sign of being well fed and rich in medieval times!",
-                "fr": "This was a sign of being well fed and rich in medieval times!",
-                "es": "This was a sign of being well fed and rich in medieval times!"
+                "en": "Many funny stories exist about how exactly the treasure was discovered",
+                "fr": "Many funny stories exist about how exactly the treasure was discovered",
+                "es": "Many funny stories exist about how exactly the treasure was discovered"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!",
+                "fr": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!",
+                "es": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!"
             }
         }
     ],
     "Commands": [
         {
-            "Type": "Node",
-            "Id": "Chessmen4Else",
+            "Type": "Leaf",
+            "Id": "Chessmen4Clever",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "What else?",
-                "fr": "What else?",
-                "es": "What else?"
+                "en": "Clever cow!",
+                "fr": "Clever cow!",
+                "es": "Clever cow!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "The queen pieces have very strange expressions",
-                        "fr": "The queen pieces have very strange expressions",
-                        "es": "The queen pieces have very strange expressions"
+                        "en": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
+                        "fr": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
+                        "es": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery."
                     }
                 },
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Display": "FullScreenWidth",
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532945617/Lewis5.2.jpg"
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533291008/Lewis_Ruins.jpg"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "We don’t fully understand this gesture…",
-                        "fr": "We don’t fully understand this gesture…",
-                        "es": "We don’t fully understand this gesture…"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Are they sad? Playful? Who knows!",
-                        "fr": "Are they sad? Playful? Who knows!",
-                        "es": "Are they sad? Playful? Who knows!"
+                        "en": "Apparently, nuns love chess!",
+                        "fr": "Apparently, nuns love chess!",
+                        "es": "Apparently, nuns love chess!"
                     }
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "Chessmen4ElseStep",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "Chessmen4ElseStrange",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "How strange!",
-                            "fr": "How strange!",
-                            "es": "How strange!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Lastly… these pieces featured in the Harry Potter films!",
-                                    "fr": "Lastly… these pieces featured in the Harry Potter films!",
-                                    "es": "Lastly… these pieces featured in the Harry Potter films!"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Display":"FullScreenWidth",
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532624697/Lewis6.png"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I guess wizards think they look beautiful, too!",
-                                    "fr": "I guess wizards think they look beautiful, too!",
-                                    "es": "I guess wizards think they look beautiful, too!"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+            ]
         }
     ]
 }
