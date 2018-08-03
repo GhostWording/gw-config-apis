@@ -7,115 +7,115 @@
             "Parameters": {
                 "Display": "FullScreenWidth",
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533115795/Lewis_Chessman__British_Museum.jpg"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533302689/lewis_chessmen_set.jpg"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "These were found in the outer hebrides",
-                "fr": "These were found in the outer hebrides",
-                "es": "These were found in the outer hebrides"
-            }
-        },
-        {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "BWuPyWncMtKmxQKP9f"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Many stories exist about how exactly the treasure was discovered",
-                "fr": "Many stories exist about how exactly the treasure was discovered",
-                "es": "Many stories exist about how exactly the treasure was discovered"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!",
-                "fr": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!",
-                "es": "Including one insisting that a cow fell down a hole in the ground and unearthed the stash!"
+                "en": "Their designs are so funny 😂",
+                "fr": "Their designs are so funny 😂",
+                "es": "Their designs are so funny 😂"
             }
         }
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Chessmen2Clever",
+            "Id": "Chessmen2Show",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Clever cow!",
-                "fr": "Clever cow!",
-                "es": "Clever cow!"
+                "en": "Show me!",
+                "fr": "Show me!",
+                "es": "Show me!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
-                        "fr": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery.",
-                        "es": "Another story says they were found in the ruins of the House of The Old Black Women, an abandoned nunnery."
+                        "en": "These guys are fearsome berserkers, biting their shields to scare the enemy!",
+                        "fr": "These guys are fearsome berserkers, biting their shields to scare the enemy!",
+                        "es": "These guys are fearsome berserkers, biting their shields to scare the enemy!"
                     }
                 },
                 {
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533052747/Lewis_Ruins.jpg"
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533291170/Lewis3.1_shields.jpg"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Apparently, nuns love chess!",
-                        "fr": "Apparently, nuns love chess!",
-                        "es": "Apparently, nuns love chess!"
+                        "en": "Would you like to fight them?",
+                        "fr": "Would you like to fight them?",
+                        "es": "Would you like to fight them?"
                     }
                 }
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "Chessmen2CleverStep",
+                "Id": "Chessmen2ShowChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "Chessmen2CleverMore",
+                        "Id": "Chessmen2ShowYes",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Tell me more!",
-                            "fr": "Tell me more!",
-                            "es": "Tell me more!"
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "The pieces themselves are really cool to look at!",
-                                    "fr": "The pieces themselves are really cool to look at!",
-                                    "es": "The pieces themselves are really cool to look at!"
+                                    "en": "I wish I was so brave",
+                                    "fr": "I wish I was so brave",
+                                    "es": "I wish I was so brave"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Chessmen4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Chessmen2ShowNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "A good choice!",
+                                    "fr": "A good choice!",
+                                    "es": "A good choice!"
                                 }
                             }
                         ],
                         "LinksToFragment": {
                             "FragmentPath": "Chessmen3"
                         }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "Chessmen2CleverEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "That’s enough",
-                            "es": "That’s enough"
-                        }
                     }
                 ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Chessmen2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "That’s enough"
             }
         }
     ]
