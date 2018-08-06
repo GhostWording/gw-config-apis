@@ -1,0 +1,82 @@
+{
+	"Type": "Node",
+	"Id": "FullScreenWidthComparisonTest",
+	"Steps": [
+		{
+			"Type": "Text",
+			"Label": {
+				"en": "Showing an image full size",
+				"fr": "FR - Showing an image full size!",
+				"es": "ES - Showing an image full size"
+			}
+		},
+		{
+			"Type": "Image",
+			"Parameters": {
+				"Display": "FullScreenWidth",
+				"Source": "Web",
+				"Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516288122/96e8742319b3f6b869c01e1937e3785f_zvurhd.jpg"
+			}
+		},
+		{
+			"Type": "Text",
+			"Label": {
+				"en": "Showing a GIF full size",
+				"fr": "FR - Showing a GIF full size!",
+				"es": "ES - Showing a GIF full size"
+			}
+		},
+		{
+			"Type": "AnimatedGif",
+			"Parameters": {
+				"Display": "FullScreenWidth",
+				"Source": "Giphy",
+				"Path": "yoJC2El7xJkYCadlWE"
+			}
+		}
+	],
+	"Commands": [
+		{
+			"Type": "Leaf",
+			"Id": "FullScreenWidthTestNext",
+			"ElementValue": "1",
+			"CommandLabel": {
+				"en": "Next",
+				"fr": "Next",
+				"es": "Next"
+			},
+			"Steps": [
+				{
+					"Type": "Text",
+					"Label": {
+						"en": "Showing an image normal size",
+						"fr": "FR - Showing an image normal size!",
+						"es": "ES - Showing an image normal size"
+					}
+				},
+				{
+					"Type": "Image",
+					"Parameters": {
+						"Source": "Web",
+						"Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516288122/96e8742319b3f6b869c01e1937e3785f_zvurhd.jpg"
+					}
+				},
+				{
+					"Type": "Text",
+					"Label": {
+						"en": "Showing a GIF normal size",
+						"fr": "FR - Showing a GIF normal size!",
+						"es": "ES - Showing a GIF normal size"
+					}
+				},
+				{
+					"Type": "AnimatedGif",
+					"Parameters": {
+						"Source": "Giphy",
+						"Path": "yoJC2El7xJkYCadlWE"
+					}
+				}
+			]
+		}
+	]
+}
