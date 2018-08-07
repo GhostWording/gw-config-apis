@@ -1,0 +1,132 @@
+{
+    "Type": "Node",
+    "Id": "Hoa2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was one of many “moai” statues that stood watch on Easter Island, the most remote island on the planet!",
+                "fr": "He was one of many “moai” statues that stood watch on Easter Island, the most remote island on the planet!",
+                "es": "He was one of many “moai” statues that stood watch on Easter Island, the most remote island on the planet!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533631899/hoa_map.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They were guardians to the people of the island!",
+                "fr": "They were guardians to the people of the island!",
+                "es": "They were guardians to the people of the island!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533632008/hoa_guardians.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can see how he got the job! He’s a bit like a bouncer…",
+                "fr": "I can see how he got the job! He’s a bit like a bouncer…",
+                "es": "I can see how he got the job! He’s a bit like a bouncer…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Hoa2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Tell me more!",
+                "es": "Tell me more!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The islanders made many of these statues, but then stopped in the 17th century AD!",
+                        "fr": "The islanders made many of these statues, but then stopped in the 17th century AD!",
+                        "es": "The islanders made many of these statues, but then stopped in the 17th century AD!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Hoa2MoreChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Hoa2MoreWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why?",
+                            "fr": "Why?",
+                            "es": "Why?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, the thing with living on such a remote island is… there’s a limited amount of resources!",
+                                    "fr": "Well, the thing with living on such a remote island is… there’s a limited amount of resources!",
+                                    "es": "Well, the thing with living on such a remote island is… there’s a limited amount of resources!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We think that the islanders at a point simply couldn’t afford to build these anymore!",
+                                    "fr": "We think that the islanders at a point simply couldn’t afford to build these anymore!",
+                                    "es": "We think that the islanders at a point simply couldn’t afford to build these anymore!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Hoa2MoreWhyChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Hoa2MoreWhyProblem",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That’s a problem",
+                                        "fr": "That’s a problem",
+                                        "es": "That’s a problem"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Hoa3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Hoa2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "That’s enough"
+            }
+        }
+    ]
+}
