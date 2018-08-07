@@ -1,0 +1,68 @@
+{
+    "Type": "Node",
+    "Id": "Hoa",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533631883/hoa_head.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This is Hoa Hakananai’a. He is your friend. In fact, his name more or less means “hidden friend”.",
+                "fr": "This is Hoa Hakananai’a. He is your friend. In fact, his name more or less means “hidden friend”.",
+                "es": "This is Hoa Hakananai’a. He is your friend. In fact, his name more or less means “hidden friend”."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Don’t worry, he might look intimidating, but he’s really a nice guy.",
+                "fr": "Don’t worry, he might look intimidating, but he’s really a nice guy.",
+                "es": "Don’t worry, he might look intimidating, but he’s really a nice guy."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HoaHi",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hi there!",
+                "fr": "Hi there!",
+                "es": "Hi there!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Hoa2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "HoaScared",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I’m scared",
+                "fr": "I’m scared",
+                "es": "I’m scared"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No need!",
+                        "fr": "No need!",
+                        "es": "No need!"
+                    }
+                }
+            ],   
+            "LinksToFragment": {
+                "FragmentPath": "Hoa2"
+            }
+        }
+    ]
+}    
