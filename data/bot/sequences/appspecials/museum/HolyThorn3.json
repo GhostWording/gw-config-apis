@@ -1,0 +1,114 @@
+{
+    "Type": "Node",
+    "Id": "HolyThorn3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Really, it’s amazing that this piece has survived all this time.",
+                "fr": "Really, it’s amazing that this piece has survived all this time.",
+                "es": "Really, it’s amazing that this piece has survived all this time."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It has some of the finest jewels in the world embedded inside!",
+                "fr": "It has some of the finest jewels in the world embedded inside!",
+                "es": "It has some of the finest jewels in the world embedded inside!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533567714/Museum%20Bot/Holy_Thorn_4.jpg"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533569941/Holy_Thorn_5.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "...",
+                "fr": "...",
+                "es": "..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HolyThorn3Beautiful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So beautiful",
+                "fr": "So beautiful",
+                "es": "So beautiful"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! They definitely spared no expense making it...",
+                        "fr": "Right! They definitely spared no expense making it...",
+                        "es": "Right! They definitely spared no expense making it..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There’s a cool story behind this item too: want to hear it?",
+                        "fr": "There’s a cool story behind this item too: want to hear it?",
+                        "es": "There’s a cool story behind this item too: want to hear it?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HolyThorn3BeautifulChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HolyThorn3BeautifulSure",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sure!",
+                            "fr": "Sure!",
+                            "es": "Sure!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, in the 1860s it was sent to an art dealer called Salomon Weininger to be repaired…",
+                                    "fr": "Well, in the 1860s it was sent to an art dealer called Salomon Weininger to be repaired…",
+                                    "es": "Well, in the 1860s it was sent to an art dealer called Salomon Weininger to be repaired…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "HolyThorn4"
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "HolyThorn3BeautifulNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "No thanks",
+                            "es": "No thanks"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
