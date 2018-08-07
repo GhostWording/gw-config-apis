@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "HolyThorn4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "who secretly made copies!",
+                "fr": "who secretly made copies!",
+                "es": "who secretly made copies!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!",
+                "fr": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!",
+                "es": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HolyThorn4Villain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a villain!",
+                "fr": "What a villain!",
+                "es": "What a villain!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The original was bought by a wealthy family, who had no idea that it was the real one!",
+                        "fr": "The original was bought by a wealthy family, who had no idea that it was the real one!",
+                        "es": "The original was bought by a wealthy family, who had no idea that it was the real one!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’",
+                        "fr": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’",
+                        "es": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was only in 1959 that the deception was uncovered by a team of scholars!",
+                        "fr": "It was only in 1959 that the deception was uncovered by a team of scholars!",
+                        "es": "It was only in 1959 that the deception was uncovered by a team of scholars!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HolyThorn4VillainAmazing",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "HolyThorn4VillainAmazing1",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Amazing!",
+                            "fr": "Amazing!",
+                            "es": "Amazing!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! You can find it in the British Museum, room 45!",
+                                    "fr": "Right! You can find it in the British Museum, room 45!",
+                                    "es": "Right! You can find it in the British Museum, room 45!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533568592/Museum%20Bot/Holy_Thorn_6.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
