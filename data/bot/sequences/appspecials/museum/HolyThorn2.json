@@ -1,0 +1,134 @@
+{
+    "Type": "Node",
+    "Id": "HolyThorn2",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533569554/Holy_Thorn_pic1.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "No wonder it’s so extravagant!",
+                "fr": "No wonder it’s so extravagant!",
+                "es": "No wonder it’s so extravagant!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HolyThorn2Prove",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Prove it!",
+                "fr": "Prove it!",
+                "es": "Prove it!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK, here’s the picture!",
+                        "fr": "OK, here’s the picture!",
+                        "es": "OK, here’s the picture!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533567063/Museum%20Bot/Holy_Thorn_2.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And there’s even an inscription that says it’s real!",
+                        "fr": "And there’s even an inscription that says it’s real!",
+                        "es": "And there’s even an inscription that says it’s real!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533567438/Museum%20Bot/Holy_Thorn_3.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I hope you can read Latin!",
+                        "fr": "I hope you can read Latin!",
+                        "es": "I hope you can read Latin!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HolyThorn2ProveChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HolyThorn2ProveWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "So what?!",
+                            "fr": "So what?!",
+                            "es": "So what?!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Please… no-one lies in Latin!",
+                                    "fr": "Please… no-one lies in Latin!",
+                                    "es": "Please… no-one lies in Latin!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It must be real",
+                                    "fr": "It must be real",
+                                    "es": "It must be real"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "HolyThorn3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HolyThorn2ProveConvinced",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I’m convinced",
+                            "fr": "I’m convinced",
+                            "es": "I’m convinced"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I’m glad we’re on the same page",
+                                    "fr": "I’m glad we’re on the same page",
+                                    "es": "I’m glad we’re on the same page"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "HolyThorn3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
