@@ -1,0 +1,128 @@
+{
+    "Type": "Node",
+    "Id": "Hoa3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Right! As a solution, they started to modify the statues to honour their new bird cult!",
+                "fr": "Right! As a solution, they started to modify the statues to honour their new bird cult!",
+                "es": "Right! As a solution, they started to modify the statues to honour their new bird cult!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display":"FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533632040/hoa_bird.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "...",
+                "fr": "...",
+                "es": "..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Hoa3Else",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Anything else?",
+                "fr": "Anything else?",
+                "es": "Anything else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, you might be wondering how he got to the British Museum… after all, he weighs several tonnes!",
+                        "fr": "Well, you might be wondering how he got to the British Museum… after all, he weighs several tonnes!",
+                        "es": "Well, you might be wondering how he got to the British Museum… after all, he weighs several tonnes!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He was transported on a huge boat in the 1800s and given to Queen Victoria as a gift!",
+                        "fr": "He was transported on a huge boat in the 1800s and given to Queen Victoria as a gift!",
+                        "es": "He was transported on a huge boat in the 1800s and given to Queen Victoria as a gift!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533632120/hoa_ship.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "...",
+                        "fr": "...",
+                        "es": "..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Hoa3ElseChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Hoa3ElseNice",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Nice gift!",
+                            "fr": "Nice gift!",
+                            "es": "Nice gift!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well… she may not have thought the same! She quickly gave him to the British Museum to keep…",
+                                    "fr": "Well… she may not have thought the same! She quickly gave him to the British Museum to keep…",
+                                    "es": "Well… she may not have thought the same! She quickly gave him to the British Museum to keep…"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "perhaps she did not have enough space in her bedroom!",
+                                    "fr": "perhaps she did not have enough space in her bedroom!",
+                                    "es": "perhaps she did not have enough space in her bedroom!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, come see him in room 24! He’s very impressive in the flesh.. I mean stone.",
+                                    "fr": "Anyway, come see him in room 24! He’s very impressive in the flesh.. I mean stone.",
+                                    "es": "Anyway, come see him in room 24! He’s very impressive in the flesh.. I mean stone."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Hoa3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "That’s enough"
+            }
+        }
+    ]
+}
