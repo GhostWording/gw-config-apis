@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Id": "ShowCarouselFromIntention",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromIntention",
+      "Parameters": {
+        "IntentionId": "43B296",
+        "NumberOfCards": "3"
+      }
+    }
+  ]
+}
