@@ -1,5 +1,5 @@
 {
-  "Type": "Leaf",
+  "Type": "Node",
   "Id": "ShowCarouselFromIntention",
   "Steps": [
     {
@@ -8,6 +8,18 @@
       "Parameters": {
         "IntentionId": "43B296",
         "NumberOfCards": "3"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowCarouselFromIntentionNext",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Next",
+        "fr": "Next",
+        "es": "Next"
       }
     }
   ]
