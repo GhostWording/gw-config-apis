@@ -1,0 +1,196 @@
+{
+    "Type": "Node",
+    "Id": "Samurai3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The armour was designed to be terrifying to enemies!",
+                "fr": "The armour was designed to be terrifying to enemies!",
+                "es": "The armour was designed to be terrifying to enemies!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The horns bring to mind Japanese demons, and the mouth is twisted in an evil grimace!",
+                "fr": "The horns bring to mind Japanese demons, and the mouth is twisted in an evil grimace!",
+                "es": "The horns bring to mind Japanese demons, and the mouth is twisted in an evil grimace!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533650373/museum%20app/Full_armor_3_-_Copie.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "After all, no need to fight your enemies if they run away first!",
+                "fr": "After all, no need to fight your enemies if they run away first!",
+                "es": "After all, no need to fight your enemies if they run away first!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Samurai3Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A good point",
+                "fr": "A good point",
+                "es": "A good point"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The fancy decorations and colours were to show off the glory of each Samurai’s family.",
+                        "fr": "The fancy decorations and colours were to show off the glory of each Samurai’s family.",
+                        "es": "The fancy decorations and colours were to show off the glory of each Samurai’s family."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But, it wasn’t only fancy looking, but also extremely effective…",
+                        "fr": "But, it wasn’t only fancy looking, but also extremely effective…",
+                        "es": "But, it wasn’t only fancy looking, but also extremely effective…"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Samurai3GoodStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Samurai3GoodHow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How so?",
+                            "fr": "How so?",
+                            "es": "How so?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It’s light, but strong, meaning that the soldier could take hits, or dodge them!",
+                                    "fr": "It’s light, but strong, meaning that the soldier could take hits, or dodge them!",
+                                    "es": "It’s light, but strong, meaning that the soldier could take hits, or dodge them!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Much more flexible than the plate-mail used in Europe!",
+                                    "fr": "Much more flexible than the plate-mail used in Europe!",
+                                    "es": "Much more flexible than the plate-mail used in Europe!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637166/museum%20app/Reusable_Platemail.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "...",
+                                    "fr": "...",
+                                    "es": "..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Samurai3GoodHowStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Samurai3GoodHowPerfect",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Sounds perfect!",
+                                        "fr": "Sounds perfect!",
+                                        "es": "Sounds perfect!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Right!",
+                                                "fr": "Right!",
+                                                "es": "Right!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Except the helmet weighed about 5kg…",
+                                                "fr": "Except the helmet weighed about 5kg…",
+                                                "es": "Except the helmet weighed about 5kg…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "that’s almost the same weight as two bricks!",
+                                                "fr": "that’s almost the same weight as two bricks!",
+                                                "es": "that’s almost the same weight as two bricks!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I sure hope their scare tactics worked!",
+                                                "fr": "I sure hope their scare tactics worked!",
+                                                "es": "I sure hope their scare tactics worked!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Anyway, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
+                                                "fr": "Anyway, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
+                                                "es": "Anyway, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Samurai3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "That’s enough"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Ok, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
+                        "fr": "Ok, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
+                        "es": "Ok, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!"
+                    }
+                }
+            ]
+        }
+    ]
+}
