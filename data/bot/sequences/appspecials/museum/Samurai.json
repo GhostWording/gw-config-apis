@@ -1,0 +1,92 @@
+{
+  "Type": "Node",
+  "Id": "Samurai",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637166/museum%20app/Reusable_Full_Armor.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you feel when you see this armour?",
+        "fr": "What do you feel when you see this armour?",
+        "es": "What do you feel when you see this armour?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SamuraiAwe",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Awe 🤩",
+        "fr": "Awe 🤩",
+        "es": "Awe 🤩"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Yes, it’s magnificent!",
+            "fr": "Yes, it’s magnificent!",
+            "es": "Yes, it’s magnificent!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Samurai2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SamuraiFear",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Fear 😨",
+        "fr": "Fear 😨",
+        "es": "Fear 😨"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Me too! Those horns look dangerous for an owl like me",
+            "fr": "Me too! Those horns look dangerous for an owl like me",
+            "es": "Me too! Those horns look dangerous for an owl like me"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Samurai2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SamuraiLaughter",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Laughter 😂",
+        "fr": "Laughter 😂",
+        "es": "Laughter 😂"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You are crazy! I find it terrifying!",
+            "fr": "You are crazy! I find it terrifying!",
+            "es": "You are crazy! I find it terrifying!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Samurai2"
+      }
+    }
+  ]
+}
