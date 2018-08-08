@@ -1,0 +1,69 @@
+{
+    "Type": "Node",
+    "Id": "BeninMask",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533650529/Benin_Mask_0.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you think this is?",
+                "fr": "What do you think this is?",
+                "es": "What do you think this is?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BeninMaskMask",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A mask!",
+                "fr": "A mask!",
+                "es": "A mask!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct!",
+                        "fr": "Correct!",
+                        "es": "Correct!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BeninMaskWeapon",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A weapon",
+                "fr": "A weapon",
+                "es": "A weapon"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite, it’s a mask!",
+                        "fr": "Not quite, it’s a mask!",
+                        "es": "Not quite, it’s a mask!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask2"
+            }
+        }
+    ]
+}
