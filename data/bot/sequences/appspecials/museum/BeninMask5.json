@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "BeninMask5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There’s also something really cool about this mask… look at the top!",
+                "fr": "There’s also something really cool about this mask… look at the top!",
+                "es": "There’s also something really cool about this mask… look at the top!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533635406/Museum%20Bot/Benin_Mask_3.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Any idea what those are?",
+                "fr": "Any idea what those are?",
+                "es": "Any idea what those are?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BeninMask5People",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "People",
+                "fr": "People",
+                "es": "People"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right!",
+                        "fr": "Right!",
+                        "es": "Right!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BeninMask5Animals",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Animals",
+                "fr": "Animals",
+                "es": "Animals"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite, they’re actually people!",
+                        "fr": "Not quite, they’re actually people!",
+                        "es": "Not quite, they’re actually people!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask6"
+            }
+        }
+    ]
+}
