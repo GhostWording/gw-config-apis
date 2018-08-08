@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "BeninMask4",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Display":"FullScreenWidth",
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533634980/Museum%20Bot/Benin_Mask_2.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "That’s some serious craftsmanship needed to make this!",
+        "fr": "That’s some serious craftsmanship needed to make this!",
+        "es": "That’s some serious craftsmanship needed to make this!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "BeninMask4Impressive",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "So impressive",
+        "fr": "So impressive",
+        "es": "So impressive"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Right?!",
+            "fr": "Right?!",
+            "es": "Right?!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "BeninMask5"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "BeninMask4Could",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I could do that",
+        "fr": "I could do that",
+        "es": "I could do that"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Make one for me!",
+            "fr": "Make one for me!",
+            "es": "Make one for me!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "BeninMask5"
+      }
+    }
+  ]
+}
