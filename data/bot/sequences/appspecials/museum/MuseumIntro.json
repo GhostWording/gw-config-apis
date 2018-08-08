@@ -7,15 +7,15 @@
             "Label": {
                 "en": "Hi!",
                 "fr": "Salut !",
-                "es": "Hi!"
+                "es": "¡Hola!"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "I am an owl, and that means I am wise 🦉",
-                "fr": "Je suis une chouette, et cela veut dire que je suis d'une grande sagesse 🦉",
-                "es": "I am an owl, and that means I am wise 🦉"
+                "fr": "Je suis une chouette, et cela signifie que je suis d'une grande sagesse 🦉",
+                "es": "Soy una lechuza, y significa que soy sabio 🦉"
             }
         }
     ],
@@ -27,7 +27,7 @@
             "CommandLabel": {
                 "en": "Right!",
                 "fr": "Bien sûr !",
-                "es": "Right!"
+                "es": "¡Por supuesto!"
             },
             "Steps": [
                 {
@@ -35,7 +35,7 @@
                     "Label": {
                         "en": "I have been around in every era",
                         "fr": "J'ai traversé toutes les époques",
-                        "es": "I have been around in every era"
+                        "es": "Pasé por todos los tiempos"
                     }
                 },
                 {
@@ -58,8 +58,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Grâce à cela, je connais toutes les oeuvres qui ont jamais existé",
-                        "es": "Because of this, I know about every artwork to have ever existed"
+                        "fr": "Par conséquent, je connais toutes les oeuvres qui aient jamais existé",
+                        "es": "Por consiguiente, conozco todas las obras que jamás hayan existido"
                     }
                 }
             ],
@@ -75,7 +75,7 @@
                         "CommandLabel": {
                             "en": "I'm convinced",
                             "fr": "Convaincu(e) !",
-                            "es": "I'm convinced"
+                            "es": "Estoy convencido/a"
                         },
                         "Steps": [
                             {
@@ -83,7 +83,7 @@
                                 "Label": {
                                     "en": "Good. I have fantastic stories to tell about them...",
                                     "fr": "Super ! J'ai des histoires incroyables à te raconter...",
-                                    "es": "Good. I have fantastic stories to tell about them..."
+                                    "es": "¡Súper! Tengo historias increíbles que contarte..."
                                 }
                             }
                         ]
@@ -95,7 +95,7 @@
                         "CommandLabel": {
                             "en": "I'm not convinced",
                             "fr": "Pas convaincu(e)...",
-                            "es": "I'm not convinced"
+                            "es": "No estoy convencido/a"
                         },
                         "Steps": [
                             {
@@ -103,7 +103,7 @@
                                 "Label": {
                                     "en": "I'll prove it by telling you fantastic stories about them",
                                     "fr": "Je vais le prouver en te racontant des histoires incroyables...",
-                                    "es": "I'll prove it by telling you fantastic stories about them"
+                                    "es": "Lo probaré contándote historias increíbles..."
                                 }
                             }
                         ]
@@ -118,7 +118,7 @@
             "CommandLabel": {
                 "en": "Possibly",
                 "fr": "Vraiment ?",
-                "es": "Possibly"
+                "es": "Probablemente"
             },
             "Steps": [
                 {
@@ -126,7 +126,7 @@
                     "Label": {
                         "en": "I have been around in every era",
                         "fr": "J'ai traversé toutes les époques",
-                        "es": "I have been around in every era"
+                        "es": "Pasé por todos los tiempos"
                     }
                 },
                 {
@@ -149,8 +149,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Grâce à cela, je connais toutes les oeuvres qui ont jamais existé",
-                        "es": "Because of this, I know about every artwork to have ever existed"
+                        "fr": "Par conséquent, je connais toutes les oeuvres qui ont jamais existé",
+                        "es": "Por consiguiente, conozco todas las obras que jamás hayan existido"
                     }
                 }
             ],
@@ -166,7 +166,7 @@
                         "CommandLabel": {
                             "en": "I'm convinced",
                             "fr": "Convaincu(e) !",
-                            "es": "I'm convinced"
+                            "es": "Estoy convencido/a"
                         },
                         "Steps": [
                             {
@@ -174,7 +174,7 @@
                                 "Label": {
                                     "en": "Good. I have fantastic stories to tell about them...",
                                     "fr": "Super ! J'ai des histoires incroyables à te raconter...",
-                                    "es": "Good. I have fantastic stories to tell about them..."
+                                    "es": "¡Súper! Tengo historias increíbles que contarte..."
                                 }
                             }
                         ]
@@ -186,7 +186,7 @@
                         "CommandLabel": {
                             "en": "I'm not convinced",
                             "fr": "Pas convaincu(e)...",
-                            "es": "I'm not convinced"
+                            "es": "No estoy convencido/a"
                         },
                         "Steps": [
                             {
@@ -194,7 +194,7 @@
                                 "Label": {
                                     "en": "I'll prove it by telling you fantastic stories about them",
                                     "fr": "Je vais le prouver en te racontant des histoires incroyables...",
-                                    "es": "I'll prove it by telling you fantastic stories about them"
+                                    "es": "Lo probaré contándote historias increíbles..."
                                 }
                             }
                         ]
