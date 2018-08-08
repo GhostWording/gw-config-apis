@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "BeninMask2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Where would you wear it?",
+        "fr": "Where would you wear it?",
+        "es": "Where would you wear it?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "BeninMask2Face",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "My face!",
+        "fr": "My face!",
+        "es": "My face!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well… it was originally worn around the waist!",
+            "fr": "Well… it was originally worn around the waist!",
+            "es": "Well… it was originally worn around the waist!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Amazing, right?!",
+            "fr": "Amazing, right?!",
+            "es": "Amazing, right?!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "BeninMask3"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "BeninMask2Waist",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "My waist!",
+        "fr": "My waist!",
+        "es": "My waist!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Smart! That’s where it was originally worn, too!",
+            "fr": "Smart! That’s where it was originally worn, too!",
+            "es": "Smart! That’s where it was originally worn, too!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "BeninMask3"
+      }
+    }
+  ]
+}
