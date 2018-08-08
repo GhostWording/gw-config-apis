@@ -1,0 +1,72 @@
+{
+    "Type": "Node",
+    "Id": "BeninMask3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s from 16th Century Benin.",
+                "fr": "It’s from 16th Century Benin.",
+                "es": "It’s from 16th Century Benin."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533634707/Museum%20Bot/Benin_Mask_1.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It allegedly belonged to King Esigie, and is said to represent his mother!",
+                "fr": "It allegedly belonged to King Esigie, and is said to represent his mother!",
+                "es": "It allegedly belonged to King Esigie, and is said to represent his mother!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We know it must have been a great honour, since women were rarely represented in Benin’s art!",
+                "fr": "We know it must have been a great honour, since women were rarely represented in Benin’s art!",
+                "es": "We know it must have been a great honour, since women were rarely represented in Benin’s art!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BeninMask3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Tell me more!",
+                "es": "Tell me more!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s made of ivory… elephant ivory, in fact!",
+                        "fr": "It’s made of ivory… elephant ivory, in fact!",
+                        "es": "It’s made of ivory… elephant ivory, in fact!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask4"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "BeninMask3No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "No thanks",
+                "es": "No thanks"
+            }
+        }
+    ]
+}
