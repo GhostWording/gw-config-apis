@@ -3,6 +3,8 @@
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
       { "order" : 49, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/BeninMask.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/Samurai.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Meroe.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Hadrian.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/Exekias.json"]},
