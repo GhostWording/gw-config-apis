@@ -1,0 +1,118 @@
+{
+    "Type": "Node",
+    "Id": "BeninMask6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Portuguese people, in fact!",
+                "fr": "Portuguese people, in fact!",
+                "es": "Portuguese people, in fact!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We know this because of their long hair and moustaches! 😄",
+                "fr": "We know this because of their long hair and moustaches! 😄",
+                "es": "We know this because of their long hair and moustaches! 😄"
+            }
+        }
+    {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533662570/Museum%20Bot/Benin_Mask_5.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I guess you’re wondering why King Esigie wanted little Portuguese heads on a mask of his mother!",
+                "fr": "I guess you’re wondering why King Esigie wanted little Portuguese heads on a mask of his mother!",
+                "es": "I guess you’re wondering why King Esigie wanted little Portuguese heads on a mask of his mother!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BeninMask6Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, tell me!",
+                "fr": "Yes, tell me!",
+                "es": "Yes, tell me!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, the Portuguese came in from the sea in Esigie’s time.",
+                        "fr": "Well, the Portuguese came in from the sea in Esigie’s time.",
+                        "es": "Well, the Portuguese came in from the sea in Esigie’s time."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533652233/Museum%20Bot/Benin_Mask_4.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And his people had a spiritual connection to the sea",
+                        "fr": "And his people had a spiritual connection to the sea",
+                        "es": "And his people had a spiritual connection to the sea"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So by putting the Portuguese on the mask, Esigie is honouring their new connection and trade partnerships with the Portuguese, the people from the sea!",
+                        "fr": "So by putting the Portuguese on the mask, Esigie is honouring their new connection and trade partnerships with the Portuguese, the people from the sea!",
+                        "es": "So by putting the Portuguese on the mask, Esigie is honouring their new connection and trade partnerships with the Portuguese, the people from the sea!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BeninMask6YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BeninMask6YesThanks",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Thanks!",
+                            "fr": "Thanks!",
+                            "es": "Thanks!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "No problem!",
+                                    "fr": "No problem!",
+                                    "es": "No problem!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Come see the mask in the museum - it’s in room 25, also known as the Sainsbury Galleries, on floor -2!",
+                                    "fr": "Come see the mask in the museum - it’s in room 25, also known as the Sainsbury Galleries, on floor -2!",
+                                    "es": "Come see the mask in the museum - it’s in room 25, also known as the Sainsbury Galleries, on floor -2!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
