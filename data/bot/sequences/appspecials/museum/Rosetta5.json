@@ -1,0 +1,114 @@
+{
+  "Type": "Node",
+  "Id": "Rosetta5",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!",
+        "fr": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!",
+        "es": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "cYaAqRTlfYGg01VycP"
+      }
+    }
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731157/museum%20app/Rosetta_stone_full_replica_non_reusable.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!",
+        "fr": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!",
+        "es": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Rosetta5keep",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Keep going!",
+        "fr": "Keep going!",
+        "es": "Keep going!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The soldiers quickly notified their bosses, realising it was important!",
+            "fr": "The soldiers quickly notified their bosses, realising it was important!",
+            "es": "The soldiers quickly notified their bosses, realising it was important!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!",
+            "fr": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!",
+            "es": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Battle_of_the_Nile.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments",
+            "fr": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments",
+            "es": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Rosetta5keepChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Rosetta4keepOfcourse",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Of course",
+              "fr": "Of course",
+              "es": "Of course"
+            },
+            "LinksToFragment": {
+              "FragmentPath": "Rosetta6"
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Rosetta4keepfrench",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Typical French",
+              "fr": "Typical French",
+              "es": "Typical French"
+            },
+            "LinksToFragment": {
+              "FragmentPath": "Rosetta6"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
