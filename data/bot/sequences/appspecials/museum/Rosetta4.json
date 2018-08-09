@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "Rosetta4",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god.",
+        "fr": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god.",
+        "es": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god."
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731157/museum%20app/Rosetta_stone_full_replica_non_reusable.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How modest of him!",
+        "fr": "How modest of him!",
+        "es": "How modest of him!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Rosetta4reasonable",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Seems reasonable",
+        "fr": "Seems reasonable",
+        "es": "Seems reasonable"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!",
+            "fr": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!",
+            "es": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Scripts.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "After all, Ptolemy wanted everyone to know that he was a god!",
+            "fr": "After all, Ptolemy wanted everyone to know that he was a god!",
+            "es": "After all, Ptolemy wanted everyone to know that he was a god!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Want to hear about how it was found?",
+            "fr": "Want to hear about how it was found?",
+            "es": "Want to hear about how it was found?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Rosetta4reasonableNochoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "Rosetta4",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Let’s hear!",
+              "fr": "Let’s hear!",
+              "es": "Let’s hear!"
+            },
+            "LinksToFragment": {
+              "FragmentPath": "Rosetta5"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
