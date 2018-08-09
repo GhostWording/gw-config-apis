@@ -1,0 +1,92 @@
+{
+  "Type": "Node",
+  "Id": "SuttonHoo1",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731233/Museum%20Bot/Sutton_Hoo_1.png"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What kind of person would you expect to be wearing something like this in 7th Century AD Britain?",
+        "fr": "What kind of person would you expect to be wearing something like this in 7th Century AD Britain?",
+        "es": "What kind of person would you expect to be wearing something like this in 7th Century AD Britain?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SuttonHoo1King",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A king",
+        "fr": "A king",
+        "es": "A king"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I think that’s the best guess!",
+            "fr": "I think that’s the best guess!",
+            "es": "I think that’s the best guess!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHoo2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SuttonHoo1Peasant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A peasant",
+        "fr": "A peasant",
+        "es": "A peasant"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Not quite, they’re actually people!",
+            "fr": "Not quite, they’re actually people!",
+            "es": "Not quite, they’re actually people!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHoo2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SuttonHoo1Pries",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A priest",
+        "fr": "A priest",
+        "es": "A priest"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hmm… not sure, I think they preferred the bald look!",
+            "fr": "Hmm… not sure, I think they preferred the bald look!",
+            "es": "Hmm… not sure, I think they preferred the bald look!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHoo2"
+      }
+    }
+  ]
+}
