@@ -1,70 +1,70 @@
 {
-    "Type": "Node",
-    "Id": "Serpent1",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Serpent1",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533640510/serpent_original.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you call this one snake, or two? 🤔",
+        "fr": "Would you call this one snake, or two? 🤔",
+        "es": "Would you call this one snake, or two? 🤔"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Serpent1One",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "One",
+        "fr": "Un",
+        "es": "Uno"
+      },
+      "Steps": [
         {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533640510/serpent_original.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Would you call this one snake, or two? 🤔",
-                "fr": "Would you call this one snake, or two? 🤔",
-                "es": "Would you call this one snake, or two? 🤔"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "I think I’d agree",
+            "fr": "I think I’d agree",
+            "es": "I think I’d agree"
+          }
         }
-    ],
-    "Commands": [
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Serpent2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Serpent1Two",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Two",
+        "fr": "Deux",
+        "es": "Dos"
+      },
+      "Steps": [
         {
-            "Type": "Node",
-            "Id": "Serpent1One",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "One",
-                "fr": "Un",
-                "es": "Uno"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I think I’d agree",
-                        "fr": "I think I’d agree",
-                        "es": "I think I’d agree"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Serpent2"
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Serpent1Two",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Two",
-                "fr": "Deux",
-                "es": "Dos"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "hmm...",
-                        "fr": "hmm...",
-                        "es": "hmm..."
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Serpent2"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "hmm...",
+            "fr": "hmm...",
+            "es": "hmm..."
+          }
         }
-    ]
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Serpent2"
+      }
+    }
+  ]
 }
