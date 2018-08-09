@@ -1,0 +1,85 @@
+{
+  "Type": "Node",
+  "Id": "Rosetta1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How many languages do you speak??",
+        "fr": "How many languages do you speak?",
+        "es": "How many languages do you speak?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Rosetta1one",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "One",
+        "fr": "One",
+        "es": "One"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Is it Demotic Egyptian?…",
+            "fr": "Is it Demotic Egyptian?…",
+            "es": "Is it Demotic Egyptian?…"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Rosetta2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Rosetta1two",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Two",
+        "fr": "Two",
+        "es": "Two"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "wow! Is Demotic Egyptian one of them?",
+            "fr": "wow! Is Demotic Egyptian one of them?",
+            "es": "wow! Is Demotic Egyptian one of them?"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Rosetta2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Rosetta1more",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "More",
+        "fr": "More",
+        "es": "More"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "wow! Is Demotic Egyptian one of them?",
+            "fr": "wow! Is Demotic Egyptian one of them?",
+            "es": "wow! Is Demotic Egyptian one of them?"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Rosetta2"
+      }
+    }
+  ]
+}
