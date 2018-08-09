@@ -1,0 +1,148 @@
+{
+  "Type": "Node",
+  "Id": "DavidVases1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "These are the David Vases!",
+        "fr": "These are the David Vases!",
+        "es": "These are the David Vases!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533738455/1david_vases.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "They were made 7 centuries ago in China, on May 13th 1351, in fact!",
+        "fr": "They were made 7 centuries ago in China, on May 13th 1351, in fact!",
+        "es": "They were made 7 centuries ago in China, on May 13th 1351, in fact!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DavidVases1How",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "How do you know?",
+        "fr": "How do you know?",
+        "es": "How do you know?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m glad you asked, it’s written on the vase! Look closely here!",
+            "fr": "I’m glad you asked, it’s written on the vase! Look closely here!",
+            "es": "I’m glad you asked, it’s written on the vase! Look closely here!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533738702/2davidvase_closeup.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Between all the decorations there’s a beautifully written inscription",
+            "fr": "Between all the decorations there’s a beautifully written inscription",
+            "es": "Between all the decorations there’s a beautifully written inscription"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DavidVases1HowChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "DavidVases1HowSay",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "What does it say?",
+              "fr": "What does it say?",
+              "es": "What does it say?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, apart from the day on which it was made, it also says who ordered them and what they were for!",
+                  "fr": "Well, apart from the day on which it was made, it also says who ordered them and what they were for!",
+                  "es": "Well, apart from the day on which it was made, it also says who ordered them and what they were for!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Who, you ask? He identifies himself as Zhang Wenjin, and dedicated these vases to a temple",
+                  "fr": "Who, you ask? He identifies himself as Zhang Wenjin, and dedicated these vases to a temple",
+                  "es": "Who, you ask? He identifies himself as Zhang Wenjin, and dedicated these vases to a temple"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Display": "FullScreenWidth",
+                  "Source": "Web",
+                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739147/3davidvase_temple.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "...",
+                  "fr": "...",
+                  "es": "..."
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "DavidVases1HowSayChoice",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "DavidVases1HowSay",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "So what?",
+                    "fr": "So what?",
+                    "es": "So what?"
+                  },
+                  "LinksToFragment": {
+                    "FragmentPath": "DavidVases2"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DavidVases1HowEnough",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Not interested",
+              "fr": "Not interested",
+              "es": "Not interested"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
