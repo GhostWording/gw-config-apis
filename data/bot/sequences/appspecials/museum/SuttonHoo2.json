@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "SuttonHoo2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Kings both had the money and the motive!",
+        "fr": "Kings both had the money and the motive!",
+        "es": "Kings both had the money and the motive!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "After all, the whole point of money is to spend it on fancy armour, right!?",
+        "fr": "After all, the whole point of money is to spend it on fancy armour, right!?",
+        "es": "After all, the whole point of money is to spend it on fancy armour, right!?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SuttonHoo2No",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not really!",
+        "fr": "Not really!",
+        "es": "Not really!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well the owner of this helmet seems to have thought that way!",
+            "fr": "Well the owner of this helmet seems to have thought that way!",
+            "es": "Well the owner of this helmet seems to have thought that way!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHoo3"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SuttonHoo2Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Precisely",
+        "fr": "Precisely",
+        "es": "Precisely"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I can see that you're thinking like a king",
+            "fr": "I can see that you're thinking like a king",
+            "es": "I can see that you're thinking like a king"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHoo3"
+      }
+    }
+  ]
+}
