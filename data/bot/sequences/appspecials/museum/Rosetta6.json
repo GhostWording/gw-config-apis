@@ -1,0 +1,52 @@
+{
+  "Type": "Leaf",
+  "Id": "Rosetta6",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Regardless, the British eventually got hold of the stone in some manner and transported it to London.",
+        "fr": "Regardless, the British eventually got hold of the stone in some manner and transported it to London.",
+        "es": "Regardless, the British eventually got hold of the stone in some manner and transported it to London."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here’s a newspaper article from the time talking about it!",
+        "fr": "Here’s a newspaper article from the time talking about it!",
+        "es": "Here’s a newspaper article from the time talking about it!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Time_article_on_Rosetta.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It was given to the British museum, and put on a very popular display!",
+        "fr": "It was given to the British museum, and put on a very popular display!",
+        "es": "It was given to the British museum, and put on a very popular display!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Popular_Display_1.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It took many years to decipher the Egyptian languages on the stone, but that’s a whole separate story!",
+        "fr": "It took many years to decipher the Egyptian languages on the stone, but that’s a whole separate story!",
+        "es": "It took many years to decipher the Egyptian languages on the stone, but that’s a whole separate story!"
+      }
+    }
+  ]
+}
