@@ -1,0 +1,13 @@
+{
+  "Experiments": [
+        { 
+            "Name": "PayAlert",
+            "Variations": {
+                "6" : "InsteadOfAdvert", 
+                "7" : "InsteadOfAdvert", 
+                "8" : "AfterAdvert", 
+                "9" : "AfterAdvert"
+            }
+        }
+    ]
+}
