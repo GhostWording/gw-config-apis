@@ -1,0 +1,122 @@
+{
+  "Type": "Node",
+  "Id": "SuttonHoo3",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s a really well made helmet…",
+        "fr": "It’s a really well made helmet…",
+        "es": "It’s a really well made helmet…"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It offers great protection on all sides, and even has holes at the bottom of the nose for breathing!",
+        "fr": "It offers great protection on all sides, and even has holes at the bottom of the nose for breathing!",
+        "es": "It offers great protection on all sides, and even has holes at the bottom of the nose for breathing!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "So the user could breathe comfortably while being hit in the face with a sword or axe!",
+        "fr": "So the user could breathe comfortably while being hit in the face with a sword or axe!",
+        "es": "So the user could breathe comfortably while being hit in the face with a sword or axe!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SuttonHoo3Else",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "What else?",
+        "fr": "What else?",
+        "es": "What else?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s incredibly intricate! It’s decorated all over with panels showing different scenes!",
+            "fr": "It’s incredibly intricate! It’s decorated all over with panels showing different scenes!",
+            "es": "It’s incredibly intricate! It’s decorated all over with panels showing different scenes!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731233/Museum%20Bot/Sutton_Hoo_2.jpg"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731233/Museum%20Bot/Sutton_Hoo_3.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Not that much use in a battle!",
+            "fr": "Not that much use in a battle!",
+            "es": "Not that much use in a battle!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But pretty to look at all the same!",
+            "fr": "But pretty to look at all the same!",
+            "es": "But pretty to look at all the same!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "SuttonHoo3ElseMoreVsEnough",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "SuttonHoo3ElseMore",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Tell me more",
+              "fr": "Tell me more",
+              "es": "Tell me more"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The helmet is thought to have belonged to King Raedwald of East Anglia",
+                  "fr": "The helmet is thought to have belonged to King Raedwald of East Anglia",
+                  "es": "The helmet is thought to have belonged to King Raedwald of East Anglia"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "SuttonHoo4"
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "SuttonHoo3ElseEnough",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "That’s enough",
+              "fr": "That’s enough",
+              "es": "That’s enough"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
