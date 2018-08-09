@@ -42,6 +42,132 @@
         "fragment" : {
           "path" : "IWantedToTestThisSequence"
         }
+    },
+    {
+      "words" : ["Chessmen", "chessmen"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Chessmen"
+        }
+    },
+    {
+      "words" : ["AgnesCup", "agnesCup", "agnescup"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "AgnesCup"
+        }
+    },
+    {
+      "words" : ["Amenhotep", "amenhotep"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Amenhotep"
+        }
+    },
+    {
+      "words" : ["Ramesses", "ramesses"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Ramesses"
+        }
+    },
+    {
+      "words" : ["Caryatids", "caryatids"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Caryatids"
+        }
+    },
+    {
+      "words" : ["UrStandard", "urStandard", "urstandard"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "UrStandard"
+        }
+    },
+    {
+      "words" : ["LionHunt", "lionHunt", "lionhunt"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "LionHunt"
+        }
+    },
+    {
+      "words" : ["Exekias", "exekias"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Exekias"
+        }
+    },
+    {
+      "words" : ["Hadrian", "hadrian"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Hadrian"
+        }
+    },
+    {
+      "words" : ["HolyThorn", "holyThorn", "holythorn"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "HolyThorn"
+        }
+    },
+    {
+      "words" : ["Hoa", "hoa"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Hoa"
+        }
+    },
+    {
+      "words" : ["Samurai", "samurai"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Samurai"
+        }
+    },
+    {
+      "words" : ["BeninMask", "beninMask", "beninmask","Beninmask"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "BeninMask"
+        }
+    },
+    {
+      "words" : ["AztecSerpent", "aztecSerpent", "aztecserpent","Aztecserpent"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "AztecSerpent"
+        }
+    },
+    {
+      "words" : ["SuttonHoo", "Suttonhoo", "suttonHoo","suttonhoo"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "SuttonHoo"
+        }
+    },
+    {
+      "words" : ["DavidVases", "Davidvases", "davidVases","Davidvases"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "DavidVases"
+        }
+    },
+    {
+      "words" : ["Rosetta", "rosetta"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Rosetta"
+        }
+    },
+    {
+      "words" : ["Serpent", "serpent"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Serpent"
+        }
     }
   ]
 }
