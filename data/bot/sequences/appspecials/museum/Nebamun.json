@@ -1,582 +1,582 @@
 {
-    "Type": "Node",
-    "Id": "Nebamun",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Nebamun",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you know the identity of this man?",
+        "fr": "Sais-tu qui est cette homme ?",
+        "es": "¿Sabes quién es este hombre?"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "NebamunCorrect",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Nebamun",
+        "fr": "Nebamon",
+        "es": "Nebamón"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Do you know the identity of this man?",
-                "fr": "Do you know the identity of this man?",
-                "es": "Do you know the identity of this man?"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Yes! 😃",
+            "fr": "Oui ! 😃",
+            "es": "¡Sí! 😃"
+          }
         },
         {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "NebamunCorrect",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Nebamun",
-                "fr": "Nebamun",
-                "es": "Nebamun"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Yes! 😃",
-                        "fr": "Yes! 😃",
-                        "es": "Yes! 😃"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
-                        "fr": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
-                        "es": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "FDu0PDP5q0aJGIkiED"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
-                        "fr": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
-                        "es": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "NebamunCorrectQuestion",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "NebamunCorrectHow",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "How was it found?",
-                            "fr": "How was it found?",
-                            "es": "How was it found?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
-                                    "fr": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
-                                    "es": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Display": "FullScreenWidth",
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Amazingly, he died before revealing the location of the tomb...",
-                                    "fr": "Amazingly, he died before revealing the location of the tomb...",
-                                    "es": "Amazingly, he died before revealing the location of the tomb..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So the tomb was lost... found... and then lost again!",
-                                    "fr": "So the tomb was lost... found... and then lost again!",
-                                    "es": "So the tomb was lost... found... and then lost again!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "NebamunCorrectHowQuestion",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "NebamunCorrectHowMore",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Tell me more!",
-                                        "fr": "Tell me more!",
-                                        "es": "Tell me more!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                                "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                                "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "It's important to remember that only the rich, scribes and priests, could read",
-                                                "fr": "It's important to remember that only the rich, scribes and priests, could read",
-                                                "es": "It's important to remember that only the rich, scribes and priests, could read"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                                "fr": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                                "es": "And so Nebamun is bragging to other elites how fantastic his life was!"
-                                            }
-                                        }
-                                    ],
-                                    "LinksTo": {
-                                        "Type": "Node",
-                                        "Id": "NebamunCorrectHowMoreQuestion",
-                                        "ElementValue": "1",
-                                        "Commands": [
-                                            {
-                                                "Type": "Node",
-                                                "Id": "NebamunCorrectHowMoreShowoff",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "What a showoff...",
-                                                    "fr": "What a showoff...",
-                                                    "es": "What a showoff..."
-                                                },
-                                                "Steps": [
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "Agreed! He shows off his beautiful wife and daughter...",
-                                                            "fr": "Agreed! He shows off his beautiful wife and daughter...",
-                                                            "es": "Agreed! He shows off his beautiful wife and daughter..."
-                                                        }
-                                                    }
-                                                ],
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "Nebamun2"
-                                                }
-                                            },
-                                            {
-                                                "Type": "Node",
-                                                "Id": "NebamunCorrectHowMoreHow",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "How exactly?",
-                                                    "fr": "How exactly?",
-                                                    "es": "How exactly?"
-                                                },
-                                                "Steps": [
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "Well, he shows off his beautiful wife and daughter...",
-                                                            "fr": "Well, he shows off his beautiful wife and daughter...",
-                                                            "es": "Well, he shows off his beautiful wife and daughter..."
-                                                        }
-                                                    }
-                                                ],
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "Nebamun2"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "NebamunCorrectDetails",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Give me details!",
-                            "fr": "Give me details!",
-                            "es": "Give me details!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                    "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                    "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It's important to remember that only the rich, scribes and priests, could read",
-                                    "fr": "It's important to remember that only the rich, scribes and priests, could read",
-                                    "es": "It's important to remember that only the rich, scribes and priests, could read"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                    "fr": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                    "es": "And so Nebamun is bragging to other elites how fantastic his life was!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "NebamunCorrectDetailsQuestion",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "NebamunCorrectDetailsShowoff",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "What a showoff...",
-                                        "fr": "What a showoff...",
-                                        "es": "What a showoff..."
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Agreed! He shows off his beautiful wife and daughter...",
-                                                "fr": "Agreed! He shows off his beautiful wife and daughter...",
-                                                "es": "Agreed! He shows off his beautiful wife and daughter..."
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Nebamun2"
-                                    }
-                                },
-                                {
-                                    "Type": "Node",
-                                    "Id": "NebamunCorrectDetailsHow",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "How exactly?",
-                                        "fr": "How exactly?",
-                                        "es": "How exactly?"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Well, he shows off his beautiful wife and daughter...",
-                                                "fr": "Well, he shows off his beautiful wife and daughter...",
-                                                "es": "Well, he shows off his beautiful wife and daughter..."
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Nebamun2"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+            "fr": "Le «scribe et le comptable du grain» qui a vécu à Thèbes en 1350 avant notre ère !",
+            "es": "¡El 'escriba y contable de granos' que vivió en Tebas en 1350 aC!"
+          }
         },
         {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FDu0PDP5q0aJGIkiED"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+            "fr": "Son nom signifie littéralement «Mon Seigneur est Amon»... (qui était le dieu du temple près duquel il travaillait)",
+            "es": "Su nombre literalmente significa 'Mi Señor es Amón'... (quien era el dios del templo cerca del cual estaba trabajando)"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "NebamunCorrectQuestion",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "NebamunFalse",
+            "Id": "NebamunCorrectHow",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "King Arthur",
-                "fr": "King Arthur",
-                "es": "King Arthur"
+              "en": "How was it found?",
+              "fr": "Comment a-t-il été trouvé ?",
+              "es": "¿Cómo se encontró?"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "No I'm afraid not",
-                        "fr": "No I'm afraid not",
-                        "es": "No I'm afraid not"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
-                        "fr": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
-                        "es": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "FDu0PDP5q0aJGIkiED"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
-                        "fr": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
-                        "es": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                  "fr": "Sa tombe a été découverte en 1820 par Giovanni d'Athanasi, qui a arraché ces peintures des murs!",
+                  "es": "Su tumba fue descubierta en 1820 por Giovanni d'Athanasi, ¡quien arrancó estas pinturas de las paredes!"
                 }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Display": "FullScreenWidth",
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Amazingly, he died before revealing the location of the tomb...",
+                  "fr": "De manière surprenante, il est mort avant de révéler l'emplacement de la tombe...",
+                  "es": "Sorprendentemente, murió antes de revelar la ubicación de la tumba..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So the tomb was lost... found... and then lost again!",
+                  "fr": "La tombe a donc été perdue... retrouvée... et ensuite perdue à nouveau!",
+                  "es": "Entonces la tumba se perdió... se encontró... ¡y luego se volvió a perder!"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "NebamunFalseQuestion",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "NebamunCorrectHowQuestion",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "NebamunCorrectHowMore",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Tell me more!",
+                    "fr": "Dis m'en plus !",
+                    "es": "¡Dime más!"
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "NebamunFalseHow",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "How was it found?",
-                            "fr": "How was it found?",
-                            "es": "How was it found?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
-                                    "fr": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
-                                    "es": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Display": "FullScreenWidth",
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Amazingly, he died before revealing the location of the tomb...",
-                                    "fr": "Amazingly, he died before revealing the location of the tomb...",
-                                    "es": "Amazingly, he died before revealing the location of the tomb..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So the tomb was lost... found... and then lost again!",
-                                    "fr": "So the tomb was lost... found... and then lost again!",
-                                    "es": "So the tomb was lost... found... and then lost again!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "NebamunFalseHowQuestion",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "NebamunFalseHowMore",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Tell me more!",
-                                        "fr": "Tell me more!",
-                                        "es": "Tell me more!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                                "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                                "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "It's important to remember that only the rich, scribes and priests, could read",
-                                                "fr": "It's important to remember that only the rich, scribes and priests, could read",
-                                                "es": "It's important to remember that only the rich, scribes and priests, could read"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                                "fr": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                                "es": "And so Nebamun is bragging to other elites how fantastic his life was!"
-                                            }
-                                        }
-                                    ],
-                                    "LinksTo": {
-                                        "Type": "Node",
-                                        "Id": "NebamunFalseHowMoreQuestion",
-                                        "ElementValue": "1",
-                                        "Commands": [
-                                            {
-                                                "Type": "Node",
-                                                "Id": "NebamunFalseHowMoreShowoff",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "What a showoff...",
-                                                    "fr": "What a showoff...",
-                                                    "es": "What a showoff..."
-                                                },
-                                                "Steps": [
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "Agreed! He shows off his beautiful wife and daughter...",
-                                                            "fr": "Agreed! He shows off his beautiful wife and daughter...",
-                                                            "es": "Agreed! He shows off his beautiful wife and daughter..."
-                                                        }
-                                                    }
-                                                ],
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "Nebamun2"
-                                                }
-                                            },
-                                            {
-                                                "Type": "Node",
-                                                "Id": "NebamunFalseHowMoreHow",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "How exactly?",
-                                                    "fr": "How exactly?",
-                                                    "es": "How exactly?"
-                                                },
-                                                "Steps": [
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "Well, he shows off his beautiful wife and daughter...",
-                                                            "fr": "Well, he shows off his beautiful wife and daughter...",
-                                                            "es": "Well, he shows off his beautiful wife and daughter..."
-                                                        }
-                                                    }
-                                                ],
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "Nebamun2"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                        "fr": "Les peintures sont intéressantes car elles nous montrent comment Nebamon voulait qu'on le voit...",
+                        "es": "Las pinturas son interesantes porque nos muestran cómo Nebamón quería que le viera..."
+                      }
                     },
                     {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "It's important to remember that only the rich, scribes and priests, could read",
+                        "fr": "Il est important de se rappeler que seuls les riches, les scribes et les prêtres savaient lire",
+                        "es": "Es importante recordar que solo los ricos, los escribas y los sacerdotes, sabían leer"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                        "fr": "Ainsi, Nebamon se vante auprès des autres membres de l'élite en leur montrant à quel point sa vie est fantastique !",
+                        "es": "¡Entonces, Nebamón se vanagloria ante otros miembros de élite mostrándoles cuán fantástica es su vida!"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "NebamunCorrectHowMoreQuestion",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
                         "Type": "Node",
-                        "Id": "NebamunFalseDetails",
+                        "Id": "NebamunCorrectHowMoreShowoff",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Give me details!",
-                            "fr": "Give me details!",
-                            "es": "Give me details!"
+                          "en": "What a showoff...",
+                          "fr": "Quel frimeur...",
+                          "es": "Qué fanfarrón..."
                         },
                         "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                    "fr": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
-                                    "es": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It's important to remember that only the rich, scribes and priests, could read",
-                                    "fr": "It's important to remember that only the rich, scribes and priests, could read",
-                                    "es": "It's important to remember that only the rich, scribes and priests, could read"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                    "fr": "And so Nebamun is bragging to other elites how fantastic his life was!",
-                                    "es": "And so Nebamun is bragging to other elites how fantastic his life was!"
-                                }
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Agreed! He shows off his beautiful wife and daughter...",
+                              "fr": "Je suis d'accord! Il exhibe sa femme et sa fille magnifiques...",
+                              "es": "¡Estoy de acuerdo! Muestra su esposa y su hija hermosas con orgullo..."
                             }
+                          }
                         ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "NebamunFalseDetailsQuestion",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "NebamunFalseDetailsShowoff",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "What a showoff...",
-                                        "fr": "What a showoff...",
-                                        "es": "What a showoff..."
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Agreed! He shows off his beautiful wife and daughter...",
-                                                "fr": "Agreed! He shows off his beautiful wife and daughter...",
-                                                "es": "Agreed! He shows off his beautiful wife and daughter..."
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Nebamun2"
-                                    }
-                                },
-                                {
-                                    "Type": "Node",
-                                    "Id": "NebamunFalseDetailsHow",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "How exactly?",
-                                        "fr": "How exactly?",
-                                        "es": "How exactly?"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Well, he shows off his beautiful wife and daughter...",
-                                                "fr": "Well, he shows off his beautiful wife and daughter...",
-                                                "es": "Well, he shows off his beautiful wife and daughter..."
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "Nebamun2"
-                                    }
-                                }
-                            ]
+                        "LinksToFragment": {
+                          "FragmentPath": "Nebamun2"
                         }
-                    }
-                ]
+                      },
+                      {
+                        "Type": "Node",
+                        "Id": "NebamunCorrectHowMoreHow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "How exactly?",
+                          "fr": "Comment exactement ?",
+                          "es": "¿Cómo exactamente?"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Well, he shows off his beautiful wife and daughter...",
+                              "fr": "Eh bien, il exhibe sa femme et sa fille magnifiques...",
+                              "es": "Bueno, muestra su esposa y su hija hermosas con orgullo..."
+                            }
+                          }
+                        ],
+                        "LinksToFragment": {
+                          "FragmentPath": "Nebamun2"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
             }
+          },
+          {
+            "Type": "Node",
+            "Id": "NebamunCorrectDetails",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Give me details!",
+              "fr": "Donne-moi des détails !",
+              "es": "¡Dame detalles!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                  "fr": "Les peintures sont intéressantes car elles nous montrent comment Nebamon voulait qu'on le voit...",
+                  "es": "Las pinturas son interesantes porque nos muestran cómo Nebamón quería que le viera..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It's important to remember that only the rich, scribes and priests, could read",
+                  "fr": "Il est important de se rappeler que seuls les riches, les scribes et les prêtres savaient lire",
+                  "es": "Es importante recordar que solo los ricos, los escribas y los sacerdotes, sabían leer"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                  "fr": "Ainsi, Nebamon se vante auprès des autres membres de l'élite en leur montrant à quel point sa vie est fantastique !",
+                  "es": "¡Entonces, Nebamón se vanagloria ante otros miembros de élite mostrándoles cuán fantástica es su vida!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "NebamunCorrectDetailsQuestion",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "NebamunCorrectDetailsShowoff",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "What a showoff...",
+                    "fr": "Quel frimeur...",
+                    "es": "Qué fanfarrón..."
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Agreed! He shows off his beautiful wife and daughter...",
+                        "fr": "Je suis d'accord! Il exhibe sa femme et sa fille magnifiques...",
+                        "es": "¡Estoy de acuerdo! Muestra su esposa y su hija hermosas con orgullo..."
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "FragmentPath": "Nebamun2"
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "NebamunCorrectDetailsHow",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "How exactly?",
+                    "fr": "Comment exactement ?",
+                    "es": "¿Cómo exactamente?"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Well, he shows off his beautiful wife and daughter...",
+                        "fr": "Eh bien, il exhibe sa femme et sa fille magnifiques...",
+                        "es": "Bueno, muestra su esposa y su hija hermosas con orgullo..."
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "FragmentPath": "Nebamun2"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "NebamunFalse",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "King Arthur",
+        "fr": "Le Roi Arthur",
+        "es": "El Rey Arturo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "No I'm afraid not",
+            "fr": "J'ai bien peur que non",
+            "es": "Me temo que no"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It's Nebamun... a 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+            "fr": "C'est Nebamon... un «scribe et comptable du grain» qui a vécu à Thèbes en 1350 avant notre ère !",
+            "es": "Es Nebamón... ¡un 'escriba y contable de granos' que vivió en Tebas en 1350 aC!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FDu0PDP5q0aJGIkiED"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+            "fr": "Son nom signifie littéralement «Mon Seigneur est Amon»... (qui était le dieu du temple près duquel il travaillait)",
+            "es": "Su nombre literalmente significa 'Mi Señor es Amón'... (quien era el dios del templo cerca del cual estaba trabajando)"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "NebamunFalseQuestion",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "NebamunFalseHow",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "How was it found?",
+              "fr": "Comment a-t-il été trouvé ?",
+              "es": "¿Cómo se encontró?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                  "fr": "Sa tombe a été découverte en 1820 par Giovanni d'Athanasi, qui a arraché ces peintures des murs!",
+                  "es": "Su tumba fue descubierta en 1820 por Giovanni d'Athanasi, ¡quien arrancó estas pinturas de las paredes!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Display": "FullScreenWidth",
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Amazingly, he died before revealing the location of the tomb...",
+                  "fr": "De manière surprenante, il est mort avant de révéler l'emplacement de la tombe...",
+                  "es": "Sorprendentemente, murió antes de revelar la ubicación de la tumba..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So the tomb was lost... found... and then lost again!",
+                  "fr": "La tombe a donc été perdue... retrouvée... et ensuite perdue à nouveau!",
+                  "es": "Entonces la tumba se perdió... se encontró... ¡y luego se volvió a perder!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "NebamunFalseHowQuestion",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "NebamunFalseHowMore",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Tell me more!",
+                    "fr": "Dis m'en plus !",
+                    "es": "¡Dime más!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                        "fr": "Les peintures sont intéressantes car elles nous montrent comment Nebamon voulait qu'on le voit...",
+                        "es": "Las pinturas son interesantes porque nos muestran cómo Nebamón quería que le viera..."
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "It's important to remember that only the rich, scribes and priests, could read",
+                        "fr": "Il est important de se rappeler que seuls les riches, les scribes et les prêtres savaient lire",
+                        "es": "Es importante recordar que solo los ricos, los escribas y los sacerdotes, sabían leer"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                        "fr": "Ainsi, Nebamon se vante auprès des autres membres de l'élite en leur montrant à quel point sa vie est fantastique !",
+                        "es": "¡Entonces, Nebamón se vanagloria ante otros miembros de élite mostrándoles cuán fantástica es su vida!"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "NebamunFalseHowMoreQuestion",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Node",
+                        "Id": "NebamunFalseHowMoreShowoff",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "What a showoff...",
+                          "fr": "Quel frimeur...",
+                          "es": "Qué fanfarrón..."
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Agreed! He shows off his beautiful wife and daughter...",
+                              "fr": "Je suis d'accord! Il exhibe sa femme et sa fille magnifiques...",
+                              "es": "¡Estoy de acuerdo! Muestra su esposa y su hija hermosas con orgullo..."
+                            }
+                          }
+                        ],
+                        "LinksToFragment": {
+                          "FragmentPath": "Nebamun2"
+                        }
+                      },
+                      {
+                        "Type": "Node",
+                        "Id": "NebamunFalseHowMoreHow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "How exactly?",
+                          "fr": "Comment exactement ?",
+                          "es": "¿Cómo exactamente?"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Well, he shows off his beautiful wife and daughter...",
+                              "fr": "Eh bien, il exhibe sa femme et sa fille magnifiques...",
+                              "es": "Bueno, muestra su esposa y su hija hermosas con orgullo..."
+                            }
+                          }
+                        ],
+                        "LinksToFragment": {
+                          "FragmentPath": "Nebamun2"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "NebamunFalseDetails",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Give me details!",
+              "fr": "Donne-moi des détails !",
+              "es": "¡Dame detalles!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                  "fr": "Les peintures sont intéressantes car elles nous montrent comment Nebamon voulait qu'on le voit...",
+                  "es": "Las pinturas son interesantes porque nos muestran cómo Nebamón quería que le viera..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It's important to remember that only the rich, scribes and priests, could read",
+                  "fr": "Il est important de se rappeler que seuls les riches, les scribes et les prêtres savaient lire",
+                  "es": "Es importante recordar que solo los ricos, los escribas y los sacerdotes, sabían leer"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                  "fr": "Ainsi, Nebamon se vante auprès des autres membres de l'élite en leur montrant à quel point sa vie est fantastique !",
+                  "es": "¡Entonces, Nebamón se vanagloria ante otros miembros de élite mostrándoles cuán fantástica es su vida!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "NebamunFalseDetailsQuestion",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "NebamunFalseDetailsShowoff",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "What a showoff...",
+                    "fr": "Quel frimeur...",
+                    "es": "Qué fanfarrón..."
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Agreed! He shows off his beautiful wife and daughter...",
+                        "fr": "Je suis d'accord! Il exhibe sa femme et sa fille magnifiques...",
+                        "es": "¡Estoy de acuerdo! Muestra su esposa y su hija hermosas con orgullo..."
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "FragmentPath": "Nebamun2"
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "NebamunFalseDetailsHow",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "How exactly?",
+                    "fr": "Comment exactement ?",
+                    "es": "¿Cómo exactamente?"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Well, he shows off his beautiful wife and daughter...",
+                        "fr": "Eh bien, il exhibe sa femme et sa fille magnifiques...",
+                        "es": "Bueno, muestra su esposa y su hija hermosas con orgullo..."
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "FragmentPath": "Nebamun2"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
