@@ -1,0 +1,67 @@
+{
+  "Type": "Node",
+  "Id": "Rosetta3",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Coin_of_Ptolemy_V.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "His mother, Arsinoe, was murdered in a plot after his father died, making Ptolemy king at only 5 years old!",
+        "fr": "His mother, Arsinoe, was murdered in a plot after his father died, making Ptolemy king at only 5 years old!",
+        "es": "His mother, Arsinoe, was murdered in a plot after his father died, making Ptolemy king at only 5 years old!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Oh, and his parents were also brother and sister… that’s one messed up family tree!",
+        "fr": "Oh, and his parents were also brother and sister… that’s one messed up family tree!",
+        "es": "Oh, and his parents were also brother and sister… that’s one messed up family tree!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Rosetta3weird",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "That’s weird",
+        "fr": "That’s weird",
+        "es": "That’s weird"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "yeah… Anyway...",
+            "fr": "yeah… Anyway...",
+            "es": "yeah… Anyway..."
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Rosetta4"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Rosetta3then",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Then what?!",
+        "fr": "Then what?!",
+        "es": "Then what?!"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "Rosetta4"
+      }
+    }
+  ]
+}
