@@ -1,0 +1,69 @@
+{
+  "Type": "Node",
+  "Id": "Reindeer4",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811231/museum%20app/Swimming_Reindeers.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s made out of ivory, but not just any ivory… mammoth ivory!",
+        "fr": "It’s made out of ivory, but not just any ivory… mammoth ivory!",
+        "es": "It’s made out of ivory, but not just any ivory… mammoth ivory!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Reindeer4Wow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Wow!",
+        "fr": "Wow!",
+        "es": "Wow!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This little sculpture was a key piece of evidence in telling us that humans once lived alongside mammoths!",
+            "fr": "This little sculpture was a key piece of evidence in telling us that humans once lived alongside mammoths!",
+            "es": "This little sculpture was a key piece of evidence in telling us that humans once lived alongside mammoths!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Reindeer5"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Reindeer4What",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "So what?",
+        "fr": "So what?",
+        "es": "So what?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This little sculpture was a key piece of evidence in telling us that humans once lived alongside mammoths!",
+            "fr": "This little sculpture was a key piece of evidence in telling us that humans once lived alongside mammoths!",
+            "es": "This little sculpture was a key piece of evidence in telling us that humans once lived alongside mammoths!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Reindeer5"
+      }
+    }
+  ]
+}
