@@ -29,7 +29,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "AztecSerpent2Tell",
       "ElementValue": "1",
       "CommandLabel": {
@@ -70,7 +70,71 @@
             "es": "I guess that’s what happens when you invade a continent and name everything for yourself!"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AztecSerpent2TellQuestion",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "AztecSerpent2TellElse",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "What else?",
+              "fr": "Quoi d'autre ?",
+              "es": "¿Qué más?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The turquoise mosaic is made from a stone mined at least 1600km North of where the Aztecs lived!",
+                  "fr": "The turquoise mosaic is made from a stone mined at least 1600km North of where the Aztecs lived!",
+                  "es": "The turquoise mosaic is made from a stone mined at least 1600km North of where the Aztecs lived!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533642922/3location1.jpg"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "AztecSerpent2TellElseQuestion",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "AztecSerpent2TellElseFace",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "What about the face?",
+                    "fr": "What about the face?",
+                    "es": "What about the face?"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651934/3.2serpent_head.jpg"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "FragmentPath": "AztecSerpent3"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "Type": "Leaf",
