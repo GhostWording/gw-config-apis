@@ -1,0 +1,62 @@
+{
+  "Type": "Node",
+  "Id": "Reindeer",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "France is a popular location to enjoy some nice warm weather, right?",
+        "fr": "France is a popular location to enjoy some nice warm weather, right?",
+        "es": "France is a popular location to enjoy some nice warm weather, right?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Reindeer1Right",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Right",
+        "fr": "Right",
+        "es": "Right"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, it wasn’t 13,000 years ago!",
+            "fr": "Well, it wasn’t 13,000 years ago!",
+            "es": "Well, it wasn’t 13,000 years ago!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Reindeer2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Reindeer1Maybe",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Maybe…",
+        "fr": "Maybe…",
+        "es": "Maybe…"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, it wasn’t 13,000 years ago!",
+            "fr": "Well, it wasn’t 13,000 years ago!",
+            "es": "Well, it wasn’t 13,000 years ago!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "Reindeer2"
+      }
+    }
+  ]
+}
