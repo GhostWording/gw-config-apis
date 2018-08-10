@@ -77,46 +77,41 @@
           }
         }
       ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "SuttonHoo3ElseMoreVsEnough",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Node",
-            "Id": "SuttonHoo3ElseMore",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Tell me more",
-              "fr": "Tell me more",
-              "es": "Tell me more"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "The helmet is thought to have belonged to King Raedwald of East Anglia",
-                  "fr": "The helmet is thought to have belonged to King Raedwald of East Anglia",
-                  "es": "The helmet is thought to have belonged to King Raedwald of East Anglia"
-                }
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "SuttonHoo4"
-            }
+      "Commands": [
+        {
+          "Type": "Node",
+          "Id": "SuttonHoo3ElseMore",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Tell me more",
+            "fr": "Tell me more",
+            "es": "Tell me more"
           },
-          {
-            "Type": "Leaf",
-            "Id": "SuttonHoo3ElseEnough",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "That’s enough",
-              "fr": "That’s enough",
-              "es": "That’s enough"
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "The helmet is thought to have belonged to King Raedwald of East Anglia",
+                "fr": "The helmet is thought to have belonged to King Raedwald of East Anglia",
+                "es": "The helmet is thought to have belonged to King Raedwald of East Anglia"
+              }
             }
+          ],
+          "LinksToFragment": {
+            "FragmentPath": "SuttonHoo4"
           }
-        ]
-      }
+        },
+        {
+          "Type": "Leaf",
+          "Id": "SuttonHoo3ElseEnough",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "That’s enough",
+            "fr": "That’s enough",
+            "es": "That’s enough"
+          }
+        }
+      ]
     }
   ]
 }
