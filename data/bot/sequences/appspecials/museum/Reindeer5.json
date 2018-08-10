@@ -1,0 +1,125 @@
+{
+  "Type": "Node",
+  "Id": "Reindeer5",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811231/museum%20app/Mammoths.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "But that’s not the only cool thing!",
+        "fr": "But that’s not the only cool thing!",
+        "es": "But that’s not the only cool thing!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Reindeer5Else",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "What else?",
+        "fr": "What else?",
+        "es": "What else?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, if you think about it, art like this takes a lot of time to make… both for learning how to do it, and then actually making the piece!",
+            "fr": "Well, if you think about it, art like this takes a lot of time to make… both for learning how to do it, and then actually making the piece!",
+            "es": "Well, if you think about it, art like this takes a lot of time to make… both for learning how to do it, and then actually making the piece!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811233/museum%20app/Whittling.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So… it means that humans actually had free time to spend on hobbies such as art like this!",
+            "fr": "So… it means that humans actually had free time to spend on hobbies such as art like this!",
+            "es": "So… it means that humans actually had free time to spend on hobbies such as art like this!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Even in such tough living conditions as the ice age!",
+            "fr": "Even in such tough living conditions as the ice age!",
+            "es": "Even in such tough living conditions as the ice age!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Reindeer5ElseGood",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Reindeer5ElseGood1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Good point!",
+              "fr": "Good point!",
+              "es": "Good point!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Oh, and one last thing to tell you…",
+                  "fr": "Oh, and one last thing to tell you…",
+                  "es": "Oh, and one last thing to tell you…"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "This piece is dated to roughly 11000 B.C.E.",
+                  "fr": "This piece is dated to roughly 11000 B.C.E.",
+                  "es": "This piece is dated to roughly 11000 B.C.E."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "That makes it the oldest piece of art in the British Museum!",
+                  "fr": "That makes it the oldest piece of art in the British Museum!",
+                  "es": "That makes it the oldest piece of art in the British Museum!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And actually in any museum in Britain at all!",
+                  "fr": "And actually in any museum in Britain at all!",
+                  "es": "And actually in any museum in Britain at all!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Because it’s so delicate, it’s not always on display, but you might get lucky! 😄",
+                  "fr": "Because it’s so delicate, it’s not always on display, but you might get lucky! 😄",
+                  "es": "Because it’s so delicate, it’s not always on display, but you might get lucky! 😄"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
