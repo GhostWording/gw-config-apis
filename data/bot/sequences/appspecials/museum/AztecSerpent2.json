@@ -102,35 +102,30 @@
                 }
               }
             ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "AztecSerpent2TellElseQuestion",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "AztecSerpent2TellElseFace",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "What about the face?",
-                    "fr": "What about the face?",
-                    "es": "What about the face?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Display": "FullScreenWidth",
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651934/3.2serpent_head.jpg"
-                      }
+            "Commands": [
+              {
+                "Type": "Node",
+                "Id": "AztecSerpent2TellElseFace",
+                "ElementValue": "1",
+                "CommandLabel": {
+                  "en": "What about the face?",
+                  "fr": "What about the face?",
+                  "es": "What about the face?"
+                },
+                "Steps": [
+                  {
+                    "Type": "Image",
+                    "Parameters": {
+                      "Display": "FullScreenWidth",
+                      "Source": "Web",
+                      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651934/3.2serpent_head.jpg"
                     }
-                  ]
-                }
-              ],
-              "LinksToFragment": {
-                "FragmentPath": "AztecSerpent3"
+                  }
+                ]
               }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "AztecSerpent3"
             }
           }
         ]
