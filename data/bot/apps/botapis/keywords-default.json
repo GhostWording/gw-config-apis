@@ -168,6 +168,34 @@
         "fragment" : {
           "path" : "Reindeer"
         }
+    },
+    {
+      "words" : ["Mausoleum", "mausoleum"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Mausoleum"
+        }
+    },
+    {
+      "words" : ["BerlinVolute", "Berlinvolute", "berlinvolute", "berlinVolute"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "BerlinVolute"
+        }
+    },
+    {
+      "words" : ["Nebamun", "nebamun"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Nebamun"
+        }
+    },
+    {
+      "words" : ["Meroe", "meroe"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "Meroe"
+        }
     }
   ]
 }
