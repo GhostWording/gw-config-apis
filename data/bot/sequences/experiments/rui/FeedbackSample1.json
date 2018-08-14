@@ -1,0 +1,57 @@
+{
+    "Type": "Node",
+    "Id": "FeedbackForSample1",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "How did you like this story ?",
+          "fr": "How did you like this story ?",
+          "es": "How did you like this story ?"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "FeedbackForSample1Good",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "It was great !",
+          "fr": "Super !",
+          "es": "Estupendo !"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "Feedback",
+            "Parameters": { 
+              "FeedbackValue" : "Good",
+              "SequenceId" : "SampleWithFeedback"
+            }  
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "FeedbackForSample1Bad",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "It was interesting",
+          "fr": "It was interesting",
+          "es": "It was interesting"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "Feedback",
+            "Parameters": { 
+              "FeedbackValue" : "Bad",
+              "SequenceId" : "SampleWithFeedback"
+            }
+          }
+        ]
+      }
+    ]
+  }
