@@ -1,0 +1,17 @@
+{
+  "Type": "Node",
+  "Comments":"this show how to use feedback",
+  "Tags":["HasFeedback"],
+  "Id": "SampleWithFeedback",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Someone enters a coffee,and..., pluc",
+        "fr": "C'est quelqu'un qui rentre dans un café, et... plouf"
+      }
+    },
+  "LinksToFragment": {
+       "FragmentPath": "FeedbackForSample1"
+  }    
+}
