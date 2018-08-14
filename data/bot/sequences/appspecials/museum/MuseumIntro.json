@@ -1,197 +1,188 @@
 {
-    "Type": "Node",
-    "Id": "MuseumIntro",
-    "Steps": [
+  "Type": "Node",
+  "Id": "MuseumIntro",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi!",
+        "fr": "Salut !",
+        "es": "¡Hola!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I am an owl, and that means I am wise 🦉",
+        "fr": "Je suis une chouette, et cela signifie que je suis d'une grande sagesse 🦉",
+        "es": "Soy una lechuza, y significa que soy sabio 🦉"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "MuseumIntroYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Right!",
+        "fr": "Bien sûr !",
+        "es": "¡Por supuesto!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Hi!",
-                "fr": "Salut !",
-                "es": "¡Hola!"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "I have been around in every era",
+            "fr": "J'ai traversé toutes les époques",
+            "es": "Pasé por todos los tiempos"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "I am an owl, and that means I am wise 🦉",
-                "fr": "Je suis une chouette, et cela signifie que je suis d'une grande sagesse 🦉",
-                "es": "Soy una lechuza, y significa que soy sabio 🦉"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "MuseumIntroYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Right!",
-                "fr": "Bien sûr !",
-                "es": "¡Por supuesto!"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I have been around in every era",
-                        "fr": "J'ai traversé toutes les époques",
-                        "es": "Pasé por todos los tiempos"
-                    }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowCarouselFromList",
-                    "Parameters": {
-                        "Path": "/data/common/carousel/museum/OwlPlaces.json"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Par conséquent, je connais toutes les oeuvres qui aient jamais existé",
-                        "es": "Por consiguiente, conozco todas las obras que jamás hayan existido"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "MuseumIntroYesChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "MuseumIntroYesYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I'm convinced",
-                            "fr": "Convaincu(e) !",
-                            "es": "Estoy convencido/a"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Good. I have fantastic stories to tell about them...",
-                                    "fr": "Super ! J'ai des histoires incroyables à te raconter...",
-                                    "es": "¡Súper! Tengo historias increíbles que contarte..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "MuseumIntroYesNot",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I'm not convinced",
-                            "fr": "Pas convaincu(e)...",
-                            "es": "No estoy convencido/a"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I'll prove it by telling you fantastic stories about them",
-                                    "fr": "Je vais le prouver en te racontant des histoires incroyables...",
-                                    "es": "Lo probaré contándote historias increíbles..."
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+          "Type": "Action",
+          "Name": "ShowCarouselFromList",
+          "Parameters": {
+            "Path": "/data/common/carousel/museum/OwlPlaces.json"
+          }
         },
         {
-            "Type": "Node",
-            "Id": "MuseumIntroMaybe",
+          "Type": "Text",
+          "Label": {
+            "en": "Because of this, I know about every artwork to have ever existed",
+            "fr": "Par conséquent, je connais toutes les oeuvres qui aient jamais existé",
+            "es": "Por consiguiente, conozco todas las obras que jamás hayan existido"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "MuseumIntroYesChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "MuseumIntroYesYes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Possibly",
-                "fr": "Vraiment ?",
-                "es": "Probablemente"
+              "en": "I'm convinced",
+              "fr": "Convaincu(e) !",
+              "es": "Estoy convencido/a"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I have been around in every era",
-                        "fr": "J'ai traversé toutes les époques",
-                        "es": "Pasé por todos los tiempos"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Display":"FullScreenWidth",
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533295368/DinosaurPeriod.jpg"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Display":"FullScreenWidth",
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533295422/RomanPeriod.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Because of this, I know about every artwork to have ever existed",
-                        "fr": "Par conséquent, je connais toutes les oeuvres qui ont jamais existé",
-                        "es": "Por consiguiente, conozco todas las obras que jamás hayan existido"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good. I have fantastic stories to tell about them...",
+                  "fr": "Super ! J'ai des histoires incroyables à te raconter...",
+                  "es": "¡Súper! Tengo historias increíbles que contarte..."
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "MuseumIntroMaybeChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "MuseumIntroMaybeYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I'm convinced",
-                            "fr": "Convaincu(e) !",
-                            "es": "Estoy convencido/a"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Good. I have fantastic stories to tell about them...",
-                                    "fr": "Super ! J'ai des histoires incroyables à te raconter...",
-                                    "es": "¡Súper! Tengo historias increíbles que contarte..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "MuseumIntroMaybeNot",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I'm not convinced",
-                            "fr": "Pas convaincu(e)...",
-                            "es": "No estoy convencido/a"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I'll prove it by telling you fantastic stories about them",
-                                    "fr": "Je vais le prouver en te racontant des histoires incroyables...",
-                                    "es": "Lo probaré contándote historias increíbles..."
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "MuseumIntroYesNot",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I'm not convinced",
+              "fr": "Pas convaincu(e)...",
+              "es": "No estoy convencido/a"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I'll prove it by telling you fantastic stories about them",
+                  "fr": "Je vais le prouver en te racontant des histoires incroyables...",
+                  "es": "Lo probaré contándote historias increíbles..."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "MuseumIntroMaybe",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Possibly",
+        "fr": "Vraiment ?",
+        "es": "Probablemente"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I have been around in every era",
+            "fr": "J'ai traversé toutes les époques",
+            "es": "Pasé por todos los tiempos"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCarouselFromList",
+          "Parameters": {
+            "Path": "/data/common/carousel/museum/OwlPlaces.json"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Because of this, I know about every artwork to have ever existed",
+            "fr": "Par conséquent, je connais toutes les oeuvres qui aient jamais existé",
+            "es": "Por consiguiente, conozco todas las obras que jamás hayan existido"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "MuseumIntroMaybeChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "MuseumIntroMaybeYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I'm convinced",
+              "fr": "Convaincu(e) !",
+              "es": "Estoy convencido/a"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good. I have fantastic stories to tell about them...",
+                  "fr": "Super ! J'ai des histoires incroyables à te raconter...",
+                  "es": "¡Súper! Tengo historias increíbles que contarte..."
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "MuseumIntroMaybeNot",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I'm not convinced",
+              "fr": "Pas convaincu(e)...",
+              "es": "No estoy convencido/a"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I'll prove it by telling you fantastic stories about them",
+                  "fr": "Je vais le prouver en te racontant des histoires incroyables...",
+                  "es": "Lo probaré contándote historias increíbles..."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
