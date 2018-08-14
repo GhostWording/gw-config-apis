@@ -2,9 +2,28 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-          { "order" : 4, "file": ["/data/bot/sequences/experiments/Billy2/SignLanguageTest.json"]},
-          { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/Hadrian.json"]}
-         
+          { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/Reindeer.json"]},
+          { "order" : 15, "file": ["/data/bot/sequences/appspecials/museum/Rosetta.json"]},
+          { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/DavidVases.json"]},
+          { "order" : 25, "file": ["/data/bot/sequences/appspecials/museum/SuttonHoo.json"]},
+          { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/AztecSerpent.json"]},
+          { "order" : 35, "file": ["/data/bot/sequences/appspecials/museum/BeninMask.json"]},
+          { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/Samurai.json"]},
+          { "order" : 45, "file": ["/data/bot/sequences/appspecials/museum/Hoa.json"]},
+          { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/HolyThorn.json"]},
+          { "order" : 55, "file": ["/data/bot/sequences/appspecials/museum/Hadrian.json"]},
+          { "order" : 60, "file": ["/data/bot/sequences/appspecials/museum/Exekias.json"]},
+          { "order" : 65, "file": ["/data/bot/sequences/appspecials/museum/LionHunt.json"]},
+          { "order" : 70, "file": ["/data/bot/sequences/appspecials/museum/UrStandard.json"]},
+          { "order" : 75, "file": ["/data/bot/sequences/appspecials/museum/Caryatids.json"]},
+          { "order" : 80, "file": ["/data/bot/sequences/appspecials/museum/Ramesses.json"]},
+          { "order" : 85, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
+          { "order" : 90, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
+          { "order" : 95, "file": ["/data/bot/sequences/appspecials/museum/Chessmen.json"]},
+          { "order" : 100, "file": ["/data/bot/sequences/appspecials/museum/Mausoleum.json"]},
+          { "order" : 105, "file": ["/data/bot/sequences/appspecials/museum/BerlinVolute.json"]},
+          { "order" : 110, "file": ["/data/bot/sequences/appspecials/museum/Meroe.json"]},
+          { "order" : 115, "file": ["/data/bot/sequences/appspecials/museum/Nebamun.json"]}
     ]
   }
 ]
