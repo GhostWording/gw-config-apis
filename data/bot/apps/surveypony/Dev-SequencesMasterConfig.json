@@ -3,19 +3,17 @@
     {
       "Name": "rcbotdev",
       "Source": "github",
-      "dev": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
-      "file":"/data/bot/apps/astrology/astrologyMasterSequence.json"
+      "experiment":"/data/bot/apps/astrology/astrologyMasterSequence.json",
+      
+      "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     }
   ],
   "FragmentsFiles": [
     {
-      "Topic": "main",
-      "Other":"/data/bot/sequences/fragments/FragmentsMain.json",
-      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
-    },
-    {
       "Topic": "testnewformat",
       "comment":"file with new simplified format, no more keys",
+      "File2": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
+      
       "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests2.json"
     }
   ],
