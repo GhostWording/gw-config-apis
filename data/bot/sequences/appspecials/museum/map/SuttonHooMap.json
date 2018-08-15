@@ -1,0 +1,35 @@
+{
+  "Type": "Node",
+  "Id": "SuttonHooMap",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://www.mobilemaplets.com/thumbnails/10688_thumbnail-1024.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let me know when you are ready to read this sequence !",
+        "fr": "Let me know when you are ready to read this sequence !",
+        "es": "Let me know when you are ready to read this sequence !"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SuttonHooMapReady",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Ready"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHoo"
+      }
+    }
+  ]
+}
