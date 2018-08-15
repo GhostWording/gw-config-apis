@@ -1,0 +1,50 @@
+{
+    "Id": "MuseumAreas",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Area 1"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_1.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Area 2"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_2.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Area 3"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_3.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Area 4"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_4.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Area 5"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329719/Museum%20Bot/Area_selected_floor_5.jpg"
+            }
+        }
+    ]
+}
