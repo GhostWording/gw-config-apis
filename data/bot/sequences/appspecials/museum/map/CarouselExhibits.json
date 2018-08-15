@@ -3,305 +3,299 @@
   "Id": "CarouselExhibits",
   "Steps": [
     {
+      "Type": "Text",
+      "Label": {
+        "en": "Which artwork would you like to see?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
       "Type": "Node",
-      "Id": "Artworks",
+      "Id": "SuttonHooC",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sutton Hoo",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "1️⃣"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_1.jpg"
+        }
+      },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
-            "en": "Which artwork would you like to see?"
+            "en": "You can find it here",
+            "fr": "You can find it here",
+            "es": "You can find it here"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Was it helpful?",
+            "fr": "Was it helpful?",
+            "es": "Was it helpful?"
           }
         }
       ],
-      "DisplayHint": "Carousel",
-      "Randomize": "true",
-      "Commands": [
-        {
-          "Type": "Node",
-          "Id": "SuttonHooC",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Sutton Hoo",
-          },
-          "CarouselElements": {
-            "Title": {
-              "en": "1️⃣"
-            },
-            "Picture": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_1.jpg"
-            }
-          },
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "You can find it here",
-                "fr": "You can find it here",
-                "es": "You can find it here"
-              }
-            },
-            {
-              "Type": "Image",
-              "Parameters": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Was it helpful?",
-                "fr": "Was it helpful?",
-                "es": "Was it helpful?"
-              }
-            }
-          ],
-          "LinksTo": {
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "SuttonHooCYesOrNo",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "SuttonHooCYesOrNo",
+            "Id": "SuttonHooCYes",
             "ElementValue": "1",
-            "Commands": [
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Yes",
+              "es": "Yes"
+            },
+            "Steps": [
               {
-                "Type": "Node",
-                "Id": "SuttonHooCYes",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "Yes",
-                  "fr": "Yes",
-                  "es": "Yes"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Great! Check this amazing story about Sutton Hoo helmet!",
-                      "fr": "Great! Check this amazing story about Sutton Hoo helmet!",
-                      "es": "Great! Check this amazing story about Sutton Hoo helmet!"
-                    }
-                  }
-                ],
-                "LinksToFragment": {
-                  "FragmentPath": "SuttonHoo"
-                }
-              },
-              {
-                "Type": "Node",
-                "Id": "SuttonHooCNo",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "No",
-                  "fr": "No",
-                  "es": "No"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Damn! Let's give it another shot!",
-                      "fr": "Damn! Let's give it another shot!",
-                      "es": "Damn! Let's give it another shot!"
-                    }
-                  }
-                ],
-                "LinksToFragment": {
-                  "FragmentPath": "CarouselExhibits"
+                "Type": "Text",
+                "Label": {
+                  "en": "Great! Check this amazing story about Sutton Hoo helmet!",
+                  "fr": "Great! Check this amazing story about Sutton Hoo helmet!",
+                  "es": "Great! Check this amazing story about Sutton Hoo helmet!"
                 }
               }
-            ]
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "SuttonHoo"
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "SuttonHooCNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "No",
+              "es": "No"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Damn! Let's give it another shot!",
+                  "fr": "Damn! Let's give it another shot!",
+                  "es": "Damn! Let's give it another shot!"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "CarouselExhibits"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "BeninMaskC",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Benin Ivory Mask"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "2️⃣"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248289/Benin_Mask_0.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You can find it here",
+            "fr": "You can find it here",
+            "es": "You can find it here"
           }
         },
         {
-          "Type": "Node",
-          "Id": "BeninMaskC",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Benin Ivory Mask"
-          },
-          "CarouselElements": {
-            "Title": {
-              "en": "2️⃣"
-            },
-            "Picture": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248289/Benin_Mask_0.jpg"
-            }
-          },
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "You can find it here",
-                "fr": "You can find it here",
-                "es": "You can find it here"
-              }
-            },
-            {
-              "Type": "Image",
-              "Parameters": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Was it helpful?",
-                "fr": "Was it helpful?",
-                "es": "Was it helpful?"
-              }
-            }
-          ],
-          "LinksTo": {
-            "Type": "Node",
-            "Id": "BeninMaskCYesOrNo",
-            "ElementValue": "1",
-            "Commands": [
-              {
-                "Type": "Node",
-                "Id": "BeninMaskCYes",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "Yes",
-                  "fr": "Yes",
-                  "es": "Yes"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Great! Check this amazing story about Benin Ivory Mask!",
-                      "fr": "Great! Check this amazing story about Benin Ivory Mask!",
-                      "es": "Great! Check this amazing story about Benin Ivory Mask!"
-                    }
-                  }
-                ],
-                "LinksToFragment": {
-                  "FragmentPath": "BeninMask"
-                }
-              },
-              {
-                "Type": "Node",
-                "Id": "BeninMaskCNo",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "No",
-                  "fr": "No",
-                  "es": "No"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Damn! Let's give it another shot!",
-                      "fr": "Damn! Let's give it another shot!",
-                      "es": "Damn! Let's give it another shot!"
-                    }
-                  }
-                ],
-                "LinksToFragment": {
-                  "FragmentPath": "CarouselAreas"
-                }
-              }
-            ]
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
           }
         },
         {
-          "Type": "Node",
-          "Id": "HolyThornC",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Holy Thorn Reliquary",
-          },
-          "CarouselElements": {
-            "Title": {
-              "en": "3️⃣"
-            },
-            "Picture": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533569554/Holy_Thorn_pic1.jpg"
-            }
-          },
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "You can find it here",
-                "fr": "You can find it here",
-                "es": "You can find it here"
-              }
-            },
-            {
-              "Type": "Image",
-              "Parameters": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Was it helpful?",
-                "fr": "Was it helpful?",
-                "es": "Was it helpful?"
-              }
-            }
-          ],
-          "LinksTo": {
-            "Type": "Node",
-            "Id": "HolyThornCYesOrNo",
-            "ElementValue": "1",
-            "Commands": [
-              {
-                "Type": "Leaf",
-                "Id": "HolyThornCYes",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "Yes",
-                  "fr": "Yes",
-                  "es": "Yes"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Great! Check this amazing story about the Holy Thorn!",
-                      "fr": "Great! Check this amazing story about the Holy Thorn!",
-                      "es": "Great! Check this amazing story about the Holy Thorn!"
-                    }
-                  }
-                ],
-                "LinksToFragment": {
-                  "FragmentPath": "HolyThorn"
-                }
-              },
-              {
-                "Type": "Node",
-                "Id": "HolyThornCNo",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "No",
-                  "fr": "No",
-                  "es": "No"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Damn! Let's give it another shot!",
-                      "fr": "Damn! Let's give it another shot!",
-                      "es": "Damn! Let's give it another shot!"
-                    }
-                  }
-                ],
-                "LinksToFragment": {
-                  "FragmentPath": "CarouselAreas"
-                }
-              }
-            ]
+          "Type": "Text",
+          "Label": {
+            "en": "Was it helpful?",
+            "fr": "Was it helpful?",
+            "es": "Was it helpful?"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "BeninMaskCYesOrNo",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "BeninMaskCYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Yes",
+              "es": "Yes"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Great! Check this amazing story about Benin Ivory Mask!",
+                  "fr": "Great! Check this amazing story about Benin Ivory Mask!",
+                  "es": "Great! Check this amazing story about Benin Ivory Mask!"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "BeninMask"
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "BeninMaskCNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "No",
+              "es": "No"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Damn! Let's give it another shot!",
+                  "fr": "Damn! Let's give it another shot!",
+                  "es": "Damn! Let's give it another shot!"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "CarouselAreas"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "HolyThornC",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Holy Thorn Reliquary",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "3️⃣"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533569554/Holy_Thorn_pic1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You can find it here",
+            "fr": "You can find it here",
+            "es": "You can find it here"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Was it helpful?",
+            "fr": "Was it helpful?",
+            "es": "Was it helpful?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HolyThornCYesOrNo",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "HolyThornCYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Yes",
+              "es": "Yes"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Great! Check this amazing story about the Holy Thorn!",
+                  "fr": "Great! Check this amazing story about the Holy Thorn!",
+                  "es": "Great! Check this amazing story about the Holy Thorn!"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "HolyThorn"
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "HolyThornCNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "No",
+              "es": "No"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Damn! Let's give it another shot!",
+                  "fr": "Damn! Let's give it another shot!",
+                  "es": "Damn! Let's give it another shot!"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "CarouselAreas"
+            }
+          }
+        ]
+      }
     }
   ]
 }
