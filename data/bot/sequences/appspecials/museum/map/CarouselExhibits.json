@@ -116,7 +116,7 @@
           "Id": "BeninMaskC",
           "ElementValue": "1",
           "CommandLabel": {
-            "en": "Benin Ivory Mask",
+            "en": "Benin Ivory Mask"
           },
           "CarouselElements": {
             "Title": {
@@ -200,7 +200,7 @@
                   }
                 ],
                 "LinksToFragment": {
-                  "FragmentPath": "CarouselExhibits"
+                  "FragmentPath": "CarouselAreas"
                 }
               }
             ]
@@ -276,7 +276,7 @@
                 }
               },
               {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "HolyThornCNo",
                 "ElementValue": "1",
                 "CommandLabel": {
@@ -295,7 +295,7 @@
                   }
                 ],
                 "LinksToFragment": {
-                  "FragmentPath": "CarouselExhibits"
+                  "FragmentPath": "CarouselAreas"
                 }
               }
             ]
