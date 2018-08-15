@@ -1,18 +1,17 @@
 {
   "Type": "Node",
   "Comments":"this show how to use feedback",
-  "Tags":["HasFeedback"],
-  "Id": "SampleWithFeedback",
+  "Id": "MyCoffeJokeSequence",
   "Steps": [
     {
       "Type": "Text",
       "Label": {
-        "en": "Someone enters a coffee,and..., pluc",
+        "en": "Someone enters a coffee,and..., splash",
         "fr": "C'est quelqu'un qui rentre dans un café, et... plouf"
       }
     }
   ],
   "LinksToFragment": {
-       "FragmentPath": "FeedbackForSample1"
+       "FragmentPath": "MyCoffejokeFeedback"
   }    
 }
