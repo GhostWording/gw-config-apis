@@ -1,0 +1,76 @@
+{
+  "Type": "Node",
+  "Id": "NearbyBeninMask",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here are the artworks that are quite close to you"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here are the artworks that are actually close to you."
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromList",
+      "Parameters": {
+        "Path": "/data/common/carousel/museum/nearby/NearbyBeninMask.json"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which one would you like to see?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "NearbyBeninMaskSuttonHoo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sutton Hoo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great, you can find it here",
+            "fr": "Great, you can find it here",
+            "es": "Great, you can find it here"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "SuttonHooMap"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "NearbyBeninMaskDavidVases",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "David Vases"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great, you can find it here",
+            "fr": "Great, you can find it here",
+            "es": "Great, you can find it here"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "DavidVasesMap"
+      }
+    }
+  ]
+}
