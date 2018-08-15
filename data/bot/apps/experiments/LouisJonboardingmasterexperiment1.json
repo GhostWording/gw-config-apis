@@ -2,6 +2,8 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
+          { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]},
+          { "order" : 6, "file": ["/data/bot/sequences/appspecials/museum/map/MapMeroeTest.json"]},
           { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/Reindeer.json"]},
           { "order" : 15, "file": ["/data/bot/sequences/appspecials/museum/Rosetta.json"]},
           { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/DavidVases.json"]},
