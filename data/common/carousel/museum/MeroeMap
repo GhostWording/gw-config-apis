@@ -1,0 +1,39 @@
+{
+    "Id": "MeroeMap",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Upper Floors",
+                "fr": "Upper Floors",
+                "es": "Upper Floors"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534326277/Map1.1_Turquoise.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Level 3",
+                "fr": "Level 3",
+                "es": "Level 3"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534326279/Map2.1.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Room 70",
+                "fr": "Room 70",
+                "es": "Room 70"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534326284/Map3.1.jpg"
+            }
+        }
+    ]
+}
