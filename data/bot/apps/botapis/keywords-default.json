@@ -203,6 +203,13 @@
         "fragment" : {
           "path" : "MapMeroeTest"
         }
+    },
+    {
+      "words" : ["mapexample", "Mapexample"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "CarouselFloors"
+        }
     }
   ]
 }
