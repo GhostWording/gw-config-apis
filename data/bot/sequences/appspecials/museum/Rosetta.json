@@ -5,7 +5,7 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "How many languages do you speak??",
+        "en": "How many languages do you speak?",
         "fr": "How many languages do you speak?",
         "es": "How many languages do you speak?"
       }
@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "Rosetta1one",
+      "Id": "RosettaOne",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "One",
@@ -37,7 +37,7 @@
     },
     {
       "Type": "Node",
-      "Id": "Rosetta1two",
+      "Id": "RosettaTwo",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Two",
@@ -48,9 +48,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "wow! Is Demotic Egyptian one of them?",
-            "fr": "wow! Is Demotic Egyptian one of them?",
-            "es": "wow! Is Demotic Egyptian one of them?"
+            "en": "Wow! Is Demotic Egyptian one of them?",
+            "fr": "Wow! Is Demotic Egyptian one of them?",
+            "es": "Wow! Is Demotic Egyptian one of them?"
           }
         }
       ],
@@ -60,7 +60,7 @@
     },
     {
       "Type": "Node",
-      "Id": "Rosetta1more",
+      "Id": "RosettaMore",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "More",
@@ -71,9 +71,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "wow! Is Demotic Egyptian one of them?",
-            "fr": "wow! Is Demotic Egyptian one of them?",
-            "es": "wow! Is Demotic Egyptian one of them?"
+            "en": "Wow! Is Demotic Egyptian one of them?",
+            "fr": "Wow! Is Demotic Egyptian one of them?",
+            "es": "Wow! Is Demotic Egyptian one of them?"
           }
         }
       ],
