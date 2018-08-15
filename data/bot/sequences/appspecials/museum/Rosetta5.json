@@ -1,107 +1,108 @@
 {
-  "Type": "Node",
-  "Id": "Rosetta5",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!",
-        "fr": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!",
-        "es": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!"
-      }
-    },
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Giphy",
-        "Path": "cYaAqRTlfYGg01VycP"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!",
-        "fr": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!",
-        "es": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Rosetta5keep",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Keep going!",
-        "fr": "Keep going!",
-        "es": "Keep going!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Rosetta5",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "The soldiers quickly notified their bosses, realising it was important!",
-            "fr": "The soldiers quickly notified their bosses, realising it was important!",
-            "es": "The soldiers quickly notified their bosses, realising it was important!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!",
+                "fr": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!",
+                "es": "In 1799, during Napoleon’s expedition to Egypt, some soldiers found the stone amongst some other rocks while fortifying their camp, based here!"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!",
-            "fr": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!",
-            "es": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!"
-          }
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "cYaAqRTlfYGg01VycP"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Battle_of_the_Nile.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments",
-            "fr": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments",
-            "es": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!",
+                "fr": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!",
+                "es": "Before that, we think it was used as a regular block in a Medieval Egyptian fort!"
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Rosetta5keepChoice",
-        "ElementValue": "1",
-        "Commands": [
-          {
+    ],
+    "Commands": [
+        {
             "Type": "Node",
-            "Id": "Rosetta4keepOfcourse",
+            "Id": "Rosetta5More",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Of course",
-              "fr": "Of course",
-              "es": "Of course"
+                "en": "Keep going!",
+                "fr": "Keep going!",
+                "es": "Keep going!"
             },
-            "LinksToFragment": {
-              "FragmentPath": "Rosetta6"
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The soldiers quickly notified their bosses, realising it was important!",
+                        "fr": "The soldiers quickly notified their bosses, realising it was important!",
+                        "es": "The soldiers quickly notified their bosses, realising it was important!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!",
+                        "fr": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!",
+                        "es": "While they were planning to move the stone to France, the French were defeated in battle by the British at Alexandria!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display":"FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Battle_of_the_Nile.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments",
+                        "fr": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments",
+                        "es": "But the French reaaaaally didn’t want to hand over all their precious artefacts, and there were many arguments"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Rosetta5MoreChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Rosetta4MoreCourse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course",
+                            "fr": "Of course",
+                            "es": "Of course"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Rosetta6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Rosetta4MoreTypical",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Typical French",
+                            "fr": "Typical French",
+                            "es": "Typical French"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Rosetta6"
+                        }
+                    }
+                ]
             }
-          },
-          {
-            "Type": "Node",
-            "Id": "Rosetta4keepfrench",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Typical French",
-              "fr": "Typical French",
-              "es": "Typical French"
-            },
-            "LinksToFragment": {
-              "FragmentPath": "Rosetta6"
-            }
-          }
-        ]
-      }
-    }
-  ]
+        }
+    ]
 }
