@@ -1,3 +1,4 @@
+
 {
     "Type": "Node",
     "Id": "Samurai3",
@@ -21,6 +22,7 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display":"FullScreenWidth",
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533650373/museum%20app/Full_armor_3_-_Copie.jpg"
             }
@@ -127,17 +129,9 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Right!",
-                                                "fr": "Right!",
-                                                "es": "Right!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Except the helmet weighed about 5kg…",
-                                                "fr": "Except the helmet weighed about 5kg…",
-                                                "es": "Except the helmet weighed about 5kg…"
+                                                "en": "Right! Except the helmet weighed about 5kg…",
+                                                "fr": "Right! Except the helmet weighed about 5kg…",
+                                                "es": "Right! Except the helmet weighed about 5kg…"
                                             }
                                         },
                                         {
