@@ -1,0 +1,136 @@
+{
+  "Type": "Node",
+  "Id": "CarouselAreas",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here is a closer view of your floor:",
+        "fr": "Here is a closer view of your floor:",
+        "es": "Here is a closer view of your floor:"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Upper_Floors.jpg"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "AreasCarousel",
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "In which area are you located?"
+          }
+        }
+      ],
+      "DisplayHint": "Carousel",
+      "Randomize": "true",
+      "Commands": [
+        {
+          "Type": "Node",
+          "Id": "CarouselArea1",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Area 1",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "1️⃣"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_1.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "CarouselExhibits"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "CarouselArea2",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Area 2",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "2️⃣"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_2.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "CarouselExhibits"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "CarouselArea3",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Area 3",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "3️⃣"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_3.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "CarouselExhibits"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "CarouselArea4",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Area 4",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "4️⃣"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329720/Museum%20Bot/Area_selected_floor_4.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "CarouselExhibits"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "CarouselArea5",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Area 5",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "5️⃣"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534329719/Museum%20Bot/Area_selected_floor_5.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "CarouselExhibits"
+          }
+        }
+      ]
+    }
+  ]
