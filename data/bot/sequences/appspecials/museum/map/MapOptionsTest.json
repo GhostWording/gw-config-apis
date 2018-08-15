@@ -1,0 +1,81 @@
+{
+  "Type": "Node",
+  "Id": "MapOptions",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "carousel of floors",
+        "fr": "carousel of floors",
+        "es": "carousel of floors"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromList",
+      "Parameters": {
+        "Path": "/data/common/carousel/museum/MuseumFloors.json"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "large view of selected floors",
+        "fr": "large view of selected floors",
+        "es": "large view of selected floors"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Upper_Floors.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "carousel of areas for selected floor",
+        "fr": "carousel of areas for selected floor",
+        "es": "carousel of areas for selected floor"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromList",
+      "Parameters": {
+        "Path": "data/common/carousel/museum/MuseumAreas.json"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "large view of selected area V1",
+        "fr": "large view of selected area V1",
+        "es": "large view of selected area V1"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534330093/Museum%20Bot/Large_Selected.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "large view of selected area V2",
+        "fr": "large view of selected area V2",
+        "es": "large view of selected area V2"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Map3.1.jpg"
+      }
+    }
+  ]
+}
