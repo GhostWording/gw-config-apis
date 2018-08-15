@@ -5,13 +5,7 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Here are the artworks that are quite close to you"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Here are the artworks that are actually close to you."
+        "en": "If you're in the British Museum already, here are the artworks that are quite close to you"
       }
     },
     {
@@ -24,7 +18,7 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Which one would you like to see?"
+        "en": "Would you like to see one of them?"
       }
     }
   ],
@@ -70,6 +64,14 @@
       ],
       "LinksToFragment": {
         "FragmentPath": "DavidVasesMap"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NearbyBeninMaskNoThanks",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No, thanks"
       }
     }
   ]
