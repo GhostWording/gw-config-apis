@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "Reindeer1Right",
+      "Id": "ReindeerRight",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Right",
@@ -37,7 +37,7 @@
     },
     {
       "Type": "Node",
-      "Id": "Reindeer1Maybe",
+      "Id": "ReindeerMaybe",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Maybe…",
