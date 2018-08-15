@@ -11,7 +11,8 @@
       "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_1Reduced.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "AgnesCup"
+    "SequenceId": "AgnesCup",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Amenhotep",
@@ -25,7 +26,8 @@
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Amenhotep"
+    "SequenceId": "Amenhotep",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "BerlinVolute",
@@ -39,7 +41,8 @@
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "BerlinVolute"
+    "SequenceId": "BerlinVolute",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Caryatids",
@@ -53,7 +56,8 @@
       "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690463/museum%20app/5_Caryatids.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Caryatids"
+    "SequenceId": "Caryatids",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Chessmen",
@@ -67,7 +71,8 @@
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120250/Beserker__Lewis_Chessmen__British_Museum.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Chessmen"
+    "SequenceId": "Chessmen",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "DavidVases",
@@ -81,7 +86,8 @@
       "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355131/AN00440946_001_l.jpg"
     },
     "Artist": "Unknown",
-    "SequenceId": "BestTestFragmentEver"
+    "SequenceId": "BestTestFragmentEver",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Exekias",
@@ -95,7 +101,8 @@
       "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Exekias"
+    "SequenceId": "Exekias",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "HolyThorn",
@@ -109,7 +116,8 @@
       "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354632/museum%20app/Holy_Thorn_Reliquary.jpg"
     },
     "Artist": "Unknown",
-    "SequenceId": "BestTestFragmentEver"
+    "SequenceId": "BestTestFragmentEver",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "LionHunt",
@@ -123,7 +131,8 @@
         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
       },
       "Artist" : "Unknown",
-      "SequenceId": "LionHunt"
+      "SequenceId": "LionHunt",
+      "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Mausoleum",
@@ -137,7 +146,8 @@
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Mausoleum"
+    "SequenceId": "Mausoleum",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Meroe",
@@ -151,7 +161,8 @@
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Meroe"
+    "SequenceId": "Meroe",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Nebamun",
@@ -165,7 +176,8 @@
       "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Nebamun"
+    "SequenceId": "Nebamun",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "ParthenonPediment",
@@ -179,7 +191,8 @@
       "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "BestTestFragmentEver"
+    "SequenceId": "BestTestFragmentEver",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "PortlandVase",
@@ -193,7 +206,8 @@
       "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532355065/AN00251730_001_l.jpg"
     },
     "Artist": "Unknown",
-    "SequenceId": "BestTestFragmentEver"
+    "SequenceId": "BestTestFragmentEver",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "Ramesses",
@@ -207,7 +221,8 @@
         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
       },
       "Artist" : "Unknown",
-      "SequenceId": "Ramesses"
+      "SequenceId": "Ramesses",
+      "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "RosettaStone",
@@ -221,7 +236,8 @@
       "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1532354684/AN00016456_004_l.jpg"
     },
     "Artist" : "Unknown",
-    "SequenceId": "Rosetta"
+    "SequenceId": "Rosetta",
+    "LocationSequenceId":"BritishMuseumMap"
   },
   {
     "Id": "UrStandard",
@@ -235,6 +251,7 @@
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
         },
       "Artist" : "Unknown",
-      "SequenceId": "UrStandard"
+      "SequenceId": "UrStandard",
+      "LocationSequenceId":"BritishMuseumMap"
   }
 ]
