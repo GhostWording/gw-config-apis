@@ -3,15 +3,10 @@
   "Id": "CarouselFloors",
   "Steps": [
     {
-      "Type": "Node",
-      "Id": "FloorsCarousel",
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "On which floor are you located?"
-          }
-        }
+      "Type": "Text",
+      "Label": {
+        "en": "On which floor are you located?"
+      }
       ],
       "DisplayHint": "Carousel",
       "Randomize": "true",
