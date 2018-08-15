@@ -225,7 +225,7 @@
       "LocationSequenceId":"BritishMuseumMap"
   },
   {
-    "Id": "RosettaStone",
+    "Id": "Rosetta",
     "Caption": {
       "en": "The Rosetta Stone",
       "fr": "The Rosetta Stone",
@@ -237,6 +237,96 @@
     },
     "Artist" : "Unknown",
     "SequenceId": "Rosetta",
+    "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "Reindeer",
+    "Caption": {
+      "en": "Ivory Reindeer",
+      "fr": "Ivory Reindeer",
+      "es": "Ivory Reindeer"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811231/museum%20app/Swimming_Reindeers.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Reindeer",
+    "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "SuttonHoo",
+    "Caption": {
+      "en": "The Sutton Hoo Helmet",
+      "fr": "The Sutton Hoo Helmet",
+      "es": "The Sutton Hoo Helmet"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_1.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "SuttonHoo",
+    "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "AztecSerpent",
+    "Caption": {
+      "en": "Aztec Mosaic Serpent",
+      "fr": "Aztec Mosaic Serpent",
+      "es": "Aztec Mosaic Serpent"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534323368/1serpent.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "AztecSerpent",
+    "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "BeninMask",
+    "Caption": {
+      "en": "Benin Ivory Mask",
+      "fr": "Benin Ivory Mask",
+      "es": "Benin Ivory Mask"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248289/Benin_Mask_0.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "BeninMask",
+    "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "Samurai",
+    "Caption": {
+      "en": "Samurai Armour",
+      "fr": "Samurai Armour",
+      "es": "Samurai Armour"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637166/museum%20app/Reusable_Full_Armor.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Samurai",
+    "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "Hoa",
+    "Caption": {
+      "en": "Hoa Hakananai'a",
+      "fr": "Hoa Hakananai'a",
+      "es": "Hoa Hakananai'a"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533631883/hoa_head.jpg"
+    },
+    "Artist" : "Unknown",
+    "SequenceId": "Hoa",
     "LocationSequenceId":"BritishMuseumMap"
   },
   {
