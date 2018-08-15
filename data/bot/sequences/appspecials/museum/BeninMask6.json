@@ -108,11 +108,11 @@
                                     "fr": "Come see the mask in the museum - it’s in room 25, also known as the Sainsbury Galleries, on floor -2!",
                                     "es": "Come see the mask in the museum - it’s in room 25, also known as the Sainsbury Galleries, on floor -2!"
                                 }
-                            },
-                            "LinksToFragment": {
-                                "FragmentPath": "SuttonHooMap"
-                              }
-                        ]
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SuttonHooMap"
+                          }
                     }
                 ]
             }
