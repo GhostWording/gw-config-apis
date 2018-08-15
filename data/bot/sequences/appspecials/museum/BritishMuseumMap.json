@@ -1,0 +1,41 @@
+{
+  "Type": "Node",
+  "Id": "BritishMuseumMap",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here, the user should see a map",
+        "fr": "Here, the user should see a map",
+        "es": "Here, the user should see a map"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://vignette.wikia.nocookie.net/doratheexplorer/images/4/45/Small_Map.png/revision/latest?cb=20160624031008"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "...",
+        "fr": "...",
+        "es": "..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BritishMuseumMapAwesome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Awesome",
+        "fr": "Awesome",
+        "es": "Awesome"
+      }
+    }
+  ]
+}
