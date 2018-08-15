@@ -5,9 +5,9 @@
       {
         "Type": "Text",
         "Label": {
-          "en": "How did you like this story ?",
-          "fr": "How did you like this story ?",
-          "es": "How did you like this story ?"
+          "en": "How did you like this joke ?",
+          "fr": "comment as-tu trouvé cette blague ?",
+          "es": "¿cómo conseguiste esa broma?"
         }
       }
     ],
@@ -38,9 +38,9 @@
         "Id": "FeedbackForSample1Bad",
         "ElementValue": "1",
         "CommandLabel": {
-          "en": "It was interesting",
-          "fr": "It was interesting",
-          "es": "It was interesting"
+          "en": "meh ...",
+          "fr": "meh ...",
+          "es": "meh ..."
         },
         "Steps": [
           {
