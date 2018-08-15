@@ -5,6 +5,7 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display":"FullScreenWidth",
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533569554/Holy_Thorn_pic1.jpg"
             }
@@ -62,9 +63,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I hope you can read Latin!",
-                        "fr": "I hope you can read Latin!",
-                        "es": "I hope you can read Latin!"
+                        "en": "It reads: 'this is a thorn from the crown of our lord Jesus Christ'",
+                        "fr": "It reads: 'this is a thorn from the crown of our lord Jesus Christ'",
+                        "es": "It reads: 'this is a thorn from the crown of our lord Jesus Christ'"
                     }
                 }
             ],
