@@ -1,85 +1,86 @@
 {
-  "Type": "Node",
-  "Id": "Samurai2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "As I’m sure you knew, it’s Samurai armour from the Middle Ages",
-        "fr": "As I’m sure you knew, it’s Samurai armour from the Middle Ages",
-        "es": "As I’m sure you knew, it’s Samurai armour from the Middle Ages"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "As you can see, the design is really fancy…",
-        "fr": "As you can see, the design is really fancy…",
-        "es": "As you can see, the design is really fancy…"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637167/museum%20app/Reusable_Detail.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "like something off a modern fashion runway!",
-        "fr": "like something off a modern fashion runway!",
-        "es": "like something off a modern fashion runway!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Samurai2Style",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "It’s my style",
-        "fr": "It’s my style",
-        "es": "It’s my style"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Samurai2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Right! I’m sure it would look great on you 😂",
-            "fr": "Right! I’m sure it would look great on you 😂",
-            "es": "Right! I’m sure it would look great on you 😂"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Samurai3"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Samurai2Fear",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "It looks strange",
-        "fr": "It looks strange",
-        "es": "It looks strange"
-      },
-      "Steps": [
+            "Type": "Text",
+            "Label": {
+                "en": "As I’m sure you knew, it’s Samurai armour from the Middle Ages",
+                "fr": "As I’m sure you knew, it’s Samurai armour from the Middle Ages",
+                "es": "As I’m sure you knew, it’s Samurai armour from the Middle Ages"
+            }
+        },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "That’s the idea!",
-            "fr": "That’s the idea!",
-            "es": "That’s the idea!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "As you can see, the design is really fancy…",
+                "fr": "As you can see, the design is really fancy…",
+                "es": "As you can see, the design is really fancy…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637167/museum%20app/Reusable_Detail.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "like something off a modern fashion runway!",
+                "fr": "like something off a modern fashion runway!",
+                "es": "like something off a modern fashion runway!"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Samurai3"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Samurai2Style",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It’s my style",
+                "fr": "It’s my style",
+                "es": "It’s my style"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! I’m sure it would look great on you 😂",
+                        "fr": "Right! I’m sure it would look great on you 😂",
+                        "es": "Right! I’m sure it would look great on you 😂"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Samurai3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Samurai2Fear",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It looks strange",
+                "fr": "It looks strange",
+                "es": "It looks strange"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That’s the idea!",
+                        "fr": "That’s the idea!",
+                        "es": "That’s the idea!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Samurai3"
+            }
+        }
+    ]
 }
