@@ -196,6 +196,13 @@
         "fragment" : {
           "path" : "Meroe"
         }
+    },
+    {
+      "words" : ["MapMeroeTest", "Mapmeroetest", "mapmeroetest"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "MapMeroeTest"
+        }
     }
   ]
 }
