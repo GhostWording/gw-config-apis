@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "FeedbackForSample1",
+    "Id": "MyCoffejokeFeedback",
     "Steps": [
       {
         "Type": "Text",
@@ -15,8 +15,7 @@
     "Commands": [
       {
         "Type": "Leaf",
-        "Id": "FeedbackForSample1Good",
-        "ElementValue": "1",
+        "Id": "MyCoffejokeFeedbackGood",
         "CommandLabel": {
           "en": "It was great !",
           "fr": "Super !",
@@ -27,16 +26,15 @@
             "Type": "Action",
             "Name": "Feedback",
             "Parameters": { 
-              "FeedbackValue" : "Good",
-              "SequenceId" : "SampleWithFeedback"
+              "SequenceId" : "MyCoffeJokeSequence",
+              "FeedbackValue" : "Good"
             }  
           }
         ]
       },
       {
         "Type": "Leaf",
-        "Id": "FeedbackForSample1Bad",
-        "ElementValue": "1",
+        "Id": "MyCoffejokeFeedbackBad",
         "CommandLabel": {
           "en": "meh ...",
           "fr": "meh ...",
@@ -47,8 +45,8 @@
             "Type": "Action",
             "Name": "Feedback",
             "Parameters": { 
-              "FeedbackValue" : "Bad",
-              "SequenceId" : "SampleWithFeedback"
+              "SequenceId" : "MyCoffeJokeSequence",
+              "FeedbackValue" : "Bad"
             }
           }
         ]
