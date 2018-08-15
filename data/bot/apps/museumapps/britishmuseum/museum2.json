@@ -7,9 +7,9 @@
   },
   "DefaultImage": {
     "Type": "Image",
-    "Path": "themes/emojiAstro/small/CapricornEmoji.jpg",
-    "LocationSequenceId":"BritishMuseumMap"
+    "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
   },
+  "LocationSequenceId":"BritishMuseumMap",
   "Artworks" : [
     {"Id": "AgnesCup"},
     {"Id": "Amenhotep"},
