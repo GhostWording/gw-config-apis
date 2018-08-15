@@ -1,85 +1,86 @@
 {
-  "Type": "Node",
-  "Id": "Rosetta2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Ancient Greek? Hieroglyphs?",
-        "fr": "Ancient Greek? Hieroglyphs?",
-        "es": "Ancient Greek? Hieroglyphs?"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "If so, you might have been useful in helping to decipher this!",
-        "fr": "If so, you might have been useful in helping to decipher this!",
-        "es": "If so, you might have been useful in helping to decipher this!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731011/museum%20app/Rosetta_Stone.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!",
-        "fr": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!",
-        "es": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Rosetta2love",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "I love tax decrees",
-        "fr": "I love tax decrees",
-        "es": "I love tax decrees"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Rosetta2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!",
-            "fr": "wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!",
-            "es": "wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta3"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Rosetta2aboutit",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Tell me about it!",
-        "fr": "Tell me about it!",
-        "es": "Tell me about it!"
-      },
-      "Steps": [
+            "Type": "Text",
+            "Label": {
+                "en": "Ancient Greek? Hieroglyphs?",
+                "fr": "Ancient Greek? Hieroglyphs?",
+                "es": "Ancient Greek? Hieroglyphs?"
+            }
+        },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "The stone was one of many created by King Ptolemy V of Egypt!",
-            "fr": "The stone was one of many created by King Ptolemy V of Egypt!",
-            "es": "The stone was one of many created by King Ptolemy V of Egypt!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "If so, you might have been useful in helping to decipher this!",
+                "fr": "If so, you might have been useful in helping to decipher this!",
+                "es": "If so, you might have been useful in helping to decipher this!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731011/museum%20app/Rosetta_Stone.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!",
+                "fr": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!",
+                "es": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta3"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Rosetta2Love",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I love tax decrees",
+                "fr": "I love tax decrees",
+                "es": "I love tax decrees"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!",
+                        "fr": "Wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!",
+                        "es": "Wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Rosetta2AboutIt",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me about it!",
+                "fr": "Tell me about it!",
+                "es": "Tell me about it!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The stone was one of many created by King Ptolemy V of Egypt!",
+                        "fr": "The stone was one of many created by King Ptolemy V of Egypt!",
+                        "es": "The stone was one of many created by King Ptolemy V of Egypt!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta3"
+            }
+        }
+    ]
 }
