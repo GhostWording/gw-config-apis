@@ -1,0 +1,32 @@
+{
+  "Id": "MuseumFloors",
+  "Elements": [
+    {
+      "Title": {
+        "en": "Lower Floor"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Lower_Floor.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "Ground Floor"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Ground_Floor.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "UpperFloor"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Upper_Floors.jpg"
+      }
+    }
+  ]
+}
