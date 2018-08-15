@@ -7,71 +7,71 @@
       "Label": {
         "en": "On which floor are you located?"
       }
-      ],
-      "DisplayHint": "Carousel",
-      "Randomize": "true",
-      "Commands": [
-        {
-          "Type": "Node",
-          "Id": "CarouselFloors1",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Lower Floor",
-          },
-          "CarouselElements": {
-            "Title": {
-              "en": "1️⃣"
-            },
-            "Picture": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Lower_Floor.jpg"
-            }
-          },
-          "LinksToFragment": {
-            "FragmentPath": "CarouselAreas"
-          }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "CarouselFloors1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Lower Floor",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "1️⃣"
         },
-        {
-          "Type": "Node",
-          "Id": "CarouselFloors2",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Ground Floor",
-          },
-          "CarouselElements": {
-            "Title": {
-              "en": "2️⃣"
-            },
-            "Picture": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Ground_Floor.jpg"
-            }
-          },
-          "LinksToFragment": {
-            "FragmentPath": "CarouselAreas"
-          }
-        },
-        {
-          "Type": "Node",
-          "Id": "CarouselFloors3",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Upper Floor",
-          },
-          "CarouselElements": {
-            "Title": {
-              "en": "3️⃣"
-            },
-            "Picture": {
-              "Source": "Web",
-              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Upper_Floors.jpg"
-            }
-          },
-          "LinksToFragment": {
-            "FragmentPath": "CarouselAreas"
-          }
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Lower_Floor.jpg"
         }
-      ]
+      },
+      "LinksToFragment": {
+        "FragmentPath": "CarouselAreas"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "CarouselFloors2",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Ground Floor",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "2️⃣"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Ground_Floor.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "CarouselAreas"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "CarouselFloors3",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Upper Floor",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "3️⃣"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534327609/Museum%20Bot/Upper_Floors.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "CarouselAreas"
+      }
     }
   ]
 }
+
