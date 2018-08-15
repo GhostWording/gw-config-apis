@@ -6,7 +6,7 @@
       "Type": "Image",
       "Parameters": {
         "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Coin_of_Ptolemy_V.jpg"
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534331173/PtolemyV.jpg"
       }
     },
     {
@@ -29,7 +29,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "Rosetta3weird",
+      "Id": "Rosetta3Weird",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "That’s weird",
@@ -40,9 +40,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "yeah… Anyway...",
-            "fr": "yeah… Anyway...",
-            "es": "yeah… Anyway..."
+            "en": "Yeah... anyway...",
+            "fr": "Yeah... anyway...",
+            "es": "Yeah... anyway..."
           }
         }
       ],
@@ -52,7 +52,7 @@
     },
     {
       "Type": "Node",
-      "Id": "Rosetta3then",
+      "Id": "Rosetta3Then",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Then what?!",
