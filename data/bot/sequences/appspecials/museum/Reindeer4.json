@@ -5,6 +5,7 @@
     {
       "Type": "Image",
       "Parameters": {
+        "Display":"FullScreenWidth",
         "Source": "Web",
         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811231/museum%20app/Swimming_Reindeers.jpg"
       }
