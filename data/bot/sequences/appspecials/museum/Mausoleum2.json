@@ -13,8 +13,8 @@
             "Type": "Text",
             "Label": {
                 "en": "The two statues above are from the very top of the monument, and are believed to be Mausolus and Artemisia themselves!",
-                "fr": "The two statues above are from the very top of the monument, and are believed to be Mausolus and Artemisia themselves!",
-                "es": "The two statues above are from the very top of the monument, and are believed to be Mausolus and Artemisia themselves!"
+                "fr": "Les deux statues ci-dessus viennent du haut du monument, et sont censées représenter Mausolus et Artemisia eux-mêmes!",
+                "es": "Las dos estatuas más arriba vienen de la parte superior del monumento, ¡y se supone que representan Mausolo y Artemisia mismos!"
             }
         }
     ],
@@ -25,32 +25,32 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me more!",
-                "fr": "C'est un génie",
-                "es": "Es un genio"
+                "fr": "Dis m'en plus !",
+                "es": "¡Dime más!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Mausolus was a governor of a small region in the Persian Empire in the 4th Century BC",
-                        "fr": "Mausolus was a governor of a small region in the Persian Empire in the 4th Century BC",
-                        "es": "Mausolus was a governor of a small region in the Persian Empire in the 4th Century BC"
+                        "fr": "Mausole était gouverneur d'une petite région de l'Empire Perse au IVe sièle avant JC",
+                        "es": "Mausolo fue gobernador de una pequeña región del Imperio Persa en el siglo IV aC"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Before he died, he was determined to make a name for himself and cement his legacy",
-                        "fr": "Before he died, he was determined to make a name for himself and cement his legacy",
-                        "es": "Before he died, he was determined to make a name for himself and cement his legacy"
+                        "fr": "Avant de mourir, il était déterminé à se faire un nom et à consolider son héritage",
+                        "es": "Antes de morir, estaba decidido a hacerse un nombre y consolidar su herencia"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "So how better to do that than build one of the biggest and most extravagant monuments the world had ever seen?",
-                        "fr": "So how better to do that than build one of the biggest and most extravagant monuments the world had ever seen?",
-                        "es": "So how better to do that than build one of the biggest and most extravagant monuments the world had ever seen?"
+                        "fr": "Alors, quoi de mieux que de construire l'un des monuments les plus grands et extravagants que le monde ait jamais vu ?",
+                        "es": "Entonces, ¿qué mejor manera de hacerlo que construir uno de los monumentos más grandes y extravagantes que el mundo haya visto jamás?"
                     }
                 },
                 {
@@ -73,16 +73,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Of course",
-                            "fr": "Of course",
-                            "es": "Of course"
+                            "fr": "Bien sûr",
+                            "es": "Por supuesto"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It's located here (or what's left of it!)",
-                                    "fr": "It's located here (or what's left of it!)",
-                                    "es": "It's located here (or what's left of it!)"
+                                    "fr": "Il est situé ici (ou ce qu'il en reste !)",
+                                    "es": "Está ubicado aquí (¡o lo que queda de él!)"
                                 }
                             },
                             {
@@ -96,16 +96,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But although he was from this area, he knew Greeks were the best at sculpture and architecture",
-                                    "fr": "But although he was from this area, he knew Greeks were the best at sculpture and architecture",
-                                    "es": "But although he was from this area, he knew Greeks were the best at sculpture and architecture"
+                                    "fr": "Mais même s'il était originaire de cette région, il savait que les Grecs étaient les meilleurs en matière de sculpture et d'architecture.",
+                                    "es": "Pero aunque venía de esta área, sabía que los griegos eran los mejores en escultura y arquitectura"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "So he hired four famous sculptors to do one side each of the monument!",
-                                    "fr": "So he hired four famous sculptors to do one side each of the monument!",
-                                    "es": "So he hired four famous sculptors to do one side each of the monument!"
+                                    "fr": "Il a donc embauché quatre sculpteurs célèbres pour faire chacun un côté du monument !",
+                                    "es": "¡Así que contrató a cuatro escultores famosos para que cada uno hiciera un lado del monumento!"
                                 }
                             }
                         ],
@@ -120,24 +120,24 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Smart plan",
-                                        "fr": "Smart plan",
-                                        "es": "Smart plan"
+                                        "fr": "Bonne idée",
+                                        "es": "Buena idea"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Right! And it paid off too... it was famous even in ancient times!",
-                                                "fr": "Right! And it paid off too... it was famous even in ancient times!",
-                                                "es": "Right! And it paid off too... it was famous even in ancient times!"
+                                                "fr": "En effet ! Et son plan a payé... c'était célèbre même à cette époque !",
+                                                "es": "¡En efecto! Y valió la pena... ¡era famoso incluso en esa época!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Many authors, such as Pliny the Elder, wrote about it, and it was included in the Seven Ancient Wonders of the World",
-                                                "fr": "Many authors, such as Pliny the Elder, wrote about it, and it was included in the Seven Ancient Wonders of the World",
-                                                "es": "Many authors, such as Pliny the Elder, wrote about it, and it was included in the Seven Ancient Wonders of the World"
+                                                "fr": "Beaucoup d'auteurs, tels que Pline l'Ancien, ont écrit à ce sujet, et il est considéré comme l'une des Sept Merveilles du Monde Antique",
+                                                "es": "Muchos autores, como Plinio el Viejo, escribieron al respecto, y fue incluido en las Siete Maravillas del Mundo Antiguo"
                                             }
                                         },
                                         {
@@ -152,8 +152,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In other words, the ancients found it just as awesome as we do now!",
-                                                "fr": "In other words, the ancients found it just as awesome as we do now!",
-                                                "es": "In other words, the ancients found it just as awesome as we do now!"
+                                                "fr": "En d'autres termes, les anciens le trouvaient tout aussi génial que nous aujourd'hui !",
+                                                "es": "¡En otras palabras, los antiguos lo encontraban tan impresionante como nosotros hoy!"
                                             }
                                         }
                                     ],
@@ -167,17 +167,17 @@
                                                 "Id": "Mausoleum2MoreMoreSmartMore",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "Tell me more",
-                                                    "fr": "Tell me more",
-                                                    "es": "Tell me more"
+                                                    "en": "Tell me more!",
+                                                    "fr": "Dis m'en plus !",
+                                                    "es": "¡Dime más!"
                                                 },
                                                 "Steps": [
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "So the art... each side displays a classic battle scene... the best surviving is the Amazonomachy!",
-                                                            "fr": "So the art... each side displays a classic battle scene... the best surviving is the Amazonomachy!",
-                                                            "es": "So the art... each side displays a classic battle scene... the best surviving is the Amazonomachy!"
+                                                            "fr": "Donc, à propos de l'art... chaque côté représente une scène de bataille classique ... le mieux conservé est l'Amazonomachie !",
+                                                            "es": "Entonces, sobre el arte ... cada lado representa una escena de batalla clásica ... ¡el mejor sobreviviente es la Amazonomaquia!"
                                                         }
                                                     },
                                                     {
@@ -192,8 +192,8 @@
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "Lots of this is currently in the British Museum, and it is exquisite!",
-                                                            "fr": "Lots of this is currently in the British Museum, and it is exquisite!",
-                                                            "es": "Lots of this is currently in the British Museum, and it is exquisite!"
+                                                            "fr": "Beaucoup de ces sculptures sont actuellement au British Museum, et c'est magnifique !",
+                                                            "es": "Mucho de esto se encuentra actualmente en el British Museum, y ¡es exquisito!"
                                                         }
                                                     }
                                                 ],
@@ -208,24 +208,24 @@
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Tell me about it!",
-                                                                "fr": "Tell me about it!",
-                                                                "es": "Tell me about it!"
+                                                                "fr": "Dis m'en plus !",
+                                                                "es": "¡Dime más!"
                                                             },
                                                             "Steps": [
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "The sculptors really went all out... every figure is contorted, twisted and stretched",
-                                                                        "fr": "The sculptors really went all out... every figure is contorted, twisted and stretched",
-                                                                        "es": "The sculptors really went all out... every figure is contorted, twisted and stretched"
+                                                                        "fr": "Les sculpteurs se sont vraiment surpassés... chaque personnage est contorsionné, tordu et étiré dans tous les sens",
+                                                                        "es": "Los escultores lo dio todo... cada figura está contorsionada, retorcida y estirada en todos los sentidos"
                                                                     }
                                                                 },
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "They're in the most dramatic poses possible... showing intense emotion and agony",
-                                                                        "fr": "They're in the most dramatic poses possible... showing intense emotion and agony",
-                                                                        "es": "They're in the most dramatic poses possible... showing intense emotion and agony"
+                                                                        "fr": "Ils se trouvent dans des poses des plus dramatiques... montrant une émotion et une agonie intenses",
+                                                                        "es": "Están en los posados más dramáticos posibles... mostrando una emoción y una agonía intensas"
                                                                     }
                                                                 },
                                                                 {
@@ -233,7 +233,7 @@
                                                                     "Parameters": {
                                                                         "Display": "FullScreenWidth",
                                                                         "Source": "Web",
-                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533305445/AmazonomachyPoses.jpg"
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661363/AmazonomachyPoses.jpg"
                                                                     }
                                                                 }
                                                             ],
@@ -248,16 +248,16 @@
                                                                         "ElementValue": "1",
                                                                         "CommandLabel": {
                                                                             "en": "Tell me about it!",
-                                                                            "fr": "Tell me about it!",
-                                                                            "es": "Tell me about it!"
+                                                                            "fr": "Dis m'en plus !",
+                                                                            "es": "¡Dime más!"
                                                                         },
                                                                         "Steps": [
                                                                             {
                                                                                 "Type": "Text",
                                                                                 "Label": {
                                                                                     "en": "It might remind you of baroque art from the 1600s, such as this sculpture by Bernini...",
-                                                                                    "fr": "It might remind you of baroque art from the 1600s, such as this sculpture by Bernini...",
-                                                                                    "es": "It might remind you of baroque art from the 1600s, such as this sculpture by Bernini..."
+                                                                                    "fr": "Cela pourrait rappeler l'art baroque des années 1600, comme cette sculpture du Bernin...",
+                                                                                    "es": "Esto podría recordar el arte barroco del siglo XVII, como la escultura de Bernini..."
                                                                                 }
                                                                             },
                                                                             {
@@ -272,8 +272,8 @@
                                                                                 "Type": "Text",
                                                                                 "Label": {
                                                                                     "en": "I can't say everything about it here... you can find it displayed in room 21!",
-                                                                                    "fr": "I can't say everything about it here... you can find it displayed in room 21!",
-                                                                                    "es": "I can't say everything about it here... you can find it displayed in room 21!"
+                                                                                    "fr": "Je ne peux pas tout dire ici... vous pouvez le trouver dans la salle 21!",
+                                                                                    "es": "No puedo decir todo sobre esto aquí... ¡lo puedes encontrar en la sala 21!"
                                                                                 }
                                                                             },
                                                                             {
@@ -291,16 +291,16 @@
                                                                         "ElementValue": "1",
                                                                         "CommandLabel": {
                                                                             "en": "That's enough",
-                                                                            "fr": "That's enough",
-                                                                            "es": "That's enough"
+                                                                            "fr": "J'en sais assez",
+                                                                            "es": "Es suficiente"
                                                                         },
                                                                         "Steps": [
                                                                             {
                                                                                 "Type": "Text",
                                                                                 "Label": {
                                                                                     "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                                                                                    "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                                                                                    "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                                                                                    "fr": "D'accord 😄 n'oublie pas d'aller y jeter un oeil dans la salle 21 du British Museum !",
+                                                                                    "es": "De acuerdo 😄 ¡no olvides mirarlo en la sala 21 del British Museum!"
                                                                                 }
                                                                             },
                                                                             {
@@ -321,16 +321,16 @@
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "That's enough",
-                                                                "fr": "That's enough",
-                                                                "es": "That's enough"
+                                                                "fr": "J'en sais assez",
+                                                                "es": "Es suficiente"
                                                             },
                                                             "Steps": [
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                                                                        "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                                                                        "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                                                                        "fr": "D'accord 😄 n'oublie pas d'aller y jeter un oeil dans la salle 21 du British Museum !",
+                                                                        "es": "De acuerdo 😄 ¡no olvides mirarlo en la sala 21 del British Museum!"
                                                                     }
                                                                 },
                                                                 {
@@ -351,16 +351,16 @@
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "That's enough",
-                                                    "fr": "That's enough",
-                                                    "es": "That's enough"
+                                                    "fr": "J'en sais assez",
+                                                    "es": "Es suficiente"
                                                 },
                                                 "Steps": [
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                                                            "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                                                            "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                                                            "fr": "D'accord 😄 n'oublie pas d'aller y jeter un oeil dans la salle 21 du British Museum !",
+                                                            "es": "De acuerdo 😄 ¡no olvides mirarlo en la sala 21 del British Museum!"
                                                         }
                                                     },
                                                     {
@@ -387,16 +387,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That's enough",
-                "fr": "That's enough",
-                "es": "That's enough"
+                "fr": "J'en sais assez",
+                "es": "Es suficiente"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                        "fr": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
-                        "es": "Alright 😄 be sure to check it out in room 21 in the British Museum!"
+                        "fr": "D'accord 😄 n'oublie pas d'aller y jeter un oeil dans la salle 21 du British Museum !",
+                        "es": "De acuerdo 😄 ¡no olvides mirarlo en la sala 21 del British Museum!"
                     }
                 },
                 {
