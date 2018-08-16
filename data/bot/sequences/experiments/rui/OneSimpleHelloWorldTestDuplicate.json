@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "OneSimpleHelloWorld",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello World! sorry, this is the only thing I can say :) ",
+        "fr": "Bonjour le monde! désolé je ne sais dire que ça pour l'instant"
+      }
+    }
+  ]
+}
