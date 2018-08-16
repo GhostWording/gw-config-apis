@@ -1,0 +1,128 @@
+{
+    "Type": "Node",
+    "Id": "MapMeroeTestOwl",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Meroe Head: Upper Floors, Level 3, Room 70",
+                "fr": "Meroe Head: Upper Floors, Level 3, Room 70",
+                "es": "Meroe Head: Upper Floors, Level 3, Room 70"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Single Image Owl 1",
+                "fr": "Single Image Owl 1",
+                "es": "Single Image Owl 1"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534430378/MapLevel3Owl.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MapMeroeTestNextOwl",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Next",
+                "fr": "Next",
+                "es": "Next"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Single Image Owl 2",
+                        "fr": "Single Image Owl 2",
+                        "es": "Single Image Owl 2"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534430378/MapLevel3Owl.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MapMeroeTestOwlNextChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MapMeroeTestOwlNextNext",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Next",
+                            "fr": "Next",
+                            "es": "Next"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "GIF Owl 1",
+                                    "fr": "GIF Owl 1",
+                                    "es": "GIF Owl 1"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "65Lrsb4Kf6qDw5kukW"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "MapMeroeTestOwlNextNextChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "MapMeroeTestOwlNextNextNext",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Next",
+                                        "fr": "Next",
+                                        "es": "Next"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "GIF Owl 2",
+                                                "fr": "GIF Owl 2",
+                                                "es": "GIF Owl 2"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "MuAgVSynldGUaQznaG"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
