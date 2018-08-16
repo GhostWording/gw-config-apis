@@ -3,6 +3,7 @@
     "GroupName":"Test",
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/MyCoffeJokeSequence.json"]}
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorldTestDuplicate.json"]}
     ]
   }
 ]
