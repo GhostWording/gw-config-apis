@@ -81,6 +81,7 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
+                                    "Display": "FullScreenWidth",
                                     "Source": "Giphy",
                                     "Path": "65Lrsb4Kf6qDw5kukW"
                                 }
@@ -112,6 +113,7 @@
                                         {
                                             "Type": "AnimatedGif",
                                             "Parameters": {
+                                                "Display": "FullScreenWidth",
                                                 "Source": "Giphy",
                                                 "Path": "MuAgVSynldGUaQznaG"
                                             }
