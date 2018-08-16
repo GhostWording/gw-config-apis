@@ -6,15 +6,15 @@
             "Type": "Text",
             "Label": {
                 "en": "What would you call this?",
-                "fr": "What would you call this?",
-                "es": "What would you call this?"
+                "fr": "Comment appellerais-tu cela ?",
+                "es": "¿Cómo llamarías eso?"
             }
         },
         {
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533305323/mausoleum_drawing.jpg"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660241/mausoleum_drawing.jpg"
             }
         }
     ],
@@ -25,24 +25,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "A mausoleum",
-                "fr": "A mausoleum",
-                "es": "A mausoleum"
+                "fr": "Un mausolée",
+                "es": "Un mausoleo"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Correct! 😃",
-                        "fr": "Correct! 😃",
-                        "es": "Correct! 😃"
+                        "fr": "Correct ! 😃",
+                        "es": "¡Correcto! 😃"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "But did you know where the word originates from?",
-                        "fr": "But did you know where the word originates from?",
-                        "es": "But did you know where the word originates from?"
+                        "fr": "Mais sais-tu d'où vient ce mot ?",
+                        "es": "¿Pero sabes de dónde viene esta palabra?"
                     }
                 }
             ],
@@ -57,7 +57,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No"
                         },
                         "Steps": [
@@ -65,16 +65,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "From Mausolus himself!",
-                                    "fr": "From Mausolus himself!",
-                                    "es": "From Mausolus himself!"
+                                    "fr": "De Mausole lui-même !",
+                                    "es": "¡Del mismo Mausolo!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "es": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                    "fr": "Il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
+                                    "es": "Encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
                                 }
                             },
                             {
@@ -95,24 +95,24 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yes",
-                            "fr": "Yes",
-                            "es": "Yes"
+                            "fr": "Oui",
+                            "es": "Sí"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right... from Mausolus himself!",
-                                    "fr": "Right... from Mausolus himself!",
-                                    "es": "Right... from Mausolus himself!"
+                                    "fr": "Bien sûr... de Mausole lui-même !",
+                                    "es": "Por supuesto... ¡del mismo Mausolo!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "es": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                    "fr": "Comme tu le sais sûrement, il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
+                                    "es": "Como seguramente sabes, encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
                                 }
                             },
                             {
@@ -136,24 +136,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "A bicycle",
-                "fr": "A bicycle",
-                "es": "A bicycle"
+                "fr": "Un vélo",
+                "es": "Una bicicleta"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Hmm 🤨 not quite! It's a mausoleum!",
-                        "fr": "Hmm 🤨 not quite! It's a mausoleum!",
-                        "es": "Hmm 🤨 not quite! It's a mausoleum!"
+                        "fr": "Hmm 🤨 pas vraiment! C'est un mausolée!",
+                        "es": "Hmm 🤨 ¡no exactamente! Es un mausoleo!"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "But did you know where the word originates from?",
-                        "fr": "But did you know where the word originates from?",
-                        "es": "But did you know where the word originates from?"
+                        "fr": "Mais sais-tu d'où vient ce mot ?",
+                        "es": "¿Pero sabes de dónde viene esta palabra?"
                     }
                 }
             ],
@@ -168,7 +168,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No"
                         },
                         "Steps": [
@@ -176,16 +176,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "From Mausolus himself!",
-                                    "fr": "From Mausolus himself!",
-                                    "es": "From Mausolus himself!"
+                                    "fr": "De Mausole lui-même !",
+                                    "es": "¡Del mismo Mausolo!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "es": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                    "fr": "Il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
+                                    "es": "Encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
                                 }
                             },
                             {
@@ -206,24 +206,24 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yes",
-                            "fr": "Yes",
-                            "es": "Yes"
+                            "fr": "Oui",
+                            "es": "Sí"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right... from Mausolus himself!",
-                                    "fr": "Right... from Mausolus himself!",
-                                    "es": "Right... from Mausolus himself!"
+                                    "fr": "Bien sûr... de Mausole lui-même !",
+                                    "es": "Por supuesto... ¡del mismo Mausolo!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "es": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                    "fr": "Comme tu le sais sûrement, il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
+                                    "es": "Como seguramente sabes, encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
                                 }
                             },
                             {
@@ -247,24 +247,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "A salad",
-                "fr": "A salad",
-                "es": "A salad"
+                "fr": "Une salade",
+                "es": "Una ensalada"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Hmm 🤨 not quite! It's a mausoleum!",
-                        "fr": "Hmm 🤨 not quite! It's a mausoleum!",
-                        "es": "Hmm 🤨 not quite! It's a mausoleum!"
+                        "fr": "Hmm 🤨 pas vraiment! C'est un mausolée!",
+                        "es": "Hmm 🤨 ¡no exactamente! Es un mausoleo!"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "But did you know where the word originates from?",
-                        "fr": "But did you know where the word originates from?",
-                        "es": "But did you know where the word originates from?"
+                        "fr": "Mais sais-tu d'où vient ce mot ?",
+                        "es": "¿Pero sabes de dónde viene esta palabra?"
                     }
                 }
             ],
@@ -279,7 +279,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No"
                         },
                         "Steps": [
@@ -287,16 +287,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "From Mausolus himself!",
-                                    "fr": "From Mausolus himself!",
-                                    "es": "From Mausolus himself!"
+                                    "fr": "De Mausole lui-même !",
+                                    "es": "¡Del mismo Mausolo!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "es": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                    "fr": "Il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
+                                    "es": "Encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
                                 }
                             },
                             {
@@ -317,24 +317,24 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yes",
-                            "fr": "Yes",
-                            "es": "Yes"
+                            "fr": "Oui",
+                            "es": "Sí"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right... from Mausolus himself!",
-                                    "fr": "Right... from Mausolus himself!",
-                                    "es": "Right... from Mausolus himself!"
+                                    "fr": "Bien sûr... de Mausole lui-même !",
+                                    "es": "Por supuesto... ¡del mismo Mausolo!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "es": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia"
+                                    "fr": "Comme tu le sais sûrement, il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
+                                    "es": "Como seguramente sabes, encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
                                 }
                             },
                             {
