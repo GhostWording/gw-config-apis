@@ -2,7 +2,6 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/ShowCarouselFromIntention.json"]},
             { "order" : 2, "file": ["/data/bot/sequences/experiments/Billy2/SignLanguageTest.json"]},
             { "order" : 14, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
             { "order" : 12, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]},
