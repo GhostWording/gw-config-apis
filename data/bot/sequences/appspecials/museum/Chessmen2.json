@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Their designs are so funny 😂",
-                "fr": "Their designs are so funny 😂",
+                "fr": "Leurs têtes sont tellement drôles 😂",
                 "es": "Their designs are so funny 😂"
             }
         }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Show me!",
-                "fr": "Show me!",
+                "fr": "Montre moi !",
                 "es": "Show me!"
             },
             "Steps": [
@@ -34,7 +34,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "These guys are fearsome berserkers, biting their shields to scare the enemy!",
-                        "fr": "These guys are fearsome berserkers, biting their shields to scare the enemy!",
+                        "fr": "Ceux-là sont des guerriers berserks redoutables, mordant leurs boucliers pour effrayer leur ennemi !",
                         "es": "These guys are fearsome berserkers, biting their shields to scare the enemy!"
                     }
                 },
@@ -49,7 +49,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Would you like to fight them?",
-                        "fr": "Would you like to fight them?",
+                        "fr": "Est-ce que tu aimerais les affronter ?",
                         "es": "Would you like to fight them?"
                     }
                 }
@@ -65,7 +65,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yes",
-                            "fr": "Yes",
+                            "fr": "Oui",
                             "es": "Yes"
                         },
                         "Steps": [
@@ -73,7 +73,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I wish I was so brave",
-                                    "fr": "I wish I was so brave",
+                                    "fr": "J'aimerais être aussi courageux",
                                     "es": "I wish I was so brave"
                                 }
                             }
@@ -88,7 +88,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No"
                         },
                         "Steps": [
@@ -96,7 +96,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "A good choice!",
-                                    "fr": "A good choice!",
+                                    "fr": "Bon choix !",
                                     "es": "A good choice!"
                                 }
                             }
@@ -114,7 +114,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That’s enough",
-                "fr": "That’s enough",
+                "fr": "J'en sais assez",
                 "es": "That’s enough"
             }
         }
