@@ -9,19 +9,13 @@
       }
     },
     {
-      "Type": "Action",
-      "Name": "ShowCarouselFromList",
-      "Parameters": {
-        "Path": "/data/common/carousel/museum/nearby/NearbyBeninMask.json"
-      }
-    },
-    {
       "Type": "Text",
       "Label": {
         "en": "Would you like to see one of them?"
       }
     }
   ],
+  "DisplayHint": "Carousel",
   "Commands": [
     {
       "Type": "Node",
@@ -30,6 +24,15 @@
       "CommandLabel": {
         "en": "Sutton Hoo"
       },
+      "CarouselElements": {
+          "Title": {
+            "en": "🎭"
+          },
+          "Picture": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_1.jpg"
+          }
+        },
       "Steps": [
         {
           "Type": "Text",
@@ -51,6 +54,15 @@
       "CommandLabel": {
         "en": "David Vases"
       },
+      "CarouselElements": {
+        "Title": {
+          "en": "🏺"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533738455/1david_vases.jpg"
+        }
+      },
       "Steps": [
         {
           "Type": "Text",
@@ -63,14 +75,6 @@
       ],
       "LinksToFragment": {
         "FragmentPath": "DavidVasesMap"
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "NearbyBeninMaskNoThanks",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "No, thanks"
       }
     }
   ]
