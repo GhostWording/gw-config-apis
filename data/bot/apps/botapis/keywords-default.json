@@ -210,6 +210,13 @@
         "fragment" : {
           "path" : "CarouselFloors"
         }
+    },
+    {
+      "words" : ["redirecttest", "RedirectTest", "redirectTest"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "RedirectToGalleryOrPeriodTest"
+        }
     }
   ]
 }
