@@ -1,0 +1,89 @@
+{
+    "Type": "Node",
+    "Id": "MonaTheft",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There are many reasons why the Mona Lisa is so famous…",
+                "fr": "De nombreuses raisons expliquent que la Joconde soit si connue…",
+                "es": "There are many reasons why the Mona Lisa is so famous…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But one main reason is its theft in 1911!",
+                "fr": "Mais l'une des principales est son vol en 1911 !",
+                "es": "But one main reason is its theft in 1911!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It brought the painting worldwide fame...",
+                "fr": "Cela a donné sa renommée mondiale à la peinture...",
+                "es": "It brought the painting worldwide fame..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaTheftTell",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me about it!",
+                "fr": "Dis moi tout !",
+                "es": "Tell me about it!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The painting had hung in the museum for over 100 years, but on the morning of August 21st, 1911, it had vanished!",
+                        "fr": "La peinture était exposée dans le musée depuis plus de 100 ans, mais au matin du 21 août 1911, elle avait disparue !",
+                        "es": "The painting had hung in the museum for over 100 years, but on the morning of August 21st, 1911, it had vanished!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534415026/mona_lisa_stolen.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaTheftTellNextOrNo",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaTheftTellNext",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What next?",
+                            "fr": "Et ensuite ?",
+                            "es": "What next?"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaTheft2"
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "MonaTheftTellNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not interested",
+                            "fr": "Pas intéressé(e)",
+                            "es": "Not interested"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
