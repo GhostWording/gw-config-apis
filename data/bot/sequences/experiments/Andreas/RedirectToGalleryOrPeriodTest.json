@@ -35,7 +35,7 @@
         ]
       },
       {
-        "Type": "Node",
+        "Type": "Leaf",
         "Id": "RedirectToPeriods",
         "ElementValue": "1",
         "CommandLabel": {
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "Type": "Node",
+        "Type": "Leaf",
         "Id": "RedirectToSpecificPeriod",
         "ElementValue": "1",
         "CommandLabel": {
