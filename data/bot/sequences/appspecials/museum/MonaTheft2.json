@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "MonaTheft2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The world was astonished! The news reached papers everywhere!",
+                "fr": "Le monde n'en revenait pas ! La nouvelle a paru dans les journaux du monde entier !",
+                "es": "The world was astonished! The news reached papers everywhere!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534415329/Mona_lisa_newspaper_theft.jpg"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534415969/mona_lisa_newspaper_nyt.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The authorities were at a loss, even accusing Pablo Picasso of stealing it!",
+                "fr": "Les autorités rencontraient des difficultés, accusant même Pablo Picasso de l'avoir volée",
+                "es": "The authorities were at a loss, even accusing Pablo Picasso of stealing it!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaTheft2Maybe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Maybe he did!",
+                "fr": "C'était peut-être lui !",
+                "es": "Maybe he did!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheft3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaTheft2Dear",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh dear",
+                "fr": "Oh là là",
+                "es": "Oh dear"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheft3"
+            }
+        }
+    ]
+}
