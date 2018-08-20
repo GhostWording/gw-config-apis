@@ -1,0 +1,85 @@
+
+{
+    "Type": "Node",
+    "Id": "RedirectToGalleryOrPeriodTest",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Would you like to be redirected to the Gallery or the Periods?"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "RedirectToGallery",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "The Gallery !"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Taking you there"
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "RedirectTo",
+            "Parameters": {
+              "Type": "GalleryView"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Node",
+        "Id": "RedirectToPeriods",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "The Periods !"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Taking you there"
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "RedirectTo",
+            "Parameters": {
+              "Type": "PeriodsView"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Node",
+        "Id": "RedirectToSpecificPeriod",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "A specific period: AncientRome !"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Taking you there"
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "RedirectTo",
+            "Parameters": {
+              "Type": "PeriodView",
+              "PeriodPath": "Ancient"
+            }
+          }
+        ]
+      }
+    ]
+  }
