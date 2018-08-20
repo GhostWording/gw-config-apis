@@ -1,0 +1,112 @@
+{
+    "Type": "Node",
+    "Id": "MonaTheft4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He claimed he had hid in the museum overnight and had disguised himself as a worker to pull off the heist!",
+                "fr": "Il a déclaré qu'il s'était caché dans le musée pendant la nuit et qu'il s'était déguisé en ouvrier pour réussir son vol",
+                "es": "He claimed he had hid in the museum overnight and had disguised himself as a worker to pull off the heist!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "His motives were patriotic! He seemed to believe that Napoleon had stolen the painting, and wanted to return it to Italy",
+                "fr": "Ses motivations étaient patriotiques ! Il semblait croire que Napoléon avait volé ce tableau, et il voulait donc qu'il retourne en Italie",
+                "es": "His motives were patriotic! He seemed to believe that Napoleon had stolen the painting, and wanted to return it to Italy"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "MonaTheft4Noble",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So noble!",
+                "fr": "Tellement noble !",
+                "es": "So noble!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, this claim worked for him!",
+                        "fr": "Eh bien, cette déclaration a fonctionné pour lui !",
+                        "es": "Well, this claim worked for him!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He served minimal jail time, since his motives drew sympathy from other Italians!",
+                        "fr": "Il a purgé une peine minimale de prison, ses motifs ayant suscité la sympathie des autres Italiens !",
+                        "es": "He served minimal jail time, since his motives drew sympathy from other Italians!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As for the painting, it was returned to the Louvre after being displayed in the Uffizi galleries for some time!",
+                        "fr": "Quant à la peinture, elle a été rendue au Louvre après avoir été exposée dans les galeries Uffizi pendant quelque temps !",
+                        "es": "As for the painting, it was returned to the Louvre after being displayed in the Uffizi galleries for some time!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It has rarely left since...",
+                        "fr": "Elle est rarement re-partie depuis...",
+                        "es": "It has rarely left since..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "MonaTheft4No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No excuse",
+                "fr": "Pas d'excuse",
+                "es": "No excuse"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, this claim worked for him!",
+                        "fr": "Eh bien, cette déclaration a fonctionné pour lui !",
+                        "es": "Well, this claim worked for him!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He served minimal jail time, since his motives drew sympathy from other Italians!",
+                        "fr": "Il a purgé une peine minimale de prison, ses motifs ayant suscité la sympathie des autres Italiens !",
+                        "es": "He served minimal jail time, since his motives drew sympathy from other Italians!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As for the painting, it was returned to the Louvre after being displayed in the Uffizi galleries for some time!",
+                        "fr": "Quant à la peinture, elle a été rendue au Louvre après avoir été exposée dans les galeries Uffizi pendant quelque temps !",
+                        "es": "As for the painting, it was returned to the Louvre after being displayed in the Uffizi galleries for some time!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It has rarely left since...",
+                        "fr": "Elle est rarement re-partie depuis...",
+                        "es": "It has rarely left since..."
+                    }
+                }
+            ]
+        }
+    ]
+}
