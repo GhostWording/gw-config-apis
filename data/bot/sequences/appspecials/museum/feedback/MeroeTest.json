@@ -1,0 +1,395 @@
+{
+    "Type": "Node",
+    "Id": "Meroe",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So you're Octavian, and you've just won a decisive victory over Mark Antony at Actium, and are now the sole ruler of the Roman Empire",
+                "fr": "Donc, tu es Octave et tu viens de remporter une victoire décisive sur Marc Antoine à Actium, et tu es désormais l'unique dirigeant de l'Empire romain",
+                "es": "Entonces, eres Octavian, y acabas de conseguir una victoria decisiva sobre Marco Antonio en Actium, y ahora eres el único gobernante del Imperio Romano."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How do you let people in the corners of your empire know that you're their new ruler?",
+                "fr": "Comment faire savoir aux 4 coins de ton empire que tu es leur nouveau dirigeant ?",
+                "es": "¿Cómo dar a conocer a la gente en todas partes de tu imperio que eres su nuevo líder?"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, you put up statues of yourself in as many towns as possible, of course!",
+                "fr": "Eh bien, tu fais installer des statues à ton effigie dans autant de villes que possible, bien sûr !",
+                "es": "¡Bien, pones estatuas de ti mismo en tantas ciudades como sea posible, por supuesto!"
+            }
+        }        
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MeroeGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good idea!",
+                "fr": "Bonne idée !",
+                "es": "¡Buena idea!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As well as putting your face on every coin! Now people have a picture of you every time they look in their pocket!",
+                        "fr": "Et tu t'affiches sur toutes les pièces de monnaie ! Maintenant, les gens voient ta tête dès qu'ils regardent dans leur poche !",
+                        "es": "¡Además de poner tu cara en cada moneda! ¡Ahora la gente ve tu rostra cada vez que miran en su bolsillo!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533296748/augustus_coin.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "This head was discovered in Meroe, in Modern Sudan",
+                        "fr": "La sculpture a été découverte à Méroé, dans le Soudan actuel",
+                        "es": "La escultura fue descubierta en Meroe, en el Sudán actual"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5YeehsTDcBmbyPzGpt"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MeroeGoodMore",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MeroeGoodYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me more!",
+                            "fr": "Dis m'en plus !",
+                            "es": "¡Dime más!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not many original bronzes survive through history... since they often got melted down for the raw materials during conquests",
+                                    "fr": "Peu de bronzes d'origine ont survécu à travers l'histoire. Ils ont souvent été fondus pour obtenir de la matière première pendant les conquêtes",
+                                    "es": "Pocos bronces originales han sobrevivido a lo largo de la historia. A menudo se derritieron para obtener materia prima durante las conquistas"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533305146/Bronze_Casting.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Unfortunately for Augustus, there's a particular reason this head survived until the present day...",
+                                    "fr": "Hélas pour Auguste, cette tête a survécu jusqu'aujourd'hui pour une bonne raison...",
+                                    "es": "Por desgracia para Augusto, esta cabeza sobrevivió hasta hoy por una buena razón..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "MeroeGoodYesWhat",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "MeroeGoodYesWhat2",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "What was it?",
+                                        "fr": "Laquelle ?",
+                                        "es": "¿Cuál es?"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The statue was looted by raiders, who hacked the head off and buried it deep under the steps to their temple in Meroe",
+                                                "fr": "La statue a été volée par des pillards. Ils ont amputé la tête et l'ont enterrée profondément sous les marches du temple de Méroé",
+                                                "es": "La estatua fue saqueada por asaltantes. Le amputaron la cabeza y la enterraron bajo los escalones del templo de Meroe"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So that everyone who walked inside trampled all over the ruler's image!",
+                                                "fr": "Ainsi, tous ceux qui marchaient à l'intérieur piétinaient l'image de l'empereur !",
+                                                "es": "¡Así que todos los que caminaban dentro pisoteaban la imagen del emperador!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The full version may have looked something like this...",
+                                                "fr": "La version complète aurait peut-être ressemblé à ceci...",
+                                                "es": "La versión completa tal vez se hubiera parecido a eso..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Display": "FullScreenWidth",
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533305050/AugustusPrima.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "But we may never know! We only have the head...",
+                                                "fr": "On ne le saura sûrement jamais ! Nous avons seulement la tête...",
+                                                "es": "¡Pero probablemente nunca lo sabremos! Solo tenemos la cabeza..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "MeroeGoodYesWhatMore",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "MeroeGoodYesWhatYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Tell me more!",
+                                                    "fr": "Dis m'en plus !",
+                                                    "es": "¡Dime más!"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "OK! The head (and statue) is slightly larger than life-size... an easy way to make yourself seem greater than the average man!",
+                                                            "fr": "D'accord ! La tête (et la statue) est légèrement plus grande qu'en réalité... une bon moyen de paraître plus grand que l'homme moyen !",
+                                                            "es": "¡De acuerdo! La cabeza (y la estatua) es un poco más grande que a tamaño real... ¡una manera fácil de parecer más alto que el hombre promedio!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead2.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Also, he's showing us the classic 'heroic gaze'... he turns his head slightly, and his eyes gaze over our heads",
+                                                            "fr": "De plus, il nous montre le 'regard héroïque' classique... il tourne légèrement la tête, et son regard passe au-dessus de nos têtes",
+                                                            "es": "Además, nos muestra la clásica 'mirada heroica'... gira la cabeza ligeramente y sus ojos miran por encima de nuestras cabezas"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Display": "FullScreenWidth",
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead3.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Rather than looking us in the eyes, he looks into the distance, surveying his empire and subjects",
+                                                            "fr": "Plutôt que de nous regarder dans les yeux, il regarde au loin, surveillant son empire et ses sujets",
+                                                            "es": "En lugar de mirarse a los ojos, mira a lo lejos, vigilando a su imperio y sus súbditos"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "MeroeGoodYesWhatYesMore",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "MeroeGoodYesWhatYesYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Anything else?",
+                                                                "fr": "Quoi d'autre ?",
+                                                                "es": "¿Qué más?"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "He's also got perfectly idealised facial proportions... it's possible he looked like that... but perhaps unlikely",
+                                                                        "fr": "Les proportions de son visage sont aussi parfaites qu'idéalisées... c'est possible qu'il ait ressemblé à cela... mais plutôt improbable",
+                                                                        "es": "Las proporciones de su cara son tan perfectas como idealizadas... es posible que se pareciera a eso... pero bastante improbable"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
+                                                                        "fr": "En tout cas, il se présente comme un jeune et beau héros, avec des cheveux fournis et harmonieusement ondulés",
+                                                                        "es": "En cualquier caso, se presenta como un héroe joven y apuesto, con el pelo tupido y armoniosamente ondulado"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Display": "FullScreenWidth",
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528886353/MeroeHead4.jpg"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "But of course, for people in the provinces, who would never see him in the flesh, this didn't matter so much",
+                                                                        "fr": "Mais bien sûr, pour les habitants des provinces, peu susceptibles de le voir en chair et en os, cela n'avait pas tellement d'importance",
+                                                                        "es": "Pero, por supuesto, para la gente de las provincias, que nunca lo verían en carne y hueso, no importaba tanto"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "MeroeGoodYesWhatNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "No thanks",
+                                                    "fr": "J'en sais assez",
+                                                    "es": "Es suficiente"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "OK! Come see it in the British Museum some time!",
+                                                            "fr": "D'accord ! Viens le voir au British Museum un jour !",
+                                                            "es": "¡De acuerdo! ¡Ven a verlo en el British Museum algún día!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "MeroeGoodNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "J'en sais assez",
+                            "es": "Es suficiente"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK! Come see it in the British Museum some time!",
+                                    "fr": "D'accord ! Viens le voir au British Museum un jour !",
+                                    "es": "¡De acuerdo! ¡Ven a verlo en el British Museum algún día!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
