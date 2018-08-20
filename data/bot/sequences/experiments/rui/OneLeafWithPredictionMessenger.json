@@ -1,0 +1,18 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show a sequence if prediction is > threshold",
+  "Prediction": {
+    "Name":"MessengerOrWhatsappTree",
+    "Threshold":80
+  },
+  "Id": "OneLeafWithPredictionMessenger",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "you'll see this is your score is > 80% for MessengerOrWhatapp prediction",
+        "fr": "you'll see this is your score is > 80% for MessengerOrWhatapp prediction"
+      }
+    }
+  ]
+}
