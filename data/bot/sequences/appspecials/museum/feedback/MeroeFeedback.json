@@ -27,10 +27,8 @@
             "Type": "Action",
             "Name": "Feedback",
             "Parameters": { 
-              "Category": "Museum",
-              "FeedbackId" : "MeroeFeedback",
-              "FeedbackValue" : "Good",
-              "SequenceId" : "Meroe"
+              "SequenceId" : "Meroe",
+              "FeedbackValue" : "Good"
             }  
           }
         ]
@@ -49,10 +47,8 @@
             "Type": "Action",
             "Name": "Feedback",
             "Parameters": { 
-              "Category": "Museum",
-              "FeedbackId" : "MeroeFeedback",
-              "FeedbackValue" : "Bad",
-              "SequenceId" : "Meroe"
+              "SequenceId" : "Meroe",
+              "FeedbackValue" : "Bad"
             }
           }
         ]
