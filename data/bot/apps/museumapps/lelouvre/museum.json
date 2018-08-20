@@ -1,17 +1,15 @@
 {
   "Id": "LeLouvre",
   "Caption": {
-    "en": "The storytelling guide to Le Louvre",
-    "fr": "The storytelling guide to Le Louvre",
-    "es" : "The storytelling guide to Le Louvre"
+    "en": "Le Louvre - Micro Guide",
+    "fr": "Le Louvre - Micro Guide",
+    "es": "Le Louvre - Micro Guide"
   },
   "DefaultImage": {
     "Type": "Image",
     "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
   },
   "Artworks" : [
-    {"Id": "UrStandard"},
-    {"Id": "LionHunt"},
-    {"Id": "Exekias"}
+    {"Id": "MonaTheft"}
   ]
 }
