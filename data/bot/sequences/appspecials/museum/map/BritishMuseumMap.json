@@ -1,32 +1,55 @@
 {
   "Type": "Node",
-  "Id": "BritishMuseumMap",
+  "Id": "CarouselFloors",
   "Steps": [
     {
       "Type": "Text",
       "Label": {
-        "en": "You can find this artwork here",
-        "fr": "You can find this artwork here",
-        "es": "You can find this artwork here"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534430378/MapLevel3Owl.jpg"
+        "en": "On which floor are you located?"
       }
     }
   ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
   "Commands": [
     {
-      "Type": "Leaf",
-      "Id": "BritishMuseumMapAwesome",
+      "Type": "Node",
+      "Id": "GroundFloor",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Thanks",
-        "fr": "Thanks",
-        "es": "Thanks"
+        "en": "Ground Floor",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Ground_Floor.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AreasGF1"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "UpperFloor",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Upper Floor",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Upper_Floors.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AreasUF"
       }
     }
   ]
