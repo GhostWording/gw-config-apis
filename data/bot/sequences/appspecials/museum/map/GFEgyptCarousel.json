@@ -2,16 +2,11 @@
   "Type": "Node",
   "Id": "GFEgyptCarousel",
   "Steps": [
-    {
-      "Type": "Node",
-      "Id": "Artworks",
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Which artwork would you like to learn about?"
-          }
-        }
+     {
+      "Type": "Text",
+      "Label": {
+        "en": "Which artwork would you like to learn about?"
+      }
       ],
       "DisplayHint": "Carousel",
       "Randomize": "true",
