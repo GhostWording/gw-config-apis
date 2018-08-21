@@ -1,0 +1,65 @@
+{
+  "Type": "Node",
+  "Id": "DimensionsExample",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Example of a tall artwork"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Width": 689,
+        "Height": 635,
+        "Source": "Web",
+        "Path": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tampa_FL_Sulphur_Springs_Tower_tall_pano02.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DimensionsExample2",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Perfect"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And here is a rather long image"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Display": "FullScreenWidth",
+            "Width": 689,
+            "Height": 635,
+            "Path": "https://www.access-himalaya.com/files/large/ecd37c9f5d627c3046b5d8ad619d2b6f.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DimensionsExampleTransition",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "DimensionsExampleOK",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Ok"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
