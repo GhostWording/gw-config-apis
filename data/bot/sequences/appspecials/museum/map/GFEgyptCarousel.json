@@ -1,0 +1,82 @@
+{
+  "Type": "Node",
+  "Id": "GFEgyptCarousel",
+  "Steps": [
+    {
+      "Type": "Node",
+      "Id": "Artworks",
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Which artwork would you like to learn about?"
+          }
+        }
+      ],
+      "DisplayHint": "Carousel",
+      "Randomize": "true",
+      "Commands": [
+        {
+          "Type": "Node",
+          "Id": "CarouselRosetta",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Rosetta Stone",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "⬇"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731011/museum%20app/Rosetta_Stone.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "Rosetta"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "CarouselRamesses",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Ramesses II",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "⬇"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "Ramesses"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "CarouselAmenhotep",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Amenhotep II",
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "⬇"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
+            }
+          },
+          "LinksToFragment": {
+            "FragmentPath": "Amenhotep"
+          }
+        }
+      ]
+    }
+  ]
+}
