@@ -13,7 +13,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "UFEgypt",
       "ElementValue": "1",
       "CommandLabel": {
@@ -30,7 +30,7 @@
       }
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "UFGreeceRome",
       "ElementValue": "1",
       "CommandLabel": {
@@ -47,7 +47,7 @@
       }
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "UFMiddleEast",
       "ElementValue": "1",
       "CommandLabel": {
