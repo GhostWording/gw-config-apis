@@ -1,0 +1,67 @@
+{
+  "Type": "Node",
+  "Id": "AreasUF",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which part in particular?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "UFEgypt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Egypt",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Egypt.jpg"
+        }
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "UFGreeceRome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Greece & Rome",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Greece_Rome.jpg"
+        }
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "UFMiddleEast",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Middle East",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Middle_East.jpg"
+        }
+      }
+    }
+  ]
+}
