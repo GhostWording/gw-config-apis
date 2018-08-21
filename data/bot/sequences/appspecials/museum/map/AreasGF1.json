@@ -1,0 +1,56 @@
+{
+  "Type": "Node",
+  "Id": "AreasGF1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which area are you interested in?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AreaA",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Main Collection",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "AreasGF2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "AreaB",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "King's Library",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFB.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "HolyThorn"
+      }
+    }
+  ]
+}
