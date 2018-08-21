@@ -5,24 +5,16 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Here, the user should see a map",
-        "fr": "Here, the user should see a map",
-        "es": "Here, the user should see a map"
+        "en": "You can find this artwork here",
+        "fr": "You can find this artwork here",
+        "es": "You can find this artwork here"
       }
     },
     {
       "Type": "Image",
       "Parameters": {
         "Source": "Web",
-        "Path": "https://vignette.wikia.nocookie.net/doratheexplorer/images/4/45/Small_Map.png/revision/latest?cb=20160624031008"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "...",
-        "fr": "...",
-        "es": "..."
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534430378/MapLevel3Owl.jpg"
       }
     }
   ],
@@ -32,9 +24,9 @@
       "Id": "BritishMuseumMapAwesome",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Awesome",
-        "fr": "Awesome",
-        "es": "Awesome"
+        "en": "Thanks",
+        "fr": "Thanks",
+        "es": "Thanks"
       }
     }
   ]
