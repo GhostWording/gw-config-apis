@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "AreasGF2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which part in particular?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "GFEgypt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Egypt",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA_Egypt.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "GFEgyptCarousel"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "GFGreeceRome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Greece & Rome",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA_Greece_Rome.jpg"
+        }
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "GFMiddleEast",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Middle East",
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA_Middle_East.jpg"
+        }
+      }
+    }
+  ]
+}
