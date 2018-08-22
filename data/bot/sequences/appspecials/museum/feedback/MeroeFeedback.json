@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "MeroeTestFeedback",
+    "Id": "MeroeFeedback",
     "Steps": [
       {
         "Type": "Text",
@@ -15,11 +15,11 @@
     "Commands": [
       {
         "Type": "Leaf",
-        "Id": "MeroeTestFeedbackGood",
+        "Id": "MeroeFeedbackGood",
         "ElementValue": "1",
         "CommandLabel": {
-          "en": "It was great !",
-          "fr": "It was great !",
+          "en": "It was great!",
+          "fr": "C'était super !",
           "es": "It was great !"
         },
         "Steps": [
@@ -27,7 +27,7 @@
             "Type": "Action",
             "Name": "Feedback",
             "Parameters": { 
-              "SequenceId" : "MeroeTest",
+              "SequenceId" : "Meroe",
               "FeedbackValue" : "Good"
             }  
           }
@@ -35,11 +35,11 @@
       },
       {
         "Type": "Leaf",
-        "Id": "MeroeTestFeedbackBad",
+        "Id": "MeroeFeedbackBad",
         "ElementValue": "1",
         "CommandLabel": {
-          "en": "It was interesting",
-          "fr": "It was interesting",
+          "en": "Good enough",
+          "fr": "Assez bien",
           "es": "It was interesting"
         },
         "Steps": [
@@ -47,7 +47,7 @@
             "Type": "Action",
             "Name": "Feedback",
             "Parameters": { 
-              "SequenceId" : "MeroeTest",
+              "SequenceId" : "Meroe",
               "FeedbackValue" : "Bad"
             }
           }
