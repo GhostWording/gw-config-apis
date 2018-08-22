@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Henry VIII even had it slightly changed to better fit with his propaganda of England being a peerless empire!",
-                "fr": "Henry VIII even had it slightly changed to better fit with his propaganda of England being a peerless empire!",
+                "fr": "Henry VIII l'avait même faite légèrement modifiée pour qu'elle corresponde mieux à sa propagande d'une Angleterre qui serait un empire sans égal !",
                 "es": "Henry VIII even had it slightly changed to better fit with his propaganda of England being a peerless empire!"
             }
         },
@@ -33,7 +33,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Keep going!",
-                "fr": "Keep going!",
+                "fr": "Continue !",
                 "es": "Keep going!"
             },
             "Steps": [
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It passed down through the Tudor family, until James I gave it to the Spanish…",
-                        "fr": "It passed down through the Tudor family, until James I gave it to the Spanish…",
+                        "fr": "Elle est passée par la famille Tudor, jusqu'à ce que James I la donne à l'Espagnol…",
                         "es": "It passed down through the Tudor family, until James I gave it to the Spanish…"
                     }
                 },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They gave it to a nunnery in Spain, where it remained for quite a while…",
-                        "fr": "They gave it to a nunnery in Spain, where it remained for quite a while…",
+                        "fr": "Ils l'ont ensuite donnée à un couvent en Espagne, où elle est restée assez longtemps…",
                         "es": "They gave it to a nunnery in Spain, where it remained for quite a while…"
                     }
                 },
@@ -87,7 +87,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "And then?",
-                            "fr": "And then?",
+                            "fr": "Et ensuite ?",
                             "es": "And then?"
                         },
                         "Steps": [
@@ -95,7 +95,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The nuns eventually sold it to a French art dealer because they were short on cash",
-                                    "fr": "The nuns eventually sold it to a French art dealer because they were short on cash",
+                                    "fr": "Les nonnes l'ont finalement vendue à un marchand d'art français car elles avaient besoin d'argent",
                                     "es": "The nuns eventually sold it to a French art dealer because they were short on cash"
                                 }
                             },
@@ -103,7 +103,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "After some trading, a group of Englishmen pooled their resources and bought it for the British museum",
-                                    "fr": "After some trading, a group of Englishmen pooled their resources and bought it for the British museum",
+                                    "fr": "Après quelques échanges commerciaux, des Anglais ont mis leurs ressources en commun et l'ont achetée pour le compte du British Museum",
                                     "es": "After some trading, a group of Englishmen pooled their resources and bought it for the British museum"
                                 }
                             },
@@ -111,7 +111,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "in order to stop the cup being bought by J.P. Morgan of America",
-                                    "fr": "in order to stop the cup being bought by J.P. Morgan of America",
+                                    "fr": "afin d'éviter que la coupe ne soit achetée par l'Américain J.P. Morgan",
                                     "es": "in order to stop the cup being bought by J.P. Morgan of America"
                                 }
                             },
@@ -142,7 +142,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Thank goodness",
-                                        "fr": "Thank goodness",
+                                        "fr": "Dieu merci",
                                         "es": "Thank goodness"
                                     },
                                     "Steps": [
@@ -150,7 +150,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "It’s been here ever since!",
-                                                "fr": "It’s been here ever since!",
+                                                "fr": "Depuis, elle est exposée ici !",
                                                 "es": "It’s been here ever since!"
                                             }
                                         },
@@ -178,7 +178,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That’s enough",
-                "fr": "That’s enough",
+                "fr": "J'en sais assez",
                 "es": "That’s enough"
             },
             "LinksToFragment": {
