@@ -13,7 +13,7 @@
             "Type": "Text",
             "Label": {
                 "en": "This makes it so that from the front, the beast seems to stand firm and still",
-                "fr": "This makes it so that from the front, the beast seems to stand firm and still",
+                "fr": "Cela est fait de telle manière que, de devant, la bête semble immobile et tranquille",
                 "es": "This makes it so that from the front, the beast seems to stand firm and still"
             }
         },
@@ -28,7 +28,7 @@
             "Type": "Text",
             "Label": {
                 "en": "But from the side, they are walking!",
-                "fr": "But from the side, they are walking!",
+                "fr": "Mais de côté, ils marchent !",
                 "es": "But from the side, they are walking!"
             }
         },
@@ -43,7 +43,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It’s a smart piece of design that brings these creatures to life!",
-                "fr": "It’s a smart piece of design that brings these creatures to life!",
+                "fr": "C'est un agencement malin qui met les créatures en mouvement !",
                 "es": "It’s a smart piece of design that brings these creatures to life!"
             }
         }
@@ -55,15 +55,15 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What else?",
-                "fr": "What else?",
+                "fr": "Quoi d'autre ?",
                 "es": "What else?"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "These particular Lamassu were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!",
-                        "fr": "These particular Lamassu were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!",
+                        "en": "These particular Lamassus were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!",
+                        "fr": "Ces Lamassus ont été mis au jour dans le palais de Dur Sharrukin entre 1840 et 1850, avec de nombreux autres objets !",
                         "es": "These particular Lamassu were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!"
                     }
                 },
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But then something terrible happened!",
-                        "fr": "But then something terrible happened!",
+                        "fr": "Mais ensuite, quelque chose de terrible arriva !",
                         "es": "But then something terrible happened!"
                     }
                 }
@@ -89,12 +89,12 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "Lamassu3ElseWhat",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "What?",
-                            "fr": "What?",
+                            "fr": "Quoi donc ?",
                             "es": "What?"
                         },
                         "Steps": [
@@ -102,38 +102,37 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Nearly all of the excavated treasures were lost! One boat sank in the Tigris river, and the other was hijacked by pirates",
-                                    "fr": "Nearly all of the excavated treasures were lost! One boat sank in the Tigris river, and the other was hijacked by pirates",
+                                    "fr": "Presque tous les trésors découverts ont été perdu ! Un bateau a coulé dans le Tigre et l'autre a été détourné par des pirates",
                                     "es": "Nearly all of the excavated treasures were lost! One boat sank in the Tigris river, and the other was hijacked by pirates"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "vT6qlTWOWYzZK"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!",
-                                    "fr": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!",
+                                    "fr": "J'imagine que Barbe Noire appréciait la sculpture de la Mésopotamie antique autant que le rhum et l'argent !",
                                     "es": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LamassuFeedback"
+                        }
                     }
                 ]
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "Lamassu3Enough",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That’s enough",
-                "fr": "That’s enough",
+                "fr": "J'en sais assez",
                 "es": "That’s enough"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LamassuFeedback"
             }
         }
     ]
