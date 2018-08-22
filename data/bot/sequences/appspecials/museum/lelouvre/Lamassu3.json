@@ -35,6 +35,7 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display":"FullScreenWidth",
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534778252/4lamassu_walkingbis.jpg"
             }
