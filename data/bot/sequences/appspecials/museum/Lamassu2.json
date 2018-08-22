@@ -1,0 +1,108 @@
+{
+    "Type": "Node",
+    "Id": "Lamassu2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These stood either side of doorways in Assyrian palaces in the 8th century BCE  ",
+                "fr": "These stood either side of doorways in Assyrian palaces in the 8th century BCE",
+                "es": "These stood either side of doorways in Assyrian palaces in the 8th century BCE"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776003/2lamassu_sides.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Kind of like strange, huge, ancient guard dogs!",
+                "fr": "Kind of like strange, huge, ancient guard dogs!",
+                "es": "Kind of like strange, huge, ancient guard dogs!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Aside from being hybrids, the creatures have another weird feature about them… How many legs can you count?",
+                "fr": "Aside from being hybrids, the creatures have another weird feature about them… How many legs can you count?",
+                "es": "Aside from being hybrids, the creatures have another weird feature about them… How many legs can you count?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lamassu24legs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "4",
+                "fr": "4",
+                "es": "4"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They actually had 5!",
+                        "fr": "They actually had 5!",
+                        "es": "They actually had 5!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Lamassu3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lamassu25legs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "5",
+                "fr": "5",
+                "es": "5"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right!",
+                        "fr": "Right!",
+                        "es": "Right!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Lamassu3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lamassu26legs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "6",
+                "fr": "6",
+                "es": "6"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They actually had 5!",
+                        "fr": "They actually had 5!",
+                        "es": "They actually had 5!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Lamassu3"
+            }
+        }
+    ]
+}
