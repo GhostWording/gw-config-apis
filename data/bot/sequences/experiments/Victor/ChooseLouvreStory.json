@@ -1,0 +1,43 @@
+{
+  "Type": "Node",
+  "Comments": "choice for british museum sequences",
+  "Id": "ChooseLouvreStory",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "Alright... choose what you want to hear about!",
+              "fr": "Choisis ton histoire !",
+              "es": "Alright... choose what you want to hear about!"
+          }
+      }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Node",
+          "Id": "ChooseItemMonaTheft",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "Mona Lisa Theft",
+              "fr": "Le vol de la Mona Lisa",
+              "es": "El robo de la Mona Lisa"
+          },
+          "CarouselElements": {
+              "Title": {
+                  "en": "🗽",
+                  "fr": "🗽",
+                  "es": "🗽"
+              },
+              "Picture": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534415329/Mona_lisa_newspaper_theft.jpg"
+              }
+          },
+          "LinksToFragment": {
+              "FragmentPath": "MonaTheft"
+          }
+      }
+  ]
+}
