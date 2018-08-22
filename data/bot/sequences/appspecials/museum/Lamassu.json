@@ -1,0 +1,57 @@
+{
+    "Type": "Node",
+    "Id": "Lamassu",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I’m sure you’ve seen a sphinx before… but take a look at this monstrosity:",
+                "fr": "I’m sure you’ve seen a sphinx before… but take a look at this monstrosity:",
+                "es": "I’m sure you’ve seen a sphinx before… but take a look at this monstrosity:"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776244/1lamassu.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s a Lamassu! A winged bull-man! Don’t be afraid though, they’re good guys! Their name means ‘protective spirit’ in Akkadian.",
+                "fr": "It’s a Lamassu! A winged bull-man! Don’t be afraid though, they’re good guys! Their name means ‘protective spirit’ in Akkadian.",
+                "es": "It’s a Lamassu! A winged bull-man! Don’t be afraid though, they’re good guys! Their name means ‘protective spirit’ in Akkadian."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LamassuTerrifying",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Terrifying!",
+                "fr": "Terrifying!",
+                "es": "Terrifying!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lamassu2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LamassuCute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cute!",
+                "fr": "Cute!",
+                "es": "Cute!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lamassu2"
+            }
+        }
+    ]
+}
