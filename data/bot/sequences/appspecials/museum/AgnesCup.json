@@ -21,7 +21,7 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Display":"FullScreenWidth",
+                "Display": "FullScreenWidth",
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294150/RoyalCup1_Full.jpg"
             }
@@ -126,13 +126,16 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "AgnesCupBeautifulNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
                             "fr": "No thanks",
                             "es": "No thanks"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "AgnesCupFeedback"
                         }
                     }
                 ]
@@ -244,13 +247,16 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "AgnesCupSimilarNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
                             "fr": "No thanks",
                             "es": "No thanks"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "AgnesCupFeedback"
                         }
                     }
                 ]
