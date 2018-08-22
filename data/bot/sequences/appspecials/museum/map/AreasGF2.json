@@ -17,7 +17,7 @@
       "Id": "GFEgypt",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Egypt",
+        "en": "Egypt"
       },
       "CarouselElements": {
         "Title": {
@@ -37,7 +37,7 @@
       "Id": "GFGreeceRome",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Greece & Rome",
+        "en": "Greece & Rome"
       },
       "CarouselElements": {
         "Title": {
@@ -45,7 +45,24 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA_Greece_Rome.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534931821/Maps/GFA_Greece_Rome.jpg"
+        }
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GFParthenon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Parthenon"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534931821/Maps/GFA_Parthenon.jpg"
         }
       }
     },
@@ -54,7 +71,7 @@
       "Id": "GFMiddleEast",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Middle East",
+        "en": "Middle East"
       },
       "CarouselElements": {
         "Title": {
