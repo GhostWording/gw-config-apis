@@ -1,0 +1,140 @@
+{
+    "Type": "Node",
+    "Id": "Lamassu3",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534865763/3.1lamassu_legs.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This makes it so that from the front, the beast seems to stand firm and still",
+                "fr": "This makes it so that from the front, the beast seems to stand firm and still",
+                "es": "This makes it so that from the front, the beast seems to stand firm and still"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776460/3lamassu_front.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But from the side, they are walking!",
+                "fr": "But from the side, they are walking!",
+                "es": "But from the side, they are walking!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534778252/4lamassu_walkingbis.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s a smart piece of design that brings these creatures to life!",
+                "fr": "It’s a smart piece of design that brings these creatures to life!",
+                "es": "It’s a smart piece of design that brings these creatures to life!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lamassu3Else",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "These particular Lamassu were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!",
+                        "fr": "These particular Lamassu were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!",
+                        "es": "These particular Lamassu were excavated in the palace of Dur Sharrukin between 1840-50, along with many other artefacts!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776996/5lamassu_map.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But then something terrible happened!",
+                        "fr": "But then something terrible happened!",
+                        "es": "But then something terrible happened!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lamassu3ElseChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Lamassu3ElseWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What?",
+                            "fr": "What?",
+                            "es": "What?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nearly all of the excavated treasures were lost! One boat sank in the Tigris river, and the other was hijacked by pirates",
+                                    "fr": "Nearly all of the excavated treasures were lost! One boat sank in the Tigris river, and the other was hijacked by pirates",
+                                    "es": "Nearly all of the excavated treasures were lost! One boat sank in the Tigris river, and the other was hijacked by pirates"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "vT6qlTWOWYzZK"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!",
+                                    "fr": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!",
+                                    "es": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Lamassu3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "That’s enough"
+            }
+        }
+    ]
+}
