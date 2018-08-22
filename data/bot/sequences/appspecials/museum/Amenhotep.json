@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you recognise this handsome fellow?",
-                "fr": "Do you recognise this handsome fellow?",
+                "fr": "Est-ce que tu reconnais ce bel homme ?",
                 "es": "Do you recognise this handsome fellow?"
             }
         },
@@ -25,7 +25,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Jack from accounting",
-                "fr": "Jack from accounting",
+                "fr": "Jacques de la compta",
                 "es": "Jack from accounting"
             },
             "Steps": [
@@ -33,7 +33,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Are you sure? Is he made of granite?",
-                        "fr": "Are you sure? Is he made of granite?",
+                        "fr": "Tu en es sûr ? Est-ce qu'il est fait de granit ?",
                         "es": "Are you sure? Is he made of granite?"
                     }
                 },
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I think it’s actually Amenhotep III",
-                        "fr": "I think it’s actually Amenhotep III",
+                        "fr": "Je pense qu'en réalité il s'agit d'Amenhotep III",
                         "es": "I think it’s actually Amenhotep III"
                     }
                 },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Although we know this now, this man was actually quite hard to identify",
-                        "fr": "Although we know this now, this man was actually quite hard to identify",
+                        "fr": "Bien que nous sachions le reconnaître aujourd'hui, cet homme était en fait assez difficile à identifier",
                         "es": "Although we know this now, this man was actually quite hard to identify"
                     }
                 }
@@ -72,7 +72,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Why?",
-                            "fr": "Why?",
+                            "fr": "Pourquoi ?",
                             "es": "Why?"
                         },
                         "Steps": [
@@ -80,7 +80,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
-                                    "fr": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                                    "fr": "Eh bien, les pharaons de l'Égypte ancienne avaient la fâcheuse habitude de modifier les statues de leurs ancêtres après leur mort",
                                     "es": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died"
                                 }
                             },
@@ -88,7 +88,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "After all, why waste money making a whole new statue?",
-                                    "fr": "After all, why waste money making a whole new statue?",
+                                    "fr": "Après tout, pourquoi gaspiller de l'argent en faisant une toute nouvelle statue ?",
                                     "es": "After all, why waste money making a whole new statue?"
                                 }
                             }
@@ -104,7 +104,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "You’ve got a point",
-                                        "fr": "You’ve got a point",
+                                        "fr": "Tu marques un point",
                                         "es": "You’ve got a point"
                                     },
                                     "Steps": [
@@ -112,7 +112,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
-                                                "fr": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                                                "fr": "Par exemple, les coins de la bouche de la statue ont été forés pour qu'elle apparaisse plus petite",
                                                 "es": "For example, the corners of the statues mouth have been drilled to make it appear smaller"
                                             }
                                         },
@@ -149,7 +149,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "You are correct!",
-                        "fr": "You are correct!",
+                        "fr": "En effet !",
                         "es": "You are correct!"
                     }
                 },
@@ -157,7 +157,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Although we know this now, this man was actually quite hard to identify",
-                        "fr": "Although we know this now, this man was actually quite hard to identify",
+                        "fr": "Bien que nous sachions le reconnaître aujourd'hui, cet homme était en fait assez difficile à identifier",
                         "es": "Although we know this now, this man was actually quite hard to identify"
                     }
                 }
@@ -173,7 +173,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Why?",
-                            "fr": "Why?",
+                            "fr": "Pourquoi ?",
                             "es": "Why?"
                         },
                         "Steps": [
@@ -181,7 +181,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
-                                    "fr": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                                    "fr": "Eh bien, les pharaons de l'Égypte ancienne avaient la fâcheuse habitude de modifier les statues de leurs ancêtres après leur mort",
                                     "es": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died"
                                 }
                             },
@@ -189,7 +189,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "After all, why waste money making a whole new statue?",
-                                    "fr": "After all, why waste money making a whole new statue?",
+                                    "fr": "Après tout, pourquoi gaspiller de l'argent en faisant une toute nouvelle statue ?",
                                     "es": "After all, why waste money making a whole new statue?"
                                 }
                             }
@@ -205,7 +205,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "You’ve got a point",
-                                        "fr": "You’ve got a point",
+                                        "fr": "Tu marques un point",
                                         "es": "You’ve got a point"
                                     },
                                     "Steps": [
@@ -213,7 +213,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
-                                                "fr": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                                                "fr": "Par exemple, les coins de la bouche de la statue ont été forés pour qu'elle apparaisse plus petite",
                                                 "es": "For example, the corners of the statues mouth have been drilled to make it appear smaller"
                                             }
                                         },
