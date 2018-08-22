@@ -70,6 +70,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display":"FullScreenWidth",
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776996/5lamassu_map.jpg"
                     }
