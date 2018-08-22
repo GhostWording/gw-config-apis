@@ -1,162 +1,168 @@
 {
-  "Type": "Node",
-  "Id": "Amenhotep2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III",
-        "fr": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III",
-        "es": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Amenhotep2Fashionable",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Fashionable!",
-        "fr": "Fashionable!",
-        "es": "Fashionable!"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "It was found here:",
-            "fr": "It was found here:",
-            "es": "It was found here:"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "1o1u5neyo6ETSPwn56"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
-            "fr": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
-            "es": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817."
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
-            "fr": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
-            "es": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation."
-          }
+    "Type": "Node",
+    "Id": "Amenhotep2",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III",
+          "fr": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III",
+          "es": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III"
         }
-      ],
-      "LinksTo": {
+      }
+    ],
+    "Commands": [
+      {
         "Type": "Node",
-        "Id": "Amenhotep2FashionableChoice",
+        "Id": "Amenhotep2Fashionable",
         "ElementValue": "1",
-        "Commands": [
+        "CommandLabel": {
+          "en": "Fashionable!",
+          "fr": "Fashionable!",
+          "es": "Fashionable!"
+        },
+        "Steps": [
           {
-            "Type": "Node",
-            "Id": "Amenhotep2FashionableTell",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Tell me more!",
-              "fr": "Tell me more!",
-              "es": "Tell me more!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "This head now rests in the British Museum, along with an arm",
-                  "fr": "This head now rests in the British Museum, along with an arm",
-                  "es": "This head now rests in the British Museum, along with an arm"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
-                  "fr": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
-                  "es": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost."
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "Amenhotep2FashionableTellChoice",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "Amenhotep2FashionableTellGreat",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Great story!",
-                    "fr": "Great story!",
-                    "es": "Great story!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Thanks! You can find it here in the museum!",
-                        "fr": "Thanks! You can find it here in the museum!",
-                        "es": "Thanks! You can find it here in the museum!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "Type": "Leaf",
-                  "Id": "Amenhotep2FashionableTellFind",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Where can I find it?",
-                    "fr": "Where can I find it?",
-                    "es": "Where can I find it?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here!",
-                        "fr": "Here!",
-                        "es": "Here!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
+            "Type": "Text",
+            "Label": {
+              "en": "It was found here:",
+              "fr": "It was found here:",
+              "es": "It was found here:"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "1o1u5neyo6ETSPwn56"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
+              "fr": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
+              "es": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817."
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
+              "fr": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
+              "es": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation."
             }
           }
-        ]
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "Amenhotep2FashionableChoice",
+          "ElementValue": "1",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "Amenhotep2FashionableTell",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Tell me more!",
+                "es": "Tell me more!"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "This head now rests in the British Museum, along with an arm",
+                    "fr": "This head now rests in the British Museum, along with an arm",
+                    "es": "This head now rests in the British Museum, along with an arm"
+                  }
+                },
+                {
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
+                    "fr": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
+                    "es": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost."
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Amenhotep2FashionableTellChoice",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Node",
+                    "Id": "Amenhotep2FashionableTellGreat",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Great story!",
+                      "fr": "Great story!",
+                      "es": "Great story!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Thanks! You can find it here in the museum!",
+                          "fr": "Thanks! You can find it here in the museum!",
+                          "es": "Thanks! You can find it here in the museum!"
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
+                        }
+                      }
+                    ],
+                    "LinksToFragment": {
+                        "FragmentPath": "AmenhotepFeedback"
+                    }
+                  },
+                  {
+                    "Type": "Node",
+                    "Id": "Amenhotep2FashionableTellFind",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Where can I find it?",
+                      "fr": "Where can I find it?",
+                      "es": "Where can I find it?"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Here!",
+                          "fr": "Here!",
+                          "es": "Here!"
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
+                        }
+                      }
+                    ],
+                    "LinksToFragment": {
+                        "FragmentPath": "AmenhotepFeedback"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
