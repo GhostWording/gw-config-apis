@@ -21,7 +21,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "MonaTheft4Noble",
             "ElementValue": "1",
             "CommandLabel": {
@@ -62,10 +62,13 @@
                         "es": "It has rarely left since..."
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheftFeedback"
+            }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "MonaTheft4No",
             "ElementValue": "1",
             "CommandLabel": {
@@ -106,7 +109,10 @@
                         "es": "It has rarely left since..."
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheftFeedback"
+            }
         }
     ]
 }
