@@ -137,7 +137,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "AgnesCup2KeepThenThank",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -161,7 +161,10 @@
                                                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532942689/RoyalCup_7.png"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AgnesCupFeedback"
+                                    }
                                 }
                             ]
                         }
@@ -170,13 +173,16 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "AgnesCup2Enough",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That’s enough",
                 "fr": "That’s enough",
                 "es": "That’s enough"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCupFeedback"
             }
         }
     ]
