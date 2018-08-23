@@ -3,6 +3,13 @@
   "Id": "AreasGF1",
   "Steps": [
     {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Ground_Floor.png"
+      }
+    },
+    {
       "Type": "Text",
       "Label": {
         "en": "Which area are you interested in?"
@@ -10,7 +17,6 @@
     }
   ],
   "DisplayHint": "Carousel",
-  "Randomize": "true",
   "Commands": [
     {
       "Type": "Node",
