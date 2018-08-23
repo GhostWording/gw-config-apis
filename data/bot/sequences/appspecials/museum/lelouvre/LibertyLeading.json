@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "LibertyLeading",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I’m sure you know this statue.",
+                "fr": "Je suis sûr que tu reconnais cette statue.",
+                "es": "I’m sure you know this statue."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534498142/1statue_of_liberty.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But do you know it was gifted to the USA by France?",
+                "fr": "Mais savais-tu qu'elle a été offerte aux Etats-Unis par la France ?",
+                "es": "But do you know it was gifted to the USA by France?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LibertyLeadingYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great knowledge!",
+                        "fr": "Quelle culture !",
+                        "es": "Great knowledge!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LibertyLeading2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LibertyLeadingNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool, right?",
+                        "fr": "C'est cool, non ?",
+                        "es": "Cool, right?"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LibertyLeading2"
+            }
+        }
+    ]
+}
