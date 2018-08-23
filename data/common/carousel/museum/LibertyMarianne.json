@@ -1,0 +1,38 @@
+{
+  "Id": "LibertyMarianne",
+  "Elements": [
+    {
+      "Title": {
+        "en": "Banknotes",
+        "fr": "Des billets",
+        "es": "Billetes"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499236/3Banknotebis.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "Stamps",
+        "fr": "Des timbres",
+        "es": "Sellos"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499231/4Stamp.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "Posters",
+        "fr": "Des affiches",
+        "es": "Carteles"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499226/5Poster.jpg"
+      }
+    }
+  ]
+}
