@@ -1,0 +1,38 @@
+{
+  "Id": "LibertyClasses",
+  "Elements": [
+    {
+      "Title": {
+        "en": "The urban worker",
+        "fr": "L'ouvrier",
+        "es": "El orbrero"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535014178/2.3Workingman.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "The bourgeois",
+        "fr": "Le bourgeois",
+        "es": "El burgués"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535014339/2.5Bourgeois.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "The student from École Polytechnique",
+        "fr": "L'étudiant de l'École Polytechnique",
+        "es": "El estudiante de l'École Polytechnique"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535014242/2.4Student.jpg"
+      }
+    }
+  ]
+}
