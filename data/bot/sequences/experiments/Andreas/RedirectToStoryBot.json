@@ -1,0 +1,37 @@
+{
+  "Type": "Node",
+  "Id": "RedirectToStoryBot",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now, you should be redirected to the main bot"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "RedirectToMainBot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Let's go"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Taking you there"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "StoryBot"
+          }
+        }
+      ]
+    }
+  ]
+}
