@@ -38,6 +38,30 @@
           "LinksToFragment": {
               "FragmentPath": "MonaTheft"
           }
-      }
+      },
+      {
+        "Type": "Node",
+        "Id": "ChooseItemMonaTheft",
+        "ElementValue": "1",
+        "CommandLabel": {
+            "en": "Lamassu",
+            "fr": "Lamassu",
+            "es": "Lamassu"
+        },
+        "CarouselElements": {
+            "Title": {
+                "en": "🗽",
+                "fr": "🗽",
+                "es": "🗽"
+            },
+            "Picture": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776244/1lamassu.jpg"
+            }
+        },
+        "LinksToFragment": {
+            "FragmentPath": "Lamassu"
+        }
+    }
   ]
 }
