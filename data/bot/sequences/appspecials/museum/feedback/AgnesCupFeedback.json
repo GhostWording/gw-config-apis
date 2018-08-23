@@ -33,12 +33,12 @@
                 }
             ],
             "LinksTo": {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "AgnesCupFeedbackGoodChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "AgnesCupFeedbackGoodExit",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -70,12 +70,12 @@
                 }
             ],
             "LinksTo": {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "AgnesCupFeedbackBadChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "AgnesCupFeedbackBadExit",
                         "ElementValue": "1",
                         "CommandLabel": {
