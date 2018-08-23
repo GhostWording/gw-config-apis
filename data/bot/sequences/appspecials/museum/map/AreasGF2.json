@@ -20,7 +20,7 @@
   "DisplayHint": "Carousel",
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "GFParthenon",
       "ElementValue": "1",
       "CommandLabel": {
@@ -44,10 +44,27 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Parthenon.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "GFParthenonExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "GFParthenonExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "GFGreeceRome",
       "ElementValue": "1",
       "CommandLabel": {
@@ -71,10 +88,27 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Greece_Rome.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "GFGreeceRomeExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "GFGreeceRomeExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "GFMiddleEast",
       "ElementValue": "1",
       "CommandLabel": {
@@ -98,10 +132,27 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Middle_East.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "GFMiddleEastExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "GFMiddleEastExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "GFEgypt",
       "ElementValue": "1",
       "CommandLabel": {
@@ -125,7 +176,24 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Egypt.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "GFEgyptExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "GFEgyptExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     }
   ]
 }
