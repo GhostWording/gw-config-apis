@@ -13,7 +13,7 @@
   "DisplayHint": "Carousel",
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LargeCarouselNewUISuccess1",
       "ElementValue": "1",
       "CommandLabel": {
@@ -30,7 +30,7 @@
       }
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LargeCarouselNewUISuccess2",
       "ElementValue": "1",
       "CommandLabel": {
