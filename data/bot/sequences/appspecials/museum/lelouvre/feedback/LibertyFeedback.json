@@ -1,0 +1,57 @@
+{
+    "Type": "Node",
+    "Id": "LibertyFeedback",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "How did you like this story?",
+          "fr": "Comment as-tu trouvé l'histoire ?",
+          "es": "How did you like this story ?"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "LibertyFeedbackGood",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "It was great!",
+          "fr": "C'était super !",
+          "es": "It was great !"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "Feedback",
+            "Parameters": { 
+              "SequenceId" : "Liberty",
+              "FeedbackValue" : "Good"
+            }  
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "LibertyFeedbackBad",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Good enough",
+          "fr": "Assez bien",
+          "es": "It was interesting"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "Feedback",
+            "Parameters": { 
+              "SequenceId" : "Liberty",
+              "FeedbackValue" : "Bad"
+            }
+          }
+        ]
+      }
+    ]
+  }
