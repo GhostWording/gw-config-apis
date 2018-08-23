@@ -55,6 +55,16 @@
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFB.jpg"
         }
       },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFB.jpg"
+          }
+        }
+      ],
       "LinksToFragment": {
         "FragmentPath": "HolyThorn"
       }
