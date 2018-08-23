@@ -14,6 +14,7 @@
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
+                "Display":"FullScreenWidth",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776244/1lamassu.jpg"
             }
         },
