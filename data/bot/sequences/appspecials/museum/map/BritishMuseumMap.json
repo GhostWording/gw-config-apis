@@ -5,12 +5,11 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "On which floor are you located?"
+        "en": "Please pick a floor"
       }
     }
   ],
   "DisplayHint": "Carousel",
-  "Randomize": "true",
   "Commands": [
     {
       "Type": "Node",
