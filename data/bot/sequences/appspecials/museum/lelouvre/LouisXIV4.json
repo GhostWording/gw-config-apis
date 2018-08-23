@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Id": "LouisXIV4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Whether he was a god or not, the French kingdom certainly flourished during his reign...",
+                "fr": "Qu'il soit ou non un dieu, le royaume français a certainement prospéré pendant son règne...",
+                "es": "Whether he was a god or not, the French kingdom certainly flourished during his reign..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He built this magnificent palace at Versailles as a symbol of his huge power and influence!",
+                "fr": "Il a notamment construit ce magnifique palais à Versailles, comme symbole de son immense pouvoir et influence",
+                "es": "He built this magnificent palace at Versailles as a symbol of his huge power and influence!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display":"FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534940944/france_power.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "At a point, one in four citizens in Europe was French! Their population was less only than that of Russia…",
+                "fr": "À un moment donné, un citoyen sur quatre en Europe était français ! Seule la Russie avait une population plus importante...",
+                "es": "At a point, one in four citizens in Europe was French! Their population was less only than that of Russia…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LouisXIV4Nightmare",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a nightmare",
+                "fr": "Quel cauchemar",
+                "es": "What a nightmare"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LouisXIV4Bravo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Bravo 🇫🇷",
+                "fr": "Bravo 🇫🇷",
+                "es": "Bravo 🇫🇷"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV5"
+            }
+        }
+    ]
+}
