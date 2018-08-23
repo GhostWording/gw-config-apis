@@ -1,0 +1,50 @@
+{
+  "Type": "Node",
+  "Id": "LargeCarouselNewUI",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Please pick a floor"
+      }
+    }
+  ],
+  "DisplayCardAfterSelection": "Large",
+  "DisplayHint": "Carousel",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LargeCarouselNewUISuccess1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Success?"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Ground_Floor.png"
+        }
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LargeCarouselNewUISuccess2",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Success?"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534933711/Maps/Upper_Floors_w_owls.png"
+        }
+      }
+    }
+  ]
+}
