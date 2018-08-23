@@ -6,6 +6,8 @@
       "Type": "Image",
       "Parameters": {
         "Display": "FullScreenWidth",
+        "Width": 375,
+        "Height": 727,
         "Source": "Web",
         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Ground_Floor.png"
       }
