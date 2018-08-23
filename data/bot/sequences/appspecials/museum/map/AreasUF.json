@@ -20,7 +20,7 @@
   "DisplayHint": "Carousel",
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "UFGreeceRome",
       "ElementValue": "1",
       "CommandLabel": {
@@ -44,10 +44,27 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Greece_Rome.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UFGreeceRomeExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UFGreeceRomeExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "UFEgypt",
       "ElementValue": "1",
       "CommandLabel": {
@@ -71,10 +88,27 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Egypt.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UFEgyptExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UFEgyptExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "UFMiddleEast",
       "ElementValue": "1",
       "CommandLabel": {
@@ -98,10 +132,27 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Middle_East.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UFMiddleEastExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UFMiddleEastExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "UFEurope",
       "ElementValue": "1",
       "CommandLabel": {
@@ -125,7 +176,24 @@
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Europe.jpg"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UFEuropeExit",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "UFEuropeExit1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Exit",
+              "es": "Exit"
+            }
+          }
+        ]
+      }
     }
   ]
 }
