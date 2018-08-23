@@ -1,0 +1,86 @@
+{
+    "Type": "Node",
+    "Id": "LouisXIV3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Both pictures are very different to this impression from 1655… made just after crushing a rebellion",
+                "fr": "Les deux tableaux sont très différents de cette représentation de 1655... faite juste après qu'il ait écrasé une révolte",
+                "es": "Both pictures are very different to this impression from 1655… made just after crushing a rebellion"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534872525/Museum%20Bot/LouisXIV4.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here, the artist portrays Louis as the Roman god Jupiter. Kings always loved to compare themselves to gods, after all!",
+                "fr": "Ici, l'artiste représente Louis comme le dieu romain Jupiter. Après tout, les rois ont toujours adoré se comparer aux dieux !",
+                "es": "Here, the artist portrays Louis as the Roman god Jupiter. Kings always loved to compare themselves to gods, after all!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Louis is even known colloquially as ‘the Sun King’!",
+                "fr": "Louis est même connu sous le nom de ‘Roi Soleil’ !",
+                "es": "Louis is even known colloquially as ‘the Sun King’!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LouisXIV3Hero",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a hero",
+                "fr": "Quel héros",
+                "es": "What a hero"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LouisXIV3ShowOff",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a showoff",
+                "fr": "Quel frimeur",
+                "es": "What a showoff"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV4"
+            }
+        }
+    ]
+}
