@@ -32,6 +32,7 @@
         {
           "Type": "Image",
           "Parameters": {
+            "Display": "FullScreenWidth",
             "Source": "Web",
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Parthenon.jpg"
           }
@@ -58,6 +59,7 @@
         {
           "Type": "Image",
           "Parameters": {
+            "Display": "FullScreenWidth",
             "Source": "Web",
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Greece_Rome.jpg"
           }
@@ -84,6 +86,7 @@
         {
           "Type": "Image",
           "Parameters": {
+            "Display": "FullScreenWidth",
             "Source": "Web",
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Middle_East.jpg"
           }
@@ -110,6 +113,7 @@
         {
           "Type": "Image",
           "Parameters": {
+            "Display": "FullScreenWidth",
             "Source": "Web",
             "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Egypt.jpg"
           }
