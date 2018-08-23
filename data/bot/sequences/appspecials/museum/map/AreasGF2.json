@@ -27,7 +27,16 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Parthenon.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Parthenon.jpg"
+          }
+        }
+      ]
     },
     {
       "Type": "Leaf",
@@ -44,7 +53,16 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Greece_Rome.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Greece_Rome.jpg"
+          }
+        }
+      ]
     },
     {
       "Type": "Leaf",
@@ -61,7 +79,16 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Middle_East.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Middle_East.jpg"
+          }
+        }
+      ]
     },
     {
       "Type": "Node",
@@ -79,6 +106,15 @@
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Egypt.jpg"
         }
       },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Egypt.jpg"
+          }
+        }
+      ],
       "LinksToFragment": {
         "FragmentPath": "GFEgyptCarousel"
       }
