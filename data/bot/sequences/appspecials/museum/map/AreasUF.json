@@ -34,7 +34,17 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Greece_Rome.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Greece_Rome.jpg"
+          }
+        }
+      ]
     },
     {
       "Type": "Leaf",
@@ -51,7 +61,17 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Egypt.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Egypt.jpg"
+          }
+        }
+      ]
     },
     {
       "Type": "Leaf",
@@ -68,7 +88,17 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Middle_East.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Middle_East.jpg"
+          }
+        }
+      ]
     },
     {
       "Type": "Leaf",
@@ -85,7 +115,17 @@
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Europe.jpg"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Europe.jpg"
+          }
+        }
+      ]
     }
   ]
 }
