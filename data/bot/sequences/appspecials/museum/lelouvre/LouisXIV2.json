@@ -1,0 +1,158 @@
+{
+    "Type": "Node",
+    "Id": "LouisXIV2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s Louis the XIV of France, looking regal and impressive in 1701, near the end of his reign!",
+                "fr": "C'est le roi de France Louis XIV, à l'allure royale et imposante, vers la fin de son règne en 1701 !",
+                "es": "It’s Louis the XIV of France, looking regal and impressive in 1701, near the end of his reign!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LouisXIV214th",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The fourteenth!?",
+                "fr": "Louis XIV !?",
+                "es": "The fourteenth!?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! Louis was a very popular name for the French royals...",
+                        "fr": "Eh oui ! Louis était un prénom très populaire dans la famille royale française",
+                        "es": "You’re smart!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display":"FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534939389/family_tree_green.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In fact, Louis’ son, grandson, great-grandson, great-great-grandson, great-great-great-grandson and great-great-great-great-grandson were all called Louis, too.",
+                        "fr": "En fait, le fils, le petit-fils, l'arrière petit-fils, l'arrière-arrière petit fils, l'arrière-arrière-arrière petit fils et l'arrière-arrière-arrière-arrière petit fils de Louis XIV s'appelaient également Louis.",
+                        "es": "In fact, Louis’ son, grandson, great-grandson, great-great-grandson, great-great-great-grandson and great-great-great-great-grandson were all called Louis, too."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But, of all these Louis, this guy is perhaps the most famous! Want to hear why?",
+                        "fr": "Mais parmi tous ces Louis, celui-ci est certainement le plus célèbre ! Tu veux savoir pourquoi ?",
+                        "es": "But, of all these Louis, this guy is perhaps the most famous! Want to hear why?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LouisXIV214thChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LouisXIV214thSure",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sure!",
+                            "fr": "Bien sûr !",
+                            "es": "Sure!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, for one thing, he reigned for 72 years and 110 days! That’s the longest ever for a European monarch!",
+                                    "fr": "Eh bien, d'une part, il a régné pendant 72 ans et 110 jours ! C'est le plus long règne pour un monarque européen !",
+                                    "es": "Well, for one thing, he reigned for 72 years and 110 days! That’s the longest ever for a European monarch!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He was crowned in 1643, and looked very different back then",
+                                    "fr": "Il a été couronné en 1643. Il était très différent à cette époque",
+                                    "es": "He was crowned in 1643, and looked very different back then"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display":"FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "]https://res.cloudinary.com/dgy6y4npc/image/upload/v1534939926/louisXIV_baby.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "...",
+                                    "fr": "...",
+                                    "es": "..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LouisXIV214thSureChoice",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "LouisXIV214thSureCute",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Cute!",
+                                        "fr": "Mignon !",
+                                        "es": "Cute!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "LouisXIV3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "LouisXIV214thSureTerrifying",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Terrifying!",
+                                        "fr": "Terrifiant !",
+                                        "es": "Terrifying!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "LouisXIV3"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LouisXIV214thEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "Non merci",
+                            "es": "No thanks"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LouisXIVFeedback"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+                        
