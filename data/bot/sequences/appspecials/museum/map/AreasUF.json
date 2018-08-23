@@ -38,10 +38,10 @@
     },
     {
       "Type": "Leaf",
-      "Id": "UFEurope",
+      "Id": "UFEgypt",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Europe"
+        "en": "Egypt"
       },
       "CarouselElements": {
         "Title": {
@@ -49,7 +49,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Europe.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Egypt.jpg"
         }
       }
     },
@@ -72,10 +72,10 @@
     },
     {
       "Type": "Leaf",
-      "Id": "UFEgypt",
+      "Id": "UFEurope",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Egypt"
+        "en": "Europe"
       },
       "CarouselElements": {
         "Title": {
@@ -83,7 +83,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Egypt.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Europe.jpg"
         }
       }
     }
