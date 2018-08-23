@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "LouisXIV",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534872525/Museum%20Bot/LouisXIV1.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have you ever seen this painting before?",
+                "fr": "As-tu déjà vu ce tableau ?",
+                "es": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LouisXIVYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You’re smart!",
+                        "fr": "Tu es intelligent !",
+                        "es": "You’re smart!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LouisXIVNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In that case, I conclude that you did not attend school in France",
+                        "fr": "Dans ce cas, j'en déduis que tu n'as pas été à l'école en France",
+                        "es": "You’re smart!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV2"
+            }
+        }
+    ]
+}
+
