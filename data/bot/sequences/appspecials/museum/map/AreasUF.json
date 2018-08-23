@@ -3,6 +3,14 @@
   "Id": "AreasUF",
   "Steps": [
     {
+      "Type": "Image",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Upper_Floors.png"
+      }
+    },
+    {
       "Type": "Text",
       "Label": {
         "en": "Which part in particular?"
@@ -10,31 +18,13 @@
     }
   ],
   "DisplayHint": "Carousel",
-  "Randomize": "true",
   "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "UFEgypt",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Egypt",
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "⬇"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Egypt.jpg"
-        }
-      }
-    },
     {
       "Type": "Leaf",
       "Id": "UFGreeceRome",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Greece & Rome",
+        "en": "Greece & Rome"
       },
       "CarouselElements": {
         "Title": {
@@ -48,10 +38,27 @@
     },
     {
       "Type": "Leaf",
+      "Id": "UFEurope",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Europe"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Europe.jpg"
+        }
+      }
+    },
+    {
+      "Type": "Leaf",
       "Id": "UFMiddleEast",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Middle East",
+        "en": "Middle East"
       },
       "CarouselElements": {
         "Title": {
@@ -60,6 +67,23 @@
         "Picture": {
           "Source": "Web",
           "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Middle_East.jpg"
+        }
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "UFEgypt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Egypt"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/UF_Egypt.jpg"
         }
       }
     }
