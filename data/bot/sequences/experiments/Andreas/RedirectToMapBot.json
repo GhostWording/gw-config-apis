@@ -28,7 +28,8 @@
           "Type": "Action",
           "Name": "RedirectTo",
           "Parameters": {
-            "Type": "MapBot"
+            "Type": "MapBot",
+            "FragmentToOpen": "BritishMuseumMap"
           }
         }
       ]
