@@ -33,12 +33,12 @@
                 }
             ],
             "LinksTo": {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "AmenhotepFeedbackGoodChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "AmenhotepFeedbackGoodExit",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -70,12 +70,12 @@
                 }
             ],
             "LinksTo": {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "AmenhotepFeedbackBadChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "AmenhotepFeedbackBadExit",
                         "ElementValue": "1",
                         "CommandLabel": {
