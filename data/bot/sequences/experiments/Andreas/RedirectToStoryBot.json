@@ -28,7 +28,8 @@
           "Type": "Action",
           "Name": "RedirectTo",
           "Parameters": {
-            "Type": "StoryBot"
+            "Type": "StoryBot",
+            "FragmentToOpen": "MonaTheft"
           }
         }
       ]
