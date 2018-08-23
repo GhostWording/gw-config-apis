@@ -1,0 +1,37 @@
+{
+  "Type": "Node",
+  "Id": "RedirectToMapBot",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now, you should be redirected to the map bot"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "RedirectToMapBot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Let's go"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Taking you there"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "MapBot"
+          }
+        }
+      ]
+    }
+  ]
+}
