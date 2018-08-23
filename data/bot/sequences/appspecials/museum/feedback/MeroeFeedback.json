@@ -33,12 +33,12 @@
                 }
             ],
             "LinksTo": {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "MeroeFeedbackGoodChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "MeroeFeedbackGoodExit",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -70,12 +70,12 @@
                 }
             ],
             "LinksTo": {
-                "Type": "Leaf",
+                "Type": "Node",
                 "Id": "MeroeFeedbackBadChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "MeroeFeedbackBadExit",
                         "ElementValue": "1",
                         "CommandLabel": {
