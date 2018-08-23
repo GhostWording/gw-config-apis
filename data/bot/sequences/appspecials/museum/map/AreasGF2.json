@@ -1,13 +1,13 @@
 {
   "Type": "Node",
-  "Id": "AreasUF",
+  "Id": "AreasGF2",
   "Steps": [
     {
       "Type": "Image",
       "Parameters": {
         "Display": "FullScreenWidth",
         "Source": "Web",
-        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Upper_Floors.png"
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534417467/Ground_Floor.png"
       }
     },
     {
@@ -21,7 +21,34 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "UFGreeceRome",
+      "Id": "GFParthenon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Parthenon"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Parthenon.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Parthenon.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GFGreeceRome",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Greece & Rome"
@@ -32,7 +59,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Greece_Rome.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Greece_Rome.jpg"
         }
       },
       "Steps": [
@@ -41,41 +68,14 @@
           "Parameters": {
             "Display": "FullScreenWidth",
             "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Greece_Rome.jpg"
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Greece_Rome.jpg"
           }
         }
       ]
     },
     {
       "Type": "Leaf",
-      "Id": "UFEurope",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Europe"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "⬇"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Europe.jpg"
-        }
-      },
-      "Steps": [
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Display": "FullScreenWidth",
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Europe.jpg"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "UFMiddleEast",
+      "Id": "GFMiddleEast",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Middle East"
@@ -86,7 +86,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Middle_East.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Middle_East.jpg"
         }
       },
       "Steps": [
@@ -95,14 +95,14 @@
           "Parameters": {
             "Display": "FullScreenWidth",
             "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Middle_East.jpg"
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Middle_East.jpg"
           }
         }
       ]
     },
     {
       "Type": "Leaf",
-      "Id": "UFEgypt",
+      "Id": "GFEgypt",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Egypt"
@@ -113,7 +113,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/UF_Egypt.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Egypt.jpg"
         }
       },
       "Steps": [
@@ -122,7 +122,7 @@
           "Parameters": {
             "Display": "FullScreenWidth",
             "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/UF_Egypt.jpg"
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535021386/Maps%20new/W%20Owls/GFA_Egypt.jpg"
           }
         }
       ]
