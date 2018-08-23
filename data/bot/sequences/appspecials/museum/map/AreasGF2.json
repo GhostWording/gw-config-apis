@@ -13,11 +13,11 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Node",
-      "Id": "GFEgypt",
+      "Type": "Leaf",
+      "Id": "GFParthenon",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Egypt"
+        "en": "Parthenon"
       },
       "CarouselElements": {
         "Title": {
@@ -25,11 +25,8 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA_Egypt.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Parthenon.jpg"
         }
-      },
-      "LinksToFragment": {
-        "FragmentPath": "GFEgyptCarousel"
       }
     },
     {
@@ -45,24 +42,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534931821/Maps/GFA_Greece_Rome.jpg"
-        }
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "GFParthenon",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Parthenon"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "⬇"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534931821/Maps/GFA_Parthenon.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Greece_Rome.jpg"
         }
       }
     },
@@ -79,8 +59,28 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534848023/Maps/GFA_Middle_East.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Middle_East.jpg"
         }
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "GFEgypt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Egypt"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⬇"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1535019785/Maps%20new/GFA_Egypt.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "GFEgyptCarousel"
       }
     }
   ]
