@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Id": "DavidCoronation7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He even had the walls and structures of Notre-Dame depicted smaller here, to make himself seem more impressive and imposing!",
+                "fr": "Il a même fait paraître les murs et la structure de Notre-Dame plus petits pour qu'il apparaisse plus impressionnant et imposant !",
+                "es": "As you might have guessed by now, while it’s Josephine being crowned superficially, this whole painting really is about Napoleon."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1062,
+                "Height": 492,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535044555/12inside_ndp.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And, they were covered in cardboard made to look like marble, so that the scene looked more antique!",
+                "fr": "Et les murs ont été recouverts de carton faisant penser à du marbre, de sorte que la scène ait l'air plus antique !",
+                "es": "And, they were covered in cardboard made to look like marble, so that the scene looked more antique!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidCoronation7Else",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "Quoi d'autre ?",
+                "es": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Finally, David’s original sketches, and a detailed analysis of the painting, show that Napoleon was originally crowning himself!",
+                        "fr": "Enfin, les esquisses d'origine de David, et une analyse détaillée du tableau, montrent qu'à la base Napoléon devait s'auto-couronner !",
+                        "es": "Finally, David’s original sketches, and a detailed analysis of the painting, show that Napoleon was originally crowning himself!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 640,
+                        "Height": 741,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535025958/13napoleon_crowning.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It seems it was changed to be more subtle… perhaps that would have been a little too much boasting for one painting…",
+                        "fr": "Il semble que cela ait été changé pour être plus subtil... peut-être que cela aurait fait trop de vantardise pour une seule peinture...",
+                        "es": "It seems it was changed to be more subtle… perhaps that would have been a little too much boasting for one painting…"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronationFeedback"
+            }
+        }
+    ]
+}
