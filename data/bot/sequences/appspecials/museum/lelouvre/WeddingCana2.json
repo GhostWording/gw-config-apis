@@ -1,0 +1,146 @@
+{
+  "Type": "Node",
+  "Id": "WeddingCana2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Well, to solve this issue, they commissioned Paolo Veronese to paint a massive feast scene to decorate the wall!",
+        "fr": "Eh bien, pour résoudre ce problème, ils ont commandé à Paolo Veronese un immense tableau, représentant un banquet, afin de décorer le mur !",
+        "es": "Well, to solve this issue, they commissioned Paolo Veronese to paint a massive feast scene to decorate the wall!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "No, really, I mean MASSIVE",
+        "fr": "Et vraiment, quand je dis IMMENSE...",
+        "es": "No, really, I mean MASSIVE"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s the largest painting in the Louvre!",
+        "fr": "C'est la plus grande peinture de tout le Louvre !",
+        "es": "It’s the largest painting in the Louvre!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana2.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It depicts the Wedding at Cana, which is where Jesus turned water into wine - his first public miracle!",
+        "fr": "Elle représente les Noces de Cana, à savoir l'endroit où Jésus changea l'eau en vin - son premier miracle public !",
+        "es": "It depicts the Wedding at Cana, which is where Jesus turned water into wine - his first public miracle!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WeddingCana2Know",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I know that story",
+        "fr": "Je connais cette histoire",
+        "es": "I know that story"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s cool, right?",
+            "fr": "Intéressant, n'est-ce pas ?",
+            "es": "It’s cool, right?"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Here’s Jesus, sitting right in the middle!",
+            "fr": "Voici Jésus, assis pile au centre !",
+            "es": "Here’s Jesus, sitting right in the middle!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana3.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He’s next to his mother, Mary, looking ethereal and calm",
+            "fr": "Il est à côté de sa mère, Marie, qui paraît éthérée et calme",
+            "es": "He’s next to his mother, Mary, looking ethereal and calm"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCana3"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCana2Really",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Water into wine?",
+        "fr": "L'eau en vin ?",
+        "es": "Water into wine?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Right!",
+            "fr": "Eh oui !",
+            "es": "Right!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Jesus realised the guests were running out of wine, and used his divine powers to fix that!",
+            "fr": "Jésus réalisa que les convives manquaient de vin, et utilisa ses pouvoirs divins pour arranger ça !",
+            "es": "Jesus realised the guests were running out of wine, and used his divine powers to fix that!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He’s sitting here, right in the middle, next to his mother Mary",
+            "fr": "Il est assis là, pile au centre, à côté de sa mère, Marie",
+            "es": "He’s sitting here, right in the middle, next to his mother Mary"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana3.jpg"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCana3"
+      }
+    }
+  ]
+}
