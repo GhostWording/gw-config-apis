@@ -1,0 +1,81 @@
+{
+    "Type": "Node",
+    "Id": "WeddingCana",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Did you know that there’s an island just near Venice with a beautiful church on it?",
+                "fr": "Savais-tu que juste à côté de Venise, il y a une île avec une superbe église ?",
+                "es": "Did you know that there’s an island just near Venice with a beautiful church on it?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s part of the Benedictine order, and is very old!",
+                "fr": "Elle fait partie de l'ordre bénédictin et est très vieille !",
+                "es": "It’s part of the Benedictine order, and is very old!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana1.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In 1562, the monks were faced with a problem…",
+                "fr": "En 1562, les moines ont rencontré un problème...",
+                "es": "In 1562, the monks were faced with a problem…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Their canteen was just a little too gloomy...",
+                "fr": "Leur cantine était un peu trop lugubre...",
+                "es": "Their canteen was just a little too gloomy..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They wanted where they ate to be more interesting!",
+                "fr": "Ils voulaient que l'endroit où ils mangent soit plus intéressant !",
+                "es": "They wanted where they ate to be more interesting!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "WeddingCanaWhat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What did they do?",
+                "fr": "Qu'ont-ils fait ?",
+                "es": "What did they do?"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCana2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WeddingCanaUnderstand",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Understandable",
+                "fr": "Ça se comprend",
+                "es": "Understandable"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCana2"
+            }
+        }
+    ]
+}
