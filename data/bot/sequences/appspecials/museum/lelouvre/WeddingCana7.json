@@ -1,0 +1,52 @@
+{
+    "Type": "Node",
+    "Id": "WeddingCana7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Finally, I don’t suppose you’re a fan of dogs?!",
+                "fr": "Pour finir, je suppose que tu adores les chiens ?!",
+                "es": "Finally, I don’t suppose you’re a fan of dogs?!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "WeddingCana7Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Yes"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCana8"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WeddingCana7No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Haha, OK!",
+                        "fr": "Haha, OK !",
+                        "es": "Haha, OK!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCanaFeedback"
+            }
+        }
+    ]
+}
