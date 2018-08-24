@@ -1,11 +1,11 @@
-# Sequences Feedback
+# Sequences History 
 
 ## Context
-The objective of the Feedback system is to provide information about which sequences (and paths in sequences) users prefer.
+The objective of the Sequences History system is to store, for a given sequence, the information of the users who have already read it. More precisely, the objective is to be able to track for a given Node or Leaf who has already read it.
 
 The feedback system is defined in 3 main parts:
-* the step Feedback within sequences that defines what feedback to send 
-* the user events api that will handle the feedback sent from the apps
+* the step IsRead within sequences that defines which Node or Leaf we want to keep a history for  
+* the user events api that will handle the information sent from the apps
 * the tables filled from user events that will be used for later analysis
 
 
@@ -13,7 +13,7 @@ The feedback system is defined in 3 main parts:
 
 ### 1. Define and write feedback sequences
 
-Let's suppose you have a joke sequence called `SequenceWithFeedback` that actually ends with a leaf like that:
+Let's suppose you have a joke sequence called `MyCoffeJokeSequence` :
 ```
 {
   "Type": "Leaf",
@@ -31,11 +31,11 @@ Let's suppose you have a joke sequence called `SequenceWithFeedback` that actual
 }
 ```
 
-you want to get feedback, in order to do that you'll change your leaf in node and add a `LinksToFragment` pointing to a fragment containing the feedback:
+you want to track history for this sequence, in order to do that you'll add a Step of type `Action` and name `IsRead`, with the `Id` of the Node or Leaf you want the user history for :
 
 ```
 {
-  "Type": "Node",
+  "Type": "Leaf",
   "Comments":"this show how to use feedback",
   "Id": "MyCoffeJokeSequence",
   "Steps": [
@@ -45,11 +45,15 @@ you want to get feedback, in order to do that you'll change your leaf in node an
         "en": "Someone enters a coffee,and..., splash",
         "fr": "C'est quelqu'un qui rentre dans un café, et... plouf"
       }
+    },
+    {
+      "Type": "Action",
+      "Name": "IsRead",
+      "Parameters":{
+        "SequenceId": "MyCoffeJokeSequence"
+      }
     }
-  ],
-  "LinksToFragment": {
-       "FragmentPath": "MyCoffejokeFeedback"
-  }    
+  ]    
 }
 ```
 
