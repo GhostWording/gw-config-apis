@@ -1,0 +1,176 @@
+{
+  "Type": "Node",
+  "Id": "WeddingCana8",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Me too! I’ve got a fun game for you…",
+        "fr": "Moi aussi ! J'ai un bon jeu pour toi...",
+        "es": "Me too! I’ve got a fun game for you…"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Try to count how many dogs there are in the painting!",
+        "fr": "Essaie de trouver le nombre de chiens qu'il y a dans le tableau !",
+        "es": "Try to count how many dogs there are in the painting!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WeddingCana83",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "3",
+        "fr": "3",
+        "es": "3"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s 5!",
+            "fr": "C'est 5 !",
+            "es": "It’s 5!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "They’re all so cute 😍",
+            "fr": "Ils sont tous trop mignons 😍",
+            "es": "They’re all so cute 😍"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCanaFeedback"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCana84",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "4",
+        "fr": "4",
+        "es": "4"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s 5!",
+            "fr": "C'est 5 !",
+            "es": "It’s 5!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "They’re all so cute 😍",
+            "fr": "Ils sont tous trop mignons 😍",
+            "es": "They’re all so cute 😍"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCanaFeedback"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCana85",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "5",
+        "fr": "5",
+        "es": "5"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well done!",
+            "fr": "Bravo !",
+            "es": "Well done!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "They’re all so cute 😍",
+            "fr": "Ils sont tous trop mignons 😍",
+            "es": "They’re all so cute 😍"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCanaFeedback"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCana86",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "6",
+        "fr": "6",
+        "es": "6"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s 5!",
+            "fr": "C'est 5 !",
+            "es": "It’s 5!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "They’re all so cute 😍",
+            "fr": "Ils sont tous trop mignons 😍",
+            "es": "They’re all so cute 😍"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCanaFeedback"
+      }
+    }
+  ]
+}
