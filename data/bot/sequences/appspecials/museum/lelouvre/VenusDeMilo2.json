@@ -1,0 +1,171 @@
+{
+  "Type": "Node",
+  "Id": "VenusDeMilo2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Well, we think it’s Venus, anyway, or Aphrodite to the Greeks: the goddess of love",
+        "fr": "Enfin, on pense que c'est *Vénus*.. ou Aphrodite, comme les Grecs l'appelaient. C'est la déesse de l'Amour"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Width": 587,
+        "Height": 692,
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/La_Naissance_de_VEnus.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We mainly think that because Venus was often the subject of this kind of statue",
+        "fr": "On pense qu'il s'agit de *Vénus* parce qu'elle était souvent l'objet de ce genre de statut"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Width": 493,
+        "Height": 776,
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040169/museum%20app/Crouching_Venus.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "And because she’s larger than a typical woman… in other words… superhuman, like a goddess!",
+        "fr": "Et parce qu'elle est plus grande *que la* femme moyenne… sur-humaine, comme une déesse !"
+      }
+    },
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "VenusDeMilo2HowTall",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "How tall?!",
+        "fr": "*Grande comment ?!*",
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "She’s 6’8”, even with her slouch",
+            "fr": "Elle mesure 2.03 mètres",
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Width": 541,
+            "Height": 799,
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040169/museum%20app/Crouching_Venus.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "She would probably have been over 7 feet if she stood up straight!",
+            "fr": "Elle mesurerait probablement 10 centimètres de plus si elle était droite !",
+          }
+        },
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "VenusDeMilo2Tall",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "VenusDeMilo2TallImpressive",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Impressive!",
+              "fr": "Impressionant !"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The statue was found by a farmer in 1820 on the island of Milos, hence the name “de Milo”",
+                  "fr": "La *statue* a été trouvée par un fermier en 1820, sur l'ile de Milos.. d'*où* som nom “de Milo”"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "1Zm6ykTY9i4fE5lFgN"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "On that island, the goddess of the sea “Amphitrite” was particularly popular",
+                  "fr": "Sur cette *île*, la déesse de la mer “Amphitrite” était particulièrement populaire",
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Width": 793,
+                  "Height": 601,
+                  "Display": "FullScreenWidth",
+                  "Source": "Web",
+                  "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040169/museum%20app/Crouching_Venus.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So it could be her, too! Scholars love to argue about it to this day!",
+                  "en": "Cette *statue* pourrait tout aussi bien représenter “Amphitrite”! Les spécialistes aiment débattre sur ce sujet, encore aujourd'hui !"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "VenusDeMilo2ScholarsArgue",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "VenusDeMilo2VoteVenus",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I vote Venus"
+                    *"fr": "Je vote Vénus"*
+                  },
+                  "LinksToFragment": {
+                    "FragmentPath": "VenusDeMilo3"
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "VenusDeMilo2VoteAmphirite",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I vote Amphitrite"
+                    *"fr": "Je vote Amphitrite"*
+                  },
+                  "LinksToFragment": {
+                    "FragmentPath": "VenusDeMilo3"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
