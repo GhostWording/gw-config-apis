@@ -1,0 +1,57 @@
+{
+  "Type": "Node",
+  "Id": "WeddingCana5",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Many buildings do this in modern times too, to make the area look bigger!",
+        "fr": "Aujourd'hui aussi, cette technique est utilisée dans beaucoup de bâtiments, pour leur donner l'air plus grands !",
+        "es": "Many buildings do this in modern times too, to make the area look bigger!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana5.2.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s an optical illusion! It’s very common in bathrooms or hallways",
+        "fr": "C'est une illusion d'optique ! C'est très répandu dans les salles de bain ou les couloirs",
+        "es": "It’s an optical illusion! It’s very common in bathrooms or hallways"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WeddingCana5Tell",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Tell me more!",
+        "fr": "Dis m'en plus !",
+        "es": "Tell me more!"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCana6"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCana5OnlyHowGet",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "That’s enough",
+        "fr": "J'en sais assez",
+        "es": "That’s enough"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCanaFeedback"
+      }
+    }
+  ]
+}
