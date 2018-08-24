@@ -1,0 +1,143 @@
+{
+    "Type": "Node",
+    "Id": "DavidCoronation4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, back to the painting",
+                "fr": "Bref, retour au tableau",
+                "es": "Anyway, back to the painting"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Not everyone shown actually attended!",
+                "fr": "En réalité, tous ceux représentés n'ont pas assisté à l'événement !",
+                "es": "Not everyone shown actually attended!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidCoronation4Who",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Who?",
+                "fr": "Qui ?",
+                "es": "Who?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Napoleon’s mother is shown in the VIP gallery at the back!",
+                        "fr": "Le mère de Napoléon est peinte dans la galerie VIP dans le fond !",
+                        "es": "Napoleon’s mother is shown in the VIP gallery at the back!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 456,
+                        "Height": 400,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535034609/6mother.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But in fact, she famously didn’t attend, since she disagreed with the whole procedure!",
+                        "fr": "Mais en fait, elle n'est pas venue car elle n'était pas du tout d'accord avec la démarche",
+                        "es": "But in fact, she famously didn’t attend, since she disagreed with the whole procedure!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Talk about falling out with your mother…",
+                        "fr": "Sympa l'ambiance à la maison...",
+                        "es": "Talk about falling out with your mother…"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DavidCoronation4WhoChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "DavidCoronation4WhoElse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Who else is there?",
+                            "fr": "Qui d'autre est présent ?",
+                            "es": "Who else is there?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Pope Pius VII can be seen behind Napoleon, giving his blessing",
+                                    "fr": "Derrière Napoléon, on peut voir le pape Pie VII donnant sa bénédiction",
+                                    "es": "Pope Pius VII can be seen behind Napoleon, giving his blessing"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 490,
+                                    "Height": 503,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535034837/7pope_circled.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Originally, he was painted with his hands in his lap, but Napoleon himself ordered David to change the scene...",
+                                    "fr": "À l'origine, il a été peint avec les mains sur les genoux, mais Napoléon a ordonné à David de changer la scène...",
+                                    "es": "Originally, he was painted with his hands in his lap, but Napoleon himself ordered David to change the scene..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He wanted it to be clear that the Pope supported Napoleon’s position",
+                                    "fr": "Il voulait que le soutien du Pape pour sa position soit évidente",
+                                    "es": "He wanted it to be clear that the Pope supported Napoleon’s position"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "DavidCoronation4WhoElseStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "DavidCoronation4WhoElseSense",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Makes sense",
+                                        "fr": "C'est logique",
+                                        "es": "Makes sense"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "DavidCoronation5"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
