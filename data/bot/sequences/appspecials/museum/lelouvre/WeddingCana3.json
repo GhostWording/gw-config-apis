@@ -1,0 +1,32 @@
+{
+    "Type": "Node",
+    "Id": "WeddingCana3",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "WeddingCana4More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Dis m'en plus !",
+                "es": "Tell me more!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCana4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WeddingCana3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's enough",
+                "fr": "J'en sais assez",
+                "es": "That's enough"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCanaFeedback"
+            }
+        }
+    ]
+}
