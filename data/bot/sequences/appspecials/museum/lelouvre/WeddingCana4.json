@@ -1,0 +1,165 @@
+{
+    "Type": "Node",
+    "Id": "WeddingCana4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There really are a lot of people in this painting - 132, actually",
+                "fr": "Il y a vraiment beaucoup de personnages sur cette toile - 132, en fait",
+                "es": "There really are a lot of people in this painting - 132, actually"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It meant that Veronese could show off his skills by painting characters in many different poses, sizes, and colours!",
+                "fr": "Il s'agissait, pour Veronese, de faire étalage de ses talents en peignant des personnages dans beaucoup de poses, tailles et couleurs différentes !",
+                "es": "It meant that Veronese could show off his skills by painting characters in many different poses, sizes, and colours!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/WeddingCanaC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You could look at this painting for an hour and still be seeing new stuff!",
+                "fr": "Tu pourrais regarder cette oeuvre pendant une heure et quand même découvrir de nouveaux éléments !",
+                "es": "You could look at this painting for an hour and still be seeing new stuff!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "WeddingCana4Only",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Was he the only one?",
+                "fr": "Il était le seul ?",
+                "es": "Was he the only one?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Actually, this was popular in many paintings from that era!",
+                        "fr": "En fait, c'était populaire dans beaucoup de peintures de cette époque !",
+                        "es": "Actually, this was popular in many paintings from that era!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They loved to paint huge, grand crowd scenes with lots of things going on at once!",
+                        "fr": "Ils adoraient peindre d'immenses et grandioses foules avec beaucoup de choses qui se passent en même temps !",
+                        "es": "They loved to paint huge, grand crowd scenes with lots of things going on at once!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/museum/WeddingCanaC2.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That trend really suited these monks!",
+                        "fr": "Cette mode convenait parfaitement à ces moines !",
+                        "es": "That trend really suited these monks!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "WeddingCana4OnlyHow",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "WeddingCana4OnlyHow1",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How so?",
+                            "fr": "Comment ça ?",
+                            "es": "How so?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It’s perfect for being shown in a dining hall!",
+                                    "fr": "C'est parfait pour être affiché dans un réfectoire !",
+                                    "es": "It’s perfect for being shown in a dining hall!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It really brings it to life and makes the room seem much busier",
+                                    "fr": "Ça le rend vivant et donne l'impression que la pièce est bien plus remplie",
+                                    "es": "It really brings it to life and makes the room seem much busier"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana4.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Especially since the perspective in the painting would make it seem like it was part of the room!",
+                                    "fr": "Surtout dans la mesure où la perspective, dans le tableau, donne l'impression qu'il fait partie de la pièce !",
+                                    "es": "Especially since the perspective in the painting would make it seem like it was part of the room!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "WeddingCana4OnlyHowRightVsGet",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "WeddingCana4OnlyHowRight",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "You’re right!",
+                                        "fr": "Tu as raison !",
+                                        "es": "You’re right!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "WeddingCana5"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "WeddingCana4OnlyHowGet",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I don’t get it",
+                                        "fr": "Je ne comprends pas",
+                                        "es": "I don’t get it"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "WeddingCana5"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
