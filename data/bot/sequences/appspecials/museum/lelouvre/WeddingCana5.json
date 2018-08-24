@@ -29,7 +29,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "WeddingCana5Tell",
+      "Id": "WeddingCana5More",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Tell me more!",
@@ -42,7 +42,7 @@
     },
     {
       "Type": "Node",
-      "Id": "WeddingCana5OnlyHowGet",
+      "Id": "WeddingCana5Enough",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "That’s enough",
