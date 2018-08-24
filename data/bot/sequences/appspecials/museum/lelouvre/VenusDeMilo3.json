@@ -1,0 +1,56 @@
+{
+  "Type": "Node",
+  "Id": "VenusDeMilo3",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "As you may have noticed, she has no arms",
+        "fr": "Comme tu as pu le remarquer, la statut n'a pas de bras",
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Width": 796,
+        "Height": 649,
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040837/museum%20app/no_arm_Venus.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The French are to blame for that…",
+        "en": "C'est en partie à cause de Napoléon…"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "VenusDeMilo3FrenchAgain",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not again?!",
+        "fr": "D'accord…",
+      },
+      "LinksToFragment": {
+        "FragmentPath": "VenusDeMilo4"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "VenusDeMilo3FrenchHow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "How?",
+        "fr": "Pourquoi?",
+      },
+      "LinksToFragment": {
+        "FragmentPath": "VenusDeMilo4"
+      }
+    }
+  ]
+}
