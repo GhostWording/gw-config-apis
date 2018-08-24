@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "DavidCoronation",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s time to talk about a HUGE painting! Here’s the Coronation of Napoleon, by Jacques-Louis David, from 1807.",
+                "fr": "Il est temps de parler d'une peinture gigantesque ! Voici le Sacre de Napoléon, de Jacques-Louis David, réalisé en 1807",
+                "es": "It’s time to talk about a HUGE painting! Here’s the Coronation of Napoleon, by Jacques-Louis David, from 1807."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 770,
+                "Height": 481,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024913/1coronation_napoleon.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Did I mention this painting is huge?",
+                "fr": "Ai-je mentionné à quel point ce tableau est énorme ?",
+                "es": "Did I mention this painting is huge?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s one of the biggest in the whole museum!",
+                "fr": "C'est l'un des plus grands de tout le musée !",
+                "es": "It’s one of the biggest in the whole museum!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidCoronationEnormous",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enormous!",
+                "fr": "C'est gigantesque !",
+                "es": "That’s enormous!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronation2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DavidCoronationNotBig",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not so big",
+                "fr": "Pas si grand",
+                "es": "Not so big"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronation2"
+            }
+        }
+    ]
+}
