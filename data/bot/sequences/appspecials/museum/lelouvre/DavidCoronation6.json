@@ -1,0 +1,60 @@
+{
+    "Type": "Node",
+    "Id": "DavidCoronation6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As you might have guessed by now, while it’s Josephine being crowned superficially, this whole painting really is about Napoleon.",
+                "fr": "Comme tu l'as peut-être deviné, alors qu'en apparence c'est Joséphine qui est couronnée, toute la peinture tourne autour de Napoléon.",
+                "es": "As you might have guessed by now, while it’s Josephine being crowned superficially, this whole painting really is about Napoleon."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535044123/11napoleon_cross.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The entire composition is constructed to point towards him!",
+                "fr": "La composition entière est construite de manière à le mettre en avant !",
+                "es": "The entire composition is constructed to point towards him!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidCoronation6Heroic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So heroic",
+                "fr": "Tellement héroïque",
+                "es": "So heroic"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronation7"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DavidCoronation6Arrogant",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So arrogant",
+                "fr": "Tellement arrogant",
+                "es": "So arrogant"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronation7"
+            }
+        }
+    ]
+}
