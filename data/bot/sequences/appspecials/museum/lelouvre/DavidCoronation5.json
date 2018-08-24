@@ -1,0 +1,128 @@
+{
+    "Type": "Node",
+    "Id": "DavidCoronation5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, this was very important to Napoleon. The Holy Roman Emperor Charlemagne, too, was given the pope’s blessing many centuries before",
+                "fr": "En réalité, c'était même très important pour Napoléon. Bien des siècles auparavant, le Saint Empereur Romain Charlemagne avait également reçu la bénédiction du pape",
+                "es": "In fact, this was very important to Napoleon. The Holy Roman Emperor Charlemagne, too, was given the pope’s blessing many centuries before"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 460,
+                "Height": 599,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535034925/8charlemagne.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "and so by doing the same, Napoleon invites the favourable comparison",
+                "fr": "Ainsi, en faisant de même, Napoléon suscite la comparaison favorable",
+                "es": "and so by doing the same, Napoleon invites the favourable comparison"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Actually, that’s not the only person Napoleon is trying to compare himself to here",
+                "fr": "En fait, ce n'est pas la seule personne à laquelle Napoléon essaie de se comparer ici",
+                "es": "Actually, that’s not the only person Napoleon is trying to compare himself to here"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidCoronation5Who",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Who?",
+                "fr": "Qui d'autre ?",
+                "es": "Who?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Does this headdress remind you of anyone?",
+                        "fr": "Est-ce que cette coiffure te rappelle quelqu'un ?",
+                        "es": "Does this headdress remind you of anyone?"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 457,
+                        "Height": 311,
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535042057/napoleon_head_detail.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I hope you thought of the Roman emperors! Look at the resemblance!",
+                        "fr": "J'espère que tu as pensé aux empereurs romains ! Regarde la ressemblance !",
+                        "es": "I hope you thought of the Roman emperors! Look at the resemblance!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 348,
+                        "Height": 358,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535044679/10coin_laurel.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That’s definitely no accident!",
+                        "fr": "Ce n'est certainement pas un hasard !",
+                        "es": "That’s definitely no accident!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DavidCoronation5WhoChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "DavidCoronation5WhoNoSee",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I don’t see it",
+                            "fr": "Je ne remarque rien",
+                            "es": "I don’t see it"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "DavidCoronation6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "DavidCoronation5WhoWow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Wow!",
+                            "fr": "Wow !",
+                            "es": "Wow!"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "DavidCoronation6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
