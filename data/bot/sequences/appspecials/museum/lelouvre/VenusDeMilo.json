@@ -1,0 +1,88 @@
+{
+  "Type": "Node",
+  "Id": "VenusDeMilo",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Width": 406,
+        "Height": 578,
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040169/museum%20app/Venus_de_Milo.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "So, who is this?",
+        "fr": "Selon *toi*, qui est-ce?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "VenusDeMiloRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Venus"
+    *"fr": "Vénus"*
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "*Right!*",
+            "fr": "*Exact !*"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "VenusDeMilo2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "VenusDeMiloCleopatra",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Cleopatra"
+    *"fr": "Cléopâtre"*
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "*Not* quite, it’s Venus!",
+            "fr": "*Pas* vraiment.. il s'agit de Vénus *!*"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "VenusDeMilo2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "VenusDeMiloJuliet",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Juliet"
+    *"fr": "Juliette"*
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "*Not* quite, it’s Venus!",
+            "fr": "*Pas* vraiment.. il s'agit de Vénus *!*"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "VenusDeMilo2"
+      }
+    }
+  ]
+}
