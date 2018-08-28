@@ -1,0 +1,52 @@
+{
+    "Type": "Node",
+    "Id": "MedusaRaft6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Some viewers praised its realism, but others found it too frightening and graphic, calling it a monstrosity.",
+                "fr": "Certains visiteurs ont loué son réalisme, mais d'autres l'ont considéré comme une monstruosité car trop effrayant et trop graphique",
+                "es": "Some viewers praised its realism, but others found it too frightening and graphic, calling it a monstrosity."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The painting brought Géricault much fame, but he died tragically young at 32, and did not live to enjoy this new found fame and appreciation",
+                "fr": "Le tableau a rendu Géricault très connu, mais il est décédé à 32 ans et n'a donc pas pu profiter de cette notoriété et cette reconnaissance",
+                "es": "The painting brought Géricault much fame, but he died tragically young at 32, and did not live to enjoy this new found fame and appreciation"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Width": 422,
+                "Height": 458,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535040621/gericault.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If only he knew how popular it is nowadays!",
+                "fr": "Si seulement il savait à quel point il était reconnu désormais !",
+                "es": "If only he knew how popular it is nowadays!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Display": "FullScreenWidth",
+                "Width": 482,
+                "Height": 344,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535040746/meduse_in_louvre.jpg"
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "MedusaRaftFeedback"
+    }
+}
