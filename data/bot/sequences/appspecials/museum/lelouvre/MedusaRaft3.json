@@ -1,0 +1,116 @@
+{
+    "Type": "Node",
+    "Id": "MedusaRaft3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Meduse was a French war ship, and due to some poor navigating by the crew, she ran aground in 1816 on a sandbar",
+                "fr": "La Méduse était un navire de la Marine nationale qui s'est échoué sur un banc de sable à cause d'erreurs de navigation",
+                "es": "The Meduse was a French war ship, and due to some poor navigating by the crew, she ran aground in 1816 on a sandbar"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Width": 506,
+                "Height": 407,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035566/gulf_of_arguin.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Since there weren’t enough lifeboats, the passengers were forced to build a raft to try find safety… ",
+                "fr": "N'ayant pas assez de canots de sauvetage, les passagers ont dû construire un radeau pour s'en sortir…",
+                "es": "Since there weren’t enough lifeboats, the passengers were forced to build a raft to try find safety…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "149 people crammed onto this raft!",
+                "fr": "Ils se sont entassés à 149 dessus !",
+                "es": "149 people crammed onto this raft!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Width": 332,
+                "Height": 439,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035689/pic_of_raft.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It turned into a pretty horrible situation… they were stranded for 13 days, and only 10 sailors survived!",
+                "fr": "Le résultat était horrible… Leur périple a duré 13 jours et seuls 10 marins ont survécu",
+                "es": "It turned into a pretty horrible situation… they were stranded for 13 days, and only 10 sailors survived!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MedusaRaft3Awful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How awful!",
+                "fr": "C'est affreux !",
+                "es": "How awful!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As we might expect, the painting is pretty sad and horrific",
+                        "fr": "Comme on pouvait s'y attendre, la tableau est plutôt triste et effroyable",
+                        "es": "As we might expect, the painting is pretty sad and horrific"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Display": "FullScreenWidth",
+                        "Width": 673,
+                        "Height": 497,
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035835/raft_of_meduse_detail.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Many people who see the painting in real life report feeling sea-sick because of the realism of the waves and the colour scheme",
+                        "fr": "Beaucoup de personnes qui voient la peinture en vrai ont le mal de mer à cause du réalisme des vagues et des couleurs",
+                        "es": "Many people who see the painting in real life report feeling sea-sick because of the realism of the waves and the colour scheme"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MedusaRaft3AwfulStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MedusaRaft3AwfulColour",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "The colour scheme?",
+                            "fr": "Des couleurs ?",
+                            "es": "How so?"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MedusaRaft4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
