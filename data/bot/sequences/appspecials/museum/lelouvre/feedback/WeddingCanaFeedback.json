@@ -1,0 +1,91 @@
+{
+  "Type": "Node",
+  "Id": "WeddingCanaFeedback",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How did you like this story?",
+        "fr": "Comment as-tu trouvé cette histoire ?",
+        "es": "¿Cómo te pareció esta historia?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WeddingCanaFeedbackGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "It was great!",
+        "fr": "C'était super !",
+        "es": "¡Fue genial!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "Feedback",
+          "Parameters": {
+            "SequenceId": "WeddingCana",
+            "FeedbackValue": "Good"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WeddingCanaFeedbackGoodChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "WeddingCanaFeedbackGoodExit",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Retour",
+              "es": "Vuelta"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCanaFeedbackBad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Good enough",
+        "fr": "Assez bien",
+        "es": "Bastante bueno"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "Feedback",
+          "Parameters": {
+            "SequenceId": "WeddingCana",
+            "FeedbackValue": "Bad"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WeddingCanaFeedbackBadChoice",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "WeddingCanaFeedbackBadExit",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Exit",
+              "fr": "Retour",
+              "es": "Vuelta"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
