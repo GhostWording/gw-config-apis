@@ -1,0 +1,129 @@
+{
+    "Type": "Node",
+    "Id": "MedusaRaft5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Some sailors grasp fallen comrades in grief",
+                "fr": "Certains marins sont en deuil face à leurs camarades décédés",
+                "es": "Some sailors grasp fallen comrades in grief"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Display": "FullScreenWidth",
+                "Width": 661,
+                "Height": 551,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535036363/raft_of_meduse_grief.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And others look to the horizon, where a ship can be seen!",
+                "fr": "Et d'autres font des signes à un bateau à l'horizon !",
+                "es": "And others look to the horizon, where a ship can be seen!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Display": "FullScreenWidth",
+                "Width": 605,
+                "Height": 451,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535040485/meduse_ship_distance.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Is the ship sailing away or coming to their rescue?",
+                "fr": "Est-ce que le bateau s'en va ? Vient-il à leur rescousse ?",
+                "es": "Is the ship sailing away or coming to their rescue?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The sailors would not have known, and so are in a mix of excitement and despair",
+                "fr": "Les marins n'en savaient rien et étaient donc excités et désespéré à la fois",
+                "es": "The sailors would not have known, and so are in a mix of excitement and despair"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MedusaRaft5Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So sad",
+                "fr": "Tellement triste",
+                "es": "So sad"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In fact, it’s thought that this does indeed depict the ship that saved the remaining sailors after their ordeal",
+                        "fr": "En fait, on pense qu'il s'agit bien du navire qui a sauvé les survivants du périple",
+                        "es": "In fact, it’s thought that this does indeed depict the ship that saved the remaining sailors after their ordeal"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The story was widely reported and caused an international embarrassment for France because of the cannibalism involved!",
+                        "fr": "L'histoire a parcouru le globe et a embarrassé les Français à cause du cannibalisme qui s'y est déroulé",
+                        "es": "The story was widely reported and caused an international embarrassment for France because of the cannibalism involved!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Because of this, when Géricault had it painted and hung in an exhibition, it was extremely controversial!",
+                        "fr": "Ainsi, quand Géricault a fait exposer son tableau, ça a fait l'objet d'une controverse !",
+                        "es": "Because of this, when Géricault had it painted and hung in an exhibition, it was extremely controversial!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MedusaRaft5SadChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MedusaRaft5SadSurprising",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not surprising!",
+                            "fr": "Pas étonnant !",
+                            "es": "Not surprising!"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MedusaRaft6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MedusaRaft5SadUnfair",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not fair!",
+                            "fr": "C'est injuste !",
+                            "es": "Not fair!"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MedusaRaft6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
