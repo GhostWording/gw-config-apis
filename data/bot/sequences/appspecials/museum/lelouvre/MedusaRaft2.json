@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "MedusaRaft2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "But humans would! It happened! After the wreck of the Meduse in 1816.",
+        "fr": "Mais les humains le feraient ! C'est arrivé ! Après le naufrage de la Méduse en 1816. ",
+        "es": "But humans would! It happened! After the wreck of the Meduse in 1816."
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Width": 473,
+        "Height": 333,
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535034900/meduse.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "This painting by Théodore Géricault from 1818 depicts it!",
+        "fr": "Ce tableau de Théodore Géricault de 1818 illustre la scène !",
+        "es": "This painting by Théodore Géricault from 1818 depicts it!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Display": "FullScreenWidth",
+        "Width": 725,
+        "Height": 490,
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035289/raft_of_meduse_smaller.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Want to hear about it?",
+        "fr": "Ca te dit d'en entendre deux mots ?",
+        "es": "Want to hear about it?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "MedusaRaft2Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes!",
+        "fr": "Oui !",
+        "es": "Yes!"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "MedusaRaft3"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "MedusaRaft2Stop",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No thanks",
+        "fr": "Non merci",
+        "es": "No thanks"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "MedusaRaftFeedback"
+      }
+    }
+  ]
+}
