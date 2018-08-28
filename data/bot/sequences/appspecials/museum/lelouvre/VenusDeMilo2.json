@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Well, we think it’s Venus, anyway, or Aphrodite to the Greeks: the goddess of love",
-        "fr": "Enfin, on pense que c'est *Vénus*.. ou Aphrodite, comme les Grecs l'appelaient. C'est la déesse de l'Amour"
+        "fr": "Enfin, on pense que c'est Vénus.. ou Aphrodite, comme les Grecs l'appelaient. C'est la déesse de l'Amour"
       }
     },
     {
@@ -40,7 +40,7 @@
       "Type": "Text",
       "Label": {
         "en": "And because she’s larger than a typical woman… in other words… superhuman, like a goddess!",
-        "fr": "Et parce qu'elle est plus grande *que la* femme moyenne… sur-humaine, comme une déesse !"
+        "fr": "Et parce qu'elle est plus grande que la femme moyenne… sur-humaine, comme une déesse !"
       }
     },
   ],
@@ -51,7 +51,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "How tall?!",
-        "fr": "*Grande comment ?!*",
+        "fr": "Grande comment ?!",
       },
       "Steps": [
         {
@@ -97,7 +97,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "The statue was found by a farmer in 1820 on the island of Milos, hence the name “de Milo”",
-                  "fr": "La *statue* a été trouvée par un fermier en 1820, sur l'ile de Milos.. d'*où* som nom “de Milo”"
+                  "fr": "La statue a été trouvée par un fermier en 1820, sur l'ile de Milos.. d'où som nom “de Milo”"
                 }
               },
               {
@@ -111,7 +111,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "On that island, the goddess of the sea “Amphitrite” was particularly popular",
-                  "fr": "Sur cette *île*, la déesse de la mer “Amphitrite” était particulièrement populaire",
+                  "fr": "Sur cette île, la déesse de la mer “Amphitrite” était particulièrement populaire",
                 }
               },
               {
@@ -128,7 +128,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "So it could be her, too! Scholars love to argue about it to this day!",
-                  "en": "Cette *statue* pourrait tout aussi bien représenter “Amphitrite”! Les spécialistes aiment débattre sur ce sujet, encore aujourd'hui !"
+                  "en": "Cette statue pourrait tout aussi bien représenter “Amphitrite”! Les spécialistes aiment débattre sur ce sujet, encore aujourd'hui !"
                 }
               }
             ],
@@ -143,7 +143,7 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "I vote Venus"
-                    *"fr": "Je vote Vénus"*
+                    "fr": "Je vote Vénus"
                   },
                   "LinksToFragment": {
                     "FragmentPath": "VenusDeMilo3"
