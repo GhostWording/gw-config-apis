@@ -1,0 +1,85 @@
+{
+    "Type": "Node",
+    "Id": "MedusaRaft4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Géricault used a strong contrast between light colours and dark to make the scene look bleak, and make the sickly looking skin stand out",
+                "fr": "Géricault a utilisé la technique du clair-obscur pour rendre la scène sombre et faire ressortir la couleur de peau des marins malades",
+                "es": "Géricault used a strong contrast between light colours and dark to make the scene look bleak, and make the sickly looking skin stand out"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Display": "FullScreenWidth",
+                "Width": 619,
+                "Height": 440,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535036119/meduse_sickly.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is the palette for the painting!",
+                "fr": "Voici la palette de couleurs du tableau !",
+                "es": "Here is the palette for the painting"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Width": 400,
+                "Height": 400,
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535036207/meduse_palette.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Furthermore, he used bitumen for the dark colours, which over the years has degraded and darkened even further",
+                "fr": "En plus, il a utilisé du bitume pour les teintures foncées, qui s'est dégradé et obscurci avec le temps",
+                "es": "Furthermore, he used bitumen for the dark colours, which over the years has degraded and darkened even further"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This means that the darks are even more exaggerated, and eventually the painting may disappear altogether!",
+                "fr": "Cela rend le tableau encore plus obscur, la peinture pourrait même disparaître complètement !",
+                "es": "This means that the darks are even more exaggerated, and eventually the painting may disappear altogether!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MedusaRaft4More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more",
+                "fr": "Dis m'en plus",
+                "es": "Tell me more"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MedusaRaft5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MedusaRaftEnough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "That’s enough"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MedusaRaftFeedback"
+            }
+        }
+    ]
+}
