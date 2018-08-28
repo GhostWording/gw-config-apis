@@ -13,5 +13,110 @@
       "Artist" : "Leonardo da Vinci",
       "SequenceId": "MonaTheft",
       "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "DavidCoronation",
+    "Caption": {
+      "en": "The Coronation of Napoleon",
+      "fr": "The Coronation of Napoleon",
+      "es": "The Coronation of Napoleon"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Jacques-Louis David",
+      "SequenceId": "DavidCoronation",
+      "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "Lamassu",
+    "Caption": {
+      "en": "Lamassus from Dur-Sharrukin",
+      "fr": "Lamassus from Dur-Sharrukin",
+      "es": "Lamassus from Dur-Sharrukin"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "Lamassu",
+      "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "LibertyLeading",
+    "Caption": {
+      "en": "Liberty Leading the People",
+      "fr": "Liberty Leading the People",
+      "es": "Liberty Leading the People"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Eugène Delacroix",
+      "SequenceId": "LibertyLeading",
+      "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "LouisXIV",
+    "Caption": {
+      "en": "Liberty Leading the People",
+      "fr": "Liberty Leading the People",
+      "es": "Liberty Leading the People"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Hyacinthe Rigaud",
+      "SequenceId": "LouisXIV",
+      "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "VenusDeMilo",
+    "Caption": {
+      "en": "Venus de Milo",
+      "fr": "Venus de Milo",
+      "es": "Venus de Milo"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Unknown",
+      "SequenceId": "VenusDeMilo",
+      "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "MedusaRaft",
+    "Caption": {
+      "en": "The Raft of the Medusa",
+      "fr": "The Raft of the Medusa",
+      "es": "The Raft of the Medusa"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Théodore Géricault",
+      "SequenceId": "MedusaRaft",
+      "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "WeddingCana",
+    "Caption": {
+      "en": "The Wedding at Cana",
+      "fr": "The Wedding at Cana",
+      "es": "The Wedding at Cana"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
+      "Artist" : "Paolo Veronese",
+      "SequenceId": "WeddingCana",
+      "LocationSequenceId":"BritishMuseumMap"
   }
 ]
