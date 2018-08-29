@@ -1,0 +1,91 @@
+{
+    "Type": "Node",
+    "Id": "ChessmenFeedback",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How did you like this story?",
+                "fr": "Comment as-tu trouvé cette histoire ?",
+                "es": "¿Cómo te pareció esta historia?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ChessmenFeedbackGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It was great!",
+                "fr": "C'était super !",
+                "es": "¡Fue genial!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Chessmen",
+                        "FeedbackValue": "Good"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ChessmenFeedbackGoodChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ChessmenFeedbackGoodExit",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exit",
+                            "fr": "Retour",
+                            "es": "Vuelta"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChessmenFeedbackBad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good enough",
+                "fr": "Assez bien",
+                "es": "Bastante bueno"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Chessmen",
+                        "FeedbackValue": "Bad"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ChessmenFeedbackBadChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ChessmenFeedbackBadExit",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exit",
+                            "fr": "Retour",
+                            "es": "Vuelta"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
