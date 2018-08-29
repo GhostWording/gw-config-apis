@@ -1,0 +1,91 @@
+{
+    "Type": "Node",
+    "Id": "RosettaFeedback",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How did you like this story?",
+                "fr": "Comment as-tu trouvé cette histoire ?",
+                "es": "¿Cómo te pareció esta historia?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RosettaFeedbackGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It was great!",
+                "fr": "C'était super !",
+                "es": "¡Fue genial!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Rosetta",
+                        "FeedbackValue": "Good"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RosettaFeedbackGoodChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RosettaFeedbackGoodExit",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exit",
+                            "fr": "Retour",
+                            "es": "Vuelta"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "RosettaFeedbackBad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good enough",
+                "fr": "Assez bien",
+                "es": "Bastante bueno"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Rosetta",
+                        "FeedbackValue": "Bad"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RosettaFeedbackBadChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RosettaFeedbackBadExit",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exit",
+                            "fr": "Retour",
+                            "es": "Vuelta"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
