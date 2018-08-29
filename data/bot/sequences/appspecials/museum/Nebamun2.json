@@ -178,7 +178,7 @@
                     "ElementValue": "1",
                     "Commands": [
                       {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "Nebamun2MoreSenseMoreThanks",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -210,7 +210,10 @@
                               "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
                             }
                           }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                          "FragmentPath": "NebamunFeedback"
+                        }
                       }
                     ]
                   }
@@ -222,7 +225,7 @@
       }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "Nebamun2Enough",
       "ElementValue": "1",
       "CommandLabel": {
@@ -262,7 +265,10 @@
             "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
           }
         }
-      ]
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "NebamunFeedback"
+      }
     }
   ]
 }
