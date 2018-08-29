@@ -1,14 +1,12 @@
 {
     "Experiments": [
         { 
-            "Name": "NotificationAlert",
+            "Name": "PayAlert",
             "Variations": {
-                "0" : "CustomAlert", 
-                "1" : "CustomAlert", 
-                "2" : "SystemAlert", 
-                "3" : "SystemAlert",
-                "4" : "SystemAlertAfterAppInit",
-                "5" : "SystemAlertAfterAppInit"
+                "6" : "InsteadOfAdvert", 
+                "7" : "InsteadOfAdvert", 
+                "8" : "AfterAdvert", 
+                "9" : "AfterAdvert"
             }
         }
     ]
