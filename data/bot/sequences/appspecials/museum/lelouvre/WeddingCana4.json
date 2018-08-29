@@ -79,12 +79,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "WeddingCana4OnlyHow",
+                "Id": "WeddingCana4OnlyStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "WeddingCana4OnlyHow1",
+                        "Id": "WeddingCana4OnlyHow",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "How so?",
@@ -111,6 +111,7 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Display":"FullScreenWidth",
                                     "Source": "Web",
                                     "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana4.jpg"
                                 }
@@ -119,7 +120,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Especially since the perspective in the painting would make it seem like it was part of the room!",
-                                    "fr": "Surtout dans la mesure où la perspective dans le tableau donne l'impression qu'il fait partie de la pièce !",
+                                    "fr": "Surtout dans la mesure où la perspective, dans le tableau, donne l'impression qu'il fait partie de la pièce !",
                                     "es": "Especially since the perspective in the painting would make it seem like it was part of the room!"
                                 }
                             }
