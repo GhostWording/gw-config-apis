@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god.",
-                "fr": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god.",
+                "fr": "Le garçon a survécu, et plus tard pendant son règne, il a affiché plusieurs de ces pierres qui annonçaient, entre autres, qu'il était devenu un dieu. ",
                 "es": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god."
             }
         },
@@ -21,7 +21,7 @@
             "Type": "Text",
             "Label": {
                 "en": "How modest of him!",
-                "fr": "How modest of him!",
+                "fr": "Comme c'est modeste de sa part !",
                 "es": "How modest of him!"
             }
         }
@@ -33,7 +33,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Seems reasonable",
-                "fr": "Seems reasonable",
+                "fr": "Cela semble raisonnable",
                 "es": "Seems reasonable"
             },
             "Steps": [
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!",
-                        "fr": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!",
+                        "fr": "Ainsi, les pierres sont vraiment énormes, et ont été écrites en trois langues, de sortes qu'autant de monde que possible puisse le lire !",
                         "es": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!"
                     }
                 },
@@ -57,7 +57,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "After all, Ptolemy wanted everyone to know that he was a god!",
-                        "fr": "After all, Ptolemy wanted everyone to know that he was a god!",
+                        "fr": "Après tout, Ptolémée voulait que tout le monde sache que c'était un dieu !",
                         "es": "After all, Ptolemy wanted everyone to know that he was a god!"
                     }
                 },
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Want to hear about how it was found?",
-                        "fr": "Want to hear about how it was found?",
+                        "fr": "Tu veux savoir comment la Pierre de Rosette a été trouvée ?",
                         "es": "Want to hear about how it was found?"
                     }
                 }
@@ -81,7 +81,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let’s hear!",
-                            "fr": "Let’s hear!",
+                            "fr": "Avec plaisir !",
                             "es": "Let’s hear!"
                         },
                         "LinksToFragment": {
@@ -89,13 +89,16 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "Rosetta4ReasonableNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
-                            "fr": "No thanks",
+                            "fr": "Non merci",
                             "es": "No thanks"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "RosettaFeedback"
                         }
                     }
                 ]
