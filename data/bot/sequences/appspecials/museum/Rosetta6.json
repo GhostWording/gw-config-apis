@@ -49,11 +49,7 @@
       }
     }
   ],
-  "Commands": [
-    {
-      "LinksToFragment": {
-        "FragmentPath": "RosettaFeedback"
-      }
-    }
-  ]
+  "LinksToFragment": {
+    "FragmentPath": "RosettaFeedback"
+  }
 }
