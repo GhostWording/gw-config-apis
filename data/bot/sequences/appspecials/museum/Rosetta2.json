@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Ancient Greek? Hieroglyphs?",
-                "fr": "Ancient Greek? Hieroglyphs?",
+                "fr": "Le Grec ancien ? Les hiéroglyphes ?",
                 "es": "Ancient Greek? Hieroglyphs?"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "If so, you might have been useful in helping to decipher this!",
-                "fr": "If so, you might have been useful in helping to decipher this!",
+                "fr": "Si oui, tu aurais peut-être pu aider à déchiffrer cela !",
                 "es": "If so, you might have been useful in helping to decipher this!"
             }
         },
@@ -30,7 +30,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!",
-                "fr": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!",
+                "fr": "Eh oui, la clé pour déchiffrer les scripts égyptiens était un morceau de pierre avec des inscriptions à propos des taxes !",
                 "es": "Yep, that’s right, the key to deciphering Egyptian scripts was a chunk of rock with an inscription talking about tax!"
             }
         }
@@ -42,7 +42,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "I love tax decrees",
-                "fr": "I love tax decrees",
+                "fr": "J'adore les décrets fiscaux",
                 "es": "I love tax decrees"
             },
             "Steps": [
@@ -50,7 +50,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!",
-                        "fr": "Wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!",
+                        "fr": "Wow, le roi égyptien Ptolémée V aussi ! Peut-être que vous auriez été amis !",
                         "es": "Wow, so did King Ptolemy V of Egypt! Maybe you guys would have been friends!"
                     }
                 }
@@ -65,7 +65,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me about it!",
-                "fr": "Tell me about it!",
+                "fr": "Dis m'en plus !",
                 "es": "Tell me about it!"
             },
             "Steps": [
@@ -73,7 +73,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The stone was one of many created by King Ptolemy V of Egypt!",
-                        "fr": "The stone was one of many created by King Ptolemy V of Egypt!",
+                        "fr": "Ptomélée V a créé de nombreuses pierres comme celle-ci !",
                         "es": "The stone was one of many created by King Ptolemy V of Egypt!"
                     }
                 }
