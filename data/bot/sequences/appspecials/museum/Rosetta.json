@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "How many languages do you speak?",
-        "fr": "How many languages do you speak?",
+        "fr": "Combien de langues parles-tu ?",
         "es": "How many languages do you speak?"
       }
     }
@@ -18,7 +18,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "One",
-        "fr": "One",
+        "fr": "Une",
         "es": "One"
       },
       "Steps": [
@@ -26,7 +26,7 @@
           "Type": "Text",
           "Label": {
             "en": "Is it Demotic Egyptian?…",
-            "fr": "Is it Demotic Egyptian?…",
+            "fr": "Est-ce qu'il s'agit de l'Egyptien démotique ?…",
             "es": "Is it Demotic Egyptian?…"
           }
         }
@@ -41,7 +41,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Two",
-        "fr": "Two",
+        "fr": "Deux",
         "es": "Two"
       },
       "Steps": [
@@ -49,7 +49,7 @@
           "Type": "Text",
           "Label": {
             "en": "Wow! Is Demotic Egyptian one of them?",
-            "fr": "Wow! Is Demotic Egyptian one of them?",
+            "fr": "Wow! Est-ce que l'une d'entre elles est l'Egyptien démotique ?",
             "es": "Wow! Is Demotic Egyptian one of them?"
           }
         }
@@ -64,7 +64,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "More",
-        "fr": "More",
+        "fr": "Plus",
         "es": "More"
       },
       "Steps": [
@@ -72,7 +72,7 @@
           "Type": "Text",
           "Label": {
             "en": "Wow! Is Demotic Egyptian one of them?",
-            "fr": "Wow! Is Demotic Egyptian one of them?",
+            "fr": "Wow! Est-ce que l'une d'entre elles est l'Egyptien démotique ?",
             "es": "Wow! Is Demotic Egyptian one of them?"
           }
         }
