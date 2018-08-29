@@ -13,6 +13,7 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display":"FullScreenWidth",
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana.jpg"
             }
