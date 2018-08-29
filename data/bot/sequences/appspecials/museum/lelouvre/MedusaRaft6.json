@@ -46,19 +46,7 @@
           }
       }
   ],
-  "Commands" : [
-    {
-      "Type": "Node",
-      "Id": "MedusaRaft6Feedback",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Ok",
-        "fr": "Ok",
-        "es": "Ok"
-      },
-      "LinksToFragment": {
-        "FragmentPath": "MedusaRaftFeedback"
-      }
-    }
-  ]
+  "LinksToFragment": {
+    "FragmentPath": "MedusaRaftFeedback"
+  } 
 }
