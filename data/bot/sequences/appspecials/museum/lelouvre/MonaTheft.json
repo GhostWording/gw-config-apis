@@ -73,13 +73,16 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "MonaTheftTellNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Not interested",
                             "fr": "Pas intéressé(e)",
                             "es": "Not interested"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaTheftFeedback"
                         }
                     }
                 ]
