@@ -11,7 +11,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "RedirectToMapBot",
       "ElementValue": "1",
       "CommandLabel": {
@@ -31,8 +31,28 @@
             "Type": "MapBot",
             "FragmentToOpen": "BritishMuseumMap"
           }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Unless"
+          }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RedirectToMapBot2",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "RedirectToMapBot",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Let's go"
+            }
+          }
+        ]
+      }
     }
   ]
 }
