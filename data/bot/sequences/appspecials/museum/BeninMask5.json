@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "There’s also something really cool about this mask… look at the top!",
-                "fr": "There’s also something really cool about this mask… look at the top!",
+                "fr": "Il y a quelque chose de vraiment cool dans ce masque... regarde en haut !",
                 "es": "There’s also something really cool about this mask… look at the top!"
             }
         },
@@ -22,7 +22,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Any idea what those are?",
-                "fr": "Any idea what those are?",
+                "fr": "Est-ce que tu as une idée de ce que c'est ?",
                 "es": "Any idea what those are?"
             }
         }
@@ -34,7 +34,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "People",
-                "fr": "People",
+                "fr": "Des gens",
                 "es": "People"
             },
             "Steps": [
@@ -42,7 +42,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Right!",
-                        "fr": "Right!",
+                        "fr": "Exact !",
                         "es": "Right!"
                     }
                 }
@@ -57,7 +57,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Animals",
-                "fr": "Animals",
+                "fr": "Des animaux",
                 "es": "Animals"
             },
             "Steps": [
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Not quite, they’re actually people!",
-                        "fr": "Not quite, they’re actually people!",
+                        "fr": "Pas vraiment, ce sont des gens en réalité !",
                         "es": "Not quite, they’re actually people!"
                     }
                 }
