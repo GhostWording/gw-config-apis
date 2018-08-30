@@ -32,22 +32,8 @@
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "LamassuFeedbackGoodChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "LamassuFeedbackGoodExit",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Exit",
-                            "fr": "Retour",
-                            "es": "Vuelta"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
             }
         },
         {
