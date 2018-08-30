@@ -10,20 +10,27 @@
             }
         },
         {
+            "Type": "Text",
+            "Label": {
+                "en": "On the FIRST FLOOR",
+                "fr": "On the FIRST FLOOR"
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Width": 1806,
                 "Height": 899,
                 "Display": "FullScreenWidth",
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535635720/SullyWingHighlight.png"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535638123/SullyWingHighlight.png"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "It's on the first floor!",
-                "fr": "It's on the first floor!"
+                "en": "It's right here!",
+                "fr": "It's right here!"
             }
         },
         {
