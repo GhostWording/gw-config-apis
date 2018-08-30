@@ -13,7 +13,7 @@
             "Type": "Text",
             "Label": {
                 "en": "What do you think this is?",
-                "fr": "What do you think this is?",
+                "fr": "Qu'est-ce que tu penses que c'est ?",
                 "es": "What do you think this is?"
             }
         }
@@ -25,7 +25,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "A mask!",
-                "fr": "A mask!",
+                "fr": "Un masque!",
                 "es": "A mask!"
             },
             "Steps": [
@@ -33,7 +33,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Correct!",
-                        "fr": "Correct!",
+                        "fr": "Correct !",
                         "es": "Correct!"
                     }
                 }
@@ -48,7 +48,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "A weapon",
-                "fr": "A weapon",
+                "fr": "Une arme",
                 "es": "A weapon"
             },
             "Steps": [
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Not quite, it’s a mask!",
-                        "fr": "Not quite, it’s a mask!",
+                        "fr": "Pas vraiment, c'est un masque !",
                         "es": "Not quite, it’s a mask!"
                     }
                 }
