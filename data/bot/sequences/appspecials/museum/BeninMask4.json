@@ -14,7 +14,7 @@
       "Type": "Text",
       "Label": {
         "en": "That’s some serious craftsmanship needed to make this!",
-        "fr": "That’s some serious craftsmanship needed to make this!",
+        "fr": "Il faut un sacré savoir-faire pour réaliser cela !",
         "es": "That’s some serious craftsmanship needed to make this!"
       }
     }
@@ -26,7 +26,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "So impressive",
-        "fr": "So impressive",
+        "fr": "Très impressionnant",
         "es": "So impressive"
       },
       "Steps": [
@@ -34,7 +34,7 @@
           "Type": "Text",
           "Label": {
             "en": "Right?!",
-            "fr": "Right?!",
+            "fr": "N'est-ce pas ?!",
             "es": "Right?!"
           }
         }
@@ -49,7 +49,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "I could do that",
-        "fr": "I could do that",
+        "fr": "Je pourrais faire pareil",
         "es": "I could do that"
       },
       "Steps": [
@@ -57,7 +57,7 @@
           "Type": "Text",
           "Label": {
             "en": "Make one for me!",
-            "fr": "Make one for me!",
+            "fr": "Tu peux m'en faire un alors ?",
             "es": "Make one for me!"
           }
         }
