@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Where would you wear it?",
-        "fr": "Where would you wear it?",
+        "fr": "Où est-ce que tu le porterais ?",
         "es": "Where would you wear it?"
       }
     }
@@ -18,7 +18,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "My face!",
-        "fr": "My face!",
+        "fr": "Sur mon visage !",
         "es": "My face!"
       },
       "Steps": [
@@ -26,7 +26,7 @@
           "Type": "Text",
           "Label": {
             "en": "Well… it was originally worn around the waist!",
-            "fr": "Well… it was originally worn around the waist!",
+            "fr": "Eh bien... c'était à l'origine porté à la taille !",
             "es": "Well… it was originally worn around the waist!"
           }
         },
@@ -34,7 +34,7 @@
           "Type": "Text",
           "Label": {
             "en": "Amazing, right?!",
-            "fr": "Amazing, right?!",
+            "fr": "Incroyable, n'est-ce pas ?!",
             "es": "Amazing, right?!"
           }
         }
@@ -49,7 +49,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "My waist!",
-        "fr": "My waist!",
+        "fr": "A la taille !",
         "es": "My waist!"
       },
       "Steps": [
@@ -57,7 +57,7 @@
           "Type": "Text",
           "Label": {
             "en": "Smart! That’s where it was originally worn, too!",
-            "fr": "Smart! That’s where it was originally worn, too!",
+            "fr": "Bien vu ! C'est là qu'il était porté à l'origine !",
             "es": "Smart! That’s where it was originally worn, too!"
           }
         }
