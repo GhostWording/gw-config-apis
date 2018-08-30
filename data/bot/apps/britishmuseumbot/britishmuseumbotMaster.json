@@ -2,6 +2,7 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/Andreas/RandomizeNotTrue.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Victor/ChooseLouvreStory.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
