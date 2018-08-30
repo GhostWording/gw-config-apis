@@ -1,0 +1,16 @@
+{
+    "Type": "Node",
+    "Id": "Exit",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ExitPress",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Exit",
+                "fr": "Retour",
+                "es": "Vuelta"
+            }
+        }
+    ]
+}
