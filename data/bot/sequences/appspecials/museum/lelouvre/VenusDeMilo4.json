@@ -2,176 +2,175 @@
     "Type": "Node",
     "Id": "VenusDeMilo4",
     "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Well, in 1803, Napoleon’s armies took from the Italians a similar statue… the Venus de Medici",
-          "fr": "En 1803, l'armée de Napoléon a pris une statue similaire des mains des Italiens… la Vénus de Médicis"
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, in 1803, Napoleon’s armies took from the Italians a similar statue… the Venus de Medici",
+                "fr": "En 1803, l'armée de Napoléon a pris une statue similaire des mains des Italiens… la Vénus de Médicis"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 615,
+                "Height": 799,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/Venus_de_Medicis.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And it became hugely popular among the French public",
+                "fr": "Et elle est rapidement devenue populaire auprès du public français"
+            }
         }
-      },
-      {
-        "Type": "Image",
-        "Parameters": {
-          "Width": 615,
-          "Height": 799,
-          "Display": "FullScreenWidth",
-          "Source": "Web",
-          "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/Venus_de_Medicis.jpg"
-        }
-      },
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "And it became hugely popular among the French public",
-          "fr": "Et elle est rapidement devenue populaire auprès du public français"
-        }
-      }
     ],
     "Commands": [
-      {
-        "Type": "Node",
-        "Id": "VenusDeMilo4Then",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "And then?",
-          "fr": "Et ensuite ?"
-        },
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "After Napoleon’s fall, the statue was returned to Italy in 1815 as a sign of good will!",
-              "fr": "Après la chute de Napoléon, la statue fut rapatriée en Italie en 1815, comme un signe de bonne volonté"
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Which left the public without their favourite statue…",
-              "fr": "Mais ce rapatriement a laissé le public français orphelin de sa statue préférée..."
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "So, when the new statue was found on Milos, the French government were very keen to identify it as “Venus” to replace the lost Medici piece!",
-              "fr": "Quand la nouvelle statue fut découverte 5 ans plus tard sur l'île de Milos, le gouvernement français était très enclin à la rebaptiser “Vénus”, pour remplacer la “Vénus de Médicis”"
-            }
-          }
-        ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "VenusDeMilo4SoWhat",
-          "ElementValue": "1",
-          "Commands": [
-            {
-              "Type": "Node",
-              "Id": "VenusDeMilo4Arms",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "So what?",
-                "fr": "Et après ?"
-              },
-              "Steps": [
+        {
+            "Type": "Node",
+            "Id": "VenusDeMilo4Then",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "And then?",
+                "fr": "Et ensuite ?"
+            },
+            "Steps": [
                 {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Well, it’s possible that they were so keen to do this that they tampered with some evidence, including the arms and the plinth that accompanied it when it was found!",
-                    "fr": "Et bien, il est possible qu'ils aient été si tentés de changer son identité qu'ils auraient falsifié quelques preuves, par exemple, les bras et le socle de la statue quand elle a été trouvée !"
-                  }
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After Napoleon’s fall, the statue was returned to Italy in 1815 as a sign of good will!",
+                        "fr": "Après la chute de Napoléon, la statue fut rapatriée en Italie en 1815, comme un signe de bonne volonté"
+                    }
                 },
                 {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Giphy",
-                    "Path": "rDkX4wvlwOcWQ"
-                  }
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Which left the public without their favourite statue…",
+                        "fr": "Mais ce rapatriement a laissé le public français orphelin de sa statue préférée..."
+                    }
                 },
                 {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Regardless, it worked! The new “Venus” from Milos became just as popular as the Medici piece!",
-                    "fr": "En tous cas, ça a marché. La nouvelle “Vénus” (de Milo) est devenue aussi populaire que la “Vénus” de Médicis !"
-                  }
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, when the new statue was found on Milos, the French government were very keen to identify it as “Venus” to replace the lost Medici piece!",
+                        "fr": "Quand la nouvelle statue fut découverte 5 ans plus tard sur l'île de Milos, le gouvernement français était très enclin à la rebaptiser “Vénus”, pour remplacer la “Vénus de Médicis”"
+                    }
                 }
-              ],
-              "LinksTo": {
+            ],
+            "LinksTo": {
                 "Type": "Node",
-                "Id": "VenusDeMilo4ItWorked",
+                "Id": "VenusDeMilo4ThenStep",
                 "ElementValue": "1",
                 "Commands": [
-                  {
-                    "Type": "Node",
-                    "Id": "VenusDeMilo4HowFrustrating",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "How frustrating!",
-                      "fr": "Quel dommage !"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "The lack of arms has actually added to the statue’s popularity even more, too!",
-                          "fr": "Le fait qu'elle n'ait pas de bras l'a d'ailleurs rendue encore plus célèbre !"
-                        }
-                      },
-                      {
-                        "Type": "Image",
-                        "Parameters": {
-                          "Width": 545,
-                          "Height": 944,
-                          "Display": "FullScreenWidth",
-                          "Source": "Web",
-                          "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/Venus_de_Milo_with_arms.jpg"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "People love to guess what she might have looked like with them, like in the picture above!",
-                          "fr": "Les gens adorent deviner ce à quoi elle pourrait ressembler avec ses bras, comme dans la photo ci-dessus"
-                        }
-                      }
-                    ],
-                    "LinksTo": {
-                      "Type": "Node",
-                      "Id": "VenusDeMilo4Transition",
-                      "ElementValue": "1",
-                      "Commands": [
-                        {
-                          "Type": "Node",
-                          "Id": "VenusDeMilo4WhatElse",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "What else?",
-                            "fr": "Et quoi d'autre ?"
-                          },
-                          "LinksToFragment": {
-                            "FragmentPath": "VenusDeMilo5"
-                          }
+                    {
+                        "Type": "Node",
+                        "Id": "VenusDeMilo4ThenSo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "So what?",
+                            "fr": "Et après ?"
                         },
-                        {
-                          "Type": "Node",
-                          "Id": "VenusDeMilo4ThatsEnough",
-                          "ElementValue": "1",
-                          "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "J'en sais assez"
-                          },
-                          "LinksToFragment": {
-                            "FragmentPath": "VenusDeMiloFeedback"
-                          }
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, it’s possible that they were so keen to do this that they tampered with some evidence, including the arms and the plinth that accompanied it when it was found!",
+                                    "fr": "Et bien, il est possible qu'ils aient été si tentés de changer son identité qu'ils auraient falsifié quelques preuves, par exemple, les bras et le socle de la statue quand elle a été trouvée !"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "rDkX4wvlwOcWQ"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, it worked! The new “Venus” from Milos became just as popular as the Medici piece!",
+                                    "fr": "En tous cas, ça a marché. La nouvelle “Vénus” (de Milo) est devenue aussi populaire que la “Vénus” de Médicis !"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "VenusDeMilo4ThenSoStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "VenusDeMilo4ThenSoFrustrating",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "How frustrating!",
+                                        "fr": "Quel dommage !"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The lack of arms has actually added to the statue’s popularity even more, too!",
+                                                "fr": "Le fait qu'elle n'ait pas de bras l'a d'ailleurs rendue encore plus célèbre !"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Width": 545,
+                                                "Height": 944,
+                                                "Display": "FullScreenWidth",
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/Venus_de_Milo_with_arms.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "People love to guess what she might have looked like with them, like in the picture above!",
+                                                "fr": "Les gens adorent deviner ce à quoi elle pourrait ressembler avec ses bras, comme dans la photo ci-dessus"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "VenusDeMilo4ThenSoFrustratingStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "VenusDeMilo4ThenSoFrustratingElse",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "What else?",
+                                                    "fr": "Et quoi d'autre ?"
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "VenusDeMilo5"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "VenusDeMilo4ThenSoFrustratingEnough",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "That’s enough",
+                                                    "fr": "J'en sais assez"
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "VenusDeMiloFeedback"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
                         }
-                      ]
                     }
-                  }
                 ]
-              }
             }
-          ]
         }
-      }
     ]
-  }
-  
+}
