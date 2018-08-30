@@ -110,6 +110,15 @@
                                 }
                             },
                             {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 720,
+                                    "Height": 480,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535622929/museum%20app/Wrecked_Ship.jpg"
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I guess Blackbeard had a taste for Ancient Mesopotamian sculpture as well as rum and pieces of eight!",
