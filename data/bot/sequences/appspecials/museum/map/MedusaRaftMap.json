@@ -1,0 +1,52 @@
+{
+    "Type": "Node",
+    "Id": "MedusaRaftMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This painting is in the Sully Wing (SOUTH)",
+                "fr": "This painting is in the Sully Wing (SOUTH)"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 1806,
+                "Height": 899,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535635720/SullyWingHighlight.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's on the first floor!",
+                "fr": "It's on the first floor!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 641,
+                "Height": 484,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535635395/MedusaRaftMapClose.png"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "MedusaRaftMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Exit",
+            "es": "Exit"
+          }
+        }
+    ]
+}
