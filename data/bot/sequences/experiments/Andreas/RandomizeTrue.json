@@ -1,0 +1,55 @@
+{
+  "Type": "Node",
+  "Id": "RandomizeTrue",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which singer do you prefer? 🎶",
+        "fr": "Quelle est ta chanteuse préférée ? 🎶",
+        "es": "¿Quién es tu cantante favorita? 🎶"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Beyonce",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Beyonce",
+        "fr": "Beyonce",
+        "es": "Beyonce"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "n4WpP39mwWrmg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Rihanna",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Rihanna",
+        "fr": "Rihanna",
+        "es": "Rihanna"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "k1SuVPEuA89S8"
+          }
+        }
+      ]
+    }
+  ]
+}
