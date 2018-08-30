@@ -23,14 +23,14 @@
       "Type": "Text",
       "Label": {
         "en": "The French are to blame for that…",
-        "en": "C'est en partie à cause de Napoléon…"
+        "fr": "C'est en partie à cause de Napoléon…"
       }
     }
   ],
   "Commands": [
     {
       "Type": "Node",
-      "Id": "VenusDeMilo3FrenchAgain",
+      "Id": "VenusDeMilo3French",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Not again?!",
