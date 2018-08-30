@@ -69,22 +69,8 @@
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "ChessmenFeedbackBadChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "ChessmenFeedbackBadExit",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Exit",
-                            "fr": "Retour",
-                            "es": "Vuelta"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
             }
         }
     ]
