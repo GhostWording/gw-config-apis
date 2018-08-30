@@ -3,8 +3,9 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]}
+            { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/MedusaRaft6.json"]},
+            { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+            { "order" : 20, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]}
          ]
     }
 ]
