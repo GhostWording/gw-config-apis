@@ -7,6 +7,8 @@
             "Parameters": {
                 "Source": "Web",
                 "Display":"FullScreenWidth",
+                "Width": 763,
+                "Height": 1002,
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534865763/3.1lamassu_legs.jpg"
             }
         },
@@ -22,6 +24,8 @@
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
+                "Width": 412,
+                "Height": 610,
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776460/3lamassu_front.jpg"
             }
         },
@@ -37,6 +41,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display":"FullScreenWidth",
+                "Width": 500,
+                "Height": 463,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534778252/4lamassu_walkingbis.jpg"
             }
@@ -72,7 +78,9 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Display":"FullScreenWidth",
+                        "Display":"FullScreenWidth",                
+                        "Width": 757,
+                        "Height": 579,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776996/5lamassu_map.jpg"
                     }
