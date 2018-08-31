@@ -10,6 +10,10 @@
         "Type": "Web",
         "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
       },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
       "Artist" : "Leonardo da Vinci",
       "SequenceId": "MonaTheft",
       "LocationSequenceId":"RedirectToStoryBot"
@@ -24,6 +28,10 @@
       "DefaultImage": {
         "Type": "Web",
         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024913/1coronation_napoleon.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
       },
       "Artist" : "Jacques-Louis David",
       "SequenceId": "DavidCoronation",
@@ -40,6 +48,10 @@
         "Type": "Web",
         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534778252/4lamassu_walkingbis.jpg"
       },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      }, 
       "Artist" : "Unknown",
       "SequenceId": "Lamassu",
       "LocationSequenceId":"DisplayCardAfterSelectionDefault"
@@ -54,6 +66,10 @@
       "DefaultImage": {
         "Type": "Web",
         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534498292/2painting_delacroix.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
       },
       "Artist" : "Eugène Delacroix",
       "SequenceId": "LibertyLeading",
@@ -70,6 +86,10 @@
         "Type": "Web",
         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534872525/Museum%20Bot/LouisXIV1.jpg"
       },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
       "Artist" : "Hyacinthe Rigaud",
       "SequenceId": "LouisXIV",
       "LocationSequenceId":"BritishMuseumMap"
@@ -84,6 +104,10 @@
       "DefaultImage": {
         "Type": "Web",
         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040837/museum%20app/no_arm_Venus.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
       },
       "Artist" : "Unknown",
       "SequenceId": "VenusDeMilo",
@@ -100,6 +124,10 @@
         "Type": "Web",
         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035289/raft_of_meduse_smaller.jpg"
       },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+      },
       "Artist" : "Théodore Géricault",
       "SequenceId": "MedusaRaft",
       "LocationSequenceId":"MedusaRaftMap"
@@ -114,6 +142,10 @@
       "DefaultImage": {
         "Type": "Web",
         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
       },
       "Artist" : "Paolo Veronese",
       "SequenceId": "WeddingCana",
