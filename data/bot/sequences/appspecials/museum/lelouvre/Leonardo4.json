@@ -1,0 +1,128 @@
+{
+    "Type": "Node",
+    "Id": "Leonardo4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "His journals are very strange… they are written as if seen in a mirror!",
+                "fr": "Ses journaux sont très étranges... ils sont écrits à l'envers, comme si on les voyait dans un miroir !",
+                "es": "His journals are very strange… they are written as if seen in a mirror!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 808,
+                "Height": 533,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535464648/7journals.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Some people think this is for secrecy, but others think it may have just been for fun, or because he was left-handed!",
+                "fr": "Certains pensent que c'était pour les garder secrets, d'autres considèrent qu'il s'agissait juste d'un plaisir, ou encore parce qu'il était gaucher !",
+                "es": "Some people think this is for secrecy, but others think it may have just been for fun, or because he was left-handed!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Leonardo4Else",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Anything else?",
+                "fr": "Quoi d'autre ?",
+                "es": "Anything else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Aside from all of this, of course, he was also one of the finest artists of his time. Including the Mona Lisa, about 15 of his works survive…",
+                        "fr": "En plus de tout cela, il était évidemment l'un des plus grands artistes de son temps. En comptant La Joconde, environ 15 de ses œuvres lui ont survécu...",
+                        "es": "Aside from all of this, of course, he was also one of the finest artists of his time. Including the Mona Lisa, about 15 of his works survive…"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Recognise this? It’s by him, too!",
+                        "fr": "Tu reconnais celui-ci ? Il en est l'auteur également !",
+                        "es": "Recognise this? It’s by him, too!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 1104,
+                        "Height": 601,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535452387/8last_supper.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He also holds some impressive modern records!",
+                        "fr": "Il tient également des records modernes impressionnants !",
+                        "es": "He also holds some impressive modern records!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Leonardo4ElseChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Leonardo4ElseLike",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Like what?",
+                            "fr": "Comme quoi ?",
+                            "es": "Like what ?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, firstly, one of his paintings - the Salvator Mundi - is the most expensive painting ever sold, at $450.3 million in 2017",
+                                    "fr": "Eh bien, tout d'abord, une de ses peintures - le Salavator Mundi - est le tableau le plus cher jamais vendu au monde, à 450,3 millions de dollars en 2017",
+                                    "es": "Well, firstly, one of his paintings - the Salvator Mundi - is the most expensive painting ever sold, at $450.3 million in 2017"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 725,
+                                    "Height": 944,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535452562/9Salvator_mundi.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And the Mona Lisa itself is the painting which is most expensive to insure in the world! Which is close to saying it is the most valuable!",
+                                    "fr": "Et La Joconde elle-même est la peinture la plus chère à assurer au monde ! Ce qui revient presque à dire que c'est le tableau le plus précieux qui ait jamais existé !",
+                                    "es": "And the Mona Lisa itself is the painting which is most expensive to insure in the world! Which is close to saying it is the most valuable!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LeonardoFeedback"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
