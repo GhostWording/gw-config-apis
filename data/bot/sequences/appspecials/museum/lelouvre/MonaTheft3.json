@@ -13,7 +13,9 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Web",               
+                "Width": 576,
+                "Height": 384,
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534417667/mysterious_letter.jpg"
             }
         },
@@ -28,7 +30,9 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 547,
+                "Height": 600,
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534430099/VPeruggia_2.jpg"
             }
         },
