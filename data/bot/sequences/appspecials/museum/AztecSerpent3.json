@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The red lips and nose are made with red thorny oyster shells! How bizarre!",
-                "fr": "The red lips and nose are made with red thorny oyster shells! How bizarre!",
+                "fr": "Les lèvres et le nez rouges sont faits en coquilles d'huîtres rouges épineuses ! Comme c'est bizarre !",
                 "es": "The red lips and nose are made with red thorny oyster shells! How bizarre!"
             }
         },
@@ -33,7 +33,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "And the teeth?",
-                "fr": "And the teeth?",
+                "fr": "Et les dents ?",
                 "es": "And the teeth?"
             },
             "Steps": [
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Those scary teeth are made from another shell, the conch!",
-                        "fr": "Those scary teeth are made from another shell, the conch!",
+                        "fr": "Ces dents effrayantes ont été fabriquées à partir d'un autre coquillage, la conque !",
                         "es": "Those scary teeth are made from another shell, the conch!"
                     }
                 },
@@ -79,8 +79,8 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "We think this piece may have been given as a gift of friendship to Hernan Cortes by Montezuma II in 1519 when he invaded Tenochtitlan (current Mexico city!)",
-                                    "fr": "We think this piece may have been given as a gift of friendship to Hernan Cortes by Montezuma II in 1519 when he invaded Tenochtitlan (current Mexico city!)",
+                                    "en": "We think this piece may have been given as a gift of friendship to Hernán Cortés by Montezuma II in 1519 when he invaded Tenochtitlan (current Mexico city!)",
+                                    "fr": "On pense que cette pièce a probablement été offerte à Hernán Cortés par Montezuma II en 1519 lorsqu'il a envahi Tenochtitlan (l'actuelle ville de Mexico !)",
                                     "es": "We think this piece may have been given as a gift of friendship to Hernan Cortes by Montezuma II in 1519 when he invaded Tenochtitlan (current Mexico city!)"
                                 }
                             },
@@ -95,7 +95,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Unfortunately for Montezuma, Cortes massacred and enslaved most of the Aztecs anyway",
-                                    "fr": "Unfortunately for Montezuma, Cortes massacred and enslaved most of the Aztecs anyway",
+                                    "fr": "Malheureusement pour Montezuma, cela n'a pas empêché Cortés de massacrer et d'asservir la plupart des Aztèques",
                                     "es": "Unfortunately for Montezuma, Cortes massacred and enslaved most of the Aztecs anyway"
                                 }
                             },
@@ -103,7 +103,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "And gave the rest smallpox as a parting gift, ending their civilisation!",
-                                    "fr": "And gave the rest smallpox as a parting gift, ending their civilisation!",
+                                    "fr": "Et de donner à ceux qui restaient la variole comme super cadeau de départ, mettant fin à leur civilisation !",
                                     "es": "And gave the rest smallpox as a parting gift, ending their civilisation!"
                                 }
                             }
@@ -119,7 +119,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "How kind!",
-                                        "fr": "How kind!",
+                                        "fr": "Comme c'est gentil !",
                                         "es": "How kind!"
                                     },
                                     "Steps": [
@@ -127,7 +127,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!",
-                                                "fr": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!",
+                                                "fr": "Quoiqu'il en soit, le serpent s'est retrouvé en Europe, et il est aujourd'hui exposé dans la salle 27 du British Museum. Viens y jeter un coup d'œil !",
                                                 "es": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!"
                                             }
                                         }
@@ -139,7 +139,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "A bit harsh!",
-                                        "fr": "A bit harsh!",
+                                        "fr": "Quelle horreur !",
                                         "es": "A bit harsh!"
                                     },
                                     "Steps": [
@@ -147,7 +147,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!",
-                                                "fr": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!",
+                                                "fr": "Quoiqu'il en soit, le serpent s'est retrouvé en Europe, et il est aujourd'hui exposé dans la salle 27 du British Museum. Viens y jeter un coup d'œil !",
                                                 "es": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!"
                                             }
                                         }
@@ -157,13 +157,16 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "Serpent3TeethNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
-                            "fr": "No thanks",
+                            "fr": "Non merci",
                             "es": "No thanks"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "AztecSerpentFeedback"
                         }
                     }
                 ]
