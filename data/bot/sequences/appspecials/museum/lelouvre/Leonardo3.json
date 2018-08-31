@@ -1,0 +1,120 @@
+{
+    "Type": "Node",
+    "Id": "Leonardo3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It wasn't just for human anatomy, either!",
+                "fr": "Ce n'était pas seulement pour l'anatomie humaine !",
+                "es": "It wasn't just for human anatomy, either!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 446,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535451668/5bear_walking.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was constantly trying to learn how things in the natural world worked",
+                "fr": "Il essayait sans relâche de comprendre comment le monde et la nature fonctionnaient",
+                "es": "He was constantly trying to learn how things in the natural world worked"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Leonardo3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Dis m'en plus !",
+                "es": "Tell me more!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He was also an inventor. You know, some people credit him with inventing the parachute, tank, and helicopter!",
+                        "fr": "Il était également un inventeur. En effet, on lui a attribué l'invention du parachute, du char ou encore de l'hélicoptère !",
+                        "es": "He was also an inventor. You know, some people credit him with inventing the parachute, tank, and helicopter!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 363,
+                        "Height": 268,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535451900/6sketch_helicopter.jpg"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 620,
+                        "Height": 450,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535452028/6.0sketch_wing.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He had huge ideas for machines of the future, even if they could not be made with the materials at the time!",
+                        "fr": "Il avait de grandes idées pour les machines du futur, même si elles ne pouvaient même pas encore être fabriquées avec les matériaux de l'époque !",
+                        "es": "He had huge ideas for machines of the future, even if they could not be made with the materials at the time!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Leonardo3MoreChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Leonardo3MoreCrazy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s crazy",
+                            "fr": "C'est fou",
+                            "es": "That’s crazy"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Leonardo4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Leonardo3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "That’s enough"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LeonardoFeedback"
+            }
+        }
+    ]
+}
+
+
+
+
+
