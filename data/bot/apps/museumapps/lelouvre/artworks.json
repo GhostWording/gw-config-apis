@@ -150,5 +150,24 @@
       "Artist" : "Paolo Veronese",
       "SequenceId": "WeddingCana",
       "LocationSequenceId":"BritishMuseumMap"
+  },
+  {
+    "Id": "Leonardo",
+    "Caption": {
+      "en": "About Leonardo da Vinci",
+      "fr": "à propos de Léonard De Vinci",
+      "es": "About Leonardo da Vinci"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535451175/LEONARDO_DA_VINCI.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535451175/LEONARDO_DA_VINCI.jpg"
+      },
+      "Artist" : "N/A",
+      "SequenceId": "Leonardo",
+      "LocationSequenceId":"BritishMuseumMap"
   }
 ]
