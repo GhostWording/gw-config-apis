@@ -22,7 +22,9 @@
             "Type": "Image",
             "Parameters": {
                 "Display":"FullScreenWidth",
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 778,
+                "Height": 517,
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534940944/france_power.jpg"
             }
         },
