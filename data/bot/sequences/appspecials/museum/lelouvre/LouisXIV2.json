@@ -34,7 +34,9 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display":"FullScreenWidth",
-                        "Source": "Web",
+                        "Source": "Web",                
+                        "Width": 1000,
+                        "Height": 638,
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534939389/family_tree_green.jpg"
                     }
                 },
@@ -90,7 +92,9 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display":"FullScreenWidth",
-                                    "Source": "Web",
+                                    "Source": "Web",                
+                                    "Width": 635,
+                                    "Height": 910,
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534939926/louisXIV_baby.jpg"
                                 }
                             },
