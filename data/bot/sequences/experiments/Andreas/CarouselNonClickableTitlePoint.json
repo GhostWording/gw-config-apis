@@ -1,0 +1,23 @@
+{
+  "Type": "Node",
+  "Id": "CarouselNonClickableTitlePoint",
+  "Steps": [
+    { 
+      "Type": "Action",
+      "Name": "ShowCarouselFromList", 
+      "Parameters": { 
+          "Path": "/data/bot/sequences/experiments/Andreas/PointExampleBillMurrayMovies.json"
+        }
+      }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CarouselNonClickableTitlePoint1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Success?"
+      }
+    }
+  ]
+}
