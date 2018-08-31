@@ -14,7 +14,9 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 1662,
+                "Height": 1938,
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534872525/Museum%20Bot/LouisXIV4.jpg"
             }
         },
