@@ -14,7 +14,9 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 627,
+                "Height": 496,
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534498292/2painting_delacroix.jpg"
             }
         },
@@ -56,7 +58,9 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Web",                
+                        "Width": 419,
+                        "Height": 856,
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534957546/2.2Gavroche.jpg"
                     }
                 },
@@ -110,7 +114,9 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Source": "Web",
+                                    "Source": "Web",                
+                                    "Width": 560,
+                                    "Height": 476,
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535621403/phrygian_cap.jpg"
                                 }
                             },
