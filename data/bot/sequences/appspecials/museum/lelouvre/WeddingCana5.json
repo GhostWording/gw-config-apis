@@ -14,7 +14,9 @@
       "Type": "Image",
       "Parameters": {
         "Display":"FullScreenWidth",
-        "Source": "Web",
+        "Source": "Web",                
+        "Width": 1024,
+        "Height": 683,
         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana5.2.jpg"
       }
     },
