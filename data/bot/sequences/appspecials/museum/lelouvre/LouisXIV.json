@@ -5,7 +5,9 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 733,
+                "Height": 1024,
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534872525/Museum%20Bot/LouisXIV1.jpg"
             }
         },
@@ -14,7 +16,7 @@
             "Label": {
                 "en": "Have you ever seen this painting before?",
                 "fr": "As-tu déjà vu ce tableau ?",
-                "es": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III"
+                "es": "Have you ever seen this painting before?"
             }
         }
     ],
@@ -33,7 +35,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "You’re smart!",
-                        "fr": "Tu es intelligent !",
+                        "fr": "Tu es cultivé !",
                         "es": "You’re smart!"
                     }
                 }
