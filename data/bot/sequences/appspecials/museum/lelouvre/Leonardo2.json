@@ -1,0 +1,90 @@
+{
+    "Type": "Node",
+    "Id": "Leonardo2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s the Vitruvian man! Leonardo was fascinated by body proportions, and anatomy and bones in general!",
+                "fr": "C'est l'homme de Vitruve ! De Vinci était fasciné par les proportions corporels, et par l'anatomie et les os en général !",
+                "es": "It’s the Vitruvian man! Leonardo was fascinated by body proportions, and anatomy and bones in general!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 540,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535459011/3sketch_bones.jpg"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 249,
+                "Height": 293,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535459088/4sketch_brain.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "...",
+                "fr": "...",
+                "es": "..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Leonardo2Normal",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Totally normal",
+                "fr": "Totally normal",
+                "es": "Totally normal"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes, it's a totally normal hobby",
+                        "fr": "Yes, it's a totally normal hobby",
+                        "es": "Yes, it's a totally normal hobby"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Leonardo3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Leonardo2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Bit weird mate",
+                "fr": "Bit weird mate",
+                "es": "Bit weird mate"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess it's a little strange... but useful!",
+                        "fr": "I guess it's a little strange... but useful!",
+                        "es": "I guess it's a little strange... but useful!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Leonardo3"
+            }
+        }
+    ]
+}
