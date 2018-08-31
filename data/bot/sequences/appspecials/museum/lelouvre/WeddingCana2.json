@@ -14,7 +14,9 @@
             "Type": "Image",
             "Parameters": {
                 "Display":"FullScreenWidth",
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 1000,
+                "Height": 679,
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana.jpg"
             }
         },
@@ -37,7 +39,9 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Web",                
+                "Width": 800,
+                "Height": 544,
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana2.jpg"
             }
         },
@@ -80,7 +84,9 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Web",                
+                        "Width": 611,
+                        "Height": 410,
                         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana3.jpg"
                     }
                 },
@@ -134,7 +140,9 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Web",                
+                        "Width": 611,
+                        "Height": 410,
                         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana3.jpg"
                     }
                 }
