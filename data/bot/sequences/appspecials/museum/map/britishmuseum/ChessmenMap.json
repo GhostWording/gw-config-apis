@@ -1,0 +1,23 @@
+{
+  "Type": "Node",
+  "Id": "ChessmenMap",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "This artwork is currently not on display :("
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ChessmenMapBack",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Back"
+      }
+    }
+  ]
+}
