@@ -89,22 +89,8 @@
           }
         }
       ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "UFEgyptExit",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "UFEgyptExit1",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Exit",
-              "fr": "Exit",
-              "es": "Exit"
-            }
-          }
-        ]
+      "LinksToFragment": {
+        "FragmentPath": "GFEgyptCarousel"
       }
     },
     {
