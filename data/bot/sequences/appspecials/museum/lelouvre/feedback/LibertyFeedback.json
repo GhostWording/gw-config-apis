@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "LibertyFeedback",
+    "Id": "LibertyLeadingFeedback",
     "Steps": [
         {
             "Type": "Text",
@@ -15,7 +15,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "LibertyFeedbackGood",
+            "Id": "LibertyLeadingFeedbackGood",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "It was great!",
@@ -27,7 +27,7 @@
                     "Type": "Action",
                     "Name": "Feedback",
                     "Parameters": {
-                        "SequenceId": "Liberty",
+                        "SequenceId": "LibertyLeading",
                         "FeedbackValue": "Good"
                     }
                 }
@@ -38,7 +38,7 @@
         },
         {
             "Type": "Node",
-            "Id": "LibertyFeedbackBad",
+            "Id": "LibertyLeadingFeedbackBad",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Good enough",
@@ -50,7 +50,7 @@
                     "Type": "Action",
                     "Name": "Feedback",
                     "Parameters": {
-                        "SequenceId": "Liberty",
+                        "SequenceId": "LibertyLeading",
                         "FeedbackValue": "Bad"
                     }
                 }
