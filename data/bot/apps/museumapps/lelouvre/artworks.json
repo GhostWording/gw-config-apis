@@ -16,7 +16,7 @@
       },
       "Artist" : "Leonardo da Vinci",
       "SequenceId": "MonaTheft",
-      "LocationSequenceId":"RedirectToStoryBot"
+      "LocationSequenceId":"MonaLisaMap"
   },
   {
     "Id": "DavidCoronation",
@@ -35,7 +35,7 @@
       },
       "Artist" : "Jacques-Louis David",
       "SequenceId": "DavidCoronation",
-      "LocationSequenceId":"DisplayCardAfterSelectionNone"
+      "LocationSequenceId":"DavidCoronationMap"
   },
   {
     "Id": "Lamassu",
@@ -54,7 +54,7 @@
       }, 
       "Artist" : "Unknown",
       "SequenceId": "Lamassu",
-      "LocationSequenceId":"DisplayCardAfterSelectionDefault"
+      "LocationSequenceId":"LamassuMap"
   },
   {
     "Id": "LibertyLeading",
@@ -73,7 +73,7 @@
       },
       "Artist" : "Eugène Delacroix",
       "SequenceId": "LibertyLeading",
-      "LocationSequenceId":"BritishMuseumMap"
+      "LocationSequenceId":"LibertyLeadingMap"
   },
   {
     "Id": "LouisXIV",
@@ -92,7 +92,7 @@
       },
       "Artist" : "Hyacinthe Rigaud",
       "SequenceId": "LouisXIV",
-      "LocationSequenceId":"BritishMuseumMap"
+      "LocationSequenceId":"LouisXIVMap"
   },
   {
     "Id": "VenusDeMilo",
@@ -111,7 +111,7 @@
       },
       "Artist" : "Unknown",
       "SequenceId": "VenusDeMilo",
-      "LocationSequenceId":"BritishMuseumMap"
+      "LocationSequenceId":"VenusDeMiloMap"
   },
   {
     "Id": "MedusaRaft",
@@ -149,7 +149,7 @@
       },
       "Artist" : "Paolo Veronese",
       "SequenceId": "WeddingCana",
-      "LocationSequenceId":"BritishMuseumMap"
+      "LocationSequenceId":"WeddingCanaMap"
   },
   {
     "Id": "Leonardo",
@@ -168,6 +168,6 @@
       },
       "Artist" : "N/A",
       "SequenceId": "Leonardo",
-      "LocationSequenceId":"BritishMuseumMap"
+      "LocationSequenceId":"LeonardoMap"
   }
 ]
