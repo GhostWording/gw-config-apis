@@ -17,7 +17,7 @@
       "Id": "CarouselRosetta",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Rosetta Stone",
+        "en": "Rosetta Stone"
       },
       "CarouselElements": {
         "Title": {
@@ -28,16 +28,23 @@
           "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731011/museum%20app/Rosetta_Stone.jpg"
         }
       },
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta"
-      }
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "StoryBot",
+            "FragmentToOpen": "Rosetta"
+          }
+        }
+      ]
     },
     {
       "Type": "Node",
       "Id": "CarouselRamesses",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Ramesses II",
+        "en": "Ramesses II"
       },
       "CarouselElements": {
         "Title": {
@@ -48,9 +55,16 @@
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
         }
       },
-      "LinksToFragment": {
-        "FragmentPath": "Ramesses"
-      }
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "StoryBot",
+            "FragmentToOpen": "Ramesses"
+          }
+        }
+      ]
     },
     {
       "Type": "Node",
@@ -68,10 +82,16 @@
           "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
         }
       },
-      "LinksToFragment": {
-        "FragmentPath": "Amenhotep"
-      }
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "StoryBot",
+            "FragmentToOpen": "Amenhotep"
+          }
+        }
+      ]
     }
   ]
 }
-
