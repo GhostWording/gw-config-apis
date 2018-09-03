@@ -1,0 +1,48 @@
+{
+  "Type": "Node",
+  "Id": "AmenhotepMap",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can find this artwork in Room 95, on Level 2"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AmenhotepMapStart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Start the story"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "StoryBot",
+            "FragmentToOpen": "Amenhotep"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AmenhotepMapStart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Back"
+      }
+    }
+  ]
+}
