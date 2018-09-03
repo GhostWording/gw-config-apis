@@ -1,158 +1,158 @@
 {
-    "Type": "Node",
-    "Id": "LibertyLeading3",
-    "Steps": [
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Well, it came to represent this in the 18th century, when Europeans actually confused it with the roman pileus hat, which was worn by freed slaves!",
-                "fr": "Eh bien, il est devenu un symbole de liberté au XVIIIe siècle, quand les Européens l'ont confondu avec le bonnet romain pileus. Il était porté par les esclaves affranchis !",
-                "es": "Well, it came to represent this in the 18th century, when Europeans actually confused it with the roman pileus hat, which was worn by freed slaves!"
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Source": "Web",                
-                "Width": 735,
-                "Height": 435,
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499921/7pileus_hat.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "They do look rather similar… but actually, the original caps worn by the ancient Phrygians did not hold that meaning at all!",
-                "fr": "C'est vrai qu'ils se ressemblent... mais à l'origine, les bonnets portés par les Phrygiens n'avaient pas du tout ce sens-là !",
-                "es": "They do look rather similar… but actually, the original caps worn by the ancient Phrygians did not hold that meaning at all!"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "LibertyLeading3More",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Tell me more!",
-                "fr": "Dis m'en plus !",
-                "es": "Tell me more!"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Marianne also triumphantly holds the Tricolore, the flag of the revolutionaries!",
-                        "fr": "On peut voir Marianne tenir triomphalement le drapeau tricolore, symbole des révolutionnaires !",
-                        "es": "Marianne also triumphantly holds the Tricolore, the flag of the revolutionaries!"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Display": "FullScreenWidth",
-                        "Source": "Web",                
-                        "Width": 752,
-                        "Height": 575,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500148/8tricolor_flag.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "After this moment, it became the national flag of France, and has been ever since!",
-                        "fr": "À partir de ce moment, il est devenu le drapeau national français, et l'est resté depuis !",
-                        "es": "After this moment, it became the national flag of France, and has been ever since!"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",                
-                        "Width": 777,
-                        "Height": 786,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535015321/9Flag_Elys%C3%A9e.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "This event was the July Revolution of 1830...",
-                        "fr": "L'événement représenté est la Révolution de Juillet de 1830...",
-                        "es": "This event was the July Revolution of 1830..."
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "LibertyLeading3MoreChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "LibertyLeading3MoreHappened",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "What happened?",
-                            "fr": "Que s'est-il passé ?",
-                            "es": "What happened?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "The people came together to overthrow Charles X… and installed Louis Philippe I",
-                                    "fr": "Le peuple s'est soulevé d'un même mouvement pour renverser Charles X... et installer Louis Philippe I",
-                                    "es": "The people came together to overthrow Charles X… and installed Louis Philippe I"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Display": "FullScreenWidth",
-                                    "Source": "Web",               
-                                    "Width": 749,
-                                    "Height": 539,
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500460/july_revolution.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "But they clearly weren’t happy with him either, as they overthrew him in the February Revolution of 1848...",
-                                    "fr": "Mais manifestement, il ne les a pas satisfaits non plus, les Français le renversant à son tour pendant la Révolution de février 1848...",
-                                    "es": "But they clearly weren’t happy with him either, as they overthrew him in the February Revolution of 1848..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "The French really did have a lot of revolutions back in those days… 🤦‍",
-                                    "fr": "Les Français ont traversé beaucoup de révolutions à cette époque... 🤦‍",
-                                    "es": "The French really did have a lot of revolutions back in those days… 🤦‍"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "LibertyFeedback"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "LibertyLeading3Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "J'en sais assez",
-                "es": "That’s enough"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "LibertyFeedback"
-            }
-        }
-    ]
+  "Type": "Node",
+  "Id": "LibertyLeading3",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "Well, it came to represent this in the 18th century, when Europeans actually confused it with the roman pileus hat, which was worn by freed slaves!",
+              "fr": "Eh bien, il est devenu un symbole de liberté au XVIIIe siècle, quand les Européens l'ont confondu avec le bonnet romain pileus. Il était porté par les esclaves affranchis !",
+              "es": "Well, it came to represent this in the 18th century, when Europeans actually confused it with the roman pileus hat, which was worn by freed slaves!"
+          }
+      },
+      {
+          "Type": "Image",
+          "Parameters": {
+              "Source": "Web",                
+              "Width": 735,
+              "Height": 435,
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499921/7pileus_hat.jpg"
+          }
+      },
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "They do look rather similar… but actually, the original caps worn by the ancient Phrygians did not hold that meaning at all!",
+              "fr": "C'est vrai qu'ils se ressemblent... mais à l'origine, les bonnets portés par les Phrygiens n'avaient pas du tout ce sens-là !",
+              "es": "They do look rather similar… but actually, the original caps worn by the ancient Phrygians did not hold that meaning at all!"
+          }
+      }
+  ],
+  "Commands": [
+      {
+          "Type": "Node",
+          "Id": "LibertyLeading3More",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "Tell me more!",
+              "fr": "Dis m'en plus !",
+              "es": "Tell me more!"
+          },
+          "Steps": [
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "Marianne also triumphantly holds the Tricolore, the flag of the revolutionaries!",
+                      "fr": "On peut voir Marianne tenir triomphalement le drapeau tricolore, symbole des révolutionnaires !",
+                      "es": "Marianne also triumphantly holds the Tricolore, the flag of the revolutionaries!"
+                  }
+              },
+              {
+                  "Type": "Image",
+                  "Parameters": {
+                      "Display": "FullScreenWidth",
+                      "Source": "Web",                
+                      "Width": 752,
+                      "Height": 575,
+                      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500148/8tricolor_flag.jpg"
+                  }
+              },
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "After this moment, it became the national flag of France, and has been ever since!",
+                      "fr": "À partir de ce moment, il est devenu le drapeau national français, et l'est resté depuis !",
+                      "es": "After this moment, it became the national flag of France, and has been ever since!"
+                  }
+              },
+              {
+                  "Type": "Image",
+                  "Parameters": {
+                      "Source": "Web",                
+                      "Width": 777,
+                      "Height": 786,
+                      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535015321/9Flag_Elys%C3%A9e.jpg"
+                  }
+              },
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "This event was the July Revolution of 1830...",
+                      "fr": "L'événement représenté est la Révolution de Juillet de 1830...",
+                      "es": "This event was the July Revolution of 1830..."
+                  }
+              }
+          ],
+          "LinksTo": {
+              "Type": "Node",
+              "Id": "LibertyLeading3MoreChoice",
+              "ElementValue": "1",
+              "Commands": [
+                  {
+                      "Type": "Node",
+                      "Id": "LibertyLeading3MoreHappened",
+                      "ElementValue": "1",
+                      "CommandLabel": {
+                          "en": "What happened?",
+                          "fr": "Que s'est-il passé ?",
+                          "es": "What happened?"
+                      },
+                      "Steps": [
+                          {
+                              "Type": "Text",
+                              "Label": {
+                                  "en": "The people came together to overthrow Charles X… and installed Louis Philippe I",
+                                  "fr": "Le peuple s'est soulevé d'un même mouvement pour renverser Charles X... et installer Louis Philippe I",
+                                  "es": "The people came together to overthrow Charles X… and installed Louis Philippe I"
+                              }
+                          },
+                          {
+                              "Type": "Image",
+                              "Parameters": {
+                                  "Display": "FullScreenWidth",
+                                  "Source": "Web",               
+                                  "Width": 749,
+                                  "Height": 539,
+                                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500460/july_revolution.jpg"
+                              }
+                          },
+                          {
+                              "Type": "Text",
+                              "Label": {
+                                  "en": "But they clearly weren’t happy with him either, as they overthrew him in the February Revolution of 1848...",
+                                  "fr": "Mais manifestement, il ne les a pas satisfaits non plus, les Français le renversant à son tour pendant la Révolution de février 1848...",
+                                  "es": "But they clearly weren’t happy with him either, as they overthrew him in the February Revolution of 1848..."
+                              }
+                          },
+                          {
+                              "Type": "Text",
+                              "Label": {
+                                  "en": "The French really did have a lot of revolutions back in those days… 🤦‍",
+                                  "fr": "Les Français ont traversé beaucoup de révolutions à cette époque... 🤦‍",
+                                  "es": "The French really did have a lot of revolutions back in those days… 🤦‍"
+                              }
+                          }
+                      ],
+                      "LinksToFragment": {
+                          "FragmentPath": "LibertyLeadingFeedback"
+                      }
+                  }
+              ]
+          }
+      },
+      {
+          "Type": "Node",
+          "Id": "LibertyLeading3Enough",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "That’s enough",
+              "fr": "J'en sais assez",
+              "es": "That’s enough"
+          },
+          "LinksToFragment": {
+              "FragmentPath": "LibertyLeadingFeedback"
+          }
+      }
+  ]
 }
-            
+          
