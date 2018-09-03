@@ -1,170 +1,170 @@
 {
-    "Type": "Node",
-    "Id": "LibertyLeading2",
-    "Steps": [
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It was inspired by this famous painting by Eugene Delacroix",
-                "fr": "Cette statue est inspirée du célèbre tableau d'Eugène Delacroix",
-                "es": "It was inspired by this famous painting by Eugene Delacroix"
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Source": "Web",                
-                "Width": 627,
-                "Height": 496,
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534498292/2painting_delacroix.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "The three characters on the left represent different classes, rising up together to overthrow the monarchy.",
-                "fr": "Les trois personnages à gauche représentent différentes classes sociales, s'unissant pour renverser la monarchie.",
-                "es": "The three characters on the left represent different classes, rising up together to overthrow the monarchy."
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "LibertyLeading2Show",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Show me!",
-                "fr": "Montre-moi !",
-                "es": "Show me!"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "ShowCarouselFromList",
-                    "Parameters": {
-                        "Path": "data/common/carousel/museum/LibertyClasses.json"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "The boy on the right is thought to have inspired the character “Gavroche” in Victor Hugo’s Les Miserables!",
-                        "fr": "On pense que le garçon à droite a inspiré le personnage “Gavroche” dans Les Misérables de Victor Hugo !",
-                        "es": "The boy on the right is thought to have inspired the character “Gavroche” in Victor Hugo’s Les Miserables!"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",                
-                        "Width": 419,
-                        "Height": 856,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534957546/2.2Gavroche.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Most importantly, though, the lady in the centre is known as Marianne, a French symbol of liberty!",
-                        "fr": "Plus important encore, la femme au milieu est connue sous le nom de Marianne, le symbole français de la liberté !",
-                        "es": "Most importantly, though, the lady in the centre is known as Marianne, a French symbol of liberty!"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "LibertyLeading2ShowChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "LibertyLeading2ShowTell",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Tell me about her",
-                            "fr": "Parle-moi d'elle !",
-                            "es": "Tell me about her"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She features on all kinds of French things!",
-                                    "fr": "Elle apparaît souvent sur des éléments officiels français !",
-                                    "es": "She features on all kinds of French things!"
-                                }
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowCarouselFromList",
-                                "Parameters": {
-                                    "Path": "data/common/carousel/museum/LibertyMarianne.json"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She’s wearing a phrygian cap, which is also a symbol of liberty!",
-                                    "fr": "Elle porte un bonnet phrygien, qui est aussi un symbole de liberté !",
-                                    "es": "She’s wearing a phrygian cap, which is also a symbol of liberty!"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",                
-                                    "Width": 560,
-                                    "Height": 476,
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535621403/phrygian_cap.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "...",
-                                    "fr": "...",
-                                    "es": "..."
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "LibertyLeading2ShowTellChoice",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "LibertyLeading2ShowTellHow",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "How so?",
-                                        "fr": "Comment ça ?",
-                                        "es": "How so?"
-                                    },
-                                    "LinksToFragment": {
-                                        "FragmentPath": "LibertyLeading3"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "LibertyLeading2ShowEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "J'en sais assez",
-                            "es": "That’s enough"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "LibertyFeedback"
-                        }
-                    }
-                ]
-            }
-        }
-    ]
+  "Type": "Node",
+  "Id": "LibertyLeading2",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "It was inspired by this famous painting by Eugene Delacroix",
+              "fr": "Cette statue est inspirée du célèbre tableau d'Eugène Delacroix",
+              "es": "It was inspired by this famous painting by Eugene Delacroix"
+          }
+      },
+      {
+          "Type": "Image",
+          "Parameters": {
+              "Display": "FullScreenWidth",
+              "Source": "Web",                
+              "Width": 627,
+              "Height": 496,
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534498292/2painting_delacroix.jpg"
+          }
+      },
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "The three characters on the left represent different classes, rising up together to overthrow the monarchy.",
+              "fr": "Les trois personnages à gauche représentent différentes classes sociales, s'unissant pour renverser la monarchie.",
+              "es": "The three characters on the left represent different classes, rising up together to overthrow the monarchy."
+          }
+      }
+  ],
+  "Commands": [
+      {
+          "Type": "Node",
+          "Id": "LibertyLeading2Show",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "Show me!",
+              "fr": "Montre-moi !",
+              "es": "Show me!"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "ShowCarouselFromList",
+                  "Parameters": {
+                      "Path": "data/common/carousel/museum/LibertyClasses.json"
+                  }
+              },
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "The boy on the right is thought to have inspired the character “Gavroche” in Victor Hugo’s Les Miserables!",
+                      "fr": "On pense que le garçon à droite a inspiré le personnage “Gavroche” dans Les Misérables de Victor Hugo !",
+                      "es": "The boy on the right is thought to have inspired the character “Gavroche” in Victor Hugo’s Les Miserables!"
+                  }
+              },
+              {
+                  "Type": "Image",
+                  "Parameters": {
+                      "Source": "Web",                
+                      "Width": 419,
+                      "Height": 856,
+                      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534957546/2.2Gavroche.jpg"
+                  }
+              },
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "Most importantly, though, the lady in the centre is known as Marianne, a French symbol of liberty!",
+                      "fr": "Plus important encore, la femme au milieu est connue sous le nom de Marianne, le symbole français de la liberté !",
+                      "es": "Most importantly, though, the lady in the centre is known as Marianne, a French symbol of liberty!"
+                  }
+              }
+          ],
+          "LinksTo": {
+              "Type": "Node",
+              "Id": "LibertyLeading2ShowChoice",
+              "ElementValue": "1",
+              "Commands": [
+                  {
+                      "Type": "Node",
+                      "Id": "LibertyLeading2ShowTell",
+                      "ElementValue": "1",
+                      "CommandLabel": {
+                          "en": "Tell me about her",
+                          "fr": "Parle-moi d'elle !",
+                          "es": "Tell me about her"
+                      },
+                      "Steps": [
+                          {
+                              "Type": "Text",
+                              "Label": {
+                                  "en": "She features on all kinds of French things!",
+                                  "fr": "Elle apparaît souvent sur des éléments officiels français !",
+                                  "es": "She features on all kinds of French things!"
+                              }
+                          },
+                          {
+                              "Type": "Action",
+                              "Name": "ShowCarouselFromList",
+                              "Parameters": {
+                                  "Path": "data/common/carousel/museum/LibertyMarianne.json"
+                              }
+                          },
+                          {
+                              "Type": "Text",
+                              "Label": {
+                                  "en": "She’s wearing a phrygian cap, which is also a symbol of liberty!",
+                                  "fr": "Elle porte un bonnet phrygien, qui est aussi un symbole de liberté !",
+                                  "es": "She’s wearing a phrygian cap, which is also a symbol of liberty!"
+                              }
+                          },
+                          {
+                              "Type": "Image",
+                              "Parameters": {
+                                  "Source": "Web",                
+                                  "Width": 560,
+                                  "Height": 476,
+                                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535621403/phrygian_cap.jpg"
+                              }
+                          },
+                          {
+                              "Type": "Text",
+                              "Label": {
+                                  "en": "...",
+                                  "fr": "...",
+                                  "es": "..."
+                              }
+                          }
+                      ],
+                      "LinksTo": {
+                          "Type": "Node",
+                          "Id": "LibertyLeading2ShowTellChoice",
+                          "ElementValue": "1",
+                          "Commands": [
+                              {
+                                  "Type": "Node",
+                                  "Id": "LibertyLeading2ShowTellHow",
+                                  "ElementValue": "1",
+                                  "CommandLabel": {
+                                      "en": "How so?",
+                                      "fr": "Comment ça ?",
+                                      "es": "How so?"
+                                  },
+                                  "LinksToFragment": {
+                                      "FragmentPath": "LibertyLeading3"
+                                  }
+                              }
+                          ]
+                      }
+                  },
+                  {
+                      "Type": "Node",
+                      "Id": "LibertyLeading2ShowEnough",
+                      "ElementValue": "1",
+                      "CommandLabel": {
+                          "en": "That’s enough",
+                          "fr": "J'en sais assez",
+                          "es": "That’s enough"
+                      },
+                      "LinksToFragment": {
+                          "FragmentPath": "LibertyLeadingFeedback"
+                      }
+                  }
+              ]
+          }
+      }
+  ]
 }
