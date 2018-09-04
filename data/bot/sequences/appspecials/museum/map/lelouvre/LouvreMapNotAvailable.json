@@ -1,0 +1,30 @@
+{
+    "Type": "Leaf",
+    "Id": "LouvreMapNotAvailable",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Sorry, but we don't have any stories for artworks in this area at the moment!",
+                "fr": "Sorry, but we don't have any stories for artworks in this area at the moment!",
+                "es": "Sorry, but we don't have any stories for artworks in this area at the moment!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Check back later though!",
+                "fr": "Check back later though!",
+                "es": "Check back later though!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536080731/Empty_Frame.jpg"
+            }
+        }
+    ]
+}
