@@ -1,0 +1,82 @@
+{
+  "Type": "Node",
+  "Id": "DenonChooseFloor",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Great! Now pick a floor!",
+        "fr": "Great! Now pick a floor!"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DenonChooseFloorMapNegative1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Basement",
+        "fr": "Basement"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "-1",
+          "fr": "-1"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/FloorNegative1.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "DenonFloorNegative1"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "DenonChooseFloor0",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Ground Floor",
+        "fr": "Ground Floor"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "0",
+          "fr": "0"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/Floor0.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "DenonFloor0"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "DenonChooseFloor1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "First Floor",
+        "fr": "First Floor"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "1",
+          "fr": "1"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/Floor1.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "DenonFloor1"
+      }
+    }
+  ]
+}
