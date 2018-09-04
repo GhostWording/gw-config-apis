@@ -1,0 +1,104 @@
+{
+  "Type": "Node",
+  "Id": "SullyChooseFloor",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Great! Now pick a floor!",
+        "fr": "Great! Now pick a floor!"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SullyChooseFloorMapNegative1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Basement",
+        "fr": "Basement"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "-1",
+          "fr": "-1"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/FloorNegative1.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "SullyFloorNegative1"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SullyChooseFloor0",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Ground Floor",
+        "fr": "Ground Floor"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "0",
+          "fr": "0"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/Floor0.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "SullyFloor0"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SullyChooseFloor1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "First Floor",
+        "fr": "First Floor"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "1",
+          "fr": "1"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/Floor1.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "SullyFloor1"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "SullyChooseFloor2",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Second Floor",
+        "fr": "Second Floor"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "2",
+          "fr": "2"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536061873/Floor2.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "SullyFloor2"
+      }
+    }
+  ]
+}
