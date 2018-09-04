@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "LouvreMapWing",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Please pick a wing",
+        "fr": "Please pick a wing"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Richelieu",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Richelieu Wing",
+        "fr": "Richelieu Wing"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "⚫"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Richelieu_Full_Highlight.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "RichelieuWing"
+      }
+    },
+    {
+        "Type": "Node",
+        "Id": "Sully",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Sully Wing",
+          "fr": "Sully Wing"
+        },
+      "CarouselElements": {
+        "Title": {
+          "en": "⚫"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Sully_Full_Highlight.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "SullyWing"
+      }
+    },
+    {
+        "Type": "Node",
+        "Id": "Denon",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Denon Wing",
+          "fr": "Denon Wing"
+        },
+      "CarouselElements": {
+        "Title": {
+          "en": "⚫"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "DenonWing"
+      }
+    }
+  ]
+}
