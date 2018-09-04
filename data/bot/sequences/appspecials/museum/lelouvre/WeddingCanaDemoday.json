@@ -42,17 +42,17 @@
       "Id": "WeddingCanaProblem",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "What type of problem?",
-        "fr": "Quel type de problème",
-        "es": "What type of problem?"
+        "en": "Rising sea levels?",
+        "fr": "La montée du niveau de la mer?",
+        "es": "Rising sea levels?"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
-            "en": "Their canteen was just a little too gloomy...",
-            "fr": "Leur cantine était un peu trop lugubre...",
-            "es": "Their canteen was just a little too gloomy..."
+            "en": "No ! Their canteen was just a little too gloomy...",
+            "fr": "Non ! Leur cantine était un peu trop lugubre...",
+            "es": "No ! Their canteen was just a little too gloomy..."
           }
         },
         {
