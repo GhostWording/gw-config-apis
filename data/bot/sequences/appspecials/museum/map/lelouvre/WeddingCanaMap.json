@@ -1,0 +1,59 @@
+{
+    "Type": "Node",
+    "Id": "WeddingCanaMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This painting is on the FIRST FLOOR",
+                "fr": "This painting is on the FIRST FLOOR"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the Denon Wing (SOUTH)",
+                "fr": "In the Denon Wing (SOUTH)"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 1786,
+                "Height": 910,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536056033/Denon_Highlight.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's right here!",
+                "fr": "It's right here!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 697,
+                "Height": 512,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/WeddingCanaMap.png"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "WeddingCanaMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Exit",
+            "es": "Exit"
+          }
+        }
+    ]
+}
