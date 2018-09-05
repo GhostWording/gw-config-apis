@@ -2,6 +2,7 @@
   {
     "GroupName":"Louvre",
     "SequenceFiles" : [
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/MedusaRaft6.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/experiments/Victor/CallLouvreCarrousel.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/MedusaRaft6.json"]}
       ]
