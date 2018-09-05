@@ -1,0 +1,53 @@
+{
+    "Type": "Node",
+    "Id": "RichelieuFloor2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is a map of the area!",
+                "fr": "Voici une carte de la zone !"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LouisXIVMap.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Please pick an artwork",
+                "fr": "Choisis une oeuvre"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RichelieuFloor2LouisXIV",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Louis XIV",
+                "fr": "Louis XIV"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713059/museum%20app/Preview%20pics/LouisXIV.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LouisXIV"
+            }
+        }
+    ]
+}
