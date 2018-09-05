@@ -6,38 +6,38 @@
             "Type": "Text",
             "Label": {
                 "en": "This painting is on the FIRST FLOOR",
-                "fr": "This painting is on the FIRST FLOOR"
+                "fr": "Cetableau se trouve au PREMIER ETAGE"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "In the Denon Wing (SOUTH)",
-                "fr": "In the Denon Wing (SOUTH)"
+                "fr": "Dans l'aile Denon (SUD)"
             }
         },
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 1806,
-                "Height": 899,
+                "Width": 1786,
+                "Height": 910,
                 "Display": "FullScreenWidth",
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535730996/SullyWingHighlightBox.png"
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536056033/Denon_Highlight.png"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "It's right here!",
-                "fr": "It's right here!"
+                "fr": "C'est juste là !"
             }
         },
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 641,
-                "Height": 484,
+                "Width": 697,
+                "Height": 512,
                 "Display": "FullScreenWidth",
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535635395/MedusaRaftMapClose.png"
@@ -51,9 +51,9 @@
           "ElementValue": "1",
           "CommandLabel": {
             "en": "Exit",
-            "fr": "Exit",
+            "fr": "Sortie",
             "es": "Exit"
           }
         }
     ]
-}
+  }
