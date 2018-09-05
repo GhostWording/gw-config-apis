@@ -6,14 +6,14 @@
             "Type": "Text",
             "Label": {
                 "en": "This painting is on the GROUND FLOOR (0)",
-                "fr": "This painting is on the GROUND FLOOR (0)"
+                "fr": "This painting is on the REZ-DE-CHAUSSEE (0)"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "In the Sully Wing (EAST)",
-                "fr": "In the Sully Wing (EAST)"
+                "fr": "Dans l'aile Sully (EST)"
             }
         },
         {
@@ -30,7 +30,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It's right here!",
-                "fr": "It's right here!"
+                "fr": "C'est juste là !"
             }
         },
         {
@@ -51,7 +51,7 @@
           "ElementValue": "1",
           "CommandLabel": {
             "en": "Exit",
-            "fr": "Exit",
+            "fr": "Sortie",
             "es": "Exit"
           }
         }
