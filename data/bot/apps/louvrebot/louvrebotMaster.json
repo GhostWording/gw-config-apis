@@ -2,7 +2,16 @@
   {
     "GroupName":"Louvre",
     "SequenceFiles" : [
-      { "order" : 10, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel.json"]}
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel2.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel3.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel4.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel5.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel6.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel7.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel8.json"]},
+      { "order" : 90, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel9.json"]},
+      { "order" : 100, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel10.json"]}
       ]
    }
 ]
