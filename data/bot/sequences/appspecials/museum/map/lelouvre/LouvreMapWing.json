@@ -14,6 +14,27 @@
   "Commands": [
     {
       "Type": "Node",
+      "Id": "Denon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Denon Wing",
+        "fr": "Aile Denon"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "DenonChooseFloor"
+      }
+    },
+    {
+      "Type": "Node",
       "Id": "Richelieu",
       "ElementValue": "1",
       "CommandLabel": {
@@ -34,13 +55,13 @@
       }
     },
     {
-        "Type": "Node",
-        "Id": "Sully",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Sully Wing",
-          "fr": "Aile Sully"
-        },
+      "Type": "Node",
+      "Id": "Sully",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sully Wing",
+        "fr": "Aile Sully"
+      },
       "CarouselElements": {
         "Title": {
           "en": "."
@@ -52,27 +73,6 @@
       },
       "LinksToFragment": {
         "FragmentPath": "SullyChooseFloor"
-      }
-    },
-    {
-        "Type": "Node",
-        "Id": "Denon",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Denon Wing",
-          "fr": "Aile Denon"
-        },
-      "CarouselElements": {
-        "Title": {
-          "en": "."
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
-        }
-      },
-      "LinksToFragment": {
-        "FragmentPath": "DenonChooseFloor"
       }
     }
   ]
