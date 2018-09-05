@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Please pick a wing",
-        "fr": "Please pick a wing"
+        "fr": "Sélectionne une aile du musée"
       }
     }
   ],
@@ -18,11 +18,11 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Richelieu Wing",
-        "fr": "Richelieu Wing"
+        "fr": "Aile Richelieu"
       },
       "CarouselElements": {
         "Title": {
-          "en": "⚫"
+          "en": "."
         },
         "Picture": {
           "Source": "Web",
@@ -39,11 +39,11 @@
         "ElementValue": "1",
         "CommandLabel": {
           "en": "Sully Wing",
-          "fr": "Sully Wing"
+          "fr": "Aile Sully"
         },
       "CarouselElements": {
         "Title": {
-          "en": "⚫"
+          "en": "."
         },
         "Picture": {
           "Source": "Web",
@@ -60,11 +60,11 @@
         "ElementValue": "1",
         "CommandLabel": {
           "en": "Denon Wing",
-          "fr": "Denon Wing"
+          "fr": "Aile Denon"
         },
       "CarouselElements": {
         "Title": {
-          "en": "⚫"
+          "en": "."
         },
         "Picture": {
           "Source": "Web",
