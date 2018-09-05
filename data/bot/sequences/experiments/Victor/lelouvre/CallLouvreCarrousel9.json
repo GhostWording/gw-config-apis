@@ -1,0 +1,17 @@
+{
+  "Type": "Node",
+  "Id": "CallLouvreCarrousel9",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "You want to hear a story ?",
+              "fr": "Laisse-moi te raconter quelque chose",
+              "es": "Dejame contarte algo"
+          }
+      }
+  ],
+  "LinksToFragment": {
+    "FragmentPath": "ChooseLouvreStory"
+  } 
+}
