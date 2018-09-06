@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "Denon",
+      "Id": "LouvreMapWingDenon",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Denon Wing",
@@ -30,12 +30,12 @@
         }
       },
       "LinksToFragment": {
-        "FragmentPath": "DenonChooseFloor"
+        "FragmentPath": "DenonArtworks"
       }
     },
     {
       "Type": "Node",
-      "Id": "Richelieu",
+      "Id": "LouvreMapWingRichelieu",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Richelieu Wing",
@@ -51,12 +51,12 @@
         }
       },
       "LinksToFragment": {
-        "FragmentPath": "RichelieuChooseFloor"
+        "FragmentPath": "RichelieuArtworks"
       }
     },
     {
       "Type": "Node",
-      "Id": "Sully",
+      "Id": "LouvreMapWingSully",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Sully Wing",
@@ -72,7 +72,7 @@
         }
       },
       "LinksToFragment": {
-        "FragmentPath": "SullyChooseFloor"
+        "FragmentPath": "SullyArtworks"
       }
     }
   ]
