@@ -4,8 +4,19 @@
       "Name": "rcbotdev",
       "Source": "github",
       "experiment":"/data/bot/apps/astrology/astrologyMasterSequence.json",
-      
       "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+    },
+    {
+      "Name": "onboardingandroid",
+      "File": "/data/bot/apps/onboarding/onboardingbotAndroidMasterfile.json"
+    },
+    {
+      "Name": "unittestbot",
+      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
+    },
+    {
+      "Name": "savethekitten",
+      "File": "/data/bot/apps/kitten/savethekittenMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
