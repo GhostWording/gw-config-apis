@@ -31,6 +31,14 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/9966328781"
   },
+   "After10InterstitialDisplays": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/6370307086",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/2514273818"
+    }   
+  },  
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1001221899915187_1738939572810079"
