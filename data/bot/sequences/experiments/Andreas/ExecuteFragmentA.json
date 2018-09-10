@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "ExecuteFragmentA",
+  "Id": "FragmentA",
   "Steps": [
     {
       "Type": "Text",
@@ -14,11 +14,11 @@
       "Type": "Action",
       "Name": "ExecuteFragment",
       "Parameters": {
-        "FragmentPath": "ExecuteFragmentB"
+        "FragmentPath": "FragmentB"
       }
     }
   ],
   "LinksToFragment": {
-    "FragmentPath": "ExecuteFragmentC"
+    "FragmentPath": "FragmentC"
   }
 }
