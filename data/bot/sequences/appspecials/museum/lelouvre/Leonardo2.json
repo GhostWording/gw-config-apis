@@ -46,7 +46,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Totally normal",
-                "fr": "Totally normal",
+                "fr": "Totalement normal",
                 "es": "Totally normal"
             },
             "Steps": [
@@ -54,7 +54,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Yes, it's a totally normal hobby",
-                        "fr": "Yes, it's a totally normal hobby",
+                        "fr": "Oui, c'est un loisir très courant",
                         "es": "Yes, it's a totally normal hobby"
                     }
                 }
@@ -69,7 +69,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Bit weird mate",
-                "fr": "Bit weird mate",
+                "fr": "Un peu bizarre...",
                 "es": "Bit weird mate"
             },
             "Steps":[
@@ -77,7 +77,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I guess it's a little strange... but useful!",
-                        "fr": "I guess it's a little strange... but useful!",
+                        "fr": "Je suppose que c'est un peu étrange... Mais très utile!",
                         "es": "I guess it's a little strange... but useful!"
                     }
                 }
