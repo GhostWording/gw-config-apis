@@ -14,11 +14,11 @@
       "Type": "Action",
       "Name": "ExecuteFragment",
       "Parameters": {
-        "FragmentPath": "FragmentB"
+        "FragmentPath": "ExecuteFragmentB"
       }
     }
   ],
   "LinksToFragment": {
-    "FragmentPath": "FragmentC"
+    "FragmentPath": "ExecuteFragmentC"
   }
 }
