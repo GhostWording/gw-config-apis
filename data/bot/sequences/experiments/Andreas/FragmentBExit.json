@@ -1,0 +1,18 @@
+{
+  "Type": "Leaf",
+  "Id": "FragmentBExit",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "This is fragment B!",
+        "fr": "This is fragment B!",
+        "es": "This is fragment B!"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "Exit"
+    }
+  ]
+}
