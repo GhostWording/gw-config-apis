@@ -46,5 +46,11 @@
   "GalleryDailyNativeDisabled": {
     "Provider": "Facebook",
     "ID": "1001221899915187_1730388846998485"
-  }
+  },
+   "InsteadOfPaying": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9472226537",
+    "Offset": 3,
+    "Frequency" : 4
+ }
 }
