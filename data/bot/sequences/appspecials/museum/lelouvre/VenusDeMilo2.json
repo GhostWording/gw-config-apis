@@ -20,6 +20,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "We mainly think that because Venus was often the subject of this kind of statue",
@@ -41,14 +48,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How tall?!",
-                "fr": "Grande comment ?!",
+                "fr": "Grande comment ?!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "She’s 6’8”, even with her slouch",
-                        "fr": "Elle mesure 2.03 mètres",
+                        "fr": "Elle mesure 2.03 mètres"
                     }
                 },
                 {
@@ -65,9 +72,9 @@
                     "Type": "Text",
                     "Label": {
                         "en": "She would probably have been over 7 feet if she stood up straight!",
-                        "fr": "Elle mesurerait probablement 10 centimètres de plus si elle était droite !",
+                        "fr": "Elle mesurerait probablement 10 centimètres de plus si elle était droite !"
                     }
-                },
+                }
             ],
             "LinksTo": {
                 "Type": "Node",
@@ -98,10 +105,17 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "On that island, the goddess of the sea “Amphitrite” was particularly popular",
-                                    "fr": "Sur cette île, la déesse de la mer “Amphitrite” était particulièrement populaire",
+                                    "fr": "Sur cette île, la déesse de la mer “Amphitrite” était particulièrement populaire"
                                 }
                             },
                             {
