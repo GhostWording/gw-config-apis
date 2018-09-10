@@ -1,0 +1,24 @@
+{
+  "Type": "Node",
+  "Id": "FragmentA",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "This is fragment A!",
+        "fr": "This is fragment A!",
+        "es": "This is fragment A!"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ExecuteFragment",
+      "Parameters": {
+        "FragmentPath": "FragmentB"
+      }
+    }
+  ],
+  "LinksToFragment": {
+    "FragmentPath": "FragmentC"
+  }
+}
