@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Condition": "u.ppLanguage == 'en'",
+  "Condition": "u.ppLanguage == 'fr'",
   "Id": "RecommendLouvreApp",
   "Steps": [
     {
