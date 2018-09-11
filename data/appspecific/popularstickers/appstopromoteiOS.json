@@ -4,20 +4,43 @@
   [
     {
       "title": "Talk to me: I'm a pony!",
+      "titleLocalized": {
+        "en": "Talk to me: I'm a pony!",
+        "fr": "Parle-moi: je suis un poney !",
+        "es": "¡Parlame, soy un poni !"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
       "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
-    }    
-    ,        
-    {
-      "title": "Try me, I'm a quotation chatbot!",
+    },       
+   {
+      "title": "Try me, I'm a bot!",
+      "titleLocalized": {
+        "en": "Try me, I'm a quote bot!",
+        "fr": "Essaie-moi, je suis un bot!",
+        "es": "¡Pruébame, soy un bot!"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
-      "storeUrl": "https://m.me/QuoteoBot"
-    }
-    ,
+      "storeUrl": "https://m.me/QuoteoBot",
+      "storeUrlLocalized": {
+        "en": "https://m.me/QuoteoBot",
+        "fr": "https://m.me/QuoteoBot",
+        "es": "https://m.me/QuoteoBot"
+      }
+    },
     {
       "title": "Elite Emoji",
+      "titleLocalized": {
+        "en": "Elite Emoji",
+        "fr": "Elite Emoji",
+        "es": "Elite Emoji"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
-      "storeUrl": "https://itunes.apple.com/app/elite-emoji/id1269091014?mt=8"
+      "storeUrl": "https://itunes.apple.com/app/elite-emoji/id1269091014?mt=8",
+      "storeUrlLocalized": {
+        "en": "https://itunes.apple.com/app/elite-emoji/id1269091014?mt=8",
+        "fr": "https://itunes.apple.com/app/elite-emoji/id1269091014?mt=8",
+        "es": "https://itunes.apple.com/app/elite-emoji/id1269091014?mt=8"
+      }
     }
   ]
 }
