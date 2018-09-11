@@ -2,15 +2,34 @@
 "apps": 
   [
     {
-      "title": "Try me, I'm a quote bot!",
+      "title": "Try me, I'm a bot!",
+      "titleLocalized": {
+        "en": "Try me, I'm a quote bot!",
+        "fr": "Essaie-moi, je suis un bot!",
+        "es": "¡Pruébame, soy un bot!"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
-      "storeUrl": "https://m.me/QuoteoBot"
-    }
-    ,	
+      "storeUrl": "https://m.me/QuoteoBot",
+      "storeUrlLocalized": {
+        "en": "https://m.me/QuoteoBot",
+        "fr": "https://m.me/QuoteoBot",
+        "es": "https://m.me/QuoteoBot"
+      }
+    },
     {
       "title": "Talk to me: I'm a pony!",
+      "titleLocalized": {
+        "en": "Talk to me: I'm a pony!",
+        "fr": "Parle-moi: je suis un poney !",
+        "es": "¡Parlame, soy un poni !"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
+      "storeUrl": "https://www.messenger.com/t/SurveyPonyy",
+      "storeUrlLocalized": {
+        "en": "https://www.messenger.com/t/SurveyPonyy",
+        "fr": "https://www.messenger.com/t/SurveyPonyy",
+        "es": "https://www.messenger.com/t/SurveyPonyy"
+      }
     }
   ]
 }
