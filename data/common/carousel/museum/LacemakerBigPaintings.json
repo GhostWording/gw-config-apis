@@ -1,0 +1,38 @@
+{
+  "Id": "LacemakerBigPaintings",
+  "Elements": [
+    {
+      "Title": {
+        "en": "Wedding at Cana",
+        "fr": "Les Noces de Cana",
+        "es": "Las Bodas de Caná"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana4.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "The Raft of the Medusa",
+        "fr": "Le Radeau de la Méduse",
+        "es": "La Balsa de la Medusa"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1536666728/The%20Lacemaker/Lacemaker1.jpg"
+      }
+    },
+    {
+      "Title": {
+        "en": "The Coronation of Napoleon",
+        "fr": "Le Sacre de Napoléon",
+        "es": "La Consagración de Napoleón"
+      },
+      "Image": {
+        "Source": "Web",
+        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666319/The%20Lacemaker/Lacemaker2.jpg"
+      }
+    }
+  ]
+}
