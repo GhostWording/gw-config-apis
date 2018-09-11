@@ -4,14 +4,34 @@
   [
     {
       "title": "Try me, I'm a bot!",
+      "titleLocalized": {
+        "en": "Try me, I'm a quote bot!",
+        "fr": "Essaie-moi, je suis un bot!",
+        "es": "¡Pruébame, soy un bot!"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
-      "storeUrl": "https://m.me/QuoteoBot"
+      "storeUrl": "https://m.me/QuoteoBot",
+      "storeUrlLocalized": {
+        "en": "https://m.me/QuoteoBot",
+        "fr": "https://m.me/QuoteoBot",
+        "es": "https://m.me/QuoteoBot"
+      }
     }
     ,
     {
       "title": "StickerBliss for Messenger",
+      "titleLocalized": {
+        "en": "StickerBliss for Messenger",
+        "fr": "StickerBliss Messenger",
+        "es": "StickerBliss Messenger"
+      },
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/StickerBliss/medium/StickerBlissMedium.jpg",
-      "storeUrl": "https://itunes.apple.com/app/sticker-bliss-for-messenger/id1121020508?mt=8"
+      "storeUrl": "https://itunes.apple.com/app/sticker-bliss-for-messenger/id1121020508?mt=8",
+      "storeUrlLocalized": {
+        "en": "https://itunes.apple.com/app/sticker-bliss-for-messenger/id1121020508?mt=8",
+        "fr": "https://itunes.apple.com/app/sticker-bliss-for-messenger/id1121020508?mt=8",
+        "es": "https://itunes.apple.com/app/sticker-bliss-for-messenger/id1121020508?mt=8"
+      }
     }
   ]
 }
