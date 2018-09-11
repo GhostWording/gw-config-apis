@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Condition": "u.ppLanguage == 'fr' || u.ppLanguage == 'es'",
+  "Id": "RecommendLouvreApp",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I've just heard of a new app that I think you will love !",
+        "fr": "J'ai entendu parlé d'une app que je pense tu aimeras beaucoup!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It tells fascinating stories about the artworks in the Louvre museum in Paris",
+        "fr": "L'app racontre les histoires fascinantes des oeuvres d'arts du musée du Louvre a Paris"
+      }
+    },
+    {
+      "Type": "ShowPersistentLink",
+      "Title": {
+        "en": "Discover our new app!",
+        "fr": "Découvrez notre nouvelle app!"
+      },
+      "LinkLabel": {
+        "en": "Stories from Le Louvre",
+        "fr": "Les histoires du Louvre"
+      },
+      "url": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+      "Image": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1536662157/Owl_Chathead_Side_Hand_sbh47w.png"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "RecommendLouvreAppThanks",
+      "CommandLabel": {
+        "en": "Thanks",
+        "fr": "Merci"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "To install it, you just have to click on the link in the above card",
+            "fr": "Pour l'installer, il te suffit de cliquer sur le lien dans la carte ci-dessus"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RecommendLouvreAppInstall",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "RecommendLouvreAppGotIt",
+            "CommandLabel": {
+              "en": "Got it!",
+              "fr": "J'ai compris !"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "fmNp5I53lfUuA"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
