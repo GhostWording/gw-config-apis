@@ -3,6 +3,12 @@
   "matchingType":"exact",
   "keywords": [
     {
+        "words" : ["louvre"],
+        "fragment" : {
+            "path" : "RecommendLouvreApp"
+        }
+    },
+    {
         "words" : ["cat","chat","gato"],
         "fragment" : {
             "tags" : ["cats"]
