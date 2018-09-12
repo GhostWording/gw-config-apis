@@ -1,6 +1,7 @@
 {
   "apps": [ 
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "Save The Kitten!",
         "fr": "Sauvez Le Chaton !",
@@ -15,6 +16,7 @@
       }
     },    
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "I need hugs!",
         "fr": "Calins gratuits!",
@@ -29,6 +31,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "Survey Pony",
         "fr": "Survey Poney",
@@ -43,6 +46,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "Try me, I'm a quote bot!",
         "fr": "Essaie-moi, je suis un bot!",
@@ -57,6 +61,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "Hero, the Bot that recommends the best Emoji",
         "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
