@@ -169,5 +169,24 @@
       "Artist" : "N/A",
       "SequenceId": "Leonardo",
       "LocationSequenceId":"MonaLisaMap"
+  },
+  {
+    "Id": "Lacemaker",
+    "Caption": {
+      "en": "The Lacemaker",
+      "fr": "La Dentellière",
+      "es": "The Lacemaker"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536759300/The_Lacemaker_Large.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536759300/The_Lacemaker_Thumbnail.jpg"
+      },
+      "Artist" : "Johannes Vermeer",
+      "SequenceId": "Lacemaker",
+      "LocationSequenceId":"LacemakerMap"
   }
 ]
