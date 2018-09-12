@@ -1,0 +1,76 @@
+{
+    "Type": "Node",
+    "Id": "Lacemaker3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That’s the sense he’s trying to show here!",
+                "fr": "C'est ce qu'il essaie de montrer ici !",
+                "es": "That’s the sense he’s trying to show here!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The back wall is a blank, featureless grey, and the front is a wash of blue",
+                "fr": "Le mur du fond est blanc, d'un gris monotone, et le devant est un dégradé de bleus",
+                "es": "The back wall is a blank, featureless grey, and the front is a wash of blue"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Which puts all the focus on the woman: her hands in particular",
+                "fr": "Ainsi, tout l'accent est mis sur la femme, ses mains en particulier",
+                "es": "Which puts all the focus on the woman: her hands in particular"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 350,
+                "Height": 333,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666318/The%20Lacemaker/Lacemaker5.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "…",
+                "fr": "…",
+                "es": "…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lacemaker3Calming",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It’s so calming",
+                "fr": "C'est si apaisant",
+                "es": "It’s so calming"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lacemaker4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lacemaker3Beautiful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Beautiful",
+                "fr": "Magnifique !",
+                "es": "Beautiful"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lacemaker4"
+            }
+        }
+    ]
+}
