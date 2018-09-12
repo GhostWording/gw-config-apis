@@ -3,6 +3,7 @@
 "apps": 
   [
     {
+      "availablefor" : ["en","fr", "es"],
       "title": "Try me, I'm a bot!",
       "titleLocalized": {
         "en": "Try me, I'm a quote bot!",
@@ -16,8 +17,9 @@
         "fr": "https://m.me/QuoteoBot",
         "es": "https://m.me/QuoteoBot"
       }
-    },	
+    },
     {
+      "availablefor" : ["en","fr", "es"],
       "title": "Talk to me: I'm a pony!",
       "titleLocalized": {
         "en": "Talk to me: I'm a pony!",
@@ -25,9 +27,15 @@
         "es": "¡Parlame, soy un poni !"
       },
       "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
-    },    
+      "storeUrl": "https://www.messenger.com/t/SurveyPonyy",
+      "storeUrlLocalized": {
+        "en": "https://www.messenger.com/t/SurveyPonyy",
+        "fr": "https://www.messenger.com/t/SurveyPonyy",
+        "es": "https://www.messenger.com/t/SurveyPonyy"
+      }
+    },
     {
+      "availablefor" : ["en","fr","es"],
       "title": "Popular Stickers",
       "titleLocalized": {
         "en": "Popular Stickers",
