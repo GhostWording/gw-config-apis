@@ -1,0 +1,58 @@
+{
+    "Type": "Node",
+    "Id": "Lacemaker2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The painting is all about concentration and calm!",
+                "fr": "Tout est question de concentration et de calme dans cette peinture !",
+                "es": "The painting is all about concentration and calm!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have you ever been so absorbed in something that everything else fades out?",
+                "fr": "As-tu déjà été tellement absorbé(e) par quelque chose que tout le reste disparaît ?",
+                "es": "Have you ever been so absorbed in something that everything else fades out?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Perhaps reading a book, or doing some work?",
+                "fr": "Peut-être en lisant ou en travaillant ?",
+                "es": "Perhaps reading a book, or doing some work?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lacemaker2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "En effet !",
+                "es": "Yes!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lacemaker3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lacemaker2Never",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Never!",
+                "fr": "Jamais !",
+                "es": "Never!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lacemaker3"
+            }
+        }
+    ]
+}
