@@ -49,6 +49,14 @@
     "ID": "ca-app-pub-7822741681642396/3147766425",
     "Offset": 3,
     "Frequency" : 4
- }
+ },
+   "After10InterstitialDisplays": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9457475160",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/9218350757"
+    }   
+  }
 }
 
