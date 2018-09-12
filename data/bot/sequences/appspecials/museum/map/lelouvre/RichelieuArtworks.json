@@ -1,4 +1,4 @@
-{
+]{
     "Type": "Node",
     "Id": "RichelieuArtworks",
     "Steps": [
@@ -99,6 +99,47 @@
             ],
             "LinksToFragment": {
                 "FragmentPath": "LouisXIV"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "RichelieuArtworksLacemaker",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Lacemaker",
+                "fr": "La Dentellière"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Floor 2",
+                    "fr": "Deuxième étage"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536759300/The_Lacemaker_Thumbnail.jpg"
+                }
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 581,
+                        "Height": 440,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536760460/LacemakerMap.png"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Lacemaker"
             }
         }
     ]
