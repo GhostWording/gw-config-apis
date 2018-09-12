@@ -3,6 +3,7 @@
 "apps": 
   [
     {
+      "availablefor" : ["en","fr","es"],
       "title": "Talk to me: I'm a pony!",
       "titleLocalized": {
         "en": "Talk to me: I'm a pony!",
@@ -17,7 +18,8 @@
         "es": "https://www.messenger.com/t/SurveyPonyy"
       }
     },       
-   {
+    {
+     "availablefor" : ["en","fr","es"],
       "title": "Try me, I'm a bot!",
       "titleLocalized": {
         "en": "Try me, I'm a quote bot!",
@@ -33,6 +35,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "title": "Elite Emoji",
       "titleLocalized": {
         "en": "Elite Emoji",
