@@ -1,6 +1,7 @@
 {
   "apps": [
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "Do people think like you? Ask our Messenger Pony!",
         "fr": "Dis ce que tu penses à un robot-poney !",
@@ -29,6 +30,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "title": {
         "en": "Hero, the Bot that recommends the best Emoji",
         "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
