@@ -1,6 +1,7 @@
 {
   "apps": [
     {
+      "availablefor" : ["en","fr","es"],
       "header": {
         "en": "The best kitten stories!",
         "fr": "Les meilleures histoires de chatons!",
@@ -20,6 +21,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "header": {
         "en": "Free hugs!",
         "fr": "Calins gratuits!",
