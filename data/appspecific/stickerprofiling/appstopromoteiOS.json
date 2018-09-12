@@ -3,6 +3,7 @@
 "apps": 
   [
     {
+      "availablefor" : ["en","fr","es"],
       "title": "Try me, I'm a bot!",
       "titleLocalized": {
         "en": "Try me, I'm a quote bot!",
@@ -18,6 +19,7 @@
       }
     },
     {
+      "availablefor" : ["en","fr","es"],
       "title": "StickerBliss for Messenger",
       "titleLocalized": {
         "en": "StickerBliss for Messenger",
