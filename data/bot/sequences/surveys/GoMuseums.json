@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "GoMuseums",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Do you ever go to museums ?",
+          "fr": "Est-ce que cela t'arrive d'aller au musée ?",
+          "es": "¿Alguna vez vas al museo?"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "GoMuseumsYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Sí"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "D0CdAhLDkmhEs"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "GoMuseumsNo",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Not really",
+          "fr": "Pas vraiment",
+          "es": "No realmente"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "3ohhwDfcBvBPpD9RZu"
+            }
+          }
+        ]
+      }
+    ]
+  }
