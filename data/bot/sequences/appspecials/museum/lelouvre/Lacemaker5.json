@@ -76,6 +76,16 @@
                             "fr": "Celle de Dali",
                             "es": "Dali's version"
                         },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
                         "LinksToFragment": {
                             "FragmentPath": "LacemakerFeedback"
                         }
@@ -89,6 +99,16 @@
                             "fr": "L'orignale !",
                             "es": "The original!"
                         },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
                         "LinksToFragment": {
                             "FragmentPath": "LacemakerFeedback"
                         }
