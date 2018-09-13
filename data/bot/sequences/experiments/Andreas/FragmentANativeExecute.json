@@ -12,7 +12,7 @@
     },
     {
       "Type": "Action",
-      "Name": "ExecuteFragment",
+      "Name": "FragmentANativeExecute",
       "Parameters": {
         "FragmentPath": "FragmentBExit"
       }
