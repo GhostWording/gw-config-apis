@@ -7,7 +7,7 @@
             "Label": {
                 "en": "The crowd is full of all Napoleon’s friends, family, and key political figures.",
                 "fr": "La foule est constituée de tous les amis et la famille de Napoléon, ainsi que de personnalités politiques.",
-                "es": "The crowd is full of all Napoleon’s friends, family, and key political figures."
+                "es": ""
             }
         },
         {
@@ -15,7 +15,7 @@
             "Label": {
                 "en": "David himself is in the crowd!",
                 "fr": "David lui-même est dans la foule !",
-                "es": "David himself is in the crowd!"
+                "es": ""
             }
         },
         {
@@ -33,7 +33,7 @@
             "Label": {
                 "en": "As a good friend of Napoleon, he did indeed attend the ceremony, which would certainly have helped in painting the scene!",
                 "fr": "En tant qu'ami proche de Napoléon, il a en effet assisté à la cérémonie, ce qui l'a certainement aidé à peindre la scène !",
-                "es": "As a good friend of Napoleon, he did indeed attend the ceremony, which would certainly have helped in painting the scene!"
+                "es": ""
             }
         }
     ],
@@ -45,7 +45,7 @@
             "CommandLabel": {
                 "en": "I’m sure it would!",
                 "fr": "C'est sûr !",
-                "es": "I’m sure it would!"
+                "es": ""
             },
             "Steps": [
                 {
@@ -53,7 +53,7 @@
                     "Label": {
                         "en": "Speaking of which, after this painting was finished, David was asked to create another copy to be sent to America! Which he did, from memory… making no mistakes apart from the colouring of the dress of one figure…",
                         "fr": "En parlant de cela, après que ce tableau fut terminé, on a demandé à David d'en créer une copie à envoyer en Amérique ! Ce qu'il a fait, de mémoire... ne faisant aucune erreur en dehors de la couleur de la robe d'un des personnages...",
-                        "es": "Speaking of which, after this painting was finished, David was asked to create another copy to be sent to America! Which he did, from memory… making no mistakes apart from the colouring of the dress of one figure…"
+                        "es": ""
                     }
                 },
                 {
@@ -71,7 +71,7 @@
                     "Label": {
                         "en": "Owls have a good memory… but I’m not sure I could do that!",
                         "fr": "Les chouettes ont une bonne mémoire... mais pas sûr que je serais capable de faire pareil !",
-                        "es": "Owls have a good memory… but I’m not sure I could do that!"
+                        "es": ""
                     }
                 }
             ],
@@ -87,7 +87,7 @@
                         "CommandLabel": {
                             "en": "That’s crazy",
                             "fr": "C'est fou",
-                            "es": "That’s crazy"
+                            "es": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "DavidCoronation4"
@@ -100,7 +100,7 @@
                         "CommandLabel": {
                             "en": "That’s easy",
                             "fr": "C'est facile",
-                            "es": "That’s easy"
+                            "es": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "DavidCoronation4"
