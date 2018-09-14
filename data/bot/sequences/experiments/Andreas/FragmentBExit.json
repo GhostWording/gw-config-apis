@@ -1,5 +1,5 @@
 {
-  "Type": "Leaf",
+  "Type": "Node",
   "Id": "FragmentBExit",
   "Steps": [
     {
@@ -9,10 +9,21 @@
         "fr": "This is fragment B!",
         "es": "This is fragment B!"
       }
-    },
+    }
+  ],
+  "Commands": [
     {
-      "Type": "Action",
-      "Name": "Exit"
+      "Type": "Leaf",
+      "Id": "FragmentBExit",
+      "CommandLabel": {
+        "en": "Exit"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "Exit"
+        }
+      ]
     }
   ]
 }
