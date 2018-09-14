@@ -6,7 +6,8 @@
       "Type": "Text",
       "Label": {
         "en": "As you may have noticed, she has no arms",
-        "fr": "Comme tu as pu le remarquer, la statue n'a pas de bras"
+        "fr": "Comme tu as pu le remarquer, la statue n'a pas de bras",
+        "es": ""
       }
     },
     {
@@ -23,7 +24,8 @@
       "Type": "Text",
       "Label": {
         "en": "The French are to blame for that…",
-        "fr": "C'est en partie à cause de Napoléon…"
+        "fr": "C'est en partie à cause de Napoléon…",
+        "es": ""
       }
     }
   ],
@@ -34,7 +36,8 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Not again?!",
-        "fr": "D'accord…"
+        "fr": "D'accord…",
+        "es": ""
       },
       "LinksToFragment": {
         "FragmentPath": "VenusDeMilo4"
@@ -46,7 +49,8 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "How?",
-        "fr": "Pourquoi ?"
+        "fr": "Pourquoi ?",
+        "es": ""
       },
       "LinksToFragment": {
         "FragmentPath": "VenusDeMilo4"
