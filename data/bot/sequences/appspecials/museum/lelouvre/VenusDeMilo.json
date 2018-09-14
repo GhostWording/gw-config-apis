@@ -16,7 +16,8 @@
       "Type": "Text",
       "Label": {
         "en": "So, who is this?",
-        "fr": "Selon toi, qui est-ce?"
+        "fr": "Selon toi, qui est-ce?",
+        "es": ""
       }
     }
   ],
@@ -27,14 +28,16 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Venus",
-        "fr": "Vénus"
+        "fr": "Vénus",
+        "es": ""
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Right!",
-            "fr": "Exact !"
+            "fr": "Exact !",
+            "es": ""
           }
         }
       ],
@@ -48,14 +51,16 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Cleopatra",
-        "fr": "Cléopâtre"
+        "fr": "Cléopâtre",
+        "es": ""
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Not quite, it’s Venus!",
-            "fr": "Pas vraiment.. il s'agit de Vénus !"
+            "fr": "Pas vraiment.. il s'agit de Vénus !",
+            "es": ""
           }
         }
       ],
@@ -69,14 +74,16 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Juliet",
-        "fr": "Juliette"
+        "fr": "Juliette",
+        "es": ""
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Not quite, it’s Venus!",
-            "fr": "Pas vraiment.. il s'agit de Vénus !"
+            "fr": "Pas vraiment.. il s'agit de Vénus !",
+            "es": ""
           }
         }
       ],
