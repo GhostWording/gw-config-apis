@@ -2,6 +2,7 @@
   {
     "GroupName":"Survey",
     "SequenceFiles" : [
+      { "order" : 1, "file": ["/data/bot/sequences/surveys/GoMuseums.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
