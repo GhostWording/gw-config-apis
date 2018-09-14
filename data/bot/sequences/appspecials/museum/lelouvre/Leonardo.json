@@ -7,7 +7,7 @@
       "Label": {
         "en": "So… this painting is very famous, but what about it’s painter? He’s pretty well known in and of himself!",
         "fr": "Alors... ce tableau est très célèbre, mais qu'en est-il du peintre ? Il est lui-même très connu pour l'ensemble de ses travaux !",
-        "es": "So… this painting is very famous, but what about it’s painter? He’s pretty well known in and of himself!"
+        "es": ""
       }
     },
     {
@@ -24,7 +24,7 @@
       "Label": {
         "en": "He lived in Florence in the 15th and 16th century CE, and was a key figure during the European ‘Renaissance’",
         "fr": "Il a vécu à Florence aux XVe et XVIe siècles, et il était une figure clé de la ‘Renaissance’ européenne",
-        "es": "He lived in Florence in the 15th and 16th century CE, and was a key figure during the European ‘Renaissance’"
+        "es": ""
       }
     }
   ],
@@ -36,7 +36,7 @@
       "CommandLabel": {
         "en": "Tell me about him!",
         "fr": "Dis m'en plus !",
-        "es": "Tell me about him!"
+        "es": ""
       },
       "Steps": [
         {
@@ -44,7 +44,7 @@
           "Label": {
             "en": "This was a time of huge scientific and artistic progress, and Leonardo was at the forefront of the movement!",
             "fr": "Ce fut une période de grands progrès scientifiques et artistiques, et De Vinci était à l'avant-garde du mouvement !",
-            "es": "This was a time of huge scientific and artistic progress, and Leonardo was at the forefront of the movement!"
+            "es": ""
           }
         },
         {
@@ -52,7 +52,7 @@
           "Label": {
             "en": "We have many of his sketches and journals which tell a story of a man who was always trying to discover and learn new things",
             "fr": "Beaucoup de ses croquis et de ses journaux nous sont parvenus. Ils nous montrent un homme qui étaient toujours à la recherche de la découverte de nouvelles choses",
-            "es": "We have many of his sketches and journals which tell a story of a man who was always trying to discover and learn new things"
+            "es": ""
           }
         },
         {
@@ -70,7 +70,7 @@
           "Label": {
             "en": "Ever seen that before?",
             "fr": "As-tu déjà vu cela auparavant ?",
-            "es": "Ever seen that before?"
+            "es": ""
           }
         }
       ],
@@ -86,7 +86,7 @@
             "CommandLabel": {
               "en": "Yes",
               "fr": "Oui",
-              "es": "Yes"
+              "es": ""
             },
             "LinksToFragment": {
               "FragmentPath": "Leonardo2"
@@ -115,7 +115,7 @@
       "CommandLabel": {
         "en": "Not for me",
         "fr": "J'en sais assez",
-        "es": "Not for me"
+        "es": ""
       },
       "LinksToFragment": {
         "FragmentPath": "LeonardoFeedback"
