@@ -11,17 +11,18 @@
       "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
     },
     {
-      "Name": "savethekitten",
-      "File": "/data/bot/apps/kitten/savethekittenMasterSequence.json"
+      "Name": "fortnite",
+      "File": "/data/bot/apps/fortnite/fortniteMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
     {
-      "Topic": "testnewformat",
-      "comment":"file with new simplified format, no more keys",
-      "File2": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json",
-      
-      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests2.json"
+      "Topic": "britishmuseum",
+      "File": "/data/bot/apps/museumapps/britishmuseum/britishMuseumFragments.json"
+    },
+    {
+      "Topic": "lelouvre",
+      "File": "/data/bot/apps/museumapps/lelouvre/lelouvreFragments.json"
     }
   ],
   "FragmentsForKeywords" : [
