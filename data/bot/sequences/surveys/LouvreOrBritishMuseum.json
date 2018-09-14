@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "LouvreOrBritishMuseum",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Would you rather go to the Louvre or the British Museum ?",
+          "fr": "Irais-tu plutôt au Louvre ou au British Museum ?",
+          "es": "¿Prefieres ir al Louvre o al British Museum?"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "LouvreOrBritishMuseumLouvre",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "The Louvre",
+          "fr": "Le Louvre",
+          "es": "El Louvre"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "9ILblxPirxYXu"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "LouvreOrBritishMuseumBritish",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "British Museum",
+          "fr": "British Museum",
+          "es": "British Museum"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "Image",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536936174/Webp.net-compress-image_1.jpg"
+            }
+          }
+        ]
+      }
+    ]
+  }
