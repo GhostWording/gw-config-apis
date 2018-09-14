@@ -7,7 +7,7 @@
             "Label": {
                 "en": "I’m sure you’re familiar with some of the huge masterpieces in this museum",
                 "fr": "Je suis sûr que tu connais certains des immenses chefs d’œuvre de ce musée",
-                "es": "I’m sure you’re familiar with some of the huge masterpieces in this museum"
+                "es": ""
             }
         },
         {
@@ -22,7 +22,7 @@
             "Label": {
                 "en": "But not all paintings have to be large, grand and loud!",
                 "fr": "Mais toutes les peintures n'ont pas besoin d'être immenses, imposantes et tapageuses !",
-                "es": "But not all paintings have to be large, grand and loud!"
+                "es": ""
             }
         }
     ],
@@ -34,7 +34,7 @@
             "CommandLabel": {
                 "en": "Show me!",
                 "fr": "Montre-moi !",
-                "es": "Show me!"
+                "es": ""
             },
             "Steps": [
                 {
@@ -42,7 +42,7 @@
                     "Label": {
                         "en": "Some can be tiny, quiet, and thoughtful!",
                         "fr": "Certaines peuvent être petites, discrètes et réfléchies",
-                        "es": "Some can be tiny, quiet, and thoughtful!"
+                        "es": ""
                     }
                 },
                 {
@@ -60,7 +60,7 @@
                     "Label": {
                         "en": "Like this one, the Lacemaker, by Johannes Vermeer, from 1670!",
                         "fr": "Comme celle-ci, La Dentellière, de Johannes Vermeer, réalisée en 1670 !",
-                        "es": "Like this one, the Lacemaker, by Johannes Vermeer, from 1670!"
+                        "es": ""
                     }
                 }
             ],
@@ -76,7 +76,7 @@
                         "CommandLabel": {
                             "en": "How tiny?",
                             "fr": "Minuscule à quel point ?",
-                            "es": "How tiny?"
+                            "es": ""
                         },
                         "Steps": [
                             {
@@ -84,7 +84,7 @@
                                 "Label": {
                                     "en": "It’s 23cm x 20cm: about the same size as an iPad!",
                                     "fr": "Elle mesure 23cm x 20cm : à peu près la même taille qu'un iPad !",
-                                    "es": "It’s 23cm x 20cm: about the same size as an iPad!"
+                                    "es": ""
                                 }
                             },
                             {
@@ -102,7 +102,7 @@
                                 "Label": {
                                     "en": "Nevertheless, it’s certainly a masterpiece! Let me tell you all about it!",
                                     "fr": "Néanmoins, il s'agit certainement d'un chef d’œuvre ! Laisse-moi t'en parler plus en détail !",
-                                    "es": "Nevertheless, it’s certainly a masterpiece! Let me tell you all about it!"
+                                    "es": ""
                                 }
                             }
                         ],
@@ -118,7 +118,7 @@
                                     "CommandLabel": {
                                         "en": "OK!",
                                         "fr": "D'accord !",
-                                        "es": "Ok!"
+                                        "es": ""
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "Lacemaker2"
@@ -131,7 +131,7 @@
                                     "CommandLabel": {
                                         "en": "No thanks!",
                                         "fr": "Non merci !",
-                                        "es": "No thanks!"
+                                        "es": ""
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "LacemakerFeedback"
