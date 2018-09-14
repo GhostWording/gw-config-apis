@@ -7,7 +7,7 @@
       "Label": {
         "en": "But humans would! It happened! After the wreck of the Meduse in 1816.",
         "fr": "Mais les humains le feraient ! C'est arrivé ! Après le naufrage de la Méduse en 1816. ",
-        "es": "But humans would! It happened! After the wreck of the Meduse in 1816."
+        "es": ""
       }
     },
     {
@@ -24,7 +24,7 @@
       "Label": {
         "en": "This painting by Théodore Géricault from 1818 depicts it!",
         "fr": "Ce tableau de Théodore Géricault de 1818 illustre la scène !",
-        "es": "This painting by Théodore Géricault from 1818 depicts it!"
+        "es": ""
       }
     },
     {
@@ -42,7 +42,7 @@
       "Label": {
         "en": "Want to hear about it?",
         "fr": "Ca te dit d'en entendre deux mots ?",
-        "es": "Want to hear about it?"
+        "es": ""
       }
     }
   ],
@@ -54,7 +54,7 @@
       "CommandLabel": {
         "en": "Yes!",
         "fr": "Oui !",
-        "es": "Yes!"
+        "es": ""
       },
       "LinksToFragment": {
         "FragmentPath": "MedusaRaft3"
@@ -67,7 +67,7 @@
       "CommandLabel": {
         "en": "No thanks",
         "fr": "Non merci",
-        "es": "No thanks"
+        "es": ""
       },
       "LinksToFragment": {
         "FragmentPath": "MedusaRaftFeedback"
