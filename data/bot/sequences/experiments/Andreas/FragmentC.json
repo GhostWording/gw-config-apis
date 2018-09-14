@@ -1,5 +1,5 @@
 {
- "Type": "Leaf",
+ "Type": "Node",
  "Id": "FragmentC",
  "Steps": [
    {
@@ -10,5 +10,14 @@
        "es": "This is fragment C!"
      }
    }
+ ],
+ "Commands": [
+  {
+   "Type": "Leaf",
+   "Id": "FragmentCExit",
+   "CommandLabel": {
+     "en": "Exit"
+   }
+  }
  ]
 }
