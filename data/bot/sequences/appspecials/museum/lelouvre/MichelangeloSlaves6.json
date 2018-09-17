@@ -1,0 +1,119 @@
+{
+    "Type": "Node",
+    "Id": "MichelangeloSlaves6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Michelangelo was drawing on the contorted figures often portrayed by Classical Artists!",
+                "fr": "Michel-Ange s'appuyait sur les figures contorsionnées souvent dépeintes par les artistes classiques !",
+                "es": "Michelangelo was drawing on the contorted figures often portrayed by Classical Artists!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 780,
+                "Height": 750,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536836026/8slaves_laocoon.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 845,
+                "Height": 617,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536839000/9slaves_gigantomachia.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "After all, crafting the nude body in a twisted pose was considered a crowning achievement for sculptors!",
+                "fr": "Après tout, représenter le corps nu dans une posture compliquée était considéré comme l'accomplissement ultime pour les sculpteurs !",
+                "es": "After all, crafting the nude body in a twisted pose was considered a crowning achievement for sculptors!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves6More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Anything more?",
+                "fr": "Quoi d'autre ?",
+                "es": "Anything more?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes indeed!",
+                        "fr": "Eh bien...",
+                        "es": "Yes indeed!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There’s one interesting question to ask… why would the pope want sculptures of dying, naked slaves on his tomb?",
+                        "fr": "Il y a une question intéressante à se poser... Pourquoi le pape voudrait-il des sculptures d'esclaves nus et mourants sur sa tombe ?",
+                        "es": "There’s one interesting question to ask… why would the pope want sculptures of dying, naked slaves on his tomb?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MichelangeloSlaves6MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlaves6MoreCreepy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It's a bit weird",
+                            "fr": "C'est un peu bizarre",
+                            "es": "It's a bit weird"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MichelangeloSlaves7"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlaves6MoreQuestion",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Good question!",
+                            "fr": "Bonne question !",
+                            "es": "Good question!"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MichelangeloSlaves7"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
