@@ -2,9 +2,9 @@
   {
     "GroupName":"Survey",
     "SequenceFiles" : [
-      { "order" : 1, "file": ["/data/bot/sequences/surveys/GoMuseums.json"]},
-      { "order" : 2, "file": ["/data/bot/sequences/surveys/PaintingsOrSculptures.json"]},
-      { "order" : 3, "file": ["/data/bot/sequences/surveys/LouvreOrBritishMuseum.json"]},
+      { "order" : 31, "file": ["/data/bot/sequences/surveys/GoMuseums.json"]},
+      { "order" : 32, "file": ["/data/bot/sequences/surveys/PaintingsOrSculptures.json"]},
+      { "order" : 33, "file": ["/data/bot/sequences/surveys/LouvreOrBritishMuseum.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
