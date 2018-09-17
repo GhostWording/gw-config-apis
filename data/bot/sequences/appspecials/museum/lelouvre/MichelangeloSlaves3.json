@@ -1,0 +1,68 @@
+{
+    "Type": "Node",
+    "Id": "MichelangeloSlaves3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, unsurprisingly, Michelangelo was swiftly reassigned to Pope Julius’ tomb",
+                "fr": "Ainsi, sans surprise, Michel-Ange a été rapidement réaffecté à la tombe du Pape Jules",
+                "es": "So, unsurprisingly, Michelangelo was swiftly reassigned to Pope Julius’ tomb"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These two sculptures were part of the project!",
+                "fr": "Ces deux sculptures faisaient partie du projet !",
+                "es": "These two sculptures were part of the project!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 753,
+                "Height": 697,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536839000/3slaves.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "…",
+                "fr": "…",
+                "es": "…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves3Tell",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me about them!",
+                "fr": "Dis m'en plus !",
+                "es": "Tell me about them!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MichelangeloSlaves4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "That’s enough"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MichelangeloSlavesFeedback"
+            }
+        }
+    ]
+}
