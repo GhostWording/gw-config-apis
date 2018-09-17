@@ -1,0 +1,139 @@
+{
+    "Type": "Node",
+    "Id": "MichelangeloSlaves",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These two sculptures have a great backstory: want to hear it? Or skip ahead?",
+                "fr": "Ces deux sculptures ont un contexte très intéressant: tu veux connaître l'histoire ? Ou passer à la suite ?",
+                "es": "These two sculptures have a great backstory: want to hear it? Or skip ahead?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlavesTell",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me everything!",
+                "fr": "Dis-moi tout !",
+                "es": "Tell me everything!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You made the right choice!",
+                        "fr": "Tu as fait le bon choix !",
+                        "es": "You made the right choice!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In 1505, the Pope at the time, Julius II, realised he was getting old, and decided to build for himself a huge tomb",
+                        "fr": "En 1505, le pape de l'époque, Jules II, se rendit compte qu'il vieillissait, et décida de se faire construire un immense tombeau",
+                        "es": "In 1505, the Pope at the time, Julius II, realised he was getting old, and decided to build for himself a huge tomb"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He hired none other than Michelangelo Buonarotti to produce the sculptures.",
+                        "fr": "Il n'engagea nul autre que Michelangelo Buonarotti pour réaliser les sculptures.",
+                        "es": "He hired none other than Michelangelo Buonarotti to produce the sculptures."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MichelangeloSlavesTellStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlavesTellContinue",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Continue",
+                            "fr": "Continue",
+                            "es": "Continue"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Michelangelo was already pretty famous at the time for sculptures like “David”",
+                                    "fr": "Michel-Ange était déjà assez célèbre à l'époque, grâce à des sculptures telles que “David”",
+                                    "es": "Michelangelo was already pretty famous at the time for sculptures like “David”"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 480,
+                                    "Height": 663,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536833240/1slaves_david.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "but working for the Pope was the ultimate honour!",
+                                    "fr": "mais travailler pour le pape représentait l'honneur ultime !",
+                                    "es": "but working for the Pope was the ultimate honour!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Unfortunately, early into the project, the two had a heated argument, and Michelangelo fled Rome!",
+                                    "fr": "Malheureusement, au début du projet, les deux hommes ont eu une dispute houleuse, et Michel-Ange dut fuire Rome",
+                                    "es": "Unfortunately, early into the project, the two had a heated argument, and Michelangelo fled Rome!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "MichelangeloSlavesTellContinueStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "MichelangeloSlavesTellContinueThen",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "What then?!",
+                                        "fr": "Et ensuite !?",
+                                        "es": "What then?!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "MichelangeloSlaves2"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlavesSkip",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Skip ahead!",
+                "fr": "Passer à la suite!",
+                "es": "Skip ahead!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MichelangeloSlaves4"
+            }
+        }
+    ]
+}
+
