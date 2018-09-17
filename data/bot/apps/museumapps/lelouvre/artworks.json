@@ -188,5 +188,24 @@
       "Artist" : "Johannes Vermeer",
       "SequenceId": "Lacemaker",
       "LocationSequenceId":"LacemakerMap"
+  },
+  {
+    "Id": "MichelangeloSlaves",
+    "Caption": {
+      "en": "Michelangelo's Slaves",
+      "fr": "Michelangelo's Slaves",
+      "es": "Michelangelo's Slaves"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537192779/slaves.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537193769/thumbnail_slaves.jpg"
+      },
+      "Artist" : "Michelangelo Buonarotti",
+      "SequenceId": "MichelangeloSlaves",
+      "LocationSequenceId":"MichelangeloSlavesMap"
   }
 ]
