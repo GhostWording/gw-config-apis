@@ -1,0 +1,125 @@
+{
+    "Type": "Node",
+    "Id": "MichelangeloSlaves5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This one is called the “Dying Slave”",
+                "fr": "Celle-ci s'appelle “L'Esclave mourant”",
+                "es": "This one is called the “Dying Slave”"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 596,
+                "Height": 768,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536836026/6dying_slave.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He seems to be right in the moment of death, as his limbs go lax in a sort of ecstatic agony",
+                "fr": "Il semble être juste sur le point de mourir, ses membres se relâchant dans une sorte d'agonie extatique",
+                "es": "He seems to be right in the moment of death, as his limbs go lax in a sort of ecstatic agony"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves5Other",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "And the other?",
+                "fr": "Et l'autre statue ?",
+                "es": "And the other?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "This one has been called the “Rebellious Slave”, since he is writhing against his restraints!",
+                        "fr": "Celle-ci s'appelle “L'Esclave rebelle”, car il se tord pour échapper à ses entraves !",
+                        "es": "This one has been called the “Rebellious Slave”, since he is writhing against his restraints!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 462,
+                        "Height": 728,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536836026/7rebellious_slave.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He, too, is featured in a contorted pose that fully shows off his body and fine musculature…",
+                        "fr": "Lui aussi est représenté dans une pose contorsionnée, qui met en avant son corps et sa musculature avantageuse...",
+                        "es": "He, too, is featured in a contorted pose that fully shows off his body and fine musculature…"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MichelangeloSlaves5OtherStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlaves5OtherFamiliar",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It seems familiar",
+                            "fr": "Ça me semble familier",
+                            "es": "It seems familiar"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right!",
+                                    "fr": "N'est-ce pas !",
+                                    "es": "Right!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MichelangeloSlaves6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlaves5OtherSo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "So what?",
+                            "fr": "Et alors ?",
+                            "es": "So what?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well…",
+                                    "fr": "Eh bien…",
+                                    "es": "Well…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MichelangeloSlaves6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
