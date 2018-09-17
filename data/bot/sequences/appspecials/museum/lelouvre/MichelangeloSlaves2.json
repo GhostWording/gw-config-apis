@@ -1,0 +1,130 @@
+{
+    "Type": "Node",
+    "Id": "MichelangeloSlaves2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Michelangelo’s rivals seized at the chance...",
+                "fr": "Les rivaux de Michel-Ange saisirent l'opportunité...",
+                "es": "Michelangelo’s rivals seized at the chance..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "they influenced the Pope to reassign Michelangelo to a different project…",
+                "fr": "ils influencèrent le pape pour réaffecter Michel-Ange à un autre projet...",
+                "es": "they influenced the Pope to reassign Michelangelo to a different project…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A contract they hoped he would fail and be disgraced for",
+                "fr": "Un contrat pour lequel ils espéraient qu'il échouerait et tomberait en disgrâce",
+                "es": "A contract they hoped he would fail and be disgraced for"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves2Fail",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Did he fail?",
+                "fr": "Est-ce qu'il a échoué ?",
+                "es": "Did he fail?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not unless you call painting one of the most celebrated works of art of all time ”failure”!",
+                        "fr": "A moins que tu considères que peindre l'une des œuvres d'art les plus célèbres de tous les temps un ”échec” !",
+                        "es": "Not unless you call painting one of the most celebrated works of art of all time ”failure”!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MichelangeloSlaves2FailStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlaves2FailMean",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What do you mean?",
+                            "fr": "Comment ça ?",
+                            "es": "What do you mean?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This other project was painting the ceiling of the Sistine Chapel… recognise this?",
+                                    "fr": "Cet autre projet consistait à peindre le plafond de la chapelle Sixtine... Tu reconnais ça ?",
+                                    "es": "This other project was painting the ceiling of the Sistine Chapel… recognise this?"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 785,
+                                    "Height": 366,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536833424/2slaves_sistinechapel.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I bet his rivals felt a little foolish after that…",
+                                    "fr": "Je parie que ses rivaux se sont sentis un peu bêtes après cela...",
+                                    "es": "I bet his rivals felt a little foolish after that…"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "MichelangeloSlaves2FailMeanStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "MichelangeloSlaves2FailMeanServes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Serves them right!",
+                                        "fr": "Bien fait pour eux !",
+                                        "es": "Serves them right!"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "MichelangeloSlaves3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "MichelangeloSlaves2FailMeanNext",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "What next?",
+                                        "fr": "Et ensuite ?",
+                                        "es": "What next?"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "MichelangeloSlaves3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
