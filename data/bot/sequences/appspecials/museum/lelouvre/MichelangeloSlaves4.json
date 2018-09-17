@@ -1,0 +1,125 @@
+{
+    "Type": "Node",
+    "Id": "MichelangeloSlaves4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As you can see, these pieces are fabulously sculpted, at least from certain angles",
+                "fr": "Comme tu peux le voir, ces œuvres sont fabuleusement sculptées, au moins sous certains angles",
+                "es": "As you can see, these pieces are fabulously sculpted, at least from certain angles"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 575,
+                "Height": 875,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536838999/4slaves_gooddetails.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But from other angles, they seem a little rougher, almost unfinished",
+                "fr": "Mais sous d'autres angles, elles semblent plus irrégulières, presque inachevées",
+                "es": "But from other angles, they seem a little rougher, almost unfinished"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "…",
+                "fr": "…",
+                "es": "…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 288,
+                "Height": 780,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536838999/4slaves_baddetails.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves4Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "Why?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, they were designed as part of Pope Julius II’s tomb",
+                        "fr": "Eh bien, elles ont été conçues comme éléments de la tombe du Pape Jules II",
+                        "es": "Well, they were designed as part of Pope Julius II’s tomb"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and so Michelangelo only carefully crafted the parts that were directly visible to viewers looking at the mausoleum",
+                        "fr": "C'est pourquoi Michel-Ange a soigneusement conçu les parties directement visibles par les spectateurs admirant le mausolée",
+                        "es": "and so Michelangelo only carefully crafted the parts that were directly visible to viewers looking at the mausoleum"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 504,
+                        "Height": 755,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536836026/5slaves_tomb.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Is it laziness, or efficiency? 😂",
+                        "fr": "Est-ce de la paresse ou de l'efficacité ? 😂",
+                        "es": "Is it laziness, or efficiency? 😂"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Nevertheless, the statues are beautiful! Let’s look at them more closely...",
+                        "fr": "Néanmoins, les statues sont magnifiques ! Regardons-les de plus près...",
+                        "es": "Nevertheless, the statues are beautiful! Let’s look at them more closely..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MichelangeloSlaves4WhyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MichelangeloSlaves4WhyAlright",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Alright!",
+                            "fr": "Volontiers !",
+                            "es": "Alright!"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MichelangeloSlaves5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
