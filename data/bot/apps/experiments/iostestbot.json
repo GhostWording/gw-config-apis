@@ -3,7 +3,7 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/DisplayCardAfterSelectionFullScreenWidth.json"]},
+            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/FragmentANativeExecute.json"]},
             { "order" : 3, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel.json"]},
             { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/DisplayCardAfterSelectionDefault.json"]},
             { "order" : 20, "file": ["/data/bot/sequences/experiments/Andreas/DisplayCardAfterSelectionFullScreenWidth.json"]},
