@@ -10,7 +10,13 @@
                 "en": "Exit",
                 "fr": "Retour",
                 "es": "Vuelta"
-            }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Exit"
+                }
+            ]
         }
     ]
 }
