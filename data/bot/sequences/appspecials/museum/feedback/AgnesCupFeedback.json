@@ -37,7 +37,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "AgnesCupFeedbackBad",
             "ElementValue": "1",
             "CommandLabel": {
@@ -53,11 +53,15 @@
                         "SequenceId": "AgnesCup",
                         "FeedbackValue": "Bad"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "FragmentBExit"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+            ]
         }
     ]
 }
