@@ -1,63 +1,71 @@
 {
-    "Type": "Node",
-    "Id": "LouisXIVFeedback",
-    "Steps": [
+  "Type": "Node",
+  "Id": "LouisXIVFeedback",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How did you like this story?",
+        "fr": "Comment as-tu trouvé cette histoire ?",
+        "es": "¿Cómo te pareció esta historia?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LouisXIVFeedbackGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "It was great!",
+        "fr": "C'était super !",
+        "es": "¡Fue genial!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "How did you like this story?",
-                "fr": "Comment as-tu trouvé cette histoire ?",
-                "es": "¿Cómo te pareció esta historia?"
-            }
-        }
-    ],
-    "Randomize": "true",
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "LouisXIVFeedbackGood",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "It was great!",
-                "fr": "C'était super !",
-                "es": "¡Fue genial!"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "Feedback",
-                    "Parameters": {
-                        "SequenceId": "LouisXIV",
-                        "FeedbackValue": "Good"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+          "Type": "Action",
+          "Name": "Feedback",
+          "Parameters": {
+            "SequenceId": "LouisXIV",
+            "FeedbackValue": "Good"
+          }
         },
         {
-            "Type": "Node",
-            "Id": "LouisXIVFeedbackBad",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Good enough",
-                "fr": "Assez bien",
-                "es": "Bastante bueno"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "Feedback",
-                    "Parameters": {
-                        "SequenceId": "LouisXIV",
-                        "FeedbackValue": "Bad"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+          "Type": "Action",
+          "Name": "NativeExecuteFragment",
+          "Parameters": {
+            "FragmentPath": "FragmentBExit"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "LouisXIVFeedbackBad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Good enough",
+        "fr": "Assez bien",
+        "es": "Bastante bueno"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "Feedback",
+          "Parameters": {
+            "SequenceId": "LouisXIV",
+            "FeedbackValue": "Bad"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "NativeExecuteFragment",
+          "Parameters": {
+            "FragmentPath": "FragmentBExit"
+          }
+        }
+      ]
+    }
+  ]
 }
