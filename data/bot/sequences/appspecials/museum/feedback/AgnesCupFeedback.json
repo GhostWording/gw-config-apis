@@ -14,7 +14,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "AgnesCupFeedbackGood",
             "ElementValue": "1",
             "CommandLabel": {
@@ -58,7 +58,7 @@
                     "Type": "Action",
                     "Name": "NativeExecuteFragment",
                     "Parameters": {
-                        "FragmentPath": "FragmentBExit"
+                        "FragmentPath": "Exit"
                     }
                 }
             ]
