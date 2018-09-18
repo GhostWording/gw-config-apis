@@ -1,5 +1,5 @@
 {
-  "Type": "Node",
+  "Type": "Leaf",
   "Id": "CallLouvreCarrousel3",
   "Steps": [
       {
@@ -10,8 +10,6 @@
               "es": "Dejame contarte algo"
           }
       }
-  ],
-  "LinksToFragment": {
-    "FragmentPath": "ChooseLouvreStory"
-  } 
+  ]
 }
+
