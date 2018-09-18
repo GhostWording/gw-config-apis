@@ -1,5 +1,5 @@
 {
-  "Type": "Node",
+  "Type": "Leaf",
   "Id": "FragmentANativeExecute",
   "Steps": [
     {
@@ -17,8 +17,5 @@
         "FragmentPath": "FragmentBExit"
       }
     }
-  ],
-  "LinksToFragment": {
-    "FragmentPath": "FragmentC"
-  }
+  ]
 }
