@@ -30,11 +30,15 @@
                         "SequenceId": "AgnesCup",
                         "FeedbackValue": "Good"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+            ]
         },
         {
             "Type": "Leaf",
