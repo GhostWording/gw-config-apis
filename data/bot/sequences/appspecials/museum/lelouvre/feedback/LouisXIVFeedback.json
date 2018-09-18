@@ -14,7 +14,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "LouisXIVFeedbackGood",
       "ElementValue": "1",
       "CommandLabel": {
@@ -38,10 +38,13 @@
             "FragmentPath": "Exit"
           }
         }
-      ]
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "ChooseLouvreStory"
+      }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "LouisXIVFeedbackBad",
       "ElementValue": "1",
       "CommandLabel": {
@@ -65,7 +68,10 @@
             "FragmentPath": "Exit"
           }
         }
-      ]
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "ChooseLouvreStory"
+      }
     }
   ]
 }
