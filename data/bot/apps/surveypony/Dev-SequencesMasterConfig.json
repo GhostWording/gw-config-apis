@@ -4,22 +4,11 @@
       "Name": "rcbotdev",
       "Source": "github",
       "experiment":"/data/bot/apps/astrology/astrologyMasterSequence.json",
-      "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
-    },
-    {
-      "Name": "unittestbot",
-      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
-    },
-    {
-      "Name": "fortnite",
-      "File": "/data/bot/apps/fortnite/fortniteMasterSequence.json"
+      "file2": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
+      "file": "/data/bot/apps/louvrebot/louvrebotMaster.json"
     }
   ],
   "FragmentsFiles": [
-    {
-      "Topic": "britishmuseum",
-      "File": "/data/bot/apps/museumapps/britishmuseum/britishMuseumFragments.json"
-    },
     {
       "Topic": "lelouvre",
       "File": "/data/bot/apps/museumapps/lelouvre/lelouvreFragments.json"
