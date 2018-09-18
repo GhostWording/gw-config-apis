@@ -14,7 +14,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LouisXIVFeedbackGood",
       "ElementValue": "1",
       "CommandLabel": {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LouisXIVFeedbackBad",
       "ElementValue": "1",
       "CommandLabel": {
