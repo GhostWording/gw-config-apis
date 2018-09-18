@@ -14,7 +14,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "MausoleumFeedbackGood",
             "ElementValue": "1",
             "CommandLabel": {
@@ -30,14 +30,18 @@
                         "SequenceId": "Mausoleum",
                         "FeedbackValue": "Good"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+            ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "MausoleumFeedbackBad",
             "ElementValue": "1",
             "CommandLabel": {
@@ -53,11 +57,15 @@
                         "SequenceId": "Mausoleum",
                         "FeedbackValue": "Bad"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+            ]
         }
     ]
 }
