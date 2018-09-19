@@ -7,7 +7,8 @@
             "Label": {
                 "en": "It was inspired by this famous painting by Eugene Delacroix",
                 "fr": "Cette statue est inspirée du célèbre tableau d'Eugène Delacroix",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -25,7 +26,8 @@
             "Label": {
                 "en": "The three characters on the left represent different classes, rising up together to overthrow the monarchy.",
                 "fr": "Les trois personnages à gauche représentent différentes classes sociales, s'unissant pour renverser la monarchie.",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -37,7 +39,8 @@
             "CommandLabel": {
                 "en": "Show me!",
                 "fr": "Montre-moi !",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -52,7 +55,8 @@
                     "Label": {
                         "en": "The boy on the right is thought to have inspired the character “Gavroche” in Victor Hugo’s Les Miserables!",
                         "fr": "On pense que le garçon à droite a inspiré le personnage “Gavroche” dans Les Misérables de Victor Hugo !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 },
                 {
@@ -76,7 +80,8 @@
                     "Label": {
                         "en": "Most importantly, though, the lady in the centre is known as Marianne, a French symbol of liberty!",
                         "fr": "Plus important encore, la femme au milieu est connue sous le nom de Marianne, le symbole français de la liberté !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
@@ -92,7 +97,8 @@
                         "CommandLabel": {
                             "en": "Tell me about her",
                             "fr": "Parle-moi d'elle !",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "Steps": [
                             {
@@ -100,7 +106,8 @@
                                 "Label": {
                                     "en": "She features on all kinds of French things!",
                                     "fr": "Elle apparaît souvent sur des éléments officiels français !",
-                                    "es": ""
+                                    "es": "",
+                                    "cn": ""
                                 }
                             },
                             {
@@ -115,7 +122,8 @@
                                 "Label": {
                                     "en": "She’s wearing a phrygian cap, which is also a symbol of liberty!",
                                     "fr": "Elle porte un bonnet phrygien, qui est aussi un symbole de liberté !",
-                                    "es": ""
+                                    "es": "",
+                                    "cn": ""
                                 }
                             },
                             {
@@ -132,7 +140,8 @@
                                 "Label": {
                                     "en": "...",
                                     "fr": "...",
-                                    "es": "..."
+                                    "es": "...",
+                                    "cn": "..."
                                 }
                             }
                         ],
@@ -148,7 +157,8 @@
                                     "CommandLabel": {
                                         "en": "How so?",
                                         "fr": "Comment ça ?",
-                                        "es": ""
+                                        "es": "",
+                                        "cn": ""
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "LibertyLeading3"
@@ -164,7 +174,8 @@
                         "CommandLabel": {
                             "en": "That’s enough",
                             "fr": "J'en sais assez",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "LibertyLeadingFeedback"
