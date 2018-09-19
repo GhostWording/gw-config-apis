@@ -7,7 +7,8 @@
             "Label": {
                 "en": "I’m sure you know this statue.",
                 "fr": "Je suis sûr que tu reconnais cette statue.",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -25,7 +26,8 @@
             "Label": {
                 "en": "But do you know it was gifted to the USA by France?",
                 "fr": "Mais savais-tu qu'elle a été offerte aux Etats-Unis par la France ?",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -37,7 +39,8 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": "Sí"
+                "es": "Sí",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -45,7 +48,8 @@
                     "Label": {
                         "en": "Great knowledge!",
                         "fr": "Quelle culture !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
@@ -60,7 +64,8 @@
             "CommandLabel": {
                 "en": "No",
                 "fr": "Non",
-                "es": "No"
+                "es": "No",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -68,7 +73,8 @@
                     "Label": {
                         "en": "Cool, right?",
                         "fr": "C'est cool, non ?",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
