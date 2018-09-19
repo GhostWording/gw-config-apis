@@ -7,7 +7,8 @@
       "Label": {
         "en": "So… this painting is very famous, but what about it’s painter? He’s pretty well known in and of himself!",
         "fr": "Alors... ce tableau est très célèbre, mais qu'en est-il du peintre ? Il est lui-même très connu pour l'ensemble de ses travaux !",
-        "es": ""
+        "es": "",
+        "cn": ""
       }
     },
     {
@@ -24,7 +25,8 @@
       "Label": {
         "en": "He lived in Florence in the 15th and 16th century CE, and was a key figure during the European ‘Renaissance’",
         "fr": "Il a vécu à Florence aux XVe et XVIe siècles, et il était une figure clé de la ‘Renaissance’ européenne",
-        "es": ""
+        "es": "",
+        "cn": ""
       }
     }
   ],
@@ -36,7 +38,8 @@
       "CommandLabel": {
         "en": "Tell me about him!",
         "fr": "Dis m'en plus !",
-        "es": ""
+        "es": "",
+        "cn": ""
       },
       "Steps": [
         {
@@ -44,7 +47,8 @@
           "Label": {
             "en": "This was a time of huge scientific and artistic progress, and Leonardo was at the forefront of the movement!",
             "fr": "Ce fut une période de grands progrès scientifiques et artistiques, et De Vinci était à l'avant-garde du mouvement !",
-            "es": ""
+            "es": "",
+            "cn": ""
           }
         },
         {
@@ -52,7 +56,8 @@
           "Label": {
             "en": "We have many of his sketches and journals which tell a story of a man who was always trying to discover and learn new things",
             "fr": "Beaucoup de ses croquis et de ses journaux nous sont parvenus. Ils nous montrent un homme qui étaient toujours à la recherche de la découverte de nouvelles choses",
-            "es": ""
+            "es": "",
+            "cn": ""
           }
         },
         {
@@ -70,7 +75,8 @@
           "Label": {
             "en": "Ever seen that before?",
             "fr": "As-tu déjà vu cela auparavant ?",
-            "es": ""
+            "es": "",
+            "cn": ""
           }
         }
       ],
@@ -86,7 +92,8 @@
             "CommandLabel": {
               "en": "Yes",
               "fr": "Oui",
-              "es": ""
+              "es": "",
+              "cn": ""
             },
             "LinksToFragment": {
               "FragmentPath": "Leonardo2"
@@ -99,7 +106,8 @@
             "CommandLabel": {
               "en": "No",
               "fr": "Non",
-              "es": "No"
+              "es": "No",
+              "cn": ""
             },
             "LinksToFragment": {
               "FragmentPath": "Leonardo2"
@@ -115,7 +123,8 @@
       "CommandLabel": {
         "en": "Not for me",
         "fr": "J'en sais assez",
-        "es": ""
+        "es": "",
+        "cn": ""
       },
       "LinksToFragment": {
         "FragmentPath": "LeonardoFeedback"
