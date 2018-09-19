@@ -7,7 +7,8 @@
             "Label": {
                 "en": "Anyway, back to the painting",
                 "fr": "Bref, retour au tableau",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "Not everyone shown actually attended!",
                 "fr": "En réalité, tous ceux représentés n'ont pas assisté à l'événement !",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -27,7 +29,8 @@
             "CommandLabel": {
                 "en": "Who?",
                 "fr": "Comme qui ?",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -35,7 +38,8 @@
                     "Label": {
                         "en": "Napoleon’s mother is shown in the VIP gallery at the back!",
                         "fr": "Le mère de Napoléon est peinte dans la galerie VIP dans le fond !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 },
                 {
@@ -53,7 +57,8 @@
                     "Label": {
                         "en": "But in fact, she famously didn’t attend, since she disagreed with the whole procedure!",
                         "fr": "Mais en fait, elle n'est pas venue car elle n'était pas du tout d'accord avec la démarche",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 },
                 {
@@ -61,7 +66,8 @@
                     "Label": {
                         "en": "Talk about falling out with your mother…",
                         "fr": "Sympa l'ambiance à la maison...",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
@@ -77,7 +83,8 @@
                         "CommandLabel": {
                             "en": "Who else is there?",
                             "fr": "Qui d'autre est présent ?",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "Steps": [
                             {
@@ -85,7 +92,8 @@
                                 "Label": {
                                     "en": "Pope Pius VII can be seen behind Napoleon, giving his blessing",
                                     "fr": "Derrière Napoléon, on peut voir le pape Pie VII donnant sa bénédiction",
-                                    "es": ""
+                                    "es": "",
+                                    "cn": ""
                                 }
                             },
                             {
@@ -103,7 +111,8 @@
                                 "Label": {
                                     "en": "Originally, he was painted with his hands in his lap, but Napoleon himself ordered David to change the scene...",
                                     "fr": "À l'origine, il a été peint avec les mains sur les genoux, mais Napoléon a ordonné à David de changer la scène...",
-                                    "es": ""
+                                    "es": "",
+                                    "cn": ""
                                 }
                             },
                             {
@@ -111,7 +120,8 @@
                                 "Label": {
                                     "en": "He wanted it to be clear that the Pope supported Napoleon’s position",
                                     "fr": "Il voulait que le soutien du Pape pour sa position soit évident",
-                                    "es": ""
+                                    "es": "",
+                                    "cn": ""
                                 }
                             }
                         ],
@@ -127,7 +137,8 @@
                                     "CommandLabel": {
                                         "en": "Makes sense",
                                         "fr": "C'est logique",
-                                        "es": ""
+                                        "es": "",
+                                        "cn": ""
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "DavidCoronation5"
