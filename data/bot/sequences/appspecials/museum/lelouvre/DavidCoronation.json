@@ -7,7 +7,8 @@
             "Label": {
                 "en": "It’s time to talk about a HUGE painting! Here’s the Coronation of Napoleon, by Jacques-Louis David, from 1807.",
                 "fr": "Il est temps de parler d'une peinture gigantesque ! Voici le Sacre de Napoléon, de Jacques-Louis David, réalisé en 1807",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -23,7 +24,8 @@
             "Label": {
                 "en": "Did I mention this painting is huge?",
                 "fr": "Ai-je mentionné à quel point ce tableau est énorme ?",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -40,7 +42,8 @@
             "Label": {
                 "en": "It’s one of the biggest in the whole museum!",
                 "fr": "C'est l'un des plus grands de tout le musée !",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -52,7 +55,8 @@
             "CommandLabel": {
                 "en": "That’s enormous!",
                 "fr": "C'est gigantesque !",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "LinksToFragment": {
                 "FragmentPath": "DavidCoronation2"
@@ -65,7 +69,8 @@
             "CommandLabel": {
                 "en": "That's not so big",
                 "fr": "Pas si grand",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "LinksToFragment": {
                 "FragmentPath": "DavidCoronation2"
