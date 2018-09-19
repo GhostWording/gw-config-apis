@@ -16,7 +16,8 @@
             "Label": {
                 "en": "Have you ever seen this painting before?",
                 "fr": "As-tu déjà vu ce tableau ?",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -28,7 +29,8 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": "Sí"
+                "es": "Sí",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -36,7 +38,8 @@
                     "Label": {
                         "en": "You’re smart!",
                         "fr": "Tu es cultivé !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
@@ -51,7 +54,8 @@
             "CommandLabel": {
                 "en": "No",
                 "fr": "Non",
-                "es": "No"
+                "es": "No",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -59,7 +63,8 @@
                     "Label": {
                         "en": "In that case, I conclude that you did not attend school in France",
                         "fr": "Dans ce cas, j'en déduis que tu n'as pas été à l'école en France",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
