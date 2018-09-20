@@ -16,7 +16,7 @@
       },
       "Artist" : "Leonardo da Vinci",
       "SequenceId": "MonaTheft",
-      "LocationSequenceId":"MonaLisaMap"
+      "LocationSequenceId":"DisplayCardAfterSelectionDefault"
   },
   {
     "Id": "DavidCoronation",
@@ -35,7 +35,7 @@
       },
       "Artist" : "Jacques-Louis David",
       "SequenceId": "DavidCoronation",
-      "LocationSequenceId":"DavidCoronationMap"
+      "LocationSequenceId":"DisplayCardAfterSelectionFullScreenWidth"
   },
   {
     "Id": "Lamassu",
@@ -54,7 +54,7 @@
       }, 
       "Artist" : "Unknown",
       "SequenceId": "Lamassu",
-      "LocationSequenceId":"LamassuMap"
+      "LocationSequenceId":"DisplayCardAfterSelectionNone"
   },
   {
     "Id": "LibertyLeading",
