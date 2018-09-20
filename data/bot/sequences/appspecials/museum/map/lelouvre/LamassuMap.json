@@ -7,13 +7,15 @@
             "Label": {
                 "en": "This painting is on the GROUND FLOOR (0)",
                 "fr": "Ce tableau se trouve au REZ-DE-CHAUSSEE (0)"
+                "es": "Este cuadro está en la BAJA PLANTA (0)"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "In the Richelieu Wing (NORTH)",
-                "fr": "Dans l'aile Richelieu (NORD)"
+                "fr": "Dans l'aile Richelieu (NORD)",
+                "es": "En el ala Richelieu (NORTE)"
             }
         },
         {
@@ -30,7 +32,8 @@
             "Type": "Text",
             "Label": {
                 "en": "It's right here!",
-                "fr": "C'est juste là !"
+                "fr": "C'est juste là !",
+                "es": "¡Está justo ahí!"
             }
         },
         {
@@ -51,8 +54,8 @@
           "ElementValue": "1",
           "CommandLabel": {
             "en": "Exit",
-            "fr": "Sortie",
-            "es": "Exit"
+            "fr": "Retour",
+            "es": "Vuelta"
           }
         }
     ]
