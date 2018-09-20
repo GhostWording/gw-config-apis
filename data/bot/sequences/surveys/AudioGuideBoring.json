@@ -1,0 +1,57 @@
+{
+    "Type": "Node",
+    "Id": "AudioGuideBoring",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Do you find audio-guides a bit boring?",
+          "fr": "Trouves-tu les audio-guides un peu ennuyeux ?",
+          "es": "¿Cree que las audioguías son un poco aburridas?"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type":  "Leaf",
+        "Id": "AudioGuideBoringYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Sí"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "AudioGuideBoringNo",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          }
+        ]
+      }
+    ]
+  }
