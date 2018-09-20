@@ -1,22 +1,22 @@
 {
   "apps": [
     {
-      "availablefor" : ["en", "fr","es"],
+      "availablefor" : ["en", "fr"],
       "header": {
-        "en": "The best kitten stories!",
-        "fr": "Les meilleures histoires de chatons!",
+        "en": "Discover the stories of Le Louvre museum",
+        "fr": "Decouvrez les histoires du musée du Louvre",
         "es": "¡Las mejoras historias de gatitos!"
       },
       "iconUrl": "http://az767698.vo.msecnd.net/themes/emomjiCatNew/small/shutterstock_506621554.jpg",
       "button": {
-        "en": "Have a break, save a kitten",
-        "fr": "Prenez une pause, sauvez un chaton",
+        "en": "Tell me more!",
+        "fr": "Dis m'en plus !",
         "es": "Haz una pausa, salva un gatito"
       },
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.kittens",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
       "storeUrlLocalized": {
-        "en": "https://play.google.com/store/apps/details?id=com.wavemining.kittens",
-        "fr": "https://play.google.com/store/apps/details?id=com.wavemining.kittens",
+        "en": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+        "fr": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
         "es": "https://play.google.com/store/apps/details?id=com.wavemining.kittens"
       }
     },
