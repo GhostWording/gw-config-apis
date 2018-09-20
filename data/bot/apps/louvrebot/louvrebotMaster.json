@@ -2,7 +2,6 @@
   {
     "GroupName":"Louvre",
     "SequenceFiles" : [
-      { "order" : 4, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/IAmAGuideLouvre.json"]},
       { "order" : 5, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Victor/lelouvre/CallLouvreCarrousel2.json"]},
