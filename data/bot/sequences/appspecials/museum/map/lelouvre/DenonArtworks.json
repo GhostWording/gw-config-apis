@@ -6,14 +6,16 @@
             "Type": "Text",
             "Label": {
                 "en": "Here are all the artworks in the Denon Wing for which I have stories!",
-                "fr": "Voici toutes les œuvres exposées dans l'aile Denon pour lesquelles j'ai des histoires !"
+                "fr": "Voici toutes les œuvres exposées dans l'aile Denon pour lesquelles j'ai des histoires !",
+                "es": "¡Aquí están todos las obras expuestas en el ala Denon para los cuales tengo historias!"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "Please pick one",
-                "fr": "Choisis en une"
+                "fr": "Choisis en une",
+                "es": "Elige una"
             }
         }
     ],
@@ -25,12 +27,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The Dying Slave",
-                "fr": "L'Esclave mourant"
+                "fr": "L'Esclave mourant",
+                "es": "Esclavo moribundo"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 0",
-                    "fr": "Rez-de-chaussée"
+                    "fr": "Rez-de-chaussée",
+                    "es": "Planta baja"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -42,7 +46,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
@@ -66,12 +71,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Mona Lisa",
-                "fr": "La Joconde"
+                "fr": "La Joconde",
+                "es": "La Gioconda"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 1",
-                    "fr": "Premier étage"
+                    "fr": "Premier étage",
+                    "es": "Primer piso"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -83,7 +90,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
@@ -107,12 +115,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "David - Napoleon",
-                "fr": "Le Sacre de Napoléon"
+                "fr": "Le Sacre de Napoléon",
+                "es": "La consagración de Napoleón"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 1",
-                    "fr": "Premier étage"
+                    "fr": "Premier étage",
+                    "es": "Primer piso"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -124,7 +134,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
@@ -148,12 +159,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Delacroix's Liberty",
-                "fr": "Delacroix - Liberté"
+                "fr": "Delacroix - Liberté",
+                "es": "Delacroix - Libertad"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 1",
-                    "fr": "Premier étage"
+                    "fr": "Premier étage",
+                    "es": "Primer piso"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -165,7 +178,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
@@ -189,12 +203,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Raft of the Medusa",
-                "fr": "radeau de la Méduse"
+                "fr": "Le Radeau de la Méduse",
+                "es": "La balsa de la Medusa"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 1",
-                    "fr": "Premier étage"
+                    "fr": "Premier étage",
+                    "es": "Primer piso"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -206,7 +222,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
@@ -230,12 +247,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The Wedding at Cana",
-                "fr": "Les Noces de Cana"
+                "fr": "Les Noces de Cana",
+                "es": "Bodas de Caná"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 1",
-                    "fr": "Premier étage"
+                    "fr": "Premier étage",
+                    "es": "Primer piso"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -247,7 +266,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
