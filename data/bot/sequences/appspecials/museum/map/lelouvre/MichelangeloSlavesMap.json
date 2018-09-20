@@ -6,14 +6,18 @@
             "Type": "Text",
             "Label": {
                 "en": "This painting is on the GROUND FLOOR (0)",
-                "fr": "Ce tableau se trouve au REZ-DE-CHAUSSEE (0)"
+                "fr": "Ce tableau se trouve au REZ-DE-CHAUSSEE (0)",
+                "es": "...",
+                "cn": "..."
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "In the Denon Wing (SOUTH)",
-                "fr": "Dans l'aile Denon (SUD)"
+                "fr": "Dans l'aile Denon (SUD)",
+                "es": "...",
+                "cn": "..."
             }
         },
         {
@@ -30,7 +34,9 @@
             "Type": "Text",
             "Label": {
                 "en": "It's right here!",
-                "fr": "C'est juste là !"
+                "fr": "C'est juste là !",
+                "es": "...",
+                "cn": "..."
             }
         },
         {
@@ -52,7 +58,8 @@
           "CommandLabel": {
             "en": "Exit",
             "fr": "Sortie",
-            "es": "Exit"
+            "es": "Exit",
+            "cn": "..."
           }
         }
     ]
