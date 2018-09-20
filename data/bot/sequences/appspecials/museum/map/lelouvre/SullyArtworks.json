@@ -6,14 +6,16 @@
             "Type": "Text",
             "Label": {
                 "en": "Here are all the artworks in the Sully Wing for which I have stories!",
-                "fr": "Voici toutes les œuvres exposées dans l'aile Sully pour lesquelles j'ai des histoires !"
+                "fr": "Voici toutes les œuvres exposées dans l'aile Sully pour lesquelles j'ai des histoires !",
+                "es": "¡Aquí están todos las obras expuestas en el ala Sully para las cuales tengo historias!"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "Please pick one",
-                "fr": "Choisis en une"
+                "fr": "Choisis en une",
+                "es": "Elige una"
             }
         }
     ],
@@ -25,12 +27,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The Venus de Milo",
-                "fr": "la Venus de Milo"
+                "fr": "La Vénus de Milo",
+                "es": "La Venus de Milo"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 0",
-                    "fr": "Rez-de-chaussée"
+                    "fr": "Rez-de-chaussée",
+                    "es": "Planta baja"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -42,7 +46,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's located here!",
-                        "fr": "C'est juste là !"
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!"
                     }
                 },
                 {
