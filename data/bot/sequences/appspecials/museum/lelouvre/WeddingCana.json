@@ -7,7 +7,8 @@
             "Label": {
                 "en": "Did you know that there’s an island just near Venice with a beautiful church on it?",
                 "fr": "Savais-tu que juste à côté de Venise, il y a une île avec une superbe église ?",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "It’s part of the Benedictine order, and is very old!",
                 "fr": "Elle fait partie de l'ordre bénédictin et est très ancienne !",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -32,7 +34,8 @@
             "Label": {
                 "en": "In 1562, the monks were faced with a problem…",
                 "fr": "En 1562, les moines ont rencontré un problème...",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -44,7 +47,8 @@
             "CommandLabel": {
                 "en": "Rising sea levels?",
                 "fr": "La montée du niveau de la mer?",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -52,7 +56,8 @@
                     "Label": {
                         "en": "No ! Their canteen was just a little too gloomy...",
                         "fr": "Non ! Leur cantine était un peu trop lugubre...",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 },
                 {
@@ -60,7 +65,8 @@
                     "Label": {
                         "en": "They wanted where they ate to be more interesting!",
                         "fr": "Ils voulaient que l'endroit où ils mangaient soit plus intéressant !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
@@ -75,7 +81,8 @@
                         "CommandLabel": {
                             "en": "What did they do?",
                             "fr": "Qu'ont-ils fait ?",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "WeddingCana2"
@@ -88,7 +95,8 @@
                         "CommandLabel": {
                             "en": "Understandable",
                             "fr": "Ça se comprend",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "WeddingCana2"
