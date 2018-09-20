@@ -223,6 +223,13 @@
         "fragment" : {
           "path" : "RedirectToGalleryOrPeriodTest"
         }
+    },
+    {
+      "words" : ["guide", "louvre", "chatbot", "museum"],
+      "matchingType":"partial",
+        "fragment" : {
+          "path" : "IAmAGuideLouvre"
+        }
     }
   ]
 }
