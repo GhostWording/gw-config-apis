@@ -7,7 +7,8 @@
             "Label": {
                 "en": "So, unsurprisingly, Michelangelo was swiftly reassigned to Pope Julius’ tomb",
                 "fr": "Ainsi, sans surprise, Michel-Ange a été rapidement réaffecté à la tombe du Pape Jules",
-                "es": "So, unsurprisingly, Michelangelo was swiftly reassigned to Pope Julius’ tomb"
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "These two sculptures were part of the project!",
                 "fr": "Ces deux sculptures faisaient partie du projet !",
-                "es": "These two sculptures were part of the project!"
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -33,7 +35,8 @@
             "Label": {
                 "en": "…",
                 "fr": "…",
-                "es": "…"
+                "es": "…",
+                "cn": "…"
             }
         }
     ],
@@ -45,7 +48,8 @@
             "CommandLabel": {
                 "en": "Tell me about them!",
                 "fr": "Dis m'en plus !",
-                "es": "Tell me about them!"
+                "es": "",
+                "cn": ""
             },
             "LinksToFragment": {
                 "FragmentPath": "MichelangeloSlaves4"
@@ -58,7 +62,8 @@
             "CommandLabel": {
                 "en": "That’s enough",
                 "fr": "J'en sais assez",
-                "es": "That’s enough"
+                "es": "",
+                "cn": ""
             },
             "LinksToFragment": {
                 "FragmentPath": "MichelangeloSlavesFeedback"
