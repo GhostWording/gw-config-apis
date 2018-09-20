@@ -1,0 +1,42 @@
+{
+  "Type": "Question",
+  "Id": "PaintingsOrSculptures",
+  "Label": {
+    "en": "Do you prefer paintings or sculptures ?",
+    "fr": "Est-ce que tu préfères les tableaux ou les sculptures ?",
+    "es": "¿Prefieres pinturas o esculturas?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "PaintingsOrSculpturesPaintings",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3oEduT008ys8BMEVB6"
+      },
+      "Label": {
+        "en": "Paintings",
+        "fr": "Tableaux",
+        "es": "Pinturas"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "PaintingsOrSculpturesSculptures",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "xT39D7GQo1m3LatZyU"
+      },
+      "Label": {
+        "en": "Sculptures",
+        "fr": "Sculptures",
+        "es": "Esculturas"
+      }
+    }
+  ]
+}
