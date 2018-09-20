@@ -7,7 +7,8 @@
             "Label": {
                 "en": "The Meduse was a French war ship, and due to some poor navigating by the crew, she ran aground in 1816 on a sandbar",
                 "fr": "La Méduse était un navire de la Marine nationale qui s'est échoué sur un banc de sable à cause d'erreurs de navigation",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -24,7 +25,8 @@
             "Label": {
                 "en": "Since there weren’t enough lifeboats, the passengers were forced to build a raft to try find safety… ",
                 "fr": "N'ayant pas assez de canots de sauvetage, les passagers ont dû construire un radeau pour s'en sortir…",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -32,7 +34,8 @@
             "Label": {
                 "en": "149 people crammed onto this raft!",
                 "fr": "Ils se sont entassés à 149 dessus !",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -56,7 +59,8 @@
             "Label": {
                 "en": "It turned into a pretty horrible situation… they were stranded for 13 days, and only 10 sailors survived!",
                 "fr": "Le résultat était horrible… Leur périple a duré 13 jours et seuls 10 marins ont survécu",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -68,7 +72,8 @@
             "CommandLabel": {
                 "en": "How awful!",
                 "fr": "C'est affreux !",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -76,7 +81,8 @@
                     "Label": {
                         "en": "As we might expect, the painting is pretty sad and horrific",
                         "fr": "Comme on pouvait s'y attendre, la tableau est plutôt triste et effroyable",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 },
                 {
@@ -94,7 +100,8 @@
                     "Label": {
                         "en": "Many people who see the painting in real life report feeling sea-sick because of the realism of the waves and the colour scheme",
                         "fr": "Beaucoup de personnes qui voient la peinture en vrai ont le mal de mer à cause du réalisme des vagues et des couleurs",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
@@ -110,7 +117,8 @@
                         "CommandLabel": {
                             "en": "The colour scheme?",
                             "fr": "Des couleurs ?",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "MedusaRaft4"
