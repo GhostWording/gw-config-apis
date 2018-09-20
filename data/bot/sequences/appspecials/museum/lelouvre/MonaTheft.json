@@ -7,7 +7,8 @@
             "Label": {
                 "en": "There are many reasons why the Mona Lisa is so famous…",
                 "fr": "De nombreuses raisons expliquent que la Joconde soit si connue…",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "But one main reason is its theft in 1911!",
                 "fr": "Mais l'une des principales est son vol en 1911 !",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         },
         {
@@ -23,7 +25,8 @@
             "Label": {
                 "en": "It brought the painting worldwide fame...",
                 "fr": "C'est ce qui a rendu la peinture mondialement célèbre...",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -35,7 +38,8 @@
             "CommandLabel": {
                 "en": "Tell me about it!",
                 "fr": "Dis moi tout !",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -43,7 +47,8 @@
                     "Label": {
                         "en": "The painting had hung in the museum for over 100 years, but on the morning of August 21st, 1911, it vanished!",
                         "fr": "La peinture était exposée dans le musée depuis plus de 100 ans, mais au matin du 21 août 1911, elle avait disparu !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 },
                 {
@@ -68,7 +73,8 @@
                         "CommandLabel": {
                             "en": "What next?",
                             "fr": "Et ensuite ?",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "MonaTheft2"
@@ -81,7 +87,8 @@
                         "CommandLabel": {
                             "en": "Not interested",
                             "fr": "Pas intéressé(e)",
-                            "es": ""
+                            "es": "",
+                            "cn": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "MonaTheftFeedback"
