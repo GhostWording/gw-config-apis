@@ -1,0 +1,42 @@
+{
+  "Type": "Question",
+  "Id": "GoMuseums",
+  "Label": {
+    "en": "Do you ever go to museums ?",
+    "fr": "Est-ce que cela t'arrive d'aller au musée ?",
+    "es": "¿Alguna vez vas al museo?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "GoMuseumsYes",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "D0CdAhLDkmhEs"
+      },
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "GoMuseumsNo",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3ohhwDfcBvBPpD9RZu"
+      },
+      "Label": {
+        "en": "Not really",
+        "fr": "Pas vraiment",
+        "es": "No realmente"
+      }
+    }
+  ]
+}
