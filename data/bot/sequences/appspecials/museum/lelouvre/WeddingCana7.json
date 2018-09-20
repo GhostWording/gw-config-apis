@@ -7,7 +7,8 @@
             "Label": {
                 "en": "Finally, I don’t suppose you’re a fan of dogs?!",
                 "fr": "Pour finir, je suppose que tu adores les chiens ?!",
-                "es": ""
+                "es": "",
+                "cn": ""
             }
         }
     ],
@@ -19,7 +20,8 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": ""
+                "es": "",
+                "cn": ""
             },
             "LinksToFragment": {
                 "FragmentPath": "WeddingCana8"
@@ -32,7 +34,8 @@
             "CommandLabel": {
                 "en": "No",
                 "fr": "Non",
-                "es": "No"
+                "es": "No",
+                "cn": ""
             },
             "Steps": [
                 {
@@ -40,7 +43,8 @@
                     "Label": {
                         "en": "Haha, OK!",
                         "fr": "Haha, ok !",
-                        "es": ""
+                        "es": "",
+                        "cn": ""
                     }
                 }
             ],
