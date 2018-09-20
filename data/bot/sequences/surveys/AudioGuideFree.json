@@ -1,0 +1,57 @@
+{
+    "Type": "Node",
+    "Id": "AudioGuideFree",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Would you use an audio-guide if it was free ?",
+          "fr": "Utiliserais-tu un audio-guide si c'était gratuit ?",
+          "es": "¿Usarías una audioguía si fuera gratis?"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type":  "Leaf",
+        "Id": "AudioGuideFreeYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Sí"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "AudioGuideFreeNo",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          }
+        ]
+      }
+    ]
+  }
