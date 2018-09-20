@@ -6,14 +6,16 @@
             "Type": "Text",
             "Label": {
                 "en": "This painting is on the GROUND FLOOR (0)",
-                "fr": "This painting is on the REZ-DE-CHAUSSEE (0)"
+                "fr": "Ce tableau se trouve au REZ-DE-CHAUSSEE (0)",
+                "es": "Este cuadro está en la BAJA PLANTA (0)"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "In the Sully Wing (EAST)",
-                "fr": "Dans l'aile Sully (EST)"
+                "fr": "Dans l'aile Sully (EST)",
+                "es": "En el ala Sully (ESTE)"
             }
         },
         {
@@ -30,7 +32,8 @@
             "Type": "Text",
             "Label": {
                 "en": "It's right here!",
-                "fr": "C'est juste là !"
+                "fr": "C'est juste là !",
+                "es": "¡Está justo ahí!"
             }
         },
         {
@@ -51,8 +54,8 @@
           "ElementValue": "1",
           "CommandLabel": {
             "en": "Exit",
-            "fr": "Sortie",
-            "es": "Exit"
+            "fr": "Retour",
+            "es": "Vuelta"
           }
         }
     ]
