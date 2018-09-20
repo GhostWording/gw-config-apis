@@ -1,57 +1,60 @@
 {
-    "Type": "Node",
-    "Id": "AudioGuideUse",
-    "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Do you usually use an audio-guide?",
-          "fr": "Utilises-tu généralement un audio-guide ?",
-          "es": "¿Usualmente usas una audioguía?"
-        }
+  "Type": "Node",
+  "Id": "AudioGuideUse",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you usually use an audio-guide?",
+        "fr": "Utilises-tu généralement un audio-guide ?",
+        "es": "¿Usualmente usas una audioguía?"
       }
-    ],
-    "Randomize": "true",
-    "Commands": [
-      {
-        "Type":  "Leaf",
-        "Id": "AudioGuideUseYes",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Yes",
-          "fr": "Oui",
-          "es": "Sí"
-        },
-        "Steps": [
-          {
-            "Type": "Action",
-            "Name": "DoVote"
-          },
-          {
-            "Type": "Action",
-            "Name": "ShowSurveyResults"
-          }
-        ]
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type":  "Leaf",
+      "Id": "AudioGuideUseYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
       },
-      {
-        "Type": "Leaf",
-        "Id": "AudioGuideUseNo",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "No",
-          "fr": "Non",
-          "es": "No"
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
         },
-        "Steps": [
-          {
-            "Type": "Action",
-            "Name": "DoVote"
-          },
-          {
-            "Type": "Action",
-            "Name": "ShowSurveyResults"
-          }
-        ]
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "AudioGuideUseNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "AudioGuideFree"
       }
-    ]
-  }
+    }
+  ]
+}
