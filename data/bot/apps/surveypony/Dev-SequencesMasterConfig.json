@@ -19,5 +19,6 @@
        "Name" : "default",
        "File" : "/data/bot/apps/surveypony/keywords-test.json"
     }
-  ]
+  ],
+  "FragmentForUnknownCommand":"/data/bot/sequences/smalltalk/AreYouHuman.json"
 }
