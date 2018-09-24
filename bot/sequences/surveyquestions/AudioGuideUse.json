@@ -1,0 +1,42 @@
+{
+  "Type": "Question",
+  "Id": "AudioGuideUse",
+  "Label": {
+    "en": "Do you usually use an audio-guide?",
+    "fr": "Utilises-tu généralement un audio-guide ?",
+    "es": "¿Usualmente usas una audioguía?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "AudioGuideUseYes",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3oEduT008ys8BMEVB6"
+      },
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "AudioGuideUseNo",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "xT39D7GQo1m3LatZyU"
+      },
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
