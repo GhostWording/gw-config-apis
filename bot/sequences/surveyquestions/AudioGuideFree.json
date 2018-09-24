@@ -1,0 +1,42 @@
+{
+  "Type": "Question",
+  "Id": "AudioGuideFree",
+  "Label": {
+    "en": "Would you use an audio-guide if it was free?",
+    "fr": "Utiliserais-tu un audio-guide si c'était gratuit ?",
+    "es": "¿Usarías una audioguía si fuera gratis?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "AudioGuideFreeYes",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3oEduT008ys8BMEVB6"
+      },
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "AudioGuideFreeNo",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "xT39D7GQo1m3LatZyU"
+      },
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
