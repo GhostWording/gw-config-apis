@@ -7,7 +7,7 @@
             "Label": {
                 "en": "I’m sure you’re familiar with some of the huge masterpieces in this museum",
                 "fr": "Je suis sûr que tu connais certains des immenses chefs d’œuvre de ce musée",
-                "es": "",
+                "es": "Seguramente ya conoces algunas de las inmensas obras maestras de este museo",
                 "cn": ""
             }
         },
@@ -23,7 +23,7 @@
             "Label": {
                 "en": "But not all paintings have to be large, grand and loud!",
                 "fr": "Mais toutes les peintures n'ont pas besoin d'être immenses, imposantes et tapageuses !",
-                "es": "",
+                "es": "¡Pero no todas las pinturas tienen que ser inmensas, imponentes y escandalosas!",
                 "cn": ""
             }
         }
@@ -36,7 +36,7 @@
             "CommandLabel": {
                 "en": "Show me!",
                 "fr": "Montre-moi !",
-                "es": "",
+                "es": "¡Muestrame!",
                 "cn": ""
             },
             "Steps": [
@@ -45,7 +45,7 @@
                     "Label": {
                         "en": "Some can be tiny, quiet, and thoughtful!",
                         "fr": "Certaines peuvent être petites, discrètes et réfléchies",
-                        "es": "",
+                        "es": "Algunas pueden ser pequeñas, discretas y profundas",
                         "cn": ""
                     }
                 },
@@ -64,7 +64,7 @@
                     "Label": {
                         "en": "Like this one, the Lacemaker, by Johannes Vermeer, from 1670!",
                         "fr": "Comme celle-ci, La Dentellière, de Johannes Vermeer, réalisée en 1670 !",
-                        "es": "",
+                        "es": "¡Como ésta, La encajera, de Johannes Vermeer, hecha en 1670!",
                         "cn": ""
                     }
                 }
@@ -81,7 +81,7 @@
                         "CommandLabel": {
                             "en": "How tiny?",
                             "fr": "Minuscule à quel point ?",
-                            "es": "",
+                            "es": "¿Qué pequeñita?",
                             "cn": ""
                         },
                         "Steps": [
@@ -90,7 +90,7 @@
                                 "Label": {
                                     "en": "It’s 23cm x 20cm: about the same size as an iPad!",
                                     "fr": "Elle mesure 23cm x 20cm : à peu près la même taille qu'un iPad !",
-                                    "es": "",
+                                    "es": "¡Mide 23cm x 20cm : casi el mismo tamaño de un iPad!",
                                     "cn": ""
                                 }
                             },
@@ -109,7 +109,7 @@
                                 "Label": {
                                     "en": "Nevertheless, it’s certainly a masterpiece! Let me tell you all about it!",
                                     "fr": "Néanmoins, il s'agit certainement d'un chef d’œuvre ! Laisse-moi t'en parler plus en détail !",
-                                    "es": "",
+                                    "es": "¡Sin embargo, es sin duda una obra maestra! ¡Dejame contarte detalladamente!",
                                     "cn": ""
                                 }
                             }
@@ -126,7 +126,7 @@
                                     "CommandLabel": {
                                         "en": "OK!",
                                         "fr": "D'accord !",
-                                        "es": "",
+                                        "es": "¡De acuerdo!",
                                         "cn": ""
                                     },
                                     "LinksToFragment": {
@@ -140,7 +140,7 @@
                                     "CommandLabel": {
                                         "en": "No thanks!",
                                         "fr": "Non merci !",
-                                        "es": "",
+                                        "es": "¡No, gracias!",
                                         "cn": ""
                                     },
                                     "LinksToFragment": {
