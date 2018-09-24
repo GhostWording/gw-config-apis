@@ -1,12 +1,12 @@
 {
     "Experiments": [
         { 
-            "Name": "PayAlert",
+            "Name": "Name",
             "Variations": {
-                "6" : "InsteadOfAdvert", 
-                "7" : "InsteadOfAdvert", 
-                "8" : "AfterAdvert", 
-                "9" : "AfterAdvert"
+                "1" : "TestVariant1", 
+                "2" : "TestVariant1", 
+                "3" : "TestVariant2", 
+                "4" : "TestVariant2"
             }
         }
     ]
