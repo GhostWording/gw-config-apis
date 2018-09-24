@@ -1,0 +1,42 @@
+{
+  "Type": "Question",
+  "Id": "AudioGuideBoring",
+  "Label": {
+    "en": "Do you think audio-guides can a bit boring?",
+    "fr": "Penses-tu que les audio-guides peuvent être un peu ennuyeux ?",
+    "es": "¿Crees que las audioguías pueden ser un poco aburridas?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "AudioGuideBoringYes",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3oEduT008ys8BMEVB6"
+      },
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "AudioGuideBoringNo",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "xT39D7GQo1m3LatZyU"
+      },
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
