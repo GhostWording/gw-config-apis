@@ -1,128 +1,128 @@
 {
-    "Type": "Node",
-    "Id": "Lacemaker5",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Lacemaker5",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s not just me who thinks it’s a masterpiece… other artists, too, have huge respect for it!",
+        "fr": "Je ne suis pas le seul à penser que c'est un chef d’œuvre... D'autres artistes aussi lui ont montré un grand respect !",
+        "es": "No soy el único que piensa que es una obra maestra… ¡otros artistas al rededor del mundo lo respetan mucho!",
+        "cn": ""
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Van Gogh famously praised its beautiful colours in a letter to his friend",
+        "fr": "Van Gogh a notamment fait l'éloge de ses belles couleurs dans une lettre à son ami",
+        "es": "Van Gogh elogió sus hermosos colores en una carta a su amigo",
+        "cn": ""
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "and Renoir considered it the most beautiful painting in the world!",
+        "fr": "et Renoir le considérait comme le plus beau tableau du monde !",
+        "es": "¡Y Renoir lo consideraba como el cuadro más hermoso del mundo!",
+        "cn": ""
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Lacemaker5Else",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Who else?",
+        "fr": "Qui d'autre ?",
+        "es": "¿Quien más?",
+        "cn": ""
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "It’s not just me who thinks it’s a masterpiece… other artists, too, have huge respect for it!",
-                "fr": "Je ne suis pas le seul à penser que c'est un chef d’œuvre... D'autres artistes aussi lui ont montré un grand respect !",
-                "es": "",
-                "cn": ""
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Salvador Dali himself brought his paints to the Louvre and painted a copy!",
+            "fr": "Salvador Dali en personne a apporté son matériel au Louvre et en a peint une copie !",
+            "es": "¡Salvador Dali en persona trajo sus materiales de trabajo al Louvre e hizo una copia!",
+            "cn": ""
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Van Gogh famously praised its beautiful colours in a letter to his friend",
-                "fr": "Van Gogh a notamment fait l'éloge de ses belles couleurs dans une lettre à son ami",
-                "es": "",
-                "cn": ""
-            }
+          "Type": "Action",
+          "Name": "ShowCarouselFromList",
+          "Parameters": {
+            "Path": "/data/common/carousel/museum/LacemakerVermeerDali.json"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "and Renoir considered it the most beautiful painting in the world!",
-                "fr": "et Renoir le considérait comme le plus beau tableau du monde !",
-                "es": "",
-                "cn": ""
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Which do you prefer?!",
+            "fr": "Quelle version préfères-tu !?",
+            "es": "¿Qué versión prefieres?",
+            "cn": ""
+          }
         }
-    ],
-    "Commands": [
-        {
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Lacemaker5ElseStep",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "Lacemaker5Else",
+            "Id": "Lacemaker5ElseDali",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Who else?",
-                "fr": "Qui d'autre ?",
-                "es": "",
-                "cn": ""
+              "en": "Dali's version",
+              "fr": "Celle de Dali",
+              "es": "La de Dali",
+              "cn": ""
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Salvador Dali himself brought his paints to the Louvre and painted a copy!",
-                        "fr": "Salvador Dali en personne a apporté son matériel au Louvre et en a peint une copie !",
-                        "es": "",
-                        "cn": ""
-                    }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowCarouselFromList",
-                    "Parameters": {
-                        "Path": "/data/common/carousel/museum/LacemakerVermeerDali.json"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Which do you prefer?!",
-                        "fr": "Quelle version préfères-tu !?",
-                        "es": "",
-                        "cn": ""
-                    }
-                }
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "Lacemaker5ElseStep",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "Lacemaker5ElseDali",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Dali's version",
-                            "fr": "Celle de Dali",
-                            "es": "",
-                            "cn": ""
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Action",
-                                "Name": "DoVote"
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowSurveyResults"
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "LacemakerFeedback"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "Lacemaker5ElseOriginal",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "The original!",
-                            "fr": "L'orignale !",
-                            "es": "",
-                            "cn": ""
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Action",
-                                "Name": "DoVote"
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowSurveyResults"
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "LacemakerFeedback"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+              "FragmentPath": "LacemakerFeedback"
             }
-        }
-    ]
+          },
+          {
+            "Type": "Node",
+            "Id": "Lacemaker5ElseOriginal",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "The original!",
+              "fr": "L'orignale !",
+              "es": "¡La original!",
+              "cn": ""
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "LacemakerFeedback"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
