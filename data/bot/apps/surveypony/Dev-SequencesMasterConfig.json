@@ -2,14 +2,21 @@
   "MasterFiles": [
     {
       "Name": "rcbotdev",
-      "Source": "github",
-      "experiment":"/data/bot/apps/astrology/astrologyMasterSequence.json",
-      "file2": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
-      "file": "/data/bot/apps/louvrebot/louvrebotMaster.json"
+     "file2": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
+      "file": "/data/bot/apps/surveypony/surveyponyMasterAllTests.json"
     },
     {
+      "Name": "surveypony",
+      "file": "/data/bot/apps/surveypony/surveyponyMasterAllTests.json"
+    },
+     {
+      "Name": "swagfish",
+      "file": "/data/bot/apps/surveypony/surveyponyMasterAllTests.json"
+    },
+    
+    {
       "Name": "Bot",
-      "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+      "file": "/data/bot/apps/surveypony/surveyponyMasterAllTests.json"
     }
   ],
   "FragmentsFiles": [
