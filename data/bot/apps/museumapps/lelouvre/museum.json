@@ -1,27 +1,64 @@
 {
-  "Id": "LeLouvre",
-  "Caption": {
-    "en": "The Louvre Chatbot Guide",
-    "fr": "The Louvre Chatbot Guide",
-    "es": "The Louvre Chatbot Guide"
-  },
-  "DefaultImage": {
-    "Type": "Image",
-    "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
-  },
-  "LocationSequenceId": "LouvreMapWing",
-  "Topic": "lelouvre",
-  "Artworks" : [
-    {"Id": "MonaTheft"},
-    {"Id": "DavidCoronation"},
-    {"Id": "Lamassu"},
-    {"Id": "LibertyLeading"},
-    {"Id": "LouisXIV"},
-    {"Id": "Leonardo"},
-    {"Id": "VenusDeMilo"},
-    {"Id": "MedusaRaft"},
-    {"Id": "WeddingCana"},
-    {"Id": "Lacemaker"},
-    {"Id": "MichelangeloSlaves"}
-  ]
+    "Id": "LeLouvre",
+    "Caption": {
+        "en": "The Louvre Chatbot Guide",
+        "fr": "The Louvre Chatbot Guide",
+        "es": "The Louvre Chatbot Guide"
+    },
+    "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+    },
+    "PracticalInfo": {
+        "OpeningHours": {
+            "en": {
+                "Monday": "09:00-18:00",
+                "Tuesday": "Closed",
+                "Wednesday": "09:00-22:00",
+                "Thursday": "09:00-18:00",
+                "Friday": "09:00-22:00",
+                "Saturday": "09:00-18:00",
+                "Sunday": "09:00-18:00"
+            },
+            "fr": {
+                "lundi": "09h-18h",
+                "mardi": "Fermé",
+                "mercredi": "09h-22h",
+                "jeudi": "09h-18h",
+                "vendredi": "09h-22h",
+                "samedi": "09h-18h",
+                "dimanche": "09h-18h"
+            },
+            "es": {
+                "lunes": "09:00-18:00",
+                "martes": "Closed",
+                "miércoles": "09:00-22:00",
+                "jueves": "09:00-18:00",
+                "viernes": "09:00-22:00",
+                "sábado": "09:00-18:00",
+                "domingo": "09:00-18:00"
+            }
+        },
+        "Address": {
+            "en":"Rue de Rivoli, 75001 Paris, France",
+            "fr": "Rue de Rivoli, 75001 Paris, France",
+            "es": "Rue de Rivoli, 75001 Paris, France"
+        }
+    },
+    "LocationSequenceId": "LouvreMapWing",
+    "Topic": "lelouvre",
+    "Artworks" : [
+      {"Id": "MonaTheft"},
+      {"Id": "DavidCoronation"},
+      {"Id": "Lamassu"},
+      {"Id": "LibertyLeading"},
+      {"Id": "LouisXIV"},
+      {"Id": "Leonardo"},
+      {"Id": "VenusDeMilo"},
+      {"Id": "MedusaRaft"},
+      {"Id": "WeddingCana"},
+      {"Id": "Lacemaker"},
+      {"Id": "MichelangeloSlaves"}
+    ]
 }
+  
