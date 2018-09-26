@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "Museums",
+    "Caption": {
+      "en": "Museums",
+      "fr": "Musées",
+      "es": "Museos"
+    },
+      "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964758/louvre.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "LeLouvre"}
+    ]
+  },
+  {
+    "Id": "Monuments",
+    "Caption": {
+      "en": "Monuments",
+      "fr": "Monuments",
+      "es": "Monumentos"
+    },
+      "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "BoulevardHaussmann"}
+    ]
+  },
+  {
+    "Id": "Anecdotes",
+    "Caption": {
+      "en": "Anecdotes",
+      "fr": "Anecdotes",
+      "es": "Anecdotes"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "LesHalles"},
+    ]
+  }
+]
