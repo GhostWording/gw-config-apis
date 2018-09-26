@@ -1,6 +1,21 @@
 {
   "apps": [
     {
+      "availablefor" : ["en","fr"],
+      "title": {
+        "en": "Discover the stories of Le Louvre museum",
+        "fr": "Decouvrez les histoires du musée du Louvre",
+        "es": "¡Salva al gatito!"
+      },
+      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+      "storeUrlLocalized": {
+        "en": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+        "fr": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+        "es": "https://play.google.com/store/apps/details?id=com.wavemining.kittens"
+      }
+    },
+    {
       "availablefor" : ["en","fr","es"],
       "title": {
         "en": "I need hugs!",
