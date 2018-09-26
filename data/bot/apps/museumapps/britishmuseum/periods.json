@@ -12,58 +12,10 @@
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
-      {
-        "Id": "Ramesses",
-        "Caption": {
-          "en": "Statue of Ramesses II",
-          "fr": "Statue of Ramesses II",
-          "es": "Statue of Ramesses II"
-          },
-          "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
-          },
-          "SequenceId": "Ramesses"
-      },
-      {
-        "Id": "UrStandard",
-        "Caption": {
-          "en": "The Standard of Ur",
-          "fr": "The Standard of Ur",
-          "es": "The Standard of Ur"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946555/Standard_of_Ur_1bis.jpg"
-        },
-        "SequenceId": "UrStandard"
-      },
-      {
-        "Id": "Nebamun",
-        "Caption": {
-          "en": "Tomb of Nebamun",
-          "fr": "Tomb of Nebamun",
-          "es": "Tomb of Nebamun"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
-        },
-        "SequenceId": "Nebamun"
-      },
-      {
-        "Id": "Amenhotep",
-        "Caption": {
-          "en": "Head of Amenhotep III",
-          "fr": "Head of Amenhotep III",
-          "es": "Head of Amenhotep III"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1532964719/amenhotepfull.jpg"
-        },
-        "SequenceId": "Amenhotep"
-      }
+      {"Id": "Amenhotep"},
+      {"Id": "Nebamun"},
+      {"Id": "Ramesses"},
+      {"Id": "UrStandard"}
     ]
   },
   {
@@ -79,45 +31,9 @@
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
-      {
-        "Id": "LionHunt",
-        "Caption": {
-          "en": "Lion Hunts of Assurbanipal I",
-          "fr": "Lion Hunts of Assurbanipal I",
-          "es": "Lion Hunts of Assurbanipal I"
-          },
-          "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942387/museum%20app/Relief_2.jpg"
-          },
-          "SequenceId": "LionHunt"
-      },
-      {
-        "Id": "Exekias",
-        "Caption": {
-          "en": "Exekias Amphora",
-          "fr": "Exekias Amphora",
-          "es": "Exekias Amphora"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
-        },
-        "SequenceId": "Exekias"
-      },
-      {
-        "Id": "Mausoleum",
-        "Caption": {
-          "en": "Mausoleum at Halicarnassus",
-          "fr": "Mausoleum at Halicarnassus",
-          "es": "Mausoleum at Halicarnassus"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
-        },
-        "SequenceId": "Mausoleum"
-      }
+      {"Id": "Exekias"},
+      {"Id": "LionHunt"},
+      {"Id": "Mausoleum"}
     ]
   },
   {
@@ -133,45 +49,9 @@
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
-      {
-        "Id": "ParthenonPediment",
-        "Caption": {
-          "en": "Parthenon Pediment",
-          "fr": "Parthenon Pediment",
-          "es": "Parthenon Pediment"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://res.cloudinary.com/dgg6oz8uy/image/upload/v1532354482/museum%20app/Parthenon_sculpture.jpg"
-        },
-        "SequenceId": "BestTestFragmentEver"
-      },
-      {
-        "Id": "BerlinVolute",
-        "Caption": {
-          "en": "Berlin Volute Krater",
-          "fr": "Berlin Volute Krater",
-          "es": "Berlin Volute Krater"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
-        },
-        "SequenceId": "BerlinVolute"
-      },
-      {
-        "Id": "Caryatids",
-        "Caption": {
-          "en": "Erechtheion Caryatids",
-          "fr": "Erechtheion Caryatids",
-          "es": "Erechtheion Caryatids"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532690463/museum%20app/5_Caryatids.jpg"
-        },
-        "SequenceId": "Caryatids"
-      }
+      {"Id": "BerlinVolute"},
+      {"Id": "Caryatids"},
+      {"Id": "ParthenonPediment"}
     ]
   },
   {
@@ -187,32 +67,8 @@
     },
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
-      {
-        "Id": "AgnesCup",
-        "Caption": {
-          "en": "The Royal Gold Cup",
-          "fr": "The Royal Gold Cup",
-          "es": "The Royal Gold Cup"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_1Reduced.jpg"
-        },
-        "SequenceId": "AgnesCup"
-      },
-      {
-        "Id": "Chessmen",
-        "Caption": {
-          "en": "Lewis Chessmen",
-          "fr": "Lewis Chessmen",
-          "es": "Lewis Chessmen"
-        },
-        "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120250/Beserker__Lewis_Chessmen__British_Museum.jpg"
-        },
-        "SequenceId": "Chessmen"
-      }
+      {"Id": "AgnesCup"},
+      {"Id": "Chessmen"}
     ]
   }
 ]
