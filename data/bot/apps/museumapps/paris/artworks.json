@@ -1,1 +1,68 @@
-
+[
+    {
+        "Id": "BoulevardHaussmann",
+        "Caption": {
+            "en": "Boulevard Haussmann",
+            "fr": "Boulevard Haussmann",
+            "es": "Boulevard Haussmann"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "SequenceId": "BoulevardHaussmann",
+        "Location": {
+            "Latitude": "48.8735916",
+            "Longitude": "2.33213939999996"
+        },
+        "Arrondissement": "8e & 9e"
+    },
+    {
+        "Id": "LesHalles",
+        "Caption": {
+            "en": "Les Halles",
+            "fr": "Les Halles",
+            "es": "Les Halles"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "SequenceId": "LesHalles",
+        "Location": {
+            "Latitude": "48.8620508",
+            "Longitude": "2.3471531999999797"
+        },
+        "Arrondissement": "1er"
+    },
+    {
+        "Id": "LeLouvre",
+        "Caption": {
+            "en": "Louvre Museum",
+            "fr": "Le Musée du Louvre",
+            "es": "Museo del Louvre"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "SequenceId": "LeLouvre",
+        "Location": {
+            "Latitude": "48.8606111",
+            "Longitude": "2.3376439999999548"
+        },
+        "Arrondissement": "8e & 9e"
+    }
+]
