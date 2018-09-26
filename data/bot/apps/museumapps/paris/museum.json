@@ -1,1 +1,19 @@
-
+{
+    "Id": "LeLouvre",
+    "Caption": {
+        "en": "Paris City Guide",
+        "fr": "Paris City Guide",
+        "es": "Paris City Guide"
+    },
+    "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+    },
+    "LocationSequenceId": "ParisMap",
+    "Topic": "paris",
+    "Artworks" : [
+      {"Id": "BoulevardHaussmann"},
+      {"Id": "LesHalles"},
+      {"Id": "LeLouvre"}
+    ]
+}
