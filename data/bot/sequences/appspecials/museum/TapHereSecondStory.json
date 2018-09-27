@@ -1,0 +1,145 @@
+{
+    "Type": "Node",
+    "Id": "TapHereSecondStory",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Thanks for that!",
+                "fr": "Thanks for that!",
+                "es": "Thanks for that!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now, how about another story?!",
+                "fr": "Now, how about another story?!",
+                "es": "Now, how about another story?!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHereSecondStoryYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Sure!",
+                "es": "Sure!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! These are some of my favourites!",
+                        "fr": "Great! These are some of my favourites!",
+                        "es": "Great! These are some of my favourites!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "TapHereSecondStoryYesChoice",
+                "ElementValue": "1",
+                "DisplayHint": "Carousel",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "TapHereSecondStoryYesLionHunt",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Lion Hunts",
+                            "fr": "Lion Hunts",
+                            "es": "Lion Hunts"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🦁",
+                                "fr": "🦁",
+                                "es": "🦁"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045268/lion_hunt_thumbnail.jpg"
+                            }
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LionHunt"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "TapHereSecondStoryYesRosetta",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "The Rosetta Stone",
+                            "fr": "The Rosetta Stone",
+                            "es": "The Rosetta Stone"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "📝",
+                                "fr": "📝",
+                                "es": "📝"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538055062/rosetta_stone_thumbnail.jpg"
+                            }
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Rosetta"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "TapHereSecondStoryYesAztecSerpent",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Aztec Serpent",
+                            "fr": "Aztec Serpent",
+                            "es": "Aztec Serpent"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🐍",
+                                "fr": "🐍",
+                                "es": "🐍"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056580/aztec_serpent_thumbnail.jpg"
+                            }
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "AztecSerpent"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TapHereSecondStoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "No thanks",
+                "es": "No thanks"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, no problem!",
+                        "fr": "Alright, no problem!",
+                        "es": "Alright, no problem!"
+                    }
+                }
+            ]
+        }
+    ]
+}
