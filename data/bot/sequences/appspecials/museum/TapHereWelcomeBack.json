@@ -1,0 +1,93 @@
+{
+    "Type": "Node",
+    "Id": "TapHereWelcomeBack",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Welcome back! 🎉",
+                "fr": "Welcome back! 🎉",
+                "es": "Welcome back! 🎉"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I hope you've been enjoying the app!",
+                "fr": "I hope you've been enjoying the app!",
+                "es": "I hope you've been enjoying the app!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHereWelcomeBackYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I have!",
+                "fr": "I have!",
+                "es": "I have!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh no! I'm sorry to hear it 😞",
+                        "fr": "Oh no! I'm sorry to hear it 😞",
+                        "es": "Oh no! I'm sorry to hear it 😞"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In that case...",
+                        "fr": "In that case...",
+                        "es": "In that case..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rating"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TapHereWelcomeBackNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not so much",
+                "fr": "Not so much",
+                "es": "Not so much"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh no! I'm sorry to hear it 😞",
+                        "fr": "Oh no! I'm sorry to hear it 😞",
+                        "es": "Oh no! I'm sorry to hear it 😞"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "How can I improve?!",
+                        "fr": "How can I improve?!",
+                        "es": "How can I improve?!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll try to fix the issue...",
+                        "fr": "I'll try to fix the issue...",
+                        "es": "I'll try to fix the issue..."
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+    
