@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "PeriodSuggest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I've sorted all my stories into periods!",
+                "fr": "I've sorted all my stories into periods!",
+                "es": "I've sorted all my stories into periods!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It makes it easier for you to find related stuff!",
+                "fr": "It makes it easier for you to find related stuff!",
+                "es": "It makes it easier for you to find related stuff!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1538066229/Periods_Screenshot.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How about checking it out?",
+                "fr": "How about checking it out?",
+                "es": "How about checking it out?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PeriodSuggestYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "OK, show me!",
+                "fr": "OK, show me!",
+                "es": "OK, show me!"
+            },
+            "Steps":[
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                      "Type": "PeriodView"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "PeriodSuggestNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now",
+                "fr": "Not right now",
+                "es": "Not right now"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK! You can see it at any time!",
+                        "fr": "OK! You can see it at any time!",
+                        "es": "OK! You can see it at any time!"
+                    }
+                }
+            ]
+        }
+    ]
+}
