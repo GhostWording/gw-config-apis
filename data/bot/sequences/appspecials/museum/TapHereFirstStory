@@ -1,0 +1,115 @@
+{
+    "Type": "Node",
+    "Comments": "this carousel is the first usrs see when they use the tap here function",
+    "Id": "TapHereFirstStory",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let's try a story! Pick whatever looks interesting to you!",
+                "fr": "Let's try a story! Pick whatever looks interesting to you!",
+                "es": "Let's try a story! Pick whatever looks interesting to you!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHereFirstStoryMeroe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Meroe Head",
+                "fr": "Tête de Méroé",
+                "es": "Meroe Head"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🗽",
+                    "fr": "🗽",
+                    "es": "🗽"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Meroe"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TapHereFirstStoryNebamun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nebamun",
+                "fr": "Nebamun",
+                "es": "Nebamun"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "👤",
+                    "fr": "👤",
+                    "es": "👤"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022130/Nebamun.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TapHereFirstStoryMausoleum",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Halicarnassus",
+                "fr": "Halicarnasse",
+                "es": "Halicarnassus"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏛",
+                    "fr": "🏛",
+                    "es": "🏛"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Mausoleum"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TapHereFirstStoryVolute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Berlin Krater",
+                "fr": "Le vase de Berlin",
+                "es": "Berlin Krater"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏺",
+                    "fr": "🏺",
+                    "es": "🏺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BerlinVolute"
+            }
+        }
+    ]
+}
