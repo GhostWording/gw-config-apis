@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Id": "GallerySuggest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I hope you liked the story!",
+                "fr": "I hope you liked the story!",
+                "es": "I hope you liked the story!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You can find all my other stories in the gallery section!",
+                "fr": "You can find all my other stories in the gallery section!",
+                "es": "You can find all my other stories in the gallery section!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534940132/iOS_Gallery.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Why not have a browse through and see what catches your eye?",
+                "fr": "Why not have a browse through and see what catches your eye?",
+                "es": "Why not have a browse through and see what catches your eye?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You can come back here at any time...",
+                "fr": "You can come back here at any time...",
+                "es": "You can come back here at any time..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "GallerySuggestYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "OK, take me there!",
+                "fr": "OK, take me there!",
+                "es": "OK, take me there!"
+            },
+            "Steps":[
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                      "Type": "GalleryView"
+                    }
+                }
+            ]
+        }
+    ]
+}
