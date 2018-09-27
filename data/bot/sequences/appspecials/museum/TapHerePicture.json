@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Id": "TapHerePicture",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let me show you one of my favourite pictures!",
+                "fr": "Let me show you one of my favourite pictures!",
+                "es": "Let me show you one of my favourite pictures!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534410947/berserker_lewis.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Weird, isn't it! Want to hear about it?",
+                "fr": "Weird, isn't it! Want to hear about it?",
+                "es": "Weird, isn't it! Want to hear about it?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHerePictureYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Definitely!",
+                "fr": "Definitely!",
+                "es": "Definitely!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! Here we go...",
+                        "fr": "Alright! Here we go...",
+                        "es": "Alright! Here we go..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Chessmen"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TapHerePictureNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now!",
+                "fr": "Not right now!",
+                "es": "Not right now!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No problem! Let's try something else...",
+                        "fr": "No problem! Let's try something else...",
+                        "es": "No problem! Let's try something else..."
+                    }
+                }
+            ]
+        }
+    ]
+}
