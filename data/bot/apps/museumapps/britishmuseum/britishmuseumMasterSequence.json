@@ -3,7 +3,7 @@
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
             { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/TapHereSecondStory.json"]},
-      { "order" : 5, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture.json"]},
+      { "order" : 5, "file": ["/data/bot/sequences/appspecials/museum/GallerySuggest.json"]},
       { "order" : 110, "file": ["/data/bot/sequences/appspecials/museum/PeriodsSuggest.json"]}
       ]
    }
