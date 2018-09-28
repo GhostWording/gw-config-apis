@@ -2,9 +2,7 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/TapHereWelcomeBack.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/surveys/AudioGuideUse.json"]},
-      { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/TapHereSecondStory.json"]},
+            { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/TapHereSecondStory.json"]},
       { "order" : 5, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture.json"]},
       { "order" : 110, "file": ["/data/bot/sequences/appspecials/museum/PeriodsSuggest.json"]}
       ]
