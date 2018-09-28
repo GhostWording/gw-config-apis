@@ -21,7 +21,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "TapHereWelcomeBackYes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -33,26 +33,38 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Oh no! I'm sorry to hear it 😞",
-                        "fr": "Oh no! I'm sorry to hear it 😞",
-                        "es": "Oh no! I'm sorry to hear it 😞"
+                        "en": "Wow! That's great news...",
+                        "fr": "Wow! That's great news...",
+                        "es": "Wow! That's great news..."
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "In that case...",
-                        "fr": "In that case...",
-                        "es": "In that case..."
+                        "en": "In that case... why not rate the app?",
+                        "fr": "In that case... why not rate the app?",
+                        "es": "In that case... why not rate the app?"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1538130439/BritishMuseumApp_Info.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks so much! It would help me a lot!",
+                        "fr": "Thanks so much! It would help me a lot!",
+                        "es": "Thanks so much! It would help me a lot!"
                     }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Rating"
-            }
+            ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "TapHereWelcomeBackNo",
             "ElementValue": "1",
             "CommandLabel": {
@@ -89,5 +101,3 @@
         }
     ]
 }
-
-    
