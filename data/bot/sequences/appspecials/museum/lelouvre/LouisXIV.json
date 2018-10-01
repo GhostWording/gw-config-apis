@@ -17,7 +17,7 @@
                 "en": "Have you ever seen this painting before?",
                 "fr": "As-tu déjà vu ce tableau ?",
                 "es": "¿Habías visto este cuadro antes?",
-                "cn": ""
+                "cn": "您以前看过这幅画吗？"
             }
         }
     ],
@@ -30,7 +30,7 @@
                 "en": "Yes",
                 "fr": "Oui",
                 "es": "Sí",
-                "cn": ""
+                "cn": "看过"
             },
             "Steps": [
                 {
@@ -39,7 +39,7 @@
                         "en": "You’re smart!",
                         "fr": "Tu es cultivé !",
                         "es": "¡Qué culto eres!",
-                        "cn": ""
+                        "cn": "太聪明了！"
                     }
                 }
             ],
@@ -55,7 +55,7 @@
                 "en": "No",
                 "fr": "Non",
                 "es": "No",
-                "cn": ""
+                "cn": "没有"
             },
             "Steps": [
                 {
@@ -64,7 +64,7 @@
                         "en": "In that case, I conclude that you did not attend school in France",
                         "fr": "Dans ce cas, j'en déduis que tu n'as pas été à l'école en France",
                         "es": "En ese caso, supongo que no fuiste a la escuela en Francia",
-                        "cn": ""
+                        "cn": "那我敢肯定，您肯定没有在法国上过学"
                     }
                 }
             ],
