@@ -1,0 +1,73 @@
+{
+  "Type": "Node",
+  "Id": "BMGreeceOrEgypt",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "According to you, the British Museum main exhibits are about",
+        "fr": "Selon toi, les principales expositions du British Museum à Londres concernent",
+        "es": "En tu opinión, las principales exhibiciones del British Museum en Londres se tratan"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Bank",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Greece",
+        "fr": "la Grèce",
+        "es": "de Grecia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044503/exekias.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "StartUp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Egypt",
+        "fr": "l'Egypte",
+        "es": "de Egipto"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Display": "FullScreenWidth",
+            "Source": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538394536/survey_BMEgypt.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
