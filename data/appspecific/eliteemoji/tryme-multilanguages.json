@@ -14,7 +14,22 @@
         "es": "Probar"
       },
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.battleroyale"
-    },    
+    },
+    {
+     "availablefor" : ["en","fr","es"], 
+      "header": {
+       "en": "Funny dating tips",
+        "fr": "Conseils de séduction humoristiques",
+        "es": "Consejos de citas divertidas"
+      },
+      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538407650/dating1.jpg",
+      "button": {
+        "en": "Try",
+        "fr": "Essayer",
+        "es": "Probar"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.datingtips"
+    },      
     {
       "availablefor" : ["en", "fr"],
       "header": {
