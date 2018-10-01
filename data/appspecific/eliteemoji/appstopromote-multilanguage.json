@@ -1,6 +1,7 @@
 {
   "apps": [ 
-     {
+    {
+      "availablefor" : ["en","fr","es"],      
       "title": {
         "en": "Fortnite survival tips!",
         "fr": "Guide de survie Fortnite",
