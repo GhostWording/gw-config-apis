@@ -1,32 +1,32 @@
 {
-  "Type": "Leaf",
-  "Id": "LouvreMapNotAvailable",
-  "Steps": [
-      {
-          "Type": "Text",
-          "Label": {
-              "en": "Sorry, but I don't have any stories for artworks in this area at the moment!",
-              "fr": "Désolé mais je n'ai pas d'histoires à raconter sur les oeuvres de cette zone actuellement !",
-              "es": "¡Lo siento, pero no tengo ninguna historia para obras de arte en esta área por el momento!",
-              "cn": "..."
-          }
-      },
-      {
-          "Type": "Text",
-          "Label": {
-              "en": "Check back later though!",
-              "fr": "Mais reviens plus tard !",
-              "es": "¡Pero vuelve más tarde!",
-              "cn": "..."
-          }
-      },
-      {
-          "Type": "Image",
-          "Parameters": {
-              "Display": "FullScreenWidth",
-              "Source": "Web",
-              "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536080731/Empty_Frame.jpg"
-          }
-      }
-  ]
-}
+    "Type": "Leaf",
+    "Id": "LouvreMapNotAvailable",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Sorry, but I don't have any stories for artworks in this area at the moment!",
+                "fr": "Désolé mais je n'ai pas d'histoires à raconter sur les oeuvres de cette zone actuellement !",
+                "es": "¡Lo siento, pero no tengo ninguna historia para obras de arte en esta área por el momento!",
+                "cn": "对不起，但是我现在暂时没有关于这一区域艺术作品的相关故事！"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Check back later though!",
+                "fr": "Mais reviens plus tard !",
+                "es": "¡Pero vuelve más tarde!",
+                "cn": "请稍后再查看！"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536080731/Empty_Frame.jpg"
+            }
+        }
+    ]
+  }
