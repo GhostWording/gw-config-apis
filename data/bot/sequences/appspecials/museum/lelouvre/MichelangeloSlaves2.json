@@ -7,7 +7,7 @@
             "Label": {
                 "en": "Michelangelo’s rivals seized at the chance...",
                 "fr": "Les rivaux de Michel-Ange saisirent l'opportunité...",
-                "es": "",
+                "es": "Los rivales de Miguel Ángel aprovecharon la oportunidad...",
                 "cn": ""
             }
         },
@@ -16,7 +16,7 @@
             "Label": {
                 "en": "They influenced the Pope to reassign Michelangelo to a different project…",
                 "fr": "Ils influencèrent le pape pour réaffecter Michel-Ange à un autre projet...",
-                "es": "",
+                "es": "Influenciaron al Papa para que asignara a Miguel Ángel a un proyecto diferente...",
                 "cn": ""
             }
         },
@@ -25,7 +25,7 @@
             "Label": {
                 "en": "A contract they hoped he would fail and be disgraced for",
                 "fr": "Un contrat pour lequel ils espéraient qu'il échouerait et tomberait en disgrâce",
-                "es": "",
+                "es": "Un contrato en el cual esperaban que fracasara y cayera en desgracia",
                 "cn": ""
             }
         }
@@ -38,16 +38,16 @@
             "CommandLabel": {
                 "en": "Did he fail?",
                 "fr": "Est-ce qu'il a échoué ?",
-                "es": "",
+                "es": "¿Fracasó?",
                 "cn": ""
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Not unless you call painting one of the most celebrated works of art of all time ”failure”!",
-                        "fr": "A moins que tu considères peindre l'une des œuvres d'art les plus célèbres de tous les temps comme un ”échec” !",
-                        "es": "",
+                        "en": "Not unless you call painting one of the most celebrated works of art of all time “failure”!",
+                        "fr": "A moins que tu considères peindre l'une des œuvres d'art les plus célèbres de tous les temps comme un “échec” !",
+                        "es": "No, a menos que consideres que una de las obras de arte más famosas de todos los tiempos sea un ¡“fracaso”!",
                         "cn": ""
                     }
                 }
@@ -64,7 +64,7 @@
                         "CommandLabel": {
                             "en": "What do you mean?",
                             "fr": "Comment ça ?",
-                            "es": "",
+                            "es": "¿Cómo así?",
                             "cn": ""
                         },
                         "Steps": [
@@ -73,7 +73,7 @@
                                 "Label": {
                                     "en": "This other project was painting the ceiling of the Sistine Chapel… recognise this?",
                                     "fr": "Cet autre projet consistait à peindre le plafond de la chapelle Sixtine... Tu reconnais ça ?",
-                                    "es": "",
+                                    "es": "El otro proyecto era pintar la Capilla Sixtina... ¿Reconoces esto?",
                                     "cn": ""
                                 }
                             },
@@ -92,7 +92,7 @@
                                 "Label": {
                                     "en": "I bet his rivals felt a little foolish after that…",
                                     "fr": "Je parie que ses rivaux se sont sentis un peu bêtes après cela...",
-                                    "es": "",
+                                    "es": "Apuesto a que sus rivales se sintieron un poco tontos después de esto...",
                                     "cn": ""
                                 }
                             }
@@ -109,7 +109,7 @@
                                     "CommandLabel": {
                                         "en": "Serves them right!",
                                         "fr": "Bien fait pour eux !",
-                                        "es": "",
+                                        "es": "Bien hecho!",
                                         "cn": ""
                                     },
                                     "LinksToFragment": {
@@ -123,7 +123,7 @@
                                     "CommandLabel": {
                                         "en": "What next?",
                                         "fr": "Et ensuite ?",
-                                        "es": "",
+                                        "es": "¿Qué sigue?",
                                         "cn": ""
                                     },
                                     "LinksToFragment": {
