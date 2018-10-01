@@ -3,22 +3,17 @@
     {
       "availablefor" : ["en", "fr"],
       "header": {
-        "en": "Discover the stories of Le Louvre museum",
-        "fr": "Decouvrez les histoires du musée du Louvre",
-        "es": "¡Las mejoras historias de gatitos!"
+        "en": "Art told by a chatbot? Try it now!",
+        "fr": "L'art raconté par un chatbot ? Essayez maintenant !",
+        "es": "¡Salva al gatito!"
       },
       "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
       "button": {
         "en": "Tell me more!",
         "fr": "Dis m'en plus !",
-        "es": "Haz una pausa, salva un gatito"
+        "es": "Salva un gatito"
       },
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
-      "storeUrlLocalized": {
-        "en": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
-        "fr": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
-        "es": "https://play.google.com/store/apps/details?id=com.wavemining.kittens"
-      }
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide"
     },
     {
       "availablefor" : ["en","fr","es"],
