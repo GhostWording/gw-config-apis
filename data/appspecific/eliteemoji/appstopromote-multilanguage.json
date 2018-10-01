@@ -1,5 +1,14 @@
 {
   "apps": [ 
+     {
+      "title": {
+        "en": "Fortnite survival tips!",
+        "fr": "Guide de survie Fortnite",
+        "es": "Fortnite consejos"
+      },
+      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538405439/fortnite_lama.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.battleroyale"
+    },    
     {
       "availablefor" : ["en","fr"],
       "title": {
