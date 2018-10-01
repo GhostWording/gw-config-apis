@@ -7,7 +7,8 @@
       "Label": {
         "en": "How did you like this story?",
         "fr": "Comment as-tu trouvé cette histoire ?",
-      "es": "¿Qué te pareció esta historia?"
+        "es": "¿Qué te pareció esta historia?",
+        "cn": "您觉得这个故事怎么样？"
       }
     }
   ],
@@ -20,7 +21,8 @@
       "CommandLabel": {
         "en": "It was great!",
         "fr": "C'était super !",
-        "es": "¡Estuvo genial!"
+        "es": "¡Estuvo genial!",
+        "cn": "非常棒！"
       },
       "Steps": [
         {
@@ -50,7 +52,8 @@
       "CommandLabel": {
         "en": "Good enough",
         "fr": "Assez bien",
-        "es": "Bastante bien"
+        "es": "Bastante bien",
+        "cn": "不错"
       },
       "Steps": [
         {
