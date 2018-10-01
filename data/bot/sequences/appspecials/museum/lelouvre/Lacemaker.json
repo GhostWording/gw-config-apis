@@ -8,7 +8,7 @@
                 "en": "I’m sure you’re familiar with some of the huge masterpieces in this museum",
                 "fr": "Je suis sûr que tu connais certains des immenses chefs d’œuvre de ce musée",
                 "es": "Seguramente ya conoces algunas de las inmensas obras maestras de este museo",
-                "cn": ""
+                "cn": "您肯定对这座博物馆中的一些大型艺术作品非常熟悉"
             }
         },
         {
@@ -24,7 +24,7 @@
                 "en": "But not all paintings have to be large, grand and loud!",
                 "fr": "Mais toutes les peintures n'ont pas besoin d'être immenses, imposantes et tapageuses !",
                 "es": "¡Pero no todas las pinturas tienen que ser inmensas, imponentes y escandalosas!",
-                "cn": ""
+                "cn": "但并不是所有的绘画作品都一定要声势浩大！"
             }
         }
     ],
@@ -37,7 +37,7 @@
                 "en": "Show me!",
                 "fr": "Montre-moi !",
                 "es": "¡Muestrame!",
-                "cn": ""
+                "cn": "给我展示一下！"
             },
             "Steps": [
                 {
@@ -46,7 +46,7 @@
                         "en": "Some can be tiny, quiet, and thoughtful!",
                         "fr": "Certaines peuvent être petites, discrètes et réfléchies",
                         "es": "Algunas pueden ser pequeñas, discretas y profundas",
-                        "cn": ""
+                        "cn": "有些作品小巧淡雅，蕴含丰富的思想！"
                     }
                 },
                 {
@@ -65,7 +65,7 @@
                         "en": "Like this one, the Lacemaker, by Johannes Vermeer, from 1670!",
                         "fr": "Comme celle-ci, La Dentellière, de Johannes Vermeer, réalisée en 1670 !",
                         "es": "¡Como ésta, La encajera, de Johannes Vermeer, hecha en 1670!",
-                        "cn": ""
+                        "cn": "比如这一个作品，由约翰内斯·维米尔于1670年创作的《花边女工》！"
                     }
                 }
             ],
@@ -82,7 +82,7 @@
                             "en": "How tiny?",
                             "fr": "Minuscule à quel point ?",
                             "es": "¿Qué pequeñita?",
-                            "cn": ""
+                            "cn": "这个作品有多大呢？"
                         },
                         "Steps": [
                             {
@@ -91,7 +91,7 @@
                                     "en": "It’s 23cm x 20cm: about the same size as an iPad!",
                                     "fr": "Elle mesure 23cm x 20cm : à peu près la même taille qu'un iPad !",
                                     "es": "¡Mide 23cm x 20cm : casi el mismo tamaño de un iPad!",
-                                    "cn": ""
+                                    "cn": "23厘米x20厘米：和一个苹果iPad差不多！"
                                 }
                             },
                             {
@@ -110,7 +110,7 @@
                                     "en": "Nevertheless, it’s certainly a masterpiece! Let me tell you all about it!",
                                     "fr": "Néanmoins, il s'agit certainement d'un chef d’œuvre ! Laisse-moi t'en parler plus en détail !",
                                     "es": "¡Sin embargo, es sin duda una obra maestra! ¡Dejame contarte detalladamente!",
-                                    "cn": ""
+                                    "cn": "不管怎样，它绝对是一件艺术佳作！让我给你讲讲关于它的情况吧！"
                                 }
                             }
                         ],
@@ -127,7 +127,7 @@
                                         "en": "OK!",
                                         "fr": "D'accord !",
                                         "es": "¡De acuerdo!",
-                                        "cn": ""
+                                        "cn": "好的！"
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "Lacemaker2"
@@ -141,7 +141,7 @@
                                         "en": "No thanks!",
                                         "fr": "Non merci !",
                                         "es": "¡No, gracias!",
-                                        "cn": ""
+                                        "cn": "不用了，谢谢！"
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "LacemakerFeedback"
