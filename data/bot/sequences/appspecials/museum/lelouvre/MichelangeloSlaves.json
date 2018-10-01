@@ -7,7 +7,7 @@
             "Label": {
                 "en": "These two sculptures have a great backstory: want to hear it? Or skip ahead?",
                 "fr": "Ces deux sculptures ont un contexte très intéressant : tu veux connaître l'histoire ? Ou passer à la suite ?",
-                "es": "",
+                "es": "Estas dos esculturas tienen una gran historia: ¿quieres conocerla? O ¿prefieres pasar a la siguiente?",
                 "cn": ""
             }
         }
@@ -20,7 +20,7 @@
             "CommandLabel": {
                 "en": "Tell me everything!",
                 "fr": "Dis-moi tout !",
-                "es": "",
+                "es": "Dímelo todo",
                 "cn": ""
             },
             "Steps": [
@@ -29,7 +29,7 @@
                     "Label": {
                         "en": "You made the right choice!",
                         "fr": "Tu as fait le bon choix !",
-                        "es": "",
+                        "es": "¡Buena elección!",
                         "cn": ""
                     }
                 },
@@ -38,7 +38,7 @@
                     "Label": {
                         "en": "In 1505, the Pope at the time, Julius II, realised he was getting old, and decided to build for himself a huge tomb",
                         "fr": "En 1505, le pape de l'époque, Jules II, se rendit compte qu'il vieillissait, et décida de se faire construire un immense tombeau",
-                        "es": "",
+                        "es": "En 1505, el Papa de la época, Julio II, se dio cuenta de que estaba envejeciendo y decidió construir una tumba enorme",
                         "cn": ""
                     }
                 },
@@ -47,7 +47,7 @@
                     "Label": {
                         "en": "He hired none other than Michelangelo Buonarotti to produce the sculptures.",
                         "fr": "Il n'engagea nul autre que Michelangelo Buonarotti pour réaliser les sculptures.",
-                        "es": "",
+                        "es": "Contrató a nadie menos que a Miguel Ángel Buonarrotti para hacer las esculturas.",
                         "cn": ""
                     }
                 }
@@ -64,7 +64,7 @@
                         "CommandLabel": {
                             "en": "Continue",
                             "fr": "Continue",
-                            "es": "",
+                            "es": "Sigue",
                             "cn": ""
                         },
                         "Steps": [
@@ -73,7 +73,7 @@
                                 "Label": {
                                     "en": "Michelangelo was already pretty famous at the time for sculptures like “David”",
                                     "fr": "Michel-Ange était déjà assez célèbre à l'époque, grâce à des sculptures telles que “David”",
-                                    "es": "",
+                                    "es": "Miguel Ángel ya era bastante conocido en esta época, por esculturas como el “David”",
                                     "cn": ""
                                 }
                             },
@@ -99,7 +99,7 @@
                                 "Label": {
                                     "en": "but working for the Pope was the ultimate honour!",
                                     "fr": "mais travailler pour le pape représentait l'honneur ultime !",
-                                    "es": "",
+                                    "es": "pero trabajar para el Papa era el !máximo honor!",
                                     "cn": ""
                                 }
                             },
@@ -108,7 +108,7 @@
                                 "Label": {
                                     "en": "Unfortunately, early into the project, the two had a heated argument, and Michelangelo fled Rome!",
                                     "fr": "Malheureusement, au début du projet, les deux hommes ont eu une dispute houleuse, et Michel-Ange dut fuire Rome",
-                                    "es": "",
+                                    "es": "esafortunadamente, al inicio del proyecto, los dos hombres tuvieron una acalorada discusión ¡y Miguel Ángel tuvo que huir de Roma!",
                                     "cn": ""
                                 }
                             }
@@ -125,7 +125,7 @@
                                     "CommandLabel": {
                                         "en": "What then?!",
                                         "fr": "Et ensuite !?",
-                                        "es": "",
+                                        "es": "¿Y luego?",
                                         "cn": ""
                                     },
                                     "LinksToFragment": {
@@ -145,7 +145,7 @@
             "CommandLabel": {
                 "en": "Skip ahead!",
                 "fr": "Passer à la suite!",
-                "es": "",
+                "es": "Siguiente",
                 "cn": ""
             },
             "LinksToFragment": {
