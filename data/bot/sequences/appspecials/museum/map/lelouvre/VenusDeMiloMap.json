@@ -7,7 +7,8 @@
             "Label": {
                 "en": "This painting is on the GROUND FLOOR (0)",
                 "fr": "Ce tableau se trouve au REZ-DE-CHAUSSEE (0)",
-                "es": "Este cuadro está en la BAJA PLANTA (0)"
+                "es": "Este cuadro está en la BAJA PLANTA (0)",
+                "cn": "这幅画位于底层（0）"
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "In the Sully Wing (EAST)",
                 "fr": "Dans l'aile Sully (EST)",
-                "es": "En el ala Sully (ESTE)"
+                "es": "En el ala Sully (ESTE)",
+                "cn": "在苏利庭院（东）"
             }
         },
         {
@@ -33,7 +35,8 @@
             "Label": {
                 "en": "It's right here!",
                 "fr": "C'est juste là !",
-                "es": "¡Está justo ahí!"
+                "es": "¡Está justo ahí!",
+                "cn": "就在这里！"
             }
         },
         {
@@ -55,7 +58,8 @@
           "CommandLabel": {
             "en": "Exit",
             "fr": "Retour",
-            "es": "Vuelta"
+            "es": "Vuelta",
+            "cn": "出口"
           }
         }
     ]
