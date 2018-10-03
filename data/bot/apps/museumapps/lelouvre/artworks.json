@@ -5,7 +5,7 @@
             "en": "Theft of Mona Lisa",
             "fr": "Le vol de la Joconde",
             "es": "El robo de la Gioconda",
-            "cn": "《蒙娜丽莎》失窃"
+            "zh": "《蒙娜丽莎》失窃"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -19,7 +19,7 @@
             "en": "Leonardo da Vinci",
             "fr": "Léonard de Vinci",
             "es": "Leonardo da Vinci",
-            "cn": "列奥纳多·达·芬奇"
+            "zh": "列奥纳多·达·芬奇"
         },
         "SequenceId": "MonaTheft",
         "LocationSequenceId": "MonaLisaMap"
@@ -30,7 +30,7 @@
             "en": "The Coronation of Napoleon",
             "fr": "Le Sacre de Napoléon",
             "es": "La consagración de Napoleón",
-            "cn": "《拿破崙加冕大典》"
+            "zh": "《拿破崙加冕大典》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -44,7 +44,7 @@
             "en": "Jacques-Louis David",
             "fr": "Jacques-Louis David",
             "es": "Jacques-Louis David",
-            "cn": "雅克-路易·大卫"
+            "zh": "雅克-路易·大卫"
         },
         "SequenceId": "DavidCoronation",
         "LocationSequenceId": "DavidCoronationMap"
@@ -55,7 +55,7 @@
             "en": "Lamassus from Dur-Sharrukin",
             "fr": "Les Lamassus de Dur-Sharrukin",
             "es": "Los Lamassus de Dur-Sharrukin",
-            "cn": "《拉玛苏神兽》"
+            "zh": "《拉玛苏神兽》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -69,7 +69,7 @@
             "en": "Unknown",
             "fr": "Inconnu",
             "es": "Desonocido",
-            "cn": "名不见经传的 "
+            "zh": "名不见经传的 "
         },
         "SequenceId": "Lamassu",
         "LocationSequenceId": "LamassuMap"
@@ -80,7 +80,7 @@
             "en": "Liberty Leading the People",
             "fr": "La Liberté guidant le peuple",
             "es": "La Libertad guiando al pueblo",
-            "cn": "《自由引导人们》"
+            "zh": "《自由引导人们》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -94,7 +94,7 @@
             "en": "Eugène Delacroix",
             "fr": "Eugène Delacroix",
             "es": "Eugène Delacroix",
-            "cn": "欧仁·德拉克罗瓦"
+            "zh": "欧仁·德拉克罗瓦"
         },
         "SequenceId": "LibertyLeading",
         "LocationSequenceId": "LibertyLeadingMap"
@@ -105,7 +105,7 @@
             "en": "Portrait of Louis XIV",
             "fr": "Portrait de Louis XIV",
             "es": "Retrato de Luis XIV",
-            "cn": "《路易十四——太阳之王》"
+            "zh": "《路易十四——太阳之王》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -119,7 +119,7 @@
             "en": "Hyacinthe Rigaud",
             "fr": "Hyacinthe Rigaud",
             "es": "Hyacinthe Rigaud",
-            "cn": "亚森特·里戈"
+            "zh": "亚森特·里戈"
         },
         "SequenceId": "LouisXIV",
         "LocationSequenceId": "LouisXIVMap"
@@ -130,7 +130,7 @@
             "en": "The Venus de Milo",
             "fr": "La Vénus de Milo",
             "es": "La Venus de Milo",
-            "cn": "《米洛的维纳斯》"
+            "zh": "《米洛的维纳斯》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -144,7 +144,7 @@
             "en": "Unknown",
             "fr": "Inconnu",
             "es": "Desonocido",
-            "cn": "名不见经传的 "
+            "zh": "名不见经传的 "
         },
         "SequenceId": "VenusDeMilo",
         "LocationSequenceId": "VenusDeMiloMap"
@@ -155,7 +155,7 @@
             "en": "The Raft of the Medusa",
             "fr": "Le Radeau de La Méduse",
             "es": "La balsa de la Medusa",
-            "cn": "《美杜莎之筏》"
+            "zh": "《美杜莎之筏》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -169,7 +169,7 @@
             "en": "Théodore Géricault",
             "fr": "Théodore Géricault",
             "es": "Théodore Géricault",
-            "cn": "西奧多·傑利柯"
+            "zh": "西奧多·傑利柯"
         },
         "SequenceId": "MedusaRaft",
         "LocationSequenceId": "MedusaRaftMap"
@@ -180,7 +180,7 @@
             "en": "The Wedding at Cana",
             "fr": "Les Noces de Cana",
             "es": "Bodas de Caná",
-            "cn": "《迦拿的婚礼》"
+            "zh": "《迦拿的婚礼》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -194,7 +194,7 @@
             "en": "Paolo Veronese",
             "fr": "Paolo Véronèse",
             "es": "Paolo Veronese",
-            "cn": "保罗·委罗内塞"
+            "zh": "保罗·委罗内塞"
         },
         "SequenceId": "WeddingCana",
         "LocationSequenceId": "WeddingCanaMap"
@@ -205,7 +205,7 @@
             "en": "About Leonardo da Vinci",
             "fr": "A propos de Léonard de Vinci",
             "es": "Sobre Leonardo da Vinci",
-            "cn": "关于莱昂纳多达芬奇"
+            "zh": "关于莱昂纳多达芬奇"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -219,7 +219,7 @@
             "en": "N/A",
             "fr": "N/A",
             "es": "N/A",
-            "cn": "N/A"
+            "zh": "N/A"
         },
         "SequenceId": "Leonardo",
         "LocationSequenceId": "MonaLisaMap"
@@ -230,7 +230,7 @@
             "en": "The Lacemaker",
             "fr": "La Dentellière",
             "es": "La encajera",
-            "cn": "《编花边的女工》"
+            "zh": "《编花边的女工》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -244,7 +244,7 @@
             "en": "Johannes Vermeer",
             "fr": "Johannes Vermeer",
             "es": "Johannes Vermeer",
-            "cn": "扬·弗美尔"
+            "zh": "扬·弗美尔"
         },
         "SequenceId": "Lacemaker",
         "LocationSequenceId": "LacemakerMap"
@@ -255,7 +255,7 @@
             "en": "Dying & Rebellious Slaves",
             "fr": "L'Esclave mourant & L'Esclave Rebelle",
             "es": "Esclavo moribundo & Esclavo rebelde",
-            "cn": "《垂死的奴隶》《被缚的奴隶》"
+            "zh": "《垂死的奴隶》《被缚的奴隶》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -269,7 +269,7 @@
             "en": "Michelangelo",
             "fr": "Michel-Ange",
             "es": "Miguel Ángel",
-            "cn": "米开朗基罗"
+            "zh": "米开朗基罗"
         },
         "SequenceId": "MichelangeloSlaves",
         "LocationSequenceId": "MichelangeloSlavesMap"
