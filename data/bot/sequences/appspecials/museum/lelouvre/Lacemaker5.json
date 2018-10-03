@@ -1,128 +1,129 @@
 {
-  "Type": "Node",
-  "Id": "Lacemaker5",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "It’s not just me who thinks it’s a masterpiece… other artists, too, have huge respect for it!",
-        "fr": "Je ne suis pas le seul à penser que c'est un chef d’œuvre... D'autres artistes aussi lui ont montré un grand respect !",
-        "es": "No soy el único que piensa que es una obra maestra… ¡otros artistas al rededor del mundo lo respetan mucho!",
-        "cn": "不单单是我觉得这是一幅佳作……其他艺术家也非常推崇这幅作品！"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Van Gogh famously praised its beautiful colours in a letter to his friend",
-        "fr": "Van Gogh a notamment fait l'éloge de ses belles couleurs dans une lettre à son ami",
-        "es": "Van Gogh elogió sus hermosos colores en una carta a su amigo",
-        "cn": "梵高就曾在给朋友的信中赞美过其中的用色"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "and Renoir considered it the most beautiful painting in the world!",
-        "fr": "et Renoir le considérait comme le plus beau tableau du monde !",
-        "es": "¡Y Renoir lo consideraba como el cuadro más hermoso del mundo!",
-        "cn": "雷诺阿觉得它是全世界最美的绘画作品！"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Lacemaker5Else",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Who else?",
-        "fr": "Qui d'autre ?",
-        "es": "¿Quien más?",
-        "cn": "还有谁呢？"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Salvador Dali himself brought his paints to the Louvre and painted a copy!",
-            "fr": "Salvador Dali en personne a apporté son matériel au Louvre et en a peint une copie !",
-            "es": "¡Salvador Dali en persona trajo sus materiales de trabajo al Louvre e hizo una copia!",
-            "cn": "达利前往卢浮宫，照着它临摹了一幅作品！"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowCarouselFromList",
-          "Parameters": {
-            "Path": "/data/common/carousel/museum/LacemakerVermeerDali.json"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Which do you prefer?!",
-            "fr": "Quelle version préfères-tu !?",
-            "es": "¿Qué versión prefieres?",
-            "cn": "您更喜欢哪一个？"
-          }
+    "Type": "Node",
+    "Id": "Lacemaker5",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "It’s not just me who thinks it’s a masterpiece… other artists, too, have huge respect for it!",
+          "fr": "Je ne suis pas le seul à penser que c'est un chef d’œuvre... D'autres artistes aussi lui ont montré un grand respect !",
+          "es": "No soy el único que piensa que es una obra maestra… ¡otros artistas al rededor del mundo lo respetan mucho!",
+          "zh": "不单单是我觉得这是一幅佳作……其他艺术家也非常推崇这幅作品！"
         }
-      ],
-      "LinksTo": {
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Van Gogh famously praised its beautiful colours in a letter to his friend",
+          "fr": "Van Gogh a notamment fait l'éloge de ses belles couleurs dans une lettre à son ami",
+          "es": "Van Gogh elogió sus hermosos colores en una carta a su amigo",
+          "zh": "梵高就曾在给朋友的信中赞美过其中的用色"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "and Renoir considered it the most beautiful painting in the world!",
+          "fr": "et Renoir le considérait comme le plus beau tableau du monde !",
+          "es": "¡Y Renoir lo consideraba como el cuadro más hermoso del mundo!",
+          "zh": "雷诺阿觉得它是全世界最美的绘画作品！"
+        }
+      }
+    ],
+    "Commands": [
+      {
         "Type": "Node",
-        "Id": "Lacemaker5ElseStep",
+        "Id": "Lacemaker5Else",
         "ElementValue": "1",
-        "Commands": [
+        "CommandLabel": {
+          "en": "Who else?",
+          "fr": "Qui d'autre ?",
+          "es": "¿Quien más?",
+          "zh": "还有谁呢？"
+        },
+        "Steps": [
           {
-            "Type": "Node",
-            "Id": "Lacemaker5ElseDali",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Dali's version",
-              "fr": "Celle de Dali",
-              "es": "La de Dali",
-              "cn": "达利的版本"
-            },
-            "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "LacemakerFeedback"
+            "Type": "Text",
+            "Label": {
+              "en": "Salvador Dali himself brought his paints to the Louvre and painted a copy!",
+              "fr": "Salvador Dali en personne a apporté son matériel au Louvre et en a peint une copie !",
+              "es": "¡Salvador Dali en persona trajo sus materiales de trabajo al Louvre e hizo una copia!",
+              "zh": "达利前往卢浮宫，照着它临摹了一幅作品！"
             }
           },
           {
-            "Type": "Node",
-            "Id": "Lacemaker5ElseOriginal",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "The original!",
-              "fr": "L'orignale !",
-              "es": "¡La original!",
-              "cn": "原作！"
-            },
-            "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "LacemakerFeedback"
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+              "Path": "/data/common/carousel/museum/LacemakerVermeerDali.json"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Which do you prefer?!",
+              "fr": "Quelle version préfères-tu !?",
+              "es": "¿Qué versión prefieres?",
+              "zh": "您更喜欢哪一个？"
             }
           }
-        ]
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "Lacemaker5ElseStep",
+          "ElementValue": "1",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "Lacemaker5ElseDali",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Dali's version",
+                "fr": "Celle de Dali",
+                "es": "La de Dali",
+                "zh": "达利的版本"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "DoVote"
+                },
+                {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+                }
+              ],
+              "LinksToFragment": {
+                "FragmentPath": "LacemakerFeedback"
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "Lacemaker5ElseOriginal",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "The original!",
+                "fr": "L'orignale !",
+                "es": "¡La original!",
+                "zh": "原作！"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "DoVote"
+                },
+                {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+                }
+              ],
+              "LinksToFragment": {
+                "FragmentPath": "LacemakerFeedback"
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
+  
