@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "GoMuseumsOften",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Wondering how I know all this stuff? Simple... I just spend time at the museum!",
+        "fr": "Comment je sais tout ça ? C'est simple ... je passe juste du temps au musée !",
+        "es": "¿Cómo sé todo esto? Simple ... ¡Solo paso tiempo en el museo!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What about you? Do you go often?",
+        "fr": "Et vous? Tu y vas souvent?",
+        "es": "¿Y tu? ¿Vas a menudo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GoMuseumsOftenYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "D0CdAhLDkmhEs"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GoMuseumsOftenNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not really",
+        "fr": "Pas vraiment",
+        "es": "No realmente"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ohhwDfcBvBPpD9RZu"
+          }
+        }
+      ]
+    }
+  ]
+}
