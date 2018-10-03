@@ -1,87 +1,95 @@
 {
-    "Type": "Node",
-    "Id": "PaintingsOrSculptures",
-    "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Do you prefer paintings or sculptures ?",
-          "fr": "Est-ce que tu préfères les tableaux ou les sculptures ?",
-          "es": "¿Prefieres pinturas o esculturas?"
-        }
+  "Type": "Node",
+  "Id": "PaintingsOrSculptures",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Before we continue, I wanted to know ...",
+        "fr": "Avant d'aller plus loin, je voulais savoir",
+        "es": "Antes de continuar, lo que quería saber ..."
       }
-    ],
-    "Randomize": "true",
-    "Commands": [
-      {
-        "Type": "Leaf",
-        "Id": "PaintingsOrSculpturesPaintings",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Paintings",
-          "fr": "Tableaux",
-          "es": "Pinturas"
-        },
-        "Steps": [
-          {
-            "Type": "Action",
-            "Name": "DoVote"
-          },
-          {
-            "Type": "Action",
-            "Name": "ShowSurveyResults"
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "I get it, sculptures scare me too",
-              "fr": "Je comprends, les statues me font peur à moi aussi",
-              "es": "Lo entiendo, las esculturas me asustan también"
-            }
-          },
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "3oEduT008ys8BMEVB6"
-            }
-          }
-        ]
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you prefer paintings or sculptures ?",
+        "fr": "Est-ce que tu préfères les tableaux ou les sculptures ?",
+        "es": "¿Prefieres pinturas o esculturas?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PaintingsOrSculpturesPaintings",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Paintings",
+        "fr": "Tableaux",
+        "es": "Pinturas"
       },
-      {
-        "Type": "Leaf",
-        "Id": "PaintingsOrSculpturesSculptures",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Sculptures",
-          "fr": "Sculptures",
-          "es": "Esculturas"
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
         },
-        "Steps": [
-          {
-            "Type": "Action",
-            "Name": "DoVote"
-          },
-          {
-            "Type": "Action",
-            "Name": "ShowSurveyResults"
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Even painters don't like painting anymore",
-              "fr": "Même les peintres n'aiment plus peindre",
-              "es": "Incluso a los pintores ya no les gusta pintar"
-            }
-          },
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "xT39D7GQo1m3LatZyU"
-            }
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I get it, sculptures scare me too",
+            "fr": "Je comprends, les statues me font peur à moi aussi",
+            "es": "Lo entiendo, las esculturas me asustan también"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEduT008ys8BMEVB6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PaintingsOrSculpturesSculptures",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sculptures",
+        "fr": "Sculptures",
+        "es": "Esculturas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Even painters don't like painting anymore",
+            "fr": "Même les peintres n'aiment plus peindre",
+            "es": "Incluso a los pintores ya no les gusta pintar"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT39D7GQo1m3LatZyU"
+          }
+        }
+      ]
+    }
+  ]
+}
