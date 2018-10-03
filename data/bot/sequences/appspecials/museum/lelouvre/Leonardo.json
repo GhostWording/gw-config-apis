@@ -8,7 +8,7 @@
         "en": "So… this painting is very famous, but what about it’s painter? He’s pretty well known in and of himself!",
         "fr": "Alors... ce tableau est très célèbre, mais qu'en est-il du peintre ? Il est lui-même très connu pour l'ensemble de ses travaux !",
         "es": "Entonces...esta pintura es muy famosa pero ¿y el pintor? ¡Él, es conocido por todo su trabajo!",
-        "cn": "这幅画非常有名，但是画家呢？画家本身也广为人知！"
+        "zh": "这幅画非常有名，但是画家呢？画家本身也广为人知！"
       }
     },
     {
@@ -26,7 +26,7 @@
         "en": "He lived in Florence in the 15th and 16th century CE, and was a key figure during the European ‘Renaissance’",
         "fr": "Il a vécu à Florence aux XVe et XVIe siècles, et il était une figure clé de la ‘Renaissance’ européenne",
         "es": "Vivió en Florencia entre los siglos XV y XVI, y fue una figura importante del ‘Renacimiento’ europeo",
-        "cn": "他生活在15和16世纪的佛罗伦萨，是欧洲“文艺复兴时期”的重要人物"
+        "zh": "他生活在15和16世纪的佛罗伦萨，是欧洲“文艺复兴时期”的重要人物"
       }
     }
   ],
@@ -39,7 +39,7 @@
         "en": "Tell me about him!",
         "fr": "Dis m'en plus !",
         "es": "¡Cuéntame más!",
-        "cn": "给我介绍一下他吧！"
+        "zh": "给我介绍一下他吧！"
       },
       "Steps": [
         {
@@ -48,7 +48,7 @@
             "en": "This was a time of huge scientific and artistic progress, and Leonardo was at the forefront of the movement!",
             "fr": "Ce fut une période de grands progrès scientifiques et artistiques, et De Vinci était à l'avant-garde du mouvement !",
             "es": "Fueron tiempos de gran progreso artístico y científico ¡Y Da Vinci estuvo a la vanguardia de este movimiento!",
-            "cn": "这个时期的科学和艺术领域取得了巨大进步，而达芬奇就站在整个文艺复兴运动的最前沿！"
+            "zh": "这个时期的科学和艺术领域取得了巨大进步，而达芬奇就站在整个文艺复兴运动的最前沿！"
           }
         },
         {
@@ -57,7 +57,7 @@
             "en": "We have many of his sketches and journals which tell a story of a man who was always trying to discover and learn new things",
             "fr": "Beaucoup de ses croquis et de ses journaux nous sont parvenus. Ils nous montrent un homme qui étaient toujours à la recherche de la découverte de nouvelles choses",
             "es": "Tenemos muchos de sus bocetos y diarios que nos muestran a un hombre que siempre estaba tratando de descubrir y aprender cosas nuevas",
-            "cn": "我们拥有他的许多草稿和日记，从中我们可以看出，这位艺术家始终在不断的尝试探索和学习新事物"
+            "zh": "我们拥有他的许多草稿和日记，从中我们可以看出，这位艺术家始终在不断的尝试探索和学习新事物"
           }
         },
         {
@@ -76,7 +76,7 @@
             "en": "Ever seen that before?",
             "fr": "As-tu déjà vu cela auparavant ?",
             "es": "¿Has visto esto antes?",
-            "cn": "您以前看过这个吗？"
+            "zh": "您以前看过这个吗？"
           }
         }
       ],
@@ -93,7 +93,7 @@
               "en": "Yes",
               "fr": "Oui",
               "es": "Sí",
-              "cn": "看过"
+              "zh": "看过"
             },
             "LinksToFragment": {
               "FragmentPath": "Leonardo2"
@@ -107,7 +107,7 @@
               "en": "No",
               "fr": "Non",
               "es": "No",
-              "cn": "没有"
+              "zh": "没有"
             },
             "LinksToFragment": {
               "FragmentPath": "Leonardo2"
@@ -124,7 +124,7 @@
         "en": "Not for me",
         "fr": "J'en sais assez",
         "es": "Para mi es suficiente",
-        "cn": "我不感兴趣"
+        "zh": "我不感兴趣"
       },
       "LinksToFragment": {
         "FragmentPath": "LeonardoFeedback"
