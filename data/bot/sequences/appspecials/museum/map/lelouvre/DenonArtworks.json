@@ -30,7 +30,8 @@
             "CommandLabel": {
                 "en": "The Dying Slave",
                 "fr": "L'Esclave mourant",
-                "es": "El Esclavo moribundo"
+                "es": "El Esclavo moribundo",
+                "zh": "《垂死的奴隶》"
             },
             "CarouselElements": {
                 "Title": {
@@ -63,16 +64,11 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536836934/MichelangeloSlavesMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                      "Type": "ArtworkView",
-                      "ArtworkPath": "MichelangeloSlaves"
-                    }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MichelangeloSlaves"
+            }
         },
         {
             "Type": "Node",
@@ -81,7 +77,8 @@
             "CommandLabel": {
                 "en": "Mona Lisa",
                 "fr": "La Joconde",
-                "es": "La Gioconda"
+                "es": "La Gioconda",
+                "zh": "《蒙娜丽莎》"
             },
             "CarouselElements": {
                 "Title": {
@@ -127,7 +124,8 @@
             "CommandLabel": {
                 "en": "David - Napoleon",
                 "fr": "Le Sacre de Napoléon",
-                "es": "La consagración de Napoleón"
+                "es": "David - Napoleón",
+                "zh": "《拿破仑加冕典礼》"
             },
             "CarouselElements": {
                 "Title": {
@@ -173,7 +171,8 @@
             "CommandLabel": {
                 "en": "Delacroix's Liberty",
                 "fr": "Delacroix - Liberté",
-                "es": "Delacroix - Libertad"
+                "es": "Delacroix - Libertad",
+                "zh": "《自由引导人们》"
             },
             "CarouselElements": {
                 "Title": {
@@ -219,7 +218,8 @@
             "CommandLabel": {
                 "en": "Raft of the Medusa",
                 "fr": "Le Radeau de la Méduse",
-                "es": "La balsa de la Medusa"
+                "es": "La balsa de la Medusa",
+                "zh": "《美杜莎之筏》"
             },
             "CarouselElements": {
                 "Title": {
@@ -265,7 +265,8 @@
             "CommandLabel": {
                 "en": "The Wedding at Cana",
                 "fr": "Les Noces de Cana",
-                "es": "Bodas de Caná"
+                "es": "Las bodas de Caná",
+                "zh": "《迦拿的婚礼》"
             },
             "CarouselElements": {
                 "Title": {
