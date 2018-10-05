@@ -69,8 +69,8 @@
                     "Type": "Action",
                     "Name": "RedirectTo",
                     "Parameters": {
-                      "Type": "ArtworkView",
-                      "ArtworkPath": "MichelangeloSlaves"
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "MichelangeloSlaves"
                     }
                 }
             ]
@@ -116,11 +116,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/MonaLisaMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "MonaTheft"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "MonaTheft"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -163,11 +168,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/DavidCoronationMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "DavidCoronation"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "DavidCoronation"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -210,11 +220,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LibertyLeadingMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "LibertyLeading"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "LibertyLeading"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -257,11 +272,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/MeduseRaftMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "MedusaRaft"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "MedusaRaft"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -304,11 +324,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/WeddingCanaMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "WeddingCana"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "WeddingCana"
-            }
+            ]
         }
     ]
 }
