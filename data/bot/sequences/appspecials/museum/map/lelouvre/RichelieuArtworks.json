@@ -64,11 +64,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LamassuMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "Lamassu"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Lamassu"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -111,11 +116,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LouisXIVMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "LouisXIV"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "LouisXIV"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -158,11 +168,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536760460/LacemakerMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                        "Type": "ArtworkView",
+                        "ArtworkPath": "Lacemaker"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Lacemaker"
-            }
+            ]
         }
     ]
 }
