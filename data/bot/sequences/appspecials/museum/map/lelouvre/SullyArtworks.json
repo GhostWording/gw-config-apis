@@ -64,16 +64,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "VenusDeMilo"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SullyArtworksVenusDeMiloStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "SullyArtworksVenusDeMiloGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "VenusDeMilo"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
