@@ -10,8 +10,8 @@
       "Type": "Web",
       "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964758/louvre.jpg"
     },
-    "PeriodSequenceId" : "BestTestFragmentEver",
-    "Artworks" : [
+    "AreaSequenceId" : "BestTestFragmentEver",
+    "Places" : [
       {"Id": "LeLouvre"}
     ]
   },
@@ -26,8 +26,8 @@
       "Type": "Web",
       "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
     },
-    "PeriodSequenceId" : "BestTestFragmentEver",
-    "Artworks" : [
+    "AreaSequenceId" : "BestTestFragmentEver",
+    "Places" : [
       {"Id": "BoulevardHaussmann"}
     ]
   },
@@ -42,8 +42,8 @@
       "Type": "Web",
       "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
     },
-    "PeriodSequenceId" : "BestTestFragmentEver",
-    "Artworks" : [
+    "AreaSequenceId" : "BestTestFragmentEver",
+    "Places" : [
       {"Id": "LesHalles"},
     ]
   }
