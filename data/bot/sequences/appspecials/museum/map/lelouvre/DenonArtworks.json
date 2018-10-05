@@ -64,11 +64,16 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536836934/MichelangeloSlavesMap.png"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RedirectTo",
+                    "Parameters": {
+                      "Type": "ArtworkView",
+                      "ArtworkPath": "MichelangeloSlaves"
+                    }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "MichelangeloSlaves"
-            }
+            ]
         },
         {
             "Type": "Node",
