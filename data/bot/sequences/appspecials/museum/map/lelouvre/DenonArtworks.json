@@ -64,16 +64,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536836934/MichelangeloSlavesMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "MichelangeloSlaves"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksSlavesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksSlavesGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "MichelangeloSlaves"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
@@ -125,11 +145,39 @@
                         "ArtworkPath": "MonaTheft"
                     }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksMonaLisaStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksMonaLisaGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "MonaTheft"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
-            "Id": "DenonArtworksDavidCoronation",
+            "Id": "DenonArtworksCoronation",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "David - Napoleon",
@@ -168,16 +216,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/DavidCoronationMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "DavidCoronation"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksCoronationStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksCoronationGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "DavidCoronation"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
@@ -220,16 +288,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LibertyLeadingMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "LibertyLeading"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksLibertyLeadingStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksLibertyLeadingGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "LibertyLeading"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
@@ -272,16 +360,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/MeduseRaftMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "MedusaRaft"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksMedusaRaftStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksMedusaRaftGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "MedusaRaft"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
@@ -324,16 +432,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/WeddingCanaMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "WeddingCana"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksWeddingCanaStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksWeddingCanaGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "WeddingCana"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
