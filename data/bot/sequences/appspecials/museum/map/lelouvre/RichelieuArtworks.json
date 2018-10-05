@@ -64,16 +64,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LamassuMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "Lamassu"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RichelieuArtworksLamassuStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RichelieuArtworksLamassuGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "WeddingCana"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
@@ -116,16 +136,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/LouisXIVMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "LouisXIV"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RichelieuArtworksLouisXIVStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RichelieuArtworksLouisXIVGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "LouisXIV"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
@@ -168,16 +208,36 @@
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536760460/LacemakerMap.png"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "ArtworkView",
-                        "ArtworkPath": "Lacemaker"
-                    }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RichelieuArtworksLacemakerStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RichelieuArtworksLacemakerGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Lacemaker"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
