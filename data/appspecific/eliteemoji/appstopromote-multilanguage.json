@@ -1,24 +1,14 @@
 {
-  "apps": [ 
-    {
-      "availablefor" : ["en","fr","es"],      
-      "title": {
-        "en": "Fortnite survival tips",
-        "fr": "Guide de survie Fortnite",
-        "es": "Fortnite consejos"
-      },
-      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538405439/fortnite_lama.jpg",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.battleroyale"
-    },    
+  "apps": [   
     {
       "availablefor" : ["en","fr"],
       "title": {
-        "en": "Art told by a chatbot? Try it now!",
-        "fr": "L'art raconté par un chatbot ? Essayez maintenant !",
-        "es": "¡Salva al gatito!"
+        "en": "Try me, I know stories!",
+        "fr": "Essaye-moi, je connais des histoires!",
+        "es": "¡Pruébame, conozco historias!"
       },
       "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide"
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.louvre"
     },    
     {
       "availablefor" : ["en","fr","es"],      
@@ -29,7 +19,17 @@
       },
       "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538407650/dating1.jpg",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.datingtips"
-    },          
+    },
+    {
+      "availablefor" : ["en","fr","es"],      
+      "title": {
+        "en": "Fortnite survival tips",
+        "fr": "Guide de survie Fortnite",
+        "es": "Fortnite consejos"
+      },
+      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538405439/fortnite_lama.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.battleroyale"
+    },     
     {
       "availablefor" : ["en","fr","es"],
       "title": {
