@@ -1,0 +1,111 @@
+{
+    "Type": "Node",
+    "Id": "MonaExpression2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The theories get wackier still…",
+                "fr": "Les théories deviennent encore plus farfelues...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Many are convinced that she is missing teeth!",
+                "fr": "Beaucoup sont convaincus qu'il lui manque des dents !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaExpression2What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What?!",
+                "fr": "Comment ça !?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They say there is a sign of a scar on her lip where teeth have been knocked out…",
+                        "fr": "Ils disent qu'elle a une légère cicatrice sur la lèvre, montrant l'endroit où les dents auraient été cassées...",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 758,
+                        "Height": 437,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538470205/14mona_smile_scar.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And that is why her upper lip hangs down like so!",
+                        "fr": "Et c'est pour cela que sa lèvre supérieure pend comme ça !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have to say… I’m not sure about that one",
+                        "fr": "Je dois dire... Je ne suis pas vraiment sûr de celle-là",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaExpression2WhatStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaExpression2WhatRidiculous",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Ridiculous",
+                            "fr": "Ridicule !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaExpression3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MonaExpression2WhatProof",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Conclusive proof",
+                            "fr": "Preuve indéniable",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaExpression3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
