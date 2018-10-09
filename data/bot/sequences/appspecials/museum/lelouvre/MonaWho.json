@@ -1,0 +1,88 @@
+{
+    "Type": "Node",
+    "Id": "MonaWho",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, consensus since 2005 is that it shows Lisa Gherardini, a 16th century Florentine noble.",
+                "fr": "Un consensus existe depuis 2005 : il s'agirait de Lisa Gherardini, une noble florentine du XVIe siècle.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But fascinating theories have been thrown around over the years!",
+                "fr": "Mais des théories fascinantes ont été élaborées au fil des ans !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaWhoWhat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Like what?",
+                "fr": "Comme quoi ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "One states that the painting depicts Leonardo’s student Salaì",
+                        "fr": "Certains disent que la peinture représenterait un étudiant de Léonard de Vinci, Salaì",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 616,
+                        "Height": 914,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538412170/5salai.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Whereas Freud was convinced that it was a painting based on his mother!",
+                        "fr": "Tandis que Freud était convaincu que c'était un tableau inspiré de sa mère !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaWhoWhatChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaWhoWhatOfCourse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course",
+                            "fr": "Bien sûr",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaWho2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
