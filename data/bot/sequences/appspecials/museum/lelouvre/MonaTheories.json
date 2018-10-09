@@ -1,0 +1,75 @@
+{
+    "Type": "Node",
+    "Id": "MonaTheories",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So I’m guessing you’ve seen this before...",
+                "fr": "J'imagine que tu as déjà vu ceci avant...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 550,
+                "Height": 820,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538411160/1mona_lisa.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s likely the most famous piece of art in the world!",
+                "fr": "Il s'agit probablement de l'œuvre d'art la plus célèbre au monde !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaTheoriesDefinitely",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Definitely!",
+                "fr": "Absolument !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheories2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaTheoriesNever",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Never seen it",
+                "fr": "Jamais vue !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, now you have!",
+                        "fr": "Eh bien maintenant c'est fait !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheories2"
+            }
+        }
+    ]
+}
