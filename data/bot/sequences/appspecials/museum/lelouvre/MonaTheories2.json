@@ -68,75 +68,80 @@
                     }
                 }
             ],
-            "DisplayHint": "Carousel",
-            "Commands": [
-                {
-                    "Type": "Node",
-                    "Id": "MonaTheories2LotWho",
-                    "CommandLabel": {
-                        "en": "Who is the woman?",
-                        "fr": "Qui est cette femme ?",
-                        "es": "",
-                        "zh": ""
-                    },
-                    "CarouselElements": {
-                        "Title": {
-                            "en": "."
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "TapHereSecondStoryYesChoice",
+                "ElementValue": "1",
+                "DisplayHint": "Carousel",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaTheories2LotWho",
+                        "CommandLabel": {
+                            "en": "Who is the woman?",
+                            "fr": "Qui est cette femme ?",
+                            "es": "",
+                            "zh": ""
                         },
-                        "Picture": {
-                            "Source": "Web",
-                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538476858/who_is_she.jpg"
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "."
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538476858/who_is_she.jpg"
+                            }
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaWho"
                         }
                     },
-                    "LinksToFragment": {
-                        "FragmentPath": "MonaWho"
-                    }
-                },
-                {
-                    "Type": "Node",
-                    "Id": "MonaTheories2LotDuplicates",
-                    "CommandLabel": {
-                        "en": "Duplicates",
-                        "fr": "Copies",
-                        "es": "",
-                        "zh": ""
-                    },
-                    "CarouselElements": {
-                        "Title": {
-                            "en": "."
+                    {
+                        "Type": "Node",
+                        "Id": "MonaTheories2LotDuplicates",
+                        "CommandLabel": {
+                            "en": "Duplicates",
+                            "fr": "Copies",
+                            "es": "",
+                            "zh": ""
                         },
-                        "Picture": {
-                            "Source": "Web",
-                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538478996/mona_duplicates.jpg"
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "."
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538478996/mona_duplicates.jpg"
+                            }
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaDuplicates"
                         }
                     },
-                    "LinksToFragment": {
-                        "FragmentPath": "MonaDuplicates"
-                    }
-                },
-                {
-                    "Type": "Node",
-                    "Id": "MonaTheories2LotExpression",
-                    "CommandLabel": {
-                        "en": "Her expression",
-                        "fr": "Son expression",
-                        "es": "",
-                        "zh": ""
-                    },
-                    "CarouselElements": {
-                        "Title": {
-                            "en": "."
+                    {
+                        "Type": "Node",
+                        "Id": "MonaTheories2LotExpression",
+                        "CommandLabel": {
+                            "en": "Her expression",
+                            "fr": "Son expression",
+                            "es": "",
+                            "zh": ""
                         },
-                        "Picture": {
-                            "Source": "Web",
-                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538476957/mona_expression.jpg"
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "."
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538476957/mona_expression.jpg"
+                            }
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaExpression"
                         }
-                    },
-                    "LinksToFragment": {
-                        "FragmentPath": "MonaExpression"
                     }
-                }
-            ]
+                ]
+            }
         }
     ]
 }
