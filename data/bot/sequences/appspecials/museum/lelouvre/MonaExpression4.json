@@ -1,0 +1,61 @@
+{
+    "Type": "Node",
+    "Id": "MonaExpression4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Some Dutch researchers have actually analysed the expression, and discovered it is 83% happy!",
+                "fr": "Certains chercheurs néerlandais ont en fait analysé l'expression et ont découvert qu'elle était heureuse à 83% !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "3o7btPCcdNniyf0ArS"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Has science gone too far?! Do you believe it?!",
+                "fr": "La science est-elle allée trop loin !? Est-ce que tu y crois !?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaExpression4",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds convincing",
+                "fr": "Ça semble convaincant",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaExpression5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaExpression3Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fake news!",
+                "fr": "Fake news !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaExpression5"
+            }
+        }
+    ]
+}
