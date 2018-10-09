@@ -1,0 +1,31 @@
+{
+    "Type": "Node",
+    "Id": "MonaExpression5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Finally, some art scholars claim that it’s because of “sfumato”, a technique that Leonardo was famous for, meaning blurred or faded!",
+                "fr": "Enfin, certains experts d'art prétendent que c'est à cause du “sfumato”, une technique pour laquelle de Vinci était connue et qui signie flou ou fané !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/MonaLisaTechniques.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here it is with some of the other techniques popular at the time. Try to compare them and look for the differences!",
+                "fr": "La voici avec d'autres techniques populaires à l'époque. Essaie de les comparer et recherche les différences !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ]
+}
