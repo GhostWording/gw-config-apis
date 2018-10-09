@@ -1,0 +1,99 @@
+{
+    "Type": "Node",
+    "Id": "MonaDuplicates3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless, the painting isn’t as famous as it should be! Mainly because it’s rarely in the public eye!",
+                "fr": "Quoiqu'il en soit, la peinture n'est pas aussi célèbre que ce qu'elle devrait être !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It hung in a wealthy house in the UK for many years, until in 1913 an art dealer recognised and acquired it!",
+                "fr": "Elle est restée accrochée dans une riche maison au Royaume-Uni pendant de nombreuses années, jusqu'à ce qu'un marchand d'art la reconnaisse et l'acquière en 1913 !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaDuplicates3Lucky",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That was lucky!",
+                "fr": "Quel coup de chance !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not really… it was then locked in a vault in a Swiss bank for years!",
+                        "fr": "Pas vraiment... Le tableau est ensuite resté enfermé dans la chambre forte d'une banque suisse pendant des années !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "I7Il0qBnjThAI"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was released in 2012, but now again is in a private collection, which adds to it’s mystery even more!",
+                        "fr": "Il est sorti en 2012, mais il est aujourd'hui à nouveau dans une collection privée, ce qui le rend d'autant plus mystérieux !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaDuplicates3LuckyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaDuplicates3LuckyOthers",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Any others?",
+                            "fr": "Autre chose ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaDuplicates4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MonaDuplicates3LuckyEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s enough",
+                            "fr": "J'en sais assez",
+                            "es": "Conozco suficiente",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaSecondChoice"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
