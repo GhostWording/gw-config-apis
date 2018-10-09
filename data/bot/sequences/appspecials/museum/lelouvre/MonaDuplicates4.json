@@ -1,0 +1,191 @@
+{
+    "Type": "Node",
+    "Id": "MonaDuplicates4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Yes! This version is thought to have been painted by a student of Leonardo at the same time as the Louvre painting!",
+                "fr": "Oui ! Cette version aurait été peinte par un élève de de Vinci à la même époque le tableau du Louvre !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 659,
+                "Height": 858,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413796/10prado_mona.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "For decades it was considered a worthless copy, but now has attracted a lot of attention and respect!",
+                "fr": "Pendant des décennies, il a été considéré comme une copie sans valeur. Mais il suscite aujourd'hui beaucoup d'attention et de respect !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaDuplicates4Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Confusingly, it used to have a fully black background!",
+                        "fr": "Etonnamment, il avait un fond totalement noir !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 602,
+                        "Height": 815,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413950/11black_mona.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was restored between 2010-2012, and an underlying landscape was discovered which matches the Louvre version!",
+                        "fr": "Il a été restauré entre 2010 et 2012, et un paysage caché a été découvert... Et il correspondait à celui de la version du Louvre !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaDuplicates4WhyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaDuplicates4WhyShow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Show me!",
+                            "fr": "Montre-moi !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 883,
+                                    "Height": 611,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538497461/12mona_louvre_prado.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Someone in the 1700s had painted over it in black! What a villain!",
+                                    "fr": "Quelqu'un dans les années 1700 l'avait peint en noir ! Quel goujat !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "MonaDuplicates4WhyShowStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "MonaDuplicates4WhyShowFrustrating",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "How frustrating!",
+                                        "fr": "Comme c'est frustrant !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The colours in the painting may suggest what the Louvre version might have looked like originally!",
+                                                "fr": "Les couleurs de la peinture suggèrent ce à quoi la version du Louvre devait ressembler à l'origine !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It now resides in the Museo del Prado in Spain!",
+                                                "fr": "Elle est aujourd'hui exposée au Musée du Prado en Espagne !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "MonaSecondChoice"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "MonaDuplicates4WhyShowBlack",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I prefer the black",
+                                        "fr": "Je préfère en noir",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The colours in the painting may suggest what the Louvre version might have looked like originally!",
+                                                "fr": "Les couleurs de la peinture suggèrent ce à quoi la version du Louvre devait ressembler à l'origine !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It now resides in the Museo del Prado in Spain!",
+                                                "fr": "Elle est aujourd'hui exposée au Musée du Prado en Espagne !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "MonaSecondChoice"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
