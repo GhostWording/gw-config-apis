@@ -79,4 +79,85 @@
             }
         }
     ]
+}{
+    "Type": "Node",
+    "Id": "MonaExpression3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Some try to explain it through science - they argue it’s an optical illusion!",
+                "fr": "Certains essayent de l'expliquer par la science - ils avancent que c'est une illusion d'optique !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "When we look at her eyes, she smiles",
+                "fr": "Quand on regarde ses yeux, elle sourit",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But when we look at her mouth, she frowns!",
+                "fr": "Mais quand on regarde sa bouche, elle fronce les sourcils !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Try it!",
+                "fr": "Essaie !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 550,
+                "Height": 820,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538411160/1mona_lisa.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaExpression3Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s right!",
+                "fr": "C'est vrai !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaExpression4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaExpression3Wrong",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s not it!",
+                "fr": "C'est faux !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaExpression4"
+            }
+        }
+    ]
 }
