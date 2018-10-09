@@ -1,0 +1,140 @@
+{
+    "Type": "Node",
+    "Id": "MonaExpression",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s funny… the painting is known as ‘la Joconde’ in France (and similar variants in other countries)",
+                "fr": "C'est drôle... Le tableau est connu sous plusieurs noms, comme celui de ‘Mona Lisa’ en Anglais",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This comes from her family’s other name, ‘Giocondo’, which is from a latin word meaning ‘joyful’!",
+                "fr": "Mais le terme ‘Joconde’ utilisé en Français vient de son nom de famille, ‘Giocondo’, qui vient d'un mot latin signifiant ‘joyeux’",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Is it a coincidence, then, that her most mysterious feature is her smile?",
+                "fr": "Est-ce une coïncidence alors que sa plus mystérieuse caractéristique soit son sourire ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaExpressionStrange",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So strange!",
+                "fr": "Etrange...",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There are a lot of theories to explain the smile!",
+                        "fr": "Il existe de nombreuses théories qui expliquent son sourire !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Some people have argued that the lady in the painting has a high cholesterol level!",
+                        "fr": "Certaines personnes étaient persuadées que la femme de la peinture avait un taux de cholestérol élevé !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 211,
+                        "Height": 162,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538414666/cheeks.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They argue that her chubby cheeks are a sign of this, and actually pull her mouth up into an awkward smile…",
+                        "fr": "Ils affirment que ses joues potelées sont un signe de cela, et qu'elles sont à l'origine d'un sourire maladroit...",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaExpressionStrangeSurvey",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaExpressionStrangeNonsense",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Nonsense",
+                            "fr": "N'importe quoi !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaExpression2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MonaExpressionStrangeMustBe",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That must be it",
+                            "fr": "Ça doit être ça !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaExpression2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
