@@ -1,0 +1,84 @@
+{
+    "Type": "Node",
+    "Id": "MonaDuplicates",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Many many many copies exist, but here are two very interesting ones",
+                "fr": "Beaucoup beaucoup beaucoup de répliques existent, mais il y en a notamment deux très intéressantes",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 605,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413796/8isleworth_mona.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This is called “the Isleworth Mona Lisa”, after the location it was stored for a while.",
+                "fr": "Ce tableau est appelé “La Mona Lisa d'Isleworth”, d'après l'endroit où il a été stocké pendant un certain temps.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s thought to be an earlier version of the Louvre painting!",
+                "fr": "On pense qu'il s'agit d'une version antérieure à celle du Louvre !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaDuplicatesEarlier",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Even earlier?!",
+                "fr": "Antérieure !?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right!",
+                        "fr": "En effet !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MonaDuplicates2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaDuplicatesWhy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaDuplicates2"
+            }
+        }
+    ]
+}
