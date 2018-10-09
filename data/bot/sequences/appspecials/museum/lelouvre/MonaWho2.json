@@ -1,0 +1,141 @@
+{
+    "Type": "Node",
+    "Id": "MonaWho2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "People have also compared it with a supposed self portrait of Leonardo, and found several similarities!",
+                "fr": "D'autres l'ont également comparé à une sorte d'auto-portait de de Vinci, et ont trouvé plusieurs similitudes !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 774,
+                "Height": 579,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538470947/6mona_leonardo.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Did he paint himself in female form? Possibly!",
+                "fr": "Est-ce qu'il s'est peint sous une forme féminine ? Peut-être !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MonaWho2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Any more?",
+                "fr": "Quoi d'autre ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes! Other people say it could be Isabella of Aragon!",
+                        "fr": "D'autres personnes pensent qu'il s'agirait d'Isabelle de Naples",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Leonardo spent a lot of time in her court, and she does look rather similar in this contemporary painting!",
+                        "fr": "De Vinci a passé beaucoup de temps dans sa cour et elle ressemble pas mal à La Joconde dans cette peinture !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 738,
+                        "Height": 891,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538496546/7isabella_of_aragon.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "What do you think?! Do you think it’s Lisa Gherardini, or someone else?",
+                        "fr": "Qu'en penses-tu !? Est-ce que tu crois qu'il s'agit de Lisa Gherardini ou quelqu'un d'autre ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MonaWho2MoreSurvey",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MonaWho2MoreLisa",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Lisa Gherardini",
+                            "fr": "Lisa Gherardini",
+                            "es": "Lisa Gherardini",
+                            "zh": "Lisa Gherardini"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaSecondChoice"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "MonaWho2MoreElse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Someone else",
+                            "fr": "Quelqu'un d'autre",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MonaSecondChoice"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
