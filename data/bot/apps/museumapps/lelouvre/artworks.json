@@ -1,11 +1,11 @@
 [
     {
-        "Id": "MonaTheft",
+        "Id": "MonaTheories",
         "Caption": {
-            "en": "Theft of Mona Lisa",
-            "fr": "Le vol de la Joconde",
-            "es": "El robo de la Gioconda",
-            "zh": "《蒙娜丽莎》失窃"
+            "en": "Mona Lisa",
+            "fr": "La Joconde",
+            "es": "La Gioconda",
+            "zh": "《蒙娜丽莎》"
         },
         "DefaultImage": {
             "Type": "Web",
@@ -21,8 +21,33 @@
             "es": "Leonardo da Vinci",
             "zh": "列奥纳多·达·芬奇"
         },
-        "SequenceId": "MonaTheft",
+        "SequenceId": "MonaTheories",
         "LocationSequenceId": "MonaLisaMap"
+    },
+    {
+        "Id": "WeddingCana",
+        "Caption": {
+            "en": "The Wedding at Cana",
+            "fr": "Les Noces de Cana",
+            "es": "Las bodas de Caná",
+            "zh": "《迦拿的婚礼》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535988210/WeddingCana_Half_60.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713059/museum%20app/Preview%20pics/Wedding_Cana.jpg"
+        },
+        "Artist": {
+            "en": "Paolo Veronese",
+            "fr": "Paolo Véronèse",
+            "es": "Paolo Veronese",
+            "zh": "保罗·委罗内塞"
+        },
+        "SequenceId": "WeddingCana",
+        "LocationSequenceId": "WeddingCanaMap"
     },
     {
         "Id": "DavidCoronation",
@@ -100,6 +125,31 @@
         "LocationSequenceId": "LibertyLeadingMap"
     },
     {
+        "Id": "MonaTheft",
+        "Caption": {
+            "en": "Theft of Mona Lisa",
+            "fr": "Le vol de la Joconde",
+            "es": "El robo de la Gioconda",
+            "zh": "《蒙娜丽莎》失窃"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Mona_Lisa.jpg"
+        },
+        "Artist": {
+            "en": "Leonardo da Vinci",
+            "fr": "Léonard de Vinci",
+            "es": "Leonardo da Vinci",
+            "zh": "列奥纳多·达·芬奇"
+        },
+        "SequenceId": "MonaTheft",
+        "LocationSequenceId": "MonaLisaMap"
+    },
+    {
         "Id": "LouisXIV",
         "Caption": {
             "en": "Portrait of Louis XIV",
@@ -173,31 +223,6 @@
         },
         "SequenceId": "MedusaRaft",
         "LocationSequenceId": "MedusaRaftMap"
-    },
-    {
-        "Id": "WeddingCana",
-        "Caption": {
-            "en": "The Wedding at Cana",
-            "fr": "Les Noces de Cana",
-            "es": "Las bodas de Caná",
-            "zh": "《迦拿的婚礼》"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535988210/WeddingCana_Half_60.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713059/museum%20app/Preview%20pics/Wedding_Cana.jpg"
-        },
-        "Artist": {
-            "en": "Paolo Veronese",
-            "fr": "Paolo Véronèse",
-            "es": "Paolo Veronese",
-            "zh": "保罗·委罗内塞"
-        },
-        "SequenceId": "WeddingCana",
-        "LocationSequenceId": "WeddingCanaMap"
     },
     {
         "Id": "Leonardo",
