@@ -1,15 +1,7 @@
 {
     "Type": "Node",
     "Id": "GallerySuggest",
-    "Steps": [
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "I hope you liked the story!",
-                "fr": "I hope you liked the story!",
-                "es": "I hope you liked the story!"
-            }
-        },
+    "Steps": [       
         {
             "Type": "Text",
             "Label": {
