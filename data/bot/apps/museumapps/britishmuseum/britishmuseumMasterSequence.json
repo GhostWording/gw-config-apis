@@ -8,8 +8,8 @@
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/TapHereWelcomeBack.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/surveys/AudioGuideUse.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/appspecials/museum/TapHereSecondStory.json"]},
-      { "order" : 5, "file": ["/data/bot/sequences/appspecials/museum/PeriodSuggest.json"]},
-      { "order" : 6, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture.json"]}
+      { "order" : 70, "file": ["/data/bot/sequences/appspecials/museum/PeriodSuggest.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture.json"]}
       ]
    }
 ]
