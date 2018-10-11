@@ -60,7 +60,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "MedusaRaftEnough",
             "ElementValue": "1",
             "CommandLabel": {
