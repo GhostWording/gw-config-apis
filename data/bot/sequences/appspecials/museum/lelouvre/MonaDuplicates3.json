@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Regardless, the painting isn’t as famous as it should be! Mainly because it’s rarely in the public eye!",
-                "fr": "Quoiqu'il en soit, la peinture n'est pas aussi célèbre que ce qu'elle devrait être !",
+                "en": "Experts have analysed it closely, and are confident that it was painted by Leonardo!",
+                "fr": "Des experts l'ont analysé de près, et sont convaincus que ce tableau a été peint par Léonard de Vinci !",
                 "es": "",
                 "zh": ""
             }
@@ -14,8 +14,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "It hung in a wealthy house in the UK for many years, until in 1913 an art dealer recognised and acquired it!",
-                "fr": "Elle est restée accrochée dans une riche maison au Royaume-Uni pendant de nombreuses années, jusqu'à ce qu'un marchand d'art la reconnaisse et l'acquière en 1913 !",
+                "en": "We also have a clue from Vasari, who wrote a near contemporary biography of Leonardo",
+                "fr": "Nous avons également un indice de Vasari, qui a écrit une biographie de de Vinci peu après sa mort",
                 "es": "",
                 "zh": ""
             }
@@ -24,11 +24,11 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "MonaDuplicates3Lucky",
+            "Id": "MonaDuplicates3What",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "That was lucky!",
-                "fr": "Quel coup de chance !",
+                "en": "What was it?!",
+                "fr": "De quoi s'agit-il ?",
                 "es": "",
                 "zh": ""
             },
@@ -36,24 +36,26 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Not really… it was then locked in a vault in a Swiss bank for years!",
-                        "fr": "Pas vraiment... Le tableau est ensuite resté enfermé dans la chambre forte d'une banque suisse pendant des années !",
+                        "en": "He said that Leonardo left the Mona Lisa unfinished in 1504, but then later tells of a finished version that appears in 1517!",
+                        "fr": "Il affirme que Léonard de Vinci a laissé La Joconde inachevée en 1504, mais parle ensuite d'une version terminée en 1517 !",
                         "es": "",
                         "zh": ""
                     }
                 },
                 {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "I7Il0qBnjThAI"
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Many people think he's actually talking about two separate paintings, not the same one!",
+                        "fr": "Beaucoup de gens pensent qu'il parle en réalité de deux tableaux distincts, et non du même !",
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "It was released in 2012, but now again is in a private collection, which adds to it’s mystery even more!",
-                        "fr": "Il est sorti en 2012, mais il est aujourd'hui à nouveau dans une collection privée, ce qui le rend d'autant plus mystérieux !",
+                        "en": "The first is the Isleworth painting, the second is the Louvre version!",
+                        "fr": "Le premier est celui d'Isleworth, le deuxième est la version du Louvre !",
                         "es": "",
                         "zh": ""
                     }
@@ -61,35 +63,55 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "MonaDuplicates3LuckyStep",
+                "Id": "MonaDuplicates3WhatSurvey",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "MonaDuplicates3LuckyOthers",
+                        "Id": "MonaDuplicates3WhatConvinced",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Any others?",
-                            "fr": "Autre chose ?",
+                            "en": "I'm convinced",
+                            "fr": "Je suis convaincu(e)",
                             "es": "",
                             "zh": ""
                         },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
                         "LinksToFragment": {
-                            "FragmentPath": "MonaDuplicates4"
+                            "FragmentPath": "MonaDuplicates3"
                         }
                     },
                     {
                         "Type": "Node",
-                        "Id": "MonaDuplicates3LuckyEnough",
+                        "Id": "MonaDuplicates3WhatUnlikely",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "J'en sais assez",
-                            "es": "Conozco suficiente",
+                            "en": "Seems unlikely",
+                            "fr": "C'est peu probable !",
+                            "es": "",
                             "zh": ""
                         },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
                         "LinksToFragment": {
-                            "FragmentPath": "MonaDuplicatesFeedback"
+                            "FragmentPath": "MonaDuplicates3"
                         }
                     }
                 ]
