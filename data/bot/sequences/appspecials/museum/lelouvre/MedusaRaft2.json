@@ -51,6 +51,17 @@
   ],
   "Commands": [
     {
+      "Type": "Leaf",
+      "Id": "MedusaRaft2Stop",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No thanks",
+        "fr": "Non merci",
+        "es": "No, gracias",
+        "zh": "不用了，谢谢"
+      }
+    },
+    {
       "Type": "Node",
       "Id": "MedusaRaft2Yes",
       "ElementValue": "1",
@@ -62,20 +73,6 @@
       },
       "LinksToFragment": {
         "FragmentPath": "MedusaRaft3"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "MedusaRaft2Stop",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "No thanks",
-        "fr": "Non merci",
-        "es": "No, gracias",
-        "zh": "不用了，谢谢"
-      },
-      "LinksToFragment": {
-        "FragmentPath": "MedusaRaftFeedback"
       }
     }
   ]
