@@ -165,20 +165,6 @@
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "VenusDeMilo4ThenSoFrustratingElse",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "What else?",
-                                                    "fr": "Et quoi d'autre ?",
-                                                    "es": "¿Y qué más?",
-                                                    "zh": "还有什么内容？"
-                                                },
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "VenusDeMilo5"
-                                                }
-                                            },
-                                            {
-                                                "Type": "Node",
                                                 "Id": "VenusDeMilo4ThenSoFrustratingEnough",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
@@ -189,6 +175,20 @@
                                                 },
                                                 "LinksToFragment": {
                                                     "FragmentPath": "VenusDeMiloFeedback"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "VenusDeMilo4ThenSoFrustratingElse",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "What else?",
+                                                    "fr": "Et quoi d'autre ?",
+                                                    "es": "¿Y qué más?",
+                                                    "zh": "还有什么内容？"
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "VenusDeMilo5"
                                                 }
                                             }
                                         ]
