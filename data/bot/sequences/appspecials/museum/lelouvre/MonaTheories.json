@@ -1,6 +1,16 @@
 {
     "Type": "Node",
     "Id": "MonaTheories",
+    "Steps":[
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Choose one of my stories about Mona Lisa!",
+                "fr": "Choose one of my stories about Mona Lisa!",
+                "es": "Choose one of my stories about Mona Lisa!"
+            }
+        }
+    ],
     "DisplayHint": "Carousel",
     "Randomize": "true",
     "Commands": [
