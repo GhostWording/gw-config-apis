@@ -1,74 +1,95 @@
 {
     "Type": "Node",
     "Id": "MonaTheories",
-    "Steps": [
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "So I’m guessing you’ve seen this before...",
-                "fr": "J'imagine que tu as déjà vu ceci avant...",
-                "es": "",
-                "zh": ""
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 550,
-                "Height": 820,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538411160/1mona_lisa.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It’s likely the most famous piece of art in the world!",
-                "fr": "Il s'agit probablement de l'œuvre d'art la plus célèbre au monde !",
-                "es": "",
-                "zh": ""
-            }
-        }
-    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
     "Commands": [
         {
             "Type": "Node",
-            "Id": "MonaTheoriesDefinitely",
-            "ElementValue": "1",
+            "Id": "MonaTheoriesWho",
             "CommandLabel": {
-                "en": "Definitely!",
-                "fr": "Absolument !",
+                "en": "Who is the woman?",
+                "fr": "Qui est cette femme ?",
                 "es": "",
                 "zh": ""
             },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538476858/who_is_she.jpg"
+                }
+            },
             "LinksToFragment": {
-                "FragmentPath": "MonaTheories2"
+                "FragmentPath": "MonaWho"
             }
         },
         {
             "Type": "Node",
-            "Id": "MonaTheoriesNever",
-            "ElementValue": "1",
+            "Id": "MonaTheoriesDuplicates",
             "CommandLabel": {
-                "en": "Never seen it",
-                "fr": "Jamais vue !",
+                "en": "Duplicates",
+                "fr": "Copies",
                 "es": "",
                 "zh": ""
             },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Well, now you have!",
-                        "fr": "Eh bien maintenant c'est fait !",
-                        "es": "",
-                        "zh": ""
-                    }
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538478996/mona_duplicates.jpg"
                 }
-            ],
+            },
             "LinksToFragment": {
-                "FragmentPath": "MonaTheories2"
+                "FragmentPath": "MonaDuplicates"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaTheoriesExpression",
+            "CommandLabel": {
+                "en": "Her expression",
+                "fr": "Son expression",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538476957/mona_expression.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaExpression"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaTheoriesTheft",
+            "CommandLabel": {
+                "en": "Theft",
+                "fr": "Vol",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Mona_Lisa.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaTheft"
             }
         }
     ]
