@@ -92,6 +92,20 @@
                 "Commands": [
                     {
                         "Type": "Node",
+                        "Id": "LibertyLeading2ShowEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s enough",
+                            "fr": "J'en sais assez",
+                            "es": "Conozco suficiente",
+                            "zh": "这就足够了"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LibertyLeadingFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
                         "Id": "LibertyLeading2ShowTell",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -165,20 +179,6 @@
                                     }
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "LibertyLeading2ShowEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "J'en sais assez",
-                            "es": "Conozco suficiente",
-                            "zh": "这就足够了"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "LibertyLeadingFeedback"
                         }
                     }
                 ]
