@@ -9,9 +9,9 @@
                 "zh": ""
             },
             "Subtitle": {
-                "en": "St. John the Baptist, by Leonardo da Vinci",
-                "fr": "Saint Jean-Baptiste, de Léonard de Vinci",
-                "es": "San Juan Bautista, de Leonardo da Vinci",
+                "en": "St. John the Baptist, Leonardo da Vinci",
+                "fr": "Saint Jean-Baptiste, Léonard de Vinci",
+                "es": "San Juan Bautista, Leonardo da Vinci",
                 "zh": ""
             },
             "Image": {
@@ -27,9 +27,9 @@
                 "zh": ""
             },
             "Subtitle": {
-                "en": "Head of a Woman, by Leonardo da Vinci",
-                "fr": "Tête de jeune fille, de Léonard de Vinci",
-                "es": "Cabeza de muchacha, de Leonardo da Vinci",
+                "en": "Head of a Woman, Leonardo da Vinci",
+                "fr": "Tête de jeune fille, Léonard de Vinci",
+                "es": "Cabeza de muchacha, Leonardo da Vinci",
                 "zh": ""
             },
             "Image": {
@@ -45,9 +45,9 @@
                 "zh": ""
             },
             "Subtitle": {
-                "en": "La belle jardinière, by Raphael",
-                "fr": "La Belle Jardinière, by Raphaël",
-                "es": "La Bella Jardinera, de Rafael",
+                "en": "La belle jardinière, Raphael",
+                "fr": "La Belle Jardinière, Raphaël",
+                "es": "La Bella Jardinera, Rafael",
                 "zh": ""
             },
             "Image": {
@@ -63,50 +63,14 @@
                 "zh": ""
             },
             "Subtitle": {
-                "en": "Portrait of Pope Julius II, by Raphael",
-                "fr": "Portrait du pape Jules II, by Raphaël",
-                "es": "Retrato de Julio II, de Rafael",
+                "en": "St. Catherine of Alexandria, Raphael",
+                "fr": "Sainte Catherine d'Alexandrie, Raphaël",
+                "es": "Santa Catalina de Alejandría, Rafael",
                 "zh": ""
             },
             "Image": {
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539269599/15unione2.jpg"
-            }
-        },
-        {
-            "Title": {
-                "en": "Cangiante",
-                "fr": "Cangiante",
-                "es": "Cangiante",
-                "zh": ""
-            },
-            "Subtitle": {
-                "en": "The Prophet Daniel, by Michelangelo",
-                "fr": "Le prophète Daniel, de Michel-Ange",
-                "es": "El profeta Daniel, de Miguel Ángel",
-                "zh": ""
-            },
-            "Image": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539268630/15cangiante.jpg"
-            }
-        },
-        {
-            "Title": {
-                "en": "Cangiante",
-                "fr": "Cangiante",
-                "es": "Cangiante",
-                "zh": ""
-            },
-            "Subtitle": {
-                "en": "Lamentation, by Giotto",
-                "fr": "La Déposition de Croix, de Giotto",
-                "es": "Lamentación sobre Cristo muerto, de Giotto",
-                "zh": ""
-            },
-            "Image": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539270164/15cangiante2.jpg"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539275657/15unione3.jpg"
             }
         },
         {
@@ -117,9 +81,9 @@
                 "zh": ""
             },
             "Subtitle": {
-                "en": "Lady with an Ermine, by Leonardo da Vinci",
-                "fr": "La Dame à l'hermine, de Léonard de Vinci",
-                "es": "La dama del armiño, de Leonardo da Vinci",
+                "en": "Lady with an Ermine, Leonardo da Vinci",
+                "fr": "La Dame à l'hermine, Léonard de Vinci",
+                "es": "La dama del armiño, Leonardo da Vinci",
                 "zh": ""
             },
             "Image": {
@@ -135,14 +99,50 @@
                 "zh": ""
             },
             "Subtitle": {
-                "en": "Magdalene with the Smoking Flame, by Georges de La Tour",
-                "fr": "La Madeleine à la veilleuse, de Georges de La Tour",
-                "es": "Magdalena penitente de la lamparilla, de Georges de La Tour",
+                "en": "The Desperate Man, Gustave Courbet",
+                "fr": "Le Désespéré, Gustave Courbet",
+                "es": "El desesperado, Gustave Courbet",
                 "zh": ""
             },
             "Image": {
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539271980/15chiaroscuro2.jpg"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539276063/15chiaroscuro3.jpg"
+            }
+        },
+                {
+            "Title": {
+                "en": "Cangiante",
+                "fr": "Cangiante",
+                "es": "Cangiante",
+                "zh": ""
+            },
+            "Subtitle": {
+                "en": "The Prophet Daniel, Michelangelo",
+                "fr": "Le Prophète Daniel, Michel-Ange",
+                "es": "El profeta Daniel, Miguel Ángel",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539268630/15cangiante.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Cangiante",
+                "fr": "Cangiante",
+                "es": "Cangiante",
+                "zh": ""
+            },
+            "Subtitle": {
+                "en": "The Prophet Isaiah, Michelangelo",
+                "fr": "Le Prophète Isaïe, Michel-Ange",
+                "es": "El profeta Isaías, Miguel Ángel",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539275977/15cangiante3.jpg"
             }
         }
     ]
