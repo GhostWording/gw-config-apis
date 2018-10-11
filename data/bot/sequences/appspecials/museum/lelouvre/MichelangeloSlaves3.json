@@ -43,20 +43,6 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "MichelangeloSlaves3Tell",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Tell me about them!",
-                "fr": "Dis m'en plus !",
-                "es": "¡Dime más!",
-                "zh": "给我介绍下这两座雕像吧！"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "MichelangeloSlaves4"
-            }
-        },
-        {
-            "Type": "Node",
             "Id": "MichelangeloSlaves3Enough",
             "ElementValue": "1",
             "CommandLabel": {
@@ -67,6 +53,20 @@
             },
             "LinksToFragment": {
                 "FragmentPath": "MichelangeloSlavesFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MichelangeloSlaves3Tell",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me about them!",
+                "fr": "Dis m'en plus !",
+                "es": "¡Dime más!",
+                "zh": "给我介绍下这两座雕像吧！"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MichelangeloSlaves4"
             }
         }
     ]
