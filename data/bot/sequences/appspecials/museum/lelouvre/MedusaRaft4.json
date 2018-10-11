@@ -60,6 +60,20 @@
     ],
     "Commands": [
         {
+            "Type": "Leaf",
+            "Id": "MedusaRaftEnough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "Conozco suficiente",
+                "zh": "这就足够了"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MedusaRaftFeedback"
+            }
+        },
+        {
             "Type": "Node",
             "Id": "MedusaRaft4More",
             "ElementValue": "1",
@@ -71,20 +85,6 @@
             },
             "LinksToFragment": {
                 "FragmentPath": "MedusaRaft5"
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "MedusaRaftEnough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "J'en sais assez",
-                "es": "Conozco suficiente",
-                "zh": "这就足够了"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "MedusaRaftFeedback"
             }
         }
     ]
