@@ -34,20 +34,6 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "WeddingCana5More",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Tell me more!",
-        "fr": "Dis m'en plus !",
-        "es": "¡Dime más!",
-        "zh": "再多给我讲讲！"
-      },
-      "LinksToFragment": {
-        "FragmentPath": "WeddingCana6"
-      }
-    },
-    {
-      "Type": "Node",
       "Id": "WeddingCana5Enough",
       "ElementValue": "1",
       "CommandLabel": {
@@ -58,6 +44,20 @@
       },
       "LinksToFragment": {
         "FragmentPath": "WeddingCanaFeedback"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "WeddingCana5More",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Tell me more!",
+        "fr": "Dis m'en plus !",
+        "es": "¡Dime más!",
+        "zh": "再多给我讲讲！"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "WeddingCana6"
       }
     }
   ]
