@@ -69,6 +69,20 @@
     "Commands": [
         {
             "Type": "Node",
+            "Id": "Lamassu3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "Conozco suficiente",
+                "zh": "这就足够了"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LamassuFeedback"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "Lamassu3Else",
             "ElementValue": "1",
             "CommandLabel": {
@@ -156,20 +170,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Lamassu3Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "J'en sais assez",
-                "es": "Conozco suficiente",
-                "zh": "这就足够了"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "LamassuFeedback"
             }
         }
     ]
