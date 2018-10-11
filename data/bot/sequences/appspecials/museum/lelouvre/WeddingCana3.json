@@ -4,6 +4,17 @@
     "Commands": [
         {
             "Type": "Node",
+            "Id": "WeddingCana3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's enough",
+                "fr": "J'en sais assez",
+                "es": "Conozco suficiente",
+                "zh": "这就足够了"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "WeddingCana3More",
             "ElementValue": "1",
             "CommandLabel": {
@@ -14,20 +25,6 @@
             },
             "LinksToFragment": {
                 "FragmentPath": "WeddingCana4"
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "WeddingCana3Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That's enough",
-                "fr": "J'en sais assez",
-                "es": "Conozco suficiente",
-                "zh": "这就足够了"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "WeddingCanaFeedback"
             }
         }
     ]
