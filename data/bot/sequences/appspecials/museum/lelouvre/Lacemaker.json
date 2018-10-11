@@ -121,6 +121,17 @@
                             "Commands": [
                                 {
                                     "Type": "Node",
+                                    "Id": "LacemakerShowTinyNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thanks!",
+                                        "fr": "Non merci !",
+                                        "es": "¡No, gracias!",
+                                        "zh": "不用了，谢谢！"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
                                     "Id": "LacemakerShowTinyOk",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -131,20 +142,6 @@
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "Lacemaker2"
-                                    }
-                                },
-                                {
-                                    "Type": "Node",
-                                    "Id": "LacemakerShowTinyNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "No thanks!",
-                                        "fr": "Non merci !",
-                                        "es": "¡No, gracias!",
-                                        "zh": "不用了，谢谢！"
-                                    },
-                                    "LinksToFragment": {
-                                        "FragmentPath": "LacemakerFeedback"
                                     }
                                 }
                             ]
