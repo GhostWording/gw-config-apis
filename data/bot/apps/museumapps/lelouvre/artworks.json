@@ -1,5 +1,80 @@
 [
     {
+        "Id": "LibertyLeading",
+        "Caption": {
+            "en": "Liberty Leading the People",
+            "fr": "La Liberté guidant le peuple",
+            "es": "La Libertad guiando al pueblo",
+            "zh": "《自由引导人们》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1536052865/museum%20app/Liberty_NEW.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Liberty.jpg"
+        },
+        "Artist": {
+            "en": "Eugène Delacroix",
+            "fr": "Eugène Delacroix",
+            "es": "Eugène Delacroix",
+            "zh": "欧仁·德拉克罗瓦"
+        },
+        "SequenceId": "LibertyLeading",
+        "LocationSequenceId": "LibertyLeadingMap"
+    },
+    {
+        "Id": "VenusDeMilo",
+        "Caption": {
+            "en": "The Venus de Milo",
+            "fr": "La Vénus de Milo",
+            "es": "La Venus de Milo",
+            "zh": "《米洛的维纳斯》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713078/museum%20app/Milo_new.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Milo.jpg"
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "SequenceId": "VenusDeMilo",
+        "LocationSequenceId": "VenusDeMiloMap"
+    },
+    {
+        "Id": "MedusaRaft",
+        "Caption": {
+            "en": "The Raft of the Medusa",
+            "fr": "Le Radeau de La Méduse",
+            "es": "La balsa de la Medusa",
+            "zh": "《美杜莎之筏》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1536052864/museum%20app/Raft_Meusa_NEW.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Raft_Medusa.jpg"
+        },
+        "Artist": {
+            "en": "Théodore Géricault",
+            "fr": "Théodore Géricault",
+            "es": "Théodore Géricault",
+            "zh": "西奧多·傑利柯"
+        },
+        "SequenceId": "MedusaRaft",
+        "LocationSequenceId": "MedusaRaftMap"
+    },
+    {
         "Id": "WeddingCana",
         "Caption": {
             "en": "The Wedding at Cana",
@@ -75,31 +150,6 @@
         "LocationSequenceId": "LamassuMap"
     },
     {
-        "Id": "LibertyLeading",
-        "Caption": {
-            "en": "Liberty Leading the People",
-            "fr": "La Liberté guidant le peuple",
-            "es": "La Libertad guiando al pueblo",
-            "zh": "《自由引导人们》"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1536052865/museum%20app/Liberty_NEW.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Liberty.jpg"
-        },
-        "Artist": {
-            "en": "Eugène Delacroix",
-            "fr": "Eugène Delacroix",
-            "es": "Eugène Delacroix",
-            "zh": "欧仁·德拉克罗瓦"
-        },
-        "SequenceId": "LibertyLeading",
-        "LocationSequenceId": "LibertyLeadingMap"
-    },
-    {
         "Id": "LouisXIV",
         "Caption": {
             "en": "Portrait of Louis XIV",
@@ -123,56 +173,6 @@
         },
         "SequenceId": "LouisXIV",
         "LocationSequenceId": "LouisXIVMap"
-    },
-    {
-        "Id": "VenusDeMilo",
-        "Caption": {
-            "en": "The Venus de Milo",
-            "fr": "La Vénus de Milo",
-            "es": "La Venus de Milo",
-            "zh": "《米洛的维纳斯》"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713078/museum%20app/Milo_new.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Milo.jpg"
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "SequenceId": "VenusDeMilo",
-        "LocationSequenceId": "VenusDeMiloMap"
-    },
-    {
-        "Id": "MedusaRaft",
-        "Caption": {
-            "en": "The Raft of the Medusa",
-            "fr": "Le Radeau de La Méduse",
-            "es": "La balsa de la Medusa",
-            "zh": "《美杜莎之筏》"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1536052864/museum%20app/Raft_Meusa_NEW.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Raft_Medusa.jpg"
-        },
-        "Artist": {
-            "en": "Théodore Géricault",
-            "fr": "Théodore Géricault",
-            "es": "Théodore Géricault",
-            "zh": "西奧多·傑利柯"
-        },
-        "SequenceId": "MedusaRaft",
-        "LocationSequenceId": "MedusaRaftMap"
     },
     {
         "Id": "Leonardo",
