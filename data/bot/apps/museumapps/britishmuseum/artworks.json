@@ -1,445 +1,462 @@
 [
-  {
-    "Id": "AgnesCup",
-    "Caption": {
-      "en": "The Royal Gold Cup",
-      "fr": "La coupe de sainte Agnès",
-      "es": "La copa de Santa Inés",
-      "zh": ""
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538041387/AgnesCup_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538041655/AgnesCup_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "AgnesCup",
-    "LocationSequenceId":"FragmentAExecute"
-  },
-  {
-    "Id": "Amenhotep",
-    "Caption": {
-      "en": "Head of Amenhotep III",
-      "fr": "La tête d'Amenhotep III",
-      "es": "La cabeza de Amenhotep III", 
-      "zh": ""
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042178/amenhotep_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042342/amenhotep_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Amenhotep",
-    "LocationSequenceId":"FragmentANativeExecute"
-  },
-  {
-    "Id": "BerlinVolute",
-    "Caption": {
-      "en": "Berlin Volute Krater",
-      "fr": "Cratère à Volutes du Peintre de Berlin",
-      "es": "Berlin Volute Krater"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042989/volutekrater_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "BerlinVolute",
-    "LocationSequenceId":"DisplayCardAfterSelectionNone"
-  },
-  {
-    "Id": "Caryatids",
-    "Caption": {
-      "en": "Erechtheion Caryatids",
-      "fr": "Les Cariatides de l'Érechthéion",
-      "es": "Las Cariátides del Erecteón",
-      "zh": ""
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043205/caryatids.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043691/caryatids_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Caryatids",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Chessmen",
-    "Caption": {
-      "en": "Lewis Chessmen",
-      "fr": "Les Pièces d'échec de Lewis",
-      "es": "Las Piezas de ajedrez de Lewis",
-      "zh": ""
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043716/chessmen_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043856/chessmen_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Chessmen",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "DavidVases",
-    "Caption": {
-      "en": "The David Vases",
-      "fr": "Les Vases de David",
-      "es": "Los Jarrones de David",
-      "zh": ""
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044045/david_vases_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044215/david_vases_thumbnail.jpg"
-    },
-    "Artist": "Unknown",
-    "SequenceId": "DavidVases",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Exekias",
-    "Caption": {
-      "en": "Exekias Amphora",
-      "fr": "L'Amphore d'Exékias",
-      "es": "El Ánfora de Exequias",
-      "zh": ""
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044503/exekias.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044652/exekias_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Exekias",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "HolyThorn",
-    "Caption": {
-      "en": "Holy Thorn Reliquary",
-      "fr": "Reliquaire de la Sainte Épine",
-      "es": "Relicario de la Santa Espina"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535561721/holy_thorn.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044976/holy_thorn_thumbnail.jpg"
-    },
-    "Artist": "Unknown",
-    "SequenceId": "HolyThorn",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "LionHunt",
-    "Caption": {
-      "en": "Lion Hunts of Assurbanipal I",
-      "fr": "Lion Hunts of Assurbanipal I",
-      "es": "Lion Hunts of Assurbanipal I"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045155/lion_hunt.jpg"
-      },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045268/lion_hunt_thumbnail.jpg"
-    },
-      "Artist" : "Unknown",
-      "SequenceId": "LionHunt",
-      "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Mausoleum",
-    "Caption": {
-      "en": "Mausoleum at Halicarnassus",
-      "fr": "Mausoleum at Halicarnassus",
-      "es": "Mausoleum at Halicarnassus"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045435/mausoleum_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045574/mausoleum_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Mausoleum",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Meroe",
-    "Caption": {
-      "en": "Meroe head",
-      "fr": "Tête de Meroe",
-      "es": "Cabeza de Meroe"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045884/meroe_head_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Meroe",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Nebamun",
-    "Caption": {
-      "en": "Tomb of Nebamun",
-      "fr": "Tomb of Nebamun",
-      "es": "Tomb of Nebamun"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047664/nebamun_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047842/nebamun_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Nebamun",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "ParthenonPediment",
-    "Caption": {
-      "en": "Parthenon Pediment",
-      "fr": "Parthenon Pediment",
-      "es": "Parthenon Pediment"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047926/parthenon_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048084/parthenon_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "BestTestFragmentEver",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "PortlandVase",
-    "Caption": {
-      "en": "The Portland Vase",
-      "fr": "The Portland Vase",
-      "es": "The Portland Vase"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048520/portland_vase_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048646/portland_vase_thumbnail.jpg"
-    },
-    "Artist": "Unknown",
-    "SequenceId": "BestTestFragmentEver",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Ramesses",
-    "Caption": {
-      "en": "Statue of Ramesses II",
-      "fr": "Statue of Ramesses II",
-      "es": "Statue of Ramesses II"
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054495/ramessesII_default.jpg"
-      },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054793/ramessesII_thumbnail.jpg"
-    },
-      "Artist" : "Unknown",
-      "SequenceId": "Ramesses",
-      "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Rosetta",
-    "Caption": {
-      "en": "The Rosetta Stone",
-      "fr": "The Rosetta Stone",
-      "es": "The Rosetta Stone"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054922/rosetta_stone.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538409453/rosetta_stone_thumbnail2.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Rosetta",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Reindeer",
-    "Caption": {
-      "en": "Ivory Reindeer",
-      "fr": "Ivory Reindeer",
-      "es": "Ivory Reindeer"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538055344/swimming_reindeers_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538055502/swimming_reindeers_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Reindeer",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "SuttonHoo",
-    "Caption": {
-      "en": "The Sutton Hoo Helmet",
-      "fr": "The Sutton Hoo Helmet",
-      "es": "The Sutton Hoo Helmet"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056090/sutton_hoo_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056251/sutton_hoo_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "SuttonHoo",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "AztecSerpent",
-    "Caption": {
-      "en": "Aztec Mosaic Serpent",
-      "fr": "Aztec Mosaic Serpent",
-      "es": "Aztec Mosaic Serpent"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056365/aztec_serpent_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538408534/aztec_serpent_thumbnail2.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "AztecSerpent",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "BeninMask",
-    "Caption": {
-      "en": "Benin Ivory Mask",
-      "fr": "Benin Ivory Mask",
-      "es": "Benin Ivory Mask"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056971/benin_mask_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056975/benin_mask_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "BeninMask",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Samurai",
-    "Caption": {
-      "en": "Samurai Armour",
-      "fr": "Samurai Armour",
-      "es": "Samurai Armour"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057317/samurai_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057433/samurai_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Samurai",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "Hoa",
-    "Caption": {
-      "en": "Hoa Hakananai'a",
-      "fr": "Hoa Hakananai'a",
-      "es": "Hoa Hakananai'a"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057563/hoa_head_default.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057778/hoa_head_thumbnail.jpg"
-    },
-    "Artist" : "Unknown",
-    "SequenceId": "Hoa",
-    "LocationSequenceId":"BritishMuseumMap"
-  },
-  {
-    "Id": "UrStandard",
+    {
+        "Id": "AgnesCup",
         "Caption": {
-          "en": "The Standard of Ur",
-          "fr": "The Standard of Ur",
-          "es": "The Standard of Ur"
+            "en": "The Royal Gold Cup",
+            "fr": "La coupe de sainte Agnès",
+            "es": "La copa de Santa Inés",
+            "zh": ""
         },
         "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538058039/standard_of_ur_default.jpg"
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538041387/AgnesCup_default.jpg"
         },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538058275/standard_of_ur_thumbnail.jpg"
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538041655/AgnesCup_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "AgnesCup",
+        "LocationSequenceId": "FragmentAExecute"
     },
-      "Artist" : "Unknown",
-      "SequenceId": "UrStandard",
-      "LocationSequenceId":"BritishMuseumMap"
-  }
+    {
+        "Id": "Amenhotep",
+        "Caption": {
+            "en": "Head of Amenhotep III",
+            "fr": "La tête d'Amenhotep III",
+            "es": "La cabeza de Amenhotep III",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042178/amenhotep_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042342/amenhotep_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Amenhotep",
+        "LocationSequenceId": "FragmentANativeExecute"
+    },
+    {
+        "Id": "BerlinVolute",
+        "Caption": {
+            "en": "Berlin Volute Krater",
+            "fr": "Cratère à Volutes du Peintre de Berlin",
+            "es": "Crátera de volutas del Pintor de Berlín",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042989/volutekrater_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "BerlinVolute",
+        "LocationSequenceId": "DisplayCardAfterSelectionNone"
+    },
+    {
+        "Id": "Caryatids",
+        "Caption": {
+            "en": "Erechtheion Caryatids",
+            "fr": "Les Cariatides de l'Érechthéion",
+            "es": "Las Cariátides del Erecteón",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043205/caryatids.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043691/caryatids_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Caryatids",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Chessmen",
+        "Caption": {
+            "en": "Lewis Chessmen",
+            "fr": "Les Pièces d'échec de Lewis",
+            "es": "Las Piezas de ajedrez de Lewis",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043716/chessmen_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043856/chessmen_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Chessmen",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "DavidVases",
+        "Caption": {
+            "en": "The David Vases",
+            "fr": "Les Vases de David",
+            "es": "Los Jarrones de David",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044045/david_vases_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044215/david_vases_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "DavidVases",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Exekias",
+        "Caption": {
+            "en": "Exekias Amphora",
+            "fr": "L'Amphore d'Exékias",
+            "es": "El Ánfora de Exequias",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044503/exekias.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044652/exekias_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Exekias",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "HolyThorn",
+        "Caption": {
+            "en": "Holy Thorn Reliquary",
+            "fr": "Reliquaire de la Sainte Épine",
+            "es": "Relicario de la Santa Espina",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535561721/holy_thorn.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044976/holy_thorn_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "HolyThorn",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "LionHunt",
+        "Caption": {
+            "en": "Lion Hunts of Assurbanipal I",
+            "fr": "Le roi Assurbanipal I chassant le lion",
+            "es": "El rey Asurbanipal I cazando leones",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045155/lion_hunt.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045268/lion_hunt_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "LionHunt",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Mausoleum",
+        "Caption": {
+            "en": "Mausoleum at Halicarnassus",
+            "fr": "Mausolée d'Halicarnasse",
+            "es": "Mausoleo de Halicarnaso",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045435/mausoleum_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045574/mausoleum_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Mausoleum",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Meroe",
+        "Caption": {
+            "en": "Meroe head",
+            "fr": "Tête de Meroe",
+            "es": "Cabeza de Meroe",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045884/meroe_head_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Meroe",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Nebamun",
+        "Caption": {
+            "en": "Tomb of Nebamun",
+            "fr": "La Tombe de Nebamon",
+            "es": "Tumba de Nebamun",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047664/nebamun_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047842/nebamun_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Nebamun",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "ParthenonPediment",
+        "Caption": {
+            "en": "Parthenon Pediments",
+            "fr": "Frontons du Parthénon",
+            "es": "Frontones del Partenón",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047926/parthenon_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048084/parthenon_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "BestTestFragmentEver",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "PortlandVase",
+        "Caption": {
+            "en": "The Portland Vase",
+            "fr": "Le Vase Portland",
+            "es": "La Vasija de Portland",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048520/portland_vase_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048646/portland_vase_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "BestTestFragmentEver",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Ramesses",
+        "Caption": {
+            "en": "Statue of Ramesses II",
+            "fr": "Buste de Ramsès II",
+            "es": "Busto de Ramses II",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054495/ramessesII_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054793/ramessesII_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Ramesses",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Rosetta",
+        "Caption": {
+            "en": "The Rosetta Stone",
+            "fr": "La Pierre de Rosette",
+            "es": "La Piedra de Rosetta",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054922/rosetta_stone.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538409453/rosetta_stone_thumbnail2.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Rosetta",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Reindeer",
+        "Caption": {
+            "en": "Ivory Reindeer",
+            "fr": "Les Rennes qui nagent",
+            "es": "Los Renos Nadadores",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538055344/swimming_reindeers_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538055502/swimming_reindeers_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Reindeer",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "SuttonHoo",
+        "Caption": {
+            "en": "The Sutton Hoo Helmet",
+            "fr": "Le Casque de Sutton Hoo",
+            "es": "El Casco de Sutton Hoo",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056090/sutton_hoo_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056251/sutton_hoo_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "SuttonHoo",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "AztecSerpent",
+        "Caption": {
+            "en": "Aztec Mosaic Serpent",
+            "fr": "Serpent aztèque en mosaïque",
+            "es": "Serpiente azteca de mosaico",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056365/aztec_serpent_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538408534/aztec_serpent_thumbnail2.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "AztecSerpent",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "BeninMask",
+        "Caption": {
+            "en": "Benin Ivory Mask",
+            "fr": "Masque-pendentif du Bénin",
+            "es": "Máscara de marfil de Benín",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056971/benin_mask_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056975/benin_mask_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "BeninMask",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Samurai",
+        "Caption": {
+            "en": "Samurai Armour",
+            "fr": "Armure du samouraï",
+            "es": "Armadura samurái",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057317/samurai_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057433/samurai_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Samurai",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "Hoa",
+        "Caption": {
+            "en": "Hoa Hakananai'a",
+            "fr": "Hoa Hakananai'a",
+            "es": "Hoa Hakananai'a",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057563/hoa_head_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538057778/hoa_head_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "Hoa",
+        "LocationSequenceId": "BritishMuseumMap"
+    },
+    {
+        "Id": "UrStandard",
+        "Caption": {
+            "en": "The Standard of Ur",
+            "fr": "L'Étendard d'Ur",
+            "es": "El Estandarte de Ur",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538058039/standard_of_ur_default.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538058275/standard_of_ur_thumbnail.jpg"
+        },
+        "Artist": "Unknown",
+        "SequenceId": "UrStandard",
+        "LocationSequenceId": "BritishMuseumMap"
+    }
 ]
