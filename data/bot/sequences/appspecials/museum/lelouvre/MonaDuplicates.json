@@ -5,36 +5,33 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Many many many copies exist, but here are two very interesting ones",
-                "fr": "Beaucoup beaucoup beaucoup de répliques existent, mais il y en a notamment deux très intéressantes",
+                "en": "Here's a cool fact for you: the Mona Lisa is the most copied painting in the world!",
+                "fr": "Cest aussi sûrement le tableau le plus parodié...",
                 "es": "",
                 "zh": ""
             }
         },
         {
-            "Type": "Image",
+            "Type": "Text",
+            "Label": {
+                "en": "This includes some pretty funny parodies...",
+                "fr": "Cest aussi sûrement le tableau le plus parodié...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 605,
-                "Height": 800,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413796/8isleworth_mona.jpg"
+                "Path": "/data/common/carousel/museum/MonaLisaParodies.json"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "This is called “the Isleworth Mona Lisa”, after the location it was stored for a while.",
-                "fr": "Ce tableau est appelé “La Mona Lisa d'Isleworth”, d'après l'endroit où il a été stocké pendant un certain temps.",
-                "es": "",
-                "zh": ""
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It’s thought to be an earlier version of the Louvre painting!",
-                "fr": "On pense qu'il s'agit d'une version antérieure à celle du Louvre !",
+                "en": "What do you think of them?",
+                "fr": "Et il attire plus de 6 millions de visiteurs par an !",
                 "es": "",
                 "zh": ""
             }
@@ -43,11 +40,11 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "MonaDuplicatesEarlier",
+            "Id": "MonaDuplicatesFunny",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Even earlier?!",
-                "fr": "Antérieure !?",
+                "en": "Funny!",
+                "fr": "C'est énorme !",
                 "es": "",
                 "zh": ""
             },
@@ -55,8 +52,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Right!",
-                        "fr": "En effet !",
+                        "en": "😆 Right?! But there are some serious ones, too!",
+                        "fr": "En effet ! Tu te demandes sûrement pourquoi cette peinture est si célèbre",
                         "es": "",
                         "zh": ""
                     }
@@ -68,14 +65,25 @@
         },
         {
             "Type": "Node",
-            "Id": "MonaDuplicatesWhy",
+            "Id": "MonaDuplicatesWeird",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Why?",
-                "fr": "Pourquoi ?",
+                "en": "Weird!",
+                "fr": "C'est énorme !",
                 "es": "",
                 "zh": ""
             },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In that case, check out these more serious copies...",
+                        "fr": "En effet ! Tu te demandes sûrement pourquoi cette peinture est si célèbre",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
             "LinksToFragment": {
                 "FragmentPath": "MonaDuplicates2"
             }
