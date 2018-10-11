@@ -67,6 +67,17 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
+                        "Type": "Leaf",
+                        "Id": "MonaTheftTellNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not interested",
+                            "fr": "Pas intéressé(e)",
+                            "es": "No me interesa",
+                            "zh": "有点无趣"
+                        }
+                    },
+                    {
                         "Type": "Node",
                         "Id": "MonaTheftTellNext",
                         "ElementValue": "1",
@@ -78,20 +89,6 @@
                         },
                         "LinksToFragment": {
                             "FragmentPath": "MonaTheft2"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "MonaTheftTellNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Not interested",
-                            "fr": "Pas intéressé(e)",
-                            "es": "No me interesa",
-                            "zh": "有点无趣"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "MonaTheftFeedback"
                         }
                     }
                 ]
