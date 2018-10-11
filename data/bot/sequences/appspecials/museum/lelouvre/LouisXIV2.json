@@ -68,6 +68,17 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
+                        "Type": "Leaf",
+                        "Id": "LouisXIV214thEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "Non merci",
+                            "es": "No gracias",
+                            "zh": "不用了，谢谢"
+                        }
+                    },
+                    {
                         "Type": "Node",
                         "Id": "LouisXIV214thSure",
                         "ElementValue": "1",
@@ -151,24 +162,9 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "LouisXIV214thEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "Non merci",
-                            "es": "No gracias",
-                            "zh": "不用了，谢谢"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "LouisXIVFeedback"
-                        }
                     }
                 ]
             }
         }
     ]
 }
-                        
