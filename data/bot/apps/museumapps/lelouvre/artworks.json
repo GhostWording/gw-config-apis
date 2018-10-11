@@ -100,31 +100,6 @@
         "LocationSequenceId": "LibertyLeadingMap"
     },
     {
-        "Id": "MonaTheft",
-        "Caption": {
-            "en": "Theft of Mona Lisa",
-            "fr": "Le vol de la Joconde",
-            "es": "El robo de la Gioconda",
-            "zh": "《蒙娜丽莎》失窃"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1534782192/photo-1423742774270-6884aac775fa_h8sv4b.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535713058/museum%20app/Preview%20pics/Mona_Lisa.jpg"
-        },
-        "Artist": {
-            "en": "Leonardo da Vinci",
-            "fr": "Léonard de Vinci",
-            "es": "Leonardo da Vinci",
-            "zh": "列奥纳多·达·芬奇"
-        },
-        "SequenceId": "MonaTheft",
-        "LocationSequenceId": "MonaLisaMap"
-    },
-    {
         "Id": "LouisXIV",
         "Caption": {
             "en": "Portrait of Louis XIV",
