@@ -34,20 +34,6 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "DavidCoronation2Hear",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Let’s hear it!",
-                "fr": "C'est parti !",
-                "es": "¡Comencemos!",
-                "zh": "洗耳恭听！"               
-            },
-            "LinksToFragment": {
-                "FragmentPath": "DavidCoronation3"
-            }
-        },
-        {
-            "Type": "Node",
             "Id": "DavidCoronation2No",
             "ElementValue": "1",
             "CommandLabel": {
@@ -58,6 +44,20 @@
             },
             "LinksToFragment": {
                 "FragmentPath": "DavidCoronationFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DavidCoronation2Hear",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Let’s hear it!",
+                "fr": "C'est parti !",
+                "es": "¡Comencemos!",
+                "zh": "洗耳恭听！"               
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronation3"
             }
         }
     ]
