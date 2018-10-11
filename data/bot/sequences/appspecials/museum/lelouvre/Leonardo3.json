@@ -31,7 +31,21 @@
             }
         }
     ],
-    "Commands": [
+    "Commands": [,
+        {
+            "Type": "Node",
+            "Id": "Leonardo3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "Conozco suficiente",
+                "zh": "这就足够了"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LeonardoFeedback"
+            }
+        },
         {
             "Type": "Node",
             "Id": "Leonardo3More",
@@ -102,20 +116,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Leonardo3Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "J'en sais assez",
-                "es": "Conozco suficiente",
-                "zh": "这就足够了"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "LeonardoFeedback"
             }
         }
     ]
