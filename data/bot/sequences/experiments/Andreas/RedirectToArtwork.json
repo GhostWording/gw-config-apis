@@ -1,0 +1,39 @@
+
+{
+    "Type": "Node",
+    "Id": "RedirectToArtwork",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Would you like to be redirected to an artwork?"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "RedirectToArtworkYeah",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yeah"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Taking you there"
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "RedirectTo",
+            "Parameters": {
+              "Type": "ArtworkView",
+              "ArtworkPath": "MonaTheft"
+            }
+          }
+        ]
+      }
+    ]
+  }
