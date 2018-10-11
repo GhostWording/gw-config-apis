@@ -15,20 +15,6 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "WeddingCana7Yes",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Yes",
-                "fr": "Oui",
-                "es": "Sí",
-                "zh": "喜欢"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "WeddingCana8"
-            }
-        },
-        {
-            "Type": "Node",
             "Id": "WeddingCana7No",
             "ElementValue": "1",
             "CommandLabel": {
@@ -50,6 +36,20 @@
             ],
             "LinksToFragment": {
                 "FragmentPath": "WeddingCanaFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WeddingCana7Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Sí",
+                "zh": "喜欢"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WeddingCana8"
             }
         }
     ]
