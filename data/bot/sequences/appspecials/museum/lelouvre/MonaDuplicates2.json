@@ -3,10 +3,20 @@
     "Id": "MonaDuplicates2",
     "Steps": [
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 605,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413796/8isleworth_mona.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
-                "en": "Experts have analysed it closely, and are confident that it was painted by Leonardo!",
-                "fr": "Des experts l'ont analysé de près, et sont convaincus que ce tableau a été peint par Léonard de Vinci !",
+                "en": "This is called “the Isleworth Mona Lisa”, after the location it was stored for a while.",
+                "fr": "Ce tableau est appelé “La Mona Lisa d'Isleworth”, d'après l'endroit où il a été stocké pendant un certain temps.",
                 "es": "",
                 "zh": ""
             }
@@ -14,8 +24,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "We also have a clue from Vasari, who wrote a near contemporary biography of Leonardo",
-                "fr": "Nous avons également un indice de Vasari, qui a écrit une biographie de de Vinci peu après sa mort",
+                "en": "It’s thought to be an earlier version of the Louvre painting!",
+                "fr": "On pense qu'il s'agit d'une version antérieure à celle du Louvre !",
                 "es": "",
                 "zh": ""
             }
@@ -24,11 +34,11 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "MonaDuplicates2What",
+            "Id": "MonaDuplicates2Earlier",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "What was it?!",
-                "fr": "De quoi s'agit-il ?",
+                "en": "Even earlier?!",
+                "fr": "Antérieure !?",
                 "es": "",
                 "zh": ""
             },
@@ -36,85 +46,29 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "He said that Leonardo left the Mona Lisa unfinished in 1504, but then later tells of a finished version that appears in 1517!",
-                        "fr": "Il affirme que Léonard de Vinci a laissé La Joconde inachevée en 1504, mais parle ensuite d'une version terminée en 1517 !",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Many people think he's actually talking about two separate paintings, not the same one!",
-                        "fr": "Beaucoup de gens pensent qu'il parle en réalité de deux tableaux distincts, et non du même !",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "The first is the Isleworth painting, the second is the Louvre version!",
-                        "fr": "Le premier est celui d'Isleworth, le deuxième est la version du Louvre !",
+                        "en": "Right!",
+                        "fr": "En effet !",
                         "es": "",
                         "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "MonaDuplicates2WhatSurvey",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "MonaDuplicates2WhatConvinced",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I'm convinced",
-                            "fr": "Je suis convaincu(e)",
-                            "es": "",
-                            "zh": ""
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Action",
-                                "Name": "DoVote"
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowSurveyResults"
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "MonaDuplicates3"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "MonaDuplicates2WhatUnlikely",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Seems unlikely",
-                            "fr": "C'est peu probable !",
-                            "es": "",
-                            "zh": ""
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Action",
-                                "Name": "DoVote"
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowSurveyResults"
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "MonaDuplicates3"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "MonaDuplicates3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MonaDuplicates2Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MonaDuplicates3"
             }
         }
     ]
