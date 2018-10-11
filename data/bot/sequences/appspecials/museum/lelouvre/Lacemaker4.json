@@ -49,20 +49,6 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Lacemaker4More",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Tell me more!",
-                "fr": "Dis m'en plus !",
-                "es": "¡Quiero saber más!",
-                "zh": "再给我介绍更多的信息！"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "Lacemaker5"
-            }
-        },
-        {
-            "Type": "Node",
             "Id": "Lacemaker4Enough",
             "ElementValue": "1",
             "CommandLabel": {
@@ -73,6 +59,20 @@
             },
             "LinksToFragment": {
                 "FragmentPath": "LacemakerFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lacemaker4More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Dis m'en plus !",
+                "es": "¡Quiero saber más!",
+                "zh": "再给我介绍更多的信息！"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Lacemaker5"
             }
         }
     ]
