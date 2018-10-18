@@ -12,6 +12,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "The painting brought Géricault much fame, but he died tragically young at 32, and did not live to enjoy this new found fame and appreciation",
