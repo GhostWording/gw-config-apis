@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Some people think this is for secrecy, but others think it may have just been for fun, or because he was left-handed!",
-                "fr": "Certains pensent que c'était pour les garder secrets, d'autres considèrent qu'il s'agissait juste d'un plaisir, ou encore parce qu'il était gaucher !",
+                "fr": "Certains pensent que c'était pour les garder secrets, d'autres considèrent qu'il s'agissait juste d'un plaisir, ou encore que c'était parce qu'il était gaucher !",
                 "es": "¡Algunos piensan que era para mantener sus notas en secreto, otros consideran que lo hacía por placer o porque era zurdo!",
                 "zh": "有的人认为这其中藏有秘密，但是也有人觉得纯粹是为了好玩，或者是因为达芬奇是左撇子！"
             }
@@ -107,6 +107,13 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
@@ -123,6 +130,13 @@
                                     "fr": "Et La Joconde elle-même est la peinture la plus chère à assurer au monde ! Ce qui revient presque à dire que c'est le tableau le plus précieux qui ait jamais existé !",
                                     "es": "¡Y la Mona Lisa es la pintura cuyo seguro es el más costoso de todo el mundo! Es casi como decir que es la pintura más preciada de todos los tiempos!",
                                     "zh": "《蒙娜丽莎》是世界上保额最贵的画作！这其实就相当于说它是世界上价值最昂贵的！"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms":2000
                                 }
                             }
                         ],
