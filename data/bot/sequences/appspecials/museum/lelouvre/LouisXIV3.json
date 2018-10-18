@@ -12,6 +12,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
@@ -28,6 +35,13 @@
                 "fr": "Ici, l'artiste représente Louis comme le dieu romain Jupiter. Après tout, les rois ont toujours adoré se comparer aux dieux !",
                 "es": "¡Aquí, el artista representa a Luis como Jupiter, el dios romano. Después de todo, ¡a los reyes siempre les ha gustado compararse con los dioses!",
                 "zh": "在这里，艺术家将路易斯描绘成了罗马神话中的朱庇特。许多国王都喜欢将自己与神相比较！"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
