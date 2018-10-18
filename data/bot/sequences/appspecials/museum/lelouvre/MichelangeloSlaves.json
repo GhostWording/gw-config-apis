@@ -81,7 +81,7 @@
                                 "Type": "Pause",
                                 "Parameters": {
                                     "Mode": "Wait",
-                                    "ms": 1000
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -98,7 +98,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "but working for the Pope was the ultimate honour!",
-                                    "fr": "mais travailler pour le pape représentait l'honneur ultime !",
+                                    "fr": "Mais travailler pour le pape représentait l'honneur ultime !",
                                     "es": "pero trabajar para el Papa era el !máximo honor!",
                                     "zh": "但是能为教皇工作是一项无比的荣耀！"
                                 }
