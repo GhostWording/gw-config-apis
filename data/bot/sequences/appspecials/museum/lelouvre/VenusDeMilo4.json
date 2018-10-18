@@ -12,6 +12,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Width": 615,
@@ -139,6 +146,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type": "Image",
                                             "Parameters": {
                                                 "Width": 545,
@@ -146,6 +160,13 @@
                                                 "Display": "FullScreenWidth",
                                                 "Source": "Web",
                                                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/Venus_de_Milo_with_arms.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 1000
                                             }
                                         },
                                         {
