@@ -12,6 +12,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
@@ -19,6 +26,13 @@
                 "Height": 858,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413796/10prado_mona.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
@@ -53,6 +67,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
+                    }
+                },
+                {
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
@@ -60,6 +81,13 @@
                         "Height": 815,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538413950/11black_mona.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
                     }
                 },
                 {
