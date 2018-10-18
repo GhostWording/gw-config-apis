@@ -1,131 +1,139 @@
 {
-  "Type": "Node",
-  "Id": "Leonardo",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "So… this painting is very famous, but what about it’s painter? He’s pretty well known in and of himself!",
-        "fr": "Alors... ce tableau est très célèbre, mais qu'en est-il du peintre ? Il est lui-même très connu pour l'ensemble de ses travaux !",
-        "es": "Entonces...esta pintura es muy famosa pero ¿y el pintor? ¡Él, es conocido por todo su trabajo!",
-        "zh": "这幅画非常有名，但是画家呢？画家本身也广为人知！"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Width": 400,
-        "Height": 300,
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535451175/LEONARDO_DA_VINCI.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "He lived in Florence in the 15th and 16th century CE, and was a key figure during the European ‘Renaissance’",
-        "fr": "Il a vécu à Florence aux XVe et XVIe siècles, et il était une figure clé de la ‘Renaissance’ européenne",
-        "es": "Vivió en Florencia entre los siglos XV y XVI, y fue una figura importante del ‘Renacimiento’ europeo",
-        "zh": "他生活在15和16世纪的佛罗伦萨，是欧洲“文艺复兴时期”的重要人物"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "LeonardoEnough",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Not for me",
-        "fr": "J'en sais assez",
-        "es": "Para mi es suficiente",
-        "zh": "我不感兴趣"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "LeonardoTell",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Tell me about him!",
-        "fr": "Dis m'en plus !",
-        "es": "¡Cuéntame más!",
-        "zh": "给我介绍一下他吧！"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "This was a time of huge scientific and artistic progress, and Leonardo was at the forefront of the movement!",
-            "fr": "Ce fut une période de grands progrès scientifiques et artistiques, et De Vinci était à l'avant-garde du mouvement !",
-            "es": "Fueron tiempos de gran progreso artístico y científico ¡Y Da Vinci estuvo a la vanguardia de este movimiento!",
-            "zh": "这个时期的科学和艺术领域取得了巨大进步，而达芬奇就站在整个文艺复兴运动的最前沿！"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "We have many of his sketches and journals which tell a story of a man who was always trying to discover and learn new things",
-            "fr": "Beaucoup de ses croquis et de ses journaux nous sont parvenus. Ils nous montrent un homme qui étaient toujours à la recherche de la découverte de nouvelles choses",
-            "es": "Tenemos muchos de sus bocetos y diarios que nos muestran a un hombre que siempre estaba tratando de descubrir y aprender cosas nuevas",
-            "zh": "我们拥有他的许多草稿和日记，从中我们可以看出，这位艺术家始终在不断的尝试探索和学习新事物"
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Display": "FullScreenWidth",
-            "Width": 568,
-            "Height": 534,
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535458932/2Vitruvian_man.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Ever seen that before?",
-            "fr": "As-tu déjà vu cela auparavant ?",
-            "es": "¿Has visto esto antes?",
-            "zh": "您以前看过这个吗？"
-          }
+    "Type": "Node",
+    "Id": "Leonardo",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "So… this painting is very famous, but what about it’s painter? He’s pretty well known in and of himself!",
+          "fr": "Alors... ce tableau est très célèbre, mais qu'en est-il du peintre ? Il est lui-même très connu pour l'ensemble de ses travaux !",
+          "es": "Entonces...esta pintura es muy famosa pero ¿y el pintor? ¡Él, es conocido por todo su trabajo!",
+          "zh": "这幅画非常有名，但是画家呢？画家本身也广为人知！"
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "LeonardoTellChoice",
+      },
+      {
+        "Type": "Image",
+        "Parameters": {
+          "Width": 400,
+          "Height": 300,
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535451175/LEONARDO_DA_VINCI.jpg"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "He lived in Florence in the 15th and 16th century CE, and was a key figure during the European ‘Renaissance’",
+          "fr": "Il a vécu à Florence aux XVe et XVIe siècles, et il était une figure clé de la ‘Renaissance’ européenne",
+          "es": "Vivió en Florencia entre los siglos XV y XVI, y fue una figura importante del ‘Renacimiento’ europeo",
+          "zh": "他生活在15和16世纪的佛罗伦萨，是欧洲“文艺复兴时期”的重要人物"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "LeonardoEnough",
         "ElementValue": "1",
-        "Commands": [
+        "CommandLabel": {
+          "en": "Not for me",
+          "fr": "J'en sais assez",
+          "es": "Para mi es suficiente",
+          "zh": "我不感兴趣"
+        }
+      },
+      {
+        "Type": "Node",
+        "Id": "LeonardoTell",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Tell me about him!",
+          "fr": "Dis m'en plus !",
+          "es": "¡Cuéntame más!",
+          "zh": "给我介绍一下他吧！"
+        },
+        "Steps": [
           {
-            "Type": "Node",
-            "Id": "LeonardoTellYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Yes",
-              "fr": "Oui",
-              "es": "Sí",
-              "zh": "看过"
-            },
-            "LinksToFragment": {
-              "FragmentPath": "Leonardo2"
+            "Type": "Text",
+            "Label": {
+              "en": "This was a time of huge scientific and artistic progress, and Leonardo was at the forefront of the movement!",
+              "fr": "Ce fut une période de grands progrès scientifiques et artistiques, et De Vinci était à l'avant-garde du mouvement !",
+              "es": "Fueron tiempos de gran progreso artístico y científico ¡Y Da Vinci estuvo a la vanguardia de este movimiento!",
+              "zh": "这个时期的科学和艺术领域取得了巨大进步，而达芬奇就站在整个文艺复兴运动的最前沿！"
             }
           },
           {
-            "Type": "Node",
-            "Id": "LeonardoTellNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "No",
-              "fr": "Non",
-              "es": "No",
-              "zh": "没有"
-            },
-            "LinksToFragment": {
-              "FragmentPath": "Leonardo2"
+            "Type": "Text",
+            "Label": {
+              "en": "We have many of his sketches and journals which tell a story of a man who was always trying to discover and learn new things",
+              "fr": "Beaucoup de ses croquis et de ses journaux nous sont parvenus. Ils nous montrent un homme qui étaient toujours à la recherche de la découverte de nouvelles choses",
+              "es": "Tenemos muchos de sus bocetos y diarios que nos muestran a un hombre que siempre estaba tratando de descubrir y aprender cosas nuevas",
+              "zh": "我们拥有他的许多草稿和日记，从中我们可以看出，这位艺术家始终在不断的尝试探索和学习新事物"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+          {
+            "Type": "Image",
+            "Parameters": {
+              "Display": "FullScreenWidth",
+              "Width": 568,
+              "Height": 534,
+              "Source": "Web",
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535458932/2Vitruvian_man.jpg"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Ever seen that before?",
+              "fr": "As-tu déjà vu cela auparavant ?",
+              "es": "¿Has visto esto antes?",
+              "zh": "您以前看过这个吗？"
             }
           }
-        ]
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "LeonardoTellChoice",
+          "ElementValue": "1",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "LeonardoTellYes",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Sí",
+                "zh": "看过"
+              },
+              "LinksToFragment": {
+                "FragmentPath": "Leonardo2"
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "LeonardoTellNo",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No",
+                "zh": "没有"
+              },
+              "LinksToFragment": {
+                "FragmentPath": "Leonardo2"
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
+  
