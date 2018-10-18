@@ -24,7 +24,7 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 2000
+                "ms": 4000
             }
         },
         {
@@ -74,6 +74,13 @@
                         "Height": 311,
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535042057/napoleon_head_detail.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
