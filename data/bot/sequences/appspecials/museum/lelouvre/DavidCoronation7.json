@@ -62,6 +62,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "It seems it was changed to be more subtle… perhaps that would have been a little too much boasting for one painting…",
