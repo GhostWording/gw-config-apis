@@ -103,13 +103,6 @@
                     }
                 },
                 {
-                    "Type": "Pause",
-                    "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                    }
-                },
-                {
                     "Type": "Text",
                     "Label": {
                         "en": "Many people who see the painting in real life report feeling sea-sick because of the realism of the waves and the colour scheme",
