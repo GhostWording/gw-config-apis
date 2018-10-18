@@ -31,6 +31,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "As a good friend of Napoleon, he did indeed attend the ceremony, which would certainly have helped in painting the scene!",
@@ -57,7 +64,7 @@
                     "Label": {
                         "en": "Speaking of which, after this painting was finished, David was asked to create another copy to be sent to America! Which he did, from memory… making no mistakes apart from the colouring of the dress of one figure…",
                         "fr": "En parlant de cela, après que ce tableau fut terminé, on a demandé à David d'en créer une copie à envoyer en Amérique ! Ce qu'il a fait, de mémoire... ne faisant aucune erreur en dehors de la couleur de la robe d'un des personnages...",
-                        "es": "",
+                        "es": "¡A propósito de esto, después de haber terminado la pintura se le pidió a David que creara una copia para enviar a América! lo que hizo de memoria... sin equivocarse, excepto por el color del traje de uno de los personajes...",
                         "zh": "说到这里还有一点要说明，在完成这幅作品之后，大卫被邀请创造另一幅版本送往美国！因此他凭借记忆又创作了这一作品，除了其中一个人物的衣服颜色之外，没有出现任何其他差错……"
                     }
                 },
