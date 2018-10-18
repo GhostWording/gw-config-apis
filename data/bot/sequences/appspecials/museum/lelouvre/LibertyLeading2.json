@@ -63,7 +63,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 1000
+                        "ms": 3000
                     }
                 },
                 {
@@ -132,6 +132,13 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "She’s wearing a phrygian cap, which is also a symbol of liberty!",
@@ -147,6 +154,13 @@
                                     "Width": 560,
                                     "Height": 476,
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535621403/phrygian_cap.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
