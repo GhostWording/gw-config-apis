@@ -29,12 +29,26 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "But from other angles, they seem a little rougher, almost unfinished",
                 "fr": "Mais sous d'autres, elles semblent plus irrégulières, presque inachevées",
                 "es": "Pero desde otros ángulos, parecen irregulares, casi inacabados",
                 "zh": "但是从其他一些角度来看，他们有些粗糙，几乎可以说是没有完工"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
@@ -84,6 +98,13 @@
                         "fr": "C'est pourquoi Michel-Ange a soigneusement conçu les parties directement visibles par les spectateurs admirant le mausolée",
                         "es": "Y por eso Miguel Ángel elaboró con más cuidado las partes directamente visibles para quienes mirasen el mausoleo",
                         "zh": "所以米开朗琪罗只认真雕琢了参观陵墓的人能直接看到的那些部分"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
