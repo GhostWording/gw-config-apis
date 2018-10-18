@@ -21,6 +21,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "The artist, Hyacinthe Rigaud, painted Philip, too! It seems this pose was rather fashionable at the time",
