@@ -107,6 +107,13 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Originally, he was painted with his hands in his lap, but Napoleon himself ordered David to change the scene...",
