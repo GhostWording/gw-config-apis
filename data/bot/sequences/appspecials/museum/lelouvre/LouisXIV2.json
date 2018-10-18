@@ -108,6 +108,13 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 3000
+                                }
+                            },
+                            {
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display":"FullScreenWidth",
