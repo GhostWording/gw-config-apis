@@ -76,6 +76,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "After this moment, it became the national flag of France, and has been ever since!",
@@ -145,6 +152,13 @@
                                     "fr": "Mais manifestement, il ne les a pas satisfaits non plus, les Français le renversant à son tour pendant la Révolution de février 1848...",
                                     "es": " Pero tampoco los satisfizo, puesto que a él también lo derrocaron durante la Revolución de febrero de 1848... ",
                                     "zh": "但是人们对新国王显然也不满意，并针对他发起了1848年的二月革命……"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
