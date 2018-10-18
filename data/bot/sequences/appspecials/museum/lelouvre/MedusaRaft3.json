@@ -21,6 +21,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Since there weren’t enough lifeboats, the passengers were forced to build a raft to try find safety… ",
@@ -93,6 +100,13 @@
                         "Width": 673,
                         "Height": 497,
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035835/raft_of_meduse_detail.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
