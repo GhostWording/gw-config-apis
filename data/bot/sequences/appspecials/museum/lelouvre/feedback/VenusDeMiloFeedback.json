@@ -32,10 +32,17 @@
             "SequenceId": "VenusDeMilo",
             "FeedbackValue": "Good"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "NativeExecuteFragment",
+          "Parameters": {
+            "FragmentPath": "Exit"
+          }
         }
       ],
       "LinksToFragment": {
-        "FragmentPath": "StoreVenus"
+        "FragmentPath": "ChooseLouvreStory"
       }
     },
     {
@@ -56,10 +63,17 @@
             "SequenceId": "VenusDeMilo",
             "FeedbackValue": "Bad"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "NativeExecuteFragment",
+          "Parameters": {
+            "FragmentPath": "Exit"
+          }
         }
       ],
       "LinksToFragment": {
-        "FragmentPath": "StoreVenus"
+        "FragmentPath": "ChooseLouvreStory"
       }
     }
   ]
