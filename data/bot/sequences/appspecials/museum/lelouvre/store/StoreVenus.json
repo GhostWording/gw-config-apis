@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "You know, the Louvre's store has a beautiful replica of the statue...",
-                "fr": "You know, the Louvre's store has a beautiful replica of the statue...",
+                "fr": "Tu sais, la boutique du Louvre propose une magnifique réplique de cette statue...",
                 "es": "You know, the Louvre's store has a beautiful replica of the statue...",
                 "zh": "You know, the Louvre's store has a beautiful replica of the statue..."
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Does it strike your fancy?",
-                "fr": "Does it strike your fancy?",
+                "fr": "Est-ce que tu voudrais l'acheter ?",
                 "es": "Does it strike your fancy?",
                 "zh": "Does it strike your fancy?"
             }
@@ -38,7 +38,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
-                "fr": "Yes!",
+                "fr": "Oui !",
                 "es": "Yes!",
                 "zh": "Yes!"
             },
@@ -47,7 +47,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Great!",
-                        "fr": "Great!",
+                        "fr": "Super !",
                         "es": "Great!",
                         "zh": "Great!"
                     }
@@ -70,7 +70,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not right now",
-                "fr": "Not right now",
+                "fr": "Non pas maintenant",
                 "es": "Not right now",
                 "zh": "Not right now"
             },
@@ -79,7 +79,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright!",
-                        "fr": "Alright!",
+                        "fr": "D'accord !",
                         "es": "Alright!",
                         "zh": "Alright!"
                     }
