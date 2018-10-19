@@ -31,9 +31,9 @@
             }
         }
     ],
-    "Commands":[
+    "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "StoreVenusYes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -42,7 +42,7 @@
                 "es": "Yes!",
                 "zh": "Yes!"
             },
-            "Steps":[
+            "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
@@ -51,11 +51,21 @@
                         "es": "Great!",
                         "zh": "Great!"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ChooseLouvreStory"
+            }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "StoreVenusNo",
             "ElementValue": "1",
             "CommandLabel": {
@@ -64,19 +74,27 @@
                 "es": "Not right now",
                 "zh": "Not right now"
             },
-            "Steps":[
+            "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "!",
-                        "fr": "Great!",
-                        "es": "Great!",
-                        "zh": "Great!"
+                        "en": "Alright!",
+                        "fr": "Alright!",
+                        "es": "Alright!",
+                        "zh": "Alright!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ChooseLouvreStory"
+            }
         }
     ]
 }
-
-        
