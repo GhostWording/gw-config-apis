@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Id": "Nebamun3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The paintings are interesting because they tell us how Nebamun wanted himself to be viewed...",
+                "fr": "Les peintures sont intéressantes car elles nous montrent comment Nebamon voulait qu'on le voit...",
+                "es": "Las pinturas son interesantes porque nos muestran cómo Nebamón quería que le viera...",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's important to remember that only the rich, scribes and priests, could read",
+                "fr": "Il est important de se rappeler que seuls les riches, les scribes et les prêtres savaient lire",
+                "es": "Es importante recordar que solo los ricos, los escribas y los sacerdotes, sabían leer",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And so Nebamun is bragging to other elites how fantastic his life was!",
+                "fr": "Ainsi, Nebamon se vante auprès des autres membres de l'élite en leur montrant à quel point sa vie est fantastique !",
+                "es": "¡Entonces, Nebamón se vanagloria ante otros miembros de élite mostrándoles cuán fantástica es su vida!",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Nebamun3Showoff",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a showoff...",
+                "fr": "Quel frimeur...",
+                "es": "Qué fanfarrón...",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Agreed!",
+                        "fr": "Je suis d'accord!",
+                        "es": "¡Estoy de acuerdo!",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Nebamun3How",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How exactly?",
+                "fr": "Comment exactement ?",
+                "es": "¿Cómo exactamente?",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun4"
+            }
+        }
+    ]
+}
