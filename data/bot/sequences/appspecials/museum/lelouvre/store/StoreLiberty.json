@@ -15,10 +15,19 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 155,
-                "Height": 177,
+                "Width": 795,
+                "Height": 795,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540206497/Webp.net-resizeimage.png"
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1540217905/louvre_mug.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's only £11!",
+                "fr": "Ça coûte 11€",
+                "es": "Does it strike your fancy?",
+                "zh": "Does it strike your fancy?"
             }
         },
         {
