@@ -1,274 +1,116 @@
 {
-  "Type": "Node",
-  "Id": "Nebamun2",
-  "Steps": [
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Display": "FullScreenWidth",
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022112/NebamunFamily.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "His skill in hunting and exploring...",
-        "fr": "Son don pour la chasse et l'exploration...",
-        "es": "Su habilidad en la caza y la exploración..."
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "And his super talented cat!",
-        "fr": "Et son chat super talentueux !",
-        "es": "¡Y su gato súper talentoso!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530028644/NebamunCat.jpg"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Nebamun2More",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Tell me more!",
-        "fr": "Dis m'en plus !",
-        "es": "¡Dime más!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Nebamun2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "How do you show age and status and power in a painting?",
-            "fr": "Comment montrer l'âge, le statut et le pouvoir dans une peinture ?",
-            "es": "¿Cómo se muestra la edad, el estatus y el poder en una pintura?"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "The 'scribe and grain accountant' who lived in Thebes in 1350 BCE!",
+                "fr": "Le «scribe et le comptable du grain» qui a vécu à Thèbes en 1350 avant notre ère !",
+                "es": "¡El 'escriba y contable de granos' que vivió en Tebas en 1350 aC!",
+                "zh": ""
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "With relative size, of course!",
-            "fr": "En jouant sur la taille, bien sûr!",
-            "es": "¡Con tamaño relativo, por supuesto!"
-          }
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "FDu0PDP5q0aJGIkiED"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Nebamun is the largest, the leader of the house! His wife is smaller, and his daughter is smaller still!",
-            "fr": "Nebamon est le plus grand, le maître de maison! Sa femme est plus petite et sa fille est encore plus petite !",
-            "es": "¡Nebamón es lo más grande, el dueño de la casa! ¡Su esposa es más pequeña y su hija aún más pequeña!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "His name literally meant 'My Lord is Amun'... (who was the god of the temple he worked near)",
+                "fr": "Son nom signifie littéralement «Mon Seigneur est Amon»... (qui était le dieu du temple près duquel il travaillait)",
+                "es": "Su nombre literalmente significa 'Mi Señor es Amón'... (quien era el dios del templo cerca del cual estaba trabajando)",
+                "zh": ""
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Nebamun2MoreQuestion",
-        "ElementValue": "1",
-        "Commands": [
-          {
+    ],
+    "Commands": [
+        {
             "Type": "Node",
-            "Id": "Nebamun2MoreSense",
+            "Id": "Nebamun2How",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Makes sense!",
-              "fr": "Logique !",
-              "es": "¡Tiene sentido!"
+                "en": "How was it found?",
+                "fr": "Comment a-t-il été trouvé ?",
+                "es": "¿Cómo se encontró?",
+                "zh": ""
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "His pose and actions are unrealistic... he would not likely be hunting while standing on his boat with his daughter between his legs!",
-                  "fr": "Sa position et ses gestes ne sont pas réalistes... il ne chasserait probablement pas en se tenant debout sur son bateau avec sa fille entre ses jambes !",
-                  "es": "Su posición y sus acciones son poco realistas... ¡Probablemente no cazaría estando parado en su bote con su hija entre sus piernas!"
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His tomb was discovered in 1820 by Giovanni d'Athanasi, who hacked these paintings off the walls!",
+                        "fr": "Sa tombe a été découverte en 1820 par Giovanni d'Athanasi, qui a arraché ces peintures des murs!",
+                        "es": "Su tumba fue descubierta en 1820 por Giovanni d'Athanasi, ¡quien arrancó estas pinturas de las paredes!",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031542/Nebamun2.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Amazingly, he died before revealing the location of the tomb...",
+                        "fr": "De manière surprenante, il est mort avant de révéler l'emplacement de la tombe...",
+                        "es": "Sorprendentemente, murió antes de revelar la ubicación de la tumba...",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So the tomb was lost... found... and then lost again!",
+                        "fr": "La tombe a donc été perdue... retrouvée... et ensuite perdue à nouveau!",
+                        "es": "Entonces la tumba se perdió... se encontró... ¡y luego se volvió a perder!",
+                        "zh": ""
+                    }
                 }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "But realism is less fun than showing off every one of your skills at the same time!",
-                  "fr": "Mais le réalisme est moins amusant que de montrer toutes tes compétences en même temps !",
-                  "es": "¡Pero el realismo es menos divertido que mostrar todas tus habilidades al mismo tiempo!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "And if it wasn't clear enough how excellent his life is... the hieroglyphics say it explicitly!",
-                  "fr": "Et si ce n'était pas assez clair à quel point sa vie est incroyable... les hiéroglyphes le disent explicitement !",
-                  "es": "Y si no era suficientemente claro lo excelente que era su vida... ¡los jeroglíficos lo dicen explícitamente!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Display": "FullScreenWidth",
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530022111/NebamunHiero.jpg"
-                }
-              }
             ],
             "LinksTo": {
-              "Type": "Node",
-              "Id": "Nebamun2MoreSenseQuestion",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "Nebamun2MoreSenseMore",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Tell me more!",
-                    "fr": "Dis m'en plus !",
-                    "es": "¡Dime más!"
-                  },
-                  "Steps": [
+                "Type": "Node",
+                "Id": "Nebamun2HowStep",
+                "ElementValue": "1",
+                "Commands": [
                     {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "You might also notice how there's barely any empty space...",
-                        "fr": "Tu remarqueras peut-être aussi qu'il n'y a pratiquement pas d'espace vide...",
-                        "es": "También puede notar que prácticamente no hay espacio vacío..."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "It's called 'horror vacui' in Latin... and was popular in paintings for a long time... like in this Greek Vase",
-                        "fr": "C'est appelé 'horror vacui' en latin... et cela a été populaire dans les peintures pendant longtemps... comme dans ce vase grec",
-                        "es": "Se llama 'horror vacui' en latín... y fue popular en las pinturas durante mucho tiempo... como en este jarrón griego"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533304720/horror_vacui_dipylon.jpg"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Every spare corner is decorated with lush scenery... why leave space when you can show MORE STUFF!",
-                        "fr": "Chaque recoin est décoré par des paysages luxuriants... pourquoi laisser de la place quand on peut montrer toujours plus de choses !",
-                        "es": "¡Cada rincón libre está decorado por un paisaje exuberante ... por qué dejar espacio cuando se puede mostrar MÁS COSAS!"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "Nebamun2MoreSenseMoreQuestion",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
                         "Type": "Node",
-                        "Id": "Nebamun2MoreSenseMoreThanks",
+                        "Id": "Nebamun2HowMore",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Thanks!",
-                          "fr": "Merci !",
-                          "es": "¡Gracias!"
+                            "en": "Tell me more!",
+                            "fr": "Dis m'en plus !",
+                            "es": "¡Dime más!",
+                            "zh": ""
                         },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "I only showed you a fraction of what we have on Nebamun's tomb",
-                              "fr": "Je ne t'ai montré qu'une infime partie de ce que nous avons sur la tombe de Nebamon",
-                              "es": "Solo te mostré una fracción de lo que tenemos en la tumba de Nebamón"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "You can see all the rest in the British Museum, room 61",
-                              "fr": "Tu peux voir tout le reste au British Museum, salle 61",
-                              "es": "Puedes ver todo el resto en el Museo Británico, sala 61"
-                            }
-                          },
-                          {
-                            "Type": "Image",
-                            "Parameters": {
-                              "Source": "Web",
-                              "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
-                            }
-                          }
-                        ],
                         "LinksToFragment": {
-                          "FragmentPath": "NebamunFeedback"
+                            "FragmentPath": "Nebamun3"
                         }
-                      }
-                    ]
-                  }
-                }
-              ]
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Nebamun2Enough",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That's enough",
-        "fr": "J'en sais assez",
-        "es": "Es suficiente"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "OK 😊",
-            "fr": "OK 😊",
-            "es": "OK 😊"
-          }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I only showed you a fraction of what we have on Nebamun's tomb",
-            "fr": "Je ne t'ai montré qu'une infime partie de ce que nous avons sur la tombe de Nebamon",
-            "es": "Solo te mostré una fracción de lo que tenemos en la tumba de Nebamón"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You can see all the rest in the British Museum, room 61",
-            "fr": "Tu peux voir tout le reste au British Museum, salle 61",
-            "es": "Puedes ver todo el resto en el Museo Británico, sala 61"
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530031251/room61.png"
-          }
+            "Type": "Node",
+            "Id": "Nebamun2Details",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Give me details!",
+                "fr": "Donne-moi des détails !",
+                "es": "¡Dame detalles!",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun3"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "NebamunFeedback"
-      }
-    }
-  ]
+    ]
 }
