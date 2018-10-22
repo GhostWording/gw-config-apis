@@ -1,0 +1,389 @@
+{
+    "Type": "Node",
+    "Id": "BerlinVolute2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This pot was for just such an occasion!",
+                "fr": "Ce vase justement fait pour une telle occasion !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Strong wine was mixed with water inside, and servants would draw from it at the request of the party-goers",
+                "fr": "Le vin fort était mélangé avec de l'eau, et les domestiques en servaient à la demande des participants",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Want to know more?",
+                "fr": "Tu veux en savoir plus ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BerlinVolute2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "Oui",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The painting on it shows scenes from the Trojan war!",
+                        "fr": "Les peintures montrent des scènes de la Guerre de Troie",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The idea is that this krater would sit in the middle of the room, and the paintings would spark conversation about the myths depicted!",
+                        "fr": "L'idée est que ce cratère soit disposé au milieu de la salle, et que les peintures suscitent une conversation sur les mythes qui y sont dépeints !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BerlinVolute2YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "BerlinVolute2YesContinue",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Continue",
+                            "fr": "Continue",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's just like when we in the present make books and films about medieval times!",
+                                    "fr": "C'est comme quand nous, à notre époque, nous fabriquons des livres et des films sur l'époque médiévale !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Want to know more?",
+                                    "fr": "Tu veux en savoir plus ?",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "BerlinVolute2YesContinueStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "BerlinVolute2YesContinueYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes!",
+                                        "fr": "Oui !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You might be wondering why most of the pot is black! That's unusual...",
+                                                "fr": "Tu te demandes peut-être pourquoi la majeure partie du vase est noire ! C'est inhabituel...",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "This particular painter is famous for exactly that - leaving lots of space...",
+                                                "fr": "Ce peintre est notamment connu pour cela, il laisse beaucoup d'espace...",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
+                                                "fr": "En peignant moins, il invite le spectateur à apprécier de plus près ce qu'il a effectivement peint !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "In this case... two scenes of the famous hero Achilles fighting heroes in the Trojan army - Hector and Memnon",
+                                                "fr": "Ici... deux scène du célèbre héros Achille combattant des héros de l'armée troyenne - Hector et Memnon",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Some painters show these scenes as triumphant moments... but this guy chooses to highlight the sadness of the event, too",
+                                                "fr": "Certains peintres représentent les moments triomphants de ces scènes... mais lui a choisi de souligner la tristesse de l'événement",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "BerlinVolute2YesContinueYesStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "BerlinVolute2YesContinueYesSad",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Why's it sad?",
+                                                    "fr": "Pourquoi c'est triste ?",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Well, it's partly due to how hopeless Hector is here...",
+                                                            "fr": "C'est en partie dû au désespoir d'Hector...",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
+                                                            "fr": "Alors qu'Achille est dans une pose dominante, Hectore tombe, blessé",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Display": "FullScreenWidth",
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And his guardian god, Apollo, is leaving him...",
+                                                            "fr": "Et son dieu gardien, Apollon, le quitte...",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Display": "FullScreenWidth",
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "He makes it sad to try and get the party-goers talking and debating (Greeks LOVED debating, especially when drunk)",
+                                                            "fr": "Il rend la scène triste pour faire en sorte que les participants à la fête en parlent et débattent (les Grecs ADORENT débattre, surtout lorsqu'ils sont ivres)",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "If you want to know more, go check it out in the British Museum! It is GORGEOUS",
+                                                            "fr": "Si tu veux en savoir plus, viens le voir au British Museum ! Il est MAGNIFIQUE !",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "BerlinVoluteFeedback"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "BerlinVolute2YesContinueNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thanks",
+                                        "fr": "Non merci",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
+                                                "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "BerlinVoluteFeedback"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BerlinVolute2YesNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
+                        "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BerlinVoluteFeedback"
+            }
+        }
+    ]
+}
