@@ -1,23 +1,100 @@
 {
- "Type": "Node",
- "Id": "FragmentC",
- "Steps": [
-   {
-     "Type": "Text",
-     "Label": {
-       "en": "This is fragment C!",
-       "fr": "This is fragment C!",
-       "es": "This is fragment C!"
-     }
-   }
- ],
- "Commands": [
-  {
-   "Type": "Leaf",
-   "Id": "FragmentCExit",
-   "CommandLabel": {
-     "en": "Exit"
-   }
-  }
- ]
+    "Type": "Node",
+    "Id": "FragmentC",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You know, the Louvre's store has a beautiful mug inspired by this painting...",
+                "fr": "Tu sais, la boutique du Louvre propose un magnifique mug à l'effigie de ce tableau...",
+                "es": "You know, the Louvre's store has a beautiful replica of the statue...",
+                "zh": "You know, the Louvre's store has a beautiful replica of the statue..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 155,
+                "Height": 177,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540206497/Webp.net-resizeimage.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Does it strike your fancy?",
+                "fr": "Est-ce que tu voudrais l'acheter ?",
+                "es": "Does it strike your fancy?",
+                "zh": "Does it strike your fancy?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "StoreLibertyYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "Oui !",
+                "es": "Yes!",
+                "zh": "Yes!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great!",
+                        "fr": "Super !",
+                        "es": "Great!",
+                        "zh": "Great!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ChooseLouvreStory"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "StoreLibertyNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now",
+                "fr": "Non pas maintenant",
+                "es": "Not right now",
+                "zh": "Not right now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright!",
+                        "fr": "D'accord !",
+                        "es": "Alright!",
+                        "zh": "Alright!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ChooseLouvreStory"
+            }
+        }
+    ]
 }
