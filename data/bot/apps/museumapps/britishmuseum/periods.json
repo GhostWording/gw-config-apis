@@ -1,5 +1,21 @@
 [
   {
+    "Id": "Prehistoric",
+    "Caption": {
+      "en": "Prehistory",
+      "fr": "Prehistory",
+      "es": "Prehistory"
+    },
+      "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533117652/ramessesII.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "Reindeer"}
+    ]
+  },
+  {
     "Id": "Ancient",
     "Caption": {
       "en": "Ancient Period",
@@ -32,8 +48,7 @@
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {"Id": "Exekias"},
-      {"Id": "LionHunt"},
-      {"Id": "Mausoleum"}
+      {"Id": "LionHunt"}
     ]
   },
   {
@@ -55,6 +70,25 @@
     ]
   },
   {
+    "Id": "Hellenistic",
+    "Caption": {
+      "en": "Hellenistic Period",
+      "fr": "Hellenistic Period",
+      "es": "Hellenistic Period"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533304829/parthenon.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "Mausoleum"},
+      {"Id": "Meroe"},
+      {"Id": "Rosetta"},
+      {"Id": "PortlandVase"}
+    ]
+  },
+  {
     "Id": "MiddleAges",
     "Caption": {
       "en": "The Middle Ages",
@@ -68,7 +102,29 @@
     "PeriodSequenceId" : "BestTestFragmentEver",
     "Artworks" : [
       {"Id": "AgnesCup"},
-      {"Id": "Chessmen"}
+      {"Id": "Chessmen"},
+      {"Id": "DavidVases"},
+      {"Id": "Hoa"},
+      {"Id": "HolyThorn"},
+      {"Id": "SuttonHoo"}
+    ]
+  },
+  {
+    "Id": "EarlyModern",
+    "Caption": {
+      "en": "Early Modern",
+      "fr": "Early Modern",
+      "es": "Early Modern"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533120048/MiddleAgesKnight.jpg"
+    },
+    "PeriodSequenceId" : "BestTestFragmentEver",
+    "Artworks" : [
+      {"Id": "AztecSerpent"},
+      {"Id": "BeninMask"},
+      {"Id": "Samurai"}
     ]
   }
 ]
