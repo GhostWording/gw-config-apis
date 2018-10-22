@@ -1,0 +1,13 @@
+{
+    "Experiments": [
+        { 
+            "Name": "ChatbotExitType",
+            "Variations": {
+                "1" : "ArtworkDetails", 
+                "2" : "ArtworkDetails", 
+                "3" : "Gallery", 
+                "4" : "Gallery"
+            }
+        }
+    ]
+}
