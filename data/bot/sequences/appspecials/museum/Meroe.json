@@ -99,12 +99,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "MeroeGoodMore",
+                "Id": "MeroeGoodStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "MeroeGoodYes",
+                        "Id": "MeroeGoodMore",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tell me more!",
@@ -148,12 +148,12 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "MeroeGoodYesWhat",
+                            "Id": "MeroeGoodMoreStep",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "MeroeGoodYesWhat2",
+                                    "Id": "MeroeGoodMoreWhat",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "What was it?",
@@ -223,12 +223,12 @@
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "MeroeGoodYesWhatMore",
+                                        "Id": "MeroeGoodMoreWhatStep",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "MeroeGoodYesWhatYes",
+                                                "Id": "MeroeGoodMoreWhatMore",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "Tell me more!",
@@ -236,140 +236,13 @@
                                                     "es": "¡Dime más!",
                                                     "zh": "仔细和我说说！"
                                                 },
-                                                "Steps": [
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "OK! The head (and statue) is slightly larger than life-size... an easy way to make yourself seem greater than the average man!",
-                                                            "fr": "D'accord ! La tête (et la statue) est légèrement plus grande qu'en réalité... une bon moyen de paraître plus grand que l'homme moyen !",
-                                                            "es": "¡De acuerdo! La cabeza (y la estatua) es un poco más grande que a tamaño real... ¡una manera fácil de parecer más alto que el hombre promedio!",
-                                                            "zh": "好！头部雕像（及整座雕像）稍大于真人尺寸……这样很容易就能让自己看上去比普通人更伟大！"
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Image",
-                                                        "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead2.jpg"
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Pause",
-                                                        "Parameters": {
-                                                            "Mode": "Wait",
-                                                            "ms": 4000
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "Also, he's showing us the classic 'heroic gaze'... he turns his head slightly, and his eyes gaze over our heads",
-                                                            "fr": "De plus, il nous montre le 'regard héroïque' classique... il tourne légèrement la tête, et son regard passe au-dessus de nos têtes",
-                                                            "es": "Además, nos muestra la clásica 'mirada heroica'... gira la cabeza ligeramente y sus ojos miran por encima de nuestras cabezas",
-                                                            "zh": "此外，他向我们展示出了经典的“英雄式凝视”……他微微转过头，眼睛凝望着我们头顶的方向"
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Image",
-                                                        "Parameters": {
-                                                            "Display": "FullScreenWidth",
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead3.jpg"
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Pause",
-                                                        "Parameters": {
-                                                            "Mode": "Wait",
-                                                            "ms": 4000
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "Rather than looking us in the eyes, he looks into the distance, surveying his empire and subjects",
-                                                            "fr": "Plutôt que de nous regarder dans les yeux, il regarde au loin, surveillant son empire et ses sujets",
-                                                            "es": "En lugar de mirarse a los ojos, mira a lo lejos, vigilando a su imperio y sus súbditos",
-                                                            "zh": "他没有望向我们的眼睛，而是望向远方，审视着自己的王国和臣民。"
-                                                        }
-                                                    }
-                                                ],
-                                                "LinksTo": {
-                                                    "Type": "Node",
-                                                    "Id": "MeroeGoodYesWhatYesMore",
-                                                    "ElementValue": "1",
-                                                    "Commands": [
-                                                        {
-                                                            "Type": "Node",
-                                                            "Id": "MeroeGoodYesWhatYesYes",
-                                                            "ElementValue": "1",
-                                                            "CommandLabel": {
-                                                                "en": "Anything else?",
-                                                                "fr": "Quoi d'autre ?",
-                                                                "es": "¿Qué más?",
-                                                                "zh": "还有其他的吗？"
-                                                            },
-                                                            "Steps": [
-                                                                {
-                                                                    "Type": "Text",
-                                                                    "Label": {
-                                                                        "en": "He's also got perfectly idealised facial proportions... it's possible he looked like that... but perhaps unlikely",
-                                                                        "fr": "Les proportions de son visage sont aussi parfaites qu'idéalisées... c'est possible qu'il ait ressemblé à cela... mais plutôt improbable",
-                                                                        "es": "Las proporciones de su cara son tan perfectas como idealizadas... es posible que se pareciera a eso... pero bastante improbable",
-                                                                        "zh": "他还拥有理想化的完美面部比例……他有可能真的长这个样子……不过可能性不大"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Type": "Pause",
-                                                                    "Parameters": {
-                                                                        "Mode": "Wait",
-                                                                        "ms": 4000
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Type": "Text",
-                                                                    "Label": {
-                                                                        "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
-                                                                        "fr": "En tout cas, il se présente comme un jeune et beau héros, avec des cheveux fournis et harmonieusement ondulés",
-                                                                        "es": "En cualquier caso, se presenta como un héroe joven y apuesto, con el pelo tupido y armoniosamente ondulado",
-                                                                        "zh": "而且，他将自己塑造成一个年轻、英俊的英雄，拥有浓密的卷发"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Type": "Image",
-                                                                    "Parameters": {
-                                                                        "Display": "FullScreenWidth",
-                                                                        "Source": "Web",
-                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528886353/MeroeHead4.jpg"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Type": "Pause",
-                                                                    "Parameters": {
-                                                                        "Mode": "Wait",
-                                                                        "ms": 4000
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Type": "Text",
-                                                                    "Label": {
-                                                                        "en": "But of course, for people in the provinces, who would never see him in the flesh, this didn't matter so much",
-                                                                        "fr": "Mais bien sûr, pour les habitants des provinces, peu susceptibles de le voir en chair et en os, cela n'avait pas tellement d'importance",
-                                                                        "es": "Pero, por supuesto, para la gente de las provincias, que nunca lo verían en carne y hueso, no importaba tanto",
-                                                                        "zh": "当然了，对于永远不会见到君王本人的行省臣民来说，这一点并不重要……"
-                                                                    }
-                                                                }
-                                                            ],
-                                                            "LinksToFragment": {
-                                                                "FragmentPath": "MeroeFeedback"
-                                                            }
-                                                        }
-                                                    ]
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Meroe2"
                                                 }
                                             },
                                             {
-                                                "Type": "Leaf",
-                                                "Id": "MeroeGoodYesWhatNo",
+                                                "Type": "Node",
+                                                "Id": "MeroeGoodMoreWhatEnough",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "No thanks",
@@ -399,8 +272,8 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
-                        "Id": "MeroeGoodNo",
+                        "Type": "Node",
+                        "Id": "MeroeGoodEnough",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
