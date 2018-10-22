@@ -1,137 +1,152 @@
 {
-  "Type": "Node",
-  "Id": "Caryatids2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "By making their women (Caryatides) support the rooves of their buildings for eternity!",
-        "fr": "By making their women (Caryatides) support the rooves of their buildings for eternity!",
-        "es": "By making their women (Caryatides) support the rooves of their buildings for eternity!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Display": "FullScreenWidth",
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294679/museum%20app/5_Caryatids.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "And that’s how the statues get their name!",
-        "fr": "And that’s how the statues get their name!",
-        "es": "And that’s how the statues get their name!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Caryatids2Tell",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Tell me more!",
-        "fr": "Tell me more!",
-        "es": "Tell me more!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Caryatids2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens",
-            "fr": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens",
-            "es": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "By making their women (Caryatides) support the rooves of their buildings for eternity!",
+                "fr": "En faisant en sorte que leurs femmes, les Caryatides, soutiennent les toits de leurs bâtiments pour l'éternité !",
+                "es": "",
+                "zh": ""
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Display": "FullScreenWidth",
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294678/museum%20app/Erechteum.jpg"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294679/museum%20app/5_Caryatids.jpg"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "She had 5 sisters to help her, and those are held in the Acropolis Museum",
-            "fr": "She had 5 sisters to help her, and those are held in the Acropolis Museum",
-            "es": "She had 5 sisters to help her, and those are held in the Acropolis Museum"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "And that’s how the statues get their name!",
+                "fr": "Et c'est pour cela que les statues ont été nommées ainsi !",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Caryatids2TellStep",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "Caryatids2TellElse",
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Caryatids2Tell",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Anything else?",
-              "fr": "Anything else?",
-              "es": "Anything else?"
+                "en": "Tell me more!",
+                "fr": "Dis m'en plus !",
+                "es": "",
+                "zh": ""
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Well, the Caryatids all have very thick, blocky hair… ",
-                  "fr": "Well, the Caryatids all have very thick, blocky hair… ",
-                  "es": "Well, the Caryatids all have very thick, blocky hair… "
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "This particular Caryatid supported the Erechtheion, on the Acropolis in Athens",
+                        "fr": "Cette Caryatide a notamment soutenu l'Erechtéion, situé sur l'Acropole d'Athènes",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294678/museum%20app/Erechteum.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "She had 5 sisters to help her, and those are held in the Acropolis Museum",
+                        "fr": "Elle avait 5 soeurs pour l'aider et celles-ci sont exposées au musée de l'Acropole",
+                        "es": "",
+                        "zh": ""
+                    }
                 }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                    "Display": "FullScreenWidth",
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294679/museum%20app/Hair_of_Caryatids.jpg"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "not because that was the fashion…",
-                  "fr": "not because that was the fashion…",
-                  "es": "not because that was the fashion…"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "But because it’s vital for making them actually able to support the temple!",
-                  "fr": "But because it’s vital for making them actually able to support the temple!",
-                  "es": "But because it’s vital for making them actually able to support the temple!"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Talk about a bad hair day!",
-                  "fr": "Talk about a bad hair day!",
-                  "es": "Talk about a bad hair day!"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "Caryatids2Enough",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That’s enough",
-        "fr": "That’s enough",
-        "es": "That’s enough"
-      }
-    }
-  ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Caryatids2TellStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Caryatids2TellElse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Anything else?",
+                            "fr": "Autre chose ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, the Caryatids all have very thick, blocky hair… ",
+                                    "fr": "Eh bien, les Caryatudes ont toutes une chevelure très épaisse et dense...",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294679/museum%20app/Hair_of_Caryatids.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "not because that was the fashion…",
+                                    "fr": "Non pas parce que c'était la mode...",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But because it’s vital for making them actually able to support the temple!",
+                                    "fr": "Mais parce que c'était indispensable pour qu'elles soutiennent réellement le temple !",
+                                    "es": "But because it’s vital for making them actually able to support the temple!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Talk about a bad hair day!",
+                                    "fr": "Tu parles d'un mauvais jour !",
+                                    "es": "Talk about a bad hair day!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "CaryatidsFeedback"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Caryatids2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "CaryatidsFeedback"
+            }
+        }
+    ]
 }
