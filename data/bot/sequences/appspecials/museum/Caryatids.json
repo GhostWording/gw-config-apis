@@ -151,7 +151,7 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "CaryatidsHowNo",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -159,6 +159,9 @@
                             "fr": "Pas intéressé(e)",
                             "es": "",
                             "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "CaryatidsFeedback"
                         }
                     }
                 ]
