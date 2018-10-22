@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "By the way, the museum relies on donations to keep running!",
-                "fr": "D'ailleurs, le musée s'appuie sur des dons pour continuer à fonctionner !",
+                "en": "By the way, if you love the Louvre, you can get a membership card! It comes with loads of advantages! Want to learn more?",
+                "fr": "D'ailleurs, si tu aimes le Louvre, tu peux souscrire à une carte d'adhérent ! Elle te donne accès à de nombreux avantages ! Tu veux en savoir plus ?",
                 "es": "By the way, the museum relies on donations to keep running!",
                 "zh": "By the way, the museum relies on donations to keep running!"
             }
@@ -15,19 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 819,
-                "Height": 808,
+                "Width": 204,
+                "Height": 128,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1539948458/donation.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Would you like to support it? Every bit helps!",
-                "fr": "Est-ce que ça te dirait de le soutenir ? Chaque don compte !",
-                "es": "Would you like to support it? Every bit helps!",
-                "zh": "Would you like to support it? Every bit helps!"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540203673/adhesion.jpg"
             }
         }
     ],
@@ -37,8 +28,8 @@
             "Id": "DonationLamassuYes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Yes!",
-                "fr": "Oui !",
+                "en": "Yes please!",
+                "fr": "Oui bien sûr !",
                 "es": "Yes!",
                 "zh": "Yes!"
             },
