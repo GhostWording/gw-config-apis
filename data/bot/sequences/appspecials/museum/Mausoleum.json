@@ -7,7 +7,8 @@
             "Label": {
                 "en": "What would you call this?",
                 "fr": "Comment appellerais-tu cela ?",
-                "es": "¿Cómo llamarías eso?"
+                "es": "¿Cómo llamarías eso?",
+                "zh": ""
             }
         },
         {
@@ -26,7 +27,8 @@
             "CommandLabel": {
                 "en": "A mausoleum",
                 "fr": "Un mausolée",
-                "es": "Un mausoleo"
+                "es": "Un mausoleo",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -34,100 +36,13 @@
                     "Label": {
                         "en": "Correct! 😃",
                         "fr": "Correct ! 😃",
-                        "es": "¡Correcto! 😃"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "But did you know where the word originates from?",
-                        "fr": "Mais sais-tu d'où vient ce mot ?",
-                        "es": "¿Pero sabes de dónde viene esta palabra?"
+                        "es": "¡Correcto! 😃",
+                        "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "MausoleumCorrectWord",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "MausoleumCorrectNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No",
-                            "fr": "Non",
-                            "es": "No"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "From Mausolus himself!",
-                                    "fr": "De Mausole lui-même !",
-                                    "es": "¡Del mismo Mausolo!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "Il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
-                                    "es": "Encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Mausoleum2"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "MausoleumCorrectYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Yes",
-                            "fr": "Oui",
-                            "es": "Sí"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Right... from Mausolus himself!",
-                                    "fr": "Bien sûr... de Mausole lui-même !",
-                                    "es": "Por supuesto... ¡del mismo Mausolo!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "Comme tu le sais sûrement, il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
-                                    "es": "Como seguramente sabes, encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Mausoleum2"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Mausoleum2"
             }
         },
         {
@@ -137,7 +52,8 @@
             "CommandLabel": {
                 "en": "A bicycle",
                 "fr": "Un vélo",
-                "es": "Una bicicleta"
+                "es": "Una bicicleta",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -145,100 +61,13 @@
                     "Label": {
                         "en": "Hmm 🤨 not quite! It's a mausoleum!",
                         "fr": "Hmm 🤨 pas vraiment! C'est un mausolée!",
-                        "es": "Hmm 🤨 ¡no exactamente! Es un mausoleo!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "But did you know where the word originates from?",
-                        "fr": "Mais sais-tu d'où vient ce mot ?",
-                        "es": "¿Pero sabes de dónde viene esta palabra?"
+                        "es": "Hmm 🤨 ¡no exactamente! Es un mausoleo!",
+                        "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "MausoleumBikeWord",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "MausoleumBikeNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No",
-                            "fr": "Non",
-                            "es": "No"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "From Mausolus himself!",
-                                    "fr": "De Mausole lui-même !",
-                                    "es": "¡Del mismo Mausolo!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "Il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
-                                    "es": "Encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Mausoleum2"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "MausoleumBikeYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Yes",
-                            "fr": "Oui",
-                            "es": "Sí"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Right... from Mausolus himself!",
-                                    "fr": "Bien sûr... de Mausole lui-même !",
-                                    "es": "Por supuesto... ¡del mismo Mausolo!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "Comme tu le sais sûrement, il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
-                                    "es": "Como seguramente sabes, encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Mausoleum2"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Mausoleum2"
             }
         },
         {
@@ -248,7 +77,8 @@
             "CommandLabel": {
                 "en": "A salad",
                 "fr": "Une salade",
-                "es": "Una ensalada"
+                "es": "Una ensalada",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -256,100 +86,13 @@
                     "Label": {
                         "en": "Hmm 🤨 not quite! It's a mausoleum!",
                         "fr": "Hmm 🤨 pas vraiment! C'est un mausolée!",
-                        "es": "Hmm 🤨 ¡no exactamente! Es un mausoleo!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "But did you know where the word originates from?",
-                        "fr": "Mais sais-tu d'où vient ce mot ?",
-                        "es": "¿Pero sabes de dónde viene esta palabra?"
+                        "es": "Hmm 🤨 ¡no exactamente! Es un mausoleo!",
+                        "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "MausoleumSaladWord",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "MausoleumSaladNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No",
-                            "fr": "Non",
-                            "es": "No"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "From Mausolus himself!",
-                                    "fr": "De Mausole lui-même !",
-                                    "es": "¡Del mismo Mausolo!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "He commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "Il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
-                                    "es": "Encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Mausoleum2"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "MausoleumSaladYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Yes",
-                            "fr": "Oui",
-                            "es": "Sí"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Right... from Mausolus himself!",
-                                    "fr": "Bien sûr... de Mausole lui-même !",
-                                    "es": "Por supuesto... ¡del mismo Mausolo!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "As you probably know, he commissioned the first ever 'mausoleum' to house the remains of him and his wife (and sister!) Artemisia",
-                                    "fr": "Comme tu le sais sûrement, il a commandé le tout premier 'mausolée' pour accueillir ses restes et ceux de sa femme (qui était aussi sa sœur!) Artemisia",
-                                    "es": "Como seguramente sabes, encargó el primer 'mausoleo' para albergar sus restos y los de su esposa (¡y hermana!) Artemisia"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Mausoleum2"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Mausoleum2"
             }
         }
     ]
