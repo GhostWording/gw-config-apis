@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "You know, the Louvre's store has a beautiful replica of the statue...",
-                "fr": "Tu sais, la boutique du Louvre propose une magnifique réplique de cette statue...",
+                "en": "You know, the Louvre's store has a beautiful mug inspired by this painting...",
+                "fr": "Tu sais, la boutique du Louvre propose un magnifique mug à l'effigie de ce tableau...",
                 "es": "You know, the Louvre's store has a beautiful replica of the statue...",
                 "zh": "You know, the Louvre's store has a beautiful replica of the statue..."
             }
@@ -14,10 +14,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 295,
-                "Height": 375,
+                "Display": "FullScreenWidth",
+                "Width": 155,
+                "Height": 177,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540204645/venus_price.png"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540206497/Webp.net-resizeimage.png"
             }
         },
         {
