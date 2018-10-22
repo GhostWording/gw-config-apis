@@ -1,0 +1,80 @@
+{
+    "Type": "Node",
+    "Id": "DavidVasesFeedback",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How did you like this story?",
+                "fr": "Comment as-tu trouvé cette histoire ?",
+                "es": "¿Cómo te pareció esta historia?",
+                "zh": "您觉得这个故事怎么样？"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidVasesFeedbackGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It was great!",
+                "fr": "C'était super !",
+                "es": "¡Fue genial!",
+                "zh": "非常棒！"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "DavidVases",
+                        "FeedbackValue": "Good"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ChooseMuseumStory"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DavidVasesFeedbackBad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good enough",
+                "fr": "Assez bien",
+                "es": "Bastante bueno",
+                "zh": "不错"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "DavidVases",
+                        "FeedbackValue": "Bad"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ChooseMuseumStory"
+            }
+        }
+    ]
+}
