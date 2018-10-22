@@ -34,7 +34,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "StoreVenusYes",
+            "Id": "StoreLibertyYes",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
@@ -66,7 +66,7 @@
         },
         {
             "Type": "Node",
-            "Id": "StoreVenusNo",
+            "Id": "StoreLibertyNo",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not right now",
