@@ -3,110 +3,127 @@
   "Caption": {
     "en": "British Museum",
     "fr": "British Museum",
-    "es" : "British Museum"
+    "es": "British Museum",
+    "zh":""
   },
   "DefaultImage": {
     "Type": "Image",
     "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
   },
   "PracticalInfo": {
-		"OpeningHours": [
-			{
-				"day": {
-					"en": "Monday",
-					"fr": "Lundi",
-					"es": "Lunes"
-				},
-				"time": {
-					"en": "09:00-18:00",
-					"fr": "09h-18h",
-					"es": "09:00-18:00"
-				}
-			},
-			{
-				"day": {
-					"en": "Tuesday",
-					"fr": "Mardi",
-					"es": "Martes"
-				},
-				"time": {
-					"en": "Closed",
-					"fr": "Fermé",
-					"es": "Cerrado"
-				}
-			},
-			{
-				"day": {
-					"en": "Wednesday",
-					"fr": "Mercredi",
-					"es": "Miércoles"
-				},
-				"time": {
-					"en": "09:00-22:00",
-					"fr": "09h-22h",
-					"es": "09:00-22:00"
-				}
-			},
-			{
-				"day": {
-					"en": "Thursday",
-					"fr": "Jeudi",
-					"es": "Jueves"
-				},
-				"time": {
-					"en": "09:00-18:00",
-					"fr": "09h-18h",
-					"es": "09:00-18:00"
-				}
-			},
-			{
-				"day": {
-					"en": "Friday",
-					"fr": "Vendredi",
-					"es": "Viernes"
-				},
-				"time": {
-					"en": "09:00-22:00",
-					"fr": "09h-22h",
-					"es": "09:00-22:00"
-				}
-			},
-			{
-				"day": {
-					"en": "Saturday",
-					"fr": "Samedi",
-					"es": "Sábado"
-				},
-				"time": {
-					"en": "09:00-18:00",
-					"fr": "09h-18h",
-					"es": "09:00-18:00"
-				}
-			},
-			{
-				"day": {
-					"en": "Sunday",
-					"fr": "Dimanche",
-					"es": "Domingo"
-				},
-				"time": {
-					"en": "09:00-18:00",
-					"fr": "09h-18h",
-					"es": "09:00-18:00"
-				}
-			}
-		],
-		"Address": {
-			"en": "Rue de Rivoli, 75001 Paris, France",
-			"fr": "Rue de Rivoli, 75001 Paris, France",
-			"es": "Rue de Rivoli, 75001 Paris, France"
-		},
-		"Holidays": {
-			"en": "Closed on 1st January, 1st May and 25th December",
-			"fr": "Fermé les 1er janvier, 1er mai et 25 décembre",
-			"es": "Cerrado el 1 de enero, 1 de mayo y 25 de diciembre"
-		}
-	},
+        "OpeningHours": [
+            {
+                "day": {
+                    "en": "Monday",
+                    "fr": "Lundi",
+                    "es": "Lunes",
+                    "zh":"星期一"
+                },
+                "time": {
+                    "en": "10:00-17:30",
+                    "fr": "10h-17h30",
+                    "es": "10:00-17:30",
+                    "zh": ""
+                }
+            },
+            {
+                "day": {
+                    "en": "Tuesday",
+                    "fr": "Mardi",
+                    "es": "Martes",
+                    "zh":"星期二"
+                },
+                "time": {
+                  "en": "10:00-17:30",
+                  "fr": "10h-17h30",
+                  "es": "10:00-17:30",
+                  "zh": ""
+                }
+            },
+            {
+                "day": {
+                    "en": "Wednesday",
+                    "fr": "Mercredi",
+                    "es": "Miércoles",
+                    "zh":"星期三"
+                },
+                "time": {
+                  "en": "10:00-17:30",
+                  "fr": "10h-17h30",
+                  "es": "10:00-17:30",
+                  "zh": ""
+                }
+            },
+            {
+                "day": {
+                    "en": "Thursday",
+                    "fr": "Jeudi",
+                    "es": "Jueves",
+                    "zh":"星期四"
+                },
+                "time": {
+                  "en": "10:00-17:30",
+                  "fr": "10h-17h30",
+                  "es": "10:00-17:30",
+                  "zh": ""
+                }
+            },
+            {
+                "day": {
+                    "en": "Friday",
+                    "fr": "Vendredi",
+                    "es": "Viernes",
+                    "zh":"星期五"
+                },
+                "time": {
+                  "en": "10:00-20:30",
+                  "fr": "10h-20h30",
+                  "es": "10:00-20:30",
+                  "zh": ""
+                }
+            },
+            {
+                "day": {
+                    "en": "Saturday",
+                    "fr": "Samedi",
+                    "es": "Sábado",
+                    "zh":"星期六"
+                },
+                "time": {
+                  "en": "10:00-17:30",
+                  "fr": "10h-17h30",
+                  "es": "10:00-17:30",
+                  "zh": ""
+                }
+            },
+            {
+                "day": {
+                    "en": "Sunday",
+                    "fr": "Dimanche",
+                    "es": "Domingo",
+                    "zh":"星期日"
+                },
+                "time": {
+                  "en": "10:00-17:30",
+                  "fr": "10h-17h30",
+                  "es": "10:00-17:30",
+                  "zh": ""
+                }
+            }
+        ],
+        "Address": {
+            "en": "Great Russell Street, London, WC1B 3DG",
+            "fr": "Great Russell Street, Londres, WC1B 3DG",
+            "es": "Great Russell Street, Londres, WC1B 3DG",
+            "zh": "Great Russell Street, London, WC1B 3DG"
+        },
+        "Holidays": {
+            "en": "closed on 1 January, Good Friday and 24, 25 & 26 December",
+            "fr": "fermé le 1er janvier, le Vendredi Saint et les 24, 25 et 26 décembre",
+            "es": "cerrado el 1 de enero, el Viernes Santo y los 24, 25 y 26 de diciembre",
+            "zh":""
+        }
+    },
   "LocationSequenceId":"BritishMuseumMap",
   "Topic": "britishmuseum",  
   "Artworks" : [
