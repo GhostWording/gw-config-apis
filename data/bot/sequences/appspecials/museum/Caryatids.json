@@ -6,8 +6,9 @@
             "Type": "Text",
             "Label": {
                 "en": "As I’m sure you know, Greek pillars are very famous for their pretty patterns",
-                "fr": "As I’m sure you know, Greek pillars are very famous for their pretty patterns",
-                "es": "As I’m sure you know, Greek pillars are very famous for their pretty patterns"
+                "fr": "Comme tu le sais sûrement, les colonnes grecques sont connues pour leurs élégants motifs",
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -21,8 +22,9 @@
             "Type": "Text",
             "Label": {
                 "en": "But, some artists took it further!",
-                "fr": "But, some artists took it further!",
-                "es": "But, some artists took it further!"
+                "fr": "Mais certains artistes sont allés plus loin !",
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -33,16 +35,18 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How so?",
-                "fr": "How so?",
-                "es": "How so?"
+                "fr": "Comment ça ?",
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Well, they decided to create full statues out of columns!",
-                        "fr": "Well, they decided to create full statues out of columns!",
-                        "es": "Well, they decided to create full statues out of columns!"
+                        "fr": "Eh bien, ils ont eu l'idée de créer des colonnes entièrement en forme de statue !",
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -56,16 +60,18 @@
                     "Type": "Text",
                     "Label": {
                         "en": "This is called a ‘Caryatid’",
-                        "fr": "This is called a ‘Caryatid’",
-                        "es": "This is called a ‘Caryatid’"
+                        "fr": "On les appelle les ‘Caryatides’",
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "The way it gets its name is a fascinating story!",
-                        "fr": "The way it gets its name is a fascinating story!",
-                        "es": "The way it gets its name is a fascinating story!"
+                        "fr": "Il existe une histoire fascinante sur l'origine de leur nom !",
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -80,16 +86,18 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let’s hear it!",
-                            "fr": "Let’s hear it!",
-                            "es": "Let’s hear it!"
+                            "fr": "Raconte moi tout !",
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "When the Greeks fought the Persians in the 5th Century BC, the people of Caryae (a Greek city) supported the Persians!",
-                                    "fr": "When the Greeks fought the Persians in the 5th Century BC, the people of Caryae (a Greek city) supported the Persians!",
-                                    "es": "When the Greeks fought the Persians in the 5th Century BC, the people of Caryae (a Greek city) supported the Persians!"
+                                    "fr": "Lorsque les Grecs ont combattu les Perses au 5e siècle avec JC, le peuple de Caryae (une cité grecque) a choisi de soutenir les Perses !",
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -103,8 +111,9 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Unfortunately for them, the Greeks won, and they didn’t forget Caryae’s betrayal!",
-                                    "fr": "Unfortunately for them, the Greeks won, and they didn’t forget Caryae’s betrayal!",
-                                    "es": "Unfortunately for them, the Greeks won, and they didn’t forget Caryae’s betrayal!"
+                                    "fr": "Malheureusement pour eux, les Grecques gagnèrent, et ils n'oublièrent pas la trahison de Caryae !",
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
                         ],
@@ -119,16 +128,18 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "What happened?",
-                                        "fr": "What happened?",
-                                        "es": "What happened?"
+                                        "fr": "Que s'est-il passé ?",
+                                        "es": "",
+                                        "zh": ""
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Well, the Greeks symbolically punished the people of Caryae…",
-                                                "fr": "Well, the Greeks symbolically punished the people of Caryae…",
-                                                "es": "Well, the Greeks symbolically punished the people of Caryae…"
+                                                "fr": "Les Grecques ont symboliquement puni le peuple de Caryae...",
+                                                "es": "",
+                                                "zh": ""
                                             }
                                         }
                                     ],
@@ -145,8 +156,9 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
-                            "fr": "No thanks",
-                            "es": "No thanks"
+                            "fr": "Pas intéressé(e)",
+                            "es": "",
+                            "zh": ""
                         }
                     }
                 ]
