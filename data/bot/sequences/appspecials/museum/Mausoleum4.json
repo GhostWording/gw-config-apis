@@ -1,0 +1,25 @@
+{
+    "Type": "Node",
+    "Id": "Mausoleum4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Alright 😄 be sure to check it out in room 21 in the British Museum!",
+                "fr": "D'accord 😄 n'oublie pas d'aller y jeter un oeil dans la salle 21 du British Museum !",
+                "es": "De acuerdo 😄 ¡no olvides mirarlo en la sala 21 del British Museum!",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "MausoleumFeedback"
+    }
+}
