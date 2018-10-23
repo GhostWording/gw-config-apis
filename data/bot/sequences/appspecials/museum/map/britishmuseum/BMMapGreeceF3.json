@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Here's the Greece and Rome section on the third floor",
-                "fr": "Here's the Greece and Rome section on the third floor",
+                "fr": "Voici la section à propos de la Grèce et de Rome au 3e étage",
                 "es": "Here's the Greece and Rome section on the third floor",
                 "zh": "Here's the Greece and Rome section on the third floor"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Pick what item you want to hear about!",
-                "fr": "Pick what item you want to hear about!",
+                "fr": "Choisis l'oeuvre que tu veux découvrir !",
                 "es": "Pick what item you want to hear about!",
                 "zh": "Pick what item you want to hear about!"
             }
@@ -38,14 +38,17 @@
             "Id": "BMMapGreeceF3Portland",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Portland Vase",
-                "fr": "Portland Vase",
-                "es": "Portland Vase",
-                "zh": "Portland Vase"
+                "en": "The Portland Vase",
+                "fr": "Le Vase Portland",
+                "es": "La Vasija de Portland",
+                "zh": ""
             },
             "CarouselElements": {
                 "Title": {
-                    "en": "."
+                    "en": "Room 70",
+                    "fr": "Salle 70",
+                    "es": "Sala 70",
+                    "zh": ""
                 },
                 "Picture": {
                     "Source": "Web",
@@ -84,7 +87,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let's go!",
-                            "fr": "Let's go!",
+                            "fr": "C'est parti !",
                             "es": "Let's go!",
                             "zh": "Let's go!"
                         },
