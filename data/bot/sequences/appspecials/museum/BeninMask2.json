@@ -1,70 +1,76 @@
 {
-  "Type": "Node",
-  "Id": "BeninMask2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Where would you wear it?",
-        "fr": "Où est-ce que tu le porterais ?",
-        "es": "Where would you wear it?"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "BeninMask2Face",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "My face!",
-        "fr": "Sur mon visage !",
-        "es": "My face!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "BeninMask2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Well… it was originally worn around the waist!",
-            "fr": "Eh bien... c'était à l'origine porté à la taille !",
-            "es": "Well… it was originally worn around the waist!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Where would you wear it?",
+                "fr": "Où est-ce que tu le porterais ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BeninMask2Face",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My face!",
+                "fr": "Sur mon visage !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well… it was originally worn around the waist!",
+                        "fr": "Eh bien... c'était à l'origine porté à la taille !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Amazing, right?!",
+                        "fr": "Incroyable, n'est-ce pas ?!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask3"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Amazing, right?!",
-            "fr": "Incroyable, n'est-ce pas ?!",
-            "es": "Amazing, right?!"
-          }
+            "Type": "Node",
+            "Id": "BeninMask2Waist",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My waist!",
+                "fr": "A la taille !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Smart! That’s where it was originally worn, too!",
+                        "fr": "Bien vu ! C'est là qu'il était porté à l'origine !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask3"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "BeninMask3"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "BeninMask2Waist",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "My waist!",
-        "fr": "A la taille !",
-        "es": "My waist!"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Smart! That’s where it was originally worn, too!",
-            "fr": "Bien vu ! C'est là qu'il était porté à l'origine !",
-            "es": "Smart! That’s where it was originally worn, too!"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "BeninMask3"
-      }
-    }
-  ]
+    ]
 }
