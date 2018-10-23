@@ -94,6 +94,29 @@
         },
         {
             "Type": "Node",
+            "Id": "BMMapTopicEurope",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Europe",
+                "fr": "Europe",
+                "es": "Europe",
+                "zh": "Europe"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540303183/mesopotamia.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapEurope"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "BMMapTopicOther",
             "ElementValue": "1",
             "CommandLabel": {
