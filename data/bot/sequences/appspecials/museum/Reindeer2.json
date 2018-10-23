@@ -1,77 +1,83 @@
 {
-  "Type": "Node",
-  "Id": "Reindeer2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "In fact, it was in the midst of an ice age!",
-        "fr": "In fact, it was in the midst of an ice age!",
-        "es": "In fact, it was in the midst of an ice age!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533814280/museum%20app/Cold_Landscape_2.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "It had a climate similar to that of Siberia today! ❄",
-        "fr": "It had a climate similar to that of Siberia today! ❄",
-        "es": "It had a climate similar to that of Siberia today! ❄"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Reindeer2Fun",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Sounds fun! ⛷",
-        "fr": "Sounds fun! ⛷",
-        "es": "Sounds fun! ⛷"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Reindeer2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Nice attitude!",
-            "fr": "Nice attitude!",
-            "es": "Nice attitude!"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Reindeer3"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Reindeer2Horrible",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "How horrible",
-        "fr": "How horrible",
-        "es": "How horrible"
-      },
-      "Steps": [
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, it was in the midst of an ice age!",
+                "fr": "In fact, it was in the midst of an ice age!",
+                "es": "",
+                "zh": ""
+            }
+        },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Right! Lucky I have these nice warm feathers",
-            "fr": "Right! Lucky I have these nice warm feathers",
-            "es": "Right! Lucky I have these nice warm feathers"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533814280/museum%20app/Cold_Landscape_2.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It had a climate similar to that of Siberia today! ❄",
+                "fr": "It had a climate similar to that of Siberia today! ❄",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Reindeer3"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Reindeer2Fun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds fun! ⛷",
+                "fr": "Sounds fun! ⛷",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Nice attitude!",
+                        "fr": "Nice attitude!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Reindeer3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Reindeer2Horrible",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How horrible",
+                "fr": "How horrible",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! Lucky I have these nice warm feathers",
+                        "fr": "Right! Lucky I have these nice warm feathers",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Reindeer3"
+            }
+        }
+    ]
 }
