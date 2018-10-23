@@ -1,55 +1,59 @@
 {
-  "Type": "Node",
-  "Id": "Rosetta6",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Regardless, the British eventually got hold of the stone in some manner and transported it to London.",
-        "fr": "Quoiqu'il en soit, les Britanniques ont fini par s'emparer de la pierre et l'ont transportée jusqu'à Londres",
-        "es": "Regardless, the British eventually got hold of the stone in some manner and transported it to London."
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Here’s a newspaper article from the time talking about it!",
-        "fr": "Voici un article de journal de l'époque à propos de cet événement !",
-        "es": "Here’s a newspaper article from the time talking about it!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Time_article_on_Rosetta.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "It was given to the British museum, and put on a very popular display!",
-        "fr": "Elle a été donnée au British Museum, et exposée à un endroit très populaire",
-        "es": "It was given to the British museum, and put on a very popular display!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Popular_Display_1.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "It took many years to decipher the Egyptian languages on the stone, but that’s a whole separate story!",
-        "fr": "Il a fallu de nombreuses années pour déchiffrer les langues égyptiennes sur la pierre, mais c'est une toute autre histoire !",
-        "es": "It took many years to decipher the Egyptian languages on the stone, but that’s a whole separate story!"
-      }
+    "Type": "Node",
+    "Id": "Rosetta6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless, the British eventually got hold of the stone in some manner and transported it to London.",
+                "fr": "Quoiqu'il en soit, les Britanniques ont fini par s'emparer de la pierre et l'ont transportée jusqu'à Londres",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here’s a newspaper article from the time talking about it!",
+                "fr": "Voici un article de journal de l'époque à propos de cet événement !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Time_article_on_Rosetta.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was given to the British museum, and put on a very popular display!",
+                "fr": "Elle a été donnée au British Museum, et exposée à un endroit très populaire",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Popular_Display_1.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It took many years to decipher the Egyptian languages on the stone, but that’s a whole separate story!",
+                "fr": "Il a fallu de nombreuses années pour déchiffrer les langues égyptiennes sur la pierre, mais c'est une toute autre histoire !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "RosettaFeedback"
     }
-  ],
-  "LinksToFragment": {
-    "FragmentPath": "RosettaFeedback"
-  }
 }
