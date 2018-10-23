@@ -48,6 +48,31 @@
     "Commands": [
         {
             "Type": "Node",
+            "Id": "Nebamun4Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's enough",
+                "fr": "J'en sais assez",
+                "es": "Es suficiente",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK 😊",
+                        "fr": "OK 😊",
+                        "es": "OK 😊",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun5"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "Nebamun4More",
             "ElementValue": "1",
             "CommandLabel": {
@@ -221,31 +246,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Nebamun4Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That's enough",
-                "fr": "J'en sais assez",
-                "es": "Es suficiente",
-                "zh": ""
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "OK 😊",
-                        "fr": "OK 😊",
-                        "es": "OK 😊",
-                        "zh": ""
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Nebamun5"
             }
         }
     ]
