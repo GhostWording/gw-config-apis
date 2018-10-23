@@ -3,7 +3,7 @@
     "Id": "WeddingCana3",
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WeddingCana3Enough",
             "ElementValue": "1",
             "CommandLabel": {
@@ -11,6 +11,9 @@
                 "fr": "J'en sais assez",
                 "es": "Conozco suficiente",
                 "zh": "这就足够了"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
             }
         },
         {
