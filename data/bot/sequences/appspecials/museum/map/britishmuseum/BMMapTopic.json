@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The British Museum is divided thematically",
-                "fr": "The British Museum is divided thematically",
+                "fr": "Le British Museum est divisé de manière thématique",
                 "es": "The British Museum is divided thematically",
                 "zh": "The British Museum is divided thematically"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Try picking a topic to get your bearings!",
-                "fr": "Try picking a topic to get your bearings!",
+                "fr": "Essaie de choisir un sujet pour te repérer !",
                 "es": "Try picking a topic to get your bearings!",
                 "zh": "Try picking a topic to get your bearings!"
             }
@@ -29,7 +29,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Greece & Rome",
-                "fr": "Greece & Rome",
+                "fr": "La Grèce & Rome",
                 "es": "Greece & Rome",
                 "zh": "Greece & Rome"
             },
@@ -39,7 +39,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540302355/greece_rome.jpg"
                 }
             },
             "LinksToFragment": {
@@ -52,7 +52,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Egypt",
-                "fr": "Egypt",
+                "fr": "L'Egypte",
                 "es": "Egypt",
                 "zh": "Egypt"
             },
@@ -62,7 +62,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Richelieu_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540302910/egypt.jpg"
                 }
             },
             "LinksToFragment": {
@@ -75,7 +75,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Mesopotamia",
-                "fr": "Mesopotamia",
+                "fr": "La Mésopotamie",
                 "es": "Mesopotamia",
                 "zh": "Mesopotamia"
             },
@@ -85,7 +85,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Sully_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540303183/mesopotamia.jpg"
                 }
             },
             "LinksToFragment": {
@@ -98,7 +98,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Other",
-                "fr": "Other",
+                "fr": "Autre",
                 "es": "Other",
                 "zh": "Other"
             },
@@ -108,7 +108,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Sully_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540303379/other.png"
                 }
             },
             "LinksToFragment": {
