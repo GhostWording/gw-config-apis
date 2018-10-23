@@ -1,118 +1,127 @@
 {
-  "Type": "Node",
-  "Id": "LionHunt3",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "filled with arrows and without a chance…",
-        "fr": "filled with arrows and without a chance…",
-        "es": "filled with arrows and without a chance…"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Display": "FullScreenWidth",
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533296712/museum%20app/Dying_Lion.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "What about you?",
-        "fr": "What about you?",
-        "es": "What about you?"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "LionHunt3Poor",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Poor lions",
-        "fr": "Poor lions",
-        "es": "Poor lions"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "LionHunt3",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Right 😔",
-            "fr": "Right 😔",
-            "es": "Right 😔"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "filled with arrows and without a chance…",
+                "fr": "filled with arrows and without a chance…",
+                "es": "",
+                "zh": ""
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "These beautiful sculptures are currently on display in room 10a",
-            "fr": "These beautiful sculptures are currently on display in room 10a",
-            "es": "These beautiful sculptures are currently on display in room 10a"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533296712/museum%20app/Dying_Lion.jpg"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532943404/museum%20app/BM_Map.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Come see them! They’re even more impressive face to face!",
-            "fr": "Come see them! They’re even more impressive face to face!",
-            "es": "Come see them! They’re even more impressive face to face!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "What about you?",
+                "fr": "What about you?",
+                "es": "",
+                "zh": ""
+            }
         }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "LionHunt3Great",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Hunting is great!",
-        "fr": "Hunting is great!",
-        "es": "Hunting is great!"
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Please don’t start hunting owls though! 🦉",
-            "fr": "Please don’t start hunting owls though! 🦉",
-            "es": "Please don’t start hunting owls though! 🦉"
-          }
+            "Type": "Node",
+            "Id": "LionHunt3Poor",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Poor lions",
+                "fr": "Poor lions",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right 😔",
+                        "fr": "Right 😔",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "These beautiful sculptures are currently on display in room 10a",
+                        "fr": "These beautiful sculptures are currently on display in room 10a",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532943404/museum%20app/BM_Map.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Come see them! They’re even more impressive face to face!",
+                        "fr": "Come see them! They’re even more impressive face to face!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "These beautiful sculptures are currently on display in room 10a",
-            "fr": "These beautiful sculptures are currently on display in room 10a",
-            "es": "These beautiful sculptures are currently on display in room 10a"
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532943404/museum%20app/BM_Map.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Come see them! They’re even more impressive face to face!",
-            "fr": "Come see them! They’re even more impressive face to face!",
-            "es": "Come see them! They’re even more impressive face to face!"
-          }
+            "Type": "Node",
+            "Id": "LionHunt3Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hunting is great!",
+                "fr": "Hunting is great!",
+                "es": "Hunting is great!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Please don’t start hunting owls though! 🦉",
+                        "fr": "Please don’t start hunting owls though! 🦉",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "These beautiful sculptures are currently on display in room 10a",
+                        "fr": "These beautiful sculptures are currently on display in room 10a",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532943404/museum%20app/BM_Map.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Come see them! They’re even more impressive face to face!",
+                        "fr": "Come see them! They’re even more impressive face to face!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
