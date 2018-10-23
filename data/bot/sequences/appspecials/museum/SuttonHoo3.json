@@ -7,7 +7,8 @@
             "Label": {
                 "en": "It’s a really well made helmet…",
                 "fr": "It’s a really well made helmet…",
-                "es": "It’s a really well made helmet…"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "It offers great protection on all sides, and even has holes at the bottom of the nose for breathing!",
                 "fr": "It offers great protection on all sides, and even has holes at the bottom of the nose for breathing!",
-                "es": "It offers great protection on all sides, and even has holes at the bottom of the nose for breathing!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -23,7 +25,8 @@
             "Label": {
                 "en": "So the user could breathe comfortably while being hit in the face with a sword or axe!",
                 "fr": "So the user could breathe comfortably while being hit in the face with a sword or axe!",
-                "es": "So the user could breathe comfortably while being hit in the face with a sword or axe!"
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -35,7 +38,8 @@
             "CommandLabel": {
                 "en": "What else?",
                 "fr": "What else?",
-                "es": "What else?"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -43,7 +47,8 @@
                     "Label": {
                         "en": "It’s incredibly intricate! It’s decorated all over with panels showing different scenes!",
                         "fr": "It’s incredibly intricate! It’s decorated all over with panels showing different scenes!",
-                        "es": "It’s incredibly intricate! It’s decorated all over with panels showing different scenes!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -65,7 +70,8 @@
                     "Label": {
                         "en": "Not that much use in a battle!",
                         "fr": "Not that much use in a battle!",
-                        "es": "Not that much use in a battle!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -73,7 +79,8 @@
                     "Label": {
                         "en": "But pretty to look at all the same!",
                         "fr": "But pretty to look at all the same!",
-                        "es": "But pretty to look at all the same!"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -84,12 +91,27 @@
                 "Commands": [
                     {
                         "Type": "Node",
+                        "Id": "SuttonHoo3ElseEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s enough",
+                            "fr": "That’s enough",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "SuttonHooFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
                         "Id": "SuttonHoo3ElseMore",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tell me more",
                             "fr": "Tell me more",
-                            "es": "Tell me more"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -97,22 +119,13 @@
                                 "Label": {
                                     "en": "The helmet is thought to have belonged to King Raedwald of East Anglia",
                                     "fr": "The helmet is thought to have belonged to King Raedwald of East Anglia",
-                                    "es": "The helmet is thought to have belonged to King Raedwald of East Anglia"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
                         ],
                         "LinksToFragment": {
                             "FragmentPath": "SuttonHoo4"
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "SuttonHoo3ElseEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "That’s enough",
-                            "es": "That’s enough"
                         }
                     }
                 ]
