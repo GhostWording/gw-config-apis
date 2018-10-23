@@ -7,7 +7,8 @@
             "Label": {
                 "en": "The red lips and nose are made with red thorny oyster shells! How bizarre!",
                 "fr": "Les lèvres et le nez rouges sont faits en coquilles d'huîtres rouges épineuses ! Comme c'est bizarre !",
-                "es": "The red lips and nose are made with red thorny oyster shells! How bizarre!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -22,7 +23,8 @@
             "Label": {
                 "en": "...",
                 "fr": "...",
-                "es": "..."
+                "es": "...",
+                "zh": "..."
             }
         }
     ],
@@ -34,7 +36,8 @@
             "CommandLabel": {
                 "en": "And the teeth?",
                 "fr": "Et les dents ?",
-                "es": "And the teeth?"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -42,7 +45,8 @@
                     "Label": {
                         "en": "Those scary teeth are made from another shell, the conch!",
                         "fr": "Ces dents effrayantes ont été fabriquées à partir d'un autre coquillage, la conque !",
-                        "es": "Those scary teeth are made from another shell, the conch!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -57,15 +61,30 @@
                     "Label": {
                         "en": "Want to hear the story behind it?",
                         "fr": "Tu veux entendre l'histoire derrière ?",
-                        "es": "Want to hear the story behind it?"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "Serpent3TeethQuestion",
+                "Id": "Serpent3TeethStep",
                 "ElementValue": "1",
                 "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Serpent3TeethNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "Non merci",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "AztecSerpentFeedback"
+                        }
+                    },
                     {
                         "Type": "Node",
                         "Id": "Serpent3TeethYes",
@@ -73,7 +92,8 @@
                         "CommandLabel": {
                             "en": "Yes!",
                             "fr": "Oui !",
-                            "es": "¡Sí!"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -81,7 +101,8 @@
                                 "Label": {
                                     "en": "We think this piece may have been given as a gift of friendship to Hernán Cortés by Montezuma II in 1519 when he invaded Tenochtitlan (current Mexico city!)",
                                     "fr": "On pense que cette pièce a probablement été offerte à Hernán Cortés par Montezuma II en 1519 lorsqu'il a envahi Tenochtitlan (l'actuelle ville de Mexico !)",
-                                    "es": "We think this piece may have been given as a gift of friendship to Hernan Cortes by Montezuma II in 1519 when he invaded Tenochtitlan (current Mexico city!)"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -96,7 +117,8 @@
                                 "Label": {
                                     "en": "Unfortunately for Montezuma, Cortes massacred and enslaved most of the Aztecs anyway",
                                     "fr": "Malheureusement pour Montezuma, cela n'a pas empêché Cortés de massacrer et d'asservir la plupart des Aztèques",
-                                    "es": "Unfortunately for Montezuma, Cortes massacred and enslaved most of the Aztecs anyway"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -104,23 +126,25 @@
                                 "Label": {
                                     "en": "And gave the rest smallpox as a parting gift, ending their civilisation!",
                                     "fr": "Et de donner à ceux qui restaient la variole comme super cadeau de départ, mettant fin à leur civilisation !",
-                                    "es": "And gave the rest smallpox as a parting gift, ending their civilisation!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "Serpent3TeethYesQuestion",
+                            "Id": "Serpent3TeethYesStep",
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Serpent3TeethYesKind",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "How kind!",
                                         "fr": "Comme c'est gentil !",
-                                        "es": "How kind!"
+                                        "es": "",
+                                        "zh": ""
                                     },
                                     "Steps": [
                                         {
@@ -128,19 +152,24 @@
                                             "Label": {
                                                 "en": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!",
                                                 "fr": "Quoiqu'il en soit, le serpent s'est retrouvé en Europe, et il est aujourd'hui exposé dans la salle 27 du British Museum. Viens y jeter un coup d'œil !",
-                                                "es": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!"
+                                                "es": "",
+                                                "zh": ""
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AztecSerpentFeedback"
+                                    }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Serpent3TeethYesHarsh",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "A bit harsh!",
                                         "fr": "Quelle horreur !",
-                                        "es": "A bit harsh!"
+                                        "es": "",
+                                        "zh": ""
                                     },
                                     "Steps": [
                                         {
@@ -148,25 +177,16 @@
                                             "Label": {
                                                 "en": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!",
                                                 "fr": "Quoiqu'il en soit, le serpent s'est retrouvé en Europe, et il est aujourd'hui exposé dans la salle 27 du British Museum. Viens y jeter un coup d'œil !",
-                                                "es": "Regardless, the serpent ended up in Europe, and is now in the British museum, room 27. Come have a look!"
+                                                "es": "",
+                                                "zh": ""
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AztecSerpentFeedback"
+                                    }
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "Serpent3TeethNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "Non merci",
-                            "es": "No thanks"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "AztecSerpentFeedback"
                         }
                     }
                 ]
