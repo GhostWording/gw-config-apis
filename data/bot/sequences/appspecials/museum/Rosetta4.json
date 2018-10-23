@@ -7,7 +7,8 @@
             "Label": {
                 "en": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god.",
                 "fr": "Le garçon a survécu, et plus tard pendant son règne, il a affiché plusieurs de ces pierres qui annonçaient, entre autres, qu'il était devenu un dieu. ",
-                "es": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god."
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -22,7 +23,8 @@
             "Label": {
                 "en": "How modest of him!",
                 "fr": "Comme c'est modeste de sa part !",
-                "es": "How modest of him!"
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -34,7 +36,8 @@
             "CommandLabel": {
                 "en": "Seems reasonable",
                 "fr": "Cela semble raisonnable",
-                "es": "Seems reasonable"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -42,7 +45,8 @@
                     "Label": {
                         "en": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!",
                         "fr": "Ainsi, les pierres sont vraiment énormes, et ont été écrites en trois langues, de sortes qu'autant de monde que possible puisse le lire !",
-                        "es": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -58,7 +62,8 @@
                     "Label": {
                         "en": "After all, Ptolemy wanted everyone to know that he was a god!",
                         "fr": "Après tout, Ptolémée voulait que tout le monde sache que c'était un dieu !",
-                        "es": "After all, Ptolemy wanted everyone to know that he was a god!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -66,7 +71,8 @@
                     "Label": {
                         "en": "Want to hear about how it was found?",
                         "fr": "Tu veux savoir comment la Pierre de Rosette a été trouvée ?",
-                        "es": "Want to hear about how it was found?"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -77,28 +83,30 @@
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "Rosetta4ReasonableHear",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Let’s hear!",
-                            "fr": "Avec plaisir !",
-                            "es": "Let’s hear!"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "Rosetta5"
-                        }
-                    },
-                    {
-                        "Type": "Node",
                         "Id": "Rosetta4ReasonableNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
                             "fr": "Non merci",
-                            "es": "No thanks"
+                            "es": "",
+                            "zh": ""
                         },
                         "LinksToFragment": {
                             "FragmentPath": "RosettaFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Rosetta4ReasonableHear",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let’s hear!",
+                            "fr": "Avec plaisir !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Rosetta5"
                         }
                     }
                 ]
