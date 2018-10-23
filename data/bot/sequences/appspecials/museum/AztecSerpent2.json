@@ -2,152 +2,163 @@
     "Type": "Node",
     "Id": "AztecSerpent2",
     "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Anyway, this item is from the Aztec civilization! We’re not entirely sure what it is… one theory is that it could be worn across the chest!",
-          "fr": "Quoiqu'il en soit, cet objet provient de la civilisation aztèque ! On ne sait pas vraiment ce que c'est... une hypothèse est qu'il se porterait sur la poitrine !",
-          "es": "Anyway, this item is from the Aztec civilization! We’re not entirely sure what it is… one theory is that it could be worn across the chest!"
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, this item is from the Aztec civilization! We’re not entirely sure what it is… one theory is that it could be worn across the chest!",
+                "fr": "Quoiqu'il en soit, cet objet provient de la civilisation aztèque ! On ne sait pas vraiment ce que c'est... une hypothèse est qu'il se porterait sur la poitrine !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There’s a lot to say about it, including trying to figure out just what it represented!",
+                "fr": "Il y a beaucoup à dire sur cet objet, à commencer par essayer de comprendre ce qu'il représentait !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But what interests me most is what it’s made of!",
+                "fr": "Mais ce qui m'intéresse le plus, c'est ce en quoi il est fait !",
+                "es": "",
+                "zh": ""
+            }
         }
-      },
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "There’s a lot to say about it, including trying to figure out just what it represented!",
-          "fr": "Il y a beaucoup à dire sur cet objet, à commencer par essayer de comprendre ce qu'il représentait !",
-          "es": "There’s a lot to say about it, including trying to figure out just what it represented!"
-        }
-      },
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "But what interests me most is what it’s made of!",
-          "fr": "Mais ce qui m'intéresse le plus, c'est ce en quoi il est fait !",
-          "es": "But what interests me most is what it’s made of!"
-        }
-      }
     ],
     "Commands": [
-      {
-        "Type": "Node",
-        "Id": "AztecSerpent2Tell",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Tell me!",
-          "fr": "Dis moi !",
-          "es": "¡Dime!"
+        {
+            "Type": "Node",
+            "Id": "AztecSerpent2Not",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not interested",
+                "fr": "Pas intéressé(e)",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
         },
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Well, the base is made of wood… Spanish cedar wood actually!",
-              "fr": "Eh bien, la base est en bois... En fait, c'est du cèdre espagnol !",
-              "es": "Well, the base is made of wood… Spanish cedar wood actually!"
-            }
-          },
-          {
-            "Type": "Image",
-            "Parameters": {
-              "Display": "FullScreenWidth",
-              "Source": "Web",
-              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533722872/2cedar_tree3.jpg"
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "It’s weird that this tree is called this… since it’s native to Central and South America!",
-              "fr": "C'est marrant que cet arbre s'appelle comme ça... car il est en réalité originaire d'Amérique centrale et d'Amérique du Sud",
-              "es": "It’s weird that this tree is called this… since it’s native to Central and South America!"
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "I guess that’s what happens when you invade a continent and name everything for yourself!",
-              "fr": "Je suppose que c'est ce qui arrive quand on envahit un continent et qu'on nomme tout soi-même !",
-              "es": "I guess that’s what happens when you invade a continent and name everything for yourself!"
-            }
-          }
-        ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "AztecSerpent2TellQuestion",
-          "ElementValue": "1",
-          "Commands": [
-            {
-              "Type": "Node",
-              "Id": "AztecSerpent2TellElse",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "What else?",
-                "fr": "Quoi d'autre ?",
-                "es": "¿Qué más?"
-              },
-              "Steps": [
+        {
+            "Type": "Node",
+            "Id": "AztecSerpent2Tell",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me!",
+                "fr": "Dis moi !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
                 {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "The turquoise mosaic is made from a stone mined at least 1600km North of where the Aztecs lived!",
-                    "fr": "La mosqaïque turquoise est faite à partir d'une pierre extaite à au moins 1600km de l'endroit où les Aztèques vivaient !",
-                    "es": "The turquoise mosaic is made from a stone mined at least 1600km North of where the Aztecs lived!"
-                  }
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, the base is made of wood… Spanish cedar wood actually!",
+                        "fr": "Eh bien, la base est en bois... En fait, c'est du cèdre espagnol !",
+                        "es": "",
+                        "zh": ""
+                    }
                 },
                 {
-                  "Type": "Image",
-                  "Parameters": {
-                    "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533642922/3location1.jpg"
-                  }
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533722872/2cedar_tree3.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s weird that this tree is called this… since it’s native to Central and South America!",
+                        "fr": "C'est marrant que cet arbre s'appelle comme ça... car il est en réalité originaire d'Amérique centrale et d'Amérique du Sud",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess that’s what happens when you invade a continent and name everything for yourself!",
+                        "fr": "Je suppose que c'est ce qui arrive quand on envahit un continent et qu'on nomme tout soi-même !",
+                        "es": "",
+                        "zh": ""
+                    }
                 }
-              ],
-              "LinksTo": {
+            ],
+            "LinksTo": {
                 "Type": "Node",
-                "Id": "AztecSerpent2TellElseQuestion",
+                "Id": "AztecSerpent2TellStep",
                 "ElementValue": "1",
                 "Commands": [
-                  {
-                    "Type": "Node",
-                    "Id": "AztecSerpent2TellElseFace",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "What about the face?",
-                      "fr": "Qu'en est-il de la tête ?",
-                      "es": "What about the face?"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Image",
-                        "Parameters": {
-                          "Display": "FullScreenWidth",
-                          "Source": "Web",
-                          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651934/3.2serpent_head.jpg"
+                    {
+                        "Type": "Node",
+                        "Id": "AztecSerpent2TellElse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What else?",
+                            "fr": "Quoi d'autre ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The turquoise mosaic is made from a stone mined at least 1600km North of where the Aztecs lived!",
+                                    "fr": "La mosqaïque turquoise est faite à partir d'une pierre extaite à au moins 1600km de l'endroit où les Aztèques vivaient !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533642922/3location1.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "AztecSerpent2TellElseStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "AztecSerpent2TellElseFace",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "What about the face?",
+                                        "fr": "Qu'en est-il de la tête ?",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Display": "FullScreenWidth",
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651934/3.2serpent_head.jpg"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AztecSerpent3"
+                                    }
+                                }
+                            ]
                         }
-                      }
-                    ],
-                    "LinksToFragment": {
-                      "FragmentPath": "AztecSerpent3"
                     }
-                  }
                 ]
-              }
             }
-          ]
         }
-      },
-      {
-        "Type": "Node",
-        "Id": "AztecSerpent2Not",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Not interested",
-          "fr": "Pas intéressé(e)",
-          "es": "No interesado/a"
-        },
-        "LinksToFragment": {
-            "FragmentPath": "AztecSerpentFeedback"
-        }
-      }
     ]
-  }
+}
