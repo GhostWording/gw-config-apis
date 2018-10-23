@@ -7,7 +7,8 @@
             "Label": {
                 "en": "who secretly made copies!",
                 "fr": "who secretly made copies!",
-                "es": "who secretly made copies!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!",
                 "fr": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!",
-                "es": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!"
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -27,7 +29,8 @@
             "CommandLabel": {
                 "en": "What a villain!",
                 "fr": "What a villain!",
-                "es": "What a villain!"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -35,7 +38,8 @@
                     "Label": {
                         "en": "The original was bought by a wealthy family, who had no idea that it was the real one!",
                         "fr": "The original was bought by a wealthy family, who had no idea that it was the real one!",
-                        "es": "The original was bought by a wealthy family, who had no idea that it was the real one!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -43,7 +47,8 @@
                     "Label": {
                         "en": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’",
                         "fr": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’",
-                        "es": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -51,7 +56,8 @@
                     "Label": {
                         "en": "It was only in 1959 that the deception was uncovered by a team of scholars!",
                         "fr": "It was only in 1959 that the deception was uncovered by a team of scholars!",
-                        "es": "It was only in 1959 that the deception was uncovered by a team of scholars!"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -61,13 +67,14 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "HolyThorn4VillainAmazing1",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Amazing!",
                             "fr": "Amazing!",
-                            "es": "Amazing!"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -75,7 +82,8 @@
                                 "Label": {
                                     "en": "Right! You can find it in the British Museum, room 45!",
                                     "fr": "Right! You can find it in the British Museum, room 45!",
-                                    "es": "Right! You can find it in the British Museum, room 45!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
