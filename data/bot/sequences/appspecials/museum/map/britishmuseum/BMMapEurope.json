@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "BMMapEurope",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here are the areas about Europe!",
+                "fr": "Voici les zones sur l'Europe !",
+                "es": "Here are the areas about Europe!",
+                "zh": "Here are the areas about Europe!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pick one to see what artworks I have stories for!",
+                "fr": "Choisis en une pour découvrir les oeuvres pour lesquelles j'ai des histoires !",
+                "es": "Pick one to see what artworks I have stories for!",
+                "zh": "Pick one to see what artworks I have stories for!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapEuropeFloor0",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Ground Floor",
+                "fr": "Rez-de-chaussée",
+                "es": "Ground Floor",
+                "zh": "Ground Floor"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapEuropeF0"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapEuropeFloor3",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Floor 3",
+                "fr": "3e étage",
+                "es": "Floor 3",
+                "zh": "Floor 3"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Richelieu_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapEuropeF3"
+            }
+        }
+    ]
+}
