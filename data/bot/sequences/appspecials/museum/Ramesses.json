@@ -7,7 +7,8 @@
             "Label": {
                 "en": "If you were a king and wanted to make yourself look as powerful and important as possible, what would you build?",
                 "fr": "If you were a king and wanted to make yourself look as powerful and important as possible, what would you build?",
-                "es": "If you were a king and wanted to make yourself look as powerful and important as possible, what would you build?"
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -19,7 +20,8 @@
             "CommandLabel": {
                 "en": "A huge statue",
                 "fr": "A huge statue",
-                "es": "A huge statue"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -27,7 +29,8 @@
                     "Label": {
                         "en": "A good idea, but why not two?!",
                         "fr": "A good idea, but why not two?!",
-                        "es": "A good idea, but why not two?!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -35,97 +38,13 @@
                     "Label": {
                         "en": "That’s what Ramesses II did!",
                         "fr": "That’s what Ramesses II did!",
-                        "es": "That’s what Ramesses II did!"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "This head from the British museum is one of a pair which once stood together here",
-                        "fr": "This head from the British museum is one of a pair which once stood together here",
-                        "es": "This head from the British museum is one of a pair which once stood together here"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "wJP3M3kPeKJkD6XVCG"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Now, you may have noticed that I said ‘once’ stood together here",
-                        "fr": "Now, you may have noticed that I said ‘once’ stood together here",
-                        "es": "Now, you may have noticed that I said ‘once’ stood together here"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "RamessesOneChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "RamessesOneWhat",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "What happened?",
-                            "fr": "What happened?",
-                            "es": "What happened?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                                    "fr": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                                    "es": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                                    "fr": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                                    "es": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Ramesses2"
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "RamessesOneNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Not interested",
-                            "fr": "Not interested",
-                            "es": "Not interested"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Ok, let’s move on!",
-                                    "fr": "Ok, let’s move on!",
-                                    "es": "Ok, let’s move on!"
-                                }
-                            }
-                        ]
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Ramesses2"
             }
         },
         {
@@ -135,7 +54,8 @@
             "CommandLabel": {
                 "en": "Two huge statues",
                 "fr": "Two huge statues",
-                "es": "Two huge statues"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -143,97 +63,13 @@
                     "Label": {
                         "en": "Well, that is exactly what Ramesses II of Egypt did in the 13th Century BC",
                         "fr": "Well, that is exactly what Ramesses II of Egypt did in the 13th Century BC",
-                        "es": "Well, that is exactly what Ramesses II of Egypt did in the 13th Century BC"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "This head from the British museum is one of a pair which once stood together here",
-                        "fr": "This head from the British museum is one of a pair which once stood together here",
-                        "es": "This head from the British museum is one of a pair which once stood together here"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "wJP3M3kPeKJkD6XVCG"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Now, you may have noticed that I said ‘once’ stood together here",
-                        "fr": "Now, you may have noticed that I said ‘once’ stood together here",
-                        "es": "Now, you may have noticed that I said ‘once’ stood together here"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "RamessesTwoChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "RamessesTwoWhat",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "What happened?",
-                            "fr": "What happened?",
-                            "es": "What happened?"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                                    "fr": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                                    "es": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                                    "fr": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                                    "es": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Ramesses2"
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "RamessesTwoNot",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Not interested",
-                            "fr": "Not interested",
-                            "es": "Not interested"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Ok, let’s move on!",
-                                    "fr": "Ok, let’s move on!",
-                                    "es": "Ok, let’s move on!"
-                                }
-                            }
-                        ]
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "Ramesses2"
             }
         }
     ]
