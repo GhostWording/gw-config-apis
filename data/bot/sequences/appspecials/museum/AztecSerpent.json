@@ -15,7 +15,8 @@
             "Label": {
                 "en": "Would you call this one snake, or two? 🤔",
                 "fr": "Est-ce que tu dirais qu'il y a un ou deux serpents ? 🤔",
-                "es": "Would you call this one snake, or two? 🤔"
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -27,7 +28,8 @@
             "CommandLabel": {
                 "en": "One",
                 "fr": "Un",
-                "es": "Uno"
+                "es": "Uno",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -35,7 +37,8 @@
                     "Label": {
                         "en": "I think I’d agree",
                         "fr": "Je pense que je suis d'accord",
-                        "es": "I think I’d agree"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -50,7 +53,8 @@
             "CommandLabel": {
                 "en": "Two",
                 "fr": "Deux",
-                "es": "Dos"
+                "es": "Dos",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -58,7 +62,8 @@
                     "Label": {
                         "en": "hmm...",
                         "fr": "hmm...",
-                        "es": "hmm..."
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
