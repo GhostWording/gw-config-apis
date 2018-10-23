@@ -7,7 +7,8 @@
             "Label": {
                 "en": "Really, it’s amazing that this piece has survived all this time.",
                 "fr": "Really, it’s amazing that this piece has survived all this time.",
-                "es": "Really, it’s amazing that this piece has survived all this time."
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "It has some of the finest jewels in the world embedded inside!",
                 "fr": "It has some of the finest jewels in the world embedded inside!",
-                "es": "It has some of the finest jewels in the world embedded inside!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -37,7 +39,8 @@
             "Label": {
                 "en": "...",
                 "fr": "...",
-                "es": "..."
+                "es": "...",
+                "zh": "..."
             }
         }
     ],
@@ -49,7 +52,8 @@
             "CommandLabel": {
                 "en": "So beautiful",
                 "fr": "So beautiful",
-                "es": "So beautiful"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -57,7 +61,8 @@
                     "Label": {
                         "en": "Right! They definitely spared no expense making it...",
                         "fr": "Right! They definitely spared no expense making it...",
-                        "es": "Right! They definitely spared no expense making it..."
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -65,7 +70,8 @@
                     "Label": {
                         "en": "There’s a cool story behind this item too: want to hear it?",
                         "fr": "There’s a cool story behind this item too: want to hear it?",
-                        "es": "There’s a cool story behind this item too: want to hear it?"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -76,12 +82,27 @@
                 "Commands": [
                     {
                         "Type": "Node",
+                        "Id": "HolyThorn3BeautifulNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "No thanks",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "HolyThornFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
                         "Id": "HolyThorn3BeautifulSure",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Sure!",
                             "fr": "Sure!",
-                            "es": "Sure!"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -89,22 +110,13 @@
                                 "Label": {
                                     "en": "Well, in the 1860s it was sent to an art dealer called Salomon Weininger to be repaired…",
                                     "fr": "Well, in the 1860s it was sent to an art dealer called Salomon Weininger to be repaired…",
-                                    "es": "Well, in the 1860s it was sent to an art dealer called Salomon Weininger to be repaired…"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
                         ],
                         "LinksToFragment": {
                             "FragmentPath": "HolyThorn4"
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "HolyThorn3BeautifulNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "No thanks",
-                            "es": "No thanks"
                         }
                     }
                 ]
