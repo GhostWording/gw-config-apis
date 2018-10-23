@@ -82,6 +82,20 @@
                 "Commands": [
                     {
                         "Type": "Node",
+                        "Id": "CaryatidsHowNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "Pas intéressé(e)",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Exit"
+                        }
+                    },
+                    {
+                        "Type": "Node",
                         "Id": "CaryatidsHowHear",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -148,20 +162,6 @@
                                     }
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "CaryatidsHowNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "Pas intéressé(e)",
-                            "es": "",
-                            "zh": ""
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "CaryatidsFeedback"
                         }
                     }
                 ]
