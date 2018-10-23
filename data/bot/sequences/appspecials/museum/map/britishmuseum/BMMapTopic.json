@@ -1,0 +1,119 @@
+{
+    "Type": "Node",
+    "Id": "BMMapTopic",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The British Museum is divided thematically",
+                "fr": "The British Museum is divided thematically",
+                "es": "The British Museum is divided thematically",
+                "zh": "The British Museum is divided thematically"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Try picking a topic to get your bearings!",
+                "fr": "Try picking a topic to get your bearings!",
+                "es": "Try picking a topic to get your bearings!",
+                "zh": "Try picking a topic to get your bearings!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapTopicGreece",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Greece & Rome",
+                "fr": "Greece & Rome",
+                "es": "Greece & Rome",
+                "zh": "Greece & Rome"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapGreece"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapTopicEgypt",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Egypt",
+                "fr": "Egypt",
+                "es": "Egypt",
+                "zh": "Egypt"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Richelieu_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapEgypt"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapTopicMesopotamia",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Mesopotamia",
+                "fr": "Mesopotamia",
+                "es": "Mesopotamia",
+                "zh": "Mesopotamia"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Sully_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapMesopotamia"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapTopicOther",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Other",
+                "fr": "Other",
+                "es": "Other",
+                "zh": "Other"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Sully_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapOther"
+            }
+        }
+    ]
+}
