@@ -32,6 +32,20 @@
     "Commands": [
         {
             "Type": "Node",
+            "Id": "Caryatids2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "CaryatidsFeedback"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "Caryatids2Tell",
             "ElementValue": "1",
             "CommandLabel": {
@@ -122,7 +136,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Talk about a bad hair day!",
-                                    "fr": "Tu parles d'un mauvais jour !",
+                                    "fr": "Tu parles d'une vie !",
                                     "es": "Talk about a bad hair day!"
                                 }
                             }
@@ -132,20 +146,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Caryatids2Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "J'en sais assez",
-                "es": "",
-                "zh": ""
-            },
-            "LinksToFragment": {
-                "FragmentPath": "CaryatidsFeedback"
             }
         }
     ]
