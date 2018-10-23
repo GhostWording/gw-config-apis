@@ -1,231 +1,104 @@
 {
-  "Type": "Node",
-  "Id": "Ramesses2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "They even made this hole in the statue in the process somehow…",
-        "fr": "They even made this hole in the statue in the process somehow…",
-        "es": "They even made this hole in the statue in the process somehow…"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Display": "FullScreenWidth",
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_1_bis.jpg"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Ramesses2Nasty",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Nasty French",
-        "fr": "Nasty French",
-        "es": "Nasty French"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Ramesses2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
-            "fr": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
-            "es": "But this particular statue proved rather difficult to snatch, mainly because it was so big"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_2_dim.jpg"
-          }
-        }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Ramesses2NastyChoice",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Node",
-            "Id": "Ramesses2NastyTell",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Tell me more!",
-              "fr": "Tell me more!",
-              "es": "Tell me more!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
-                  "fr": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
-                  "es": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Display": "FullScreenWidth",
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "The project took 17 days and 130 men to complete!",
-                  "fr": "The project took 17 days and 130 men to complete!",
-                  "es": "The project took 17 days and 130 men to complete!"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "Ramesses2NastyTellChoice",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "Ramesses2NastyTellWhere",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Where can I find it?",
-                    "fr": "Where can I find it?",
-                    "es": "Where can I find it?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here!",
-                        "fr": "Here!",
-                        "es": "Here!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
+            "Type": "Text",
+            "Label": {
+                "en": "This head from the British museum is one of a pair which once stood together here",
+                "fr": "This head from the British museum is one of a pair which once stood together here",
+                "es": "",
+                "zh": ""
             }
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Ramesses2Bravo",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Bravo! 🇫🇷",
-        "fr": "Bravo! 🇫🇷",
-        "es": "Bravo! 🇫🇷"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
-            "fr": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
-            "es": "But this particular statue proved rather difficult to snatch, mainly because it was so big"
-          }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_2_dim.jpg"
-          }
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "wJP3M3kPeKJkD6XVCG"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now, you may have noticed that I said ‘once’ stood together here",
+                "fr": "Now, you may have noticed that I said ‘once’ stood together here",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksTo": {
+    ],
+    "LinksTo": {
         "Type": "Node",
-        "Id": "Ramesses2BravoChoice",
+        "Id": "Ramesses2Step",
         "ElementValue": "1",
         "Commands": [
-          {
-            "Type": "Node",
-            "Id": "Ramesses2BravoTell",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Tell me more!",
-              "fr": "Tell me more!",
-              "es": "Tell me more!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
-                  "fr": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
-                  "es": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "The project took 17 days and 130 men to complete!",
-                  "fr": "The project took 17 days and 130 men to complete!",
-                  "es": "The project took 17 days and 130 men to complete!"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "Ramesses2BravoTellChoice",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "Ramesses2BravoTellWhere",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Where can I find it?",
-                    "fr": "Where can I find it?",
-                    "es": "Where can I find it?"
-                  },
-                  "Steps": [
+            {
+                "Type": "Node",
+                "Id": "Ramesses2No",
+                "ElementValue": "1",
+                "CommandLabel": {
+                    "en": "Not interested",
+                    "fr": "Not interested",
+                    "es": "",
+                    "zh": ""
+                },
+                "Steps": [
                     {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here!",
-                        "fr": "Here!",
-                        "es": "Here!"
-                      }
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Ok, let’s move on!",
+                            "fr": "Ok, let’s move on!",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "RamessesFeedback"
+                }
+            },
+            {
+                "Type": "Node",
+                "Id": "Ramesses2What",
+                "ElementValue": "1",
+                "CommandLabel": {
+                    "en": "What happened?",
+                    "fr": "What happened?",
+                    "es": "",
+                    "zh": ""
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
+                            "fr": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
+                            "es": "",
+                            "zh": ""
+                        }
                     },
                     {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                      }
+                        "Type": "Text",
+                        "Label": {
+                            "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
+                            "fr": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
+                            "es": "",
+                            "zh": ""
+                        }
                     }
-                  ]
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "Ramesses3"
                 }
-              ]
             }
-          }
         ]
-      }
     }
-  ]
 }
