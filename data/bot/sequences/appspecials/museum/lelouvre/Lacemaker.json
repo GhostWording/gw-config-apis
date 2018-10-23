@@ -120,7 +120,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "LacemakerShowTinyNo",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -128,6 +128,9 @@
                                         "fr": "Non merci !",
                                         "es": "¡No, gracias!",
                                         "zh": "不用了，谢谢！"
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Exit"
                                     }
                                 },
                                 {
