@@ -1,0 +1,106 @@
+{
+    "Type": "Node",
+    "Id": "BMMapGreeceF3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here's the Greece and Rome section on the third floor",
+                "fr": "Here's the Greece and Rome section on the third floor",
+                "es": "Here's the Greece and Rome section on the third floor",
+                "zh": "Here's the Greece and Rome section on the third floor"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 370,
+                "Height": 367,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666728/The%20Lacemaker/Lacemaker4.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pick what item you want to hear about!",
+                "fr": "Pick what item you want to hear about!",
+                "es": "Pick what item you want to hear about!",
+                "zh": "Pick what item you want to hear about!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapGreeceF3Portland",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Portland Vase",
+                "fr": "Portland Vase",
+                "es": "Portland Vase",
+                "zh": "Portland Vase"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapGreeceF3PortlandStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapGreeceF3PortlandGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "Let's go!",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "PortlandVase"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
