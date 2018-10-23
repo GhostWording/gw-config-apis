@@ -25,13 +25,13 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "BMMapEgyptFloor1",
+            "Id": "BMMapEgyptFloor0",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Floor 1",
-                "fr": "1er étage",
-                "es": "Floor 1",
-                "zh": "Floor 1"
+                "en": "Ground Floor",
+                "fr": "Rez-de-chaussée",
+                "es": "Ground Floor",
+                "zh": "Ground Floor"
             },
             "CarouselElements": {
                 "Title": {
@@ -43,7 +43,7 @@
                 }
             },
             "LinksToFragment": {
-                "FragmentPath": "BMMapEgyptF1"
+                "FragmentPath": "BMMapEgyptF0"
             }
         },
         {
