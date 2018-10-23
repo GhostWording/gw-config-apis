@@ -1,0 +1,181 @@
+{
+    "Type": "Node",
+    "Id": "BMMapAmericaF0",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here's the Greece and Rome section on the first floor",
+                "fr": "Voici la section à propos de la Grèce et de Rome au 1er étage",
+                "es": "Here's the Greece and Rome section on the first floor",
+                "zh": "Here's the Greece and Rome section on the first floor"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 370,
+                "Height": 367,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666728/The%20Lacemaker/Lacemaker4.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pick what item you want to hear about!",
+                "fr": "Choisis l'oeuvre que tu veux découvrir !",
+                "es": "Pick what item you want to hear about!",
+                "zh": "Pick what item you want to hear about!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapAmericaF0AztecSerpent",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Aztec Serpent",
+                "fr": "Serpent aztèque",
+                "es": "Serpiente azteca",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 27",
+                    "fr": "Salle 27",
+                    "es": "Sala 27",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapAmericaF0AztecSerpentStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapAmericaF0AztecSerpentGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "AztecSerpent"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapAmericaF0Hoa",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hoa Hakananai'a",
+                "fr": "Hoa Hakananai'a",
+                "es": "Hoa Hakananai'a",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 24",
+                    "fr": "Salle 24",
+                    "es": "Sala 24",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapAmericaF0HoaStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapAmericaF0HoaGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Hoa"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
