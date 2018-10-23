@@ -1,70 +1,75 @@
 {
-  "Type": "Node",
-  "Id": "BeninMask4",
-  "Steps": [
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Display":"FullScreenWidth",
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248289/Benin_Mask_2.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "That’s some serious craftsmanship needed to make this!",
-        "fr": "Il faut un sacré savoir-faire pour réaliser cela !",
-        "es": "That’s some serious craftsmanship needed to make this!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "BeninMask4Impressive",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "So impressive",
-        "fr": "Très impressionnant",
-        "es": "So impressive"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "BeninMask4",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Right?!",
-            "fr": "N'est-ce pas ?!",
-            "es": "Right?!"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "BeninMask5"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "BeninMask4Could",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "I could do that",
-        "fr": "Je pourrais faire pareil",
-        "es": "I could do that"
-      },
-      "Steps": [
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248289/Benin_Mask_2.jpg"
+            }
+        },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Make one for me!",
-            "fr": "Tu peux m'en faire un alors ?",
-            "es": "Make one for me!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "That’s some serious craftsmanship needed to make this!",
+                "fr": "Il faut un sacré savoir-faire pour réaliser cela !",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "BeninMask5"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BeninMask4Impressive",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So impressive",
+                "fr": "Très impressionnant",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right?!",
+                        "fr": "N'est-ce pas ?!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BeninMask4Could",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I could do that",
+                "fr": "Je pourrais faire pareil",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Make one for me!",
+                        "fr": "Tu peux m'en faire un alors ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask5"
+            }
+        }
+    ]
 }
