@@ -1,0 +1,53 @@
+{
+    "Type": "Node",
+    "Id": "Ramesses3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They even made this hole in the statue in the process somehow…",
+                "fr": "They even made this hole in the statue in the process somehow…",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_1_bis.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Ramesses3Nasty",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nasty French",
+                "fr": "Nasty French",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Ramesses4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Ramesses3Bravo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Bravo! 🇫🇷",
+                "fr": "Bravo! 🇫🇷",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Ramesses4"
+            }
+        }
+    ]
+}
