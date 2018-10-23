@@ -7,7 +7,8 @@
             "Label": {
                 "en": "Notice how he has a beard here in the bust…",
                 "fr": "Notice how he has a beard here in the bust…",
-                "es": "Notice how he has a beard here in the bust…"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -23,7 +24,8 @@
             "Label": {
                 "en": "…",
                 "fr": "…",
-                "es": "…"
+                "es": "...",
+                "zh": "..."
             }
         }
     ],
@@ -35,7 +37,8 @@
             "CommandLabel": {
                 "en": "So what?",
                 "fr": "So what?",
-                "es": "So what?"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -43,7 +46,8 @@
                     "Label": {
                         "en": "Well, no emperors or statesmen to this point had such bold facial hair!",
                         "fr": "Well, no emperors or statesmen to this point had such bold facial hair!",
-                        "es": "Well, no emperors or statesmen to this point had such bold facial hair!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -51,7 +55,8 @@
                     "Label": {
                         "en": "He’s nearly always shown with a beard, even if his face is slightly different!",
                         "fr": "He’s nearly always shown with a beard, even if his face is slightly different!",
-                        "es": "He’s nearly always shown with a beard, even if his face is slightly different!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -66,7 +71,8 @@
                     "Label": {
                         "en": "Apparently, this popularised the style around the Roman Empire",
                         "fr": "Apparently, this popularised the style around the Roman Empire",
-                        "es": "Apparently, this popularised the style around the Roman Empire"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -82,7 +88,8 @@
                         "CommandLabel": {
                             "en": "Oh, really?",
                             "fr": "Oh, really?",
-                            "es": "Oh, really?"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -90,7 +97,8 @@
                                 "Label": {
                                     "en": "Right! Since every Roman would have been trading coins with a bearded emperor stamped on them!",
                                     "fr": "Right! Since every Roman would have been trading coins with a bearded emperor stamped on them!",
-                                    "es": "Right! Since every Roman would have been trading coins with a bearded emperor stamped on them!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -98,7 +106,8 @@
                                 "Label": {
                                     "en": "It’s just like a fashion magazine!",
                                     "fr": "It’s just like a fashion magazine!",
-                                    "es": "It’s just like a fashion magazine!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -114,7 +123,8 @@
                                 "Label": {
                                     "en": "Aside from that, he was also very well travelled!",
                                     "fr": "Aside from that, he was also very well travelled!",
-                                    "es": "Aside from that, he was also very well travelled!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -122,7 +132,8 @@
                                 "Label": {
                                     "en": "Like an Instagram celebrity!",
                                     "fr": "Like an Instagram celebrity!",
-                                    "es": "Like an Instagram celebrity!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
                         ],
@@ -133,12 +144,27 @@
                             "Commands": [
                                 {
                                     "Type": "Node",
+                                    "Id": "Hadrian3WhatReallyEnough",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That’s enough",
+                                        "fr": "That’s enough",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "HadrianFeedback"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
                                     "Id": "Hadrian3WhatReallyTell",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Tell me!",
                                         "fr": "Tell me!",
-                                        "es": "Tell me!"
+                                        "es": "",
+                                        "zh": ""
                                     },
                                     "Steps": [
                                         {
@@ -146,22 +172,13 @@
                                             "Label": {
                                                 "en": "He was nearly constantly on the move…",
                                                 "fr": "He was nearly constantly on the move…",
-                                                "es": "He was nearly constantly on the move…"
+                                                "es": "",
+                                                "zh": ""
                                             }
                                         }
                                     ],
                                     "LinksToFragment": {
                                         "FragmentPath": "Hadrian4"
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "Hadrian3WhatReallyEnough",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "That’s enough",
-                                        "fr": "That’s enough",
-                                        "es": "That’s enough"
                                     }
                                 }
                             ]
