@@ -1,67 +1,72 @@
 {
-  "Type": "Node",
-  "Id": "Rosetta3",
-  "Steps": [
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534331173/PtolemyV.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "His mother, Arsinoe, was murdered in a plot after his father died, making Ptolemy king at only 5 years old!",
-        "fr": "Sa mère, Arsinoé, a été assassinée après la mort de son père à cause d'un complot, faisant de Ptolémée le roi à seulement 5 ans !",
-        "es": "His mother, Arsinoe, was murdered in a plot after his father died, making Ptolemy king at only 5 years old!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Oh, and his parents were also brother and sister… that’s one messed up family tree!",
-        "fr": "Oh, et ses parents étaient aussi frères et soeurs... c'est un sacré arbre généalogique !",
-        "es": "Oh, and his parents were also brother and sister… that’s one messed up family tree!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Rosetta3Weird",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That’s weird",
-        "fr": "C'est étrange",
-        "es": "That’s weird"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Rosetta3",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Yeah... anyway...",
-            "fr": "Oui en effet... bref...",
-            "es": "Yeah... anyway..."
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534331173/PtolemyV.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "His mother, Arsinoe, was murdered in a plot after his father died, making Ptolemy king at only 5 years old!",
+                "fr": "Sa mère, Arsinoé, a été assassinée après la mort de son père à cause d'un complot, faisant de Ptolémée le roi à seulement 5 ans !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Oh, and his parents were also brother and sister… that’s one messed up family tree!",
+                "fr": "Oh, et ses parents étaient aussi frères et soeurs... c'est un sacré arbre généalogique !",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta4"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Rosetta3Then",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Then what?!",
-        "fr": "Et ensuite ?!",
-        "es": "Then what?!"
-      },
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta4"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Rosetta3Weird",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s weird",
+                "fr": "C'est étrange",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yeah... anyway...",
+                        "fr": "Oui en effet... bref...",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Rosetta3Then",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Then what?!",
+                "fr": "Et ensuite ?!",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta4"
+            }
+        }
+    ]
 }
