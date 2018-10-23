@@ -1,0 +1,201 @@
+{
+    "Type": "Node",
+    "Id": "AgnesCup3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Henry VIII even had it slightly changed to better fit with his propaganda of England being a peerless empire!",
+                "fr": "Henry VIII l'avait même faite légèrement modifiée pour qu'elle corresponde mieux à sa propagande d'une Angleterre qui serait un empire sans égal !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944052/RoyalCup_3.3.jpg"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944052/RoyalCup_3.4.jpg"
+            }
+        }        
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AgnesCup3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCupFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AgnesCup3Keep",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Keep going!",
+                "fr": "Continue !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It passed down through the Tudor family, until James I gave it to the Spanish…",
+                        "fr": "Elle est passée par la famille Tudor, jusqu'à ce que James I la donne à l'Espagnol…",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294584/RoyalCup4_Velasco.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They gave it to a nunnery in Spain, where it remained for quite a while…",
+                        "fr": "Ils l'ont ensuite donnée à un couvent en Espagne, où elle est restée assez longtemps…",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3486W9RaI4XRG9J1Et"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "...",
+                        "fr": "...",
+                        "es": "..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AgnesCup3KeepStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AgnesCup3KeepThen",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "And then?",
+                            "fr": "Et ensuite ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The nuns eventually sold it to a French art dealer because they were short on cash",
+                                    "fr": "Les nonnes l'ont finalement vendue à un marchand d'art français car elles avaient besoin d'argent",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "After some trading, a group of Englishmen pooled their resources and bought it for the British museum",
+                                    "fr": "Après quelques échanges commerciaux, des Anglais ont mis leurs ressources en commun et l'ont achetée pour le compte du British Museum",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "in order to stop the cup being bought by J.P. Morgan of America",
+                                    "fr": "afin d'éviter que la coupe ne soit achetée par l'Américain J.P. Morgan",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532612822/RoyalCup_5.png"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "...",
+                                    "fr": "...",
+                                    "es": "...",
+                                    "zh": "..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "AgnesCup3KeepThenStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "AgnesCup3KeepThenThank",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Thank goodness",
+                                        "fr": "Dieu merci",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It’s been here ever since!",
+                                                "fr": "Depuis, elle est exposée ici !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532942689/RoyalCup_7.png"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AgnesCupFeedback"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
