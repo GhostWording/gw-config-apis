@@ -1,149 +1,164 @@
 {
-  "Type": "Node",
-  "Id": "DavidVases2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
-        "fr": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
-        "es": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see",
-        "fr": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see",
-        "es": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "DavidVases2More",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Tell me more!",
-        "fr": "Tell me more!",
-        "es": "Tell me more!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "DavidVases2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "The blue and white colour scheme has stayed popular until the modern day!",
-            "fr": "The blue and white colour scheme has stayed popular until the modern day!",
-            "es": "The blue and white colour scheme has stayed popular until the modern day!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
+                "fr": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
+                "es": "",
+                "zh": ""
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "It might remind you of modern porcelain dishes or tea sets",
-            "fr": "It might remind you of modern porcelain dishes or tea sets",
-            "es": "It might remind you of modern porcelain dishes or tea sets"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "After all, that’s why porcelain is also called “china”!",
-            "fr": "After all, that’s why porcelain is also called “china”!",
-            "es": "After all, that’s why porcelain is also called “china”!"
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Display": "FullScreenWidth",
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739327/4davidvase_porcelain.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "...",
-            "fr": "...",
-            "es": "..."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see",
+                "fr": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "DavidVases2MoreChoice",
-        "ElementValue": "1",
-        "Commands": [
-          {
+    ],
+    "Commands": [
+        {
             "Type": "Node",
-            "Id": "DavidVases2MoreElse",
+            "Id": "DavidVases2Enough",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "What else?",
-              "fr": "What else?",
-              "es": "What else?"
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidVasesFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DavidVases2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Tell me more!",
+                "es": "",
+                "zh": ""
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!",
-                  "fr": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!",
-                  "es": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!"
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The blue and white colour scheme has stayed popular until the modern day!",
+                        "fr": "The blue and white colour scheme has stayed popular until the modern day!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It might remind you of modern porcelain dishes or tea sets",
+                        "fr": "It might remind you of modern porcelain dishes or tea sets",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After all, that’s why porcelain is also called “china”!",
+                        "fr": "After all, that’s why porcelain is also called “china”!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739327/4davidvase_porcelain.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "...",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
                 }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Display": "FullScreenWidth",
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739441/5davidvase_map.jpg"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "...",
-                  "fr": "...",
-                  "es": "..."
-                }
-              }
             ],
             "LinksTo": {
-              "Type": "Node",
-              "Id": "DavidVases2MoreElseChoice",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "DavidVases2MoreElseVast",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "That’s vast!",
-                    "fr": "That’s vast!",
-                    "es": "That’s vast!"
-                  },
-                  "LinksToFragment": {
-                    "FragmentPath": "DavidVases3"
-                  }
-                }
-              ]
+                "Type": "Node",
+                "Id": "DavidVases2MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "DavidVases2MoreElse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What else?",
+                            "fr": "What else?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!",
+                                    "fr": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739441/5davidvase_map.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "...",
+                                    "fr": "...",
+                                    "es": "...",
+                                    "zh": "..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "DavidVases2MoreElseStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "DavidVases2MoreElseVast",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That’s vast!",
+                                        "fr": "That’s vast!",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "DavidVases3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "DavidVases2Enough",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That’s enough",
-        "fr": "That’s enough",
-        "es": "That’s enough"
-      }
-    }
-  ]
+        }
+    ]
 }
