@@ -1,62 +1,67 @@
 {
-  "Type": "Node",
-  "Id": "HolyThorn",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "What if I told you I know the location of at least one thorn from Jesus’ Crown of Thorns?",
-        "fr": "What if I told you I know the location of at least one thorn from Jesus’ Crown of Thorns?",
-        "es": "What if I told you I know the location of at least one thorn from Jesus’ Crown of Thorns?"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "HolyThornWhere",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Where?!",
-        "fr": "Where?!",
-        "es": "Where?!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "HolyThorn",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "There’s one in this reliquary!",
-            "fr": "There’s one in this reliquary!",
-            "es": "There’s one in this reliquary!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "What if I told you I know the location of at least one thorn from Jesus’ Crown of Thorns?",
+                "fr": "What if I told you I know the location of at least one thorn from Jesus’ Crown of Thorns?",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "HolyThorn2"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "HolyThornDont",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Don’t believe you",
-        "fr": "Don’t believe you",
-        "es": "Don’t believe you"
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "There’s one in this reliquary!",
-            "fr": "There’s one in this reliquary!",
-            "es": "There’s one in this reliquary!"
-          }
+            "Type": "Node",
+            "Id": "HolyThornWhere",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Where?!",
+                "fr": "Where?!",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There’s one in this reliquary!",
+                        "fr": "There’s one in this reliquary!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "HolyThorn2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "HolyThornDont",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Don’t believe you",
+                "fr": "Don’t believe you",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There’s one in this reliquary!",
+                        "fr": "There’s one in this reliquary!",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "HolyThorn2"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "HolyThorn2"
-      }
-    }
-  ]
+    ]
 }
