@@ -14,7 +14,8 @@
             "Label": {
                 "en": "We think he visited nearly every corner of the empire at least once!",
                 "fr": "We think he visited nearly every corner of the empire at least once!",
-                "es": "We think he visited nearly every corner of the empire at least once!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -22,19 +23,21 @@
             "Label": {
                 "en": "Talk about air miles!",
                 "fr": "Talk about air miles!",
-                "es": "Talk about air miles!"
+                "es": "",
+                "zh": ""
             }
         }
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "Hadrian4Else",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Anything else?",
                 "fr": "Anything else?",
-                "es": "Anything else?"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -42,7 +45,8 @@
                     "Label": {
                         "en": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
                         "fr": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
-                        "es": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -50,7 +54,8 @@
                     "Label": {
                         "en": "It was found in the Thames, after all!",
                         "fr": "It was found in the Thames, after all!",
-                        "es": "It was found in the Thames, after all!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -65,7 +70,8 @@
                     "Label": {
                         "en": "It hasn’t travelled far! It’s in the British Museum, room 49!",
                         "fr": "It hasn’t travelled far! It’s in the British Museum, room 49!",
-                        "es": "It hasn’t travelled far! It’s in the British Museum, room 49!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -75,7 +81,10 @@
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534248109/Hadrian_BMmap.jpg"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "HadrianFeedback"
+            }
         }
     ]
 }
