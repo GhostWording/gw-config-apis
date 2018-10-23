@@ -48,6 +48,31 @@
     "Commands": [
         {
             "Type": "Node",
+            "Id": "BerlinVolute2YesNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
+                        "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BerlinVoluteFeedback"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "BerlinVolute2Yes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -138,6 +163,31 @@
                             "Id": "BerlinVolute2YesContinueStep",
                             "ElementValue": "1",
                             "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "BerlinVolute2YesContinueNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thanks",
+                                        "fr": "Non merci",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
+                                                "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "BerlinVoluteFeedback"
+                                    }
+                                },
                                 {
                                     "Type": "Node",
                                     "Id": "BerlinVolute2YesContinueYes",
@@ -328,61 +378,11 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "Type": "Node",
-                                    "Id": "BerlinVolute2YesContinueNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "No thanks",
-                                        "fr": "Non merci",
-                                        "es": "",
-                                        "zh": ""
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
-                                                "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
-                                                "es": "",
-                                                "zh": ""
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "BerlinVoluteFeedback"
-                                    }
                                 }
                             ]
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "BerlinVolute2YesNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "No thanks",
-                "fr": "J'en sais assez",
-                "es": "",
-                "zh": ""
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
-                        "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
-                        "es": "",
-                        "zh": ""
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "BerlinVoluteFeedback"
             }
         }
     ]
