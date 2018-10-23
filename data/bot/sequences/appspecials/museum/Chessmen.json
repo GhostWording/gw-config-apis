@@ -1,69 +1,74 @@
 {
-  "Type": "Node",
-  "Id": "Chessmen",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Ever played chess with pieces made from walrus tusks or whale teeth?",
-        "fr": "As-tu déjà joué aux échecs avec des pièces faites en défenses de morse ou en dents de baleine ?",
-        "es": "Ever played chess with pieces made from walrus tusks or whale teeth?"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532943086/Lewis0.jpg"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "ChessmenNever",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Never",
-        "fr": "Jamais",
-        "es": "Never"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Chessmen",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I’m not surprised, it’s rare!",
-            "fr": "Ca ne me surprend pas, c'est rare !",
-            "es": "I’m not surprised, it’s rare!"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Chessmen2"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "ChessmenYes",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Yes",
-        "fr": "Oui",
-        "es": "Yes"
-      },
-      "Steps": [
+            "Type": "Text",
+            "Label": {
+                "en": "Ever played chess with pieces made from walrus tusks or whale teeth?",
+                "fr": "As-tu déjà joué aux échecs avec des pièces faites en défenses de morse ou en dents de baleine ?",
+                "es": "",
+                "zh": ""
+            }
+        },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Oh really? Was it with a set like this?",
-            "fr": "Oh vraiment ? Est-ce que c'était un jeu comme celui-ci ?",
-            "es": "Oh really? Was it with a set like this?"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532943086/Lewis0.jpg"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Chessmen2"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ChessmenNever",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Never",
+                "fr": "Jamais",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m not surprised, it’s rare!",
+                        "fr": "Ca ne me surprend pas, c'est rare !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Chessmen2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChessmenYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh really? Was it with a set like this?",
+                        "fr": "Oh vraiment ? Est-ce que c'était un jeu comme celui-ci ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Chessmen2"
+            }
+        }
+    ]
 }
