@@ -7,7 +7,8 @@
             "Label": {
                 "en": "It’s from 16th Century Benin.",
                 "fr": "Il vient du Bénin du XVIe siècle.",
-                "es": "It’s from 16th Century Benin."
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -22,7 +23,8 @@
             "Label": {
                 "en": "It allegedly belonged to King Esigie, and is said to represent his mother!",
                 "fr": "Il appartiendrait au roi Esigie, et représenterait sa mère !",
-                "es": "It allegedly belonged to King Esigie, and is said to represent his mother!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -30,34 +32,12 @@
             "Label": {
                 "en": "We know it must have been a great honour, since women were rarely represented in Benin’s art!",
                 "fr": "On sait que cela a dû représenter un grand honneur, les femmes étant rarement représentés dans l'art du Bénin",
-                "es": "We know it must have been a great honour, since women were rarely represented in Benin’s art!"
+                "es": "",
+                "zh": ""
             }
         }
     ],
     "Commands": [
-        {
-            "Type": "Node",
-            "Id": "BeninMask3More",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Tell me more!",
-                "fr": "Dis m'en plus !",
-                "es": "Tell me more!"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "It’s made of ivory… elephant ivory, in fact!",
-                        "fr": "Il est fait en ivoire... de l'ivoire d'éléphant pour être précis !",
-                        "es": "It’s made of ivory… elephant ivory, in fact!"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "BeninMask4"
-            }
-        },
         {
             "Type": "Node",
             "Id": "BeninMask3No",
@@ -65,10 +45,36 @@
             "CommandLabel": {
                 "en": "That's enough",
                 "fr": "J'en sais assez",
-                "es": "That's enough"
+                "es": "",
+                "zh": ""
             },
             "LinksToFragment": {
-                "FragmentPath": "BeninMaskFeedback"
+                "FragmentPath": "Exit"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BeninMask3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more!",
+                "fr": "Dis m'en plus !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s made of ivory… elephant ivory, in fact!",
+                        "fr": "Il est fait en ivoire... de l'ivoire d'éléphant pour être précis !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BeninMask4"
             }
         }
     ]
