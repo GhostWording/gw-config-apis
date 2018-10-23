@@ -7,7 +7,8 @@
             "Label": {
                 "en": "Right! As a solution, they started to modify the statues to honour their new bird cult!",
                 "fr": "Right! As a solution, they started to modify the statues to honour their new bird cult!",
-                "es": "Right! As a solution, they started to modify the statues to honour their new bird cult!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -23,11 +24,26 @@
             "Label": {
                 "en": "...",
                 "fr": "...",
-                "es": "..."
+                "es": "...",
+                "zh": "..."
             }
         }
     ],
     "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Hoa3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "HoaFeedback"
+            }
+        },
         {
             "Type": "Node",
             "Id": "Hoa3Else",
@@ -35,7 +51,8 @@
             "CommandLabel": {
                 "en": "Anything else?",
                 "fr": "Anything else?",
-                "es": "Anything else?"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -43,7 +60,8 @@
                     "Label": {
                         "en": "Well, you might be wondering how he got to the British Museum… after all, he weighs several tonnes!",
                         "fr": "Well, you might be wondering how he got to the British Museum… after all, he weighs several tonnes!",
-                        "es": "Well, you might be wondering how he got to the British Museum… after all, he weighs several tonnes!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -51,7 +69,8 @@
                     "Label": {
                         "en": "He was transported on a huge boat in the 1800s and given to Queen Victoria as a gift!",
                         "fr": "He was transported on a huge boat in the 1800s and given to Queen Victoria as a gift!",
-                        "es": "He was transported on a huge boat in the 1800s and given to Queen Victoria as a gift!"
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -66,7 +85,8 @@
                     "Label": {
                         "en": "...",
                         "fr": "...",
-                        "es": "..."
+                        "es": "...",
+                        "zh": "..."
                     }
                 }
             ],
@@ -76,13 +96,14 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "Hoa3ElseNice",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Nice gift!",
                             "fr": "Nice gift!",
-                            "es": "Nice gift!"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -90,7 +111,8 @@
                                 "Label": {
                                     "en": "Well… she may not have thought the same! She quickly gave him to the British Museum to keep…",
                                     "fr": "Well… she may not have thought the same! She quickly gave him to the British Museum to keep…",
-                                    "es": "Well… she may not have thought the same! She quickly gave him to the British Museum to keep…"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -98,7 +120,8 @@
                                 "Label": {
                                     "en": "perhaps she did not have enough space in her bedroom!",
                                     "fr": "perhaps she did not have enough space in her bedroom!",
-                                    "es": "perhaps she did not have enough space in her bedroom!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -106,22 +129,16 @@
                                 "Label": {
                                     "en": "Anyway, come see him in room 24! He’s very impressive in the flesh.. I mean stone.",
                                     "fr": "Anyway, come see him in room 24! He’s very impressive in the flesh.. I mean stone.",
-                                    "es": "Anyway, come see him in room 24! He’s very impressive in the flesh.. I mean stone."
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "HoaFeedback"
+                        }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Leaf",
-            "Id": "Hoa3Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "That’s enough",
-                "es": "That’s enough"
             }
         }
     ]
