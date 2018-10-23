@@ -7,7 +7,8 @@
             "Label": {
                 "en": "What do the royal families of 3 different countries, a spanish nunnery, and several shady art dealers all have in common?",
                 "fr": "Qu'est-ce que les familles royales de trois pays différents, un couvent espagnol et plusieurs marchands d'art louches ont en commun ?",
-                "es": "What do the royal families of 3 different countries, a spanish nunnery, and several shady art dealers all have in common?"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -15,7 +16,8 @@
             "Label": {
                 "en": "They all owned the famous Saint Agnes Cup!",
                 "fr": "Ils ont tous possédé la célèbre Coupe de Sainte Agnès !",
-                "es": "They all owned the famous Saint Agnes Cup!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -35,110 +37,11 @@
             "CommandLabel": {
                 "en": "It's beautiful",
                 "fr": "Elle est magnifique",
-                "es": "It's beautiful"
+                "es": "",
+                "zh": ""
             },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Fortunately, these people were often kind enough to write lists of all the treasure they owned, quite regularly.",
-                        "fr": "Heureusement, ces gens-là ont souvent eu la gentillesse de dresser des listes régulièrement de tous leurs trésors.",
-                        "es": "Fortunately, these people were often kind enough to write lists of all the treasure they owned, quite regularly."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "So we can track its life quite accurately! Want to hear the story?",
-                        "fr": "On peut donc suivre son chemin assez précisément ! Tu veux entendre l'histoire ?",
-                        "es": "So we can track its life quite accurately! Want to hear the story?"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "AgnesCupBeautifulChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "AgnesCupBeautifulHear",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Let's hear it!",
-                            "fr": "Avec plaisir !",
-                            "es": "Let's hear it!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "We first hear of it when a man called John of Berry gives it to king Charles VI of France…",
-                                    "fr": "On en entend parler pour la première fois lorsqu'un homme du nom de Jean de Berry le donne au roi de France Charles VI…",
-                                    "es": "We first hear of it when a man called John of Berry gives it to king Charles VI of France…"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "They had had some bad relations recently, mainly as a result of John’s behaviour… This cup was a gift of apology",
-                                    "fr": "Ils avaient eu des différends récemment, principalement à cause du comportement de Jean… Cette coupe était un cadeau d'excuse",
-                                    "es": "They had had some bad relations recently, mainly as a result of John’s behaviour… This cup was a gift of apology"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "AgnesCupBeautifulHearChoice",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "AgnesCupBeautifulHearThen",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Then what!?",
-                                        "fr": "Et ensuite !?",
-                                        "es": "Then what!?"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "It passed to the English royal family some time later!",
-                                                "fr": "Quelque temps après, la famille royale est entrée en possession de la coupe !",
-                                                "es": "It passed to the English royal family some time later!"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "AgnesCup2"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "AgnesCupBeautifulNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "Non merci",
-                            "es": "No thanks"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "AgnesCupFeedback"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCup2"
             }
         },
         {
@@ -148,7 +51,8 @@
             "CommandLabel": {
                 "en": "I use a similar one",
                 "fr": "J'en utilise une semblable",
-                "es": "I use a similar one"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -156,110 +60,13 @@
                     "Label": {
                         "en": "You must be very wealthy!",
                         "fr": "Tu dois être vraiment riche !",
-                        "es": "You must be very wealthy!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Fortunately, these people were often kind enough to write lists of all the treasure they owned, quite regularly.",
-                        "fr": "Heureusement, ces gens-là ont souvent eu la gentillesse de dresser des listes régulièrement de tous leurs trésors.",
-                        "es": "Fortunately, these people were often kind enough to write lists of all the treasure they owned, quite regularly."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "So we can track its life quite accurately! Want to hear the story?",
-                        "fr": "On peut donc suivre son chemin assez précisément ! Tu veux entendre l'histoire ?",
-                        "es": "So we can track its life quite accurately! Want to hear the story?"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "AgnesCupSimilarChoice",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "AgnesCupSimilarHear",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Let's hear it!",
-                            "fr": "Avec plaisir !",
-                            "es": "Let's hear it!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "We first hear of it when a man called John of Berry gives it to king Charles VI of France…",
-                                    "fr": "On en entend parler pour la première fois lorsqu'un homme du nom de Jean de Berry le donne au roi de France Charles VI…",
-                                    "es": "We first hear of it when a man called John of Berry gives it to king Charles VI of France…"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "They had had some bad relations recently, mainly as a result of John’s behaviour… This cup was a gift of apology",
-                                    "fr": "Ils avaient eu des différends récemment, principalement à cause du comportement de Jean… Cette coupe était un cadeau d'excuse",
-                                    "es": "They had had some bad relations recently, mainly as a result of John’s behaviour… This cup was a gift of apology"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "AgnesCupSimilarHearChoice",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Node",
-                                    "Id": "AgnesCupSimilarHearThen",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Then what!?",
-                                        "fr": "Et ensuite !?",
-                                        "es": "Then what!?"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "It passed to the English royal family some time later!",
-                                                "fr": "Quelque temps après, la famille royale est entrée en possession de la coupe !",
-                                                "es": "It passed to the English royal family some time later!"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "AgnesCup2"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "AgnesCupSimilarNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "Non merci",
-                            "es": "No thanks"
-                        },
-                        "LinksToFragment": {
-                            "FragmentPath": "AgnesCupFeedback"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCup2"
             }
         }
     ]
