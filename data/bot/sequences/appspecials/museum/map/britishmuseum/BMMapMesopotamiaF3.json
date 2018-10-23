@@ -1,0 +1,109 @@
+{
+    "Type": "Node",
+    "Id": "BMMapMesopotamiaF3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here's the Mesopotamia section on the first floor",
+                "fr": "Voici la section du 3e étage à propos de la Mésopotamie",
+                "es": "Here's the Mesopotamia section on the first floor",
+                "zh": "Here's the Mesopotamia section on the first floor"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 370,
+                "Height": 367,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666728/The%20Lacemaker/Lacemaker4.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pick what item you want to hear about!",
+                "fr": "Choisis l'oeuvre que tu veux découvrir !",
+                "es": "Pick what item you want to hear about!",
+                "zh": "Pick what item you want to hear about!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapMesopotamiaF3UrStandard",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Standard of Ur",
+                "fr": "L'Étendard d'Ur",
+                "es": "El Estandarte de Ur",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 56",
+                    "fr": "Salle 56",
+                    "es": "Sala 56",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapMesopotamiaF3UrStandardStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapMesopotamiaF3UrStandardGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "UrStandard"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
