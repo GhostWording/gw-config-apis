@@ -5,10 +5,10 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Here are the Mesopotamia areas!",
-                "fr": "Here are the Mesopotamia areas!",
-                "es": "Here are the Mesopotamia areas!",
-                "zh": "Here are the Mesopotamia areas!"
+                "en": "Here are the areas concerning Mesopotamia!",
+                "fr": "Here are the areas concerning Mesopotamia!",
+                "es": "Here are the areas concerning Mesopotamia!",
+                "zh": "Here are the areas concerning Mesopotamia!"
             }
         },
         {
@@ -25,7 +25,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "BMMapMesopotamiaFloor-1",
+            "Id": "BMMapMesopotamiaFloorB1",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Floor -1",
@@ -43,7 +43,7 @@
                 }
             },
             "LinksToFragment": {
-                "FragmentPath": "BMMapMesopotamiaF-1"
+                "FragmentPath": "BMMapMesopotamiaB1"
             }
         },
         {
