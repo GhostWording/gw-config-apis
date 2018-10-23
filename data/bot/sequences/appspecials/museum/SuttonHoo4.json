@@ -1,81 +1,90 @@
 {
-  "Type": "Node",
-  "Id": "SuttonHoo4",
-  "Steps": [
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731610/Sutton_Hoo_4.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "It was found in a buried ship! With a huge hoard of other treasure!",
-        "fr": "It was found in a buried ship! With a huge hoard of other treasure!",
-        "es": "It was found in a buried ship! With a huge hoard of other treasure!"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_5.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "…",
-        "fr": "…",
-        "es": "…"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "SuttonHoo4Why",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Why bury a ship?",
-        "fr": "Why bury a ship?",
-        "es": "Why bury a ship?"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "SuttonHoo4",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "It seems to have been some sort of ceremony!",
-            "fr": "It seems to have been some sort of ceremony!",
-            "es": "It seems to have been some sort of ceremony!"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731610/Sutton_Hoo_4.jpg"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!",
-            "fr": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!",
-            "es": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "It was found in a buried ship! With a huge hoard of other treasure!",
+                "fr": "It was found in a buried ship! With a huge hoard of other treasure!",
+                "es": "",
+                "zh": ""
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Come see the helmet in room 41!",
-            "fr": "Come see the helmet in room 41!",
-            "es": "Come see the helmet in room 41!"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_5.jpg"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533732102/Sutton_Hoo_6.jpg"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "…",
+                "fr": "…",
+                "es": "…",
+                "zh": "..."
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SuttonHoo4Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why bury a ship?",
+                "fr": "Why bury a ship?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It seems to have been some sort of ceremony!",
+                        "fr": "It seems to have been some sort of ceremony!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!",
+                        "fr": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Come see the helmet in room 41!",
+                        "fr": "Come see the helmet in room 41!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533732102/Sutton_Hoo_6.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SuttonHooFeedback"
+            }
+        }
+    ]
 }
