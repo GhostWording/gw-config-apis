@@ -25,29 +25,6 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "BMMapMesopotamiaFloorB1",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Floor -1",
-                "fr": "Floor -1",
-                "es": "Floor -1",
-                "zh": "Floor -1"
-            },
-            "CarouselElements": {
-                "Title": {
-                    "en": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
-                }
-            },
-            "LinksToFragment": {
-                "FragmentPath": "BMMapMesopotamiaB1"
-            }
-        },
-        {
-            "Type": "Node",
             "Id": "BMMapMesopotamiaFloor1",
             "ElementValue": "1",
             "CommandLabel": {
