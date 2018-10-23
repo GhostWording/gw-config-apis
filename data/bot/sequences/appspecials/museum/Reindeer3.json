@@ -1,72 +1,81 @@
 {
-  "Type": "Node",
-  "Id": "Reindeer3",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "There were even some reindeer living there!",
-        "fr": "There were even some reindeer living there!",
-        "es": "There were even some reindeer living there!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Nowadays, they only live in the coldest places on earth",
-        "fr": "Nowadays, they only live in the coldest places on earth",
-        "es": "Nowadays, they only live in the coldest places on earth"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533812239/museum%20app/Map_Reindeers.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "So, why am I telling you this?",
-        "fr": "So, why am I telling you this?",
-        "es": "So, why am I telling you this?"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Reindeer3Why",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Yes, why?",
-        "fr": "Yes, why?",
-        "es": "Yes, why?"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Reindeer3",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866",
-            "fr": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866",
-            "es": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "There were even some reindeer living there!",
+                "fr": "There were even some reindeer living there!",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Nowadays, they only live in the coldest places on earth",
+                "fr": "Nowadays, they only live in the coldest places on earth",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533812239/museum%20app/Map_Reindeers.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, why am I telling you this?",
+                "fr": "So, why am I telling you this?",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Reindeer4"
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "Reindeer3Stop",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Not interested",
-        "fr": "Not interested",
-        "es": "Not interested"
-      }
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Reindeer3Stop",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not interested",
+                "fr": "Not interested",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "ReindeerFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Reindeer3Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, why?",
+                "fr": "Yes, why?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866",
+                        "fr": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Reindeer4"
+            }
+        }
+    ]
 }
