@@ -1,168 +1,88 @@
 {
-  "Type": "Node",
-  "Id": "Amenhotep2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III",
-        "fr": "C'était une particularité esthétique à la mode chez les pharaons qui ont succédé à Amenhotep III",
-        "es": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Amenhotep2Fashionable",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Fashionable!",
-        "fr": "Quels fashionistas !",
-        "es": "Fashionable!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Amenhotep2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "It was found here:",
-            "fr": "Elle a été trouvée ici :",
-            "es": "It was found here:"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "1o1u5neyo6ETSPwn56"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
-            "fr": "Par Giovanni Belzoni - qui n'en était pas à sa première trouvaille - et par Henry William Beechey, en 1817.",
-            "es": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817."
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
-            "fr": "Comme pour la statue de Ramsès II, également découverte par Belzoni, l'opération s'est avérée difficile.",
-            "es": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Although we know this now, this man was actually quite hard to identify",
+                "fr": "Bien que nous sachions le reconnaître aujourd'hui, cet homme était en fait assez difficile à identifier",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Amenhotep2FashionableChoice",
-        "ElementValue": "1",
-        "Commands": [
-          {
+    ],
+    "Commands": [
+        {
             "Type": "Node",
-            "Id": "Amenhotep2FashionableTell",
+            "Id": "Amenhotep2Why",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Tell me more!",
-              "fr": "Dis m'en plus !",
-              "es": "Tell me more!"
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "",
+                "zh": ""
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "This head now rests in the British Museum, along with an arm",
-                  "fr": "La tête repose à présent au British Museum, à côté de son bras gauche",
-                  "es": "This head now rests in the British Museum, along with an arm"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
-                  "fr": "Bien qu'il soit possible que la statue n'ait possédé qu'un bras, on est plutôt convaincu qu'il y en avait deux, et que l'autre ait été détruit ou perdu",
-                  "es": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost."
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "Amenhotep2FashionableTellChoice",
-              "ElementValue": "1",
-              "Commands": [
                 {
-                  "Type": "Node",
-                  "Id": "Amenhotep2FashionableTellGreat",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Great story!",
-                    "fr": "Drôle d'histoire !",
-                    "es": "Great story!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Thanks! You can find it here in the museum!",
-                        "fr": "Merci ! Tu peux la trouver ici dans le musée !",
-                        "es": "Thanks! You can find it here in the museum!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                      }
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, the Ancient Egyptian pharaohs had a frustrating habit of editing their ancestors’ statues after they died",
+                        "fr": "Eh bien, les pharaons de l'Égypte ancienne avaient la fâcheuse habitude de modifier les statues de leurs ancêtres après leur mort",
+                        "es": "",
+                        "zh": ""
                     }
-                  ],
-                  "LinksToFragment": {
-                    "FragmentPath": "AmenhotepFeedback"
-                  }
                 },
                 {
-                  "Type": "Node",
-                  "Id": "Amenhotep2FashionableTellFind",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Where can I find it?",
-                    "fr": "Où est-ce que je peux la trouver ?",
-                    "es": "Where can I find it?"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Here!",
-                        "fr": "Ici !",
-                        "es": "Here!"
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                      }
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After all, why waste money making a whole new statue?",
+                        "fr": "Après tout, pourquoi gaspiller de l'argent en faisant une toute nouvelle statue ?",
+                        "es": "",
+                        "zh": ""
                     }
-                  ],
-                  "LinksToFragment": {
-                    "FragmentPath": "AmenhotepFeedback"
-                  }
                 }
-              ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Amenhotep2WhyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Amenhotep2WhyPoint",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You’ve got a point",
+                            "fr": "Tu marques un point",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For example, the corners of the statues mouth have been drilled to make it appear smaller",
+                                    "fr": "Par exemple, les coins de la bouche de la statue ont été forés pour qu'elle apparaisse plus petite",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532946354/AmenhotepIII_2bis.jpg"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Amenhotep3"
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    }
-  ]
+        }
+    ]
 }
