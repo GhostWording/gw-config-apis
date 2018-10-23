@@ -1,0 +1,180 @@
+{
+    "Type": "Node",
+    "Id": "Amenhotep3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This was a particular cosmetic fashion for pharaohs later than Amenhotep III",
+                "fr": "C'était une particularité esthétique à la mode chez les pharaons qui ont succédé à Amenhotep III",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Amenhotep3Fashionable",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fashionable!",
+                "fr": "Quels fashionistas !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was found here:",
+                        "fr": "Elle a été trouvée ici :",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "1o1u5neyo6ETSPwn56"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
+                        "fr": "Par Giovanni Belzoni - qui n'en était pas à sa première trouvaille - et par Henry William Beechey, en 1817.",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
+                        "fr": "Comme pour la statue de Ramsès II, également découverte par Belzoni, l'opération s'est avérée difficile.",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Amenhotep3FashionableStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Amenhotep3FashionableTell",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me more!",
+                            "fr": "Dis m'en plus !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This head now rests in the British Museum, along with an arm",
+                                    "fr": "La tête repose à présent au British Museum, à côté de son bras gauche",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
+                                    "fr": "Bien qu'il soit possible que la statue n'ait possédé qu'un bras, on est plutôt convaincu qu'il y en avait deux, et que l'autre ait été détruit ou perdu",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Amenhotep3FashionableTellStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Amenhotep3FashionableTellGreat",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Great story!",
+                                        "fr": "Drôle d'histoire !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Thanks! You can find it here in the museum!",
+                                                "fr": "Merci ! Tu peux la trouver ici dans le musée !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AmenhotepFeedback"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Amenhotep3FashionableTellFind",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Where can I find it?",
+                                        "fr": "Où est-ce que je peux la trouver ?",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Here!",
+                                                "fr": "Ici !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "AmenhotepFeedback"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
