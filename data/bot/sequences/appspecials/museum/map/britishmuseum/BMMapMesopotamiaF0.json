@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "BMMapMesopotamiaF1",
+    "Id": "BMMapMesopotamiaF0",
     "Steps": [
         {
             "Type": "Text",
@@ -35,7 +35,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "BMMapMesopotamiaF1LionHunt",
+            "Id": "BMMapMesopotamiaF0LionHunt",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Lion Hunts of Assurbanipal I",
@@ -78,12 +78,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "BMMapMesopotamiaF1LionHuntStep",
+                "Id": "BMMapMesopotamiaF0LionHuntStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "BMMapMesopotamiaF1LionHuntGo",
+                        "Id": "BMMapMesopotamiaF0LionHuntGo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let's go!",
