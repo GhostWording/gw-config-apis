@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "BMMapGreece",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here are the Greece and Rome areas!",
+                "fr": "Here are the Greece and Rome areas!",
+                "es": "Here are the Greece and Rome areas!",
+                "zh": "Here are the Greece and Rome areas!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pick one to see what artworks I have stories for!",
+                "fr": "Pick one to see what artworks I have stories for!",
+                "es": "Pick one to see what artworks I have stories for!",
+                "zh": "Pick one to see what artworks I have stories for!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapGreeceFloor1",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Floor 1",
+                "fr": "Floor 1",
+                "es": "Floor 1",
+                "zh": "Floor 1"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapGreeceF1"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapGreeceFloor3",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Floor 3",
+                "fr": "Floor 3",
+                "es": "Floor 3",
+                "zh": "Floor 3"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Richelieu_Full_Highlight.png"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "BMMapGreeceF3"
+            }
+        }
+    ]
+}
