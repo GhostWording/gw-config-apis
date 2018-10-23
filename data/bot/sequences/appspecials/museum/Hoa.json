@@ -15,7 +15,8 @@
             "Label": {
                 "en": "This is Hoa Hakananai’a. He is your friend. In fact, his name more or less means “hidden friend”.",
                 "fr": "This is Hoa Hakananai’a. He is your friend. In fact, his name more or less means “hidden friend”.",
-                "es": "This is Hoa Hakananai’a. He is your friend. In fact, his name more or less means “hidden friend”."
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -23,7 +24,8 @@
             "Label": {
                 "en": "Don’t worry, he might look intimidating, but he’s really a nice guy.",
                 "fr": "Don’t worry, he might look intimidating, but he’s really a nice guy.",
-                "es": "Don’t worry, he might look intimidating, but he’s really a nice guy."
+                "es": "",
+                "zh": ""
             }
         }
     ],
@@ -35,7 +37,8 @@
             "CommandLabel": {
                 "en": "Hi there!",
                 "fr": "Hi there!",
-                "es": "Hi there!"
+                "es": "",
+                "zh": ""
             },
             "LinksToFragment": {
                 "FragmentPath": "Hoa2"
@@ -48,7 +51,8 @@
             "CommandLabel": {
                 "en": "I’m scared",
                 "fr": "I’m scared",
-                "es": "I’m scared"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -56,7 +60,8 @@
                     "Label": {
                         "en": "No need!",
                         "fr": "No need!",
-                        "es": "No need!"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],   
