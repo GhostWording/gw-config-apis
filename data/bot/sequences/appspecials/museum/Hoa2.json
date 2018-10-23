@@ -7,7 +7,8 @@
             "Label": {
                 "en": "He was one of many “moai” statues that stood watch on Easter Island, the most remote island on the planet!",
                 "fr": "He was one of many “moai” statues that stood watch on Easter Island, the most remote island on the planet!",
-                "es": "He was one of many “moai” statues that stood watch on Easter Island, the most remote island on the planet!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -22,7 +23,8 @@
             "Label": {
                 "en": "They were guardians to the people of the island!",
                 "fr": "They were guardians to the people of the island!",
-                "es": "They were guardians to the people of the island!"
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -38,11 +40,26 @@
             "Label": {
                 "en": "I can see how he got the job! He’s a bit like a bouncer…",
                 "fr": "I can see how he got the job! He’s a bit like a bouncer…",
-                "es": "I can see how he got the job! He’s a bit like a bouncer…"
+                "es": "",
+                "zh": ""
             }
         }
     ],
     "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "Hoa2Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "That’s enough",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "HoaFeedback"
+            }
+        },
         {
             "Type": "Node",
             "Id": "Hoa2More",
@@ -50,7 +67,8 @@
             "CommandLabel": {
                 "en": "Tell me more!",
                 "fr": "Tell me more!",
-                "es": "Tell me more!"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -58,7 +76,8 @@
                     "Label": {
                         "en": "The islanders made many of these statues, but then stopped in the 17th century AD!",
                         "fr": "The islanders made many of these statues, but then stopped in the 17th century AD!",
-                        "es": "The islanders made many of these statues, but then stopped in the 17th century AD!"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
@@ -74,7 +93,8 @@
                         "CommandLabel": {
                             "en": "Why?",
                             "fr": "Why?",
-                            "es": "Why?"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -82,7 +102,8 @@
                                 "Label": {
                                     "en": "Well, the thing with living on such a remote island is… there’s a limited amount of resources!",
                                     "fr": "Well, the thing with living on such a remote island is… there’s a limited amount of resources!",
-                                    "es": "Well, the thing with living on such a remote island is… there’s a limited amount of resources!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -90,7 +111,8 @@
                                 "Label": {
                                     "en": "We think that the islanders at a point simply couldn’t afford to build these anymore!",
                                     "fr": "We think that the islanders at a point simply couldn’t afford to build these anymore!",
-                                    "es": "We think that the islanders at a point simply couldn’t afford to build these anymore!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             }
                         ],
@@ -106,7 +128,8 @@
                                     "CommandLabel": {
                                         "en": "That’s a problem",
                                         "fr": "That’s a problem",
-                                        "es": "That’s a problem"
+                                        "es": "",
+                                        "zh": ""
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "Hoa3"
@@ -116,16 +139,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Leaf",
-            "Id": "Hoa2Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That’s enough",
-                "fr": "That’s enough",
-                "es": "That’s enough"
             }
         }
     ]
