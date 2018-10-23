@@ -1,85 +1,92 @@
 {
-  "Type": "Node",
-  "Id": "Rosetta",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "How many languages do you speak?",
-        "fr": "Combien de langues parles-tu ?",
-        "es": "How many languages do you speak?"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "RosettaOne",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "One",
-        "fr": "Une",
-        "es": "One"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Rosetta",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Is it Demotic Egyptian?…",
-            "fr": "Est-ce qu'il s'agit de l'Egyptien démotique ?…",
-            "es": "Is it Demotic Egyptian?…"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "How many languages do you speak?",
+                "fr": "Combien de langues parles-tu ?",
+                "es": "",
+                "zh": ""
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta2"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "RosettaTwo",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Two",
-        "fr": "Deux",
-        "es": "Two"
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow! Is Demotic Egyptian one of them?",
-            "fr": "Wouah ! Est-ce que l'une d'entre elles est l'Egyptien démotique ?",
-            "es": "Wow! Is Demotic Egyptian one of them?"
-          }
-        }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta2"
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "RosettaMore",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "More",
-        "fr": "Plus",
-        "es": "More"
-      },
-      "Steps": [
+            "Type": "Node",
+            "Id": "RosettaOne",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "One",
+                "fr": "Une",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Is it Demotic Egyptian?…",
+                        "fr": "Est-ce qu'il s'agit de l'Egyptien démotique ?…",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta2"
+            }
+        },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow! Is Demotic Egyptian one of them?",
-            "fr": "Wouah ! Est-ce que l'une d'entre elles est l'Egyptien démotique ?",
-            "es": "Wow! Is Demotic Egyptian one of them?"
-          }
+            "Type": "Node",
+            "Id": "RosettaTwo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Two",
+                "fr": "Deux",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wow! Is Demotic Egyptian one of them?",
+                        "fr": "Wouah ! Est-ce que l'une d'entre elles est l'Egyptien démotique ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "RosettaMore",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "More",
+                "fr": "Plus",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wow! Is Demotic Egyptian one of them?",
+                        "fr": "Wouah ! Est-ce que l'une d'entre elles est l'Egyptien démotique ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Rosetta2"
+            }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "Rosetta2"
-      }
-    }
-  ]
+    ]
 }
