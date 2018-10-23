@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Here are sections from other civilizations!",
-                "fr": "Here are sections from other civilizations!",
+                "fr": "Voici les zones sur d'autres civilisations !",
                 "es": "Here are sections from other civilizations!",
                 "zh": "Here are sections from other civilizations!"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Pick one to see what artworks I have stories for!",
-                "fr": "Pick one to see what artworks I have stories for!",
+                "fr": "Choisis en une pour découvrir les oeuvres pour lesquelles j'ai des histoires !",
                 "es": "Pick one to see what artworks I have stories for!",
                 "zh": "Pick one to see what artworks I have stories for!"
             }
@@ -29,16 +29,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Europe",
-                "fr": "Europe",
+                "fr": "L'Europe",
                 "es": "Europe",
                 "zh": "Europe"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 3",
-                    "fr": "Europe",
-                    "es": "Europe",
-                    "zh": "Europe"
+                    "fr": "3e étage",
+                    "es": "Floor 3",
+                    "zh": "Floor 3"
                 },
                 "Picture": {
                     "Source": "Web",
@@ -55,14 +55,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "East Asia",
-                "fr": "East Asia",
+                "fr": "L'Asie de l'Est",
                 "es": "East Asia",
                 "zh": "East Asia"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Multiple Floors",
-                    "fr": "Multiple Floors",
+                    "fr": "Plusieurs étages",
                     "es": "Multiple Floors",
                     "zh": "Multiple Floors"
                 },
@@ -81,14 +81,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Americas",
-                "fr": "Americas",
-                "es": "Americas",
+                "fr": "L'Amérique",
+                "es": "America",
                 "zh": "Americas"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 0",
-                    "fr": "Floor 0",
+                    "fr": "Rez-de-chaussée",
                     "es": "Floor 0",
                     "zh": "Floor 0"
                 },
@@ -107,14 +107,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Africa",
-                "fr": "Africa",
+                "fr": "L'Afrique",
                 "es": "Africa",
                 "zh": "Africa"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Floor 0",
-                    "fr": "Floor 0",
+                    "fr": "Rez-de-chaussée",
                     "es": "Floor 0",
                     "zh": "Floor 0"
                 },
@@ -133,14 +133,14 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Miscellaneous",
-                "fr": "Miscellaneous",
+                "fr": "Divers",
                 "es": "Miscellaneous",
                 "zh": "Miscellaneous"
             },
             "CarouselElements": {
                 "Title": {
                     "en": "Multiple Floors",
-                    "fr": "Multiple Floors",
+                    "fr": "Plusieurs étages",
                     "es": "Multiple Floors",
                     "zh": "Multiple Floors"
                 },
