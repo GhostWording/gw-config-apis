@@ -1,67 +1,75 @@
 {
-  "Type": "Node",
-  "Id": "DavidVases3",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Right! And it helped this vase get made! See, the blue colour on these vases comes from Iranian cobalt!",
-        "fr": "Right! And it helped this vase get made! See, the blue colour on these vases comes from Iranian cobalt!",
-        "es": "Right! And it helped this vase get made! See, the blue colour on these vases comes from Iranian cobalt!"
-      }
-    },
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Giphy",
-        "Path": "cOqHspxDilbWKnxYth"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Only peaceful and sustained trade through this empire could bring cobalt to China.",
-        "fr": "Only peaceful and sustained trade through this empire could bring cobalt to China.",
-        "es": "Only peaceful and sustained trade through this empire could bring cobalt to China."
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "DavidVases3Sense",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That makes sense!",
-        "fr": "That makes sense!",
-        "es": "That makes sense!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "DavidVases3",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "China was a manufacturing powerhouse in those days, much like today! I guess “Made in China” has been a thing for centuries!",
-            "fr": "China was a manufacturing powerhouse in those days, much like today! I guess “Made in China” has been a thing for centuries!",
-            "es": "China was a manufacturing powerhouse in those days, much like today! I guess “Made in China” has been a thing for centuries!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Right! And it helped this vase get made! See, the blue colour on these vases comes from Iranian cobalt!",
+                "fr": "Right! And it helped this vase get made! See, the blue colour on these vases comes from Iranian cobalt!",
+                "es": "",
+                "zh": ""
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Come see the vases in room 95!",
-            "fr": "Come see the vases in room 95!",
-            "es": "Come see the vases in room 95!"
-          }
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "cOqHspxDilbWKnxYth"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Display": "FullScreenWidth",
-            "Source": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533741011/6davidvase_BMmap.jpg"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Only peaceful and sustained trade through this empire could bring cobalt to China.",
+                "fr": "Only peaceful and sustained trade through this empire could bring cobalt to China.",
+                "es": "",
+                "zh": ""
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DavidVases3Sense",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That makes sense!",
+                "fr": "That makes sense!",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "China was a manufacturing powerhouse in those days, much like today! I guess “Made in China” has been a thing for centuries!",
+                        "fr": "China was a manufacturing powerhouse in those days, much like today! I guess “Made in China” has been a thing for centuries!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Come see the vases in room 95!",
+                        "fr": "Come see the vases in room 95!",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533741011/6davidvase_BMmap.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "DavidVasesFeedback"
+            }
+        }
+    ]
 }
