@@ -126,32 +126,6 @@
             "LinksToFragment": {
                 "FragmentPath": "BMMapOtherAfricaF0"
             }
-        },
-        {
-            "Type": "Node",
-            "Id": "BMMapOtherMiscellaneous",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Miscellaneous",
-                "fr": "Divers",
-                "es": "Miscellaneous",
-                "zh": "Miscellaneous"
-            },
-            "CarouselElements": {
-                "Title": {
-                    "en": "Multiple Floors",
-                    "fr": "Plusieurs étages",
-                    "es": "Multiple Floors",
-                    "zh": "Multiple Floors"
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Richelieu_Full_Highlight.png"
-                }
-            },
-            "LinksToFragment": {
-                "FragmentPath": "BMMapOtherMiscFloors"
-            }
         }
     ]
 }
