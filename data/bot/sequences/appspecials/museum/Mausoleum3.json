@@ -29,6 +29,20 @@
     "Commands": [
         {
             "Type": "Node",
+            "Id": "Mausoleum3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's enough",
+                "fr": "J'en sais assez",
+                "es": "Es suficiente",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Mausoleum4"
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "Mausoleum3More",
             "ElementValue": "1",
             "CommandLabel": {
@@ -184,6 +198,20 @@
                                         "Commands": [
                                             {
                                                 "Type": "Node",
+                                                "Id": "Mausoleum3MoreMoreSmartEnough",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "That's enough",
+                                                    "fr": "J'en sais assez",
+                                                    "es": "Es suficiente",
+                                                    "zh": ""
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Mausoleum4"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
                                                 "Id": "Mausoleum3MoreMoreSmartMore",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
@@ -227,6 +255,20 @@
                                                     "Commands": [
                                                         {
                                                             "Type": "Node",
+                                                            "Id": "Mausoleum3MoreMoreSmartMoreEnough",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "That's enough",
+                                                                "fr": "J'en sais assez",
+                                                                "es": "Es suficiente",
+                                                                "zh": ""
+                                                            },
+                                                            "LinksToFragment": {
+                                                                "FragmentPath": "Mausoleum4"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Node",
                                                             "Id": "Mausoleum3MoreMoreSmartMoreMore",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
@@ -268,6 +310,20 @@
                                                                 "Id": "Mausoleum3MoreMoreSmartMoreMoreStep",
                                                                 "ElementValue": "1",
                                                                 "Commands": [
+                                                                    {
+                                                                        "Type": "Node",
+                                                                        "Id": "Mausoleum3MoreMoreSmartMoreMoreEnough",
+                                                                        "ElementValue": "1",
+                                                                        "CommandLabel": {
+                                                                            "en": "That's enough",
+                                                                            "fr": "J'en sais assez",
+                                                                            "es": "Es suficiente",
+                                                                            "zh": ""
+                                                                        },
+                                                                        "LinksToFragment": {
+                                                                            "FragmentPath": "Mausoleum4"
+                                                                        }
+                                                                    },
                                                                     {
                                                                         "Type": "Node",
                                                                         "Id": "Mausoleum3MoreMoreSmartMoreMoreMore",
@@ -316,53 +372,11 @@
                                                                         "LinksToFragment": {
                                                                             "FragmentPath": "MausoleumFeedback"
                                                                         }
-                                                                    },
-                                                                    {
-                                                                        "Type": "Node",
-                                                                        "Id": "Mausoleum3MoreMoreSmartMoreMoreEnough",
-                                                                        "ElementValue": "1",
-                                                                        "CommandLabel": {
-                                                                            "en": "That's enough",
-                                                                            "fr": "J'en sais assez",
-                                                                            "es": "Es suficiente",
-                                                                            "zh": ""
-                                                                        },
-                                                                        "LinksToFragment": {
-                                                                            "FragmentPath": "Mausoleum4"
-                                                                        }
                                                                     }
                                                                 ]
                                                             }
-                                                        },
-                                                        {
-                                                            "Type": "Node",
-                                                            "Id": "Mausoleum3MoreMoreSmartMoreEnough",
-                                                            "ElementValue": "1",
-                                                            "CommandLabel": {
-                                                                "en": "That's enough",
-                                                                "fr": "J'en sais assez",
-                                                                "es": "Es suficiente",
-                                                                "zh": ""
-                                                            },
-                                                            "LinksToFragment": {
-                                                                "FragmentPath": "Mausoleum4"
-                                                            }
                                                         }
                                                     ]
-                                                }
-                                            },
-                                            {
-                                                "Type": "Node",
-                                                "Id": "Mausoleum3MoreMoreSmartEnough",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "That's enough",
-                                                    "fr": "J'en sais assez",
-                                                    "es": "Es suficiente",
-                                                    "zh": ""
-                                                },
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "Mausoleum4"
                                                 }
                                             }
                                         ]
@@ -372,20 +386,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Mausoleum3Enough",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "That's enough",
-                "fr": "J'en sais assez",
-                "es": "Es suficiente",
-                "zh": ""
-            },
-            "LinksToFragment": {
-                "FragmentPath": "Mausoleum4"
             }
         }
     ]
