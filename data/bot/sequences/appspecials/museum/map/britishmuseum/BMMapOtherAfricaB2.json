@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "BMMapAfricaB2",
+    "Id": "BMMapOtherAfricaB2",
     "Steps": [
         {
             "Type": "Text",
@@ -35,7 +35,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "BMMapAfricaB2BeninMask",
+            "Id": "BMMapOtherAfricaB2BeninMask",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Benin Ivory Mask",
@@ -78,12 +78,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "BMMapAfricaB2BeninMaskStep",
+                "Id": "BMMapOtherAfricaB2BeninMaskStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "BMMapAfricaB2BeninMaskGo",
+                        "Id": "BMMapOtherAfricaB2BeninMaskGo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let's go!",
