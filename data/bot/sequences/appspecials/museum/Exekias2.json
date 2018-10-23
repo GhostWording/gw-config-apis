@@ -7,7 +7,8 @@
             "Label": {
                 "en": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine.",
                 "fr": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine.",
-                "es": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine."
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -23,7 +24,8 @@
             "Label": {
                 "en": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
                 "fr": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
-                "es": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment."
+                "es": "",
+                "zh": ""
             }
         },
         {
@@ -43,7 +45,8 @@
             "CommandLabel": {
                 "en": "Tell me more!",
                 "fr": "Tell me more!",
-                "es": "Tell me more!"
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
@@ -51,7 +54,8 @@
                     "Label": {
                         "en": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other.",
                         "fr": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other.",
-                        "es": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other."
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -66,23 +70,25 @@
                     "Label": {
                         "en": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
                         "fr": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
-                        "es": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!"
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "Exekias2MoreThksChoice",
+                "Id": "Exekias2MoreThksStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "Exekias2MoreThks",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Thanks!",
                             "fr": "Thanks!",
-                            "es": "Thanks!"
+                            "es": "",
+                            "zh": ""
                         },
                         "Steps": [
                             {
@@ -90,7 +96,8 @@
                                 "Label": {
                                     "en": "It’s in room 20a, go check it out!",
                                     "fr": "It’s in room 20a, go check it out!",
-                                    "es": "It’s in room 20a, go check it out!"
+                                    "es": "",
+                                    "zh": ""
                                 }
                             },
                             {
@@ -100,7 +107,10 @@
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532941556/Achilles_BMMap.jpg"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "ExekiasFeedback"
+                        }
                     }
                 ]
             }
