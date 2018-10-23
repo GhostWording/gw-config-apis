@@ -104,6 +104,31 @@
                 "Commands": [
                     {
                         "Type": "Node",
+                        "Id": "MeroeGoodEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No thanks",
+                            "fr": "J'en sais assez",
+                            "es": "Es suficiente",
+                            "zh": "下次吧"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK! Come see it in the British Museum some time!",
+                                    "fr": "D'accord ! Viens le voir au British Museum un jour !",
+                                    "es": "¡De acuerdo! ¡Ven a verlo en el British Museum algún día!",
+                                    "zh": "好了！抽时间到大英博物馆来欣赏一下这座雕像吧！"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MeroeFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
                         "Id": "MeroeGoodMore",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -228,20 +253,6 @@
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "MeroeGoodMoreWhatMore",
-                                                "ElementValue": "1",
-                                                "CommandLabel": {
-                                                    "en": "Tell me more!",
-                                                    "fr": "Dis m'en plus !",
-                                                    "es": "¡Dime más!",
-                                                    "zh": "仔细和我说说！"
-                                                },
-                                                "LinksToFragment": {
-                                                    "FragmentPath": "Meroe2"
-                                                }
-                                            },
-                                            {
-                                                "Type": "Node",
                                                 "Id": "MeroeGoodMoreWhatEnough",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
@@ -264,36 +275,25 @@
                                                 "LinksToFragment": {
                                                     "FragmentPath": "MeroeFeedback"
                                                 }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "MeroeGoodMoreWhatMore",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Tell me more!",
+                                                    "fr": "Dis m'en plus !",
+                                                    "es": "¡Dime más!",
+                                                    "zh": "仔细和我说说！"
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Meroe2"
+                                                }
                                             }
                                         ]
                                     }
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "MeroeGoodEnough",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "No thanks",
-                            "fr": "J'en sais assez",
-                            "es": "Es suficiente",
-                            "zh": "下次吧"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "OK! Come see it in the British Museum some time!",
-                                    "fr": "D'accord ! Viens le voir au British Museum un jour !",
-                                    "es": "¡De acuerdo! ¡Ven a verlo en el British Museum algún día!",
-                                    "zh": "好了！抽时间到大英博物馆来欣赏一下这座雕像吧！"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "MeroeFeedback"
                         }
                     }
                 ]
