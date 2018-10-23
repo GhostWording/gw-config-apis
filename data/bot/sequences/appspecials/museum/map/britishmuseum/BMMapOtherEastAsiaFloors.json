@@ -1,0 +1,202 @@
+{
+    "Type": "Node",
+    "Id": "BMMapOtherEastAsiaFloors",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The East Asian pieces are spread out all over the museum!",
+                "fr": "Voici la section du -2 à propos de l'Afrique",
+                "es": "The East Asian pieces are spread out all over the museum!",
+                "zh": "The East Asian pieces are spread out all over the museum!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 370,
+                "Height": 367,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666728/The%20Lacemaker/Lacemaker4.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here are the artefacts for which I have stories!",
+                "fr": "Voici la section du -2 à propos de l'Afrique",
+                "es": "Here are the artefacts for which I have stories!",
+                "zh": "Here are the artefacts for which I have stories!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pick whichever catches your eye!",
+                "fr": "Choisis l'oeuvre que tu veux découvrir !",
+                "es": "Pick whichever catches your eye!",
+                "zh": "Pick whichever catches your eye!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BMMapOtherEastAsiaFloorsDavid",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "David Vases",
+                "fr": "Vases de David",
+                "es": "Jarrones de David",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 95",
+                    "fr": "Salle 95",
+                    "es": "Sala 95",
+                    "zh": ""
+                },
+                "Subtitle": {
+                    "en": "Floor 2",
+                    "fr": "Salle 95",
+                    "es": "Sala 95",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They're located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapOtherEastAsiaFloorsDavidStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapOtherEastAsiaFloorsDavidGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "DavidVases"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapOtherEastAsiaFloorsSamurai",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Samurai Armour",
+                "fr": "Armure du samouraï",
+                "es": "Armure du samouraï",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 93",
+                    "fr": "Salle 93",
+                    "es": "Sala 93",
+                    "zh": ""
+                },
+                "Subtitle": {
+                    "en": "Floor 5",
+                    "fr": "Floor 5",
+                    "es": "Floor 5",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapOtherEastAsiaFloorsSamuraiStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapOtherEastAsiaFloorsSamuraiGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Samurai"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
