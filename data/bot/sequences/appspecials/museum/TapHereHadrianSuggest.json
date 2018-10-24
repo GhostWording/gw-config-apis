@@ -1,0 +1,89 @@
+{
+    "Type": "Node",
+    "Id": "TapHereHadrianSuggest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here's a teaser for one of my stories:",
+                "fr": "Here's a teaser for one of my stories:",
+                "es": "Here's a teaser for one of my stories:",
+                "zh": "Here's a teaser for one of my stories:"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's about a Roman emperor who was famous for fashion and travel!",
+                "fr": "It's about a Roman emperor who was famous for fashion and travel!",
+                "es": "It's about a Roman emperor who was famous for fashion and travel!",
+                "zh": "It's about a Roman emperor who was famous for fashion and travel!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533301690/Standard_of_Ur_3_chariots.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Surely that interests you! 😄",
+                "fr": "Surely that interests you! 😄",
+                "es": "Surely that interests you! 😄",
+                "zh": "Surely that interests you! 😄"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHereHadrianSuggestYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "Yes!",
+                "es": "Yes!",
+                "zh": "Yes!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm not surprised! Here comes the story...",
+                        "fr": "I'm not surprised! Here comes the story...",
+                        "es": "I'm not surprised! Here comes the story...",
+                        "zh": "I'm not surprised! Here comes the story..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Hadrian"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereHadrianSuggestNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really!",
+                "fr": "Not really!",
+                "es": "Not really!",
+                "zh": "Not really!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hmm, OK. I'll rethink my strategy 🤔",
+                        "fr": "Hmm, OK. I'll rethink my strategy 🤔",
+                        "es": "Hmm, OK. I'll rethink my strategy 🤔",
+                        "zh": "Hmm, OK. I'll rethink my strategy 🤔"
+                    }
+                }
+            ]
+        }
+    ]
+}
