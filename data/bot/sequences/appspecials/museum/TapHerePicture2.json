@@ -1,0 +1,80 @@
+{
+    "Type": "Node",
+    "Id": "TapHerePicture2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here's a cool picture! Look at the little man standing under the horses!",
+                "fr": "Here's a cool picture! Look at the little man standing under the horses!",
+                "es": "Here's a cool picture! Look at the little man standing under the horses!",
+                "zh": "Here's a cool picture! Look at the little man standing under the horses!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533301690/Standard_of_Ur_3_chariots.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's from the 'Standard of Ur', want to hear about it?",
+                "fr": "It's from the 'Standard of Ur', want to hear about it?",
+                "es": "It's from the 'Standard of Ur', want to hear about it?",
+                "zh": "It's from the 'Standard of Ur', want to hear about it?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHerePicture2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Sure!",
+                "es": "Sure!",
+                "zh": "Sure!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! Now, how does this one start...",
+                        "fr": "Great! Now, how does this one start...",
+                        "es": "Great! Now, how does this one start...",
+                        "zh": "Great! Now, how does this one start..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHerePicture2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks!",
+                "fr": "No thanks!",
+                "es": "No thanks!",
+                "zh": "No thanks!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, no problem! Let's try something else...",
+                        "fr": "Alright, no problem! Let's try something else...",
+                        "es": "Alright, no problem! Let's try something else...",
+                        "zh": "Alright, no problem! Let's try something else..."
+                    }
+                }
+            ]
+        }
+    ]
+}
