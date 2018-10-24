@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "AgnesCupMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Saint Agnes Cup is on the THIRD FLOOR (3)",
+                "fr": "The Saint Agnes Cup is on the THIRD FLOOR (3)",
+                "es": "The Saint Agnes Cup is on the THIRD FLOOR (3)",
+                "zh": "The Saint Agnes Cup is on the THIRD FLOOR (3)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 40",
+                "fr": "In room 40",
+                "es": "In room 40",
+                "zh": "In room 40"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_agnescup.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Come check it out!",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "AgnesCupMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Vuelta",
+            "zh": "出口"
+          }
+        }
+    ]
+}
