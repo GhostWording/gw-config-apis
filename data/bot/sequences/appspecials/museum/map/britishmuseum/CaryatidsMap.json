@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "CaryatidsMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Erechtheion Caryatids are on the GROUND FLOOR (0)",
+                "fr": "Les Cariatides de l'Érechthéion sont au REZ-DE-CHAUSSEE (0)",
+                "es": "Las Cariátides del Erecteón están en la BAJA PLANTA (0)",
+                "zh": "Erechtheion Caryatids are on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 19",
+                "fr": "Dans la salle 19",
+                "es": "En la sala 19",
+                "zh": "In room 19"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 704,
+                "Height": 599,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/Map_Caryatids.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "CaryatidsMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
