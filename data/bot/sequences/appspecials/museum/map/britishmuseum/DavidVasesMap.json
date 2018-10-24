@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "DavidVasesMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The David Vases are on the SECOND FLOOR (2)",
+                "fr": "Les Vases de David sont au DEUXIEME ETAGE (2)",
+                "es": "Los Jarrones de David están en EL SEGUNDO PISO (2)",
+                "zh": "The David Vases are on the SECOND FLOOR (2)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 95",
+                "fr": "Dans la salle 95",
+                "es": "En la sala 95",
+                "zh": "In room 95"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 299,
+                "Height": 216,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540392771/map_davidvases.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens les voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "DavidVasesMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
