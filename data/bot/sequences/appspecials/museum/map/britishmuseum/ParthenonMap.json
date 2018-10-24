@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "ParthenonMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Parthenon Pediments are on the GROUND FLOOR (0)",
+                "fr": "Les Frontons du Parthénon sont au REZ-DE-CHAUSSEE (0)",
+                "es": "Los Frontones del Partenón están en la BAJA PLANTA (0)",
+                "zh": "Parthenon Pediments are on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 18",
+                "fr": "Dans la salle 18",
+                "es": "En la sala 18",
+                "zh": "In room 18"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 704,
+                "Height": 599,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376855/Map_Parthenon.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens les voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "ParthenonMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
