@@ -1,0 +1,113 @@
+{
+  "Type": "Node",
+  "Id": "TestLouvreActions",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowRandomGifFromList:it should show one ShowRandomGifFromList and then continue",
+        "fr": "ShowStepActionShowRandomGifFromList:it should show one ShowRandomGifFromList and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowRandomGifFromList",
+      "Parameters": {
+        "Path": "/data/common/AnimatedEmojisNew.json"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "TestLouvreActions1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "ShowStepActionShowPopularImageFromTheme",
+        "fr": "ShowStepActionShowPopularImageFromTheme",
+        "es": "¡Dime!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "ShowStepActionShowPopularImageFromTheme:it should show one ShowPopularImageFromTheme and then continue",
+            "fr": "ShowStepActionShowPopularImageFromTheme:it should show one ShowPopularImageFromTheme and then continue"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowPopularImageFromTheme",
+          "Parameters": {
+            "Path": "themes/emojicats"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "TestLouvreActions2",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "TestLouvreActions3",
+            "CommandLabel": {
+              "en": "ShowStepActionShowPopularTextFromIntention",
+              "fr": "ShowStepActionShowPopularTextFromIntention",
+              "es": "¡Dime!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "ShowStepActionShowPopularTextFromIntention:it should show one ShowPopularTextFromIntention and then continue",
+                  "fr": "ShowStepActionShowPopularTextFromIntention:it should show one ShowPopularTextFromIntention and then continue"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowPopularTextFromIntention",
+                "Parameters": {
+                  "IntentionId": "43B296"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "TestLouvreActions4",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "TestLouvreActions5",
+                  "CommandLabel": {
+                    "en": "ShowStepActionShowCarouselFromIntention",
+                    "fr": "ShowStepActionShowCarouselFromIntention",
+                    "es": "¡Dime!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "ShowStepActionShowCarouselFromIntention:it should show one ShowCarouselFromIntention and then continue",
+                        "fr": "ShowStepActionShowCarouselFromIntention:it should show one ShowCarouselFromIntention and then continue"
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowCarouselFromIntention",
+                      "Parameters": {
+                        "IntentionId": "43B296",
+                        "NumberOfCards": "3"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
