@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "SamuraiMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Samurai Armour is on the FUFTH FLOOR (5)",
+                "fr": "L'Armure du samouraï est au REZ-DE-CHAUSSEE (5)",
+                "es": "La Armadura samurái está en la BAJA PLANTA (5)",
+                "zh": "The Samurai Armour is on the FUFTH FLOOR (5)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 93",
+                "fr": "Dans la salle 93",
+                "es": "En la sala 93",
+                "zh": "In room 93"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 243,
+                "Height": 163,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540392991/map_samurai.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens la voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "SamuraiMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
