@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "AmenhotepMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Head of Amenhotep III is on the GROUND FLOOR (0)",
+                "fr": "La tête d'Amenhotep III est au REZ-DE-CHAUSSEE (0)",
+                "es": "La cabeza de Amenhotep III está en la BAJA PLANTA (0)",
+                "zh": "The Head of Amenhotep III is on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 4",
+                "fr": "Dans la salle 4",
+                "es": "En la sala 4",
+                "zh": "In room 4"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_amenhotep.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens la voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "AmenhotepMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
