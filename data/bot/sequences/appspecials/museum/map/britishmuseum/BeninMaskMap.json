@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "BeninMaskMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Benin Ivory Mask is on the SECOND BASEMENT FLOOR (-2)",
+                "fr": "Le Masque-pendentif du Bénin est au DEUXIEME SOUS-SOL ETAGE (-2)",
+                "es": "El Máscara de marfil de Benín está en EL SEGUNDO PISO (-2)",
+                "zh": "The Benin Ivory Mask is on the SECOND BASEMENT FLOOR (-2)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 25",
+                "fr": "Dans la salle 25",
+                "es": "En la sala 25",
+                "zh": "In room 25"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 641,
+                "Height": 641,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540391979/map_beninmask.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "BeninMaskMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
