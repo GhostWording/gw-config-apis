@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "RosettaMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Rosetta Stone is on the GROUND FLOOR (0)",
+                "fr": "La Pierre de Rosette est au REZ-DE-CHAUSSEE (0)",
+                "es": "La Piedra de Rosetta está en la BAJA PLANTA (0)",
+                "zh": "The Rosetta Stone is on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 4",
+                "fr": "Dans la salle 4",
+                "es": "En la sala 4",
+                "zh": "In room 4"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_rosetta.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "RosettaMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
