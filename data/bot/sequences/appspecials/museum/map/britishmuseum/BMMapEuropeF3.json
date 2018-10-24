@@ -35,24 +35,24 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "BMMapEuropeF3Hadrian",
+            "Id": "BMMapEuropeF3SuttonHoo",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Head of Hadrian",
-                "fr": "La tête d'Hadrien",
-                "es": "La cabeza de Adriano",
+                "en": "The Sutton Hoo Helmet",
+                "fr": "Le Casque de Sutton Hoo",
+                "es": "El Casco de Sutton Hoo",
                 "zh": ""
             },
             "CarouselElements": {
                 "Title": {
-                    "en": "Room 49",
-                    "fr": "Salle 49",
-                    "es": "Sala 49",
+                    "en": "Room 41",
+                    "fr": "Salle 41",
+                    "es": "Sala 41",
                     "zh": ""
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056251/sutton_hoo_thumbnail.jpg"
                 }
             },
             "Steps": [
@@ -72,7 +72,79 @@
                         "Height": 538,
                         "Display": "FullScreenWidth",
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_suttonhoo.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapEuropeF3SuttonHooStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapEuropeF3SuttonHooGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "SuttonHoo"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapEuropeF3Hadrian",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Head of Hadrian",
+                "fr": "La tête d'Hadrien",
+                "es": "La cabeza de Adriano",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 49",
+                    "fr": "Salle 49",
+                    "es": "Sala 49",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540377711/hadrian_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_hadrian.jpg"
                     }
                 }
             ],
