@@ -1,0 +1,136 @@
+{
+    "Type": "Node",
+    "Id": "TapHereBestPart",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I want to ask a quick question...",
+                "fr": "I want to ask a quick question...",
+                "es": "I want to ask a quick question...",
+                "zh": "I want to ask a quick question..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you like most about my app?",
+                "fr": "What do you like most about my app?",
+                "es": "What do you like most about my app?",
+                "zh": "What do you like most about my app?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "TapHereBestPartOwl",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "You, Mr. Owl!",
+                "fr": "You, Mr. Owl!",
+                "es": "You, Mr. Owl!",
+                "zh": "You, Mr. Owl!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You are too kind... ☺",
+                        "fr": "You are too kind... ☺",
+                        "es": "You are too kind... ☺",
+                        "zh": "You are too kind... ☺"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereBestPartStories",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The stories!",
+                "fr": "The stories!",
+                "es": "The stories!",
+                "zh": "The stories!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! I'll start to think of some more...",
+                        "fr": "Great! I'll start to think of some more...",
+                        "es": "Great! I'll start to think of some more...",
+                        "zh": "Great! I'll start to think of some more..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereBestPartImages",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The images!",
+                "fr": "The images!",
+                "es": "The images!",
+                "zh": "The images!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's great news! Remember you can tap and zoom for close-ups!",
+                        "fr": "That's great news! Remember you can tap and zoom for close-ups!",
+                        "es": "That's great news! Remember you can tap and zoom for close-ups!",
+                        "zh": "That's great news! Remember you can tap and zoom for close-ups!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereBestPartDesign",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The design!",
+                "fr": "The design!",
+                "es": "The design!",
+                "zh": "The design!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wow, thanks! I'm glad you find it intuitive!",
+                        "fr": "Wow, thanks! I'm glad you find it intuitive!",
+                        "es": "Wow, thanks! I'm glad you find it intuitive!",
+                        "zh": "Wow, thanks! I'm glad you find it intuitive!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereBestPartMaps",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The maps!",
+                "fr": "The maps!",
+                "es": "The maps!",
+                "zh": "The maps!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, the last thing I want is for you to get lost! 😜",
+                        "fr": "Well, the last thing I want is for you to get lost! 😜",
+                        "es": "Well, the last thing I want is for you to get lost! 😜",
+                        "zh": "Well, the last thing I want is for you to get lost! 😜"
+                    }
+                }
+            ]
+        }
+    ]
+}
