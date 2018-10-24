@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "HadrianMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Head of Hadrian is on the THIRD FLOOR (3)",
+                "fr": "La tête d'Hadrien est au TROISIEME ETAGE (3)",
+                "es": "La cabeza de Adriano está en el TERCERO PISO (3)",
+                "zh": "The Sutton Hoo Helmet is on the THIRD FLOOR (3)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 49",
+                "fr": "Dans la salle 49",
+                "es": "En la sala 49",
+                "zh": "In room 49"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_hadrian.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens la voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "HadrianMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
