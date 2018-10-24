@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "AztecSerpentMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Aztec Mosaic Serpent is on the GROUND FLOOR (0)",
+                "fr": "Le Serpent aztèque en mosaïque est au REZ-DE-CHAUSSEE (0)",
+                "es": "El Serpiente azteca de mosaico está en la BAJA PLANTA (0)",
+                "zh": "The Aztec Mosaic Serpent is on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 27",
+                "fr": "Dans la salle 27",
+                "es": "En la sala 27",
+                "zh": "In room 27"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 704,
+                "Height": 599,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_aztecserpent.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "AztecSerpentMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
