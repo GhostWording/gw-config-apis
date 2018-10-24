@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "MausoleumMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Mausoleum at Halicarnassus is on the GROUND FLOOR (0)",
+                "fr": "Le Mausolée d'Halicarnasse est au REZ-DE-CHAUSSEE (0)",
+                "es": "El Mausoleo de Halicarnaso está en la BAJA PLANTA (0)",
+                "zh": "The Mausoleum at Halicarnassus is on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 21",
+                "fr": "Dans la salle 21",
+                "es": "En la sala 21",
+                "zh": "In room 21"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 704,
+                "Height": 599,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/Map_Mausoleum.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "MausoleumMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
