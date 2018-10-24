@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "ChessmenMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Lewis Chessmen are on the THIRD FLOOR (3)",
+                "fr": "Les Pièces d'échec de Lewis sont au TROISIEME ETAGE (3)",
+                "es": "Las Piezas de ajedrez de Lewis están en el TERCERO PISO (3)",
+                "zh": "Lewis Chessmen are on the THIRD FLOOR (3)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 40",
+                "fr": "Dans la salle 40",
+                "es": "En la sala 40",
+                "zh": "In room 40"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_chessmen.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens les voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "ChessmenMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
