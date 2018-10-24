@@ -52,7 +52,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538042342/amenhotep_thumbnail.jpg"
                 }
             },
             "Steps": [
@@ -72,7 +72,7 @@
                         "Height": 538,
                         "Display": "FullScreenWidth",
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_amenhotep.jpg"
                     }
                 }
             ],
@@ -98,6 +98,150 @@
                                 "Parameters": {
                                     "Type": "ArtworkView",
                                     "ArtworkPath": "Amenhotep"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapEgyptF1Ramesses",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Statue of Ramesses II",
+                "fr": "Buste de Ramsès II",
+                "es": "Busto de Ramses II",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 4",
+                    "fr": "Salle 4",
+                    "es": "Sala 4",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054793/ramessesII_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376855/map_ramesses.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapEgyptF1RamessesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapEgyptF1RamessesGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Ramesses"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapEgyptF1Rosetta",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Rosetta Stone",
+                "fr": "La Pierre de Rosette",
+                "es": "La Piedra de Rosetta",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 4",
+                    "fr": "Salle 4",
+                    "es": "Sala 4",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538409453/rosetta_stone_thumbnail2.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_rosetta.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapEgyptF1RosettaStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapEgyptF1RosettaGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Rosetta"
                                 }
                             }
                         ]
