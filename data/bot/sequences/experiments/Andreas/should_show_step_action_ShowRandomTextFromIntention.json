@@ -1,0 +1,21 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowStepActionShowRandomTextFromIntention",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowRandomTextFromIntention:it should show one ShowRandomTextFromIntention and then continue",
+        "fr": "ShowStepActionShowRandomTextFromIntention:it should show one ShowRandomTextFromIntention and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowTextForPrototype",
+      "Parameters": {
+        "IntentionId": "43B296"
+      }
+    }
+  ]
+}
