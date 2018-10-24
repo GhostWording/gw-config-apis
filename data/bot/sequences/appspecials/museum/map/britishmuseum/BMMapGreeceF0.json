@@ -104,6 +104,222 @@
                     }
                 ]
             }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapGreeceF0Exekias",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Exekias Amphora",
+                "fr": "L'Amphore d'Exékias",
+                "es": "El Ánfora de Exequias",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 13",
+                    "fr": "Salle 13",
+                    "es": "Sala 13",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044652/exekias_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/Map_Exekias.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapGreeceF0ExekiasStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapGreeceF0ExekiasGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Exekias"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapGreeceF0Caryatids",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Erechtheion Caryatids",
+                "fr": "Les Cariatides de l'Érechthéion",
+                "es": "Las Cariátides del Erecteón",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 19",
+                    "fr": "Salle 19",
+                    "es": "Sala 19",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538043691/caryatids_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/Map_Caryatids.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapGreeceF0CaryatidsStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapGreeceF0CaryatidsGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Caryatids"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BMMapGreeceF0Mausoleum",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Exekias Amphora",
+                "fr": "L'Amphore d'Exékias",
+                "es": "El Ánfora de Exequias",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Room 21",
+                    "fr": "Salle 21",
+                    "es": "Sala 21",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538045574/mausoleum_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 543,
+                        "Height": 538,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/Map_Mausoleum.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BMMapGreeceF0MausoleumStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BMMapGreeceF0MausoleumGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "Let's go!",
+                            "zh": "Let's go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Mausoleum"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
