@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "LionHuntMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The lion hunt reliefs are on the GROUND FLOOR (0)",
+                "fr": "Les reliefs de la chasse au lion sont au REZ-DE-CHAUSSEE (0)",
+                "es": "Los relieves de la caza del león está en la BAJA PLANTA (0)",
+                "zh": "The lion hunt reliefs are on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 10",
+                "fr": "Dans la salle 10",
+                "es": "En la sala 10",
+                "zh": "In room 10"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_lionhunt.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "LionHuntMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
