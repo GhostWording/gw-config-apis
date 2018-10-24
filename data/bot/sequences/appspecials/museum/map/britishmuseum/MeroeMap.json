@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "MeroeMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Meroe head is on the THIRD FLOOR (3)",
+                "fr": "La Tête de Meroe est au TROISIEME ETAGE (3)",
+                "es": "La Cabeza de Meroe está en el TERCERO PISO (3)",
+                "zh": "The Meroe head is on the THIRD FLOOR (3)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 70",
+                "fr": "Dans la salle 70",
+                "es": "En la sala 70",
+                "zh": "In room 70"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_meroe.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens la voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "MeroeMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
