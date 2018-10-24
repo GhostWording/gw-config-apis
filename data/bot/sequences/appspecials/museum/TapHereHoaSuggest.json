@@ -1,0 +1,89 @@
+{
+    "Type": "Node",
+    "Id": "TapHereHoaSuggest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You know... the British Museum has an artefact so famous that it has it's own emoji!",
+                "fr": "You know... the British Museum has an artefact so famous that it has it's own emoji!",
+                "es": "You know... the British Museum has an artefact so famous that it has it's own emoji!",
+                "zh": "You know... the British Museum has an artefact so famous that it has it's own emoji!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This one --> 🗿",
+                "fr": "This one --> 🗿",
+                "es": "This one --> 🗿",
+                "zh": "This one --> 🗿"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533301690/Standard_of_Ur_3_chariots.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Want to hear about it?",
+                "fr": "Want to hear about it?",
+                "es": "Want to hear about it?",
+                "zh": "Want to hear about it?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TapHereHoaSuggestYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Sure!",
+                "es": "Sure!",
+                "zh": "Sure!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You made the right choice!",
+                        "fr": "You made the right choice!",
+                        "es": "You made the right choice!",
+                        "zh": "You made the right choice!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Hoa"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereHoaSuggestNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks!",
+                "fr": "No thanks!",
+                "es": "No thanks!",
+                "zh": "No thanks!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK! If you change your mind, he'll be waiting for you in the gallery section!",
+                        "fr": "OK! If you change your mind, he'll be waiting for you in the gallery section!",
+                        "es": "OK! If you change your mind, he'll be waiting for you in the gallery section!",
+                        "zh": "OK! If you change your mind, he'll be waiting for you in the gallery section!"
+                    }
+                }
+            ]
+        }
+    ]
+}
