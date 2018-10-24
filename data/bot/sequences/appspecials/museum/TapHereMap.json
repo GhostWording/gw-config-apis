@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "TapHereMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I also can help you find out where all my stories are in the museum!",
+                "fr": "I also can help you find out where all my stories are in the museum!",
+                "es": "I also can help you find out where all my stories are in the museum!",
+                "zh": "I also can help you find out where all my stories are in the museum!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna see some maps?",
+                "fr": "Wanna see some maps?",
+                "es": "Wanna see some maps?",
+                "zh": "Wanna see some maps?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "TapHereMapSure",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Sure!",
+                "es": "Sure!",
+                "zh": "Sure!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let's gooooo!",
+                        "fr": "Let's gooooo!",
+                        "es": "Let's gooooo!",
+                        "zh": "Let's gooooo!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TapHereMapNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now!",
+                "fr": "Not right now!",
+                "es": "Not right now!",
+                "zh": "Not right now!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK!",
+                        "fr": "OK!",
+                        "es": "OK!",
+                        "zh": "OK!"
+                    }
+                }
+            ]
+        }
+    ]
+}
