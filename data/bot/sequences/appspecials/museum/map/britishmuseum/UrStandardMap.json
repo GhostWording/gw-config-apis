@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "UrStandardMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Standard of Ur is on the THIRD FLOOR (3)",
+                "fr": "L'Étendard d'Ur est au TROISIEME ETAGE (3)",
+                "es": "El Estandarte de Ur está en el TERCERO PISO (3)",
+                "zh": "The Standard of Ur is on the THIRD FLOOR (3)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 56",
+                "fr": "Dans la salle 56",
+                "es": "En la sala 56",
+                "zh": "In room 56"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376856/map_urstandard.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "UrStandardMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
