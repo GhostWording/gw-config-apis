@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "ExekiasMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Exekias Amphora is on the GROUND FLOOR (0)",
+                "fr": "L'Amphore d'Exékias est au REZ-DE-CHAUSSEE (0)",
+                "es": "El Ánfora de Exequias está en la BAJA PLANTA (0)",
+                "zh": "The Exekias Amphora is on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 13",
+                "fr": "Dans la salle 13",
+                "es": "En la sala 13",
+                "zh": "In room 13"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/Map_Exekias.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "ExekiasMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
