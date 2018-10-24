@@ -38,10 +38,10 @@
             "Id": "BMMapEuropeF0HolyThorn",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Holy Thorn Reliquary",
-                "fr": "Holy Thorn Reliquary",
-                "es": "Holy Thorn Reliquary",
-                "zh": ""
+            "en": "Holy Thorn Reliquary",
+            "fr": "Reliquaire de la Sainte Épine",
+            "es": "Relicario de la Santa Espina",
+            "zh": ""
             },
             "CarouselElements": {
                 "Title": {
@@ -52,7 +52,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536060988/Denon_Full_Highlight.png"
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538044976/holy_thorn_thumbnail.jpg"
                 }
             },
             "Steps": [
@@ -72,7 +72,7 @@
                         "Height": 538,
                         "Display": "FullScreenWidth",
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1535970397/VenusDeMiloMap.png"
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_holythorn.jpg"
                     }
                 }
             ],
