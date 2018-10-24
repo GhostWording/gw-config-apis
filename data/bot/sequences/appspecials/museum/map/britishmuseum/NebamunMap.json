@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "NebamunMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Tomb of Nebamun is on the THIRD FLOOR (3)",
+                "fr": "La Tombe de Nebamon est au TROISIEME ETAGE (3)",
+                "es": "Tumba de Nebamun está en el TERCERO PISO (3)",
+                "zh": "The Tomb of Nebamun is on the THIRD FLOOR (3)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 61",
+                "fr": "Dans la salle 61",
+                "es": "En la sala 61",
+                "zh": "In room 61"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 688,
+                "Height": 657,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376854/Map_Nebamun.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens la voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "NebamunMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
