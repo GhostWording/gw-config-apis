@@ -12,8 +12,10 @@
       { "order" : 70, "file": ["/data/bot/sequences/appspecials/museum/PeriodSuggest.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture.json"]},
       { "order" : 90, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/questions/GoMuseumsOften.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/appspecials/museum/TapHereMap.json"]},
-      { "order" : 110, "file": ["/data/bot/sequences/appspecials/museum/TapHereBestPart.json"]}
+      { "order" : 100, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture2.json"]},
+      { "order" : 110, "file": ["/data/bot/sequences/appspecials/museum/TapHereBestPart.json"]},
+      { "order" : 120, "file": ["/data/bot/sequences/appspecials/museum/TapHereHoaSuggest.json"]},
+      { "order" : 130, "file": ["/data/bot/sequences/appspecials/museum/TapHereHadrianSuggest.json"]}
       ]
    }
 ]
