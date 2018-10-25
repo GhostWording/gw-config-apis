@@ -35,70 +35,65 @@
             }
         }
     ],
-    "LinksTo": {
-        "Type": "Node",
-        "Id": "Ramesses2Step",
-        "ElementValue": "1",
-        "Commands": [
-            {
-                "Type": "Node",
-                "Id": "Ramesses2No",
-                "ElementValue": "1",
-                "CommandLabel": {
-                    "en": "Not interested",
-                    "fr": "Not interested",
-                    "es": "",
-                    "zh": ""
-                },
-                "Steps": [
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "Ok, let’s move on!",
-                            "fr": "Ok, let’s move on!",
-                            "es": "",
-                            "zh": ""
-                        }
-                    }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "RamessesFeedback"
-                }
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Ramesses2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not interested",
+                "fr": "Not interested",
+                "es": "",
+                "zh": ""
             },
-            {
-                "Type": "Node",
-                "Id": "Ramesses2What",
-                "ElementValue": "1",
-                "CommandLabel": {
-                    "en": "What happened?",
-                    "fr": "What happened?",
-                    "es": "",
-                    "zh": ""
-                },
-                "Steps": [
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                            "fr": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                            "es": "",
-                            "zh": ""
-                        }
-                    },
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                            "fr": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                            "es": "",
-                            "zh": ""
-                        }
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Ok, let’s move on!",
+                        "fr": "Ok, let’s move on!",
+                        "es": "",
+                        "zh": ""
                     }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "Ramesses3"
                 }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "RamessesFeedback"
             }
-        ]
-    }
+        },
+        {
+            "Type": "Node",
+            "Id": "Ramesses2What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What happened?",
+                "fr": "What happened?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
+                        "fr": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
+                        "fr": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Ramesses3"
+            }
+        }
+    ]
 }
