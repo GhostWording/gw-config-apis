@@ -52,7 +52,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thanks",
-                "fr": "J'en sais assez",
+                "fr": "Non merci",
                 "es": "",
                 "zh": ""
             },
@@ -77,7 +77,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
-                "fr": "Oui",
+                "fr": "Oui !",
                 "es": "",
                 "zh": ""
             },
@@ -103,7 +103,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 4000
+                        "ms": 2000
                     }
                 },
                 {
@@ -139,13 +139,6 @@
                                     "fr": "C'est comme quand nous, à notre époque, nous fabriquons des livres et des films sur l'époque médiévale !",
                                     "es": "",
                                     "zh": ""
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 4000
                                 }
                             },
                             {
@@ -209,19 +202,19 @@
                                             }
                                         },
                                         {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
-                                            }
-                                        },
-                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "This particular painter is famous for exactly that - leaving lots of space...",
                                                 "fr": "Ce peintre est notamment connu pour cela, il laisse beaucoup d'espace...",
                                                 "es": "",
                                                 "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
                                             }
                                         },
                                         {
@@ -232,26 +225,12 @@
                                             }
                                         },
                                         {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
-                                            }
-                                        },
-                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
                                                 "fr": "En peignant moins, il invite le spectateur à apprécier de plus près ce qu'il a effectivement peint !",
                                                 "es": "",
                                                 "zh": ""
-                                            }
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -299,13 +278,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Pause",
-                                                        "Parameters": {
-                                                            "Mode": "Wait",
-                                                            "ms": 4000
-                                                        }
-                                                    },
-                                                    {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
@@ -350,7 +322,7 @@
                                                         "Type": "Pause",
                                                         "Parameters": {
                                                             "Mode": "Wait",
-                                                            "ms": 4000
+                                                            "ms": 2000
                                                         }
                                                     },
                                                     {
