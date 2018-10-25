@@ -93,7 +93,10 @@
                                     "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533568592/Museum%20Bot/Holy_Thorn_6.jpg"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "HolyThornFeedback"
+                        }
                     }
                 ]
             }
