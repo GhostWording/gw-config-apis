@@ -1,51 +1,6 @@
 {
   "apps": [
     {
-     "availablefor" : ["en","fr","es"], 
-      "header": {
-       "en": "Funny dating tips",
-        "fr": "Conseils de séduction humoristiques",
-        "es": "Consejos de citas divertidas"
-      },
-      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538407650/dating1.jpg",
-      "button": {
-        "en": "Try",
-        "fr": "Essayer",
-        "es": "Probar"
-      },
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.datingtips"
-    },      
-    {
-      "availablefor" : ["en", "fr"],
-      "header": {
-        "en": "Try me, I know stories!",
-        "fr": "Essaye-moi, je connais des histoires",
-        "es": "¡Salva al gatito!"
-      },
-      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
-      "button": {
-        "en": "Let's try!",
-        "fr": "Essayer",
-        "es": "Salva un gatito"
-      },
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.louvre"
-    },
-    {
-     "availablefor" : ["en","fr","es"], 
-      "header": {
-        "en": "Fortnite survival tips",
-        "fr": "Guide de survie Fortnite",
-        "es": "Fortnite consejos"
-      },
-      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538405439/fortnite_lama.jpg",
-      "button": {
-        "en": "Let's try!",
-        "fr": "Essayer",
-        "es": "Probar"
-      },
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.battleroyale"
-    },    
-    {
       "availablefor" : ["en","fr","es"],
       "header": {
         "en": "Free hugs!",
@@ -64,6 +19,52 @@
         "fr": "https://play.google.com/store/apps/details?id=com.wavemining.hugs",
         "es": "https://play.google.com/store/apps/details?id=com.wavemining.hugs"
       }
+    }
+    ,              
+    {
+     "availablefor" : ["en","fr","es"], 
+      "header": {
+       "en": "Funny dating tips",
+        "fr": "Conseils de séduction humoristiques",
+        "es": "Consejos de citas divertidas"
+      },
+      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538407650/dating1.jpg",
+      "button": {
+        "en": "Try",
+        "fr": "Essayer",
+        "es": "Probar"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.datingtips"
+    },
+    {
+     "availablefor" : ["en","fr","es"], 
+      "header": {
+        "en": "Fortnite survival tips",
+        "fr": "Guide de survie Fortnite",
+        "es": "Fortnite consejos"
+      },
+      "iconUrl": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538405439/fortnite_lama.jpg",
+      "button": {
+        "en": "Let's try!",
+        "fr": "Essayer",
+        "es": "Probar"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.battleroyale"
+    },    
+    {
+      "availablefor" : ["en", "fr"],
+      "header": {
+        "en": "Try me, I know stories!",
+        "fr": "Essaye-moi, je connais des histoires",
+        "es": "¡Salva al gatito!"
+      },
+      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
+      "button": {
+        "en": "Let's try!",
+        "fr": "Essayer",
+        "es": "Salva un gatito"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.louvre"
     }
   ]
 }
