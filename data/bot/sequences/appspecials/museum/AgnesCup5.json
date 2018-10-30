@@ -1,0 +1,154 @@
+{
+    "Type": "Node",
+    "Id": "AgnesCup5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It made its way into the hands of England’s most famous king, Henry VIII!",
+                "fr": "Elle s'est retrouvée entre les mains du plus célèbre roi d'Angleterre, Henri VIII !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540912038/henriVIII.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "At some point, Henry had the cup modified to include the symbol of his family - the Tudor Rose",
+                "fr": "Henri est même allé jusqu'à modifier la coupe pour y inclure le symbole de sa famille, la Rose Tudor",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AgnesCup5Show",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Show me !",
+                "fr": "Montre-moi !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right here, in the middle!",
+                        "fr": "Juste là, au milieu !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540912227/rosetudor.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "To me, they look slightly out of place with the rest of the decorations!",
+                        "fr": "Selon moi, elles sont un peu en décalage avec le reste des décorations !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944052/RoyalCup_3.3.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944052/RoyalCup_3.4.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AgnesCup5ShowStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AgnesCup5ShowLike",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I like them",
+                            "fr": "Je les aime bien",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "AgnesCup6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "AgnesCup5ShowRight",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You're right",
+                            "fr": "Tu as raison",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "AgnesCup6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
