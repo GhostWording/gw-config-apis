@@ -1,0 +1,54 @@
+{
+    "Type": "Node",
+    "Id": "AgnesCup4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, it seems to have passed to the English nobility in the early 1400s…",
+                "fr": "Quoiqu'il en soit, la noblesse anglaise semble être rentrée en sa possession dans les années 1400...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "...and was pawned at least twice to fund the war against France!",
+                "fr": "...et a été mise en gage au moins deux fois pour financer la guerre contre la France !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AgnesCup4Noble",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A noble cause :uk:",
+                "fr": "Une noble cause :uk:",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCup5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AgnesCup4Then",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "And then?",
+                "fr": "Et ensuite ?",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCup5"
+            }
+        }
+    ]
+}
