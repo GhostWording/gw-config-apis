@@ -1,0 +1,258 @@
+{
+    "Type": "Node",
+    "Id": "AgnesCup6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We’re about halfway through the tale of the St Agnes Cup, shall we keep going?",
+                "fr": "On est à la moitié de l'histoire à propos de la Coupe de Sainte Agnès, est-ce que tu veux en savoir plus ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AgnesCup6Stop",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Let’s stop here",
+                "fr": "Arrêtons-nous là",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK! Thanks for listening!",
+                        "fr": "Ok ! Merci d'avoir écouté jusque-là !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "AgnesCupFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AgnesCup6Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, keep going!",
+                "fr": "Oui, continue !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It passed down through the Tudor family, until King James I gave it to the Spanish nobility (below) in the early 1600s",
+                        "fr": "Elle se transmit au sein de la famille Tudor, jusqu'à ce que le roi Jacques Ier le donne à la noblesse espagnole (ci-dessous) au début du XVIe siècle",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294584/RoyalCup4_Velasco.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Since the English and Spanish were warring at the time, this was almost certainly as an attempt to soothe relations!",
+                        "fr": "Les Anglais et les Espagnols étant en guerre à l'époque, il s'agissement sûrement d'une tentative d'apaisement des relations !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AgnesCup6YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AgnesCup6YesSmart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "A smart move !",
+                            "fr": "Une décision intelligente !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! But I guess they didn’t think that much of the cup…",
+                                    "fr": "En effet ! Mais je suppose qu'ils n'accordaient pas beaucoup d'importance à la coupe...",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "After only a couple of years, they gave it to a nunnery in Spain",
+                                    "fr": "Après seulement quelques années, ils la donnèrent à un couvent en Espagne",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "3486W9RaI4XRG9J1Et"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It stayed here for almost 300 years!",
+                                    "fr": "Elle y est restée pendant presque 300 ans !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "AgnesCup6YesSmartStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "AgnesCup6YesSmartThen",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "And then?",
+                                        "fr": "Et ensuite ?",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The nuns eventually sold it to an art dealer in Paris because they were short on cash",
+                                                "fr": "Les nonnes l'ont finalement vendue à un marchand d'art français car elles avaient besoin d'argent",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Elle est ensuite retournée en Angleterre dans les années 1890 et a été placée dans un magasin d'antiquités",
+                                                "fr": "",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "AgnesCup6YesSmartThenStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "AgnesCup6YesSmartThenAmazing",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Amazing !",
+                                                    "fr": "Incroyable !",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Finally, a group of Englishmen pooled their resources and bought it for the British museum",
+                                                            "fr": "Enfin, un groupe d'Anglais ont mis en commun leurs ressources et la rachetèrent pour le compte du British Museum",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "They were terrified that the cup would be bought by J.P. Morgan of America",
+                                                            "fr": "Ils craignaient que la coupe ne finisse entre les mains de l'américain J.P. Morgan",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533302055/RoyalGoldCup5_JPMorgan.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "It’s been in the museum ever since!",
+                                                            "fr": "Elle est exposée au musée depuis !",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "AgnesCup6YesSmartThenAmazingStep",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Node",
+                                                            "Id": "AgnesCup6YesSmartThenAmazingJourney",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "What a journey!",
+                                                                "fr": "Quel chemin parcouru !",
+                                                                "es": "",
+                                                                "zh": ""
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Definitely! Who knows what future awaits it...",
+                                                                        "fr": "Absolument ! Qui sait ce que l'avenir lui réserve...",
+                                                                        "es": "",
+                                                                        "zh": ""
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "LinksToFragment": {
+                                                                "FragmentPath": "AgnesCupFeedback"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
