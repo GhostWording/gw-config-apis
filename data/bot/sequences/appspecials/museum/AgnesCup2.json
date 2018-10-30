@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Fortunately, these people were often kind enough to write lists of all the treasure they owned, quite regularly.",
-                "fr": "Heureusement, ces gens-là ont souvent eu la gentillesse de dresser des listes régulièrement de tous leurs trésors.",
+                "en": "It has certainly travelled around in its lifetime!",
+                "fr": "Elle a clairement beaucoup voyagé depuis sa création !",
                 "es": "",
                 "zh": ""
             }
@@ -14,8 +14,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "So we can track its life quite accurately! Want to hear the story?",
-                "fr": "On peut donc suivre son chemin assez précisément ! Tu veux entendre l'histoire ?",
+                "en": "Want to hear its life story?",
+                "fr": "Tu veux entendre son histoire ?",
                 "es": "",
                 "zh": ""
             }
@@ -33,16 +33,16 @@
                 "zh": ""
             },
             "LinksToFragment": {
-                "FragmentPath": "AgnesCupFeedback"
+                "FragmentPath": "Exit"
             }
         },
         {
             "Type": "Node",
-            "Id": "AgnesCup2Hear",
+            "Id": "AgnesCup2Go",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Let's hear it!",
-                "fr": "Avec plaisir !",
+                "en": "Go ahead!",
+                "fr": "C'est parti !",
                 "es": "",
                 "zh": ""
             },
@@ -50,24 +50,24 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "We first hear of it when a man called John of Berry gives it to king Charles VI of France…",
-                        "fr": "On en entend parler pour la première fois lorsqu'un homme du nom de Jean de Berry le donne au roi de France Charles VI…",
+                        "en": "Alright! Let’s begin on this epic tale!",
+                        "fr": "Très bien ! Commençons ce récit épique !",
                         "es": "",
                         "zh": ""
                     }
                 },
                 {
-                    "Type": "Image",
+                    "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                        "Source": "Giphy",
+                        "Path": "PsnDmrzEJU02Q"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "They had had some bad relations recently, mainly as a result of John’s behaviour… This cup was a gift of apology",
-                        "fr": "Ils avaient eu des différends récemment, principalement à cause du comportement de Jean… Cette coupe était un cadeau d'excuse",
+                        "en": "It all starts in France (we think!)",
+                        "fr": "Tout débuta en France (on pense) !",
                         "es": "",
                         "zh": ""
                     }
@@ -75,30 +75,33 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "AgnesCup2HearStep",
+                "Id": "AgnesCup2GoStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "AgnesCupHearThen",
+                        "Id": "AgnesCupGoUK",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Then what!?",
-                            "fr": "Et ensuite !?",
+                            "en": "How disappointing :uk:",
+                            "fr": "Décevant :uk:",
                             "es": "",
                             "zh": ""
                         },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It passed to the English royal family some time later!",
-                                    "fr": "Quelque temps après, la famille royale est entrée en possession de la coupe !",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            }
-                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "AgnesCup3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "AgnesCupGoFR",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Go france! :fr:",
+                            "fr": "Vive la France ! :fr:",
+                            "es": "",
+                            "zh": ""
+                        },
                         "LinksToFragment": {
                             "FragmentPath": "AgnesCup3"
                         }
