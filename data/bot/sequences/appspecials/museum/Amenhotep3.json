@@ -27,33 +27,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "It was found here:",
-                        "fr": "Elle a été trouvée ici :",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "1o1u5neyo6ETSPwn56"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "By serial statue ‘discoverer’ Giovanni Belzoni and Henry William Beechey, in 1817.",
-                        "fr": "Par Giovanni Belzoni - qui n'en était pas à sa première trouvaille - et par Henry William Beechey, en 1817.",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "As with the famous statue of Ramesses II which Belzoni also found, it proved a difficult operation.",
-                        "fr": "Comme pour la statue de Ramsès II, également découverte par Belzoni, l'opération s'est avérée difficile.",
+                        "en": "So, I guess you want to learn all about Amenhotep himself, right?",
+                        "fr": "Donc j'imagine que tu veux tout savoir sur la personne d'Amenhotep, n'est-ce pas ?",
                         "es": "",
                         "zh": ""
                     }
@@ -66,11 +41,11 @@
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "Amenhotep3FashionableTell",
+                        "Id": "Amenhotep3FashionableNo",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Tell me more!",
-                            "fr": "Dis m'en plus !",
+                            "en": "No!",
+                            "fr": "Non merci !",
                             "es": "",
                             "zh": ""
                         },
@@ -78,24 +53,42 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "This head now rests in the British Museum, along with an arm",
-                                    "fr": "La tête repose à présent au British Museum, à côté de son bras gauche",
+                                    "en": "Alright, no problem!",
+                                    "fr": "D'accord, aucun problème !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Exit"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Amenhotep3FashionableYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You got it chief",
+                            "fr": "En effet !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He reigned in Egypt the 14th century BC!",
+                                    "fr": "Il a régné en Egypte au 14ème siècle avant JC !",
                                     "es": "",
                                     "zh": ""
                                 }
                             },
                             {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
-                                }
-                            },
-                            {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "While it’s possible that there was only one arm on this statue, we’re confident that there were two, and the other is destroyed or lost.",
-                                    "fr": "Bien qu'il soit possible que la statue n'ait possédé qu'un bras, on est plutôt convaincu qu'il y en avait deux, et l'autre a dû être détruit ou perdu",
+                                    "en": "That’s over 3400 years ago!",
+                                    "fr": "C'était il y a plus de 3400 ans !",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -103,16 +96,16 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "Amenhotep3FashionableTellStep",
+                            "Id": "Amenhotep3FashionableYesStep",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "Amenhotep3FashionableTellGreat",
+                                    "Id": "Amenhotep3FashionableYesYoung",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Great story!",
-                                        "fr": "Drôle d'histoire !",
+                                        "en": "He looks young here",
+                                        "fr": "Il a l'air jeune ici",
                                         "es": "",
                                         "zh": ""
                                     },
@@ -120,54 +113,131 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Thanks! You can find it here in the museum!",
-                                                "fr": "Merci ! Tu peux la trouver ici dans le musée !",
+                                                "en": "Agreed! That’s half the reason pharaohs built these statues! He’s immortalised as a young, handsome ruler for millennia!",
+                                                "fr": "En effet ! C'est une des raisons pour laquelle les pharaons construisaient ces statues ! Il est immortalisé en tant que jeune et beau dirigant depuis des millénaires !",
                                                 "es": "",
                                                 "zh": ""
                                             }
                                         },
-                                        {
-                                            "Type": "Image",
-                                            "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "AmenhotepFeedback"
-                                    }
-                                },
-                                {
-                                    "Type": "Node",
-                                    "Id": "Amenhotep3FashionableTellFind",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Where can I find it?",
-                                        "fr": "Où est-ce que je peux la trouver ?",
-                                        "es": "",
-                                        "zh": ""
-                                    },
-                                    "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Here!",
-                                                "fr": "Ici !",
+                                                "en": "Rulers have been copying this strategy for years! It never gets old:",
+                                                "fr": "Les dirigeants ont depuis beaucoup copié cette stratégie ! Ca ne vieillit pas :",
                                                 "es": "",
                                                 "zh": ""
                                             }
                                         },
                                         {
-                                            "Type": "Image",
+                                            "Type": "Action",
+                                            "Name": "AmenhotepRulers",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
+                                                "Path": "/data/common/carousel/museum/AmenhotepRulers.json"
                                             }
                                         }
                                     ],
-                                    "LinksToFragment": {
-                                        "FragmentPath": "AmenhotepFeedback"
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Amenhotep3FashionableYesYoungStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Amenhotep3FashionableYesYoungEnough",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "That’s enough",
+                                                    "fr": "J'en sais assez",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "AmenhotepFeedback"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Amenhotep3FashionableYesYoungGood",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Good point!",
+                                                    "fr": "Bon point !",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "His wife is also rather famous - Tiye was her name",
+                                                            "fr": "Sa femme est également assez célèbre, elle s'appelait Tiye",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "To show everyone how much they loved each other, they built an enormous double statue",
+                                                            "fr": "Pour montrer à tous combien ils s'aimaient, ils construisirent une énorme statue double",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540914182/amenhotep_tiye.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Talk about cringey couple photos…",
+                                                            "fr": "",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "Amenhotep3FashionableYesYoungGoodStep",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Node",
+                                                            "Id": "Amenhotep3FashionableYesYoungGoodShowoffs",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Showoffs",
+                                                                "fr": "M'as-tu-vu",
+                                                                "es": "",
+                                                                "zh": ""
+                                                            },
+                                                            "LinksToFragment": {
+                                                                "FragmentPath": "Amenhotep4"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Node",
+                                                            "Id": "Amenhotep3FashionableYesYoungGoodRomantic",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "How romantic",
+                                                                "fr": "Comme c'est romantique",
+                                                                "es": "",
+                                                                "zh": ""
+                                                            },
+                                                            "LinksToFragment": {
+                                                                "FragmentPath": "Amenhotep4"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
                                     }
                                 }
                             ]
@@ -178,3 +248,5 @@
         }
     ]
 }
+                              
+                                    
