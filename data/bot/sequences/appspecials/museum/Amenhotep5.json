@@ -1,0 +1,61 @@
+{
+    "Type": "Node",
+    "Id": "Amenhotep5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As an added bonus, they also found an arm from the statue!",
+                "fr": "En prime, ils ont également trouvé un des bras de la statue",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "By all accounts, it wasn’t an easy job to get both pieces out of the sand and on a ship to England!",
+                "fr": "De l'avis de tous, ce n'était pas un travail facile d'extraire les deux pièces du sable et de les transporter en Angleterre !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Amenhotep5Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Amenhotep6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Amenhotep5NoDoubt",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No doubt!",
+                "fr": "Sans aucun doute !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Amenhotep6"
+            }
+        }
+    ]
+}
