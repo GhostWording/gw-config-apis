@@ -1,0 +1,34 @@
+{
+    "Type": "Node",
+    "Id": "Amenhotep6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, they weigh a lot… the head alone is around 3600kg",
+                "fr": "Elles sont très très lourdes... à elle seule, la tête pèse environ 3600kg",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That’s about the same as a hippopotamus…",
+                "fr": "C'est à peu près la même chose qu'un hippopotame...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1540478992/museum%20app/Hippo_vs_Amenhotep.png"
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "AmenhotepFeedback"
+    }
+}
