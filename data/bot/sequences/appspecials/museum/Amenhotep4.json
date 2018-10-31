@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "Amenhotep4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless, let’s talk again about our head.",
+                "fr": "Quoiqu'il en soit, revenons en à la statue.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was found here:",
+                "fr": "Elle a été trouvée ici :",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "1o1u5neyo6ETSPwn56"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "...by serial statue ‘discoverer’ Giovanni Belzoni in 1817.",
+                "fr": "...en 1817, par Giovanni Belzoni - qui n'en était pas à sa première trouvaille.",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Amenhotep4Thief",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thief",
+                "fr": "Voleur",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Amenhotep5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Amenhotep4Hero",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hero",
+                "fr": "Quel héros !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Amenhotep5"
+            }
+        }
+    ]
+}
