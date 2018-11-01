@@ -1,0 +1,41 @@
+{
+    "Id": "VictoryRomanCopies",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Capitoline Venus",
+                "fr": "L'Empereur Romain Auguste",
+                "es": "El Emperador Romano Augusto",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541071704/8capitoline_venus.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Cupid and Psyche",
+                "fr": "Cupidon et Psyché",
+                "es": "Cupido y Psique",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541072003/8cupid_psyche.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Farnese Atlas",
+                "fr": "Atlas Farnèse",
+                "es": "Atlas Farnesio",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541072388/8farnese_atlas.jpg"
+            }
+        }
+    ]
+}
