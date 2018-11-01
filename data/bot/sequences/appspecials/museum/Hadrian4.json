@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
-                "fr": "On pense que ce buste a été réalisé pour commémorer sa visite en Grande-Bretagne (une partie d'une statue entière !)",
+                "fr": "On pense que ce buste a été réalisé pour commémorer sa visite en Grande-Bretagne (comme élément d'une statue entière !)",
                 "es": "",
                 "zh": ""
             }
@@ -48,13 +48,11 @@
                         "es": "",
                         "zh": ""
                     }
-                },
-                {
-                    "LinksToFragment": {
-                        "FragmentPath": "HadrianFeedback"
-                    }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "HadrianFeedback"
+            }
         }
     ]
 }
