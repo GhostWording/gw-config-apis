@@ -1,0 +1,169 @@
+{
+    "Type": "Node",
+    "Id": "Victory4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We know from archaeological and stylistic evidence that this statue is roughly from the 2nd century BC",
+                "fr": "Certains éléments archéologiques et stylistiques nous permettent de dater la statue du IIe siècle avant JC",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "At that time, the successors of Alexander the Great were warring between themselves, fighting over his land!",
+                "fr": "A cette époque, les successeurs d'Alexandre le Grand étaient en guerre, se disputant son territoire !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victory4What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So what?",
+                "fr": "Et alors ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, we think this statue was dedicated to celebrate a sea-victory fought in those wars!",
+                        "fr": "On pense que cette statue était un hommage à une victoire navale pendant ces guerres !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Since the wars were fought in and around the mediterranean sea, there were many of these!",
+                        "fr": "Comme les guerres se sont déroulées dans la Mer Méditerranée et autour de celle-ci, il y a eu beaucoup de batailles de ce type-là !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So it’s almost impossible to say exactly which one",
+                        "fr": "Il est donc presque impossible de dire exactement laquelle !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victory4WhatStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Victory4WhatReally",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Really no idea?",
+                            "fr": "Vraiment aucune idée ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The statue has a partial inscription on it, which mentions the island of Rhodes",
+                                    "fr": "La statue porte une inscription partielle qui mentionne l'île de Rhodes",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 973,
+                                    "Height": 788,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541075381/6victory_side.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "As a result, our best guess is that Rhodes won a victory, and dedicated the statue! But that’s not certain! Do you agree?",
+                                    "fr": "En conséquence, notre hypothèse la plus probable est que Rhodes a remporté une victoire et y a dédié une statue ! Mais ce n'est pas certain ! Es-tu d'accord ?",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Victory4WhatReallyStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory4WhatReallyYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yeah, it’s Rhodian!",
+                                        "fr": "Oui, c'est Rhodien !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Victory5"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory4WhatReallyElse",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Something else",
+                                        "fr": "C'est autre chose",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Victory5"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
