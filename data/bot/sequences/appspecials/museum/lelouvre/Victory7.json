@@ -1,0 +1,28 @@
+{
+    "Type": "Node",
+    "Id": "Victory7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, thanks for listening! I hope you check out the statue… you can’t miss it if you visit!",
+                "fr": "Quoiqu'il en soit, merce d'avoir lu l'hisoitre ! J'espère que tu iras voir la statue... tu ne peux pas la louper si tu visites Le Louvre !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 960,
+                "Height": 922,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541072530/11victory_louvre.jpg"
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "VictoryFeedback"
+    }
+}
