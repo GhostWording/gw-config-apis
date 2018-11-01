@@ -1,0 +1,176 @@
+{
+    "Type": "Node",
+    "Id": "Victory5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Want to hear the next part of the story?",
+                "fr": "Tu veux entendre la suite de l'histoire ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victory5Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "VictoryFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Victory5Yeah",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Bien sûr !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The statue has remained popular to this day because of how finely carved it is!",
+                        "fr": "La statue est restée très populaire jusqu'à ce jour en raison de la finesse de sa sculpture !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Nike’s robe sticks to her body in the imaginary wind… it’s as if she has really just flown down and landed on the prow of a ship!",
+                        "fr": "La robe de Niké, traversée par un vent imaginaire, lui colle au corps... c'est comme si elle venait tout de juste de descendre et d'atterrir sur la proue du navire !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victory5YeahStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Victory5YeahAmazing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Amazing!",
+                            "fr": "Magnifique !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The sculptor has done a fantastic job of making a still statue look like it’s full of motion!",
+                                    "fr": "Le sculpteur a fait un travail fantastique en donnant à un estatue immobile une apparence de mouvement !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Everything about Nike’s pose and form suggests that she’s really moving! ",
+                                    "fr": "Tout dans la position et la forme de Niké suggère qu'elle bouge vraiment !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 805,
+                                    "Height": 1085,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541070627/7victory_move.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It’s hard to imagine that it’s just a rock, and not a real woman! At least to me! What do you think?",
+                                    "fr": "C'est difficile d'imaginer qu'il s'agit juste d'une pierre, et non d'une vraie femme ! En tout cas pour moi ! Qu'en penses-tu ?",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Victory5YeahAmazingStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory5YeahAmazingReal",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "She looks real!",
+                                        "fr": "On dirait qu'elle est réelle !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Victory6"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory5YeahAmazingRock",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It’s just rock!",
+                                        "fr": "Ce n'est qu'une pierre",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Victory6"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
