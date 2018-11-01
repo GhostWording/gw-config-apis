@@ -1,0 +1,179 @@
+{
+    "Type": "Node",
+    "Id": "Victory2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "they did manage to leave behind one of the hands in the process…",
+                "fr": "ils ont réussi à oublier une des mains en cours de route...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was only rediscovered in 1950!",
+                "fr": "Elle a seulement été redécouverte en 1950 !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 891,
+                "Height": 679,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541068924/3hand_victory.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It now rests in a little case next to the main statue",
+                "fr": "Elle est maintenant exposée à côté de la statue principale, dans un cube à part",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victory2Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good find!",
+                "fr": "Belle trouvaille !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! We almost lost a piece from a silly mistake!",
+                        "fr": "En effet ! On a presque perdu une partie à cause d'une erreur stupide !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess we can hope that someday we find the arms and head, too! 😄",
+                        "fr": "Je suppose qu'on peut toujours espérer retrouver un jour les bras et la tête ! 😄",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But until then, artists and sculptors have made reconstructions imagining the full version!",
+                        "fr": "Mais en attendant, des artistes et des sculpteurs se sont essayés à des reconstructions de la version complète !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "data/common/carousel/museum/VictoryReconstructions.json"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victory2GoodStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Victory2GoodEnough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's enough",
+                            "fr": "J'en sais assez",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "VictoryFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Victory2GoodNext",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Next Part!",
+                            "fr": "Partie suivante !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The statue represents Nike! Not the clothing brand… the goddess!",
+                                    "fr": "La statue représente Niké ! Par la marque de vêtement... la déesse !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We can tell because of the wings… it’s her common attribute!",
+                                    "fr": "On le sait grâce aux ailes... c'est son attribut habituel !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Victory2GoodNextStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory2GoodNextNever",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I never knew! 🤔",
+                                        "fr": "Je ne savais pas ! 🤔",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Victory3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory2GoodNextNever",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I knew that! 🤓",
+                                        "fr": "Je le savais déjà ! 🤓",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Victory3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
