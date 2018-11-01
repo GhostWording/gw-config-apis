@@ -1,0 +1,95 @@
+{
+    "Type": "Node",
+    "Id": "Victory3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The statue shows Nike landing on the prow of a ship!",
+                "fr": "La statue représent Niké atterrissant sur la proue d'un navire !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1000,
+                "Height": 826,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541069893/5base_victory.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Her arrival represents the arrival of victory itself!",
+                "fr": "Son arrivée représente celle de la victoire personnifiée !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In other words, the statue celebrates a naval victory!",
+                "fr": "En d'autres termes, la statue célèbre une victoire navale !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victory3Clever",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Clever!",
+                "fr": "Intéressant !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "We’re not sure which victory it represents!",
+                        "fr": "On ne sait pas exactement de quelle victoire il s'agit !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Victory4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Victory3Which",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Which one?",
+                "fr": "Laquelle ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "We’re not quite sure!",
+                        "fr": "",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Victory4"
+            }
+        }
+    ]
+}
