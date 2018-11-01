@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "It gets its name from this handsome man!",
-                "fr": "It gets its name from this handsome man!",
+                "en": "It gets its name from this handsome man - the Roman emperor Hadrian!",
+                "fr": "Il tient son nom de ce bel homme - l'Empereur Romain Hadrien !",
                 "es": "",
                 "zh": ""
             }
@@ -22,8 +22,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Hadrian was not a typical emperor…",
-                "fr": "Hadrian was not a typical emperor…",
+                "en": "He reigned in the 2nd century AD, and was a particularly unique emperor...",
+                "fr": "Il régna au IIe siècle avant notre ère, et il fut un empereur particulièrement unique...",
                 "es": "",
                 "zh": ""
             }
@@ -32,25 +32,11 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Hadrian2Stop",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Not interested",
-                "fr": "Not interested",
-                "es": "",
-                "zh": ""
-            },
-            "LinksToFragment": {
-                "FragmentPath": "HadrianFeedback"
-            }
-        },
-        {
-            "Type": "Node",
             "Id": "Hadrian2How",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How so?",
-                "fr": "How so?",
+                "fr": "Comment ça ?",
                 "es": "",
                 "zh": ""
             },
@@ -59,14 +45,146 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, firstly, he was something of a fashion icon!",
-                        "fr": "Well, firstly, he was something of a fashion icon!",
+                        "fr": "Eh bien, tout d'abord, il était une sorte d'icône de la mode !",
                         "es": "",
                         "zh": ""
                     }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Notice how he has a beard here in the bust…",
+                        "fr": "Regarde sa barbe ici sur le buste...",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304580/museum%20app/Hadrians-beard.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "…",
+                        "fr": "…",
+                        "es": "...",
+                        "zh": "..."
+                    }
                 }
             ],
-            "LinksToFragment": {
-                "FragmentPath": "Hadrian3"
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Hadrian3HowStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Hadrian3HowWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "So what?",
+                            "fr": "Et alors ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, no emperors or statesmen to this point had such bold facial hair!",
+                                    "fr": "Eh bien, aucun empereur ni homme d'état de cette époque n'avait une telle pilosité sur le visage !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was considered more proper to be clean shaven!",
+                                    "fr": "On considérait qu'il était plus approprié d'être rasé de près !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540915965/augustus.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "What do you think? Should emperors have beards? 😄",
+                                    "fr": "Qu'est-ce que tu en penses ? Est-ce que les empereurs devraient porter une barbe ? 😄",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Hadrian2HowWhatStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Hadrian2HowWhatYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes!",
+                                        "fr": "Oui !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Hadrian3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Hadrian2HowWhatNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No!",
+                                        "fr": "Non !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Hadrian3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
         }
     ]
