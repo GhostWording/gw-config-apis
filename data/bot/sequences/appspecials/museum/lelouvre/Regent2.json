@@ -1,0 +1,93 @@
+{
+    "Type": "Node",
+    "Id": "Regent2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The next to own the diamond was a wealthy English noble, Thomas Pitt.",
+                "fr": "Le diamant est ensuite entré en possession d'un riche noble anglais, Thomas Pitt.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 199,
+                "Height": 246,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541075144/thomas_pitt.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Pitt gave it to his son, who smuggled it out of India in his shoe!",
+                "fr": "Pitt le donna à son fils, qui le sortit clandestinement d'Inde en le mettant dans sa chaussure !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "While Pitt claimed he had bought the diamond at a high price, rumours circulated that he had obtained it through some dodgy methods…",
+                "fr": "Alors que Pitt affirmait avoir acheté le diamant à un prix élevé, des rumeurs circulaient selon lesquelles il l'avait obtenu de manière louche...",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Regent2Stole",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He stole it!",
+                "fr": "Il l'a volé !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Regent3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Regent2Bought",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He bought it!",
+                "fr": "Il l'a acheté !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Regent3"
+            }
+        }
+    ]
+}
+                                                    
