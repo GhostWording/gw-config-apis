@@ -3,39 +3,39 @@
     "Id": "Hadrian4",
     "Steps": [
         {
-            "Type": "Image",
+            "Type": "Text",
+            "Label": {
+                "en": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
+                "fr": "On pense que ce buste a été réalisé pour commémorer sa visite en Grande-Bretagne (comme élément d'une statue entière !)",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was found in the Thames, after all!",
+                "fr": "Il a été trouvé dans la Tamise après tout !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "AnimatedGif",
             "Parameters": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304586/museum%20app/Hadrian_Map.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "We think he visited nearly every corner of the empire at least once!",
-                "fr": "We think he visited nearly every corner of the empire at least once!",
-                "es": "",
-                "zh": ""
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Talk about air miles!",
-                "fr": "Talk about air miles!",
-                "es": "",
-                "zh": ""
+                "Source": "Giphy",
+                "Path": "3gMc2X72vgjqGEqdJ5"
             }
         }
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Hadrian4Else",
+            "Id": "Hadrian4Nearby",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Anything else?",
-                "fr": "Anything else?",
+                "en": "That's nearby!",
+                "fr": "C'est juste à côté !",
                 "es": "",
                 "zh": ""
             },
@@ -43,48 +43,18 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
-                        "fr": "We think that this bust was made to commemorate his visit to Britain (as part of a full statue!)",
+                        "en": "Right… it hasn’t travelled far! Come see him and his mighty beard!",
+                        "fr": "En effet... Il n'a pas voyagé loin ! Viens le voir lui et son impressionnante barbe !",
                         "es": "",
                         "zh": ""
                     }
                 },
                 {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "It was found in the Thames, after all!",
-                        "fr": "It was found in the Thames, after all!",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "3gMc2X72vgjqGEqdJ5"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "It hasn’t travelled far! It’s in the British Museum, room 49!",
-                        "fr": "It hasn’t travelled far! It’s in the British Museum, room 49!",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534248109/Hadrian_BMmap.jpg"
+                    "LinksToFragment": {
+                        "FragmentPath": "HadrianFeedback"
                     }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "HadrianFeedback"
-            }
+            ]
         }
     ]
 }
