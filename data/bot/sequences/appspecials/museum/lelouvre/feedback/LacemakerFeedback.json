@@ -1,66 +1,66 @@
 {
     "Type": "Node",
-    "Id": "LacemakerMap",
+    "Id": "LacemakerFeedback",
     "Steps": [
         {
             "Type": "Text",
             "Label": {
-                "en": "This painting is on the SECOND FLOOR (2)",
-                "fr": "Ce tableau se trouve au DEUXIEME ETAGE (2)",
-                "es": "Este cuadro está en el SEGUNDO PISO (2)",
-                "zh": "这幅画位于二层（2）"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "In the Richelieu Wing (NORTH)",
-                "fr": "Dans l'aile Richelieu (NORD)",
-                "es": "En el ala Richelieu (NORTE)",
-                "zh": "在黎塞留庭院（北）"
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Width": 1786,
-                "Height": 910,
-                "Display": "FullScreenWidth",
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536056033/Richelieu_Highlight.png"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It's right here!",
-                "fr": "C'est juste là !",
-                "es": "¡Está justo ahí!",
-                "zh": "就在这里！"
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Width": 581,
-                "Height": 440,
-                "Display": "FullScreenWidth",
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1536760460/LacemakerMap.png"
+                "en": "How did you like this story?",
+                "fr": "Comment as-tu trouvé cette histoire ?",
+                "es": "¿Qué te pareció esta historia?",
+                "zh": "您觉得这个故事怎么样？"
             }
         }
     ],
+    "Randomize": "true",
     "Commands": [
         {
-          "Type": "Leaf",
-          "Id": "LacemakerMapExit",
-          "ElementValue": "1",
-          "CommandLabel": {
-            "en": "Exit",
-            "fr": "Retour",
-            "es": "Volver",
-            "zh": "出口"
-          }
+            "Type": "Node",
+            "Id": "LacemakerFeedbackGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It was great!",
+                "fr": "C'était super !",
+                "es": "¡Estuvo genial!",
+                "zh": "非常棒！"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Lacemaker",
+                        "FeedbackValue": "Good"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LacemakerFeedbackBad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good enough",
+                "fr": "Assez bien",
+                "es": "Bastante bien",
+                "zh": "不错"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Lacemaker",
+                        "FeedbackValue": "Bad"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
         }
     ]
 }
