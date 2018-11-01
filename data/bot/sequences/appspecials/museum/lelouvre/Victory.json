@@ -1,0 +1,108 @@
+{
+    "Type": "Node",
+    "Id": "Victory",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 907,
+                "Height": 1076,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541068643/1victory.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now here’s a famous statue! It’s a jewel of the Louvre’s collection!",
+                "fr": "Voici maintenant une statue célèbre ! C’est un joyau de la collection du Louvre !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was found in pieces in 1863, on the island of Samothrace",
+                "fr": "Elle a été trouvée en plusieurs morceaux en 1863, sur l'île de Samothrace",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 869,
+                "Height": 785,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541068380/location.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Personally, I think they did a pretty good job of reassembling it!",
+                "fr": "Personellement, je pense qu'ils ont fait un bon travail en la reconstituant !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "VictoryYeah",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Oui !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That said…",
+                        "fr": "Cela dit...",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Victory2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "VictoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No!",
+                "fr": "Non pas vraiment !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, there are certainly a lot of parts missing…",
+                        "fr": "C'est vrai qu'il manque pas mal de morceaux...",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Victory2"
+            }
+        }
+    ]
+}
+
+                                
+                                    
