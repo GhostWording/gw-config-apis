@@ -1,0 +1,217 @@
+{
+    "Type": "Node",
+    "Id": "Regent3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless, Pitt had the diamond cut in London, a process which took two whole years!",
+                "fr": "Quoiqu'il en soit, Pitt fit tailler le diamant à Londres, processus qui prit deux années entières",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He sold it at a hefty profit in 1717 to the French Regent at the time",
+                "fr": "Il le vendit ensuite en 1717 au Régent français de l'époque, faisant un profit considérable",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 619,
+                "Height": 728,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541075498/5philippe_regent.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That’s where it gets its name!",
+                "fr": "Son nom vient de là !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Regent3Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That’s enough",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "RegentFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Regent3Next",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What next?",
+                "fr": "Et ensuite ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The diamond was owned by the French royalty for many years, as part of the crown jewels!",
+                        "fr": "Le diamant a appartenu à la royauté française pendant de nombreuses années, faisant partie des joyaux de la couronne !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It appears in many pictures and inventories!",
+                        "fr": "Il apparaît dans de nombreuses peintures et inventaires !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "data/common/carousel/museum/RegentKings.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "At one point, during the French revolution, it was stolen!",
+                        "fr": "A un moment donné, pendant la Révolution française, il a même été volé !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Regent3NextStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Regent3NextDear",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Oh dear!",
+                            "fr": "Oh non !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Luckily, the diamond was found some time later stashed in an attic in Paris!",
+                                    "fr": "Heureusement, le diamant a été retrouvé quelque temps plus tard, caché dans un grenier à Paris",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It has been in the Louvre since 1887",
+                                    "fr": "Il est exposé au Louvre depuis 1887",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 542,
+                                    "Height": 641,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541077234/7regent_louvre.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Some people actually think the diamond is cursed! Since many of its previous owners died nasty deaths after owning it…",
+                                    "fr": "Certains pensent que le diamant est maudit ! Beaucoup de ses propriétaires ont subi une mort violente après l'avoir possédé...",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Regent3NextDearStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Regent3NextDearNonsense",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Nonsense!",
+                                        "fr": "Sottises !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Regent4"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Regent3NextDearTrue",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Could be true!",
+                                        "fr": "C'est possible !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Regent4"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}                                         
