@@ -1,0 +1,45 @@
+{
+    "Type": "Node",
+    "Id": "Regent4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, just be careful if you decide to buy it! Mind you… you’ll have to cough up at least £48,000,000! That’s how much it’s valued at these days.",
+                "fr": "En tout cas, sois prudent si tu décides de l'acheter ! Attention... tu devrais débourser au moins 50 000 000€ ! C'est ce qu'il vaut aujourd'hui.",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Regent4Change",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Pocket change",
+                "fr": "Argent de poche",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "RegentFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Regent4No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks!",
+                "fr": "Non merci !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "RegentFeedback"
+            }
+        }
+    ]
+}                                
