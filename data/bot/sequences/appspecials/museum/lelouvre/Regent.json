@@ -1,0 +1,266 @@
+{
+    "Type": "Node",
+    "Id": "Regent",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Stand back and feast your eyes on this, the Regent Diamond!",
+                "fr": "Installe-toi confortablement et prépare-toi à en prendre plein les yeux : voici le diamant 'Le Régent'",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 548,
+                "Height": 366,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541075863/1regent_white.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s widely regarded as the finest diamond in the world!",
+                "fr": "Il est souvent considéré comme le plus beau diamant du monde !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RegentWhy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Pourquoi ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, its colour is said to be utterly perfect: that is… it has no colour at all!",
+                        "fr": "Eh bien, on dit que sa couleur est parfaite : c'est-à-dire qu'il n'a pas de couleur du tout !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s completely colourless, like the clearest water.",
+                        "fr": "Il est complètement incolore, comme l'eau la plus pure.",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As a result, it usually sometimes to change colour, reflecting other colours around it!",
+                        "fr": "En conséquence, il change de couleur en fonction de son environnement, reflétant les couleurs qui l'entourent !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "data/common/carousel/museum/RegentColours.json"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RegentWhyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "RegentWhyStunning",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It’s stunning!",
+                            "fr": "C'est magnifique !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And the shape and cutting is flawless! In fact, it’s the inspiration behind the classic ‘diamond’ shape that you might think of when you think of a rare gemstone!",
+                                    "fr": "Et sa forme et sa coupe sont sans faille ! En fait, il a inspiré la forme classique du ‘diamant’, celle à laquelle on pense qu'on imagine une pierre précieuse !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 405,
+                                    "Height": 400,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541074512/3regent_gem.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It has a fascinating history, want to hear about it?",
+                                    "fr": "Le Régent a une histoire fascinante, tu veux l'entendre ?",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "RegentWhyStunningStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "RegentWhyStunningNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thanks",
+                                        "fr": "Non merci",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Exit"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "RegentWhyStunningYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Let’s do it!",
+                                        "fr": "C'est parti !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The diamond was discovered in a mine in India",
+                                                "fr": "Le diamant a été découvert dans une mine en Inde",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Display": "FullScreenWidth",
+                                                "Width": 835,
+                                                "Height": 618,
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541075004/4location.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Legend says a slave was the one who discovered it, and hid it inside a cut on his leg!",
+                                                "fr": "D'après la légende, c'est un esclave qui l'a découvert et l'a caché dans une entaille à la jambe !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "RegentWhyStunningYesStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "RegentWhyStunningYesBizarre",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Bizarre!",
+                                                    "fr": "Etrange !",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "But, an Englishman robbed and killed the slave, and then sold the diamond to a merchant.",
+                                                            "fr": "Mais un Anglais le vola et tua l'esclave, puis vendit le diamant à un marchand.",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Later, wracked with guilt, the Englishman hanged himself!",
+                                                            "fr": "Plus tard, déchiré par la culpabité, l'Anglais s'est pendu !",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "RegentWhyStunningYesBizarreStep",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Node",
+                                                            "Id": "RegentWhyStunningYesBizarreSad",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "How sad!",
+                                                                "fr": "Comme c'est triste !",
+                                                                "es": "",
+                                                                "zh": ""
+                                                            },
+                                                            "LinksToFragment": {
+                                                                "FragmentPath": "Regent2"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Node",
+                                                            "Id": "RegentWhyStunningYesBizarreServes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Serves him right!",
+                                                                "fr": "Bien fait pour lui !",
+                                                                "es": "",
+                                                                "zh": ""
+                                                            },
+                                                            "LinksToFragment": {
+                                                                "FragmentPath": "Regent2"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+                                                    
