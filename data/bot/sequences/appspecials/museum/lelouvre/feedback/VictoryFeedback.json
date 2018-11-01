@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Id": "VictoryFeedback",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How did you like this story?",
+                "fr": "Comment as-tu trouvé cette histoire ?",
+                "es": "¿Qué te pareció esta historia?",
+                "zh": "您觉得这个故事怎么样？"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "VictoryFeedbackGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It was great!",
+                "fr": "C'était super !",
+                "es": "¡Estuvo genial!",
+                "zh": "非常棒！"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Victory",
+                        "FeedbackValue": "Good"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "VictoryFeedbackBad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good enough",
+                "fr": "Assez bien",
+                "es": "Bastante bien",
+                "zh": "不错"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "Feedback",
+                    "Parameters": {
+                        "SequenceId": "Victory",
+                        "FeedbackValue": "Bad"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
+        }
+    ]
+}
