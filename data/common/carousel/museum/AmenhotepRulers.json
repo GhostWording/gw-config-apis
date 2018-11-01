@@ -1,38 +1,41 @@
 {
-  "Id": "AmenhotepRulers",
-  "Elements": [
-    {
-      "Title": {
-        "en": "The Roman Emperor Augustus",
-        "fr": "L'Empereur Romain Auguste",
-        "es": "El Emperador Romano Augusto"
-      },
-      "Image": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540915965/augustus.jpg"
-      }
-    },
-    {
-      "Title": {
-        "en": "Louis XIV",
-        "fr": "Louis XIV",
-        "es": "Louis XIV"
-      },
-      "Image": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540916838/louis_xiv_young.jpg"
-      }
-    },
-    {
-      "Title": {
-        "en": "Napoleon I",
-        "fr": "Napoléon Ier",
-        "es": "Napoleón I"
-      },
-      "Image": {
-        "Source": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540917008/napoleon_young.jpg"
-      }
-    }
-  ]
+    "Id": "AmenhotepRulers",
+    "Elements": [
+        {
+            "Title": {
+                "en": "The Roman Emperor Augustus",
+                "fr": "L'Empereur Romain Auguste",
+                "es": "El Emperador Romano Augusto",
+                "zh":
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540915965/augustus.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Louis XIV",
+                "fr": "Louis XIV",
+                "es": "Louis XIV",
+                "zh":
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540916838/louis_xiv_young.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Napoleon I",
+                "fr": "Napoléon Ier",
+                "es": "Napoleón I",
+                "zh":
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540917008/napoleon_young.jpg"
+            }
+        }
+    ]
 }
