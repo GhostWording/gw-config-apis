@@ -1,0 +1,203 @@
+{
+    "Type": "Node",
+    "Id": "Victory6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Ready to hear the last part of the story? Almost done!",
+                "fr": "Prêt à entendre la dernière partie de l'histoire ? C'est presque fini !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victory6Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Enough for now",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "VictoryFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Victory6Sure",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Bien sûr !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s also particularly popular because it’s an original Greek piece! Many of our most famous sculptures are actually Roman copies of Greek originals",
+                        "fr": "C'est également particulièrement populaire car c'est une pièce grecque originale ! Beaucoup de nos sculptures les plus célèbres sont des copies romaines d'originales grecques",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Like these…",
+                        "fr": "Comme celles-ci...",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "data/common/carousel/museum/VictoryRomanCopies.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But this is the real deal!",
+                        "fr": "Mais ici il s'agit d'une véritable statue grecque !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victory6SureStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Victory6SureAmazing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Amazing!",
+                            "fr": "Incroyable !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Because it’s so famous and so beautiful, this statue has been copied many times!",
+                                    "fr": "Parce qu'elle est si célèbre et magnifique, cette statue a été copiée plusieurs fois !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Victory6SureAmazingStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Victory6SureAmazingWhere",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Like where?",
+                                        "fr": "Où ça ?",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Well, there’s a famous copy in front of Caesar’s Palace casino in Las Vegas!",
+                                                "fr": "Eh bien, il y a une réplique célèbre en face du casino Caesars Palace à Las Vegas !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Display": "FullScreenWidth",
+                                                "Width": 838,
+                                                "Height": 795,
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541070897/9victory_lasvegas.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It’s also the inspiration for the first Fifa world cup trophy!",
+                                                "fr": "Elle a également inspiré le premier trophée de la Coupe du monde de football !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Display": "FullScreenWidth",
+                                                "Width": 768,
+                                                "Height": 857,
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541071152/10victory_trophy.jpg"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Victory6SureAmazingWhereStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Victory6SureAmazingWhereLearned",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Today I learned!",
+                                                    "fr": "J'en ai appris des choses !",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Victory7"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Victory6SureAmazingWhereKnew",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Knew that already!",
+                                                    "fr": "Je le savais déjà !",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Victory7"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
+
