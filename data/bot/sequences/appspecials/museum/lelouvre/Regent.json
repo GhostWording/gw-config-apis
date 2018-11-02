@@ -71,10 +71,23 @@
                     }
                 },
                 {
-                    "Type": "Action",
-                    "Name": "ShowCarouselFromList",
+                    "Type": "Image",
                     "Parameters": {
-                        "Path": "data/common/carousel/museum/RegentColours.json"
+                        "Display": "FullScreenWidth",
+                        "Width": 992,
+                        "Height": 838,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541074176/2regent_beige.jpg"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 564,
+                        "Height": 566,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541074795/1regent.jpg"
                     }
                 }
             ],
