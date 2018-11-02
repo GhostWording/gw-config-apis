@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Id": "LionHunt5",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "data/common/carousel/museum/LionHunt2.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Changed your mind?",
+                "fr": "As-tu changé d'avis ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LionHunt5Fun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No looks fun!",
+                "fr": "Non, ça a l'air vraiment marrant !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess you’re a hunting fan! Please don’t hunt us owls, though!",
+                        "fr": "J'imagine que tu es un fan de chasse ! S'il te plaît, ne chasse pas de chouettes tout de même",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LionHuntFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LionHunt5Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So sad! T_T",
+                "fr": "Si triste ! T_T",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I agree… but don’t let that stop you coming to see these beautiful sculptures!",
+                        "fr": "Je suis d'accord... mais que cela ne t'empêche pas d'aller voir ces belles scupltures pour autant !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LionHuntFeedback"
+            }
+        }
+    ]
+}
