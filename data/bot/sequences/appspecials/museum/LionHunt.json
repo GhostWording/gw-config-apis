@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you know the favourite hobby of Assyrian kings?",
-                "fr": "Do you know the favourite hobby of Assyrian kings?",
+                "fr": "Est-ce que tu sais quel était le passe-temps favori des rois assyriens ?",
                 "es": "",
                 "zh": ""
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Boxing 🥊",
-                "fr": "Boxing 🥊",
+                "fr": "La boxe 🥊",
                 "es": "",
                 "zh": ""
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Incorrect! It was hunting!",
-                        "fr": "Incorrect! It was hunting!",
+                        "fr": "Faux ! C'était la chasse !",
                         "es": "",
                         "zh": ""
                     }
@@ -44,7 +44,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Darts 🎯",
-                "fr": "Darts 🎯",
+                "fr": "Les fléchettes 🎯",
                 "es": "",
                 "zh": ""
             },
@@ -53,7 +53,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Incorrect! It was hunting!",
-                        "fr": "Incorrect! It was hunting!",
+                        "fr": "Faux ! C'était la chasse !",
                         "es": "",
                         "zh": ""
                     }
@@ -69,7 +69,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Hunting 🏹",
-                "fr": "Hunting 🏹",
+                "fr": "La chasse 🏹",
                 "es": "",
                 "zh": ""
             },
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Correct! Nice job!",
-                        "fr": "Correct! Nice job!",
+                        "fr": "Exact ! Bien joué !",
                         "es": "",
                         "zh": ""
                     }
