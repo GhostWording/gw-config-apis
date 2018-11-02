@@ -1,277 +1,327 @@
 [
-  {
-      "Id": "LibertyLeading",
-      "Caption": {
-          "en": "Liberty Leading the People",
-          "fr": "La Liberté guidant le peuple",
-          "es": "La Libertad guiando al pueblo",
-          "zh": "《自由引导人们》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Liberty.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Liberty.jpg"
-      },
-      "Artist": {
-          "en": "Eugène Delacroix",
-          "fr": "Eugène Delacroix",
-          "es": "Eugène Delacroix",
-          "zh": "欧仁·德拉克罗瓦"
-      },
-      "SequenceId": "LibertyLeading",
-      "LocationSequenceId": "LibertyLeadingMap"
-  },
-  {
-      "Id": "VenusDeMilo",
-      "Caption": {
-          "en": "The Venus de Milo",
-          "fr": "La Vénus de Milo",
-          "es": "La Venus de Milo",
-          "zh": "《米洛的维纳斯》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Milo_new.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Milo.jpg"
-      },
-      "Artist": {
-          "en": "Unknown",
-          "fr": "Inconnu",
-          "es": "Desonocido",
-          "zh": "名不见经传的 "
-      },
-      "SequenceId": "VenusDeMilo",
-      "LocationSequenceId": "VenusDeMiloMap"
-  },
-  {
-      "Id": "MedusaRaft",
-      "Caption": {
-          "en": "The Raft of the Medusa",
-          "fr": "Le Radeau de La Méduse",
-          "es": "La balsa de la Medusa",
-          "zh": "《美杜莎之筏》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Raft_Meusa_NEW.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Raft_Medusa.jpg"
-      },
-      "Artist": {
-          "en": "Théodore Géricault",
-          "fr": "Théodore Géricault",
-          "es": "Théodore Géricault",
-          "zh": "西奧多·傑利柯"
-      },
-      "SequenceId": "MedusaRaft",
-      "LocationSequenceId": "MedusaRaftMap"
-  },
-  {
-      "Id": "WeddingCana",
-      "Caption": {
-          "en": "The Wedding at Cana",
-          "fr": "Les Noces de Cana",
-          "es": "Las bodas de Caná",
-          "zh": "《迦拿的婚礼》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/WeddingCana_Half_60.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Wedding_Cana.jpg"
-      },
-      "Artist": {
-          "en": "Paolo Veronese",
-          "fr": "Paolo Véronèse",
-          "es": "Paolo Veronese",
-          "zh": "保罗·委罗内塞"
-      },
-      "SequenceId": "WeddingCana",
-      "LocationSequenceId": "WeddingCanaMap"
-  },
-  {
-      "Id": "DavidCoronation",
-      "Caption": {
-          "en": "The Coronation of Napoleon",
-          "fr": "Le Sacre de Napoléon",
-          "es": "La consagración de Napoleón",
-          "zh": "《拿破仑加冕典礼》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/coronation_napoleon_NEW.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Coronation_Napoleon.jpg"
-      },
-      "Artist": {
-          "en": "Jacques-Louis David",
-          "fr": "Jacques-Louis David",
-          "es": "Jacques-Louis David",
-          "zh": "雅克-路易·大卫"
-      },
-      "SequenceId": "DavidCoronation",
-      "LocationSequenceId": "DavidCoronationMap"
-  },
-  {
-      "Id": "Lamassu",
-      "Caption": {
-          "en": "Lamassus from Dur-Sharrukin",
-          "fr": "Les Lamassus de Dur-Sharrukin",
-          "es": "Los Lamassus de Dur-Sharrukin",
-          "zh": "《拉玛苏神兽》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Lamassu_NEW.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Lamassu.jpg"
-      },
-      "Artist": {
-          "en": "Unknown",
-          "fr": "Inconnu",
-          "es": "Desonocido",
-          "zh": "名不见经传的 "
-      },
-      "SequenceId": "Lamassu",
-      "LocationSequenceId": "LamassuMap"
-  },
-  {
-      "Id": "LouisXIV",
-      "Caption": {
-          "en": "Portrait of Louis XIV",
-          "fr": "Portrait de Louis XIV",
-          "es": "Retrato de Luis XIV",
-          "zh": "《路易十四——太阳之王》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/LouisXIV.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/LouisXIV.jpg"
-      },
-      "Artist": {
-          "en": "Hyacinthe Rigaud",
-          "fr": "Hyacinthe Rigaud",
-          "es": "Hyacinthe Rigaud",
-          "zh": "亚森特·里戈"
-      },
-      "SequenceId": "LouisXIV",
-      "LocationSequenceId": "LouisXIVMap"
-  },
-  {
-      "Id": "Leonardo",
-      "Caption": {
-          "en": "About Leonardo da Vinci",
-          "fr": "A propos de Léonard de Vinci",
-          "es": "Sobre Leonardo da Vinci",
-          "zh": "关于莱昂纳多达芬奇"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/leonardo.JPG"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/leonardo_thumbnail.jpg"
-      },
-      "Artist": {
-          "en": "N/A",
-          "fr": "N/A",
-          "es": "N/A",
-          "zh": "N/A"
-      },
-      "SequenceId": "Leonardo",
-      "LocationSequenceId": "MonaLisaMap"
-  },
-  {
-      "Id": "Lacemaker",
-      "Caption": {
-          "en": "The Lacemaker",
-          "fr": "La Dentellière",
-          "es": "La encajera",
-          "zh": "《编花边的女工》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/The_Lacemaker_Large.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/The_Lacemaker_Thumbnail.jpg"
-      },
-      "Artist": {
-          "en": "Johannes Vermeer",
-          "fr": "Johannes Vermeer",
-          "es": "Johannes Vermeer",
-          "zh": "扬·弗美尔"
-      },
-      "SequenceId": "Lacemaker",
-      "LocationSequenceId": "LacemakerMap"
-  },
-  {
-      "Id": "MichelangeloSlaves",
-      "Caption": {
-          "en": "Dying & Rebellious Slaves",
-          "fr": "L'Esclave mourant & L'Esclave Rebelle",
-          "es": "Esclavo moribundo & Esclavo rebelde",
-          "zh": "《垂死的奴隶》《被缚的奴隶》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/slaves.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/thumbnail_slaves2.jpg"
-      },
-      "Artist": {
-          "en": "Michelangelo",
-          "fr": "Michel-Ange",
-          "es": "Miguel Ángel",
-          "zh": "米开朗基罗"
-      },
-      "SequenceId": "MichelangeloSlaves",
-      "LocationSequenceId": "MichelangeloSlavesMap"
-  },
-  {
-      "Id": "MonaTheories",
-      "Caption": {
-          "en": "Mona Lisa",
-          "fr": "La Joconde",
-          "es": "La Gioconda",
-          "zh": "《蒙娜丽莎》"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/mona_lisa.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/mona_lisa_thumbnail.jpg"
-      },
-      "Artist": {
-          "en": "Leonardo da Vinci",
-          "fr": "Léonard de Vinci",
-          "es": "Leonardo da Vinci",
-          "zh": "列奥纳多·达·芬奇"
-      },
-      "SequenceId": "MonaTheories",
-      "LocationSequenceId": "MonaLisaMap"
-  }
+    {
+        "Id": "LibertyLeading",
+        "Caption": {
+            "en": "Liberty Leading the People",
+            "fr": "La Liberté guidant le peuple",
+            "es": "La Libertad guiando al pueblo",
+            "zh": "《自由引导人们》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Liberty.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Liberty.jpg"
+        },
+        "Artist": {
+            "en": "Eugène Delacroix",
+            "fr": "Eugène Delacroix",
+            "es": "Eugène Delacroix",
+            "zh": "欧仁·德拉克罗瓦"
+        },
+        "SequenceId": "LibertyLeading",
+        "LocationSequenceId": "LibertyLeadingMap"
+    },
+    {
+        "Id": "VenusDeMilo",
+        "Caption": {
+            "en": "The Venus de Milo",
+            "fr": "La Vénus de Milo",
+            "es": "La Venus de Milo",
+            "zh": "《米洛的维纳斯》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Milo_new.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Milo.jpg"
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "SequenceId": "VenusDeMilo",
+        "LocationSequenceId": "VenusDeMiloMap"
+    },
+    {
+        "Id": "MedusaRaft",
+        "Caption": {
+            "en": "The Raft of the Medusa",
+            "fr": "Le Radeau de La Méduse",
+            "es": "La balsa de la Medusa",
+            "zh": "《美杜莎之筏》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Raft_Meusa_NEW.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Raft_Medusa.jpg"
+        },
+        "Artist": {
+            "en": "Théodore Géricault",
+            "fr": "Théodore Géricault",
+            "es": "Théodore Géricault",
+            "zh": "西奧多·傑利柯"
+        },
+        "SequenceId": "MedusaRaft",
+        "LocationSequenceId": "MedusaRaftMap"
+    },
+    {
+        "Id": "WeddingCana",
+        "Caption": {
+            "en": "The Wedding at Cana",
+            "fr": "Les Noces de Cana",
+            "es": "Las bodas de Caná",
+            "zh": "《迦拿的婚礼》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/WeddingCana_Half_60.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Wedding_Cana.jpg"
+        },
+        "Artist": {
+            "en": "Paolo Veronese",
+            "fr": "Paolo Véronèse",
+            "es": "Paolo Veronese",
+            "zh": "保罗·委罗内塞"
+        },
+        "SequenceId": "WeddingCana",
+        "LocationSequenceId": "WeddingCanaMap"
+    },
+    {
+        "Id": "DavidCoronation",
+        "Caption": {
+            "en": "The Coronation of Napoleon",
+            "fr": "Le Sacre de Napoléon",
+            "es": "La consagración de Napoleón",
+            "zh": "《拿破仑加冕典礼》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/coronation_napoleon_NEW.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Coronation_Napoleon.jpg"
+        },
+        "Artist": {
+            "en": "Jacques-Louis David",
+            "fr": "Jacques-Louis David",
+            "es": "Jacques-Louis David",
+            "zh": "雅克-路易·大卫"
+        },
+        "SequenceId": "DavidCoronation",
+        "LocationSequenceId": "DavidCoronationMap"
+    },
+    {
+        "Id": "Lamassu",
+        "Caption": {
+            "en": "Lamassus from Dur-Sharrukin",
+            "fr": "Les Lamassus de Dur-Sharrukin",
+            "es": "Los Lamassus de Dur-Sharrukin",
+            "zh": "《拉玛苏神兽》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/Lamassu_NEW.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Lamassu.jpg"
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "SequenceId": "Lamassu",
+        "LocationSequenceId": "LamassuMap"
+    },
+    {
+        "Id": "LouisXIV",
+        "Caption": {
+            "en": "Portrait of Louis XIV",
+            "fr": "Portrait de Louis XIV",
+            "es": "Retrato de Luis XIV",
+            "zh": "《路易十四——太阳之王》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/LouisXIV.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/LouisXIV.jpg"
+        },
+        "Artist": {
+            "en": "Hyacinthe Rigaud",
+            "fr": "Hyacinthe Rigaud",
+            "es": "Hyacinthe Rigaud",
+            "zh": "亚森特·里戈"
+        },
+        "SequenceId": "LouisXIV",
+        "LocationSequenceId": "LouisXIVMap"
+    },
+    {
+        "Id": "Leonardo",
+        "Caption": {
+            "en": "About Leonardo da Vinci",
+            "fr": "A propos de Léonard de Vinci",
+            "es": "Sobre Leonardo da Vinci",
+            "zh": "关于莱昂纳多达芬奇"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/leonardo.JPG"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/leonardo_thumbnail.jpg"
+        },
+        "Artist": {
+            "en": "N/A",
+            "fr": "N/A",
+            "es": "N/A",
+            "zh": "N/A"
+        },
+        "SequenceId": "Leonardo",
+        "LocationSequenceId": "MonaLisaMap"
+    },
+    {
+        "Id": "Lacemaker",
+        "Caption": {
+            "en": "The Lacemaker",
+            "fr": "La Dentellière",
+            "es": "La encajera",
+            "zh": "《编花边的女工》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/The_Lacemaker_Large.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/The_Lacemaker_Thumbnail.jpg"
+        },
+        "Artist": {
+            "en": "Johannes Vermeer",
+            "fr": "Johannes Vermeer",
+            "es": "Johannes Vermeer",
+            "zh": "扬·弗美尔"
+        },
+        "SequenceId": "Lacemaker",
+        "LocationSequenceId": "LacemakerMap"
+    },
+    {
+        "Id": "MichelangeloSlaves",
+        "Caption": {
+            "en": "Dying & Rebellious Slaves",
+            "fr": "L'Esclave mourant & L'Esclave Rebelle",
+            "es": "Esclavo moribundo & Esclavo rebelde",
+            "zh": "《垂死的奴隶》《被缚的奴隶》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/slaves.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/thumbnail_slaves2.jpg"
+        },
+        "Artist": {
+            "en": "Michelangelo",
+            "fr": "Michel-Ange",
+            "es": "Miguel Ángel",
+            "zh": "米开朗基罗"
+        },
+        "SequenceId": "MichelangeloSlaves",
+        "LocationSequenceId": "MichelangeloSlavesMap"
+    },
+    {
+        "Id": "MonaTheories",
+        "Caption": {
+            "en": "Mona Lisa",
+            "fr": "La Joconde",
+            "es": "La Gioconda",
+            "zh": "《蒙娜丽莎》"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/mona_lisa.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/mona_lisa_thumbnail.jpg"
+        },
+        "Artist": {
+            "en": "Leonardo da Vinci",
+            "fr": "Léonard de Vinci",
+            "es": "Leonardo da Vinci",
+            "zh": "列奥纳多·达·芬奇"
+        },
+        "SequenceId": "MonaTheories",
+        "LocationSequenceId": "MonaLisaMap"
+    },
+    {
+        "Id": "Victory",
+        "Caption": {
+            "en": "Winged Victory of Samothrace",
+            "fr": "La Victoire de Samothrace",
+            "es": "",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152433/victory.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152311/victory_thumbnail.jpg"
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "SequenceId": "Victory",
+        "LocationSequenceId": "VictoryMap"
+    },
+    {
+        "Id": "Regent",
+        "Caption": {
+            "en": "Regent Diamond",
+            "fr": "Le Régent",
+            "es": "",
+            "zh": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152620/regent.png"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152742/regent_thumbnail.jpg"
+        },
+        "Artist": {
+            "en": "N/A",
+            "fr": "N/A",
+            "es": "N/A",
+            "zh": "N/A"
+        },
+        "SequenceId": "Regent",
+        "LocationSequenceId": "RegentMap"
+    }
 ]
