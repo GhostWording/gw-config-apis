@@ -1,0 +1,77 @@
+{
+    "Type": "Node",
+    "Id": "LionHunt4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The hunt is clearly for sport, as shown by this image…",
+                "fr": "La chasse est clairement faite pour le sport, comme le montre cette image...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 934,
+                "Height": 652,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541177390/lionhunt_cage.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LionHunt4Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How sad!",
+                "fr": "Comme c'est triste",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! Look at these poor lions…",
+                        "fr": "En effet ! Regarde ces pauvres lions...",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LionHunt5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LionHunt4Fun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Looks fun!",
+                "fr": "Ca a l'air marrant !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Are you sure? Look at the detail on these poor lions…",
+                        "fr": "Tu en es sûr(e) ? Regarde les détails de ces pauvres lions...",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LionHunt5"
+            }
+        }
+    ]
+}
