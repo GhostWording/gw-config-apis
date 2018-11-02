@@ -97,6 +97,78 @@
         },
         {
             "Type": "Node",
+            "Id": "DenonArtworksVictory",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Winged Victory of Samothrace",
+                "fr": "La Victoire de Samothrace",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Floor 0",
+                    "fr": "Rez-de-chaussée",
+                    "es": "Planta baja",
+                    "zh": "0层"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152311/victory_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 697,
+                        "Height": 512,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541158506/VictoryMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksVictoryStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksVictoryGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "¡Vamos!",
+                            "zh": "我们走吧"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Victory"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
             "Id": "DenonArtworksMonaLisa",
             "ElementValue": "1",
             "CommandLabel": {
@@ -448,6 +520,78 @@
                                 "Parameters": {
                                     "Type": "ArtworkView",
                                     "ArtworkPath": "WeddingCana"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DenonArtworksRegent",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Regent Diamond",
+                "fr": "Le Régent",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Floor 1",
+                    "fr": "Premier étage",
+                    "es": "Primer piso",
+                    "zh": "1层"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152742/regent_thumbnail.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's located here!",
+                        "fr": "C'est juste là !",
+                        "es": "¡Está justo ahí!",
+                        "zh": "就在这里！"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 697,
+                        "Height": 512,
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541158467/RegentMap.png"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DenonArtworksRegentStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DenonArtworksRegentGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's go!",
+                            "fr": "C'est parti !",
+                            "es": "¡Vamos!",
+                            "zh": "我们走吧"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "ArtworkView",
+                                    "ArtworkPath": "Regent"
                                 }
                             }
                         ]
