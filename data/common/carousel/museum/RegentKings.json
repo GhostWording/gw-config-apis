@@ -1,0 +1,41 @@
+{
+    "Id": "RegentKings",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Crown of Louis XV",
+                "fr": "La couronne de Louis XV",
+                "es": "La corona de Luis XV",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541076397/crown_LouisXV.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Louis XVI",
+                "fr": "Louis XVI",
+                "es": "Luis XVI",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541076708/6louisXVI.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Napoleon's sword",
+                "fr": "L'épée de Napoléon",
+                "es": "La espada de Napoleón",
+                "zh": ""
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541076932/6napoleon_sword.jpg"
+            }
+        }
+    ]
+}
