@@ -5,17 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "There’s nothing they loved more…",
-                "fr": "There’s nothing they loved more…",
-                "es": "",
-                "zh": ""
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "aside from maybe building fancy palaces to outshine their predecessors",
-                "fr": "aside from maybe building fancy palaces to outshine their predecessors",
+                "en": "There’s nothing they loved more… aside from maybe building fancy palaces to outshine their predecessors",
+                "fr": "Il n'y avait rien qui leur faisait plus plaisir, à part peut-être construire des palais somptueux surpassant ceux de leurs prédécesseurs",
                 "es": "",
                 "zh": ""
             }
@@ -24,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "So King Assurbanipal I found a way to do both at the same time!",
-                "fr": "So King Assurbanipal I found a way to do both at the same time!",
+                "fr": "Ainsi, le roi Assurbanipal I trouva un moyen de faire les deux en même temps !",
                 "es": "",
                 "zh": ""
             }
@@ -44,7 +35,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How?",
-                "fr": "How?",
+                "fr": "Comment ?",
                 "es": "",
                 "zh": ""
             },
@@ -53,7 +44,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "He built a gorgeous palace, and then decorated it with relief sculpture showing his skills in hunting!",
-                        "fr": "He built a gorgeous palace, and then decorated it with relief sculpture showing his skills in hunting!",
+                        "fr": "Il construisit un palais magnifique, qu'il décora avec des sculptures en relief montrant ses talents de chasseur !",
                         "es": "",
                         "zh": ""
                     }
@@ -70,24 +61,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Naturally, he presents himself as very skillful… whether it was true or not!",
-                        "fr": "Naturally, he presents himself as very skillful… whether it was true or not!",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Display": "FullScreenWidth",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533297551/museum%20app/Close_up_hand_killing_low_q.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "He even kills lions barehanded!",
-                        "fr": "He even kills lions barehanded!",
+                        "fr": "Naturellement, il se représente comme étant très habile... que ce soit vrai ou non !",
                         "es": "",
                         "zh": ""
                     }
@@ -100,25 +74,28 @@
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "LionHunt2HowImpressive",
+                        "Id": "LionHunt2HowShowoff",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Impressive!",
-                            "fr": "Impressive!",
+                            "en": "What a showoff!",
+                            "fr": "Quel vantard !",
                             "es": "",
                             "zh": ""
                         },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Right! I kind of feel sorry for the lions, though...",
-                                    "fr": "Right! I kind of feel sorry for the lions, though...",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            }
-                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LionHunt3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LionHunt2HowTrue",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Maybe it’s true!",
+                            "fr": "C'est peut-être vrai !",
+                            "es": "",
+                            "zh": ""
+                        },
                         "LinksToFragment": {
                             "FragmentPath": "LionHunt3"
                         }
