@@ -19,6 +19,16 @@
                 "es": "",
                 "zh": ""
             }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1584,
+                "Height": 759,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541174956/map_alexander.jpg"
+            }
         }
     ],
     "Commands": [
@@ -51,6 +61,15 @@
                         "zh": ""
                     }
                 },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 1024,
+                        "Height": 596,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541175237/greek_warship.jpg"
+                    }
+                }
                 {
                     "Type": "Text",
                     "Label": {
