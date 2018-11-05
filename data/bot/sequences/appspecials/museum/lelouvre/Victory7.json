@@ -21,6 +21,13 @@
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541072530/11victory_louvre.jpg"
             }
         }
+                                                {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        }
     ],
     "LinksToFragment": {
         "FragmentPath": "VictoryFeedback"
