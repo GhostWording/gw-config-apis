@@ -8,16 +8,23 @@
                 "en": "Well, it came to represent this in the 18th century, when Europeans actually confused it with the roman pileus hat, which was worn by freed slaves!",
                 "fr": "Eh bien, il est devenu un symbole de liberté au XVIIIe siècle, quand les Européens l'ont confondu avec le bonnet romain pileus. Il était porté par les esclaves affranchis !",
                 "es": "¡Bueno, se convirtió en símbolo de libertad en el siglo XVIII, cuando los europeos lo confundieron con el gorro romano píleo, que usaban los esclavos liberados!",
-                "zh": "嗯，它从18世纪开始就成了自由的象征，实际上，当时的欧洲人把它与被释放的奴隶所戴的罗马伞帽弄混了！"            
+                "zh": "嗯，它从18世纪开始就成了自由的象征，实际上，当时的欧洲人把它与被释放的奴隶所戴的罗马伞帽弄混了！"
             }
         },
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",                
+                "Source": "Web",
                 "Width": 735,
                 "Height": 435,
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499921/7pileus_hat.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 11000
             }
         },
         {
@@ -69,7 +76,7 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
-                        "Source": "Web",                
+                        "Source": "Web",
                         "Width": 752,
                         "Height": 575,
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500148/8tricolor_flag.jpg"
@@ -94,7 +101,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",                
+                        "Source": "Web",
                         "Width": 777,
                         "Height": 786,
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535015321/9Flag_Elys%C3%A9e.jpg"
@@ -139,7 +146,7 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
-                                    "Source": "Web",               
+                                    "Source": "Web",
                                     "Width": 749,
                                     "Height": 539,
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500460/july_revolution.jpg"
@@ -179,4 +186,4 @@
             }
         }
     ]
-  }
+}
