@@ -252,42 +252,6 @@
     }
   },
   {
-    "Id": "Leonardo",
-    "Caption": {
-      "en": "About Leonardo da Vinci",
-      "fr": "A propos de Léonard de Vinci",
-      "es": "Sobre Leonardo da Vinci",
-      "zh": "关于莱昂纳多达芬奇"
-    },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/leonardo.JPG"
-    },
-    "Thumbnail": {
-      "Type": "Web",
-      "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/leonardo_thumbnail.jpg"
-    },
-    "Artist": {
-      "en": "N/A",
-      "fr": "N/A",
-      "es": "N/A",
-      "zh": "N/A"
-    },
-    "SequenceId": "Leonardo",
-    "Year": {
-      "en": "Born in 1452, died in 1519",
-      "fr": "Née en 1452, mort en 1519 ",
-      "es": "Nació en 1452, murió en 1519",
-      "zh": "他出生于1452年，于1519年去世"
-    },
-    "Museum": {
-      "en": "N/A",
-      "fr": "N/A",
-      "es": "N/A",
-      "zh": "N/A"
-    }
-  },
-  {
     "Id": "Lacemaker",
     "Caption": {
       "en": "The Lacemaker",
@@ -414,9 +378,9 @@
     "Artist": "Unknown",
     "SequenceId": "AgnesCup",
     "Year": {
-      "en": "1370-1380 (circa)",
+      "en": "1370-1380 (around)",
       "fr": "1370-1380 (environ)",
-      "es": "1370-1380 (circa)",
+      "es": "1370-1380 (cerca)",
       "zh": "1370-1380（约)"
     },
     "Museum": {
@@ -445,9 +409,9 @@
     "Artist": "Unknown",
     "SequenceId": "Amenhotep",
     "Year": {
-      "en": "1370 BC (circa)",
+      "en": "1370 BC (around)",
       "fr": "1370 av. J-C (environ)",
-      "es": "1370 a. C. (circa)",
+      "es": "1370 a. C. (cerca)",
       "zh": "公元前1370年（约)"
     },
     "Museum": {
