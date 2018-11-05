@@ -135,6 +135,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "It’s also the inspiration for the first Fifa world cup trophy!",
@@ -198,6 +205,3 @@
         }
     ]
 }
-
-
-
