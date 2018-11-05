@@ -82,6 +82,13 @@
                                     "zh": ""
                                 }
                             },
+                                                        {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 1000
+                                }
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
@@ -99,6 +106,13 @@
                                     "Height": 1085,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541070627/7victory_move.jpg"
+                                }
+                            },
+                                                        {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 1000
                                 }
                             },
                             {
