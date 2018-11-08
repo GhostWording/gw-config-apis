@@ -24,12 +24,8 @@
     }  
   },
   "AfterSharing": {
-    "Provider": "Facebook",
-    "ID": "1594200494225037_1825219091123175",
-    "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/7339681866"
-    }
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2854789165"
   },
   "DailyIdeasPullToRefresh": {
     "Provider": "AdMob",
