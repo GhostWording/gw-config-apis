@@ -1,0 +1,21 @@
+[
+  {
+    "GroupName":"Artquest",
+    "SequenceFiles" : [
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/TapHereFirstStory.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/GallerySuggest.json"]},
+      { "order" : 1000, "file": ["/data/bot/sequences/appspecials/museum/TapHereWelcomeBack.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/surveys/AudioGuideUse.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/appspecials/museum/TapHereSecondStory.json"]},
+      { "order" : 65, "file": ["/data/bot/sequences/appspecials/museum/TapHereMap.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/appspecials/museum/PeriodSuggest.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture.json"]},
+      { "order" : 90, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/questions/GoMuseumsOften.json"]},
+      { "order" : 100, "file": ["/data/bot/sequences/appspecials/museum/TapHerePicture2.json"]},
+      { "order" : 110, "file": ["/data/bot/sequences/appspecials/museum/TapHereBestPart.json"]},
+      { "order" : 120, "file": ["/data/bot/sequences/appspecials/museum/TapHereHoaSuggest.json"]},
+      { "order" : 130, "file": ["/data/bot/sequences/appspecials/museum/TapHereHadrianSuggest.json"]}
+      ]
+   }
+]
