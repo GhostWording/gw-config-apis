@@ -240,46 +240,6 @@
         "LocationSequenceId": "NebamunMap"
     },
     {
-        "Id": "ParthenonPediment",
-        "Caption": {
-            "en": "Parthenon Pediments",
-            "fr": "Frontons du Parthénon",
-            "es": "Frontones del Partenón",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538047926/parthenon_default.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048084/parthenon_thumbnail.jpg"
-        },
-        "Artist": "Unknown",
-        "SequenceId": "BestTestFragmentEver",
-        "LocationSequenceId": "BritishMuseumMap"
-    },
-    {
-        "Id": "PortlandVase",
-        "Caption": {
-            "en": "The Portland Vase",
-            "fr": "Le Vase Portland",
-            "es": "La Vasija de Portland",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048520/portland_vase_default.jpg"
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538048646/portland_vase_thumbnail.jpg"
-        },
-        "Artist": "Unknown",
-        "SequenceId": "BestTestFragmentEver",
-        "LocationSequenceId": "BritishMuseumMap"
-    },
-    {
         "Id": "Ramesses",
         "Caption": {
             "en": "Statue of Ramesses II",
