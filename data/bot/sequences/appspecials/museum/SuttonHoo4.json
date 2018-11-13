@@ -13,7 +13,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It was found in a buried ship! With a huge hoard of other treasure!",
-                "fr": "It was found in a buried ship! With a huge hoard of other treasure!",
+                "fr": "Il a été trouvé dans un navire enterré ! Dans un butin avec plein d'autres trésors !",
                 "es": "",
                 "zh": ""
             }
@@ -42,7 +42,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Why bury a ship?",
-                "fr": "Why bury a ship?",
+                "fr": "Pourquoi enterrer un bateau ?",
                 "es": "",
                 "zh": ""
             },
@@ -51,7 +51,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It seems to have been some sort of ceremony!",
-                        "fr": "It seems to have been some sort of ceremony!",
+                        "fr": "Cela semble avoir été une sorte de cérémonie !",
                         "es": "",
                         "zh": ""
                     }
@@ -60,7 +60,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!",
-                        "fr": "Apparently they dragged the boat from a nearby river, filled it with fancy stuff, and then buried it!",
+                        "fr": "Apparemment, ils ont traîné le bateau d'une rivière proche, l'ont rempli avec de magnifiques objets, et ensuite l'ont enterré !",
                         "es": "",
                         "zh": ""
                     }
@@ -68,17 +68,10 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Come see the helmet in room 41!",
-                        "fr": "Come see the helmet in room 41!",
+                        "en": "Strange habit!",
+                        "fr": "Quelle pratique étrange !",
                         "es": "",
                         "zh": ""
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533732102/Sutton_Hoo_6.jpg"
                     }
                 }
             ],
