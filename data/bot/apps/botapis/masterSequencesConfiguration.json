@@ -111,6 +111,10 @@
     {
       "Name": "astrotile",
       "File": "/data/bot/apps/astrology/astrotileMasterSequence.json"
+    },
+    {
+      "Name": "artquest",
+      "File": "/data/bot/apps/museumapps/artquest/artquestMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
@@ -129,6 +133,10 @@
     {
       "Topic": "paris",
       "File": "/data/bot/apps/museumapps/paris/parisFragments.json"
+    },
+    {
+      "Topic": "artquest",
+      "File": "/data/bot/apps/museumapps/artquest/artquestFragments.json"
     }
   ],
   "FragmentsForKeywords" : [
