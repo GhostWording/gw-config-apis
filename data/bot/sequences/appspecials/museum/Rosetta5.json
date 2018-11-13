@@ -66,6 +66,13 @@
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Battle_of_the_Nile.jpg"
                     }
                 },
+                                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 1000
+                                }
+                            },
                 {
                     "Type": "Text",
                     "Label": {
