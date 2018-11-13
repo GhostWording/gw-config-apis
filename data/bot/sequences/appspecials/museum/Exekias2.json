@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine.",
-                "fr": "On the other side of the pot, the god Dionysus teaches his son, Oinopion ('wine drinker') how to make wine.",
+                "en": "On the other side of the pot, the god Dionysus teaches his son, Oenopion ('wine drinker'), how to make wine.",
+                "fr": "De l'autre côté du vase, le dieu Dionysos enseigne à son fils, Œnopion ('buveur de vin'), comment faire du vin.",
                 "es": "",
                 "zh": ""
             }
@@ -22,8 +22,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
-                "fr": "Again, there is a big contrast… the human Oinopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
+                "en": "Again, there is a big contrast… the human Oenopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
+                "fr": "Encore une fois, il y a un grand contraste... L'humain Œnopion est plus petit que son père, et il est nu, ce qui contraste avec les vêtements et accessoires extravagants du dieu.",
                 "es": "",
                 "zh": ""
             }
@@ -44,7 +44,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me more!",
-                "fr": "Tell me more!",
+                "fr": "Dis m'en plus !",
                 "es": "",
                 "zh": ""
             },
@@ -53,7 +53,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other.",
-                        "fr": "Lastly, the two sides of the pot contrast heavily! A sad scene of war and death on one, and a scene of peace, learning, and progress, on the other.",
+                        "fr": "Enfin, les deux côtés du vase contrastent fortement ! Une triste scène de guerre et de mort d'un côté, et une scène de paix, d'apprentissage et de progrès de l'autre",
                         "es": "",
                         "zh": ""
                     }
@@ -69,7 +69,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
-                        "fr": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
+                        "fr": "Comme de nombreux vases tels que celui-ci, il était sûrement utilisé lors de soirées arrosées, pendant laquelle les Grecs fortunés se soûlaient et racontaient des histoires de guerre. Le sujet est donc approprié !",
                         "es": "",
                         "zh": ""
                     }
@@ -85,29 +85,11 @@
                         "Id": "Exekias2MoreThks",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Thanks!",
-                            "fr": "Thanks!",
+                            "en": "Thanks for the story !",
+                            "fr": "Merci pour l'histoire !",
                             "es": "",
                             "zh": ""
                         },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It’s in room 20a, go check it out!",
-                                    "fr": "It’s in room 20a, go check it out!",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532941556/Achilles_BMMap.jpg"
-                                }
-                            }
-                        ],
                         "LinksToFragment": {
                             "FragmentPath": "ExekiasFeedback"
                         }
