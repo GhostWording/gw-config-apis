@@ -1,0 +1,18 @@
+{
+    "Type": "Node",
+    "Id": "UrStandard6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Definitely check out the Standard of Ur! You can look for ages and still see new things!",
+                "fr": "Viens définitivement voir l'Etendard d'Ur de plus près ! Tu peux le regarder pendant des heures et encore voir de nouvelles choses",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "UrStandardFeedback"
+    }
+}
