@@ -3,8 +3,9 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/DisplayCardAfterSelectionDefault.json"]},
-            { "order" : 15, "file": ["/data/bot/sequences/experiments/dbtest/SetUserGender.json"]}
+            { "order" : 10, "file": ["/data/bot/sequences/experiments/dbtest/ShowTextForPrototypeGoodMorning.json"]},
+            { "order" : 15, "file": ["/data/bot/sequences/experiments/dbtest/SetUserGender.json"]},
+            { "order" : 20, "file": ["/data/bot/sequences/experiments/dbtest/ShowTextForPrototypeYoureTheBest.json"]}
          ]
     }
 ]
