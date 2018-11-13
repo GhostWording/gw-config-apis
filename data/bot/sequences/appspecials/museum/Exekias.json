@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "This may look like an ordinary vase for storing wine…",
-                "fr": "This may look like an ordinary vase for storing wine…",
+                "fr": "Cela ressemble peut-être à un vase ordinaire pour conserver le vin...",
                 "es": "",
                 "zh": ""
             }
@@ -23,7 +23,7 @@
             "Type": "Text",
             "Label": {
                 "en": "But it tells a fascinating story - a perfect study in contrasts…",
-                "fr": "But it tells a fascinating story - a perfect study in contrasts…",
+                "fr": "Mais il raconte en réalité une histoire fascinante, tout en contrastes...",
                 "es": "",
                 "zh": ""
             }
@@ -32,7 +32,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Man and woman, Greek and barbarian, father and son, human and god, war and peace",
-                "fr": "Man and woman, Greek and barbarian, father and son, human and god, war and peace",
+                "fr": "Homme et femme, Grec et Barbare, père et fils, homme et dieu, guerre et paix",
                 "es": "",
                 "zh": ""
             }
@@ -45,7 +45,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What do you mean?",
-                "fr": "What do you mean?",
+                "fr": "Comment ça ?",
                 "es": "",
                 "zh": ""
             },
@@ -53,17 +53,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "On one side… we have Achilles, the Greek hero",
-                        "fr": "On one side… we have Achilles, the Greek hero",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "killing Penthesilea, the female warrior-queen of the Amazons",
-                        "fr": "killing Penthesilea, the female warrior-queen of the Amazons",
+                        "en": "On one side… we have Achilles, the Greek hero killing Penthesilea, the female warrior-queen of the Amazons",
+                        "fr": "D'un côté, on retrouve Achille, le héros grec tuant Penthésilée, la reine guerrière des Amazones",
                         "es": "",
                         "zh": ""
                     }
@@ -80,7 +71,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The powerful Achilles towers over the helpless Penthesilea, piercing her eye with his",
-                        "fr": "The powerful Achilles towers over the helpless Penthesilea, piercing her eye with his",
+                        "fr": "Le puissant Achille domine une Penthésilée impuissante, lui perçant l’œil de sa lance",
                         "es": "",
                         "zh": ""
                     }
@@ -104,7 +95,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tell me more!",
-                            "fr": "Tell me more!",
+                            "fr": "Dis m'en plus !",
                             "es": "",
                             "zh": ""
                         },
@@ -113,7 +104,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He wears simple, all black, functional armour, where she wears a fancy panther-skin, embroidered and coloured.",
-                                    "fr": "He wears simple, all black, functional armour, where she wears a fancy panther-skin, embroidered and coloured.",
+                                    "fr": "Il porte une armure simple et fonctionnelle, entièrement noire, alors qu'elle porte une peau de panthère élégante, brodée et colorée",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -129,17 +120,8 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "The idea is that Achilles - the male hero",
-                                    "fr": "The idea is that Achilles - the male hero",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "is triumphing over the strange, exotic woman who stands for everything the Greeks despised…",
-                                    "fr": "is triumphing over the strange, exotic woman who stands for everything the Greeks despised…",
+                                    "en": "The idea is that Achilles - the male hero is triumphing over the strange, exotic woman who stands for everything the Greeks despised…",
+                                    "fr": "L'idée est qu'Achille - le héros masculin - triomphe de l'étrange femme exotique qui représente tout ce que les Grecs méprisent...",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -148,7 +130,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "In many versions of the story, the pair were lovers, too… what a twist!",
-                                    "fr": "In many versions of the story, the pair were lovers, too… what a twist!",
+                                    "fr": "Dans de nombreuses versions de l'histoire, les deux étaient aussi amants... quel retournement !",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -156,17 +138,18 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "ExekiasMeanMoreInterestedStep",
+                            "Id": "ExekiasMeanMoreStep",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "ExekiasMeanEnough",
+                                    "Id": "ExekiasMeanMoreEnough",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "That’s enough",
-                                        "fr": "That’s enough",
-                                        "es": "That’s enough"
+                                        "fr": "J'en sais assez",
+                                        "es": "",
+                                        "zh": ""
                                     },
                                     "LinksToFragment": {
                                         "FragmentPath": "ExekiasFeedback"
@@ -178,7 +161,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "I’m interested",
-                                        "fr": "I’m interested",
+                                        "fr": "Ça m'intéresse",
                                         "es": "",
                                         "zh": ""
                                     },
