@@ -5,98 +5,32 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
-                "fr": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
+                "en": "The idea is that even the mightiest kings can fall, and that their power is temporary...",
+                "fr": "L'idée est que même les rois les plus puissants peuvent tomber, et que leur pouvoir n'est que temporaire...",
                 "es": "",
                 "zh": ""
             }
         },
         {
-            "Type": "Image",
-            "Parameters": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_2_dim.jpg"
+            "Type": "Text",
+            "Label": {
+                "en": "But… we’re still talking about Ramesses II to this day… so… perhaps his power is eternal!",
+                "fr": "Toutefois... on parle encore de Ramsès II aujourd'hui... alors... peut-être que son pouvoir est éternel en un sens !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That’s for you to think about 😉",
+                "fr": "Ça te donne matière à penser 😉",
+                "es": "",
+                "zh": ""
             }
         }
     ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "Ramesses4Tell",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Tell me more!",
-                "fr": "Tell me more!",
-                "es": "",
-                "zh": ""
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
-                        "fr": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Display": "FullScreenWidth",
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "The project took 17 days and 130 men to complete!",
-                        "fr": "The project took 17 days and 130 men to complete!",
-                        "es": "",
-                        "zh": ""
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "Ramesses4TellStep",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "Ramesses4TellWhere",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Where can I find it?",
-                            "fr": "Where can I find it?",
-                            "es": "",
-                            "zh": ""
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Here!",
-                                    "fr": "Here!",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532944424/AmenhotepIII_4.jpg"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "RamessesFeedback"
-                        }
-                    }
-                ]
-            }
-        }
-    ]
+    "LinksToFragment": {
+        "FragmentPath": "RamessesFeedback"
+    }
 }
