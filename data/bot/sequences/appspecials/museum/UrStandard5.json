@@ -38,6 +38,13 @@
                         "es": "",
                         "zh": ""
                     }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
+                    }
                 }
             ],
             "LinksToFragment": {
@@ -88,6 +95,13 @@
                         "fr": "C'est une manière classique de représenter le statut et le pouvoir dans les anciennes peintures",
                         "es": "",
                         "zh": ""
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
                     }
                 }
             ],
