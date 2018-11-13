@@ -1,0 +1,257 @@
+{
+    "Type": "Node",
+    "Id": "UrStandard4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s a charming scene of pastoral productivity!",
+                "fr": "C'est une charmante scène d'activité agricole",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Workers lead animals to graze",
+                "fr": "Les travailleurs emmènent les animaux pâturer",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540920885/pastoral.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Also, I’ve got a game: take a hard look at the scene and try to guess which character is the ruler",
+                "fr": "J'ai un jeu pour toi : regarde activement la scène et essaie de deviner quel personnage est le souverain",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921015/standard_peace_general.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I’ll give you some choices:",
+                "fr": "Voici quelques propositions :",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "UrStandard4Wrong1",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Choice 1",
+                "fr": "Choix 1",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice2.jpg"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Not quite! It’s this guy!",
+                            "fr": "Pas vraiment ! C'est lui !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Image",
+                        "Parameters": {
+                            "Display": "FullScreenWidth",
+                            "Source": "Web",
+                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                        }
+                    },
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "I’m sure you can tell by his larger size and fancy clothes!",
+                            "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "UrStandard5"
+                }
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "UrStandard4Wrong2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Choice 2",
+                "fr": "Choix 2",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice1.jpg"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Not quite! It’s this guy!",
+                            "fr": "Pas vraiment ! C'est lui !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Image",
+                        "Parameters": {
+                            "Display": "FullScreenWidth",
+                            "Source": "Web",
+                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                        }
+                    },
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "I’m sure you can tell by his larger size and fancy clothes!",
+                            "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "UrStandard5"
+                }
+            }
+        },        {
+            "Type": "Node",
+            "Id": "UrStandard4Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Choice 3",
+                "fr": "Choix 3",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Great job!",
+                            "fr": "Bien joué !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "I’m sure you could tell by his larger size and fancy clothes!",
+                            "fr": "Je suis sûr que tu l'as vu à sa grande taille et ses beaux vêtements !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "UrStandard5"
+                }
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "UrStandard4Wrong3",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Choice 4",
+                "fr": "Choix 4",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice3.jpg"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Not quite! It’s this guy!",
+                            "fr": "Pas vraiment ! C'est lui !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Image",
+                        "Parameters": {
+                            "Display": "FullScreenWidth",
+                            "Source": "Web",
+                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                        }
+                    },
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "I’m sure you can tell by his larger size and fancy clothes!",
+                            "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "UrStandard5"
+                }
+            }
+        }
+    ]
+}
