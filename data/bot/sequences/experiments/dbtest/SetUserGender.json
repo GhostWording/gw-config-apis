@@ -1,0 +1,52 @@
+{
+    "Condition": "u.Gender != 'male' && u.Gender != 'female'",
+    "Type": "Node",
+    "Id": "SetUserGender",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are you a man or a woman?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SetUserGenderMan",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A man"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "Gender",
+                        "value": "male"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SetUserGenderWoman",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A woman"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "Gender",
+                        "value": "female"
+                    }
+                }
+            ]
+        }
+    ]
+}
