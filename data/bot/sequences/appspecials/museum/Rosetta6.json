@@ -21,6 +21,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
@@ -34,6 +41,13 @@
                 "fr": "Elle a été donnée au British Museum, et exposée à un endroit très populaire",
                 "es": "",
                 "zh": ""
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
