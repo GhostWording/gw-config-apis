@@ -18,6 +18,13 @@
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731157/museum%20app/Rosetta_stone_full_replica_non_reusable.jpg"
             }
         },
+                {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
         {
             "Type": "Text",
             "Label": {
