@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Id": "ShowTextForPrototypeTest",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCardForPrototype",
+      "Comment": "Say good morning",
+      "Parameters": {
+        "PrototypeId": "63B92D"
+      }
+    }
+  ]
+}
