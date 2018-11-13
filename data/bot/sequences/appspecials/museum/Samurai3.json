@@ -7,7 +7,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The armour was designed to be terrifying to enemies!",
-                "fr": "The armour was designed to be terrifying to enemies!",
+                "fr": "L'armure a été conçue pour terrifier les ennemis !",
                 "es": "",
                 "zh": ""
             }
@@ -16,7 +16,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The horns bring to mind Japanese demons, and the mouth is twisted in an evil grimace!",
-                "fr": "The horns bring to mind Japanese demons, and the mouth is twisted in an evil grimace!",
+                "fr": "Les cornes évoquent les démons japonais, et la bouche est tordu en une grimace diabolique !",
                 "es": "",
                 "zh": ""
             }
@@ -33,7 +33,7 @@
             "Type": "Text",
             "Label": {
                 "en": "After all, no need to fight your enemies if they run away first!",
-                "fr": "After all, no need to fight your enemies if they run away first!",
+                "fr": "Après tout, pas besoin de se battre si tes ennemis s'enfuient les premiers !",
                 "es": "",
                 "zh": ""
             }
@@ -46,21 +46,10 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That’s enough",
-                "fr": "That’s enough",
+                "fr": "J'en sais assez",
                 "es": "",
                 "zh": ""
             },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Ok, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
-                        "fr": "Ok, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
-                        "es": "",
-                        "zh": ""
-                    }
-                }
-            ],
             "LinksToFragment": {
                 "FragmentPath": "SamuraiFeedback"
             }
@@ -71,7 +60,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "A good point",
-                "fr": "A good point",
+                "fr": "Un bon point",
                 "es": "",
                 "zh": ""
             },
@@ -80,7 +69,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The fancy decorations and colours were to show off the glory of each Samurai’s family.",
-                        "fr": "The fancy decorations and colours were to show off the glory of each Samurai’s family.",
+                        "fr": "Les décorations et les couleurs sophistiquées devaient montrer la gloire de chaque famille de samouraïs.",
                         "es": "",
                         "zh": ""
                     }
@@ -89,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But, it wasn’t only fancy looking, but also extremely effective…",
-                        "fr": "But, it wasn’t only fancy looking, but also extremely effective…",
+                        "fr": "Mais ce n'était pas seulement sophistiqué, c'était également très efficace...",
                         "es": "",
                         "zh": ""
                     }
@@ -106,7 +95,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "How so?",
-                            "fr": "How so?",
+                            "fr": "Comment ça ?",
                             "es": "",
                             "zh": ""
                         },
@@ -115,7 +104,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It’s light, but strong, meaning that the soldier could take hits, or dodge them!",
-                                    "fr": "It’s light, but strong, meaning that the soldier could take hits, or dodge them!",
+                                    "fr": "C'est léger, mais résistant, le soldat peut donc recevoir des coups ou les esquiver !",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -124,7 +113,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Much more flexible than the plate-mail used in Europe!",
-                                    "fr": "Much more flexible than the plate-mail used in Europe!",
+                                    "fr": "Beaucoup plus souple que l'armure utilisée en Europe !",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -157,7 +146,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Sounds perfect!",
-                                        "fr": "Sounds perfect!",
+                                        "fr": "C'est parfait !",
                                         "es": "",
                                         "zh": ""
                                     },
@@ -166,7 +155,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Right! Except the helmet weighed about 5kg…",
-                                                "fr": "Right! Except the helmet weighed about 5kg…",
+                                                "fr": "Oui, sauf que le casque pesait environ 5 kg...",
                                                 "es": "",
                                                 "zh": ""
                                             }
@@ -174,8 +163,8 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "that’s almost the same weight as two bricks!",
-                                                "fr": "that’s almost the same weight as two bricks!",
+                                                "en": "That’s almost the same weight as two bricks!",
+                                                "fr": "C'est presque le même poids que deux briques !",
                                                 "es": "",
                                                 "zh": ""
                                             }
@@ -184,16 +173,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I sure hope their scare tactics worked!",
-                                                "fr": "I sure hope their scare tactics worked!",
-                                                "es": "",
-                                                "zh": ""
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Anyway, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
-                                                "fr": "Anyway, you can see it on the fifth floor of the British Museum to learn more, and see if you get scared!",
+                                                "fr": "J'espère pour eux que leurs tactiques d'intimidation fonctionnaient !",
                                                 "es": "",
                                                 "zh": ""
                                             }
