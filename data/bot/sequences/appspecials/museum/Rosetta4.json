@@ -21,8 +21,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "How modest of him!",
-                "fr": "Comme c'est modeste de sa part !",
+                "en": "On these stones he announced, among other things, that he had become a god.",
+                "fr": "Sur ces pierres, il déclare, entre autres choses, qu'il est devenu un dieu.",
                 "es": "",
                 "zh": ""
             }
@@ -31,11 +31,11 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Rosetta4Reasonable",
+            "Id": "Rosetta4Modest",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Seems reasonable",
-                "fr": "Cela semble raisonnable",
+                "en": "How modest of him!",
+                "fr": "Comme c'est modeste de sa part !",
                 "es": "",
                 "zh": ""
             },
@@ -43,8 +43,17 @@
                 {
                     "Type": "Text",
                     "Label": {
+                        "en": "Well, it was a useful strategy!",
+                        "fr": "Eh bien, sa stratégie a été très utile !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
                         "en": "Well, the stones are really big, and were written in three languages, so that as many people could read them as possible!",
-                        "fr": "Ainsi, les pierres sont vraiment énormes, et ont été écrites en trois langues, de sortes qu'autant de monde que possible puisse le lire !",
+                        "fr": "Les pierres sont vraiment énormes, et ont été écrites en trois langues, de sortes qu'autant de monde que possible puisse les lire !",
                         "es": "",
                         "zh": ""
                     }
@@ -54,7 +63,7 @@
                     "Parameters": {
                         "Display":"FullScreenWidth",
                         "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534331472/Rosetta_Scripts.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Scripts.jpg"
                     }
                 },
                 {
@@ -78,12 +87,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "Rosetta4ReasonableChoice",
+                "Id": "Rosetta4ModestChoice",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "Rosetta4ReasonableNo",
+                        "Id": "Rosetta4ModestNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No thanks",
@@ -97,7 +106,7 @@
                     },
                     {
                         "Type": "Node",
-                        "Id": "Rosetta4ReasonableHear",
+                        "Id": "Rosetta4ModestHear",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let’s hear!",
