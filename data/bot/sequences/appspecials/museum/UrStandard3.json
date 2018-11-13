@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It shows a scene of war on one side and peace on the other.",
-                "fr": "It shows a scene of war on one side and peace on the other.",
+                "fr": "Il montre d'un côté une scène de guerre, et de l'autre une scène de paix.",
                 "es": "",
                 "zh": ""
             }
@@ -22,7 +22,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The scene of war has one thing that is particularly interesting…",
-                "fr": "The scene of war has one thing that is particularly interesting…",
+                "fr": "La scène de guerre a un élément particulièrement intéressant...",
                 "es": "",
                 "zh": ""
             }
@@ -35,7 +35,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What is it?",
-                "fr": "What is it?",
+                "fr": "Qu'est-ce que c'est ?",
                 "es": "",
                 "zh": ""
             },
@@ -43,8 +43,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Well… there are many people riding chariots",
-                        "fr": "Well… there are many people riding chariots",
+                        "en": "Well… there are many people riding chariots in the war scene",
+                        "fr": "Eh bien, il y a beaucoup de personnes sur des chars dans cette scène",
                         "es": "",
                         "zh": ""
                     }
@@ -60,8 +60,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Which, in fact, is our earliest pictorial representation of a vehicle with wheels!",
-                        "fr": "Which, in fact, is our earliest pictorial representation of a vehicle with wheels!",
+                        "en": "Which, in fact, is our earliest pictorial representation of the wheel!",
+                        "fr": "Cela en fait la plus ancienne représentation picturale de la roue que nous possédons !",
                         "es": "",
                         "zh": ""
                     }
@@ -78,7 +78,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Interesting!",
-                            "fr": "Interesting!",
+                            "fr": "Intéressant !",
                             "es": "",
                             "zh": ""
                         },
@@ -87,7 +87,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Now, although the scenes show the chariots trampling their unfortunate enemies..",
-                                    "fr": "Now, although the scenes show the chariots trampling their unfortunate enemies..",
+                                    "fr": "Toutefois, bien que les scènes montrent les chars piétinant leurs pauvres ennemis..",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -104,7 +104,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "We’re not sure they would have been as deadly as they seem…",
-                                    "fr": "We’re not sure they would have been as deadly as they seem…",
+                                    "fr": "On n'est pas sûr qu'ils étaient si meurtriers qu'ils le paraissent…",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -121,7 +121,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Why?",
-                                        "fr": "Why?",
+                                        "fr": "Pourquoi ?",
                                         "es": "",
                                         "zh": ""
                                     },
@@ -130,7 +130,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Well, for one, we don’t think it would have been possible to turn them very easily",
-                                                "fr": "Well, for one, we don’t think it would have been possible to turn them very easily",
+                                                "fr": "Eh bien, tout d'abord, on pense qu'il n'était pas facile de leur faire changer de direction",
                                                 "es": "",
                                                 "zh": ""
                                             }
@@ -139,7 +139,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Meaning their enemies could have just… moved out of the way",
-                                                "fr": "Meaning their enemies could have just… moved out of the way",
+                                                "fr": "Ce qui veut dire que leurs ennemis auraient tout simplement pu s'éloigner de la route",
                                                 "es": "",
                                                 "zh": ""
                                             }
@@ -148,7 +148,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "They were probably most useful for storing extra weapons",
-                                                "fr": "They were probably most useful for storing extra weapons",
+                                                "fr": "Ils étaient sûrement plus utiles pour stocker des armes en rab",
                                                 "es": "",
                                                 "zh": ""
                                             }
@@ -165,11 +165,20 @@
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "Oh, how?",
-                                                    "fr": "Oh, how?",
+                                                    "fr": "Oh, comment ?",
                                                     "es": "",
                                                     "zh": ""
                                                 },
                                                 "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Like this! See the spears in the front of the chariot!",
+                                                            "fr": "Comme ça ! Regarde les lances à l'avant du char !",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    },
                                                     {
                                                         "Type": "Image",
                                                         "Parameters": {
@@ -182,7 +191,7 @@
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "And the shock factor helps, too!",
-                                                            "fr": "And the shock factor helps, too!",
+                                                            "fr": "Le facteur choc aide aussi !",
                                                             "es": "",
                                                             "zh": ""
                                                         }
@@ -191,14 +200,14 @@
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "They must have been terrifying for enemies who had never seen a vehicle like that before!",
-                                                            "fr": "They must have been terrifying for enemies who had never seen a vehicle like that before!",
+                                                            "fr": "Leur ennemis ont dû être terrifiés en voyant pour la première fois un tel véhicule !",
                                                             "es": "",
                                                             "zh": ""
                                                         }
                                                     }
                                                 ],
                                                 "LinksToFragment": {
-                                                    "FragmentPath": "UrStandardFeedback"
+                                                    "FragmentPath": "UrStandard4"
                                                 }
                                             }
                                         ]
