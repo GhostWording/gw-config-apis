@@ -3,46 +3,30 @@
     "Id": "Ramesses2",
     "Steps": [
         {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is one of them!",
+                "fr": "Voici l'une d'entre elles !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "This head from the British museum is one of a pair which once stood together here",
-                "fr": "This head from the British museum is one of a pair which once stood together here",
-                "es": "",
-                "zh": ""
-            }
-        },
-        {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "wJP3M3kPeKJkD6XVCG"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Now, you may have noticed that I said ‘once’ stood together here",
-                "fr": "Now, you may have noticed that I said ‘once’ stood together here",
-                "es": "",
-                "zh": ""
             }
         }
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Ramesses2No",
+            "Id": "Ramesses2Tall",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Not interested",
-                "fr": "Not interested",
+                "en": "Looks tall!",
+                "fr": "Ca a l'air grand !",
                 "es": "",
                 "zh": ""
             },
@@ -50,33 +34,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Ok, let’s move on!",
-                        "fr": "Ok, let’s move on!",
-                        "es": "",
-                        "zh": ""
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "RamessesFeedback"
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Ramesses2What",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "What happened?",
-                "fr": "What happened?",
-                "es": "",
-                "zh": ""
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
-                        "fr": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
+                        "en": "It is… about four times life size!",
+                        "fr": "Elle fait plus de quatre fois la taille réelle !",
                         "es": "",
                         "zh": ""
                     }
@@ -84,15 +43,143 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
-                        "fr": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
+                        "en": "The pair of statues once stood together here:",
+                        "fr": "Les deux statues était autrefois érigées l'une à côté de l'autre ici :",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "wJP3M3kPeKJkD6XVCG"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But now, one of them lies in the British museum! The story of how it got there is pretty interesting...",
+                        "fr": "Mais aujourd'hui, l'une d'entre elles repose au British Museum ! L'histoire à propos de la manière dont elle s'est retrouvée là est assez intéressante...",
                         "es": "",
                         "zh": ""
                     }
                 }
             ],
-            "LinksToFragment": {
-                "FragmentPath": "Ramesses3"
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Ramesses2TallStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Ramesses2TallNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not interested",
+                            "fr": "Pas intéressée",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Ok, let’s move on!",
+                                    "fr": "D'accord, passons à autre chose !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Exit"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Ramesses2TallWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What happened?",
+                            "fr": "Que s'est-il passé ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In the 1800s, important Europeans liked to travel to Egypt to ‘discover’ amazing treasures",
+                                    "fr": "Dans les années 1800, de puissants Européens aimaient se rendre en Égypte pour «découvrir» d’incroyables trésors",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In fact, Napoleon himself was so impressed with Ramesses’ statue that he tried to carry it away back to France",
+                                    "fr": "En fait, Napoléon lui-même était tellement impressionné par la statue de Ramsès qu'il tenta de la ramener en France",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They even made this hole in the statue in the process somehow…",
+                                    "fr": "Ils ont même fait ce trou dans la statue en essayant...",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_1_bis.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Ramesses2TallWhatStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Ramesses2TallWhatNasty",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Nasty French",
+                                        "fr": "Méchants Français",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Ramesses3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Ramesses2TallWhatBravo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Bravo! 🇫🇷",
+                                        "fr": "Bravo ! 🇫🇷",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Ramesses3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
         }
     ]
