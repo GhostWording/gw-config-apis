@@ -19,6 +19,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Oh, and his parents were also brother and sister… that’s one messed up family tree!",
