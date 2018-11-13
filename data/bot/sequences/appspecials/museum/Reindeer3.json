@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "There were even some reindeer living there!",
-                "fr": "There were even some reindeer living there!",
+                "fr": "Il y avait même des rennes qui vivaient dans cette région !",
                 "es": "",
                 "zh": ""
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Nowadays, they only live in the coldest places on earth",
-                "fr": "Nowadays, they only live in the coldest places on earth",
+                "fr": "Aujourd'hui, on en trouve uniquement dans les endroits les plus froids de la planète",
                 "es": "",
                 "zh": ""
             }
@@ -31,7 +31,7 @@
             "Type": "Text",
             "Label": {
                 "en": "So, why am I telling you this?",
-                "fr": "So, why am I telling you this?",
+                "fr": "Alors, pourquoi je te dis tout ça ?",
                 "es": "",
                 "zh": ""
             }
@@ -44,12 +44,12 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not interested",
-                "fr": "Not interested",
+                "fr": "Pas intéressé(e)",
                 "es": "",
                 "zh": ""
             },
             "LinksToFragment": {
-                "FragmentPath": "ReindeerFeedback"
+                "FragmentPath": "Exit"
             }
         },
         {
@@ -58,7 +58,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes, why?",
-                "fr": "Yes, why?",
+                "fr": "Oui, pourquoi ?",
                 "es": "",
                 "zh": ""
             },
@@ -67,7 +67,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866",
-                        "fr": "Well, two swimming reindeer are depicted on this little sculpture found in France in 1866",
+                        "fr": "Eh bien, deux rennes en train de nager sont représentés sur cette petite sculpture trouvée en France en 1866",
                         "es": "",
                         "zh": ""
                     }
