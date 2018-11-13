@@ -32,7 +32,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Also, I’ve got a game: take a hard look at the scene and try to guess which character is the ruler",
-                "fr": "J'ai un jeu pour toi : regarde activement la scène et essaie de deviner quel personnage est le souverain",
+                "fr": "J'ai un jeu pour toi : regarde attentivement la scène et essaie de deviner quel personnage est le souverain",
                 "es": "",
                 "zh": ""
             }
@@ -46,6 +46,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "I’ll give you some choices:",
@@ -56,7 +63,6 @@
         }
     ],
     "DisplayHint": "Carousel",
-    "Randomize": "true",
     "Commands": [
         {
             "Type": "Node",
@@ -75,38 +81,38 @@
                 "Picture": {
                     "Source": "Web",
                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice2.jpg"
-                },
-                "Steps": [
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "Not quite! It’s this guy!",
-                            "fr": "Pas vraiment ! C'est lui !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    },
-                    {
-                        "Type": "Image",
-                        "Parameters": {
-                            "Display": "FullScreenWidth",
-                            "Source": "Web",
-                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
-                        }
-                    },
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "I’m sure you can tell by his larger size and fancy clothes!",
-                            "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "UrStandard5"
                 }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite! It’s this guy!",
+                        "fr": "Pas vraiment ! C'est lui !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m sure you can tell by his larger size and fancy clothes!",
+                        "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard5"
             }
         },
         {
@@ -126,40 +132,41 @@
                 "Picture": {
                     "Source": "Web",
                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice1.jpg"
-                },
-                "Steps": [
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "Not quite! It’s this guy!",
-                            "fr": "Pas vraiment ! C'est lui !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    },
-                    {
-                        "Type": "Image",
-                        "Parameters": {
-                            "Display": "FullScreenWidth",
-                            "Source": "Web",
-                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
-                        }
-                    },
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "I’m sure you can tell by his larger size and fancy clothes!",
-                            "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "UrStandard5"
                 }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite! It’s this guy!",
+                        "fr": "Pas vraiment ! C'est lui !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m sure you can tell by his larger size and fancy clothes!",
+                        "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard5"
             }
-        },        {
+        },
+        {
             "Type": "Node",
             "Id": "UrStandard4Right",
             "ElementValue": "1",
@@ -176,30 +183,30 @@
                 "Picture": {
                     "Source": "Web",
                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
-                },
-                "Steps": [
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "Great job!",
-                            "fr": "Bien joué !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    },
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "I’m sure you could tell by his larger size and fancy clothes!",
-                            "fr": "Je suis sûr que tu l'as vu à sa grande taille et ses beaux vêtements !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "UrStandard5"
                 }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great job!",
+                        "fr": "Bien joué !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m sure you could tell by his larger size and fancy clothes!",
+                        "fr": "Je suis sûr que tu l'as vu à sa grande taille et ses beaux vêtements !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard5"
             }
         },
         {
@@ -219,38 +226,38 @@
                 "Picture": {
                     "Source": "Web",
                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice3.jpg"
-                },
-                "Steps": [
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "Not quite! It’s this guy!",
-                            "fr": "Pas vraiment ! C'est lui !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    },
-                    {
-                        "Type": "Image",
-                        "Parameters": {
-                            "Display": "FullScreenWidth",
-                            "Source": "Web",
-                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
-                        }
-                    },
-                    {
-                        "Type": "Text",
-                        "Label": {
-                            "en": "I’m sure you can tell by his larger size and fancy clothes!",
-                            "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
-                            "es": "",
-                            "zh": ""
-                        }
-                    }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "UrStandard5"
                 }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite! It’s this guy!",
+                        "fr": "Pas vraiment ! C'est lui !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m sure you can tell by his larger size and fancy clothes!",
+                        "fr": "On peut le voir à sa grande taille et ses beaux vêtements !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard5"
             }
         }
     ]
