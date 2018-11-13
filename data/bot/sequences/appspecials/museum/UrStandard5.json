@@ -1,0 +1,99 @@
+{
+    "Type": "Node",
+    "Id": "UrStandard5",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "UrStandard5Got",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Got it!",
+                "fr": "Je vois !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I like how realism is less important: look how the servants are smaller even than the seated elites!",
+                        "fr": "J'aime le fait que le réalisme ne soit pas si important : regarde comme les serviteurs sont plus que les élites alors qu'elles sont assises !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921643/status.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s a classic way to show off status and power in early paintings",
+                        "fr": "C'est une manière classique de représenter le statut et le pouvoir dans les anciennes peintures",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "UrStandard5Explain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Explain more",
+                "fr": "Explique-moi",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "See how the servants are smaller!",
+                        "fr": "Regarde comme les serviteurs sont plus petits !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921643/status.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Even though the elites are seated!",
+                        "fr": "Alors même que les élites sont assises !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s a classic way to show off status and power in early paintings",
+                        "fr": "C'est une manière classique de représenter le statut et le pouvoir dans les anciennes peintures",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "UrStandard6"
+            }
+        }
+    ]
+}
