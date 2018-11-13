@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "They even made this hole in the statue in the process somehow…",
-                "fr": "They even made this hole in the statue in the process somehow…",
+                "en": "But this particular statue proved rather difficult to snatch, mainly because it was so big",
+                "fr": "Mais cette statue s'est révélée plutôt difficile à déplacer, principalement à cause de sa taille :",
                 "es": "",
                 "zh": ""
             }
@@ -14,39 +14,158 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Display": "FullScreenWidth",
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_1_bis.jpg"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_2_dim.jpg"
             }
         }
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Ramesses3Nasty",
+            "Id": "Ramesses3Tell",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Nasty French",
-                "fr": "Nasty French",
+                "en": "Tell me more!",
+                "fr": "Dis m'en plus !",
                 "es": "",
                 "zh": ""
             },
-            "LinksToFragment": {
-                "FragmentPath": "Ramesses4"
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "Ramesses3Bravo",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Bravo! 🇫🇷",
-                "fr": "Bravo! 🇫🇷",
-                "es": "",
-                "zh": ""
-            },
-            "LinksToFragment": {
-                "FragmentPath": "Ramesses4"
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Afterwards, an unlikely alliance between a Brit (Henry Salt) and an Italian (Giovanni Belzoni) arose to show the French how removing statues was really done",
+                        "fr": "Par la suite, une alliance improbable entre un Britannique (Henry Salt) et un Italien (Giovanni Belzoni) s'est créée pour montrer aux Français comme l'on s'y prenait pour déplacer des statues !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The project took 17 days and 130 men to complete!",
+                        "fr": "17 jours et 130 hommes ont été nécessaires pour venir à bout de l'entreprise !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Ramesses3TellStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Ramesses3TellSo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "So impressive",
+                            "fr": "Impressionnant",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! And the whole operation received huge coverage in Britain at the time!",
+                                    "fr": "N'est-ce pas ! Et toute cette opération a été beaucoup suivie en Grande-Bretagne !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So much so that two poets had a competition to write about the statue",
+                                    "fr": "A tel point que deux poètes sont entrés en compétition pour écrire sur la statue",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "One of these was Percy Shelley, who wrote the famous poem Ozymandias!",
+                                    "fr": "L'un d'entre eux était Percy Shelley, qui a écrit le célèbre poème Ozymandias !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1540548813/shelley_poem.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Ramesses3TellSoStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Ramesses3TellSoKnow",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I know that one!",
+                                        "fr": "Je le connais !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Ramesses4"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Ramesses3TellSoNever",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Never read it!",
+                                        "fr": "Je ne l'ai jamais lu !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Ramesses4"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
         }
     ]
