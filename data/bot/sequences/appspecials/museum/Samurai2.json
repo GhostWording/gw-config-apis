@@ -21,9 +21,18 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 742,
+                "Height": 728,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637167/museum%20app/Reusable_Detail.jpg"
             }
