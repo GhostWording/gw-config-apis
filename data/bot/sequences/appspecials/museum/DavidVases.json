@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 600,
+                "Height": 600,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533738455/1david_vases.jpg"
             }
@@ -53,6 +55,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 332,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533738702/2davidvase_closeup.jpg"
                     }
@@ -119,8 +123,17 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 614,
+                                    "Height": 461,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739147/3davidvase_temple.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 1000
                                 }
                             },
                             {
