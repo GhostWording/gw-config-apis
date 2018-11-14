@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
-                "fr": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
+                "fr": "Comme d'habitude avec ce genre de chose, il essaie de se mettre en avant. L'insciprtion permet à chacun de savoir que c'est LUI qui a acehté ses vases",
                 "es": "",
                 "zh": ""
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see",
-                "fr": "And that HE was wealthy enough to give them away to the temple, and put them in a public place for everyone to see",
+                "fr": "Et qu'IL était assez riche pour les donner au temple et les mettre dans un lieu public à la vue de tous",
                 "es": "",
                 "zh": ""
             }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That’s enough",
-                "fr": "That’s enough",
+                "fr": "J'en sais assez",
                 "es": "",
                 "zh": ""
             },
@@ -42,7 +42,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me more!",
-                "fr": "Tell me more!",
+                "fr": "Dis m'en plus !",
                 "es": "",
                 "zh": ""
             },
@@ -51,7 +51,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The blue and white colour scheme has stayed popular until the modern day!",
-                        "fr": "The blue and white colour scheme has stayed popular until the modern day!",
+                        "fr": "La palette de couleurs bleu et blanc est restée populaire jusqu'à nos jours !",
                         "es": "",
                         "zh": ""
                     }
@@ -60,7 +60,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It might remind you of modern porcelain dishes or tea sets",
-                        "fr": "It might remind you of modern porcelain dishes or tea sets",
+                        "fr": "	Ça pourrait te rappeler des plats en porcelaines ou des services de thé modernes",
                         "es": "",
                         "zh": ""
                     }
@@ -69,7 +69,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "After all, that’s why porcelain is also called “china”!",
-                        "fr": "After all, that’s why porcelain is also called “china”!",
+                        "fr": "Après tout, c'est pour cela que la porcelaine est souvent qualifiée de «chinoise» !",
                         "es": "",
                         "zh": ""
                     }
@@ -103,7 +103,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "What else?",
-                            "fr": "What else?",
+                            "fr": "Quoi d'autre ?",
                             "es": "",
                             "zh": ""
                         },
@@ -112,7 +112,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!",
-                                    "fr": "At this time, China was part of the Mongol Yuan Dynasty, and their trade routes spanned a huge distance!",
+                                    "fr": "A cette époque, la Chine faisait partie de la dynastie mongole Yuan, et leurs routes commerciales couvraient une très grande distance !",
                                     "es": "",
                                     "zh": ""
                                 }
@@ -145,8 +145,8 @@
                                     "Id": "DavidVases2MoreElseVast",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "That’s vast!",
-                                        "fr": "That’s vast!",
+                                        "en": "C'est immense !",
+                                        "fr": "",
                                         "es": "",
                                         "zh": ""
                                     },
