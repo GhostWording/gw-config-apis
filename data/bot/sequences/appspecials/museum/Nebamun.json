@@ -15,6 +15,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 330,
+                "Height": 408,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1530018406/NebamunClose.jpg"
             }
@@ -60,9 +62,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "No I'm afraid not",
-                        "fr": "J'ai bien peur que non",
-                        "es": "Me temo que no",
+                        "en": "No I'm afraid not, he is Nebamun",
+                        "fr": "J'ai bien peur que non, c'est Nebamon",
+                        "es": "Me temo que no, es Nebamón",
                         "zh": ""
                     }
                 }
