@@ -19,6 +19,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "At some point, Henry had the cup modified to include the symbol of his family - the Tudor Rose",
@@ -60,7 +67,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 2000
+                        "ms": 1000
                     }
                 },
                 {
