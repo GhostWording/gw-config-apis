@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 767,
+                "Height": 937,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304588/museum%20app/Other_Bust.jpg"
             }
@@ -62,8 +64,17 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 501,
+                        "Height": 456,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304580/museum%20app/Coin_Hadrian.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
                     }
                 },
                 {
@@ -128,6 +139,8 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 798,
+                                    "Height": 498,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304586/museum%20app/Hadrian_Map.jpg"
                                 }
@@ -145,7 +158,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "That’s some serious air miles!",
-                                    "fr": "Ca en fait des kilomètres parcourus !",
+                                    "fr": "Ça en fait des kilomètres parcourus !",
                                     "es": "",
                                     "zh": ""
                                 }
