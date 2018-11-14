@@ -6,6 +6,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display":"FullScreenWidth",
+                "Width": 816,
+                "Height": 945,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540917001/holythorn.jpg"
             }
@@ -44,8 +46,17 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Width": 662,
+                        "Height": 881,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534247508/holy_thorn2.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
                     }
                 },
                 {
@@ -60,6 +71,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Width": 840,
+                        "Height": 352,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534247589/holy_thorn3.jpg"
                     }
