@@ -17,7 +17,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I like how realism is less important: look how the servants are smaller even than the seated elites!",
-                        "fr": "J'aime le fait que le réalisme ne soit pas si important : regarde comme les serviteurs sont plus que les élites alors qu'elles sont assises !",
+                        "fr": "J'aime le fait que le réalisme ne soit pas si important : regarde comme les serviteurs sont plus petits que les élites alors qu'elles sont assises !",
                         "es": "",
                         "zh": ""
                     }
@@ -26,6 +26,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 1163,
+                        "Height": 711,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921643/status.jpg"
                     }
@@ -75,6 +77,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 1163,
+                        "Height": 711,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921643/status.jpg"
                     }
