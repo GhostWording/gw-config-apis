@@ -15,6 +15,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 848,
+                "Height": 833,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533050235/Exekias_Achilles_Penthesileia_whole_pic.jpg"
             }
@@ -26,6 +28,13 @@
                 "fr": "Mais il raconte en réalité une histoire fascinante, tout en contrastes...",
                 "es": "",
                 "zh": ""
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
@@ -63,8 +72,17 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 750,
+                        "Height": 750,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_1.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
@@ -79,6 +97,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Width": 227,
+                        "Height": 223,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_1_eyes.jpg"
                     }
@@ -113,8 +133,17 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 332,
+                                    "Height": 338,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_1clothes.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
