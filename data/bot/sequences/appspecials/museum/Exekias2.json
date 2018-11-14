@@ -15,15 +15,24 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 750,
+                "Height": 750,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685325/museum%20app/Exekias_Achilles_Penthesileia_close_up_2.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 3000
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "Again, there is a big contrast… the human Oenopion is shorter than his god father, and is nude, compared to the god’s extravagant clothes and equipment.",
-                "fr": "Encore une fois, il y a un grand contraste... L'humain Œnopion est plus petit que son père, et il est nu, ce qui contraste avec les vêtements et accessoires extravagants du dieu.",
+                "fr": "Encore une fois, il y a un grand contraste... L'humain Œnopion est plus petit que son père, et il est nu, comparé aux vêtements et accessoires extravagants du dieu.",
                 "es": "",
                 "zh": ""
             }
@@ -32,6 +41,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 383,
+                "Height": 436,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_2_clothes.jpg"
             }
@@ -61,6 +72,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Width": 1120,
+                        "Height": 750,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685326/museum%20app/side_by_side.png"
                     }
@@ -69,7 +82,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "As with many pots like this, it would have been used at a drinking party, where rich Greeks would get drunk and tell stories of war, so the subject matter is fitting!",
-                        "fr": "Comme de nombreux vases tels que celui-ci, il était sûrement utilisé lors de soirées arrosées, pendant laquelle les Grecs fortunés se soûlaient et racontaient des histoires de guerre. Le sujet est donc approprié !",
+                        "fr": "Comme de nombreux vases tels que celui-ci, il était sûrement utilisé lors de soirées arrosées, pendant lesquelles les Grecs fortunés se soûlaient et racontaient des histoires de guerre. Le sujet est donc approprié !",
                         "es": "",
                         "zh": ""
                     }
