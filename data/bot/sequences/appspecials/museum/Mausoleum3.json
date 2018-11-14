@@ -5,6 +5,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 608,
+                "Height": 627,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
             }
@@ -13,7 +15,7 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 4000
+                "ms": 3000
             }
         },
         {
@@ -38,7 +40,7 @@
                 "zh": ""
             },
             "LinksToFragment": {
-                "FragmentPath": "Mausoleum4"
+                "FragmentPath": "Exit"
             }
         },
         {
@@ -83,6 +85,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 463,
+                        "Height": 375,
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
                     }
@@ -176,8 +180,10 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Web",
                                                 "Display": "FullScreenWidth",
+                                                "Source": "Web",
+                                                "Width": 678,
+                                                "Height": 457,
                                                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661083/wonders.jpg"
                                             }
                                         },
@@ -207,7 +213,7 @@
                                                     "zh": ""
                                                 },
                                                 "LinksToFragment": {
-                                                    "FragmentPath": "Mausoleum4"
+                                                    "FragmentPath": "MausoleumFeedback"
                                                 }
                                             },
                                             {
@@ -234,8 +240,10 @@
                                                         "Type": "Image",
                                                         "Parameters": {
                                                             "Source": "Web",
+                                                            "Width": 1434,
+                                                            "Height": 826,
                                                             "Display": "FullScreenWidth",
-                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661231/Amazonomachy.jpg"
+                                                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542207540/amazonomachy2.jpg"
                                                         }
                                                     },
                                                     {
@@ -264,7 +272,7 @@
                                                                 "zh": ""
                                                             },
                                                             "LinksToFragment": {
-                                                                "FragmentPath": "Mausoleum4"
+                                                                "FragmentPath": "MausoleumFeedback"
                                                             }
                                                         },
                                                         {
@@ -300,6 +308,8 @@
                                                                     "Type": "Image",
                                                                     "Parameters": {
                                                                         "Display": "FullScreenWidth",
+                                                                        "Width": 655,
+                                                                        "Height": 402,
                                                                         "Source": "Web",
                                                                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661363/AmazonomachyPoses.jpg"
                                                                     }
@@ -321,7 +331,7 @@
                                                                             "zh": ""
                                                                         },
                                                                         "LinksToFragment": {
-                                                                            "FragmentPath": "Mausoleum4"
+                                                                            "FragmentPath": "MausoleumFeedback"
                                                                         }
                                                                     },
                                                                     {
@@ -348,24 +358,17 @@
                                                                                 "Type": "Image",
                                                                                 "Parameters": {
                                                                                     "Display": "FullScreenWidth",
+                                                                                    "Width": 588,
+                                                                                    "Height": 433,
                                                                                     "Source": "Web",
                                                                                     "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661766/saint_teresa.jpg"
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "Type": "Text",
-                                                                                "Label": {
-                                                                                    "en": "I can't say everything about it here... you can find it displayed in room 21!",
-                                                                                    "fr": "Je ne peux pas tout dire ici... tu peux le trouver dans la salle 21!",
-                                                                                    "es": "No puedo decir todo sobre esto aquí... ¡lo puedes encontrar en la sala 21!",
-                                                                                    "zh": ""
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "Type": "Image",
+                                                                                "Type": "Pause",
                                                                                 "Parameters": {
-                                                                                    "Source": "Web",
-                                                                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661896/museummaphalicarnassus.png"
+                                                                                    "Mode": "Wait",
+                                                                                    "ms": 1000
                                                                                 }
                                                                             }
                                                                         ],
