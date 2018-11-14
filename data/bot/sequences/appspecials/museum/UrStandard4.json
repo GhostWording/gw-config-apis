@@ -24,8 +24,17 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 305,
+                "Height": 298,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540920885/pastoral.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
@@ -41,6 +50,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 1024,
+                "Height": 434,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921015/standard_peace_general.jpg"
             }
@@ -97,6 +108,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 833,
+                        "Height": 705,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
                     }
@@ -148,6 +161,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 833,
+                        "Height": 705,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
                     }
@@ -242,6 +257,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 833,
+                        "Height": 705,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
                     }
