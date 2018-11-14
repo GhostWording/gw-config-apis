@@ -22,9 +22,18 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Display":"FullScreenWidth",
+                "Width": 378,
+                "Height": 376,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533650373/museum%20app/Full_armor_3_-_Copie.jpg"
             }
@@ -121,6 +130,8 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Width": 695,
+                                    "Height": 779,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533637166/museum%20app/Reusable_Platemail.jpg"
                                 }
