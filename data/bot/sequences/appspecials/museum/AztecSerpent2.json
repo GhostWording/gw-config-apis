@@ -69,6 +69,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 600,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533722872/2cedar_tree3.jpg"
                     }
@@ -127,6 +129,9 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 1370,
+                                    "Height": 814,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533642922/3location1.jpg"
                                 }
@@ -152,6 +157,8 @@
                                             "Type": "Image",
                                             "Parameters": {
                                                 "Display": "FullScreenWidth",
+                                                "Width": 752,
+                                                "Height": 693,
                                                 "Source": "Web",
                                                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651934/3.2serpent_head.jpg"
                                             }
