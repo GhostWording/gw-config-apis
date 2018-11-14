@@ -24,12 +24,14 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 4000
+                "ms": 3000
             }
         },
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 304,
+                "Height": 493,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
             }
@@ -69,6 +71,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 398,
+                        "Height": 399,
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533296748/augustus_coin.jpg"
                     }
@@ -77,7 +81,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 4000
+                        "ms": 2000
                     }
                 },
                 {
@@ -116,10 +120,10 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "OK! Come see it in the British Museum some time!",
-                                    "fr": "D'accord ! Viens le voir au British Museum un jour !",
-                                    "es": "¡De acuerdo! ¡Ven a verlo en el British Museum algún día!",
-                                    "zh": "好了！抽时间到大英博物馆来欣赏一下这座雕像吧！"
+                                    "en": "OK!",
+                                    "fr": "D'accord !",
+                                    "es": "¡De acuerdo!",
+                                    "zh": "好了！"
                                 }
                             }
                         ],
@@ -150,15 +154,10 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Width": 600,
+                                    "Height": 401,
                                     "Source": "Web",
                                     "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533305146/Bronze_Casting.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 4000
                                 }
                             },
                             {
@@ -209,7 +208,7 @@
                                             "Type": "Pause",
                                             "Parameters": {
                                                 "Mode": "Wait",
-                                                "ms": 4000
+                                                "ms": 2000
                                             }
                                         },
                                         {
@@ -225,15 +224,10 @@
                                             "Type": "Image",
                                             "Parameters": {
                                                 "Display": "FullScreenWidth",
+                                                "Width": 600,
+                                                "Height": 401,
                                                 "Source": "Web",
                                                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1533305050/AugustusPrima.jpg"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -265,10 +259,10 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "OK! Come see it in the British Museum some time!",
-                                                            "fr": "D'accord ! Viens le voir au British Museum un jour !",
-                                                            "es": "¡De acuerdo! ¡Ven a verlo en el British Museum algún día!",
-                                                            "zh": "好了！抽时间到大英博物馆来欣赏一下这座雕像吧！"
+                                                            "en": "OK!",
+                                                            "fr": "D'accord !",
+                                                            "es": "¡De acuerdo!",
+                                                            "zh": "好了！"
                                                         }
                                                     }
                                                 ],
