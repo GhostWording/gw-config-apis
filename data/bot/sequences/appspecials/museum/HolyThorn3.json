@@ -23,13 +23,24 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 766,
+                "Height": 676,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534247684/holy_thorn4.jpg"
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
+                "Width": 683,
+                "Height": 841,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534247427/holy_thorn5.jpg"
             }
