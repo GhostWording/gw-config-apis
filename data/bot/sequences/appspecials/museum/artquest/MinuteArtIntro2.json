@@ -1,0 +1,28 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtIntro2",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MinuteArtIntroYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Got it!",
+                "fr": "J'ai compris !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! Now, let’s talk about some art!",
+                        "fr": "Super ! Parlons d'art maintenant !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
