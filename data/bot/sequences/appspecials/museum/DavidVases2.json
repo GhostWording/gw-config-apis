@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "As usual with this sort of thing, he’s trying to show off. The inscription lets everyone know that it was HE who bought the vases",
-                "fr": "Comme d'habitude avec ce genre de chose, il essaie de se mettre en avant. L'insciprtion permet à chacun de savoir que c'est LUI qui a acehté ses vases",
+                "fr": "Comme d'habitude avec ce genre de chose, il essaie de se mettre en avant. L'inscription permet à chacun de savoir que c'est LUI qui a acheté ces vases",
                 "es": "",
                 "zh": ""
             }
@@ -78,6 +78,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 800,
+                        "Height": 640,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739327/4davidvase_porcelain.jpg"
                     }
@@ -121,6 +123,8 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 752,
+                                    "Height": 591,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739441/5davidvase_map.jpg"
                                 }
@@ -145,8 +149,8 @@
                                     "Id": "DavidVases2MoreElseVast",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "C'est immense !",
-                                        "fr": "",
+                                        "en": "That's vast!",
+                                        "fr": "C'est immense !",
                                         "es": "",
                                         "zh": ""
                                     },
