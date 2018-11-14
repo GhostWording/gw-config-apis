@@ -15,6 +15,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 3519,
+                "Height": 2345,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294679/museum%20app/5_Caryatids.jpg"
             }
@@ -68,6 +70,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 2153,
+                        "Height": 1363,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294678/museum%20app/Erechteum.jpg"
                     }
@@ -111,8 +115,17 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 626,
+                                    "Height": 717,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533294679/museum%20app/Hair_of_Caryatids.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
