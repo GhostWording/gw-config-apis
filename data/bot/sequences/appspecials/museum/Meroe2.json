@@ -11,9 +11,18 @@
                 "zh": "好！头部雕像（及整座雕像）稍大于真人尺寸……这样很容易就能让自己看上去比普通人更伟大！"
             }
         },
+                {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": &000
+            }
+        },
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 524,
+                "Height": 858,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead2.jpg"
             }
@@ -22,7 +31,7 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 4000
+                "ms": 2000
             }
         },
         {
@@ -38,6 +47,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 410,
+                "Height": 308,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead3.jpg"
             }
@@ -46,7 +57,7 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 4000
+                "ms": 1000
             }
         },
         {
@@ -81,13 +92,6 @@
                     }
                 },
                 {
-                    "Type": "Pause",
-                    "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 4000
-                    }
-                },
-                {
                     "Type": "Text",
                     "Label": {
                         "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
@@ -97,9 +101,18 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 375,
+                        "Height": 497,
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528886353/MeroeHead4.jpg"
                     }
@@ -108,7 +121,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 4000
+                        "ms": 1000
                     }
                 },
                 {
