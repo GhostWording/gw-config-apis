@@ -6,6 +6,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 642,
+                "Height": 625,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533631883/hoa_head.jpg"
             }
@@ -23,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Don’t worry, he might look intimidating, but he’s really a nice guy.",
-                "fr": "Ne t'inquiète pas, il eput paraître intimidant, mais il est vraiment sympa.",
+                "fr": "Ne t'inquiète pas, il peut paraître intimidant, mais il est vraiment sympa.",
                 "es": "",
                 "zh": ""
             }
