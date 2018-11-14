@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 1427,
+                "Height": 1841,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533293695/Ramses_II_0_full.jpg"
             }
@@ -26,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Looks tall!",
-                "fr": "Ca a l'air grand !",
+                "fr": "Ça a l'air grand !",
                 "es": "",
                 "zh": ""
             },
@@ -35,7 +37,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It is… about four times life size!",
-                        "fr": "Elle fait plus de quatre fois la taille réelle !",
+                        "fr": "Elle fait plus de quatre fois la taille réelle d'un homme !",
                         "es": "",
                         "zh": ""
                     }
@@ -44,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The pair of statues once stood together here:",
-                        "fr": "Les deux statues étaientt autrefois érigées l'une à côté de l'autre ici :",
+                        "fr": "Les deux statues étaient autrefois érigées l'une à côté de l'autre ici :",
                         "es": "",
                         "zh": ""
                     }
@@ -145,6 +147,8 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 692,
+                                    "Height": 784,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_1_bis.jpg"
                                 }
