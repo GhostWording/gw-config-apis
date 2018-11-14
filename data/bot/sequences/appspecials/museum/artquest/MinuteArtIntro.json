@@ -1,0 +1,114 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello and welcome to Minute Art!",
+                "fr": "Bonjour et bienvenue dans Minute Art !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I will be your guide as we explore the world of art!",
+                "fr": "Je serai ton guide pour t'aider à explorer le monde de l'art !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I wonder… have you discovered my daily story yet?",
+                "fr": "Je me demande... as-tu déjà eu l'occasion de découvrir mon histoire quotidienne ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MinuteArtIntroYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! Remember… you’ll get one every day! Once you’re done, you can find it in my ‘your stories’ section if you ever want to hear it again! 😀",
+                        "fr": "Génial ! Rappelle-toi... tu en auras une par jour ! Une fois que tu l'as lue, tu peux la retrouver dans la section ‘mes histoires’ si tu veux l'entendre à nouveau ! 😀",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MinuteArtIntro2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MinuteArtIntroNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Aha! I’m glad I asked. Every day, I’ll prepare a story for you! You can find it here",
+                        "fr": "Aha ! Heureusement que j'ai demandé. Chaque jour, je concocterai une histoire pour toi ! Tu pourras la trouver ici",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 833,
+                        "Height": 705,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Once you’ve heard it, you’ll have to wait 24 hours for the next one! You can find stories you’ve already heard down here!",
+                        "fr": "Une fois que tu l'as entendue, tu dois attendre 24 heures pour la prochaine ! Tu peux trouver les histoires que tu as déjà lues ici !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 833,
+                        "Height": 705,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MinuteArtIntro2"
+            }
+        }
+    ]
+}
