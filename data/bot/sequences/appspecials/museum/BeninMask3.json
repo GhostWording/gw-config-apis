@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 600,
+                "Height": 600,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248289/Benin_Mask_1.jpg"
             }
