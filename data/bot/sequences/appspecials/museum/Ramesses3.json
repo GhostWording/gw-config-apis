@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 800,
+                "Height": 800,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_2_dim.jpg"
             }
@@ -44,6 +46,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 526,
+                        "Height": 342,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532533039/Ramses_II_4.jpg"
                     }
@@ -104,6 +108,8 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Width": 461,
+                                    "Height": 346,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1540548813/shelley_poem.jpg"
                                 }
