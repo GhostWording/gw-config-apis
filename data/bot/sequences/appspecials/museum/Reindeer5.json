@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 797,
+                "Height": 549,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811231/museum%20app/Mammoths.jpg"
             }
@@ -52,8 +54,17 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Width": 642,
+                        "Height": 572,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533811233/museum%20app/Whittling.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
