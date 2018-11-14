@@ -15,6 +15,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 627,
+                "Height": 336,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534330425/esigie_mask.jpg"
             }
