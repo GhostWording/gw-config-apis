@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "The boy survived, and later in his rule he put up many of these stones which announced, among other things, that he had become a god.",
-                "fr": "Le garçon a survécu, et plus tard pendant son règne, il a affiché plusieurs de ces pierres qui annonçaient, entre autres, qu'il était devenu un dieu. ",
+                "en": "The boy survived, and later in his rule he put up many of these stones, which may have looked something like this originally",
+                "fr": "Le garçon a survécu, et plus tard pendant son règne, il a érigé plusieurs de ces pierres qui devaient ressembler à ça à l'origine",
                 "es": "",
                 "zh": ""
             }
@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 389,
+                "Height": 568,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533731157/museum%20app/Rosetta_stone_full_replica_non_reusable.jpg"
             }
@@ -69,6 +71,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display":"FullScreenWidth",
+                        "Width": 744,
+                        "Height": 392,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Scripts.jpg"
                     }
