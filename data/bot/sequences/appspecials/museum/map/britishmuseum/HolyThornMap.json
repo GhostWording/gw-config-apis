@@ -1,0 +1,56 @@
+{
+    "Type": "Node",
+    "Id": "HolyThornMap",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Holy Thorn Reliquary is on the GROUND FLOOR (0)",
+                "fr": "Le Reliquaire de la Sainte Épine est au REZ-DE-CHAUSSEE (0)",
+                "es": "El Relicario de la Santa Espina está en la BAJA PLANTA (0)",
+                "zh": "The Holy Thorn Reliquary is on the GROUND FLOOR (0)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In room 2a",
+                "fr": "Dans la salle 2a",
+                "es": "En la sala 2a",
+                "zh": "In room 2a"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 704,
+                "Height": 599,
+                "Display": "FullScreenWidth",
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540376853/map_holythorn.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Come check it out!",
+                "fr": "Viens le voir !",
+                "es": "Come check it out!",
+                "zh": "Come check it out!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "CaryatidsMapExit",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Exit",
+            "fr": "Retour",
+            "es": "Volver",
+            "zh": "出口"
+          }
+        }
+    ]
+}
