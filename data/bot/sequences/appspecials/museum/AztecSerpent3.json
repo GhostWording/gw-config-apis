@@ -113,6 +113,13 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 1000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Unfortunately for Montezuma, Cortes massacred and enslaved most of the Aztecs anyway",
