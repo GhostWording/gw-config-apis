@@ -53,6 +53,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 674,
+                        "Height": 278,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533301690/Standard_of_Ur_3_chariots.jpg"
                     }
@@ -96,6 +98,8 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
+                                    "Width": 853,
+                                    "Height": 380,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533292548/Standard_of_Ur_4_trampling.jpg"
                                 }
@@ -183,6 +187,8 @@
                                                         "Type": "Image",
                                                         "Parameters": {
                                                             "Display": "FullScreenWidth",
+                                                            "Width": 547,
+                                                            "Height": 335,
                                                             "Source": "Web",
                                                             "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532537646/Standard_of_Ur_3.jpg"
                                                         }
