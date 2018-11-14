@@ -24,12 +24,14 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 1000
+                "ms": 2000
             }
         },
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 220,
+                "Height": 404,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Time_article_on_Rosetta.jpg"
             }
@@ -53,6 +55,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 600,
+                "Height": 414,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730820/museum%20app/Popular_Display_1.jpg"
             }
