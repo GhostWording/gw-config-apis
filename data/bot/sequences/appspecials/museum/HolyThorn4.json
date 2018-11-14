@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "who secretly made copies!",
-                "fr": "who secretly made copies!",
+                "fr": "Qui en a fait secrètement des copies !",
                 "es": "",
                 "zh": ""
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!",
-                "fr": "He then sent a copy back to the Austrian Royal Family, who never noticed his deception!",
+                "fr": "Il a ensuite renvoyé une copie à la famille royale autrichienne, qui n'a jamais remarqué la supercherie !",
                 "es": "",
                 "zh": ""
             }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What a villain!",
-                "fr": "What a villain!",
+                "fr": "Quel scélérat !",
                 "es": "",
                 "zh": ""
             },
@@ -37,7 +37,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The original was bought by a wealthy family, who had no idea that it was the real one!",
-                        "fr": "The original was bought by a wealthy family, who had no idea that it was the real one!",
+                        "fr": "L'original a été achété par une riche famille, qui ne savait pas qu'il s'agissait du vrai !",
                         "es": "",
                         "zh": ""
                     }
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’",
-                        "fr": "So, when they donated it to the British Museum in 1899, it was classed as ‘Spanish, 16th century’",
+                        "fr": "Ainsi, quand ils en firent don au British Museum en 1899, il fut classé dans la catégorie 'Espagnol du XVIe siècle'",
                         "es": "",
                         "zh": ""
                     }
@@ -55,7 +55,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It was only in 1959 that the deception was uncovered by a team of scholars!",
-                        "fr": "It was only in 1959 that the deception was uncovered by a team of scholars!",
+                        "fr": "Ce n'est qu'en 1959 qu'une équipe de chercheurs a mis au jour la supercherie !",
                         "es": "",
                         "zh": ""
                     }
@@ -72,28 +72,10 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Amazing!",
-                            "fr": "Amazing!",
+                            "fr": "Incroyable !",
                             "es": "",
                             "zh": ""
                         },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Right! You can find it in the British Museum, room 45!",
-                                    "fr": "Right! You can find it in the British Museum, room 45!",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533568592/Museum%20Bot/Holy_Thorn_6.jpg"
-                                }
-                            }
-                        ],
                         "LinksToFragment": {
                             "FragmentPath": "HolyThornFeedback"
                         }
