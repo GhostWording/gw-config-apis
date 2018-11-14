@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 420,
+                "Height": 240,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1532947946/AmenhotepIII_3.3.jpg"
             }
