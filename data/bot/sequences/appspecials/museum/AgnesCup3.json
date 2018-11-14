@@ -19,6 +19,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "They had had some bad relations recently, mainly as a result of John’s behaviour… This cup was a gift of apology",
