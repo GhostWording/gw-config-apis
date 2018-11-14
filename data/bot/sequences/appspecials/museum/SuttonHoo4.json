@@ -5,6 +5,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 273,
+                "Height": 261,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731610/Sutton_Hoo_4.jpg"
             }
@@ -19,8 +21,17 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
+                "Width": 1100,
+                "Height": 753,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_5.jpg"
             }
