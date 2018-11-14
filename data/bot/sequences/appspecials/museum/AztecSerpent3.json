@@ -14,6 +14,8 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Width": 721,
+                "Height": 576,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533651744/4oyster_shell2.jpg"
             }
@@ -52,6 +54,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Width": 720,
+                        "Height": 676,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533641698/5conch_shell.jpg"
                     }
@@ -108,6 +112,8 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Width": 1137,
+                                    "Height": 857,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533643524/6location2.jpg"
                                 }
