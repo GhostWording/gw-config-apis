@@ -15,6 +15,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 750,
+                "Height": 855,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
             }
@@ -23,7 +25,7 @@
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 4000
+                "ms": 3000
             }
         },
         {
@@ -60,15 +62,15 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
-                        "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
+                        "en": "Alright!",
+                        "fr": "D'accord !",
                         "es": "",
                         "zh": ""
                     }
                 }
             ],
             "LinksToFragment": {
-                "FragmentPath": "BerlinVoluteFeedback"
+                "FragmentPath": "Exit"
             }
         },
         {
@@ -95,6 +97,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 750,
+                        "Height": 550,
                         "Source": "Web",
                         "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
                     }
@@ -103,7 +107,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 2000
+                        "ms": 1000
                     }
                 },
                 {
@@ -170,8 +174,8 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
-                                                "fr": "D'accord ! Viens le voir au British Museum, il est MAGNIFIQUE !",
+                                                "en": "Alright!",
+                                                "fr": "D'accord !",
                                                 "es": "",
                                                 "zh": ""
                                             }
@@ -214,12 +218,14 @@
                                             "Type": "Pause",
                                             "Parameters": {
                                                 "Mode": "Wait",
-                                                "ms": 2000
+                                                "ms": 1000
                                             }
                                         },
                                         {
                                             "Type": "Image",
                                             "Parameters": {
+                                                "Width": 700,
+                                                "Height": 790,
                                                 "Source": "Web",
                                                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
                                             }
@@ -231,6 +237,13 @@
                                                 "fr": "En peignant moins, il invite le spectateur à apprécier de plus près ce qu'il a effectivement peint !",
                                                 "es": "",
                                                 "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 1000
                                             }
                                         },
                                         {
@@ -290,6 +303,8 @@
                                                         "Type": "Image",
                                                         "Parameters": {
                                                             "Display": "FullScreenWidth",
+                                                            "Width": 750,
+                                                            "Height": 535,
                                                             "Source": "Web",
                                                             "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
                                                         }
@@ -298,7 +313,7 @@
                                                         "Type": "Pause",
                                                         "Parameters": {
                                                             "Mode": "Wait",
-                                                            "ms": 4000
+                                                            "ms": 2000
                                                         }
                                                     },
                                                     {
@@ -314,6 +329,8 @@
                                                         "Type": "Image",
                                                         "Parameters": {
                                                             "Display": "FullScreenWidth",
+                                                            "Width": 750,
+                                                            "Height": 820,
                                                             "Source": "Web",
                                                             "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
                                                         }
@@ -330,15 +347,6 @@
                                                         "Label": {
                                                             "en": "He makes it sad to try and get the party-goers talking and debating (Greeks LOVED debating, especially when drunk)",
                                                             "fr": "Il rend la scène triste pour faire en sorte que les participants à la fête en parlent et débattent (les Grecs ADORENT débattre, surtout lorsqu'ils sont ivres)",
-                                                            "es": "",
-                                                            "zh": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type": "Text",
-                                                        "Label": {
-                                                            "en": "If you want to know more, go check it out in the British Museum! It is GORGEOUS",
-                                                            "fr": "Si tu veux en savoir plus, viens le voir au British Museum ! Il est MAGNIFIQUE !",
                                                             "es": "",
                                                             "zh": ""
                                                         }
