@@ -61,18 +61,20 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Display":"FullScreenWidth",
+                        "Display": "FullScreenWidth",
+                        "Width": 800,
+                        "Height": 499,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533730819/museum%20app/Battle_of_the_Nile.jpg"
                     }
                 },
-                                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 1000
-                                }
-                            },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
+                    }
+                },
                 {
                     "Type": "Text",
                     "Label": {
@@ -108,7 +110,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Typical French",
-                            "fr": "Tentative désespérée !",
+                            "fr": "Typiquement français",
                             "es": "",
                             "zh": ""
                         },
