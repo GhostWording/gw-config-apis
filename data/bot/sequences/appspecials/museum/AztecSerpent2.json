@@ -74,6 +74,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "It’s weird that this tree is called this… since it’s native to Central and South America!",
