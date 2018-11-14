@@ -24,6 +24,8 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 228,
+                "Height": 188,
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533662570/Museum%20Bot/Benin_Mask_5.jpg"
             }
@@ -62,7 +64,9 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Width": 600,
+                        "Height": 398,
+                        "Source": "Web",                  
                         "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533652233/Museum%20Bot/Benin_Mask_4.jpg"
                     }
                 },
@@ -106,15 +110,6 @@
                                 "Label": {
                                     "en": "No problem!",
                                     "fr": "Aucun problème !",
-                                    "es": "",
-                                    "zh": ""
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Come see the mask in the museum - it’s in room 25, also known as the Sainsbury Galleries, on floor -2!",
-                                    "fr": "Viens voir le masque - il est dans la salle 25 du musée, aussi connue comme les Sainsbury Galleries, à l'étage -2 !",
                                     "es": "",
                                     "zh": ""
                                 }
