@@ -15,8 +15,17 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
+                "Width": 750,
+                "Height": 868,
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304587/museum%20app/Head_of_Hadrian_BM.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 1000
             }
         },
         {
@@ -63,6 +72,8 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
+                        "Width": 330,
+                        "Height": 261,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304580/museum%20app/Hadrians-beard.jpg"
                     }
@@ -114,8 +125,17 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
+                                    "Width": 777,
+                                    "Height": 943,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540915965/augustus.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 1000
                                 }
                             },
                             {
