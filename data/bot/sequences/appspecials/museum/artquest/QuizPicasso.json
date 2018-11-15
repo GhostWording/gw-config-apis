@@ -1,0 +1,152 @@
+{
+    "Type": "Node",
+    "Id": "QuizPicasso",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Time for another quiz question!",
+                "fr": "Il est l'heure pour une autre question quiz !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Which of these paintings is NOT by Pablo Picasso?",
+                "fr": "Lequel de ces tableaux n'est PAS de Pablo Picasso ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "QuizPicassoGuernica",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Guernica",
+                "fr": "Guernica",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542277865/PicassoGuernica.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it was Red Eiffel Tower, by Robert Delaunay !",
+                        "fr": "Faux, c'était La Tour Eiffel rouge, de Robert Delaunay !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizPicassoAvignon",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Les Demoiselles d'Avignon",
+                "fr": "Les Demoiselles d'Avignon",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542278094/demoiselles_d_avignon.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it was Red Eiffel Tower, by Robert Delaunay !",
+                        "fr": "Faux, c'était La Tour Eiffel rouge, de Robert Delaunay !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizPicassoScience",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Science and Charity",
+                "fr": "Science et Charité",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542278275/science_charity.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it was Red Eiffel Tower, by Robert Delaunay !",
+                        "fr": "Faux, c'était La Tour Eiffel rouge, de Robert Delaunay !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizPicassoEiffel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Red Eiffel Tower",
+                "fr": "La Tour Eiffel rouge",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542278395/red_eiffel_tower.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct, well done!",
+                        "fr": "Exact, bien joué !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
