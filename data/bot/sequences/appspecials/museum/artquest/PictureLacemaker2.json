@@ -1,0 +1,34 @@
+{
+    "Type": "Leaf",
+    "Id": "PictureLacemaker2",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1596,
+                "Height": 1830,
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/The_Lacemaker_Large.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s The Lacemaker by Johannes Vermeer! I’ve got a great story all about it… if you keep coming back, you’ll be able to hear it!",
+                "fr": "Il s'agit de La Dentellière de Johannes Vermeer ! J'ai une super histoire sur cette œuvre... Si tu continues à revenir tous les jours, tu pourras l'entendre !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Meanwhile, come check it out in the gallery...",
+                "fr": "En attendant, tu peux l'observer plus en détails dans la galerie...",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ]
+}
