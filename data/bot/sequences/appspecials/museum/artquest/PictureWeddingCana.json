@@ -1,0 +1,89 @@
+{
+    "Type": "Node",
+    "Id": "PictureWeddingCana",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let me give you a teaser for a story you might see in the next few days…",
+                "fr": "Laisse-moi te donner un aperçu d'une histoire que tu pourrais avoir dans les prochains jours...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It concerns the largest painting in the Louvre - Veronese’s Wedding at Cana!",
+                "fr": "Il s'agit du plus grand tableau du Louvre - Les Noces de Cana, de Véronèse !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 2107,
+                "Height": 1432,
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/WeddingCana_Half_60.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "PictureWeddingCanaHeard",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Heard it already!",
+                "fr": "Je l'ai déjà entendue !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh no! I’m sorry… my memory is terrible. Let’s move swiftly on!",
+                        "fr": "Oh mince ! Désolé, j'ai une très mauvaise mémoire. Passons alors !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "PictureWeddingCanaExcited",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I’m excited!",
+                "fr": "J'ai hâte !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You should be! It shows Jesus’ first public miracle… when he turned water into wine!",
+                        "fr": "Tu fais bien ! Le tableau représente le premier miracle public de Jésus, quand il change l'eau en vin !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In my story, I’ll tell you all about when it was made, why it was made, and why it looks like it does! I hope you’re lucky enough to hear it! 😀",
+                        "fr": "Dans mon histoire, je te raconterai tout ce qu'il y a à savoir sur le pourquoi du comment il été réalisé ! J'espère que tu auras la chance de l'entendre ! 😀",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
