@@ -1,0 +1,43 @@
+{
+    "Type": "Leaf",
+    "Id": "PictureBotticelli",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I’m in a good mood right now… not sure why! So… have an Italian painting!",
+                "fr": "Je suis de bonne humeur aujourd'hui, je ne sais pas trop pourquoi ! Tiens, profite d'un tableau italien",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 640,
+                "Height": 410,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542280043/Minute%20Art/Full%20Pictures/Botticelli_-_The_Birth_of_Venus_1485.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s The Birth of Venus, by Sandor Botticelli",
+                "fr": "Il sagit de La Naissance de Vénus, de Sandro Botticelli",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Zoom in and appreciate all the lovely details!",
+                "fr": "Tu peux zoomer pour apprécier tous les détails !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ]
+}
