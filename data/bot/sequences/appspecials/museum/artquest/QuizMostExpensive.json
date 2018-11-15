@@ -25,7 +25,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizMostExpensiveScream",
             "ElementValue": "1",
             "CommandLabel": {
@@ -68,7 +68,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizMostExpensiveCard",
             "ElementValue": "1",
             "CommandLabel": {
@@ -111,7 +111,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizMostExpensiveSalvator",
             "ElementValue": "1",
             "CommandLabel": {
