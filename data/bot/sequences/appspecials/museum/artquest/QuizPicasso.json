@@ -25,7 +25,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizPicassoGuernica",
             "ElementValue": "1",
             "CommandLabel": {
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizPicassoAvignon",
             "ElementValue": "1",
             "CommandLabel": {
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizPicassoScience",
             "ElementValue": "1",
             "CommandLabel": {
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizPicassoEiffel",
             "ElementValue": "1",
             "CommandLabel": {
