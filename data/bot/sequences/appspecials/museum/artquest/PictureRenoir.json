@@ -1,0 +1,81 @@
+{
+    "Type": "Node",
+    "Id": "PictureRenoir",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s time to go French! Check out this beauty from Renoir…",
+                "fr": "Il est temps de se tourner vers la France ! Regarde ce trésor de Renoir...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1430,
+                "Height": 1065,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542280059/Minute%20Art/Full%20Pictures/Renoir_-_Le_Moulin_de_la_Galette_1876.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s the Bal du moulin de la Galette",
+                "fr": "Il sagit du Bal du moulin de la Galette",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "PictureRenoirMasterpiece",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A masterpiece!",
+                "fr": "Un chef d'œuvre",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! He was a true genius… I have to think of a story all about it… stay tuned! 😀",
+                        "fr": "En effet ! C'était un vrai génie... Je devrais réfléchir à une histoire à propos de ce tableau... Reste connecté(e) 😀",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "PictureRenoirBasic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Pretty basic",
+                "fr": "Plutôt classique",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK, I think I’m learning your taste",
+                        "fr": "D'accord, je pense que je commence à comprendre tes goûts",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
