@@ -1,0 +1,90 @@
+{
+    "Type": "Node",
+    "Id": "PictureWanderer",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now, let me show you one of my favourite paintings! ",
+                "fr": "Maintenant, laisse-moi te montrer l'un de mes tableaux préférés !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1280,
+                "Height": 1639,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542280052/Minute%20Art/Full%20Pictures/Friedrich_-_Wanderer_above_the_sea_of_fog_1818.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s the Wanderer above the Sea of Fog, by Caspar David Friedrich",
+                "fr": "C'est Le Voyageur contemplant une mer de nuages, de Caspar David Friedrich",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Beautiful, right? Make sure to zoom in to see it in all its glory…",
+                "fr": "Magnifique, non ? N'oublie pas de zoomer l'image pour l'observer dans toute sa splendeur...",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "PictureWandererAmazing",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Amazing",
+                "fr": "Incroyable",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! Maybe one day you’ll be lucky enough to see it in your daily story 😉",
+                        "fr": "En effet ! Peut-être qu'un jour tu auras la chance de le voir apparaître dans ton histoire quotidienne 😉",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "PictureWandererNot",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not my thing",
+                "fr": "Pas mon truc",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! Next one will be better!",
+                        "fr": "D'accord ! Le prochain tableau sera mieux !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
