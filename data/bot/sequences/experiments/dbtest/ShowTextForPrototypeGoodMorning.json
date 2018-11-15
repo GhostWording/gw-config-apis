@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Id": "ShowTextForPrototypeGoodMorning",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowTextForPrototype",
+      "Comment": "Say good morning",
+      "Parameters": {
+        "PrototypeId": "63B92D"
+      }
+    }
+  ]
+}
