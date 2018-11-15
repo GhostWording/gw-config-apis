@@ -1,0 +1,84 @@
+{
+    "Type": "Node",
+    "Id": "Feedback",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Can I ask you something important… what have you been enjoying most about the app?",
+                "fr": "Je dois te demander quelque chose d'important : qu'est-ce que tu aimes le plus dans l'app ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "FeedbackGallery",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Gallery",
+                "fr": "La galerie",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks! It’s so useful to know what you like! It helps me improve!",
+                        "fr": "Merci ! C'est très utile de savoir ce qui te plaît ! Ça m'aide à m'améliorer !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "FeedbackStory",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Daily story",
+                "fr": "L'histoire quotidienne'",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks! It’s so useful to know what you like! It helps me improve!",
+                        "fr": "Merci ! C'est très utile de savoir ce qui te plaît ! Ça m'aide à m'améliorer !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "FeedbackMe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Talking to me",
+                "fr": "Me parler",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks! It’s so useful to know what you like! It helps me improve!",
+                        "fr": "Merci ! C'est très utile de savoir ce qui te plaît ! Ça m'aide à m'améliorer !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
