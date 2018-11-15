@@ -1,0 +1,90 @@
+{
+    "Type": "Node",
+    "Id": "PictureShipwreck",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have a look at this! ",
+                "fr": "Jette un coup d'œil à ce tableau !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1280,
+                "Height": 889,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542280041/Minute%20Art/Full%20Pictures/Vernet_-_The_Shipwreck_1772.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s The Shipwreck, by Claude Joseph Vernet",
+                "fr": "Il sagit du tableau Le Naufrage, de Claude Joseph Vernet",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s a real favourite of mine! Feel free to zoom in and study all the details…",
+                "fr": "C'est l'un de mes préférés ! N'hésite pas à zoomer pour voir tous les détails...",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "PictureShipwreckLove",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I love it",
+                "fr": "J'adore",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In that case, I had better start thinking of a story for it! Stay tuned!",
+                        "fr": "Dans ce cas, je ferais mieux de commencer à réfléchir à une histoire ! Reste connecté(e) !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "PictureShipwreckNot",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not a fan",
+                "fr": "Pas fan",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In that case, I had better start thinking of a story for it! Stay tuned!",
+                        "fr": "Dans ce cas, je ferais mieux de commencer à réfléchir à une histoire ! Reste connecté(e) !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
