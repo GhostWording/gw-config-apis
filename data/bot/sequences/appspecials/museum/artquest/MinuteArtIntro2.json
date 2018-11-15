@@ -3,7 +3,7 @@
     "Id": "MinuteArtIntro2",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "MinuteArtIntroYes",
             "ElementValue": "1",
             "CommandLabel": {
