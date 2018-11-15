@@ -14,7 +14,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "PictureLacemakerYes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -39,7 +39,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "PictureLacemakerNo",
             "ElementValue": "1",
             "CommandLabel": {
