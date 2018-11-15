@@ -42,7 +42,7 @@
                 "Randomize": "true",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "RatingGreatSure",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -53,7 +53,7 @@
                         }
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "RatingGreatNo",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -67,7 +67,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "RatingOk",
             "ElementValue": "1",
             "CommandLabel": {
