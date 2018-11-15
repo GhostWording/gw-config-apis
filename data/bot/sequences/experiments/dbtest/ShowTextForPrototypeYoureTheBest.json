@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Id": "ShowTextForPrototypeYoureTheBest",
+  "Steps": [
+      {
+          "Type": "Action",
+          "Name": "ShowTextForPrototype",
+          "Comment": "Say you're the best",
+          "Parameters": {
+              "PrototypeId": "587DD3"
+          }
+      }
+  ]
+}
