@@ -25,7 +25,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizLargestMuseumMet",
             "ElementValue": "1",
             "CommandLabel": {
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizLargestMuseumLouvre",
             "ElementValue": "1",
             "CommandLabel": {
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizLargestMuseumBritish",
             "ElementValue": "1",
             "CommandLabel": {
@@ -145,7 +145,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "QuizLargestMuseumChina",
             "ElementValue": "1",
             "CommandLabel": {
