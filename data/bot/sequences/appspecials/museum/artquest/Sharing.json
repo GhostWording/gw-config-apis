@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "Sharing",
+    "Id": "MinuteArtSharing",
     "Steps": [
         {
             "Type": "Text",
@@ -16,7 +16,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "SharingYes",
+            "Id": "MinuteArtSharingYes",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yeah!",
@@ -37,7 +37,7 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "SharingYesStep",
+                "Id": "MinuteArtSharingYesStep",
                 "ElementValue": "1",
                 "Randomize": "true",
                 "Commands": [
@@ -68,7 +68,7 @@
         },
         {
             "Type": "Node",
-            "Id": "SharingNo",
+            "Id": "MinuteArtSharingNo",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not really!",
@@ -89,7 +89,7 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "SharingNoStep",
+                "Id": "MinuteArtSharingNoStep",
                 "ElementValue": "1",
                 "Randomize": "true",
                 "Commands": [
