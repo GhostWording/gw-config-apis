@@ -1,0 +1,157 @@
+{
+    "Type": "Node",
+    "Id": "QuizMostExpensive",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Quiz time! 🧐",
+                "fr": "C'est l'heure du quiz ! 🧐",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What is the most expensive painting ever sold?",
+                "fr": "Quelle est le tableau le plus cher jamais vendu ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "QuizMostExpensiveScream",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Scream",
+                "fr": "Le Cri",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "by Edvard Munch",
+                    "fr": "d'Evard Munch",
+                    "es": "",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542275778/the_scream_cut.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it was Salvator Mundi !",
+                        "fr": "Faux, c'était Salvator Mundi !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was sold for $450.3 million! That’s about the same as the GDP of Thailand 😂",
+                        "fr": "Il a été vendu pour 450,3 millions de dollars ! Ça représente à peu près le PIB de la Thaïlande 😂",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizMostExpensiveCard",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Card Players",
+                "fr": "Les Joueurs de cartes",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "by Paul Cézanne",
+                    "fr": "de Paul Cézanne",
+                    "es": "",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542276565/card_players.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it was Salvator Mundi !",
+                        "fr": "Faux, c'était Salvator Mundi !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was sold for $450.3 million! That’s about the same as the GDP of Thailand 😂",
+                        "fr": "Il a été vendu pour 450,3 millions de dollars ! Ça représente à peu près le PIB de la Thaïlande 😂",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizMostExpensiveSalvator",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Salvator Mundi",
+                "fr": "Salvator Mundi",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "by Leonardo da Vinci",
+                    "fr": "de Léonard de Vinci",
+                    "es": "",
+                    "zh": ""
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542276910/salvator_mundi2.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct!",
+                        "fr": "Exact !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was sold for $450.3 million! That’s about the same as the GDP of Thailand 😂",
+                        "fr": "Il a été vendu pour 450,3 millions de dollars ! Ça représente à peu près le PIB de la Thaïlande 😂",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
