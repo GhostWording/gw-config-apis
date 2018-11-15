@@ -1,0 +1,122 @@
+{
+    "Type": "Node",
+    "Id": "Sharing",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A question for you! Are your friends fans of art?",
+                "fr": "J'ai une question pour toi : est-ce que tes amis sont férus d'art ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SharingYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Oui !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! Do them a favour and share this app with them! I’d love to make more friends 😀",
+                        "fr": "Super ! Tu pourrais leur rendre service en partageant cette app avec eux ! J'adorerais me faire de nouveaux amis 😀",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SharingYesStep",
+                "ElementValue": "1",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "SharingYesOk",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "OK!",
+                            "fr": "D'accord !",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "SharingYesNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not right now",
+                            "fr": "Pas maintenant",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SharingNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really!",
+                "fr": "Pas vraiment !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I know how to fix that! Share my app with them! I’ll turn them into art lovers in no time!",
+                        "fr": "Je sais comment changer ça ! Partage mon application avec eux ! Ils deviendront des amateurs d'art en un rien de temps !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SharingNoStep",
+                "ElementValue": "1",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "SharingNoOk",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "OK! 😀",
+                            "fr": "D'accord ! 😀",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "SharingnoNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not right now",
+                            "fr": "Pas maintenant",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
