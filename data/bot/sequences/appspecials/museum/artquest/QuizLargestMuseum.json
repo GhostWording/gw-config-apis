@@ -1,0 +1,188 @@
+{
+    "Type": "Node",
+    "Id": "QuizLargestMuseum",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I feel like asking you a quiz question! 🧐",
+                "fr": "J'ai envie de te poser une question de culture gé ! 🧐",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What is the largest museum in the world, by number of yearly visitors?",
+                "fr": "Quel est le plus grand musée au monde, en termes de nombre de visiteurs annuels ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "QuizLargestMuseumMet",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Met",
+                "fr": "Le Met",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542279647/met.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it’s the Louvre!",
+                        "fr": "Faux, c'est le Louvre !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It attracts over 9 million visitors a year… that’s about 25,000 every day!",
+                        "fr": "Il attire près de 9 millions de visiteurs par an... Ça correspnd environ à 25 000 par jour !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizLargestMuseumLouvre",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The Louvre",
+                "fr": "Le Louvre",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542279576/louvre_quiz.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct!",
+                        "fr": "Exact !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It attracts over 9 million visitors a year… that’s about 25,000 every day!",
+                        "fr": "Il attire près de 9 millions de visiteurs par an... Ça correspnd environ à 25 000 par jour !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizLargestMuseumBritish",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The British Museum",
+                "fr": "Le British Museum",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542279759/british.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it’s the Louvre!",
+                        "fr": "Faux, c'est le Louvre !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It attracts over 9 million visitors a year… that’s about 25,000 every day!",
+                        "fr": "Il attire près de 9 millions de visiteurs par an... Ça correspnd environ à 25 000 par jour !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "QuizLargestMuseumChina",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "National Museum of China",
+                "fr": "Le Musée National de Chine",
+                "es": "",
+                "zh": ""
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542279728/museum_china.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wrong, it’s the Louvre!",
+                        "fr": "Faux, c'est le Louvre !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It attracts over 9 million visitors a year… that’s about 25,000 every day!",
+                        "fr": "Il attire près de 9 millions de visiteurs par an... Ça correspnd environ à 25 000 par jour !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
