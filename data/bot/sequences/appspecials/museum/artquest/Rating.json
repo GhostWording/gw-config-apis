@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "Rating",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi there! Can I ask a quick question - how have you been finding the app so far?",
+                "fr": "Salut ! J'aimerais te poser une petite question : comment trouves-tu l'app jusqu'à présent ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RatingGreat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It’s great!",
+                "fr": "C'est génial !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wow, I’m thrilled! In that case, would you mind leaving a review? It would really help me out!",
+                        "fr": "Wow, je suis ravi ! Dans ce cas, voudrais-tu laisser un avis? Ça me renderait grandement service !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RatingGreatStep",
+                "ElementValue": "1",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "RatingGreatSure",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sure",
+                            "fr": "Avec plaisir",
+                            "es": "",
+                            "zh": ""
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "RatingGreatNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not now",
+                            "fr": "Pas maintenant",
+                            "es": "",
+                            "zh": ""
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "RatingOk",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It’s OK!",
+                "fr": "C'est pas mal !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks! I’m working hard to improve… one day, I’m sure you’ll give me a “Great” 😀",
+                        "fr": "Merci ! Je travaille dur pour m'améliorer... Un jour, je suis sûr que tu me donneras un « Génial » 😀",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
