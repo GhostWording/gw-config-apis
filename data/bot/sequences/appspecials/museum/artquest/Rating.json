@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "Rating",
+    "Id": "MinuteArtRating",
     "Steps": [
         {
             "Type": "Text",
@@ -16,7 +16,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "RatingGreat",
+            "Id": "MinuteArtRatingGreat",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "It’s great!",
@@ -37,7 +37,7 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "RatingGreatStep",
+                "Id": "MinuteArtRatingGreatStep",
                 "ElementValue": "1",
                 "Randomize": "true",
                 "Commands": [
@@ -68,7 +68,7 @@
         },
         {
             "Type": "Leaf",
-            "Id": "RatingOk",
+            "Id": "MinuteArtRatingOk",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "It’s OK!",
