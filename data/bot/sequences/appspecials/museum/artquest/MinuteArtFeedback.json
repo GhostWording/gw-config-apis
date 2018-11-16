@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "Feedback",
+    "Id": "MinuteArtFeedback",
     "Steps": [
         {
             "Type": "Text",
@@ -16,7 +16,7 @@
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "FeedbackGallery",
+            "Id": "MinuteArtFeedbackGallery",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Gallery",
@@ -38,7 +38,7 @@
         },
         {
             "Type": "Leaf",
-            "Id": "FeedbackStory",
+            "Id": "MinuteArtFeedbackStory",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Daily story",
@@ -60,7 +60,7 @@
         },
         {
             "Type": "Leaf",
-            "Id": "FeedbackMe",
+            "Id": "MinuteArtFeedbackMe",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Talking to me",
