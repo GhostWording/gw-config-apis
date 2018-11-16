@@ -1,0 +1,80 @@
+{
+    "Type": "Node",
+    "Id": "ModernClassic",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you generally prefer?",
+                "fr": "Qu'est-ce que tu préfères ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ModernClassicModern",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Modern Art",
+                "fr": "L'Art Moderne",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 640,
+                        "Height": 384,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542365719/modern-art.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ModernClassicClassic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Classic Art",
+                "fr": "L'Art Classique",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 1162,
+                        "Height": 900,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542365549/classic.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
