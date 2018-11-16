@@ -1,0 +1,60 @@
+{
+  "Type": "Node",
+  "Id": "AudioGuideUse",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I was wondering, do you usually use an audio-guide when you visit a museum?",
+        "fr": "Je me demandais, utilises-tu généralement un audio-guide quand tu visites un musée?",
+        "es": "Me preguntaba ... ¿usualmente usas una audioguía cuando visitas un museo?",
+        "zh":
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type":  "Leaf",
+      "Id": "AudioGuideUseYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí",
+        "zh":
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AudioGuideUseNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No",
+        "zh":
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
