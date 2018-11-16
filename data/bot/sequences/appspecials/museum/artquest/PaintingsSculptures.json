@@ -1,28 +1,4 @@
 {
-  "Type": "Node",
-  "Id": "PaintingsSculptures",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Do you prefer paintings or sculptures?",
-        "fr": "Est-ce que tu préfères les peintures ou les scupltures ?",
-        "es": "",
-        "zh": ""
-      }
-    }
-  ],
-  "Randomize": "true",
-  "Commands": [
-    {
-      "Type":  "Leaf",
-      "Id": "PaintingsSculpturesPaint",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Paintings 🖼",
-        "fr": "Les peintures 🖼",
-        "es": "",
-        "zh": ""{
     "Type": "Node",
     "Id": "PaintingsSculptures",
     "Steps": [
@@ -95,39 +71,4 @@
             ]
         }
     ]
-}
-      },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "PaintingsSculpturesSculpt",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Sculptures 🗿",
-        "fr": "Les sculptures 🗿",
-        "es": "",
-        "zh": ""
-      },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        }
-      ]
-    }
-  ]
 }
