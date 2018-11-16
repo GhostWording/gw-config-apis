@@ -1,0 +1,60 @@
+{
+    "Type": "Node",
+    "Id": "GoMuseum",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you go to museums often?",
+                "fr": "Est-ce que tu vas souvent au musée ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "GoMuseumYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "GoMuseumNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ]
+        }
+    ]
+}
