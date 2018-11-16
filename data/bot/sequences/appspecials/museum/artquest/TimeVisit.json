@@ -1,0 +1,102 @@
+{
+    "Type": "Node",
+    "Id": "TimeVisit",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How long do you usually spend in a museum / gallery?",
+                "fr": "Combien de temps passes-tu dans un musée ou une galerie en moyenne ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "TimeVisit1h",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "1 hour",
+                "fr": "1 heure",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5HoARsGLKnp7y"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TimeVisit2h",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "2 hours",
+                "fr": "2 heures",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5HoARsGLKnp7y"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TimeVisitMore2h",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "More than 2 hours",
+                "fr": "Plus de 2 heures",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5HoARsGLKnp7y"
+                    }
+                }
+            ]
+        }
+    ]
+}
