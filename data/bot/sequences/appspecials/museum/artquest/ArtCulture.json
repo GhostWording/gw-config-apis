@@ -1,0 +1,60 @@
+{
+    "Type": "Node",
+    "Id": "ArtCulture",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are you interested in the art of different cultures? Or more your own?",
+                "fr": "Est-ce que tu es intéressé par l'art venant d'autres cultures ? Ou plutôt de la tienne ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ArtCultureDiff",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Different",
+                "fr": "D'autres",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ArtCultureOwn",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My own",
+                "fr": "De la mienne",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ]
+        }
+    ]
+}
