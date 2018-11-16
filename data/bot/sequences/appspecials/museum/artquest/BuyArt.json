@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Id": "BuyArt",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you ever buy art?",
+                "fr": "Est-ce que tu as déjà acheté des œuvres d'art ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "BuyArtYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3oFzmqENRBkRTRfLcA"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "BuyArtNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "8gjWMXlOrfUik0NvR2"
+                    }
+                }
+            ]
+        }
+    ]
+}
