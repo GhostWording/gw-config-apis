@@ -1,5 +1,51 @@
 [
     {
+        "Id": "ArcDeTriomphe",
+        "Caption": {
+            "en": "Arc de Triomphe",
+            "fr": "Arc de Triomphe",
+            "es": "Arc de Triomphe",
+            "zh": "Arc de Triomphe"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "ArcDeTriomphe",
+        "Location": {
+            "Latitude": "48.8737793",
+            "Longitude": "2.2950155999999424"
+        },
+        "Arrondissement": "8e arrondissement"
+    },
+    {
+        "Id": "BonMarche",
+        "Caption": {
+            "en": "Le Bon Marché",
+            "fr": "Le Bon Marché",
+            "es": "Le Bon Marché",
+            "zh": "Le Bon Marché"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "BonMarche",
+        "Location": {
+            "Latitude": "48.8511354",
+            "Longitude": "2.324364800000012"
+        },
+        "Arrondissement": "7e arrondissement"
+    },
+    {
         "Id": "BoulevardHaussmann",
         "Caption": {
             "en": "Boulevard Haussmann",
@@ -15,7 +61,7 @@
             "Type": "Web",
             "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
         },
-        "SequenceId": "MuseumIntro",
+        "SequenceId": "BoulevardHaussmann",
         "Location": {
             "Latitude": "51.5200574",
             "Longitude": "-0.09379460000002382"
@@ -23,27 +69,257 @@
         "Arrondissement": "8e & 9e arrondissements"
     },
     {
-        "Id": "LesHalles",
+        "Id": "ButteAuxCailles",
         "Caption": {
-            "en": "Les Halles",
-            "fr": "Les Halles",
-            "es": "Les Halles",
-            "zh": "Les Halles"
+            "en": "La Butte-aux-Cailles",
+            "fr": "La Butte-aux-Cailles",
+            "es": "La Butte-aux-Cailles",
+            "zh": "La Butte-aux-Cailles"
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
         },
-        "SequenceId": "MuseumIntro",
+        "SequenceId": "ButteAuxCailles",
         "Location": {
-            "Latitude": "51.5196152",
-            "Longitude": "-0.08830000000000382"
+            "Latitude": "48.8277784",
+            "Longitude": "2.3502415000000383"
+        },
+        "Arrondissement": "13e arrondissement"
+    },
+    {
+        "Id": "ButtesChaumont",
+        "Caption": {
+            "en": "Les Buttes Chaumont",
+            "fr": "Les Buttes Chaumont",
+            "es": "Les Buttes Chaumont",
+            "zh": "Les Buttes Chaumont"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "ButtesChaumont",
+        "Location": {
+            "Latitude": "48.8754076",
+            "Longitude": "2.382351500000027"
+        },
+        "Arrondissement": "19e arrondissement"
+    },
+    {
+        "Id": "Catacombes",
+        "Caption": {
+            "en": "Catacombs of Paris",
+            "fr": "Les Catacombes de Paris",
+            "es": "Les Catacombes de Paris",
+            "zh": "Les Catacombes de Paris"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Catacombes",
+        "Location": {
+            "Latitude": "48.8338325",
+            "Longitude": "2.3324221999999963"
+        },
+        "Arrondissement": "14e arrondissement"
+    },
+    {
+        "Id": "Conciergerie",
+        "Caption": {
+            "en": "La Conciergerie",
+            "fr": "La Conciergerie",
+            "es": "La Conciergerie",
+            "zh": "La Conciergerie"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Conciergerie",
+        "Location": {
+            "Latitude": "48.85601139999999",
+            "Longitude": "2.3454953000000387"
         },
         "Arrondissement": "1er arrondissement"
+    },
+    {
+        "Id": "Elysee",
+        "Caption": {
+            "en": "Le Palais de l'Elysée",
+            "fr": "Le Palais de l'Elysée",
+            "es": "Le Palais de l'Elysée",
+            "zh": "Le Palais de l'Elysée"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Elysee",
+        "Location": {
+            "Latitude": "48.8704156",
+            "Longitude": "2.3167538999999806"
+        },
+        "Arrondissement": "8e arrondissement"
+    },
+    {
+        "Id": "FontaineInnocents",
+        "Caption": {
+            "en": "La Fontaine des Innocents",
+            "fr": "La Fontaine des Innocents",
+            "es": "La Fontaine des Innocents",
+            "zh": "La Fontaine des Innocents"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "FontaineInnocents",
+        "Location": {
+            "Latitude": "48.860647",
+            "Longitude": "2.348032699999976"
+        },
+        "Arrondissement": "1er arrondissement"
+    },
+    {
+        "Id": "GrandPalais",
+        "Caption": {
+            "en": "Le Grand Palais",
+            "fr": "Le Grand Palais",
+            "es": "Le Grand Palais",
+            "zh": "Le Grand Palais"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "GrandPalais",
+        "Location": {
+            "Latitude": "48.86610909999999",
+            "Longitude": "2.3124543999999787"
+        },
+        "Arrondissement": "8e arrondissement"
+    },
+    {
+        "Id": "HotelDeVille",
+        "Caption": {
+            "en": "L'Hôtel de Ville",
+            "fr": "L'Hôtel de Ville",
+            "es": "L'Hôtel de Ville",
+            "zh": "L'Hôtel de Ville"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "HotelDeVille",
+        "Location": {
+            "Latitude": "48.8564826",
+            "Longitude": "2.3524135000000115"
+        },
+        "Arrondissement": "4e arrondissement"
+    },
+    {
+        "Id": "IleDeLaCite",
+        "Caption": {
+            "en": "L'Ile de la Cité",
+            "fr": "L'Ile de la Cité",
+            "es": "L'Ile de la Cité",
+            "zh": "L'Ile de la Cité"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "IleDeLaCite",
+        "Location": {
+            "Latitude": "48.8548825",
+            "Longitude": "2.3474928000000546"
+        },
+        "Arrondissement": "1er & 4e arrondissements"
+    },
+    {
+        "Id": "Invalides",
+        "Caption": {
+            "en": "Les Invalides",
+            "fr": "Les Invalides",
+            "es": "Les Invalides",
+            "zh": "Les Invalides"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Invalides",
+        "Location": {
+            "Latitude": "48.8593608",
+            "Longitude": "2.3138126999999713"
+        },
+        "Arrondissement": "7e arrondissement"
+    },
+    {
+        "Id": "JardinDesPlantes",
+        "Caption": {
+            "en": "Le Jardin des Plantes",
+            "fr": "Le Jardin des Plantes",
+            "es": "Le Jardin des Plantes",
+            "zh": "Le Jardin des Plantes"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "JardinDesPlantes",
+        "Location": {
+            "Latitude": "48.84434299999999",
+            "Longitude": "2.356210000000033"
+        },
+        "Arrondissement": "5e arrondissements"
     },
     {
         "Id": "LeLouvre",
@@ -65,6 +341,604 @@
         "Location": {
             "Latitude": "48.8606111",
             "Longitude": "2.3376439999999548"
+        },
+        "Arrondissement": "1er arrondissement"
+    },
+    {
+        "Id": "LeMarais",
+        "Caption": {
+            "en": "Le Marais",
+            "fr": "Le Marais",
+            "es": "Le Marais",
+            "zh": "Le Marais"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "LeMarais",
+        "Location": {
+            "Latitude": "48.8587029",
+            "Longitude": "2.3588038000000324"
+        },
+        "Arrondissement": "3e & 4e arrondissements"
+    },
+    {
+        "Id": "LesHalles",
+        "Caption": {
+            "en": "Les Halles",
+            "fr": "Les Halles",
+            "es": "Les Halles",
+            "zh": "Les Halles"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+        },
+        "SequenceId": "MuseumIntro",
+        "Location": {
+            "Latitude": "48.8620508",
+            "Longitude": "2.3471531999999797"
+        },
+        "Arrondissement": "1er arrondissement"
+    },
+    {
+        "Id": "LouisVuitton",
+        "Caption": {
+            "en": "Louis Vuitton Foundation",
+            "fr": "La Fondation Louis Vuitton",
+            "es": "La Fondation Louis Vuitton",
+            "zh": "La Fondation Louis Vuitton"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "LouisVuitton",
+        "Location": {
+            "Latitude": "48.8766138",
+            "Longitude": "2.2634223999999676"
+        },
+        "Arrondissement": "16e arrondissement"
+    },
+    {
+        "Id": "Luxembourg",
+        "Caption": {
+            "en": "Le Palais et les Jardins du Luxembourg",
+            "fr": "Le Palais et les Jardins du Luxembourg",
+            "es": "Le Palais et les Jardins du Luxembourg",
+            "zh": "Le Palais et les Jardins du Luxembourg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Luxembourg",
+        "Location": {
+            "Latitude": "48.8462217",
+            "Longitude": "2.3371604999999818"
+        },
+        "Arrondissement": "6e arrondissement"
+    },
+    {
+        "Id": "MoulinRouge",
+        "Caption": {
+            "en": "Le Moulin Rouge",
+            "fr": "Le Moulin Rouge",
+            "es": "Le Moulin Rouge",
+            "zh": "Le Moulin Rouge"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "MoulinRouge",
+        "Location": {
+            "Latitude": "48.8841232",
+            "Longitude": "2.33225189999996"
+        },
+        "Arrondissement": "18e arrondissement"
+    },
+    {
+        "Id": "NotreDame",
+        "Caption": {
+            "en": "La Cathédrale Notre-Dame de Paris",
+            "fr": "La Cathédrale Notre-Dame de Paris",
+            "es": "La Cathédrale Notre-Dame de Paris",
+            "zh": "La Cathédrale Notre-Dame de Paris"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "NotreDame",
+        "Location": {
+            "Latitude": "48.85296820000001",
+            "Longitude": "2.3499021000000084"
+        },
+        "Arrondissement": "4e arrondissement"
+    },
+    {
+        "Id": "Orsay",
+        "Caption": {
+            "en": "Le Musée d'Orsay",
+            "fr": "Le Musée d'Orsay",
+            "es": "Le Musée d'Orsay",
+            "zh": "Le Musée d'Orsay"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Orsay",
+        "Location": {
+            "Latitude": "48.8605007",
+            "Longitude": "2.3254166000000396"
+        },
+        "Arrondissement": "7e arrondissement"
+    },
+    {
+        "Id": "PalaisGarnier",
+        "Caption": {
+            "en": "L'Opéra du Palais Garnier",
+            "fr": "L'Opéra du Palais Garnier",
+            "es": "L'Opéra du Palais Garnier",
+            "zh": "L'Opéra du Palais Garnier"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PalaisGarnier",
+        "Location": {
+            "Latitude": "48.8719697",
+            "Longitude": "2.331601399999954"
+        },
+        "Arrondissement": "9e arrondissement"
+    },
+    {
+        "Id": "PalaisTokyo",
+        "Caption": {
+            "en": "Le Palais de Tokyo",
+            "fr": "Le Palais de Tokyo",
+            "es": "Le Palais de Tokyo",
+            "zh": "Le Palais de Tokyo"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PalaisTokyo",
+        "Location": {
+            "Latitude": "48.8645866",
+            "Longitude": "2.2966748000000052"
+        },
+        "Arrondissement": "16e arrondissement"
+    },
+    {
+        "Id": "Pantheon",
+        "Caption": {
+            "en": "Le Panthéon",
+            "fr": "Le Panthéon",
+            "es": "Le Panthéon",
+            "zh": "Le Panthéon"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Pantheon",
+        "Location": {
+            "Latitude": "48.8462218",
+            "Longitude": "2.3464137999999366"
+        },
+        "Arrondissement": "5e arrondissement"
+    },
+    {
+        "Id": "ParcVillette",
+        "Caption": {
+            "en": "Le Parc de la Villette",
+            "fr": "Le Parc de la Villette",
+            "es": "Le Parc de la Villette",
+            "zh": "Le Parc de la Villette"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "ParcVillette",
+        "Location": {
+            "Latitude": "48.8938489",
+            "Longitude": "2.390260000000012"
+        },
+        "Arrondissement": "19e arrondissement"
+    },
+    {
+        "Id": "PereLachaise",
+        "Caption": {
+            "en": "Le Cimetière du Père Lachaise",
+            "fr": "Le Cimetière du Père Lachaise",
+            "es": "Le Cimetière du Père Lachaise",
+            "zh": "Le Cimetière du Père Lachaise"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PereLachaise",
+        "Location": {
+            "Latitude": "48.8627872",
+            "Longitude": "2.3928086999999323"
+        },
+        "Arrondissement": "20e arrondissement"
+    },
+    {
+        "Id": "PlaceBastille",
+        "Caption": {
+            "en": "La Place de la Bastille",
+            "fr": "La Place de la Bastille",
+            "es": "La Place de la Bastille",
+            "zh": "La Place de la Bastille"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PlaceBastille",
+        "Location": {
+            "Latitude": "48.8531827",
+            "Longitude": "2.3691443000000163"
+        },
+        "Arrondissement": "11e arrondissement"
+    },
+    {
+        "Id": "PlaceConcorde",
+        "Caption": {
+            "en": "La Place de la Concorde",
+            "fr": "La Place de la Concorde",
+            "es": "La Place de la Concorde",
+            "zh": "La Place de la Concorde"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PlaceConcorde",
+        "Location": {
+            "Latitude": "48.8656331",
+            "Longitude": "2.3212356999999884"
+        },
+        "Arrondissement": "8e arrondissement"
+    },
+    {
+        "Id": "PlaceTrocadero",
+        "Caption": {
+            "en": "La Place du Trocadéro",
+            "fr": "La Place du Trocadéro",
+            "es": "La Place du Trocadéro",
+            "zh": "La Place du Trocadéro"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PlaceTrocadero",
+        "Location": {
+            "Latitude": "48.8615963",
+            "Longitude": "2.289282299999968"
+        },
+        "Arrondissement": "16e arrondissement"
+    },
+    {
+        "Id": "PlaceVendome",
+        "Caption": {
+            "en": "La Place Vendôme",
+            "fr": "La Place Vendôme",
+            "es": "La Place Vendôme",
+            "zh": "La Place Vendôme"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PlaceVendome",
+        "Location": {
+            "Latitude": "48.8675839",
+            "Longitude": "2.3293456000000106"
+        },
+        "Arrondissement": "1er arrondissement"
+    },
+    {
+        "Id": "PlaceVosges",
+        "Caption": {
+            "en": "La Place des Vosges",
+            "fr": "La Place des Vosges",
+            "es": "La Place des Vosges",
+            "zh": "La Place des Vosges"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PlaceVosges",
+        "Location": {
+            "Latitude": "48.8561846",
+            "Longitude": "2.365774500000043"
+        },
+        "Arrondissement": "4e arrondissement"
+    },
+    {
+        "Id": "Pompidou",
+        "Caption": {
+            "en": "Le Centre George Pompidou",
+            "fr": "Le Centre George Pompidou",
+            "es": "Le Centre George Pompidou",
+            "zh": "Le Centre George Pompidou"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Pompidou",
+        "Location": {
+            "Latitude": "48.860642",
+            "Longitude": "2.352245000000039"
+        },
+        "Arrondissement": "4e arrondissement"
+    },
+    {
+        "Id": "PontAlexandreIII",
+        "Caption": {
+            "en": "Le Pont Alexandre III",
+            "fr": "Le Pont Alexandre III",
+            "es": "Le Pont Alexandre III",
+            "zh": "Le Pont Alexandre III"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PontAlexandreIII",
+        "Location": {
+            "Latitude": "48.8637744",
+            "Longitude": "2.31356930000004"
+        },
+        "Arrondissement": "8e arrondissement"
+    },
+    {
+        "Id": "PontDesArts",
+        "Caption": {
+            "en": "Le Pont des Arts",
+            "fr": "Le Pont des Arts",
+            "es": "Le Pont des Arts",
+            "zh": "Le Pont des Arts"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "PontDesArts",
+        "Location": {
+            "Latitude": "48.85834240000001",
+            "Longitude": "2.3375083999999333"
+        },
+        "Arrondissement": "6e arrondissement"
+    },
+    {
+        "Id": "SacreCoeur",
+        "Caption": {
+            "en": "La Basilique du Sacré Coeur de Montmartre",
+            "fr": "La Basilique du Sacré Coeur de Montmartre",
+            "es": "La Basilique du Sacré Coeur de Montmartre",
+            "zh": "La Basilique du Sacré Coeur de Montmartre"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "SacreCoeur",
+        "Location": {
+            "Latitude": "48.88670459999999",
+            "Longitude": "2.34310430000005"
+        },
+        "Arrondissement": "18e arrondissement"
+    },
+    {
+        "Id": "SainteChapelle",
+        "Caption": {
+            "en": "La Sainte-Chapelle",
+            "fr": "La Sainte-Chapelle",
+            "es": "La Sainte-Chapelle",
+            "zh": "La Sainte-Chapelle"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "SainteChapelle",
+        "Location": {
+            "Latitude": "48.85542",
+            "Longitude": "2.3449869999999464"
+        },
+        "Arrondissement": "1er arrondissement"
+    },
+    {
+        "Id": "SaintSulpice",
+        "Caption": {
+            "en": "L'Eglise Saint-Sulpice",
+            "fr": "L'Eglise Saint-Sulpice",
+            "es": "L'Eglise Saint-Sulpice",
+            "zh": "L'Eglise Saint-Sulpice"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "SaintSulpice",
+        "Location": {
+            "Latitude": "48.85133270000001",
+            "Longitude": "2.3334354999999505"
+        },
+        "Arrondissement": "6e arrondissement"
+    },
+    {
+        "Id": "TourEiffel",
+        "Caption": {
+            "en": "La Tour Eiffel",
+            "fr": "La Tour Eiffel",
+            "es": "La Tour Eiffel",
+            "zh": "La Tour Eiffel"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "TourEiffel",
+        "Location": {
+            "Latitude": "48.8558986",
+            "Longitude": "2.298087500000065"
+        },
+        "Arrondissement": "7e arrondissement"
+    },
+    {
+        "Id": "TourMontparnasse",
+        "Caption": {
+            "en": "La Tour Montparnasse",
+            "fr": "La Tour Montparnasse",
+            "es": "La Tour Montparnasse",
+            "zh": "La Tour Montparnasse"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "TourMontparnasse",
+        "Location": {
+            "Latitude": "48.8421375",
+            "Longitude": "2.321967900000004"
+        },
+        "Arrondissement": "15e arrondissement"
+    },
+    {
+        "Id": "Tuileries",
+        "Caption": {
+            "en": "Les Jardins des Tuileries",
+            "fr": "Les Jardins des Tuileries",
+            "es": "Les Jardins des Tuileries",
+            "zh": "Les Jardins des Tuileries"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+        },
+        "SequenceId": "Tuileries",
+        "Location": {
+            "Latitude": "48.8634916",
+            "Longitude": "2.327494300000012"
         },
         "Arrondissement": "1er arrondissement"
     }
