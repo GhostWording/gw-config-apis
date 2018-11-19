@@ -4,16 +4,16 @@
         "Caption": {
             "en": "Arc de Triomphe",
             "fr": "Arc de Triomphe",
-            "es": "Arc de Triomphe",
-            "zh": "Arc de Triomphe"
+            "es": "Arco de Triunfo",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624370/arc_de_triomphe_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624568/arce_de_triomphe_thumbnail.jpg"
         },
         "SequenceId": "ArcDeTriomphe",
         "Location": {
@@ -28,15 +28,15 @@
             "en": "Le Bon Marché",
             "fr": "Le Bon Marché",
             "es": "Le Bon Marché",
-            "zh": "Le Bon Marché"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624743/bon_marche_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624870/bon_marche_thumbnail.jpg"
         },
         "SequenceId": "BonMarche",
         "Location": {
@@ -51,15 +51,15 @@
             "en": "Boulevard Haussmann",
             "fr": "Boulevard Haussmann",
             "es": "Boulevard Haussmann",
-            "zh": "Boulevard Haussmann"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542627110/haussmann_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542627200/haussmann_thumbnail.jpg"
         },
         "SequenceId": "BoulevardHaussmann",
         "Location": {
@@ -71,18 +71,18 @@
     {
         "Id": "ButteAuxCailles",
         "Caption": {
-            "en": "La Butte-aux-Cailles",
+            "en": "Butte-aux-Cailles",
             "fr": "La Butte-aux-Cailles",
-            "es": "La Butte-aux-Cailles",
-            "zh": "La Butte-aux-Cailles"
+            "es": "Butte-aux-Cailles",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542625140/butte_aux_cailles_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542625238/butte_aux_cailles_thumbnail.jpg"
         },
         "SequenceId": "ButteAuxCailles",
         "Location": {
@@ -94,18 +94,18 @@
     {
         "Id": "ButtesChaumont",
         "Caption": {
-            "en": "Les Buttes Chaumont",
-            "fr": "Les Buttes Chaumont",
-            "es": "Les Buttes Chaumont",
-            "zh": "Les Buttes Chaumont"
+            "en": "Parc des Buttes-Chaumont",
+            "fr": "Le Parc des Buttes-Chaumont",
+            "es": "El Parque des Buttes-Chaumont",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542625823/buttes_chaumont_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542625936/buttes_chaumont_thumbnail.jpg"
         },
         "SequenceId": "ButtesChaumont",
         "Location": {
@@ -119,16 +119,16 @@
         "Caption": {
             "en": "Catacombs of Paris",
             "fr": "Les Catacombes de Paris",
-            "es": "Les Catacombes de Paris",
-            "zh": "Les Catacombes de Paris"
+            "es": "Las Catacumbas de París",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626126/catacombes_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626234/catacombes_thumbnail.jpg"
         },
         "SequenceId": "Catacombes",
         "Location": {
@@ -140,18 +140,18 @@
     {
         "Id": "Conciergerie",
         "Caption": {
-            "en": "La Conciergerie",
+            "en": "Conciergerie",
             "fr": "La Conciergerie",
             "es": "La Conciergerie",
-            "zh": "La Conciergerie"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626426/conciergerie_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626527/conciergerie_thumbnail.jpg"
         },
         "SequenceId": "Conciergerie",
         "Location": {
@@ -163,18 +163,18 @@
     {
         "Id": "Elysee",
         "Caption": {
-            "en": "Le Palais de l'Elysée",
-            "fr": "Le Palais de l'Elysée",
-            "es": "Le Palais de l'Elysée",
-            "zh": "Le Palais de l'Elysée"
+            "en": "Élysée Palace",
+            "fr": "Le Palais de l'Élysée",
+            "es": "Palacio del Elíseo",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626688/elysee_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626789/elysee_thumbnail.jpg"
         },
         "SequenceId": "Elysee",
         "Location": {
@@ -186,18 +186,18 @@
     {
         "Id": "FontaineInnocents",
         "Caption": {
-            "en": "La Fontaine des Innocents",
+            "en": "Fontaine des Innocents",
             "fr": "La Fontaine des Innocents",
-            "es": "La Fontaine des Innocents",
-            "zh": "La Fontaine des Innocents"
+            "es": "La Fuente de los Inocentes",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626959/fontaine_innocents_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542627045/fontaine_innocents_thumbnail.jpg"
         },
         "SequenceId": "FontaineInnocents",
         "Location": {
