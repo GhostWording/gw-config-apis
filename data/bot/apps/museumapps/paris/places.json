@@ -485,18 +485,18 @@
     {
         "Id": "Orsay",
         "Caption": {
-            "en": "Le Musée d'Orsay",
+            "en": "Orsay Museum",
             "fr": "Le Musée d'Orsay",
-            "es": "Le Musée d'Orsay",
-            "zh": "Le Musée d'Orsay"
+            "es": "El Museo de Orsay",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542648940/orsay_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649031/orsay_thumbnail.jpg"
         },
         "SequenceId": "Orsay",
         "Location": {
@@ -508,18 +508,18 @@
     {
         "Id": "PalaisGarnier",
         "Caption": {
-            "en": "L'Opéra du Palais Garnier",
-            "fr": "L'Opéra du Palais Garnier",
-            "es": "L'Opéra du Palais Garnier",
-            "zh": "L'Opéra du Palais Garnier"
+            "en": "Palais Garnier opera house",
+            "fr": "L'Opéra Garnier",
+            "es": "La Ópera Garnier",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649250/palais_garnier_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649344/palais_garnier_thumbnail.jpg"
         },
         "SequenceId": "PalaisGarnier",
         "Location": {
@@ -533,16 +533,16 @@
         "Caption": {
             "en": "Le Palais de Tokyo",
             "fr": "Le Palais de Tokyo",
-            "es": "Le Palais de Tokyo",
-            "zh": "Le Palais de Tokyo"
+            "es": "El Palais de Tokyo",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649627/palais_tokyo_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649713/palais_tokyo_thumbnail.jpg"
         },
         "SequenceId": "PalaisTokyo",
         "Location": {
@@ -554,18 +554,18 @@
     {
         "Id": "Pantheon",
         "Caption": {
-            "en": "Le Panthéon",
+            "en": "Panthéon",
             "fr": "Le Panthéon",
-            "es": "Le Panthéon",
-            "zh": "Le Panthéon"
+            "es": "El Panteón",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649911/pantheon_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542650021/pantheon_thumbnail.jpg"
         },
         "SequenceId": "Pantheon",
         "Location": {
@@ -577,18 +577,18 @@
     {
         "Id": "ParcVillette",
         "Caption": {
-            "en": "Le Parc de la Villette",
+            "en": "Parc de la Villette",
             "fr": "Le Parc de la Villette",
-            "es": "Le Parc de la Villette",
-            "zh": "Le Parc de la Villette"
+            "es": "El Parque de la Villette",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542650158/parc_villette_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542650247/parc_villette_thumbnail.jpg"
         },
         "SequenceId": "ParcVillette",
         "Location": {
