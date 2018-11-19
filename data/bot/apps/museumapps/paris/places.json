@@ -209,18 +209,18 @@
     {
         "Id": "GrandPalais",
         "Caption": {
-            "en": "Le Grand Palais",
+            "en": "Grand Palais",
             "fr": "Le Grand Palais",
-            "es": "Le Grand Palais",
-            "zh": "Le Grand Palais"
+            "es": "El Grand Palais",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542629733/grand_palais_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542629845/grand_palais_thumbnail.jpg"
         },
         "SequenceId": "GrandPalais",
         "Location": {
@@ -232,18 +232,18 @@
     {
         "Id": "HotelDeVille",
         "Caption": {
-            "en": "L'Hôtel de Ville",
+            "en": "Hôtel de Ville",
             "fr": "L'Hôtel de Ville",
-            "es": "L'Hôtel de Ville",
-            "zh": "L'Hôtel de Ville"
+            "es": "El Ayuntamiento de París",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630029/hotel_de_ville_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630126/hotel_de_ville_thumbnail.jpg"
         },
         "SequenceId": "HotelDeVille",
         "Location": {
@@ -255,18 +255,18 @@
     {
         "Id": "IleDeLaCite",
         "Caption": {
-            "en": "L'Ile de la Cité",
-            "fr": "L'Ile de la Cité",
-            "es": "L'Ile de la Cité",
-            "zh": "L'Ile de la Cité"
+            "en": "Île de la Cité",
+            "fr": "L'Île de la Cité",
+            "es": "La Isla de la Cité",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630307/ile_de_la_cite_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630391/ile_de_la_cite_thumbnail.jpg"
         },
         "SequenceId": "IleDeLaCite",
         "Location": {
@@ -280,16 +280,16 @@
         "Caption": {
             "en": "Les Invalides",
             "fr": "Les Invalides",
-            "es": "Les Invalides",
-            "zh": "Les Invalides"
+            "es": "Los Inválidos",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630590/invalides_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630668/invalides_thumbnail.jpg"
         },
         "SequenceId": "Invalides",
         "Location": {
@@ -301,18 +301,18 @@
     {
         "Id": "JardinDesPlantes",
         "Caption": {
-            "en": "Le Jardin des Plantes",
+            "en": "Jardin des Plantes",
             "fr": "Le Jardin des Plantes",
-            "es": "Le Jardin des Plantes",
-            "zh": "Le Jardin des Plantes"
+            "es": "El Jardín de plantas",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630849/jardin_plantes_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630945/jardin_plantes_thumbnail.jpg"
         },
         "SequenceId": "JardinDesPlantes",
         "Location": {
@@ -327,15 +327,15 @@
             "en": "Louvre Museum",
             "fr": "Le Musée du Louvre",
             "es": "Museo del Louvre",
-            "zh": "Louvre Museum"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964758/louvre.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631111/louvre_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964758/louvre.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631108/louvre_thumbnail.jpg"
         },
         "SequenceId": "MuseumIntro",
         "Location": {
@@ -350,15 +350,15 @@
             "en": "Le Marais",
             "fr": "Le Marais",
             "es": "Le Marais",
-            "zh": "Le Marais"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631262/marais_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631350/marais_thumbnail.jpg"
         },
         "SequenceId": "LeMarais",
         "Location": {
@@ -372,16 +372,16 @@
         "Caption": {
             "en": "Les Halles",
             "fr": "Les Halles",
-            "es": "Les Halles",
-            "zh": "Les Halles"
+            "es": "Las Halles",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631403/les_halles_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631492/les_halles_thumbnail.jpg"
         },
         "SequenceId": "MuseumIntro",
         "Location": {
@@ -396,15 +396,15 @@
             "en": "Louis Vuitton Foundation",
             "fr": "La Fondation Louis Vuitton",
             "es": "La Fondation Louis Vuitton",
-            "zh": "La Fondation Louis Vuitton"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631677/fondation_louis_vuitton_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631766/fondation_louis_vuitton_thumbnail.jpg"
         },
         "SequenceId": "LouisVuitton",
         "Location": {
@@ -416,18 +416,18 @@
     {
         "Id": "Luxembourg",
         "Caption": {
-            "en": "Le Palais et les Jardins du Luxembourg",
+            "en": "Luxembourg Palace and Gardens",
             "fr": "Le Palais et les Jardins du Luxembourg",
-            "es": "Le Palais et les Jardins du Luxembourg",
-            "zh": "Le Palais et les Jardins du Luxembourg"
+            "es": "El Palacio y los Jardines del Luxemburgo",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631947/luxembourg_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632050/luxembourg_thumbnail.jpg"
         },
         "SequenceId": "Luxembourg",
         "Location": {
@@ -439,18 +439,18 @@
     {
         "Id": "MoulinRouge",
         "Caption": {
-            "en": "Le Moulin Rouge",
+            "en": "Moulin Rouge",
             "fr": "Le Moulin Rouge",
-            "es": "Le Moulin Rouge",
-            "zh": "Le Moulin Rouge"
+            "es": "El Moulin Rouge",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632269/moulin_rouge_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632344/moulin_rouge_thumbnail.jpg"
         },
         "SequenceId": "MoulinRouge",
         "Location": {
@@ -462,18 +462,18 @@
     {
         "Id": "NotreDame",
         "Caption": {
-            "en": "La Cathédrale Notre-Dame de Paris",
+            "en": "Notre-Dame de Paris",
             "fr": "La Cathédrale Notre-Dame de Paris",
-            "es": "La Cathédrale Notre-Dame de Paris",
-            "zh": "La Cathédrale Notre-Dame de Paris"
+            "es": "Catedral de Notre Dame de París",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632666/notre_dame_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632751/notre_dame_thumbnail.jpg"
         },
         "SequenceId": "NotreDame",
         "Location": {
