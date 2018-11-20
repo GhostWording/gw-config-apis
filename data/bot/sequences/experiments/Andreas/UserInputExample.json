@@ -1,0 +1,32 @@
+{
+  "Type": "Leaf",
+  "Id": "UserInputExample",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How are you?"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "TypingBarShow"
+    },
+    {
+      "Type": "UserInput",
+      "AutoSkip": {
+        "ms": 20000
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "TypingBarHide"
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Great to hear!"
+      }
+    }
+  ]
+}
