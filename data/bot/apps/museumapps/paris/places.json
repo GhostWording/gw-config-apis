@@ -600,18 +600,18 @@
     {
         "Id": "PereLachaise",
         "Caption": {
-            "en": "Le Cimetière du Père Lachaise",
-            "fr": "Le Cimetière du Père Lachaise",
-            "es": "Le Cimetière du Père Lachaise",
-            "zh": "Le Cimetière du Père Lachaise"
+            "en": "Père Lachaise Cemetery",
+            "fr": "Le Cimetière du Père-Lachaise",
+            "es": "El Cementerio del Père-Lachaise",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542710860/pere_lachaise_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542710960/pere_lachaise_thumbnail.jpg"
         },
         "SequenceId": "PereLachaise",
         "Location": {
@@ -623,18 +623,18 @@
     {
         "Id": "PlaceBastille",
         "Caption": {
-            "en": "La Place de la Bastille",
+            "en": "Place de la Bastille",
             "fr": "La Place de la Bastille",
-            "es": "La Place de la Bastille",
-            "zh": "La Place de la Bastille"
+            "es": "La Plaza de la Bastilla",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542711187/bastille_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542711320/bastille_thumbnail.jpg"
         },
         "SequenceId": "PlaceBastille",
         "Location": {
@@ -646,18 +646,18 @@
     {
         "Id": "PlaceConcorde",
         "Caption": {
-            "en": "La Place de la Concorde",
+            "en": "Place de la Concorde",
             "fr": "La Place de la Concorde",
-            "es": "La Place de la Concorde",
-            "zh": "La Place de la Concorde"
+            "es": "La Plaza de la Concordia",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542711505/concorde_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542711610/concorde_thumbnail.jpg"
         },
         "SequenceId": "PlaceConcorde",
         "Location": {
@@ -669,18 +669,18 @@
     {
         "Id": "PlaceTrocadero",
         "Caption": {
-            "en": "La Place du Trocadéro",
-            "fr": "La Place du Trocadéro",
-            "es": "La Place du Trocadéro",
-            "zh": "La Place du Trocadéro"
+            "en": "Trocadéro",
+            "fr": "Le Trocadéro",
+            "es": "El Trocadero",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712074/trocadero_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712175/trocadero_thumbnail.jpg"
         },
         "SequenceId": "PlaceTrocadero",
         "Location": {
@@ -692,18 +692,18 @@
     {
         "Id": "PlaceVendome",
         "Caption": {
-            "en": "La Place Vendôme",
+            "en": "Place Vendôme",
             "fr": "La Place Vendôme",
-            "es": "La Place Vendôme",
-            "zh": "La Place Vendôme"
+            "es": "La Plaza Vendôme",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712350/vendome_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712436/vendome_thumbnail.jpg"
         },
         "SequenceId": "PlaceVendome",
         "Location": {
@@ -715,18 +715,18 @@
     {
         "Id": "PlaceVosges",
         "Caption": {
-            "en": "La Place des Vosges",
+            "en": "Place des Vosges",
             "fr": "La Place des Vosges",
-            "es": "La Place des Vosges",
-            "zh": "La Place des Vosges"
+            "es": "La Plaza de los Vosgos",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712617/place_vosges_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712706/places_vosges_thumbnail.jpg"
         },
         "SequenceId": "PlaceVosges",
         "Location": {
@@ -738,18 +738,18 @@
     {
         "Id": "Pompidou",
         "Caption": {
-            "en": "Le Centre George Pompidou",
-            "fr": "Le Centre George Pompidou",
-            "es": "Le Centre George Pompidou",
-            "zh": "Le Centre George Pompidou"
+            "en": "Centre Georges Pompidou",
+            "fr": "Le Centre Georges-Pompidou",
+            "es": "El Centro Georges Pompidou",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712900/pompidou_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712986/pompidou_thumbnail.jpg"
         },
         "SequenceId": "Pompidou",
         "Location": {
@@ -761,18 +761,18 @@
     {
         "Id": "PontAlexandreIII",
         "Caption": {
-            "en": "Le Pont Alexandre III",
+            "en": "Pont Alexandre III",
             "fr": "Le Pont Alexandre III",
-            "es": "Le Pont Alexandre III",
-            "zh": "Le Pont Alexandre III"
+            "es": "El Puente Alejandro III",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713178/pont_alexandreIII_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713251/pont_alexandreIII_thumbnail.jpg"
         },
         "SequenceId": "PontAlexandreIII",
         "Location": {
@@ -784,18 +784,18 @@
     {
         "Id": "PontDesArts",
         "Caption": {
-            "en": "Le Pont des Arts",
+            "en": "Pont des Arts",
             "fr": "Le Pont des Arts",
-            "es": "Le Pont des Arts",
-            "zh": "Le Pont des Arts"
+            "es": "El Puente de las Artes",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713294/pont_des_arts_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713387/pont_des_arts_thumbnail.jpg"
         },
         "SequenceId": "PontDesArts",
         "Location": {
@@ -807,18 +807,18 @@
     {
         "Id": "SacreCoeur",
         "Caption": {
-            "en": "La Basilique du Sacré Coeur de Montmartre",
-            "fr": "La Basilique du Sacré Coeur de Montmartre",
-            "es": "La Basilique du Sacré Coeur de Montmartre",
-            "zh": "La Basilique du Sacré Coeur de Montmartre"
+            "en": "Sacré-Cœur Basilica",
+            "fr": "La Basilique du Sacré-Cœur",
+            "es": "La Basílica del Sagrado Corazón",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713599/sacre_coeur_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713684/sacre_coeur_thumbnail.jpg"
         },
         "SequenceId": "SacreCoeur",
         "Location": {
@@ -830,18 +830,18 @@
     {
         "Id": "SainteChapelle",
         "Caption": {
-            "en": "La Sainte-Chapelle",
+            "en": "Sainte-Chapelle",
             "fr": "La Sainte-Chapelle",
             "es": "La Sainte-Chapelle",
-            "zh": "La Sainte-Chapelle"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713865/sainte_chapelle_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713985/sainte_chapelle_thumbnail.jpg"
         },
         "SequenceId": "SainteChapelle",
         "Location": {
@@ -853,18 +853,18 @@
     {
         "Id": "SaintSulpice",
         "Caption": {
-            "en": "L'Eglise Saint-Sulpice",
-            "fr": "L'Eglise Saint-Sulpice",
-            "es": "L'Eglise Saint-Sulpice",
-            "zh": "L'Eglise Saint-Sulpice"
+            "en": "Church of Saint-Sulpice",
+            "fr": "L'Église Saint-Sulpice",
+            "es": "La Iglesia de San Sulpicio",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714137/saint_sulpice_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714227/saint_sulpice_thumbnail.jpg"
         },
         "SequenceId": "SaintSulpice",
         "Location": {
@@ -876,18 +876,18 @@
     {
         "Id": "TourEiffel",
         "Caption": {
-            "en": "La Tour Eiffel",
+            "en": "Eiffel Tower",
             "fr": "La Tour Eiffel",
-            "es": "La Tour Eiffel",
-            "zh": "La Tour Eiffel"
+            "es": "La Torre Eiffel",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714418/tour_eiffel_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714509/tour_eiffel_thumbnail.jpg"
         },
         "SequenceId": "TourEiffel",
         "Location": {
@@ -899,18 +899,18 @@
     {
         "Id": "TourMontparnasse",
         "Caption": {
-            "en": "La Tour Montparnasse",
+            "en": "Tour Montparnasse",
             "fr": "La Tour Montparnasse",
             "es": "La Tour Montparnasse",
-            "zh": "La Tour Montparnasse"
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714633/tour_montparnasse_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714713/tour_montparnasse_thumbnail.jpg"
         },
         "SequenceId": "TourMontparnasse",
         "Location": {
@@ -922,18 +922,18 @@
     {
         "Id": "Tuileries",
         "Caption": {
-            "en": "Les Jardins des Tuileries",
-            "fr": "Les Jardins des Tuileries",
-            "es": "Les Jardins des Tuileries",
-            "zh": "Les Jardins des Tuileries"
+            "en": "Tuileries Garden",
+            "fr": "Le Jardin des Tuileries",
+            "es": "El Jardín de las Tullerías",
+            "zh": ""
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714852/tuileries_preview.jpg"
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714926/tuileries_thumbnail.jpg"
         },
         "SequenceId": "Tuileries",
         "Location": {
