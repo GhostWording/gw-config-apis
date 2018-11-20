@@ -1,0 +1,20 @@
+{
+  "Type": "Leaf",
+  "Id": "ShowCardForPrototypeGoodMorningWithImage",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCardForPrototype",
+      "Comment": "Say good morning",
+      "Parameters": {
+        "PrototypeId": "63B92D"
+      },
+      "DefaultImage": {
+        "Width": 1632,
+        "Height": 2284,
+        "Source": "Web",
+        "Path": "http://az767698.vo.msecnd.net/museums/artquest/small/chessmen.jpg"
+      }
+    }
+  ]
+}
