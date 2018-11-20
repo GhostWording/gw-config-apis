@@ -5,7 +5,8 @@
         "SequenceFiles":[
             { "order" : 10, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json"]},
             { "order" : 15, "file": ["/data/bot/sequences/experiments/dbtest/SetUserGender.json"]},
-            { "order" : 20, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeYoureTheBest.json"]}
+            { "order" : 20, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeYoureTheBest.json"]},
+            { "order" : 25, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorningWithImage.json"]}
          ]
     }
 ]
