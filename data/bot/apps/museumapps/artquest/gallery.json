@@ -1,0 +1,27 @@
+[
+  {
+    "Caption": {
+      "en": "Liberty Leading the People",
+      "fr": "La Liberté guidant le peuple",
+      "es": "La Libertad guiando al pueblo",
+      "zh": "《自由引导人们》"
+    },
+    "Artist": {
+      "en": "Eugène Delacroix",
+      "fr": "Eugène Delacroix",
+      "es": "Eugène Delacroix",
+      "zh": "欧仁·德拉克罗瓦"
+    },
+    "Thumbnail": {
+      "Type": "Web",
+      "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
+    },
+    "DefaultImage": {
+      "Type": "Web",
+      "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Liberty_NEW.jpg"
+    },
+    "TextSuggestion": {
+      "IntentionId": "2E2986"
+    }
+  }
+]
