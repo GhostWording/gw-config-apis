@@ -1,5 +1,5 @@
 {
-  "Type": "Leaf",
+  "Type": "Node",
   "Id": "ShowCardForPrototypeGoodMorningWithImage",
   "Steps": [
     {
@@ -14,6 +14,16 @@
         "Height": 2284,
         "Source": "Web",
         "Path": "http://az767698.vo.msecnd.net/museums/artquest/small/chessmen.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowCardForPrototypeGoodMorningWithImageTest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Next"
       }
     }
   ]
