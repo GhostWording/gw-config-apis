@@ -1,5 +1,5 @@
 {
-    "Type": "Leaf",
+    "Type": "Node",
     "Id": "ShowCardForPrototypeYoureTheBest",
     "Steps": [
         {
@@ -10,5 +10,15 @@
                 "PrototypeId": "587DD3"
             }
         }
-    ]
+    ],
+    "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowCardForPrototypeYoureTheBestTest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Next"
+      }
+    }
+  ]
 }
