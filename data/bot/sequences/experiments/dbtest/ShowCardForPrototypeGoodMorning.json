@@ -10,5 +10,15 @@
         "PrototypeId": "63B92D"
       }
     }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowCardForPrototypeGoodMorningTest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Next"
+      }
+    }
   ]
 }
