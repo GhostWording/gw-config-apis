@@ -1,5 +1,5 @@
 {
-  "Type": "Leaf",
+  "Type": "Node",
   "Id": "ShowTextForPrototypeGoodMorning",
   "Steps": [
     {
@@ -8,6 +8,16 @@
       "Comment": "Say good morning",
       "Parameters": {
         "PrototypeId": "63B92D"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowTextForPrototypeGoodMorningTest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Next"
       }
     }
   ]
