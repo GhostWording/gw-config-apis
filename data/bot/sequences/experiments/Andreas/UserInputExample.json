@@ -13,7 +13,7 @@
       "Name": "TypingBarShow"
     },
     {
-      "Type": "UserInput",
+      "Type": "WaitForUserInput",
       "AutoSkip": {
         "ms": 20000
       }
