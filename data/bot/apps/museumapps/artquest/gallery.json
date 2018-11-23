@@ -1,27 +1,1927 @@
 [
-  {
-    "Caption": {
-      "en": "Liberty Leading the People",
-      "fr": "La Liberté guidant le peuple",
-      "es": "La Libertad guiando al pueblo",
-      "zh": "《自由引导人们》"
+    {
+        "Caption": {
+            "en": "Liberty Leading the People",
+            "fr": "La Liberté guidant le peuple",
+            "es": "La Libertad guiando al pueblo",
+            "zh": "《自由引导人们》"
+        },
+        "Artist": {
+            "en": "Eugène Delacroix",
+            "fr": "Eugène Delacroix",
+            "es": "Eugène Delacroix",
+            "zh": "欧仁·德拉克罗瓦"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Liberty_NEW.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
     },
-    "Artist": {
-      "en": "Eugène Delacroix",
-      "fr": "Eugène Delacroix",
-      "es": "Eugène Delacroix",
-      "zh": "欧仁·德拉克罗瓦"
+    {
+        "Caption": {
+            "en": "The Royal Gold Cup",
+            "fr": "La coupe de sainte Agnès",
+            "es": "La copa de Santa Inés",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/AgnesCup.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/AgnesCup_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
     },
-    "Thumbnail": {
-      "Type": "Web",
-      "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
+    {
+        "Caption": {
+            "en": "Port of Le Havre",
+            "fr": "Vue de l'ancien avant-port du Havre",
+            "es": "Puerto de Le Havre",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Claude Monet",
+            "fr": "Claude Monet",
+            "es": "Claude Monet",
+            "zh": "克勞德·莫奈"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Monet_PortofLeHavre1874.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Monet_PortofLeHavre1874.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
     },
-    "DefaultImage": {
-      "Type": "Web",
-      "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Liberty_NEW.jpg"
+    {
+        "Caption": {
+            "en": "Head of Amenhotep III",
+            "fr": "La tête d'Amenhotep III",
+            "es": "La cabeza de Amenhotep III",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Amenhotep.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/amenhotep_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
     },
-    "TextSuggestion": {
-      "IntentionId": "006B9F"
+    {
+        "Caption": {
+            "en": "Gas",
+            "fr": "Essence",
+            "es": "Gasolina",
+            "zh": "《汽油》"
+        },
+        "Artist": {
+            "en": "Edward Hopper",
+            "fr": "Edward Hopper",
+            "es": "Edward Hopper",
+            "zh": "愛德華·霍普"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Hopper_Gas1940.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Hopper_Gas1940.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Berlin Volute Krater",
+            "fr": "Cratère à Volutes du Peintre de Berlin",
+            "es": "Crátera de volutas del Pintor de Berlín",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VoluteKrater.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/volute_krater.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Erechtheion Caryatids",
+            "fr": "Les Cariatides de l'Érechthéion",
+            "es": "Las Cariátides del Erecteón",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Charyatids.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/caryatids.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Two Men by the Sea",
+            "fr": "Deux Hommes au bord de la mer",
+            "es": "Dos hombres a la orilla del mar.",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Caspar David Friedrich",
+            "fr": "Caspar David Friedrich",
+            "es": "Caspar David Friedrich",
+            "zh": "卡斯帕·大衛·弗雷德里希"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Friedrich_TheMenbytheSea1817.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Friedrich_TheMenbytheSea1817.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Lewis Chessmen",
+            "fr": "Les Pièces d'échec de Lewis",
+            "es": "Las Piezas de ajedrez de Lewis",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Chessmen.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/chessmen_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Holy Thorn Reliquary",
+            "fr": "Reliquaire de la Sainte Épine",
+            "es": "Relicario de la Santa Espina",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/HolyThorn.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/holy_thorn.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Lion Hunts of Assurbanipal I",
+            "fr": "Le roi Assurbanipal I chassant le lion",
+            "es": "El rey Asurbanipal I cazando leones",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/LionHunt.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/lion_hunt.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Mausoleum at Halicarnassus",
+            "fr": "Mausolée d'Halicarnasse",
+            "es": "Mausoleo de Halicarnaso",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Mausoleum.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/mausoleum_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Meroe head",
+            "fr": "Tête de Meroe",
+            "es": "Cabeza de Meroe",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/MeroeHead.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/meroe_head.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Tomb of Nebamun",
+            "fr": "La Tombe de Nebamon",
+            "es": "Tumba de Nebamun",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Nebamun.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/nebamun_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Primavera",
+            "fr": "Le Printemps",
+            "es": "Alegoría de la primavera",
+            "zh": "《春》"
+        },
+        "Artist": {
+            "en": "Sandro Botticelli",
+            "fr": "Sandro Botticelli",
+            "es": "Sandro Botticelli",
+            "zh": "桑德罗·波提切利"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Botticelli_Primavera1487.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Botticelli_Primavera1487.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Rosetta Stone",
+            "fr": "La Pierre de Rosette",
+            "es": "La Piedra de Rosetta",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/RosettaStone.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/rosetta_stone.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Kiss",
+            "fr": "Le Baiser",
+            "es": "El beso",
+            "zh": "《吻》"
+        },
+        "Artist": {
+            "en": "Gustav Klimt",
+            "fr": "Gustav Klimt",
+            "es": "Gustav Klimt",
+            "zh": "古斯塔夫·克林姆"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Klimt_TheKiss1908.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Klimt_TheKiss1908.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Ivory Reindeer",
+            "fr": "Les Rennes qui nagent",
+            "es": "Los Renos Nadadores",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/swimming_reindeers_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Dance at Le moulin de la Galette",
+            "fr": "Bal du moulin de la Galette",
+            "es": "Baile en el Moulin de la Galette",
+            "zh": "《煎餅磨坊的舞會》"
+        },
+        "Artist": {
+            "en": "Auguste Renoir",
+            "fr": "Auguste Renoir",
+            "es": "Auguste Renoir",
+            "zh": "皮耶-奧古斯特·雷諾瓦"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Renoir_LeMoulindelaGalette1876.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Renoir_LeMoulindelaGalette1876.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Scream",
+            "fr": "Le Cri",
+            "es": "El grito",
+            "zh": "《吶喊》"
+        },
+        "Artist": {
+            "en": "Edvard Munch",
+            "fr": "Edvard Munch",
+            "es": "Edvard Munch",
+            "zh": "爱德华·蒙克"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Munch_TheScream1910.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Munch_TheScream1910.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Raft of the Medusa",
+            "fr": "Le Radeau de La Méduse",
+            "es": "La balsa de la Medusa",
+            "zh": "《美杜莎之筏》"
+        },
+        "Artist": {
+            "en": "Théodore Géricault",
+            "fr": "Théodore Géricault",
+            "es": "Théodore Géricault",
+            "zh": "西奧多·傑利柯"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Gericault_TheRaftoftheMedusa1819.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Raft_Meusa_NEW.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Fighting Temeraire",
+            "fr": "Le Dernier Voyage du Téméraire",
+            "es": "El Temerario remolcado a dique seco",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Joseph Mallord William Turner",
+            "fr": "Joseph Mallord William Turner",
+            "es": "Joseph Mallord William Turner",
+            "zh": "约瑟夫·玛罗德·威廉·特纳"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Turner_TheFightingTemeraire1839.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Turner_TheFightingTemeraire1839.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Dying & Rebellious Slaves",
+            "fr": "L'Esclave mourant & L'Esclave Rebelle",
+            "es": "Esclavo moribundo & Esclavo rebelde",
+            "zh": "《垂死的奴隶》《被缚的奴隶》"
+        },
+        "Artist": {
+            "en": "Michelangelo",
+            "fr": "Michel-Ange",
+            "es": "Miguel Ángel",
+            "zh": "米开朗基罗"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/MichelAngelo_Slaves1516.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Mona Lisa",
+            "fr": "La Joconde",
+            "es": "La Gioconda",
+            "zh": "《蒙娜丽莎》"
+        },
+        "Artist": {
+            "en": "Leonardo da Vinci",
+            "fr": "Léonard de Vinci",
+            "es": "Leonardo da Vinci",
+            "zh": "列奥纳多·达·芬奇"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/DaVinci_MonaLisa1503.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/mona_lisa.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Sutton Hoo Helmet",
+            "fr": "Le Casque de Sutton Hoo",
+            "es": "El Casco de Sutton Hoo",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/sutton_hoo_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Bouquet of Sunflowers",
+            "fr": "Bouquet de tournesols",
+            "es": "Ramo de girasoles",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Claude Monet",
+            "fr": "Claude Monet",
+            "es": "Claude Monet",
+            "zh": "克勞德·莫奈"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Monet_BouquetofSunflowers1881.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Monet_BouquetofSunflowers1881.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Aztec Mosaic Serpent",
+            "fr": "Serpent aztèque en mosaïque",
+            "es": "Serpiente azteca de mosaico",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/aztec_serpent.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/aztec_serpent_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Benin Ivory Mask",
+            "fr": "Masque-pendentif du Bénin",
+            "es": "Máscara de marfil de Benín",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/BeninMask.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/benin_mask_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Melencolia I",
+            "fr": "Melencolia I",
+            "es": "Melancolía I",
+            "zh": "《忧郁 I》"
+        },
+        "Artist": {
+            "en": "Albrecht Dürer",
+            "fr": "Albrecht Dürer",
+            "es": "Alberto Durero",
+            "zh": "阿尔布雷希特·丢勒"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Durer_Melancholia1514.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Durer_Melancholia1514.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Samurai Armour",
+            "fr": "Armure du samouraï",
+            "es": "Armadura samurái",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/samurai_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Large Bathers",
+            "fr": "Les Grandes Baigneuses",
+            "es": "Las grandes bañistas",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Paul Cézanne",
+            "fr": "Paul Cézanne",
+            "es": "Paul Cézanne",
+            "zh": "保罗·塞尚"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Cezanne_TheLargeBathers1906.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Cezanne_TheLargeBathers1906.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Hoa Hakananai'a",
+            "fr": "Hoa Hakananai'a",
+            "es": "Hoa Hakananai'a",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/HoaHead.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/hoa_head_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Standard of Ur",
+            "fr": "L'Étendard d'Ur",
+            "es": "El Estandarte de Ur",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": ""
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/standard_of_ur_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Ship of Fools",
+            "fr": "La Nef des fous",
+            "es": "La nave de los locos",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Hieronymus Bosch",
+            "fr": "Jérôme Bosch",
+            "es": "El Bosco",
+            "zh": ""
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Bosch_TheShipofFools1500.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Bosch_TheShipofFools1500.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Birth of Venus",
+            "fr": "La Naissance de Vénus",
+            "es": "El nacimiento de Venus",
+            "zh": "《維納斯的誕生》"
+        },
+        "Artist": {
+            "en": "Sandro Botticelli",
+            "fr": "Sandro Botticelli",
+            "es": "Sandro Botticelli",
+            "zh": "桑德罗·波提切利"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Botticelli_TheBirthofVenus1485.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Botticelli_TheBirthofVenus1485.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Hunters in the Snow",
+            "fr": "Chasseurs dans la neige",
+            "es": "Los cazadores en la nieve",
+            "zh": "《雪中獵人》"
+        },
+        "Artist": {
+            "en": "Pieter Bruegel the Elder",
+            "fr": "Pieter Brueghel l'Ancien",
+            "es": "Pieter Brueghel el Viejo",
+            "zh": "老彼得·勃鲁盖尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/BruegheltheElder_HuntersintheSnow1565.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/BruegheltheElder_HuntersintheSnow1565.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Statue of Ramesses II",
+            "fr": "Buste de Ramsès II",
+            "es": "Busto de Ramses II",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/RamessesII.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/ramessesII_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Landscape with the Fall of Icarus",
+            "fr": "La Chute d'Icare",
+            "es": "Paisaje con la caída de Ícaro",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Pieter Bruegel the Elder",
+            "fr": "Pieter Brueghel l'Ancien",
+            "es": "Pieter Brueghel el Viejo",
+            "zh": "老彼得·勃鲁盖尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/BruegheltheElder_LandscapewiththeFallofIcarus1558.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/BruegheltheElder_LandscapeWithTheFallofIcarus1558.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Shipwreck",
+            "fr": "Le Naufrage",
+            "es": "El Naufragio",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Claude-Joseph Vernet",
+            "fr": "Claude-Joseph Vernet",
+            "es": "Claude-Joseph Vernet",
+            "zh": ""
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Vernet_TheShipwreck1772.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Vernet_TheShipwreck1772.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Milkmaid",
+            "fr": "La Laitière",
+            "es": "La lechera",
+            "zh": "《倒牛奶的女僕》"
+        },
+        "Artist": {
+            "en": "Johannes Vermeer",
+            "fr": "Johannes Vermeer",
+            "es": "Johannes Vermeer",
+            "zh": "扬·弗美尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Vermeer_TheMilkmaid1660.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Vermeer_TheMilkmaid1660.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Ancient Italy - Ovid Banished from Rome",
+            "fr": "Ovide banni de Rome",
+            "es": "Ovidio desterrado de Roma",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Joseph Mallord William Turner",
+            "fr": "Joseph Mallord William Turner",
+            "es": "Joseph Mallord William Turner",
+            "zh": "约瑟夫·玛罗德·威廉·特纳"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Turner_OvidBanishedFromRome1838.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Turner_OvidBanishedfromRome1838.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "A Sunday Afternoon on the Island of La Grande Jatte",
+            "fr": "Un dimanche après-midi à l'Île de la Grande Jatte",
+            "es": "Tarde de domingo en la isla de la Grande Jatte",
+            "zh": "《大碗岛的星期天下午》"
+        },
+        "Artist": {
+            "en": "Georges Seurat",
+            "fr": "Georges Seurat",
+            "es": "Georges Seurat",
+            "zh": "喬治·秀拉"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Seurat_StudyforaSunday1884.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Seurat_StudyForaSunday1884.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Tower of Babel",
+            "fr": "La Tour de Babel",
+            "es": "La torre de Babel",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Pieter Bruegel the Elder",
+            "fr": "Pieter Brueghel l'Ancien",
+            "es": "Pieter Brueghel el Viejo",
+            "zh": "老彼得·勃鲁盖尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/BruegheltheElder_TowerofBabel1563.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/BruegheltheElder_TowerofBabel1563.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Mont Sainte-Victoire and Hamlet Near Gardanne",
+            "fr": "Hameau à Payennet près de Gardanne",
+            "es": "Aldea en Payennet cerca de Gardanne",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Paul Cézanne",
+            "fr": "Paul Cézanne",
+            "es": "Paul Cézanne",
+            "zh": "保罗·塞尚"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Cezanne_HamletatPayannetnearGardanne1890.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Cezanne_HamletatPayannetnearGardanne1890.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Bathers",
+            "fr": "Les Baigneurs",
+            "es": "Bañistas",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Paul Cézanne",
+            "fr": "Paul Cézanne",
+            "es": "Paul Cézanne",
+            "zh": "保罗·塞尚"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Cezanne_Baigneurs1892.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Cezanne_Baigneurs1892.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Virgin of the Rocks",
+            "fr": "La Vierge aux rochers",
+            "es": "La Virgen de las Rocas",
+            "zh": "《岩間聖母》"
+        },
+        "Artist": {
+            "en": "Leonardo da Vinci",
+            "fr": "Léonard de Vinci",
+            "es": "Leonardo da Vinci",
+            "zh": "列奥纳多·达·芬奇"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/DaVinci_VerginedelleRocce1483.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Da Vinci_VerginedelleRocce1483.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Exekias Amphora",
+            "fr": "L'Amphore d'Exékias",
+            "es": "El Ánfora de Exequias",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Exekias.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/exekias.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Sleeping Gypsy",
+            "fr": "La Bohémienne endormie",
+            "es": "La gitana dormida",
+            "zh": "《沉睡的吉普赛人》"
+        },
+        "Artist": {
+            "en": "Henri Rousseau",
+            "fr": "Henri Rousseau, dit Le Douanier",
+            "es": "Henri Rousseau, llamado 'El aduanero'",
+            "zh": "亨利·朱利安·費利克斯·盧梭"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Rousseau_TheSleepingGypsy1897.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Rousseau_TheSleepingGypsy1897.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Wine Glass",
+            "fr": "Le Verre de vin",
+            "es": "Dama bebiendo con un caballero",
+            "zh": "《一杯酒》"
+        },
+        "Artist": {
+            "en": "Johannes Vermeer",
+            "fr": "Johannes Vermeer",
+            "es": "Johannes Vermeer",
+            "zh": "扬·弗美尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Vermeer_TheGlassofWine1661.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Vermeer_TheGlassofWine1661.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Girl with a Pearl Earring",
+            "fr": "La Jeune Fille à la perle",
+            "es": "La joven de la perla",
+            "zh": "《戴珍珠耳環的少女》"
+        },
+        "Artist": {
+            "en": "Johannes Vermeer",
+            "fr": "Johannes Vermeer",
+            "es": "Johannes Vermeer",
+            "zh": "扬·弗美尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Vermeer_TheGirlWithThePearlEarring1665.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Vermeer_TheGirlWithThePearlEarring1665.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Bedroom in Arles",
+            "fr": "La Chambre de Van Gogh à Arles",
+            "es": "El dormitorio en Arlés",
+            "zh": "《在亞爾的臥室》"
+        },
+        "Artist": {
+            "en": "Vincent van Gogh",
+            "fr": "Vincent van Gogh",
+            "es": "Vincent van Gogh",
+            "zh": "文森特·梵高"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanGogh_TheBedroom1888.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanGogh_TheBedroom1888.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Starry Night",
+            "fr": "La Nuit étoilée",
+            "es": "La noche estrellada",
+            "zh": "《星夜》"
+        },
+        "Artist": {
+            "en": "Vincent van Gogh",
+            "fr": "Vincent van Gogh",
+            "es": "Vincent van Gogh",
+            "zh": "文森特·梵高"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanGogh_StarryNight1889.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanGogh_StarryNight1889.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Autoportrait",
+            "fr": "Self-portrait",
+            "es": "Autorretrato",
+            "zh": "《自画像》"
+        },
+        "Artist": {
+            "en": "Vincent van Gogh",
+            "fr": "Vincent van Gogh",
+            "es": "Vincent van Gogh",
+            "zh": "文森特·梵高"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanGogh_SelfPortrait1889.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanGogh_SelfPortrait1889.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Lacemaker",
+            "fr": "La Dentellière",
+            "es": "La encajera",
+            "zh": "《编花边的女工》"
+        },
+        "Artist": {
+            "en": "Johannes Vermeer",
+            "fr": "Johannes Vermeer",
+            "es": "Johannes Vermeer",
+            "zh": "扬·弗美尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Vermeer_TheLacemaker1670.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/The_Lacemaker_Large.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Sunflowers",
+            "fr": "Les Tournesols",
+            "es": "Los girasoles",
+            "zh": "《向日葵》"
+        },
+        "Artist": {
+            "en": "Vincent van Gogh",
+            "fr": "Vincent van Gogh",
+            "es": "Vincent van Gogh",
+            "zh": "文森特·梵高"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanGogh_Sunflowers1889.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanGogh_Sunflowers1889.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Madonna of Chancellor Rolin",
+            "fr": "La Vierge du chancelier Rolin",
+            "es": "La Virgen del canciller Rolin",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Jan van Eyck",
+            "fr": "Jan van Eyck",
+            "es": "Jan van Eyck",
+            "zh": "扬·范·艾克"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanEyck_TheVirginofChancellorRolin1435.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanEyck_TheVirginofChancellorRolin1435.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Vitruvian Man",
+            "fr": "L'Homme de Vitruve",
+            "es": "Hombre de Vitruvio",
+            "zh": "《维特鲁威人》"
+        },
+        "Artist": {
+            "en": "Leonardo da Vinci",
+            "fr": "Léonard de Vinci",
+            "es": "Leonardo da Vinci",
+            "zh": "列奥纳多·达·芬奇"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/DaVinci_Vitruve1492.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Da Vinci_Vitruve1492.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Flagellation of Christ",
+            "fr": "La Flagellation du Christ",
+            "es": "La flagelación de Cristo",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Piero della Francesca",
+            "fr": "Piero della Francesca",
+            "es": "Piero della Francesca",
+            "zh": "保罗·塞尚"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/dellaFrancesca_LaFlagellationduChrist.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/dellaFrancesca_LaFlagellationduChrist.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Saint Jerome in His Study",
+            "fr": "Saint Jérôme dans son étude",
+            "es": "San Jerónimo en su gabinete",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Albrecht Dürer",
+            "fr": "Albrecht Dürer",
+            "es": "Alberto Durero",
+            "zh": "阿尔布雷希特·丢勒"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Durer_SaintJeromeinhisStudy1514.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Durer_SaintJeromeinhisStudy1514.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Self-Portrait",
+            "fr": "Autoportrait",
+            "es": "Autorretrato",
+            "zh": "《自画像》"
+        },
+        "Artist": {
+            "en": "Albrecht Dürer",
+            "fr": "Albrecht Dürer",
+            "es": "Alberto Durero",
+            "zh": "阿尔布雷希特·丢勒"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Durer_selfportrait1500.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Durer_selfportrait1500.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Wanderer above the Sea of Fog",
+            "fr": "Le Voyageur contemplant une mer de nuages",
+            "es": "El caminante sobre el mar de nubes",
+            "zh": "《雾海上的旅人》"
+        },
+        "Artist": {
+            "en": "Caspar David Friedrich",
+            "fr": "Caspar David Friedrich",
+            "es": "Caspar David Friedrich",
+            "zh": "卡斯帕·大衛·弗雷德里希"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Friedrich_WandererAboveTheSeaofFog1818.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Friedrich_WandererAboveTheSeaofFog1818.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Sea Port at Sunset",
+            "fr": "Port de mer au soleil couchant",
+            "es": "Puesta de sol en un puerto",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Claude Lorrain",
+            "fr": "Claude Gellée",
+            "es": "Claudio de Lorena",
+            "zh": "克罗德·洛林"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Gellee_PortauSoleilCouchant1663.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Gellee_PortauSoleilCouchant1663.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Isenheim Altarpiece: The Crucifixion",
+            "fr": "Retable d'Issenheim: La Crucifixion",
+            "es": "Retablo de Isenheim: La Crucifixión",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Matthias Grünewald",
+            "fr": "Matthias Grünewald",
+            "es": "Matthias Grünewald",
+            "zh": "马蒂亚斯·格吕内瓦尔德"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Grunewald_TheCrucifixion1515.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Grunewald_TheCrucifixion1515.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Arnolfini Portrait",
+            "fr": "Les Époux Arnolfini",
+            "es": "Retrato de Giovanni Arnolfini y su esposa",
+            "zh": "《阿尔诺非尼夫妇》"
+        },
+        "Artist": {
+            "en": "Jan van Eyck",
+            "fr": "Jan van Eyck",
+            "es": "Jan van Eyck",
+            "zh": "扬·范·艾克"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanEyck_ArnolfiniPortrait1434.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanEyck_ArnolfiniPortrait1434.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Snow Storm: Steam-Boat off a Harbour's Mouth",
+            "fr": "Tempête de neige en mer",
+            "es": "Tormenta de nieve sobre el mar",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Joseph Mallord William Turner",
+            "fr": "Joseph Mallord William Turner",
+            "es": "Joseph Mallord William Turner",
+            "zh": "约瑟夫·玛罗德·威廉·特纳"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Turner_SnowStormSteamBoatoffaHarboursMouth1842.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Turner_SnowStormSteamBoatOffaHarboursMouth1842.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Hungry Lion Throws Itself on the Antelope",
+            "fr": "Le lion ayant faim se jette sur l'antilope",
+            "es": "León hambriento atacando a un antílope",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Henri Rousseau",
+            "fr": "Henri Rousseau, dit Le Douanier",
+            "es": "Henri Rousseau, llamado 'El aduanero'",
+            "zh": "亨利·朱利安·費利克斯·盧梭"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Rousseau_TheHungryLionAttackinganAntelope1905.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Rousseau_TheHungryLionAttackinganAntelope1905.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Umbrellas",
+            "fr": "Les Parapluies",
+            "es": "Los paraguas",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Auguste Renoir",
+            "fr": "Auguste Renoir",
+            "es": "Auguste Renoir",
+            "zh": "皮耶-奧古斯特·雷諾瓦"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Renoir_TheUmbrellas1885.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Renoir_TheUmbrellas1885.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Summer night by the beach",
+            "fr": "Nuit d'été sur la plage",
+            "es": "Noche de verano en la playa",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Edvard Munch",
+            "fr": "Edvard Munch",
+            "es": "Edvard Munch",
+            "zh": "爱德华·蒙克"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Munch_SummerNightByTheBeach1903.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Munch_SummerNightbyTheBeach1903.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Melancholy",
+            "fr": "Mélancolie",
+            "es": "Melancolía",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Edvard Munch",
+            "fr": "Edvard Munch",
+            "es": "Edvard Munch",
+            "zh": "爱德华·蒙克"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Munch_Melancholy1896.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Munch_Melancholy1896.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Venus de Milo",
+            "fr": "La Vénus de Milo",
+            "es": "La Venus de Milo",
+            "zh": "《米洛的维纳斯》"
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Unknown_Milo100BC.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Milo_new.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Ambassadors",
+            "fr": "Les Ambassadeurs",
+            "es": "Los embajadores",
+            "zh": "《出訪英國宮廷的法國大使》"
+        },
+        "Artist": {
+            "en": "Hans Holbein the Younger",
+            "fr": "Hans Holbein le Jeune",
+            "es": "Hans Holbein el Joven",
+            "zh": "小汉斯·霍尔拜因"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Holbein_TheAmbassadors1533.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Holbein_TheAmbassadors1533.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Breezing Up",
+            "fr": "Breezing Up",
+            "es": "Breezing Up",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Winslow Homer",
+            "fr": "Winslow Homer",
+            "es": "Winslow Homer",
+            "zh": "温斯洛·霍默"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Homer_BreezingUp1873.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Homer_BreezingUp1873.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Nighthawks",
+            "fr": "Nighthawks",
+            "es": "Nighthawks",
+            "zh": "《夜遊者》"
+        },
+        "Artist": {
+            "en": "Edward Hopper",
+            "fr": "Edward Hopper",
+            "es": "Edward Hopper",
+            "zh": "愛德華·霍普"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Hopper_Nighthawks1942.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Hopper_Nighthawks1942.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Luncheon on the Grass",
+            "fr": "Le Déjeuner sur l’herbe",
+            "es": "Almuerzo sobre la hierba",
+            "zh": "《草地上的午餐》"
+        },
+        "Artist": {
+            "en": "Édouard Manet",
+            "fr": "Édouard Manet",
+            "es": "Édouard Manet",
+            "zh": "愛德華·馬奈"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Manet_LeDejeunersurlHerbe1863.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Manet_LeDejeunersurlHerbe1863.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Portland Vase",
+            "fr": "Le Vase Portland",
+            "es": "La Vasija de Portland",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/PortlandVase.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/portland_vase_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Bridge over a Pond of Water Lilies",
+            "fr": "Le Bassin aux nymphéas, harmonie verte",
+            "es": "Estanque de los nenúfares, armonía en verde",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Claude Monet",
+            "fr": "Claude Monet",
+            "es": "Claude Monet",
+            "zh": "克勞德·莫奈"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Monet_BridgeOveraPondofWaterLilies1899.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Monet_BridgeOveraPondofWaterLilies1899.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "Parthenon Pediments",
+            "fr": "Frontons du Parthénon",
+            "es": "Frontones del Partenón",
+            "zh": ""
+        },
+        "Artist": {
+            "en": "Unknown",
+            "fr": "Inconnu",
+            "es": "Desonocido",
+            "zh": "名不见经传的 "
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Parthenon.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/parthenon_default.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
     }
-  }
 ]
