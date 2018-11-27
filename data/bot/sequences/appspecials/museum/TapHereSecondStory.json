@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Thanks for that!",
-                "fr": "Thanks for that!",
+                "fr": "Merci !",
                 "es": "Thanks for that!"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Now, how about another story?!",
-                "fr": "Now, how about another story?!",
+                "fr": "Maintenant, que dirais-tu d'une autre histoire ?!",
                 "es": "Now, how about another story?!"
             }
         }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Sure!",
-                "fr": "Sure!",
+                "fr": "Bien sûr !",
                 "es": "Sure!"
             },
             "Steps": [
@@ -34,7 +34,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Great! These are some of my favourites!",
-                        "fr": "Great! These are some of my favourites!",
+                        "fr": "Super ! Celles-ci font partie de mes préférées !",
                         "es": "Great! These are some of my favourites!"
                     }
                 }
@@ -52,8 +52,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Lion Hunts",
-                            "fr": "Lion Hunts",
-                            "es": "Lion Hunts"
+                            "fr": "Chasse au lion",
+                            "es": "Caza de leones"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -76,8 +76,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "The Rosetta Stone",
-                            "fr": "The Rosetta Stone",
-                            "es": "The Rosetta Stone"
+                            "fr": "La Pierre de Rosette",
+                            "es": "La Piedra de Rosetta"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -100,8 +100,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Aztec Serpent",
-                            "fr": "Aztec Serpent",
-                            "es": "Aztec Serpent"
+                            "fr": "Serpent aztèque",
+                            "es": "Serpiente azteca"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -127,7 +127,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thanks",
-                "fr": "No thanks",
+                "fr": "Non merci",
                 "es": "No thanks"
             },
             "Steps": [
@@ -135,7 +135,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, no problem!",
-                        "fr": "Alright, no problem!",
+                        "fr": "D'accord, pas de souci !",
                         "es": "Alright, no problem!"
                     }
                 }
