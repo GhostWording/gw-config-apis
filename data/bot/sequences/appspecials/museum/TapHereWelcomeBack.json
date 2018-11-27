@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Welcome back! 🎉",
-                "fr": "Welcome back! 🎉",
+                "fr": "Content de te retrouver ! 🎉",
                 "es": "Welcome back! 🎉"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I hope you've been enjoying the app!",
-                "fr": "I hope you've been enjoying the app!",
+                "fr": "J'espère que tu profites bien de l'app !",
                 "es": "I hope you've been enjoying the app!"
             }
         }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "I have!",
-                "fr": "I have!",
+                "fr": "Oui !",
                 "es": "I have!"
             },
             "Steps":[
@@ -34,7 +34,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wow! That's great news...",
-                        "fr": "Wow! That's great news...",
+                        "fr": "Wahou, c'est super...",
                         "es": "Wow! That's great news..."
                     }
                 },
@@ -42,7 +42,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "In that case... why not rate the app?",
-                        "fr": "In that case... why not rate the app?",
+                        "fr": "Dans ce cas... pourquoi ne pas noter l'app ?",
                         "es": "In that case... why not rate the app?"
                     }
                 },
@@ -57,7 +57,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Thanks so much! It would help me a lot!",
-                        "fr": "Thanks so much! It would help me a lot!",
+                        "fr": "Merci beaucoup ! Ça m'aiderait beaucoup !",
                         "es": "Thanks so much! It would help me a lot!"
                     }
                 }
@@ -69,7 +69,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not so much",
-                "fr": "Not so much",
+                "fr": "Pas vraiment",
                 "es": "Not so much"
             },
             "Steps":[
@@ -77,7 +77,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Oh no! I'm sorry to hear it 😞",
-                        "fr": "Oh no! I'm sorry to hear it 😞",
+                        "fr": "Oh non ! Je suis désolé d'entendre ça 😞",
                         "es": "Oh no! I'm sorry to hear it 😞"
                     }
                 },
@@ -85,7 +85,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "How can I improve?!",
-                        "fr": "How can I improve?!",
+                        "fr": "Comment je peux m'améliorer ?!",
                         "es": "How can I improve?!"
                     }
                 },
@@ -93,7 +93,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'll try to fix the issue...",
-                        "fr": "I'll try to fix the issue...",
+                        "fr": "J'essaierai de remédier à ça...",
                         "es": "I'll try to fix the issue..."
                     }
                 }
