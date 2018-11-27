@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I want to ask a quick question...",
-                "fr": "I want to ask a quick question...",
+                "fr": "J'aimerais te poser une petite question...",
                 "es": "I want to ask a quick question...",
                 "zh": "I want to ask a quick question..."
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "What do you like most about my app?",
-                "fr": "What do you like most about my app?",
+                "fr": "Qu'est-ce que tu préfères dans l'app ?",
                 "es": "What do you like most about my app?",
                 "zh": "What do you like most about my app?"
             }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "You, Mr. Owl!",
-                "fr": "You, Mr. Owl!",
+                "fr": "Toi, M. Chouette!",
                 "es": "You, Mr. Owl!",
                 "zh": "You, Mr. Owl!"
             },
@@ -36,10 +36,10 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "You are too kind... ☺",
-                        "fr": "You are too kind... ☺",
-                        "es": "You are too kind... ☺",
-                        "zh": "You are too kind... ☺"
+                        "en": "You are too kind... 😄",
+                        "fr": "Tu es trop gentil... 😄",
+                        "es": "You are too kind... 😄",
+                        "zh": "You are too kind... 😄"
                     }
                 }
             ]
@@ -50,7 +50,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The stories!",
-                "fr": "The stories!",
+                "fr": "Les histoires !",
                 "es": "The stories!",
                 "zh": "The stories!"
             },
@@ -59,7 +59,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Great! I'll start to think of some more...",
-                        "fr": "Great! I'll start to think of some more...",
+                        "fr": "Super ! Je vais commencer à réfléchir à d'autres...",
                         "es": "Great! I'll start to think of some more...",
                         "zh": "Great! I'll start to think of some more..."
                     }
@@ -72,7 +72,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The images!",
-                "fr": "The images!",
+                "fr": "Les photos !",
                 "es": "The images!",
                 "zh": "The images!"
             },
@@ -81,7 +81,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "That's great news! Remember you can tap and zoom for close-ups!",
-                        "fr": "That's great news! Remember you can tap and zoom for close-ups!",
+                        "fr": "C'est super ça ! N'oublie pas que tu peux cliquer dessus et zoomer pour les voir de plus près !",
                         "es": "That's great news! Remember you can tap and zoom for close-ups!",
                         "zh": "That's great news! Remember you can tap and zoom for close-ups!"
                     }
@@ -94,7 +94,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The design!",
-                "fr": "The design!",
+                "fr": "Le design !",
                 "es": "The design!",
                 "zh": "The design!"
             },
@@ -103,7 +103,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wow, thanks! I'm glad you find it intuitive!",
-                        "fr": "Wow, thanks! I'm glad you find it intuitive!",
+                        "fr": "Wow, merci ! Je suis content que tu trouves ça intuitif !",
                         "es": "Wow, thanks! I'm glad you find it intuitive!",
                         "zh": "Wow, thanks! I'm glad you find it intuitive!"
                     }
@@ -116,7 +116,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "The maps!",
-                "fr": "The maps!",
+                "fr": "Les plans !",
                 "es": "The maps!",
                 "zh": "The maps!"
             },
@@ -125,7 +125,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, the last thing I want is for you to get lost! 😜",
-                        "fr": "Well, the last thing I want is for you to get lost! 😜",
+                        "fr": "Eh bien, la dernière chose que je veux c'est que tu te perdes ! 😜",
                         "es": "Well, the last thing I want is for you to get lost! 😜",
                         "zh": "Well, the last thing I want is for you to get lost! 😜"
                     }
