@@ -3,8 +3,8 @@
         "Id": "Prehistoric",
         "Caption": {
             "en": "Prehistory",
-            "fr": "Prehistory",
-            "es": "Prehistory",
+            "fr": "Préhistoire",
+            "es": "Prehistoria",
             "zh": ""
         },
         "DefaultImage": {
@@ -22,8 +22,8 @@
         "Id": "Ancient",
         "Caption": {
             "en": "Ancient Period",
-            "fr": "Ancient Period",
-            "es": "Ancient Period",
+            "fr": "Antiquité",
+            "es": "Edad Antigua",
             "zh": ""
         },
         "DefaultImage": {
@@ -50,8 +50,8 @@
         "Id": "Archaic",
         "Caption": {
             "en": "The Archaic Era",
-            "fr": "The Archaic Era",
-            "es": "The Archaic Era",
+            "fr": "Époque archaïque",
+            "es": "Período arcaico",
             "zh": ""
         },
         "DefaultImage": {
@@ -72,8 +72,8 @@
         "Id": "Classical",
         "Caption": {
             "en": "Classical Period",
-            "fr": "Classical Period",
-            "es": "Classical Period",
+            "fr": "Époque classique",
+            "es": "Época Clásica",
             "zh": ""
         },
         "DefaultImage": {
@@ -97,8 +97,8 @@
         "Id": "Hellenistic",
         "Caption": {
             "en": "Hellenistic Period",
-            "fr": "Hellenistic Period",
-            "es": "Hellenistic Period",
+            "fr": "Époque hellénistique",
+            "es": "Período helenístico",
             "zh": ""
         },
         "DefaultImage": {
@@ -125,8 +125,8 @@
         "Id": "MiddleAges",
         "Caption": {
             "en": "The Middle Ages",
-            "fr": "The Middle Ages",
-            "es": "The Middle Ages",
+            "fr": "Moyen Âge",
+            "es": "Edad Media",
             "zh": ""
         },
         "DefaultImage": {
@@ -159,8 +159,8 @@
         "Id": "EarlyModern",
         "Caption": {
             "en": "Early Modern",
-            "fr": "Early Modern",
-            "es": "Early Modern",
+            "fr": "Époque moderne",
+            "es": "Edad Moderna",
             "zh": ""
         },
         "DefaultImage": {
@@ -177,215 +177,6 @@
             },
             {
                 "Id": "Samurai"
-            }
-        ]
-    },
-    {
-        "Id": "test1",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196965/Minute%20Art/Gallery%20Thumbnails/Bosch_-_The_Ship_of_Fools_1500.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test2",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196965/Minute%20Art/Gallery%20Thumbnails/Botticelli_-_Primavera_1487.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test3",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196966/Minute%20Art/Gallery%20Thumbnails/Botticelli_-_The_Birth_of_Venus_1485.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test4",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196966/Minute%20Art/Gallery%20Thumbnails/Brueghel_the_Elder_-_Hunters_in_the_Snow_1565.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test5",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196967/Minute%20Art/Gallery%20Thumbnails/Brueghel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_1558.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test6",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196963/Minute%20Art/Gallery%20Thumbnails/C%C3%A9zanne_-_Hamlet_at_Payannet_near_Gardanne_1890.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test7",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196963/Minute%20Art/Gallery%20Thumbnails/C%C3%A9zanne_-_Baigneurs_1892.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test8",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196963/Minute%20Art/Gallery%20Thumbnails/Da_Vinci_-_Vergine_delle_Rocce_1483.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test9",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196963/Minute%20Art/Gallery%20Thumbnails/Da_Vinci_-_Vitruve_1492.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test10",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196962/Minute%20Art/Gallery%20Thumbnails/Brueghel_the_Elder_-_Tower_of_Babel_1563.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
-            }
-        ]
-    },
-    {
-        "Id": "test11",
-        "Caption": {
-            "en": "",
-            "fr": "",
-            "es": "",
-            "zh": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1542196963/Minute%20Art/Gallery%20Thumbnails/C%C3%A9zanne_-_The_Large_Bathers_1906.jpg"
-        },
-        "PeriodSequenceId": "BestTestFragmentEver",
-        "Artworks": [
-            {
-                "Id": "Reindeer"
             }
         ]
     }
