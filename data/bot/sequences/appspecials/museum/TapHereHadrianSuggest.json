@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Here's a teaser for one of my stories:",
-                "fr": "Here's a teaser for one of my stories:",
+                "fr": "Voici un petit avant goût de l'une de mes histoires :",
                 "es": "Here's a teaser for one of my stories:",
                 "zh": "Here's a teaser for one of my stories:"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It's about a Roman emperor who was famous for fashion and travel!",
-                "fr": "It's about a Roman emperor who was famous for fashion and travel!",
+                "fr": "C'est à propos d'un empereur romain qui était connu pour son style et ses voyages !",
                 "es": "It's about a Roman emperor who was famous for fashion and travel!",
                 "zh": "It's about a Roman emperor who was famous for fashion and travel!"
             }
@@ -31,7 +31,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Surely that interests you! 😄",
-                "fr": "Surely that interests you! 😄",
+                "fr": "Je suis sûr que ça t'intéresse ! 😄",
                 "es": "Surely that interests you! 😄",
                 "zh": "Surely that interests you! 😄"
             }
@@ -44,7 +44,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
-                "fr": "Yes!",
+                "fr": "Oui !",
                 "es": "Yes!",
                 "zh": "Yes!"
             },
@@ -53,7 +53,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'm not surprised! Here comes the story...",
-                        "fr": "I'm not surprised! Here comes the story...",
+                        "fr": "Je le savais ! Voici l'histoire...",
                         "es": "I'm not surprised! Here comes the story...",
                         "zh": "I'm not surprised! Here comes the story..."
                     }
@@ -69,7 +69,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not really!",
-                "fr": "Not really!",
+                "fr": "Pas vraiment !",
                 "es": "Not really!",
                 "zh": "Not really!"
             },
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Hmm, OK. I'll rethink my strategy 🤔",
-                        "fr": "Hmm, OK. I'll rethink my strategy 🤔",
+                        "fr": "Hmm, d'accord. Je repenserai ma stratégie 🤔",
                         "es": "Hmm, OK. I'll rethink my strategy 🤔",
                         "zh": "Hmm, OK. I'll rethink my strategy 🤔"
                     }
