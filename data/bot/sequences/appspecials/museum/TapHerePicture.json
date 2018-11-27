@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Let me show you one of my favourite pictures!",
-                "fr": "Let me show you one of my favourite pictures!",
+                "fr": "Laisse-moi te montrer l'une de mes photos préférées !",
                 "es": "Let me show you one of my favourite pictures!"
             }
         },
@@ -21,7 +21,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Weird, isn't it! Want to hear about it?",
-                "fr": "Weird, isn't it! Want to hear about it?",
+                "fr": "Etrange, n'est-ce pas ? Tu veux entendre l'histoire ?",
                 "es": "Weird, isn't it! Want to hear about it?"
             }
         }
@@ -33,7 +33,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Definitely!",
-                "fr": "Definitely!",
+                "fr": "Avec plaisir !",
                 "es": "Definitely!"
             },
             "Steps":[
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright! Here we go...",
-                        "fr": "Alright! Here we go...",
+                        "fr": "D'accord ! C'est parti...",
                         "es": "Alright! Here we go..."
                     }
                 }
@@ -56,7 +56,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not right now!",
-                "fr": "Not right now!",
+                "fr": "Pas maintenant !",
                 "es": "Not right now!"
             },
             "Steps":[
@@ -64,7 +64,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "No problem! Let's try something else...",
-                        "fr": "No problem! Let's try something else...",
+                        "fr": "Pas de problème ! Essayons quelque chose d'autre...",
                         "es": "No problem! Let's try something else..."
                     }
                 }
