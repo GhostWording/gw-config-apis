@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "While the chapel is altogether amazingly beautiful, it’s most defining feature is the inclusion of over 1000 stained glass panels that make up the roof!",
+                "fr": "Bien que la chapelle soit incroyablement belle, sa caractéristique la plus marquante est l'inclusion de plus de 1000 vitraux qui composent le toit !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 960,
+                "Height": 507,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543233616/8chapelle_roof.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They’re so well organised and built that it is said there has never been a crack or breakage in almost 800 years!",
+                "fr": "Ils sont si bien agencés et réalisés qu'on dit qu'il n'y a jamais eu une seule fissure ou casse en presque 800 ans !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle7Believe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I don’t believe it",
+                "fr": "Je n'y crois pas",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle8"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle7Amazing",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Amazing",
+                "fr": "Magnifique",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle8"
+            }
+        }
+    ]
+}
+                    
+
