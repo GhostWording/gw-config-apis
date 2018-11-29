@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A plan was drawn up to redesign the centre yet again, and work was completed in 2018!",
+                "fr": "Un plan a été élaboré pour réaménagé le centre une fois de plus, et les travaux ont été achevées en 2018 !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1088,
+                "Height": 725,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543231065/8halles_today.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How do you like the new version?",
+                "fr": "Comment trouves-tu la nouvelle version ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles6Best",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It’s the best",
+                "fr": "C'est la meilleure",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles7"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles6Old",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I prefer the old",
+                "fr": "Je préfère l'ancienne",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles7"
+            }
+        }
+    ]
+}
