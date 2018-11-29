@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1200,
+                "Height": 766,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236362/Minute%20Art/Sequences/Building.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Welcome! Have you ever seen this building before? It's the Opera Garnier!",
+                "fr": "Bienvenue ! As-tu déjà vu ce bâtiment ? C'est l'Opéra Garnier !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Any idea why it gets that name?",
+                "fr": "Tu sais pourquoi il s'appelle comme ça ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnierOpera",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "They show opera",
+                "fr": "Il y a des opéras",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "PalaisGarnier2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnierCosmetics",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "They sell cosmetics",
+                "fr": "Ils vendent des cosmétiques",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "PalaisGarnier2"
+            }
+        }
+    ]
+}
