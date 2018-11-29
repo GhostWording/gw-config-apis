@@ -1,0 +1,150 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So that was one reason for buying the relics and making the chapel. Another was the state of politics in that time.",
+                "fr": "C'était donc une raison pour acheter les reliques et construire la chapelle. Une autre était la politique de cette époque.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A very important part of being a Middle Ages monarch was showing off to other nations how religious you were.",
+                "fr": "En tant que monarque du Moyen Âge, il était très important de montrer à d'autres nations à quel point on était croyant.",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle4Mean",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What do you mean?",
+                "fr": "Qu'est-ce que tu veux dire ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Essentially, if you could prove that you were the centre of Christianity, you would become rich and powerful.",
+                        "fr": "Essentiellement, si tu pouvais prouver que tu tu étais le centre du christianisme, tu deviendrais riche et puissant.",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And that was exactly what Louis was trying to do with this grand display of wealth and piety!",
+                        "fr": "Et c'est exactement ce que Louis essayait de faire avec ce gand déploiement de richesse et de piété !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SainteChapelle4MeanStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SainteChapelle4MeanHollow",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Seems hollow",
+                            "fr": "Ça sonne faux",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "That’s just how politics worked back then!",
+                                    "fr": "C'est comme ça que la politique fonctionnait à l'époque !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, Louis’ plan worked! He is the only French king to have been officially canonised (made into a saint).",
+                                    "fr": "Et le plan de Louis a plutôt bien fonctionné ! Il est le seul roi français à avoir été officiellement canonisé (transformé en saint).",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 906,
+                                    "Height": 1024,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543233117/6saint_louis.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Good job Louis!",
+                                    "fr": "Bien joué Louis !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "SainteChapelle4MeanHollowStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "SainteChapelle4MeanHollowBravo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Bravo!",
+                                        "fr": "Bravo !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "SainteChapelle5"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "SainteChapelle4MeanHollowDown",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "👎",
+                                        "fr": "👎",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "SainteChapelle5"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+                    
+
