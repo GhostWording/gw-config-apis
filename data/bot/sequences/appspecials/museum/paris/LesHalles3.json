@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the 1970s, a famous artist, Nonda, used blood and entrails from the stalls to paint his pieces!",
+                "fr": "Dans les années 1970, un artist célèbre, Nonda, utilisait du sang et des entrailles venant des étals pour peindre ses œuvres !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 200,
+                "Height": 251,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543341510/5nonda.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you think?",
+                "fr": "Qu'en penses-tu ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles3Beautiful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Beautiful art",
+                "fr": "Du grand art !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles3Disgusting",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Disgusting!",
+                "fr": "Dégoûtant !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles4"
+            }
+        }
+    ]
+}
