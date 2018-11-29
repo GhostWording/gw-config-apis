@@ -1,0 +1,199 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, the “Garnier” part comes from the lead architect, Charles Garnier, not the cosmetic branch owned by L’Oreal.",
+                "fr": "Eh bien, la partie “Garnier” vient de l'architecte principal, Charles Garnier, et non de la branche cosmétique de L'Oréal.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 696,
+                "Height": 392,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/garnierlogo.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And the Opera part comes from the fact that it’s a famous Opera theatre! Having said that… opera isn’t really shown there these days, it’s more ballet!",
+                "fr": "Et la partie Opéra vient du fait qu'il s'agit d'une célèbre salle d'opéra ! Cela dit, il n'y a pas vraiment d'opéras ces temps-ci, on y voit plus des ballets !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, actually, both answers I gave you were wrong",
+                "fr": "Donc en réalité les deux réponses proposées étaient fausses",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier2Trick",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A dirty trick",
+                "fr": "Un mauvais tour",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well it made me feel clever so I had to do it.",
+                        "fr": "Eh bien, j'ai eu l'impression d'être intelligent, ça valait le coût",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, would you like to hear a few cool things about this building?",
+                        "fr": "Quoiqu'il en soit, est-ce que tu aimerais entendre de bonnes histoires sur ce bâtiment ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PalaisGarnier2TrickStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier2TrickNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not right now!",
+                            "fr": "Pas maintenant !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK! Come back whenever!",
+                                    "fr": "D'accord, reviens quand tu veux !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Exit"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier2TrickYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yeah!",
+                            "fr": "Oui !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The building was constructed between 1861 and 1875 - quite a long time, but you can probably see why when you take a close look!",
+                                    "fr": "Il a été construit entre 1861 et 1875, ce qui est assez long, mais on comprend pourquoi quand on le regarde de près !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 900,
+                                    "Height": 586,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/Webp.net-compress-image_1.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It’s absolutely fabulous, right?",
+                                    "fr": "Il est absolument fabuleux, non ?",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PalaisGarnier2TrickYesStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "PalaisGarnier2TrickYesYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yeah!",
+                                        "fr": "Oui !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "PalaisGarnier3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PalaisGarnier2TrickYesMidly",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Mildly impressed",
+                                        "fr": "Moyennement impressionné(e)",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "PalaisGarnier3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PalaisGarnier2TrickYesRubbish",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Rubbish!",
+                                        "fr": "Pas incroyable !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "LinksToFragment": {
+                                        "FragmentPath": "PalaisGarnier3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
