@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, the famous novel by Gaston Leroux is based on some weird events that happened here in the 19th century! Many people thought the theatre was cursed!",
+                "fr": "Le célèbre roman de Gaston Leroux se base sur d'étranges événements qui se sont déroulés au XIXe siècle ! Beaucoup de gens pensaient que l'opéra était maudit !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier6What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Like what?",
+                "fr": "Quels événements ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A stagehand was found hung in a back room, a light fell on someone sitting in the 13th seat, and a dancer died after tripping on the 13th stair!",
+                        "fr": "Un machiniste a été retrouvé pendu en coulisse, un lustre est tombé sur la personne assise au siège 13, et une danseuse est morte après avoir trébuché sur la 13e marche !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Then, some years later, human remains were found in the basement: thought to be those of the phantom!",
+                        "fr": "Quelques années plus tard, des restes humains ont été retrouvés dans le sous-sol, vraisemblablement ceux du fantôme !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PalaisGarnier6WhatStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier6WhatCursed",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It’s cursed",
+                            "fr": "Il est maudit",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "PalaisGarnier7"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier6WhatRubbish",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What rubbish",
+                            "fr": "Foutaises !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "PalaisGarnier7"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
