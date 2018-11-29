@@ -1,0 +1,145 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In 1238 Louis IX of France purchased the “Crown of Thorns” from his cousin, Emperor Baldwin II of Constantinople.",
+                "fr": "En 1238, Louis IX acheta la “Couronne d'Epines” à son cousin, l'Empereur Baudouin II de Constantinople.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 857,
+                "Height": 564,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232330/1crown_louis.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He built La Sainte-Chapelle (Holy Chapel) specifically to house this relic, along with several others!",
+                "fr": "Il construisit La Sainte-Chapelle spécialement pour accueillir cette relique, ainsi que d'autres !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Want to hear a good story about it?",
+                "fr": "Tu veux entendre une bonne histoire à son sujet ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelleNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "Non merci",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK! Come back any time to hear my story!",
+                        "fr": "D'accord ! Reviens quand tu veux pour écouter mon histoire !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelleYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes please!",
+                "fr": "Oui bien sûr !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Was the “crown” a genuine relic? The very crown worn by Jesus of Nazareth during the Passion?",
+                        "fr": "Est-ce que la “couronne” était une véritable relique ? La couronne même portée par Jésus de Nazareth pendant la Passion du Christ ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 957,
+                        "Height": 1153,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232330/2christ_passion.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Possibly! Constantinople was the centre of European Christendom for several centuries, and the traditional home of many relics!",
+                        "fr": "Peut-être ! Constantinople a été pendant plusieurs siècles le centre de la chrétienté européenne et le berceau originel de nombreuses reliques !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SainteChapelleYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SainteChapelleYesScam",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What a scam",
+                            "fr": "Quelle arnaque",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "SainteChapelle2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SainteChapelleYesReal",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sounds real!",
+                            "fr": "Ça a l'air réel !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "SainteChapelle2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
