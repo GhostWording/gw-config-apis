@@ -1,0 +1,45 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, shall we talk about the chapel now?",
+                "fr": "Quoiqu'il en soit, est-ce que tu veux discuter de la chapelle maintenant ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle5No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now",
+                "fr": "Pas maintenant",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelleFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle5Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "Oui !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle6"
+            }
+        }
+    ]
+}
