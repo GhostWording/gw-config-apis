@@ -1,0 +1,219 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s so grand at the front that it also has the name “Palais Garnier”, because it looks like a palace!",
+                "fr": "Sa façade est tellement impressionnante qu'on l'appelle aussi “Palais Garnier”, car il ressemble à un palais !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The facade has many statue groups, including busts of famous composers like Mozart and Beethoven!",
+                "fr": "La façade a de nombreuses statues, notamment des bustes de compositeurs célèbres tels que Mozart et Beethoven !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 794,
+                "Height": 794,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/Opera_Garnier_Beethoven.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier3Inside",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What about inside?",
+                "fr": "Qu'en est-il de l'intérieur ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Inside is no different, it’s totally extravagant!",
+                        "fr": "L'intérieur n'est pas très différent, c'est totalement extravagant !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 1000,
+                        "Height": 667,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236363/Minute%20Art/Sequences/GarnierInterior.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The stage itself is supposedly the largest in the world!",
+                        "fr": "La scène est même supposée être la plus grande du monde !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PalaisGarnier3InsideStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier3InsideElse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What else?",
+                            "fr": "Quoi d'autre ?",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There’s a whole section which was built for the Emperors of France, so they didn’t have to mingle with anyone else.",
+                                    "fr": "Une partie entière a été construire pour les empereurs français, qu'ils n'aient pas à se mêler à qui que ce soit.",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 747,
+                                    "Height": 1000,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236362/Minute%20Art/Sequences/Emperor_s_Pavilion.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nowadays, that part has been turned into a museum dedicated to Opera related things!",
+                                    "fr": "De nos jours, cette partie a été transformée en musée consacré à l'Opéra !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, all this luxury combined to make the building the most expensive of its age!",
+                                    "fr": "Quoiqu'il en soit, tout ce luxe conjugué en a fait le bâtiment le plus cher de son époque !",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PalaisGarnier3InsideElseStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "PalaisGarnier3InsideElseSee",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I can see why!",
+                                        "fr": "Je vois pourquoi !",
+                                        "es": "",
+                                        "zh": ""
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Supporting this theme of money and opulence, the building is surrounded by banks! To figure out why, you have to bear in mind why people went to the Opera",
+                                                "fr": "En adéquation avec ce thème de l'argent et de l'opulence, le palais est entouré de banques ! Pour comprendre pourquoi, il ne faut pas oublier ce qui poussait les gens à aller à l'Opéra",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "PalaisGarnier3InsideElseSeeStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "PalaisGarnier3InsideElseSeeOpera",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "To see Opera",
+                                                    "fr": "Pour voir un opéra",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "You would think so, but no!",
+                                                            "fr": "On pourrait le penser, mais non !",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "PalaisGarnier4"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "PalaisGarnier3InsideElseSeeShow",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "To show off",
+                                                    "fr": "Pour se montrer",
+                                                    "es": "",
+                                                    "zh": ""
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Exactly!",
+                                                            "fr": "Exactement !",
+                                                            "es": "",
+                                                            "zh": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "PalaisGarnier4"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
