@@ -226,31 +226,6 @@
     },
     {
         "Caption": {
-            "en": "Holy Thorn Reliquary",
-            "fr": "Reliquaire de la Sainte Épine",
-            "es": "Relicario de la Santa Espina",
-            "zh": ""
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/HolyThorn.jpg"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/holy_thorn.jpg"
-        },
-        "TextSuggestion": {
-            "IntentionId": "006B9F"
-        }
-    },
-    {
-        "Caption": {
             "en": "Lion Hunts of Assurbanipal I",
             "fr": "Le roi Assurbanipal I chassant le lion",
             "es": "El rey Asurbanipal I cazando leones",
@@ -269,31 +244,6 @@
         "DefaultImage": {
             "Type": "Web",
             "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/lion_hunt.jpg"
-        },
-        "TextSuggestion": {
-            "IntentionId": "006B9F"
-        }
-    },
-    {
-        "Caption": {
-            "en": "Mausoleum at Halicarnassus",
-            "fr": "Mausolée d'Halicarnasse",
-            "es": "Mausoleo de Halicarnaso",
-            "zh": ""
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Mausoleum.jpg"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/mausoleum_default.jpg"
         },
         "TextSuggestion": {
             "IntentionId": "006B9F"
@@ -376,31 +326,6 @@
     },
     {
         "Caption": {
-            "en": "The Rosetta Stone",
-            "fr": "La Pierre de Rosette",
-            "es": "La Piedra de Rosetta",
-            "zh": ""
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/RosettaStone.jpg"
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/rosetta_stone.jpg"
-        },
-        "TextSuggestion": {
-            "IntentionId": "006B9F"
-        }
-    },
-    {
-        "Caption": {
             "en": "The Kiss",
             "fr": "Le Baiser",
             "es": "El beso",
@@ -419,31 +344,6 @@
         "DefaultImage": {
             "Type": "Web",
             "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Klimt_TheKiss1908.jpg"
-        },
-        "TextSuggestion": {
-            "IntentionId": "006B9F"
-        }
-    },
-    {
-        "Caption": {
-            "en": "Ivory Reindeer",
-            "fr": "Les Rennes qui nagent",
-            "es": "Los Renos Nadadores",
-            "zh": ""
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/swimming_reindeers_default.jpg"
         },
         "TextSuggestion": {
             "IntentionId": "006B9F"
@@ -601,31 +501,6 @@
     },
     {
         "Caption": {
-            "en": "The Sutton Hoo Helmet",
-            "fr": "Le Casque de Sutton Hoo",
-            "es": "El Casco de Sutton Hoo",
-            "zh": ""
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/sutton_hoo_default.jpg"
-        },
-        "TextSuggestion": {
-            "IntentionId": "006B9F"
-        }
-    },
-    {
-        "Caption": {
             "en": "Bouquet of Sunflowers",
             "fr": "Bouquet de tournesols",
             "es": "Ramo de girasoles",
@@ -719,31 +594,6 @@
         "DefaultImage": {
             "Type": "Web",
             "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/Durer_Melancholia1514.jpg"
-        },
-        "TextSuggestion": {
-            "IntentionId": "006B9F"
-        }
-    },
-    {
-        "Caption": {
-            "en": "Samurai Armour",
-            "fr": "Armure du samouraï",
-            "es": "Armadura samurái",
-            "zh": ""
-        },
-        "Artist": {
-            "en": "Unknown",
-            "fr": "Inconnu",
-            "es": "Desonocido",
-            "zh": "名不见经传的 "
-        },
-        "Thumbnail": {
-            "Type": "Web",
-            "Path": ""
-        },
-        "DefaultImage": {
-            "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/samurai_default.jpg"
         },
         "TextSuggestion": {
             "IntentionId": "006B9F"
