@@ -1,0 +1,157 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "For some comparison, the entire chapel cost between £40,000-60,000, and it looks like this!",
+                "fr": "A titre de comparison, la chapelle a coûté entre 45 000€ et 70 000€, et elle ressemblait à ça !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1024,
+                "Height": 683,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232842/4sainte_chapelle.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can tell you a bit more about Louis and his motivations, or we can skip that and have a closer look at the chapel!",
+                "fr": "Je peux vous en dire plus sur Louis et ses motivations ou on peut passer à la suite et regarder plus en détails la chapelle !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle3Louis",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Louis!",
+                "fr": "Louis !",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, why did Louis spend so much?",
+                        "fr": "Alors, pourquoi Louis a-t-il dépensé autant ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, firstly, he was really religious. Like, REALLY, religious. So much so that he used to self-flagellate and wear a hair shirt!",
+                        "fr": "Eh bien, premièrement, il était très pieux. Vraiment TRES pieux. A tel point qu'il s'auto-flagellait et portait un cilice ! ",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 826,
+                        "Height": 768,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232947/5flagellation.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "This was sometimes great… as he gave much to charity, and founded many hospitals.",
+                        "fr": "C'était parfois formidable... car il donnait beaucoup à la charité et il a fondé de nombreux hôpitaux.",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But also not great, as he tortured and mutilated “blasphemers”.",
+                        "fr": "Mais parfois pas si bien, car il torturait et mutilait les “blasphémateurs”.",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SainteChapelle3LouisStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SainteChapelle3LouisMixed",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "A mixed bag",
+                            "fr": "C'est mitigé",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "SainteChapelle4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SainteChapelle3LouisGood",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "A good guy",
+                            "fr": "Un homme bien",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "SainteChapelle4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SainteChapelle3LouisBad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "A bad guy",
+                            "fr": "Un homme mauvais",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "SainteChapelle4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle3Chapel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "The chapel!",
+                "fr": "La chapelle !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle6"
+            }
+        }
+    ]
+}
