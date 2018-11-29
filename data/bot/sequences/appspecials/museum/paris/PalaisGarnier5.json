@@ -1,0 +1,115 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, the entire theatre is designed with people-watching in mind as a priority. From some seats, you can barely see the stage! The huge chandelier blocks your view!",
+                "fr": "En fait, l'ensemble du théâtre a été conçu en fonction des gens qui s'observent. De certaines places, on peut à peine voir la scène, l'énorme lustre bloque la vue !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 1000,
+                "Height": 772,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236362/Minute%20Art/Sequences/GarnierChandelier.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Speaking of which, it supposedly weighs 7 tonnes, about the same as an adult tyrannosaurus.",
+                "fr": "En parlant de cela, il pèserait 7 tonnes, soit le même poids qu'un tyrannosaure adulte.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That’s a rather odd image!",
+                "fr": "C'est une image assez marrante !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier5Enough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I’ve had enough",
+                "fr": "J'en sais assez",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "PalaisGarnierFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier5Else",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Anything else?",
+                "fr": "Quoi d'autre ?",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There is one other thing that makes the Palais Opera famous: the Legend of the Phantom of the Opera. Heard of it?",
+                        "fr": "Il y a un autre élément qui a contribué à la célébrité du Palais : la Légende du Fantôme de l'Opéra. Tu en as entendu parlé ?",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PalaisGarnier5ElseStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier5ElseYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes!",
+                            "fr": "Oui !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "PalaisGarnier6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PalaisGarnier5ElseNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No!",
+                            "fr": "Non !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "PalaisGarnier6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
