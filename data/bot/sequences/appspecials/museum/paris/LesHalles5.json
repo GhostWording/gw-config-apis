@@ -1,0 +1,82 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A giant shopping centre was created in place of the market, linking up to the metro station beneath! The busiest metro station in paris, in fact!",
+                "fr": "Un centre commercial géant a été créé à la place du marché, relié à la station de métro en-dessous ! La station de métro la plus fréquentée de Paris d'ailleurs !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "One of the old, famous glass and steel pavilions was moved to Yokohama, Japan, and is still a public attraction there!",
+                "fr": "L'un des anciens et célèbres pavillons de verre et d'acier a été transféré à Yokohoma, au Japon, et il attire encore des touristes là-bas !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1200,
+                "Height": 576,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543230799/7halles_pavillion.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "However, by the 20th century, the design of the shopping centre was a little dated…",
+                "fr": "Cependant, au XXe siècle, la conception du centre commercial était un peu datée...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In 2002, the mayor of Paris, Bertrand Delanoe, described Les Halles as a “soulless, architecturally bombastic concrete jungle”",
+                "fr": "En 2002, le maire de Paris, Bertrand Delanoë, décrivait Les Halles comme une “jungle de béton sans âme et architecturalement grandiloquent”",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles5Rude",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How rude",
+                "fr": "Pas très gentil",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles5Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He was right",
+                "fr": "Il avait raison",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles6"
+            }
+        }
+    ]
+}
