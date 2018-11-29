@@ -1,0 +1,89 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle8",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The panels depict scenes from the bible: have a look at a few",
+                "fr": "Les vitraux représentent des scènes de la Bible : jette un coup d'œil à quelques uns",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/SainteChapellePanels.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "My favourite is the third one!",
+                "fr": "Mon préféré est le 3e !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The final panel depicts Louis himself, receiving the holy relics.",
+                "fr": "Le vitrail final représente Louis lui-même, recevant les saintes reliques.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 222,
+                "Height": 500,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543235899/10saint_louis_final.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "By placing himself at the end of these famous religious scenes, he is suggesting his place as the natural continuation of the Christian story. A smart move!",
+                "fr": "En se plaçant à la fin de ses scènes religieuses, il suggère qu'il se place naturellement dans la continuité de l'histoire chrétienne. Un geste malin !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle8Arrogant",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How arrogant",
+                "fr": "Comme c'est arrogant",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle9"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle8Sense",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Makes sense",
+                "fr": "Logique",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle9"
+            }
+        }
+    ]
+}
