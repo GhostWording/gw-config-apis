@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "People would collect their finest jewels from the nearby banks, then go to the Opera and show off!",
+                "fr": "Les gens allaient récupérer leurs plus beaux atours dans les banques voisines, et après allaient à l'opéra et se montraient !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Just take a look at the lobby area… it’s perfectly designed for being seen, and seeing people.",
+                "fr": "Il suffit de jeter un coup d'œil au hall d'entrée... Il est parfaitement conçu pour être vu et voir les autres.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 734,
+                "Height": 900,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/GarnierLobby.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier4Rich",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Classic rich people",
+                "fr": "Un classique des gens riches",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "PalaisGarnier5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PalaisGarnier4Beautiful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Looks beautiful!",
+                "fr": "C'est magnifique !",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "PalaisGarnier5"
+            }
+        }
+    ]
+}
+            
