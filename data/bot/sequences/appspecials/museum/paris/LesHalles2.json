@@ -1,0 +1,129 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Over many years, the market grew in fame and variety…",
+                "fr": "Au fil des ans, le marché s'est développé et est devenu de plus en plus populaire...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It eventually became the central food market for all of Paris, abandoning it’s textile roots!",
+                "fr": "Il est finalement devenu le marché alimentaire central de Paris, abandonnant ses racines liées au textile !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "All kinds of foods were sold through the night.",
+                "fr": "Toutes sortes d'aliments étaient vendus pendant toute la nuit.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1024,
+                "Height": 663,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543229719/3halles_food.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles2Delicious",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds delicious",
+                "fr": "Ça a l'air délicieux",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was famous for the steam and smoke that used to rise from the various meats during the night, captured in the greenhouse-like pavilions.",
+                        "fr": "Les Halles étaient célèbres pour la vapeur et la fumée qui se dégageaient des différentes viandes pendant la nuit, capturées dans les pavillons comme dans des serres.",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In the 19th century, the famous author Zola wrote a book about it, titled “Le ventre de Paris” (the Belly of Paris)",
+                        "fr": "Au XIXe siècle, le célèbre auteur Zola écrivit un livre à ce sujet, intitulé “Le ventre de Paris”",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 1063,
+                        "Height": 648,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543230042/4halles_inside.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That’s right! He compared being inside Les Halles to being in a hot, steamy, stomach full of food! That’s quite a vivid image!",
+                        "fr": "Eh oui ! Il a comparé l'intérieur des Halles à un estomac chaud et humide, plein de nourriture ! C'est une image assez saisissante !",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LesHalles2DeliciousStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LesHalles2DeliciousGross",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Gross!",
+                            "fr": "Dégoûtant !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LesHalles3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LesHalles2DeliciousDelicious",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Delicious!",
+                            "fr": "Délicieux !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LesHalles3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
