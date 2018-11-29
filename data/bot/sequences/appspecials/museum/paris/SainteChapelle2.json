@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Louis certainly trusted his cousin enough to spend half the annual income of the French Royal estate on it! £135,000, at the time… an enormous sum.",
+                "fr": "Louis avait certainement confiance en son cousin pour dépenser la moitié du revenu annuel du Royaume français ! Plus de 150 000€ à cette époque... Une somme énorme.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And to top it off, he spent another £100,000 on a chest to house the relics",
+                "fr": "Et pour couronner le tout, il a dépensé 110 000€ supplémentaires pour confectionner un coffre pour abriter les reliques",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 768,
+                "Height": 1024,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232594/3reliquary.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you think he got a good deal? 😂",
+                "fr": "Est-ce tu penses qu'il a fait une bonne affaire ? 😂",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle2Bargain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, a bargain!",
+                "fr": "Oui, c'était une affaire",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle2Ripoff",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No, what a ripoff!",
+                "fr": "Non, quelle arnaque",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle3"
+            }
+        }
+    ]
+}
