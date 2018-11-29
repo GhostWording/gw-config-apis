@@ -1,0 +1,75 @@
+{
+    "Type": "Node",
+    "Id": "SainteChapelle6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, this chapel was built over around 10 years, between 1238 and 1248.",
+                "fr": "Cette chapelle a donc été construite pendant environ 10 ans, entre 1238 et 1248.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "From the exterior, it looks like this!",
+                "fr": "De l'extérieur, ça ressemble à ça !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1280,
+                "Height": 720,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543233235/7chapelle_exterior.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It juts out above the palace, and almost looks as if it has no walls! Just windows and pillars…",
+                "fr": "Elle est juste au-dessus du palais, et semble ne presque pas avoir de murs ! Juste des fenêtres et des pilliers...",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle6Fabulous",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It’s fabulous",
+                "fr": "C'est fabuleux",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle7"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SainteChapelle6House",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Just like my house",
+                "fr": "Comme chez moi",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "SainteChapelle7"
+            }
+        }
+    ]
+}
+                    
+
