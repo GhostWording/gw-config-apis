@@ -1,0 +1,144 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This is Les Halles!",
+                "fr": "Voici Les Halles !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1200,
+                "Height": 479,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543228414/1les_halles.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It didn’t always look like this though… it’s been through many changes over the years…",
+                "fr": "Ça n'a pas toujours ressemblé à cela... Elles ont connu de nombreux changements au fil des ans...",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear about it?",
+                "fr": "Tu veux en savoir plus ?",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHallesNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now",
+                "fr": "Pas maintenant",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHallesYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, in the 12th century CE, a market popped up in this location!",
+                        "fr": "Alors, au XIIe siècle, un marché est apparu à cet endroit !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 888,
+                        "Height": 724,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543228957/2halles_location.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It mainly sold fabrics...which ran the risk of being damaged by bad weather!",
+                        "fr": "On y vendait principalement des tissus, qui risquaient d'être endommagés en cas de mauvais temps !",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So… the owners of the market decided to build some roofs over the stalls: they called them “Halles” (halls)!",
+                        "fr": "Les propriétaires du marché ont alors décidé de construire des toits au-dessus des étals, d'où l'appellation des “Halles”",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LesHallesYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LesHallesYesSense",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Makes sense!",
+                            "fr": "Logique !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LesHalles2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LesHallesYesNever",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Never knew that!",
+                            "fr": "Je ne savais pas !",
+                            "es": "",
+                            "zh": ""
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "LesHalles2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
