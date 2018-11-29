@@ -1,0 +1,36 @@
+{
+    "Type": "Node",
+    "Id": "PalaisGarnier7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Because of all this, the theatre gained huge notoriety! If you visit, you can even see the phantom’s seat, box 5!",
+                "fr": "A cause de tout cela, l'opéra a énormément gagné en notoriété ! Si tu le visites, tu verras peut-être la place du fantôme, dans la loge 5 !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 394,
+                "Height": 296,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236361/Minute%20Art/Sequences/Box5jpg.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do so at your own risk though!",
+                "fr": "C'est à tes risques et périls !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "PalaisGarnierFeedback"
+    }
+}
