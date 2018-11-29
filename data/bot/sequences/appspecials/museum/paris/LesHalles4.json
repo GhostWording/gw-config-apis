@@ -1,0 +1,72 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless, in the 1970s, the market was becoming far too busy for modern times, and was demolished.",
+                "fr": "Quoiqu'il en soit, dans les années 1970, le marché était devenu beaucoup trop bondé, et a été démoli.",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This pit was left in the middle of Paris for several years!",
+                "fr": "Ce fossé a été laissé vide au centre de Paris pendant plusieurs années !",
+                "es": "",
+                "zh": ""
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 620,
+                "Height": 413,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543230511/6halles_hole.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Not quite the beautiful sight visitors might expect!",
+                "fr": "Pas vraiment la belle vue à laquelle les visiteurs s'attendent !",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles4Eyesore",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What an eyesore",
+                "fr": "Quelle horreur",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles4Like",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I like it",
+                "fr": "J'aime bien",
+                "es": "",
+                "zh": ""
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles5"
+            }
+        }
+    ]
+}
