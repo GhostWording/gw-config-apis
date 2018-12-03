@@ -143,46 +143,6 @@
                     }
                 }
             ]
-        },
-        {
-            "Type": "Leaf",
-            "Id": "QuizLargestMuseumChina",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "National Museum of China",
-                "fr": "Le Musée National de Chine",
-                "es": "",
-                "zh": ""
-            },
-            "CarouselElements": {
-                "Title": {
-                    "en": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542279728/museum_china.jpg"
-                }
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Wrong, it’s the Louvre!",
-                        "fr": "Faux, c'est le Louvre !",
-                        "es": "",
-                        "zh": ""
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "It attracts over 9 million visitors a year… that’s about 25,000 every day!",
-                        "fr": "Il attire près de 9 millions de visiteurs par an... Ça correspnd environ à 25 000 par jour !",
-                        "es": "",
-                        "zh": ""
-                    }
-                }
-            ]
         }
     ]
 }
