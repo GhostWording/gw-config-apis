@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtStart3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I love talking about art, too",
+                "fr": "I love talking about art, too",
+                "es": "I love talking about art, too",
+                "zh": "I love talking about art, too"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So I'm here to tell you the stories behind my favourite works, like these:",
+                "fr": "So I'm here to tell you the stories behind my favourite works, like these:",
+                "es": "So I'm here to tell you the stories behind my favourite works, like these:",
+                "zh": "So I'm here to tell you the stories behind my favourite works, like these:"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/MinuteArtStartPaintings.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Prepare yourself for the ultimate art experience!",
+                "fr": "Prepare yourself for the ultimate art experience!",
+                "es": "Prepare yourself for the ultimate art experience!",
+                "zh": "Prepare yourself for the ultimate art experience!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtStart3Ready",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I'm ready!",
+                "fr": "I'm ready!",
+                "es": "I'm ready!",
+                "zh": "I'm ready!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, let's start!",
+                        "fr": "Alright, let's start!",
+                        "es": "Alright, let's start!",
+                        "zh": "Alright, let's start!"
+                    }
+                }
+            ]
+        }
+    ]
+}
