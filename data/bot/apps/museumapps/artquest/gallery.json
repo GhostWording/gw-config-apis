@@ -464,11 +464,11 @@
         },
         "Thumbnail": {
             "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/MichelAngelo_Slaves1516.jpg"
         },
         "DefaultImage": {
             "Type": "Web",
-            "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/MichelAngelo_Slaves1516.jpg"
+            "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/slaves.jpg"
         },
         "TextSuggestion": {
             "IntentionId": "006B9F"
