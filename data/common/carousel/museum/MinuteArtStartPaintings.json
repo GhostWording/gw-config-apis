@@ -16,7 +16,7 @@
                 "zh": "克勞德·莫奈"
             },
             "Image": {
-                "Type": "Web",
+                "Source": "Web",
                 "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Monet_PortofLeHavre1874.jpg"
             }
         },
@@ -34,7 +34,7 @@
                 "zh": "卡斯帕·大衛·弗雷德里希"
             },
             "Image": {
-                "Type": "Web",
+                "Source": "Web",
                 "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Friedrich_TheMenbytheSea1817.jpg"
             }
         },
@@ -52,7 +52,7 @@
                 "zh": "古斯塔夫·克林姆"
             },
             "Image": {
-                "Type": "Web",
+                "Source": "Web",
                 "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Klimt_TheKiss1908.jpg"
             }
         },
@@ -70,7 +70,7 @@
                 "zh": "西奧多·傑利柯"
             },
             "Image": {
-                "Type": "Web",
+                "Source": "Web",
                 "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Gericault_TheRaftoftheMedusa1819.jpg"
             }
         },
@@ -88,7 +88,7 @@
                 "zh": "米开朗基罗"
             },
             "Image": {
-                "Type": "Web",
+                "Source": "Web",
                 "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
             }
         },
@@ -106,7 +106,7 @@
                 "zh": "保罗·塞尚"
             },
             "Image": {
-                "Type": "Web",
+                "Source": "Web",
                 "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Cezanne_TheLargeBathers1906.jpg"
             }
         }
