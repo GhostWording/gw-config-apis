@@ -1,0 +1,121 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtStart",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi! Welcome to Minute Art!",
+                "fr": "Hi! Welcome to Minute Art!",
+                "es": "Hi! Welcome to Minute Art!",
+                "zh": "Hi! Welcome to Minute Art!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Can you hear me?",
+                "fr": "Can you hear me?",
+                "es": "Can you hear me?",
+                "zh": "Can you hear me?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MinuteArtStartYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Vuelta",
+                "zh": "出口"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! It's nice to meet you!",
+                        "fr": "Great! It's nice to meet you!",
+                        "es": "Great! It's nice to meet you!",
+                        "zh": "Great! It's nice to meet you!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MinuteArtStartYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MinuteArtStartYesYou",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "And you!",
+                            "fr": "And you!",
+                            "es": "And you!",
+                            "zh": "And you!"
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "MinuteArtStart2"
+                }
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MinuteArtStartNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "Vuelta",
+                "zh": "出口"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "How did you know to reply then? 🤔",
+                        "fr": "How did you know to reply then? 🤔",
+                        "es": "How did you know to reply then? 🤔",
+                        "zh": "How did you know to reply then? 🤔"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, it's nice to meet you",
+                        "fr": "Anyway, it's nice to meet you",
+                        "es": "Anyway, it's nice to meet you",
+                        "zh": "Anyway, it's nice to meet you"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "MinuteArtStartNoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "MinuteArtStartNoYou",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "And you!",
+                            "fr": "And you!",
+                            "es": "And you!",
+                            "zh": "And you!"
+                        }
+                    }
+                ],
+                "LinksToFragment": {
+                    "FragmentPath": "MinuteArtStart2"
+                }
+            }
+        }
+    ]
+}
