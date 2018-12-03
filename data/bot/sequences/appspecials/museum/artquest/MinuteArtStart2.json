@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtStart2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I am an owl. Possibly the most skilled owl artist on the planet",
+                "fr": "I am an owl. Possibly the most skilled owl artist on the planet",
+                "es": "I am an owl. Possibly the most skilled owl artist on the planet",
+                "zh": "I am an owl. Possibly the most skilled owl artist on the planet"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is a self-portrait",
+                "fr": "Here is a self-portrait",
+                "es": "Here is a self-portrait",
+                "zh": "Here is a self-portrait"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As you can see, I am talented.",
+                "fr": "As you can see, I am talented.",
+                "es": "As you can see, I am talented.",
+                "zh": "As you can see, I am talented."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MinuteArtStart2Modest",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How modest!",
+                "fr": "How modest!",
+                "es": "How modest!",
+                "zh": "How modest!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I just tell the facts",
+                        "fr": "I just tell the facts",
+                        "es": "I just tell the facts",
+                        "zh": "I just tell the facts"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MinuteArtStart3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MinuteArtStart2Nice",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nice painting!",
+                "fr": "Nice painting!",
+                "es": "Nice painting!",
+                "zh": "Nice painting!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank you!",
+                        "fr": "Thank you!",
+                        "es": "Thank you!",
+                        "zh": "Thank you!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MinuteArtStart3"
+            }
+        }
+    ]
+}
