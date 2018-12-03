@@ -1,0 +1,114 @@
+{
+    "Id": "MinuteArtStartPaintings",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Port of Le Havre",
+                "fr": "Vue de l'ancien avant-port du Havre",
+                "es": "Puerto de Le Havre",
+                "zh": ""
+            },
+            "Subtitle": {
+                "en": "Claude Monet",
+                "fr": "Claude Monet",
+                "es": "Claude Monet",
+                "zh": "克勞德·莫奈"
+            },
+            "Image": {
+                "Type": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Monet_PortofLeHavre1874.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Two Men by the Sea",
+                "fr": "Deux Hommes au bord de la mer",
+                "es": "Dos hombres a la orilla del mar.",
+                "zh": ""
+            },
+            "Subtitle": {
+                "en": "Caspar David Friedrich",
+                "fr": "Caspar David Friedrich",
+                "es": "Caspar David Friedrich",
+                "zh": "卡斯帕·大衛·弗雷德里希"
+            },
+            "Image": {
+                "Type": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Friedrich_TheMenbytheSea1817.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "The Kiss",
+                "fr": "Le Baiser",
+                "es": "El beso",
+                "zh": "《吻》"
+            },
+            "Subtitle": {
+                "en": "Gustav Klimt",
+                "fr": "Gustav Klimt",
+                "es": "Gustav Klimt",
+                "zh": "古斯塔夫·克林姆"
+            },
+            "Image": {
+                "Type": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Klimt_TheKiss1908.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "The Raft of the Medusa",
+                "fr": "Le Radeau de La Méduse",
+                "es": "La balsa de la Medusa",
+                "zh": "《美杜莎之筏》"
+            },
+            "Subtitle": {
+                "en": "Théodore Géricault",
+                "fr": "Théodore Géricault",
+                "es": "Théodore Géricault",
+                "zh": "西奧多·傑利柯"
+            },
+            "Image": {
+                "Type": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Gericault_TheRaftoftheMedusa1819.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Dying & Rebellious Slaves",
+                "fr": "L'Esclave mourant & L'Esclave Rebelle",
+                "es": "Esclavo moribundo & Esclavo rebelde",
+                "zh": "《垂死的奴隶》《被缚的奴隶》"
+            },
+            "Subtitle": {
+                "en": "Michelangelo",
+                "fr": "Michel-Ange",
+                "es": "Miguel Ángel",
+                "zh": "米开朗基罗"
+            },
+            "Image": {
+                "Type": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Delacroix_Libertyleadingthepeople1830.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "The Large Bathers",
+                "fr": "Les Grandes Baigneuses",
+                "es": "Las grandes bañistas",
+                "zh": ""
+            },
+            "Subtitle": {
+                "en": "Paul Cézanne",
+                "fr": "Paul Cézanne",
+                "es": "Paul Cézanne",
+                "zh": "保罗·塞尚"
+            },
+            "Image": {
+                "Type": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/Cezanne_TheLargeBathers1906.jpg"
+            }
+        }
+    ]
+}
