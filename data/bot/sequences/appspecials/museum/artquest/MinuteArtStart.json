@@ -57,12 +57,23 @@
                             "fr": "And you!",
                             "es": "And you!",
                             "zh": "And you!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, let me tell you about myself",
+                                    "fr": "Now, let me tell you about myself",
+                                    "es": "Now, let me tell you about myself",
+                                    "zh": "Now, let me tell you about myself"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MinuteArtStart2"
                         }
                     }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "MinuteArtStart2"
-                }
+                ]
             }
         },
         {
@@ -109,12 +120,23 @@
                             "fr": "And you!",
                             "es": "And you!",
                             "zh": "And you!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, let me tell you about myself",
+                                    "fr": "Now, let me tell you about myself",
+                                    "es": "Now, let me tell you about myself",
+                                    "zh": "Now, let me tell you about myself"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MinuteArtStart2"
                         }
                     }
-                ],
-                "LinksToFragment": {
-                    "FragmentPath": "MinuteArtStart2"
-                }
+                ]
             }
         }
     ]
