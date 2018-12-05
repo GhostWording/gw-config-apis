@@ -16,6 +16,11 @@
     "LocationSequenceId": "ParisMap",
     "Topic": "paris",
     "Places" : [
+      {"Id": "TestBoxPark"},
+      {"Id": "TestOffice"},
+      {"Id": "TestMareStreet"},
+      {"Id": "TestHome"},
+      {"Id": "TestLiverpoolStreet"},
       {"Id": "ArcDeTriomphe"},
       {"Id": "BonMarche"},
       {"Id": "BoulevardHaussmann"},
