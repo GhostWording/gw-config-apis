@@ -1,0 +1,21 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "test1",
+      "Source": "github",
+      "File": "/data/bot/apps/louvrechatbotguide/louvrechatbotguideMaster.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/sequences/fragments/FragmentsMain04.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ]
+}
