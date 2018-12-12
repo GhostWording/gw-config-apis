@@ -2,16 +2,6 @@
   {
     "GroupName": "Nutty",
     "SequenceFiles": [
-      { "order" : 40, "file": ["/data/bot/sequences/experiments/Billy2/Chatelet1.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
-      { "order" : 400, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteIntro.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/astrology/AstroIntro.json"]},
-      { "order" : 500, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory.json"]},
-      { "order" : 600, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory2.json"]},
-      { "order" : 700, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory3.json"]},
-      { "order" : 800, "file": ["/data/bot/sequences/experiments/Billy2/ChooseMuseumStory4.json"]},
-      { "order" : 200, "file":["/data/bot/sequences/experiments/NuttyConditionTest1.json"]},
-      { "order" : 210, "file":["/data/bot/sequences/experiments/NuttyConditionTest2.json"]},
       { "order" : 220, "file":["/data/bot/sequences/nationaltrust/NuttyIntro.json"]},
       { "order" : 250, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
       { "order" : 300, "file":["/data/bot/sequences/nationaltrust/NTIntroduce.json"]},
