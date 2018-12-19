@@ -119,7 +119,12 @@
     {
       "Name": "dbtest",
       "File": "/data/bot/apps/experiments/dbtest.json"
-    }
+    },
+    {
+      "Name": "actionstest",
+      "File": "/data/bot/apps/experiments/actionstest.json"
+    },
+    
   ],
   "FragmentsFiles": [
     {
