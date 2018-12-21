@@ -1,0 +1,53 @@
+{
+  "Type": "Node",
+  "Id": "FeelingAfterSwimming",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How do you feeling after an hour of swimming?",
+        "fr": "Comment te sens-tu apres avoir nager une heure"
+      },
+      "LabelAudio": {
+        "en": {
+          "Source": "Web",
+          "Path": "http://www.taur.net/~ottercomics/ottertunes/oishow/sfx/hitcrowdcheer.wav"
+        }
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FeelingAfterSwimmingHappy",
+      "CommandLabel": {
+        "en": "Happy",
+        "fr": "Heureux"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Haha I knew you were a real swimmer",
+            "fr": "Je savais que tu avais une ame de nageur"
+          },
+          "LabelAudio": {
+            "en": {
+              "Source": "Web",
+              "Path": "http://www.taur.net/~ottercomics/ottertunes/oishow/sfx/hitcrowdcheer.wav"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "FeelingAfterSwimmingExhausted",
+      "CommandLabel": {
+        "en": "Exhausted",
+        "fr": "Espuisé"
+      }
+    }
+  ]
+}
