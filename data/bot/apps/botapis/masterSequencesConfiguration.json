@@ -127,6 +127,10 @@
     {
       "Name": "minutetest",
       "File": "/data/bot/apps/experiments/minutetest.json"
+    },
+    {
+      "Name": "example",
+      "File": "/data/bot/apps/experiments/exampleMaster.json"
     }
   ],
   "FragmentsFiles": [
@@ -149,10 +153,6 @@
     {
       "Topic": "artquest",
       "File": "/data/bot/apps/museumapps/artquest/artquestFragments.json"
-    },
-    {
-      "Name": "example",
-      "File": "/data/bot/apps/experiments/exampleMaster.json"
     }
   ],
   "FragmentsForKeywords" : [
