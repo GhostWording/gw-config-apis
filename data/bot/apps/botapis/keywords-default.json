@@ -230,6 +230,13 @@
         "fragment" : {
           "path" : "IAmAGuideLouvre"
         }
+    },
+    {
+      "words" : ["female"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "LabelFemaleTest"
+        }
     }
   ]
 }
