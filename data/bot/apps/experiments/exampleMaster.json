@@ -2,10 +2,9 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 10, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json"]},
+            { "order" : 10, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json","/data/bot/sequences/experiments/Andreas/UserInputExample.json"]},
             { "order" : 20, "file": ["/data/bot/sequences/experiments/dbtest/ShowTextForPrototypeYoureTheBest.json"]},
-            { "order" : 30, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorningWithImage.json"]},
-            { "order" : 40, "file": ["/data/bot/sequences/experiments/Andreas/UserInputExample.json"]}
+            { "order" : 30, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorningWithImage.json"]}
          ]
     }
 ]
