@@ -1,0 +1,21 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "artbuddy",
+      "Source": "github",
+      "File": "/data/bot/apps/artbuddy/artbuddyMaster.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/apps/museumapps/artquest/artquestFragments.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ]
+}
