@@ -45,7 +45,7 @@
     "ID": "ca-app-pub-7822741681642396/3147766425",
     "Offset": 4,
     "Frequency" : 3
- },
+  },
    "After10InterstitialDisplaysNewlyDisabled": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/9457475160",
@@ -57,6 +57,10 @@
   "PermanentBanner": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/7553144125"
+  },
+  "AmazonAffiliateBanner": {
+    "Countries": ["US"],
+    "File": "https://github.com/GhostWording/gw-config-apis/blob/master/data/appspecific/eliteemoji/amazon-affiliate.json"
   }
 }
 
