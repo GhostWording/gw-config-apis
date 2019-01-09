@@ -2,14 +2,12 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/DimensionsExample.json"]},
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Billy2/SignLanguageTest.json"]},
-            { "order" : 14, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExample.json"]},
             { "order" : 12, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]},
             { "order" : 11, "file": ["/data/bot/sequences/experiments/Andreas/FullScreenWidthTest.json"]},
             { "order" : 13, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
             { "order": 15, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExampleTwo.json"]},
-            { "order": 18, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExample.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
             { "order": 15, "file":["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
             { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/TestSequenceNewActions.json"]},
