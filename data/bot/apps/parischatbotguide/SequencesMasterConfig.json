@@ -1,0 +1,21 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "parischatbotguide",
+      "Source": "github",
+      "File": "/data/bot/apps/parischatbotguide/parischatbotguideMaster.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/apps/museumapps/paris/parisFragments.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ]
+}
