@@ -1,0 +1,89 @@
+{
+  "Type": "Node",
+  "Id": "VibrationTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here are three steps with vibrations. You should have your phone vibrate 3 times",
+        "fr": "Here are three steps with vibrations. You should have your phone vibrate 3 times"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "One",
+        "fr": "One"
+      },
+      "Vibration": "on"
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "xTiN0h0Kh5gH7yQYUw"
+      },
+      "Vibration": "on"
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Logo_of_Three_UK.svg/225px-Logo_of_Three_UK.svg.png"
+      },
+      "Vibration": "on"
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "VibrationTest1",
+      "CommandLabel": {
+        "en": "Cool",
+        "fr": "Cool"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "When you click on the next command, you should get a vibration too",
+            "fr": "When you click on the next command, you should get a vibration too"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "VibrationTest2",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Let's do this",
+              "fr": "Let's do this"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "VibrationTest3",
+            "CommandLabel": {
+              "en": "Ok",
+              "fr": "Ok"
+            },
+            "Vibration": "on",
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And that's it",
+                  "fr": "And that's it"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
