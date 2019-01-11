@@ -33,8 +33,12 @@
     "ID": "ca-app-pub-7822741681642396/4418097055"
   },
   "GalleryNative": {
-    "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/4295863343"
+    "Provider": "AmazonAffiliates",
+    "Countries": "US",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4295863343"
+    }
   },
   "GalleryDailyNative": {
     "Provider": "AdMob",
@@ -57,10 +61,6 @@
   "PermanentBanner": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/7553144125"
-  },
-  "AmazonAffiliateBanner": {
-    "Countries": ["US"],
-    "File": "https://github.com/GhostWording/gw-config-apis/blob/master/data/appspecific/eliteemoji/amazon-affiliate.json"
   }
 }
 
