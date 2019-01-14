@@ -15,7 +15,7 @@
         "en": "One",
         "fr": "One"
       },
-      "Vibration": true
+      "Vibration": "true"
     },
     {
       "Type": "AnimatedGif",
@@ -23,7 +23,7 @@
         "Source": "Giphy",
         "Path": "xTiN0h0Kh5gH7yQYUw"
       },
-      "Vibration": true
+      "Vibration": "true"
     },
     {
       "Type": "Image",
@@ -31,7 +31,7 @@
         "Source": "Web",
         "Path": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Logo_of_Three_UK.svg/225px-Logo_of_Three_UK.svg.png"
       },
-      "Vibration": true
+      "Vibration": "true"
     }
   ],
   "Commands": [
@@ -71,7 +71,7 @@
               "en": "Ok",
               "fr": "Ok"
             },
-            "Vibration": true,
+            "Vibration": "true",
             "Steps": [
               {
                 "Type": "Text",
