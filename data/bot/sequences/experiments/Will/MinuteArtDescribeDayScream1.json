@@ -1,0 +1,67 @@
+{
+  "Type": "Leaf",
+  "Id": "MinuteArtDescribeDayScream1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Sorry to hear that",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "From what I have heard...",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCardForPrototype",
+      "Comment": "Quote: Humankind cannot bear very much reality",
+      "Parameters": {
+        "PrototypeId": "938DA3"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "and...",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCardForPrototype",
+      "Comment": "Quote: Everything that is simple is false",
+      "Parameters": {
+        "PrototypeId": "191E8A"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I made up my mind...",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I choose art!",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ]
+}
