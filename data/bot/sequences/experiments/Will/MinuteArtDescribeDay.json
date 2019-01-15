@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtDescribeDay",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which of these paintings best describes your day so far?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "MinuteArtDescribeDayScream",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "The Scream",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/619px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "MinuteArtDescribeDayScream1"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "MinuteArtDescribeDayBed",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Bedroom in Arles",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/756px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "MinuteArtDescribeDayBed1"
+      }
+    }
+  ]
+}
