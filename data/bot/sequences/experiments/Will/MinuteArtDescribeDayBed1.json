@@ -1,0 +1,24 @@
+{
+  "Type": "Leaf",
+  "Id": "MinuteArtDescribeDayBed1",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "I see...",
+              "fr": "...",
+              "es": "...",
+              "zh": "..."
+          }
+      },
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "Wake up! We need to talk!",
+              "fr": "...",
+              "es": "...",
+              "zh": "..."
+          }
+      }
+  ]
+}
