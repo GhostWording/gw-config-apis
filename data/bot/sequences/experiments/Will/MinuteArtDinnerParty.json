@@ -1,0 +1,91 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtDinnerParty",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": " Who would you rather invite to your dinner party?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PreferDaVinci",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Leonardo Da Vinci",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547653387/VD_leo.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "PreferDaVinci1"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PreferVanGogh",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Vincent Van Gogh",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547653352/VG_Vincent.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "PreferVanGogh1"
+            }
+        }
+    ]
+}
