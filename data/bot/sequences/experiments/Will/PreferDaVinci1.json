@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "PreferDaVinci1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Good choice!",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I'm sure you'd be dying to ask him a few questions...",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which of his masterpieces would you choose to ask about?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "PreferMonaLisa",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Mona Lisa",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652583/VD_Mona.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "ISeeWeShare"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PreferLastSupper",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "The Last Supper",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652588/VD_Last_Supper.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "ISeeWeShare"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PreferSalvator",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Salvator Mundi",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652607/VD_Salvator.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "ISeeWeShare"
+      }
+    }
+  ]
+}
