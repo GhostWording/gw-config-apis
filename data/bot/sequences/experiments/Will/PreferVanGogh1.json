@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "PreferVanGogh1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Good choice!",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I'm sure you'd be dying to ask him a few questions...",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which of his masterpieces would you choose to ask about?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "PreferStarryNight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Starry Night",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652593/VG_starry.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "ISeeWeShare"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PreferSunflowers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sunflowers",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652600/VG_Sunflowers.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "ISeeWeShare"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PreferBedroomInArles",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Bedroom in Arles",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652614/VG_bed.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "ISeeWeShare"
+      }
+    }
+  ]
+}
