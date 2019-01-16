@@ -2,8 +2,9 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 1, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]}
+            { "order" : 5, "file": ["/data/bot/sequences/experiments/Andreas/LabelAudioTest.json"]},
+            { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
+            { "order" : 20, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]}
          ]
     }
 ]
