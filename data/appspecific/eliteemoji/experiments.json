@@ -1,12 +1,16 @@
 {
     "Experiments": [
         { 
-            "Name": "NotificationType",
+            "Name": "InAppPurchase",
             "Variations": {
-                "1" : "RegularNotification", 
-                "2" : "RegularNotification", 
-                "3" : "NotificationWithImage", 
-                "4" : "NotificationWithImage"
+                "1" : "Variation0", 
+                "2" : "Variation0", 
+                "3" : "Variation1", 
+                "4" : "Variation1",
+                "5" : "Variation2",
+                "6" : "Variation2",
+                "7" : "Variation3",
+                "8" : "Variation3"
             }
         }
     ]
