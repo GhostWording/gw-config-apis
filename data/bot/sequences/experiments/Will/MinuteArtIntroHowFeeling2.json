@@ -1,0 +1,158 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroHowFeeling2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Please try doing this",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "ri8Kb9LOe5Nza"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Did it work?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MinuteArtIntroHowFeeling2Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Congratulations",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "qISaMW1xwmvNS"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "MinuteArtIntroHowFeeling2No",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "How about this?",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "AUYhIMdGrg23e"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Did it work better?",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "MinuteArtIntroHowFeeling2YesAgain",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Yes",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Congratulations",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+              }
+            },
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "qISaMW1xwmvNS"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "MinuteArtIntroHowFeeling2NoAgain",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "No",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          },
+          "Steps": [
+            {
+              "Type": "Action",
+              "Name": "ShowCardForPrototype",
+              "Comment": "I guess life isn't about waiting",
+              "Parameters": {
+                "PrototypeId": "15E062",
+                "DefaultImage": {
+                  "Width": "1632",
+                  "Height": "2284",
+                  "Source": "Web",
+                  "Path": "..."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
