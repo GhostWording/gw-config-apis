@@ -1,0 +1,59 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroBraveEnough1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you brave enough to stand up for what you want?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MinuteArtIntroBraveEnough1No",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCardForPrototype",
+          "Comment": "Courage is grace",
+          "Parameters": {
+            "PrototypeId": "F15A65"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MinuteArtIntroBraveEnough1Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes!",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCardForPrototype",
+          "Comment": "Are you up for adoption",
+          "Parameters": {
+            "PrototypeId": "F11225"
+          }
+        }
+      ]
+    }
+  ]
+}
