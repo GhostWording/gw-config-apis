@@ -1,0 +1,64 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroIsThisArt2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How about this?",
+        "fr": "...",
+        "es": "..."
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://i.pinimg.com/originals/c4/ee/64/c4ee646b83fe96612bfb34a6a5fa541b.gif"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesItIsArt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoItIsNotArt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
