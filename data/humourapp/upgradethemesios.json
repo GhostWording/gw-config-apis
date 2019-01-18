@@ -1,0 +1,116 @@
+{
+  "Themes": [
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiRaccoons"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiRaccoons/small/shutterstock_416608975_13.jpg"
+      },
+      "Labels": {
+        "fr": "Emoji Raccoons",
+        "en": "Emoji Ratons",
+        "es": "Emoji Mapajes"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiBubble"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiBubble/small/shutterstock_443842231_blue_15.jpg"
+      },
+      "Labels": {
+        "fr": "Emoji Bubble",
+        "en": "Emoji Bulle",
+        "es": "Emoji Burbuja"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiBlue"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiBlue/small/shutterstock_419416588_2.jpg"
+      },
+      "Labels": {
+        "fr": "Emoji Blue",
+        "en": "Emoji Bleu",
+        "es": "Emoji Azul"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emoticons5"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emoticons5/small/shutterstock_387300097_5.jpg"
+      },
+      "Labels": {
+        "fr": "Emoji V",
+        "en": "Emoji V",
+        "es": "Emoji V"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiKittens"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiKittens/small/shutterstock_397906726_6.jpg"
+      },
+      "Labels": {
+        "fr": "Emoji Kittens",
+        "en": "Emoji Chatons",
+        "es": "Emoji Gatitos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/penguins"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/penguins/small/shutterstock_326065538_2.jpg"
+      },
+      "Labels": {
+        "fr": "Penguins",
+        "en": "Penguins",
+        "es": "Penguinos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiCats"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiCats/small/shutterstock_429770818_1.jpg"
+      },
+      "Labels": {
+        "fr": "Emoji Cats",
+        "en": "Emoji Chats",
+        "es": "Emoji Gatos"
+      }
+    }
+  ]
+}
