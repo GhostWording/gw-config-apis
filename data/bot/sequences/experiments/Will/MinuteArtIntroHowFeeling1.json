@@ -1,0 +1,150 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroHowFeeling1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How are you feeling right now?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MinuteArtIntroHowFeeling1Arty",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Arty",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Congratulations",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "cF6EyldsYYvCM"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "MinuteArtIntroHowFeeling1Gloomy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Gloomy",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Like this?",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "..."
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Node",
+          "Id": "MinuteArtIntroHowFeeling1Yes",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Yes, exactly",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          },
+          "LinksToFragment": {
+            "FragmentPath": "MinuteArtIntroHowFeeling3"
+          }
+        },
+        {
+          "Type": "Node",
+          "Id": "MinuteArtIntroHowFeeling1Not",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Not quite",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Like that?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+              }
+            },
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "web",
+                "Path": "https://i.imgur.com/9hiZahA.gif"
+              }
+            }
+          ],
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "MinuteArtIntroHowFeeling1Yes2",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Yes",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+              },
+              "LinksToFragment": {
+                "FragmentPath": "MinuteArtIntroHowFeeling3"
+              }
+            },
+            {
+              "Type": "Node",
+              "Id": "MinuteArtIntroHowFeeling1Yes3",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Yes!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+              },
+              "LinksToFragment": {
+                "FragmentPath": "MinuteArtIntroHowFeeling3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
