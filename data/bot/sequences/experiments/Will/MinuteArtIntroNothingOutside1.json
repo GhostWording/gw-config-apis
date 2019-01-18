@@ -1,0 +1,91 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroNothingOutside1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you do when nothing is happening outside your window?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "StareAtWall",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Stare at wall",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "web",
+            "Path": "https://66.media.tumblr.com/42dab4069e0da024f6d9e221829ed234/tumblr_nyr9jpjX3K1qcutkqo1_640.gif"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LookAtArt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Look at art",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "web",
+            "Path": "https://66.media.tumblr.com/42dab4069e0da024f6d9e221829ed234/tumblr_nyr9jpjX3K1qcutkqo1_640.gif"
+          }
+        }
+      ]
+    }
+  ]
+}
