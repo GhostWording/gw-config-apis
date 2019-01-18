@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroIsThisArt1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say this is art?",
+        "fr": "...",
+        "es": "..."
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://66.media.tumblr.com/697104310f67d00fbd15acdaa8e58b78/tumblr_o0lfsuIgyw1qe6mn3o1_500.gif"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesItIsArt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "MinuteArtIntroIsThisArt2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "NoItIsNotArt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ],
+      "Linkstofragment": {
+        "FragmentPath": "MinuteArtIntroIsThisArt2"
+      }
+    }
+  ]
+}
