@@ -1,0 +1,68 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtIntroDaySoFar1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How does your day look so far?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MinuteArtIntroDaySoFar1Cloudy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Cloudy",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCardForPrototype",
+          "Comment": "Life isn't about waiting",
+          "Parameters": {
+            "PrototypeId": "15E062"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MinuteArtIntroDaySoFar1Sunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sunny!",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Good to hear!",
+            "fr": "...",
+            "es": "...",
+            "zh": "..."
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCardForPrototype",
+          "Comment": "My Life is like furniture",
+          "Parameters": {
+            "PrototypeId": "2BDD65"
+          }
+        }
+      ]
+    }
+  ]
+}
