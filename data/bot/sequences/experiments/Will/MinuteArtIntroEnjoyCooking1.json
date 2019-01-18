@@ -1,0 +1,77 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtIntroEnjoyCooking1",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you enjoy cooking?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtIntroEnjoyCooking1No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not at all",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're preaching to the choir",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                     "Name": "ShowCardForPrototype",
+                     "Comment":  "Bad At Cooking",
+                     "Parameters": {
+                       "PrototypeId": "EBBBA1"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtIntroEnjoyCooking1Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I love it!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Finally, a human after my own heart!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                     "Name": "ShowCardForPrototype",
+                     "Comment":  "Love Cooking",
+                     "Parameters": {
+                       "PrototypeId": "9BC6CA"
+                    }
+                }
+            ]
+        }
+    ]
+}
