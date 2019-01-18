@@ -1,0 +1,91 @@
+{
+  "Type": "Node",
+  "Id": "MinuteArtWhichPaintingIntro1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which of these two paintings do you prefer?",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "PreferLeftNighthawks",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Nighthawks",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547653631/H_Nighthawks.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "MinuteArtWhichPaintingIntro2"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PreferRightStarryNight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Starry Night",
+        "fr": "...",
+        "es": "...",
+        "zh": "..."
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": ".",
+          "fr": ".",
+          "es": ".",
+          "zh": "."
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547652593/VG_starry.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "MinuteArtWhichPaintingIntro2"
+      }
+    }
+  ]
+}
