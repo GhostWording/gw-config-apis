@@ -1,0 +1,22 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "londonchatbotguide",
+      "Source": "github",
+      "File": "/data/bot/apps/londonchatbotguide/londonchatbotguideMaster.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/apps/museumapps/artquest/artquestFragments.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ],
+  "FragmentForUnknownCommand":"/data/bot/sequences/smalltalk/AreYouHuman.json"
+}
