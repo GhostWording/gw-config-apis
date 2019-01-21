@@ -18,5 +18,6 @@
        "Name" : "default",
        "File" : "/data/bot/apps/botapis/keywords-default.json"
     }
-  ]
+  ],
+  "FragmentForUnknownCommand":"/data/bot/sequences/smalltalk/AreYouHuman.json"
 }
