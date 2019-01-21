@@ -13,7 +13,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "CarouselRosetta",
       "ElementValue": "1",
       "CommandLabel": {
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "CarouselRamesses",
       "ElementValue": "1",
       "CommandLabel": {
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "CarouselAmenhotep",
       "ElementValue": "1",
       "CommandLabel": {
