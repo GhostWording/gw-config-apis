@@ -3,6 +3,12 @@
   "matchingType":"exact",
   "keywords": [
     {
+        "words" : ["tag"],
+        "fragment" : {
+            "path" : "firstFragmentForTag2"
+        }
+    },
+    {
         "words" : ["louvre"],
         "fragment" : {
             "path" : "RecommendLouvreApp"
