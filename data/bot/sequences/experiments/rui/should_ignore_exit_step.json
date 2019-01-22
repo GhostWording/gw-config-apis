@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should ignore Exit step on fb messenger",
+  "Id": "ShouldIgnoreExitStep",
+  "Steps": [
+    {
+          "Type": "Action",
+          "Name": "NativeExecuteFragment",
+          "Parameters": {
+              "FragmentPath": "Exit"
+          }
+      }
+  ]
+}
