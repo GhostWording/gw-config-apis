@@ -76,9 +76,18 @@
                             "es": "No me interesa",
                             "zh": "有点无趣"
                         },
-                        "LinksToFragment": {
-                            "FragmentPath": "Exit"
-                        }
+                        "Steps": [
+                               {
+                                   "Type": "Action",
+                                   "Name": "NativeExecuteFragment",
+                                   "Parameters": {
+                                       "FragmentPath": "Exit"
+                                   }
+                               }
+                          ],
+                         "LinksToFragment": {
+                           "FragmentPath": "MessengerExitFragment"
+                       }
                     },
                     {
                         "Type": "Node",
