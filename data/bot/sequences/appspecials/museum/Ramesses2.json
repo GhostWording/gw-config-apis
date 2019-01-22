@@ -92,10 +92,17 @@
                                     "es": "",
                                     "zh": ""
                                 }
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "NativeExecuteFragment",
+                                "Parameters": {
+                                "FragmentPath": "Exit"
+                                }
                             }
                         ],
                         "LinksToFragment": {
-                            "FragmentPath": "Exit"
+                            "FragmentPath": "MessengerExitFragment"
                         }
                     },
                     {
