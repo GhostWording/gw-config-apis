@@ -1,8 +1,11 @@
 [
   {
-    "GroupName":"Paris",
-    "SequenceFiles" : [
-      { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]}
+    "GroupName": "Nutty",
+    "SequenceFiles": [
+      { "order" : 220, "file":["/data/bot/sequences/appspecials/museum/AgnesCup2.json"]},
+      { "order" : 230, "file":["/data/bot/sequences/appspecials/museum/Chessmen2.json"]},
+      { "order" : 240, "file":["/data/bot/sequences/appspecials/museum/lelouvre/WeddingCana3.json"]},
+      { "order" : 245, "file":["/data/bot/sequences/appspecials/museum/Amenhotep3.json"]}
     ]
   }
 ]
