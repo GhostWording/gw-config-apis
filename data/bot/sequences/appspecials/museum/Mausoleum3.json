@@ -39,8 +39,17 @@
                 "es": "Es suficiente",
                 "zh": ""
             },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
             "LinksToFragment": {
-                "FragmentPath": "Exit"
+                "FragmentPath": "MessengerExitFragment"
             }
         },
         {
