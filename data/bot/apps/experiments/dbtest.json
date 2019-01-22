@@ -3,6 +3,7 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
+            { "order" : 5, "file": ["/data/bot/sequences/experiments/rui/firstFragmentForTag2.json"]},
             { "order" : 10, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json"]},
             { "order" : 20, "file": ["/data/bot/sequences/experiments/dbtest/ShowTextForPrototypeYoureTheBest.json"]},
             { "order" : 30, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorningWithImage.json"]},
