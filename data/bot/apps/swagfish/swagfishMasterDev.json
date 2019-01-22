@@ -1,7 +1,8 @@
 [
   {
     "GroupName":"Test",
-    "SequenceFiles" : [
+    "SequenceFiles" : [,
+       { "order" : 1300, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup2.json"]},
        { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_continue_after_error_bad_fragment_name.json"]},
        { "order": 1302, "file":[
             "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json"]},
