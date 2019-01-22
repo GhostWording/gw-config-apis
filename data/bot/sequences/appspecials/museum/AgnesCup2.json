@@ -32,9 +32,15 @@
                 "es": "",
                 "zh": ""
             },
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
         },
         {
             "Type": "Node",
