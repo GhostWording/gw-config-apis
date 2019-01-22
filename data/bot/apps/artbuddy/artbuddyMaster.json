@@ -2,6 +2,7 @@
   {
     "GroupName":"ArtBuddy",
     "SequenceFiles" : [
+      { "order" : 5, "file": ["/data/bot/sequences/experiments/rui/should_ignore_exit_step.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/Caryatids.json"]}
