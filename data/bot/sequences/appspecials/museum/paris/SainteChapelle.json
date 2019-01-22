@@ -60,11 +60,18 @@
                         "es": "",
                         "zh": ""
                     }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "Exit"
-            }
+                },
+                {
+                                "Type": "Action",
+                                "Name": "NativeExecuteFragment",
+                                "Parameters": {
+                                "FragmentPath": "Exit"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "MessengerExitFragment"
+                        }
         },
         {
             "Type": "Node",
