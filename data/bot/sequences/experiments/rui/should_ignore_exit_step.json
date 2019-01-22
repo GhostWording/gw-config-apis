@@ -1,14 +1,28 @@
 {
   "Type": "Leaf",
-  "Comments":"it should ignore Exit step on fb messenger",
+  "Comments":"it should ignore Exit step on fb messenger (and show the 2 text steps consecutively",
   "Id": "ShouldIgnoreExitStep",
   "Steps": [
+    {
+            "Type": "Text",
+            "Label": {
+                "en": "you should show that",
+                "fr": "you should show that"
+            }
+    },
     {
           "Type": "Action",
           "Name": "NativeExecuteFragment",
           "Parameters": {
               "FragmentPath": "Exit"
           }
-      }
+    },
+    {
+            "Type": "Text",
+            "Label": {
+                "en": "you should show that after the first one, if there's nothing between, we're ok!",
+                "fr": "you should show that after the first one, if there's nothing between, we're ok!"
+            }
+    }
   ]
 }
