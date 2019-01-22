@@ -131,15 +131,6 @@
                                     },
                                     "Steps": [
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Alright, no problem!",
-                                                "fr": "D'accord, aucun problème !",
-                                                "es": "",
-                                                "zh": ""
-                                            }
-                                        },
-                                        {
                                             "Type": "Action",
                                             "Name": "NativeExecuteFragment",
                                             "Parameters": {
