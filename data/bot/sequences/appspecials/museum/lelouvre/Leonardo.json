@@ -41,8 +41,17 @@
                 "es": "Para mi es suficiente",
                 "zh": "我不感兴趣"
             },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
             "LinksToFragment": {
-                "FragmentPath": "Exit"
+                "FragmentPath": "MessengerExitFragment"
             }
         },
         {
