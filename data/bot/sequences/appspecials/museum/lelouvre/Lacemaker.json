@@ -129,8 +129,26 @@
                                         "es": "¡No, gracias!",
                                         "zh": "不用了，谢谢！"
                                     },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Alright, no problem!",
+                                                "fr": "D'accord, aucun problème !",
+                                                "es": "",
+                                                "zh": ""
+                                            }
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "NativeExecuteFragment",
+                                            "Parameters": {
+                                            "FragmentPath": "Exit"
+                                            }
+                                        }
+                                    ],
                                     "LinksToFragment": {
-                                        "FragmentPath": "Exit"
+                                        "FragmentPath": "MessengerExitFragment"
                                     }
                                 },
                                 {
