@@ -2,9 +2,14 @@
   {
     "GroupName":"ArtBuddy",
     "SequenceFiles" : [
-      { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/Caryatids.json"]}
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorld.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorld.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/appspecials/museum/Amenhotep.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/museum/Caryatids.json"]}
     ]
   }
 ]
