@@ -40,7 +40,10 @@
                         "FragmentPath": "Exit"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MessengerExitFragment"
+            }
         },
         {
             "Type": "Node",
