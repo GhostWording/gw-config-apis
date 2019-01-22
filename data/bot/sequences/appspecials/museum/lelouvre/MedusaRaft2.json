@@ -67,8 +67,17 @@
                 "es": "No, gracias",
                 "zh": "不用了，谢谢"
             },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ],
             "LinksToFragment": {
-                "FragmentPath": "Exit"
+                "FragmentPath": "MessengerExitFragment"
             }
         },
         {
