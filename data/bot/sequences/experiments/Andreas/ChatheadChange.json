@@ -30,7 +30,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "ChatheadChange2",
       "CommandLabel": {
         "en": "Let's change it again",
@@ -63,7 +63,7 @@
         }
       ],
       "LinksTo": {
-        "Type": "Node",
+        "Type": "Leaf",
         "Id": "ChatheadChange3",
         "Steps": [
           {
