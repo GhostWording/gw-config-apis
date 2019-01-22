@@ -1,0 +1,80 @@
+{
+  "Type": "Node",
+  "Id": "ChatheadChange",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The chathead should now change",
+        "fr": "The chathead should now change"
+      }
+    },
+    {
+      "Type": "Action",
+      "ChatheadChange": {
+        "Type": "Image",
+        "Parameters": {
+          "Source": "Internal",
+          "Path": "themes/emojiPandas/small/shutterstock_431449828_2.jpg",
+          "ms": 5000
+        }
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Tada. This change should last 5 seconds",
+        "fr": "Tada. This change should last 5 seconds"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "ChatheadChange2",
+      "CommandLabel": {
+        "en": "Let's change it again",
+        "fr": "Let's change it again"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "ChatheadChange": {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "l41lZccR1oUigYeNa"
+            }
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Tada 2",
+            "fr": "Tada 2"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This time, it will go back to the default chathead when you click on the next command",
+            "fr": "This time, it will go back to the default chathead when you click on the next command"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ChatheadChange3",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "OK !",
+              "fr": "OK !"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
