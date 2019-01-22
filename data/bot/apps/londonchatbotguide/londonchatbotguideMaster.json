@@ -3,6 +3,9 @@
     "GroupName": "Nutty",
     "SequenceFiles": [
       { "order" : 220, "file":["/data/bot/sequences/appspecials/museum/AgnesCup2.json"]},
+      { "order" : 230, "file":["/data/bot/sequences/appspecials/museum/Chessmen2.json"]},
+      { "order" : 240, "file":["/data/bot/sequences/appspecials/museum/lelouvre/WeddingCana3.json"]},
+      { "order" : 245, "file":["/data/bot/sequences/appspecials/museum/Amenhotep3.json"]},
       { "order" : 250, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
       { "order" : 300, "file":["/data/bot/sequences/nationaltrust/NTIntroduce.json"]},
       { "order" : 350, "file":["/data/bot/sequences/nationaltrust/NTFan.json"]},
