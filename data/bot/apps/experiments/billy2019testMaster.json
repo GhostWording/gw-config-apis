@@ -2,6 +2,7 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
+            { "order" : 1, "file": ["/data/bot/sequences/experiments/Billy2/randomisefragmentstagstest.json"]},
             { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
             { "order" : 20, "file": ["/data/bot/sequences/experiments/Andreas/GifTest1.json"]},
             { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]},
