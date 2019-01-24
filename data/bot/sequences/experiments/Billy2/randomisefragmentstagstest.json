@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Comments": "to test randomising fragments by tags",
+  "Id": "randomisefragmentstagstest",
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "choose if you want tag 1, tag 2, tag 1 or 2, or a random tag 3 sequence"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "randomisefragmentstagstesttag1",
+      "CommandLabel": {
+        "en": "1"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "should show tag1 fragment"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["billyTestTag1"]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "randomisefragmentstagstesttag2",
+      "CommandLabel": {
+        "en": "2"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "should show tag2 fragment"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["billyTestTag2"]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "randomisefragmentstagstesttag1or2",
+      "CommandLabel": {
+        "en": "1or2"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "should show tag1 OR tag2 fragment"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["billyTestTag1","billyTestTag2"]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "randomisefragmentstagstesttag1or2",
+      "CommandLabel": {
+        "en": "1or2"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "should show tag1 OR tag2 fragment"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["billyTestTag3"]
+      }
+    }
+  }
+]
