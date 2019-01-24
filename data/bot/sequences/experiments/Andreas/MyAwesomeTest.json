@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments": "the first fragment for testtag3",
+  "Id": "MyAwesomeTest",
+  "Tags":["billytesttag3"],
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "this fragment has andreas test tag 3, and is the first fragment"
+          }
+        }
+      ]
+    }
