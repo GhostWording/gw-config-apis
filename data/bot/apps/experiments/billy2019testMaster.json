@@ -2,8 +2,22 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order" : 10, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json"]},
-            { "order" : 20, "file": ["/data/bot/sequences/experiments/dbtest/ShowTextForPrototypeYoureTheBest.json"]}
+            { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
+            { "order" : 20, "file": ["/data/bot/sequences/experiments/Andreas/GifTest1.json"]},
+            { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]},
+            { "order" : 40, "file": ["/data/bot/sequences/experiments/Andreas/DimensionsExample.json"]},
+            { "order" : 50, "file": ["/data/bot/sequences/appspecials/savethekitten/EndOfKittens.json"]},
+            { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
+            { "order" : 70, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.jsonn"]},
+            { "order" : 80, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
+            { "order" : 90, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
+            { "order" : 100, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json"]},
+            { "order" : 110, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorningWithImage.json"]},
+            { "order" : 120, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
+            { "order" : 130, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
+            { "order" : 140, "file": ["/data/bot/sequences/experiments/Andreas/LargeCarouselNewUI.json"]},
+            { "order" : 150, "file": ["/data/bot/sequences/experiments/Andreas/CarouselClickableTitlePoint.json"]},
+            { "order" : 160, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
          ]
     }
 ]
