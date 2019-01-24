@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments": "the only fragment for billy test tag 2",
+  "Id": "billytesttag2frag",
+  "Tags":["testtag2"],
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "this fragment has test tag 2"
+          }
+        }
+      ]
+    }
