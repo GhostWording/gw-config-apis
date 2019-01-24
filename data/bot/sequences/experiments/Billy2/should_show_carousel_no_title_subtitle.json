@@ -1,0 +1,20 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "shouldshowcarouselnotitlesubtitle",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You should see only a carousel of pictures, no title or subtitle"
+      }
+    },
+    { 
+      "Type": "Action",
+       "Name": "ShowCarouselFromList", 
+      "Parameters": { 
+          "Path": "/data/common/carousel/NoTitleSubtitleUnclickableCarouselTest.json"
+      }
+    }
+  ]
+}
