@@ -2,12 +2,12 @@
   "Type": "Leaf",
   "Comments": "the second fragment for testtag3",
   "Id": "billytesttag3secondfrag",
-  "Tags":["testtag3"],
+  "Tags":["billytesttag3"],
   "Steps": [
         {
           "Type": "Text",
           "Label": {
-            "en": "this fragment has test tag 3, and is the second fragment"
+            "en": "this fragment has billy test tag 3, and is the second fragment"
           }
         }
       ]
