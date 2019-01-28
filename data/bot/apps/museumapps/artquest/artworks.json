@@ -1,35 +1,35 @@
 [
     {
-      "Id": "screenshottest",
+      "Id": "Lacemaker",
       "Caption": {
-        "en": "The Starry Night",
-        "fr": "La Liberté guidant le peuple",
-        "es": "La Libertad guiando al pueblo",
-        "zh": "《自由引导人们》"
+        "en": "The Lacemaker",
+        "fr": "La Dentellière",
+        "es": "La encajera",
+        "zh": "《编花边的女工》"
       },
       "DefaultImage": {
         "Type": "Web",
-        "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanGogh_StarryNight1889.jpg"
+        "Path": "http://az767698.vo.msecnd.net/museums/louvre/previews/The_Lacemaker_Large.jpg"
       },
       "Thumbnail": {
         "Type": "Web",
-        "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanGogh_StarryNight1889.jpg"
+        "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/The_Lacemaker_Thumbnail.jpg"
       },
       "Artist": {
-        "en": "Vincent van Gogh",
-        "fr": "Eugène Delacroix",
-        "es": "Eugène Delacroix",
-        "zh": "欧仁·德拉克罗瓦"
+        "en": "Johannes Vermeer",
+        "fr": "Johannes Vermeer",
+        "es": "Johannes Vermeer",
+        "zh": "扬·弗美尔"
       },
       "SequenceId": "Lacemaker",
       "Year": {
-        "en": "1889",
-        "fr": "1830",
-        "es": "1830",
-        "zh": "1830"
+        "en": "1669-1670",
+        "fr": "1669-1670",
+        "es": "1669-1670",
+        "zh": "1669-1670"
       },
       "Museum": {
-        "en": "Museum of Modern Art, New York City",
+        "en": "Louvre Museum, Paris",
         "fr": "Musée du Louvre, Paris",
         "es": "Museo del Louvre, París",
         "zh": "卢浮宫博物馆 巴黎"
