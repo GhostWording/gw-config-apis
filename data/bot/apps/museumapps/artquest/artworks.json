@@ -1,5 +1,41 @@
 [
     {
+      "Id": "screenshottest",
+      "Caption": {
+        "en": "The Starry Night",
+        "fr": "La Liberté guidant le peuple",
+        "es": "La Libertad guiando al pueblo",
+        "zh": "《自由引导人们》"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "http://gw-static.azurewebsites.net/museums/artquest/large/VanGogh_StarryNight1889.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "http://gw-static.azurewebsites.net/museums/artquest/small/VanGogh_StarryNight1889.jpg"
+      },
+      "Artist": {
+        "en": "Vincent van Gogh",
+        "fr": "Eugène Delacroix",
+        "es": "Eugène Delacroix",
+        "zh": "欧仁·德拉克罗瓦"
+      },
+      "SequenceId": "Lacemaker",
+      "Year": {
+        "en": "1889",
+        "fr": "1830",
+        "es": "1830",
+        "zh": "1830"
+      },
+      "Museum": {
+        "en": "Museum of Modern Art, New York City",
+        "fr": "Musée du Louvre, Paris",
+        "es": "Museo del Louvre, París",
+        "zh": "卢浮宫博物馆 巴黎"
+      }
+    },
+    {
       "Id": "LibertyLeading",
       "Caption": {
         "en": "Liberty Leading the People",
