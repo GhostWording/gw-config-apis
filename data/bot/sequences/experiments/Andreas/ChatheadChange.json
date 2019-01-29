@@ -11,13 +11,13 @@
     },
     {
       "Type": "Action",
-      "ChatheadChange": {
-        "Type": "Image",
-        "Parameters": {
+      "Name": "ChatheadChange",
+      "Parameters": {
+        "Image": {
           "Source": "Internal",
-          "Path": "themes/emojiPandas/small/shutterstock_431449828_2.jpg",
-          "ms": 5000
-        }
+          "Path": "themes/emojiPandas/small/shutterstock_431449828_2.jpg"
+        },
+        "ms": 5000
       }
     },
     {
@@ -39,9 +39,9 @@
       "Steps": [
         {
           "Type": "Action",
-          "ChatheadChange": {
-            "Type": "AnimatedGif",
-            "Parameters": {
+          "Name": "ChatheadChange",
+          "Parameters": {
+            "Image": {
               "Source": "Giphy",
               "Path": "l41lZccR1oUigYeNa"
             }
