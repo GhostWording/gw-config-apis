@@ -1,35 +1,17 @@
 [
-    {
-        "GroupName":"Test",
-        "SequenceFiles":[
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarHideTest.json"]},
-            { "order" : 2, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExample.json"]},
-            { "order" : 12, "file": ["/data/bot/sequences/experiments/Andreas/TypingBarShowTest.json"]},
-            { "order" : 11, "file": ["/data/bot/sequences/experiments/Andreas/FullScreenWidthTest.json"]},
-            { "order" : 13, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
-            { "order": 15, "file": ["/data/bot/sequences/experiments/Andreas/SkippableExampleTwo.json"]},
-            { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/AutoSelectExample.json"]},
-            { "order": 15, "file":["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
-            { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/TestSequenceNewActions.json"]},
-            { "order": 10, "file": ["/data/bot/sequences/experiments/Andreas/GifTest1.json"]},
-            { "order": 16, "file":["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
-            { "order": 10, "file": ["/data/bot/sequences/experiments/rui/oneFragmentForTag1.json"]},
-            { "order": 10, "file":["/data/bot/sequences/experiments/rui/TestiOSCarouselImages.json"]},
-            { "order": 8, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
-            { "order": 10, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
-            { "order": 10, "file":["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
-            { "order": 119, "file":["/data/bot/sequences/experiments/starbucks/Starbucks4.json"]},
-            { "order": 120, "file":["/data/bot/sequences/experiments/starbucks/Starbucks5.json"]},
-            { "order": 127, "file":["/data/bot/sequences/nationaltrust/FountainsAbbey.json"]},
-            { "order": 129, "file":["/data/bot/sequences/nationaltrust/Fountains2.json"]},
-            { "order": 119, "file":["/data/bot/sequences/nationaltrust/BodiamIntro.json"]},
-            { "order": 124, "file":["/data/bot/sequences/nationaltrust/BodiamEd.json"]},
-            { "order": 130, "file":["/data/bot/sequences/nationaltrust/CarrickVolc.json"]},
-            { "order": 140, "file":["/data/bot/sequences/nationaltrust/CarrickBridge.json"]},
-            { "order": 1100, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
-            { "order": 1150, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
-            { "order": 1500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
-            { "order": 12, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]}
-        ]
-    }
+  {
+    "GroupName": "MinuteArt",
+    "SequenceFiles": [
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/ISeeWeShare.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtDescribeDay.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtDinnerParty.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroIsThisArt1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroNothingOutside1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroAdultVsChildhood1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroBraveEnough1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroDaySoFar1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroEnjoyCooking1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtIntroFavourableWinds1.json"]},
+      { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtWhichPaintingIntro1.json"]},
+  }
 ]
