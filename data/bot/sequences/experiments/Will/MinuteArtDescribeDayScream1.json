@@ -1,67 +1,79 @@
 {
-  "Type": "Leaf",
-  "Id": "MinuteArtDescribeDayScream1",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Sorry to hear that",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "From what I have heard...",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    },
-    {
-      "Type": "Action",
-      "Name": "ShowCardForPrototype",
-      "Comment": "Quote: Humankind cannot bear very much reality",
-      "Parameters": {
-        "PrototypeId": "CD2E33"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "and...",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    },
-    {
-      "Type": "Action",
-      "Name": "ShowCardForPrototype",
-      "Comment": "Quote: Everything that is simple is false",
-      "Parameters": {
-        "PrototypeId": "32D9A4"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I made up my mind...",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I choose art!",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    }
-  ]
+    "Type": "Leaf",
+    "Id": "MinuteArtDescribeDayScream1",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Sorry to hear that",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "From what I have heard...",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCardForPrototype",
+            "Comment": "Quote: Humankind cannot bear very much reality",
+            "Parameters": {
+                "PrototypeId": "CD2E33",
+                "DefaultImage":{
+                    "Width": 300,
+                    "Height": 200,
+                    "Source": "web",
+                    "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547738341/SD_Memory.jpg"
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "and...",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCardForPrototype",
+            "Comment": "Quote: Everything that is simple is false",
+            "Parameters": {
+                "PrototypeId": "32D9A4",
+                "DefaultImage": {
+                    "Width": 250,
+                    "Height": 250,
+                    "Source": "web",
+                    "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1549029617/mondrian_2.jpg"
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I made up my mind...",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I choose art!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        }
+    ]
 }
