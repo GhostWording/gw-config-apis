@@ -35,10 +35,16 @@
                 },
                 {
                     "Type": "Action",
-                     "Name": "ShowCardForPrototype",
-                     "Comment":  "Bad At Cooking",
-                     "Parameters": {
-                       "PrototypeId": "1527C8"
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Bad At Cooking",
+                    "Parameters": {
+                        "PrototypeId": "1527C8",
+                        "DefaultImage": {
+                            "Width": 212,
+                            "Height": 238,
+                            "Source": "web",
+                            "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1549031778/Webp.net-compress-image.jpg"
+                        }
                     }
                 }
             ]
@@ -65,10 +71,16 @@
                 },
                 {
                     "Type": "Action",
-                     "Name": "ShowCardForPrototype",
-                     "Comment":  "Love Cooking",
-                     "Parameters": {
-                       "PrototypeId": "7A2B80"
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Love Cooking",
+                    "Parameters": {
+                        "PrototypeId": "7A2B80",
+                        "DefaultImage": {
+                            "Width": 553,
+                            "Height": 833,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/loveinterest/istockpairs/small/iStock_000003176839_Medium.jpg"
+                        }
                     }
                 }
             ]
