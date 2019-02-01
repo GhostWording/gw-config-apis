@@ -1,79 +1,85 @@
 {
-  "Type": "Node",
-  "Id": "MinuteArtWhichPaintingIntro2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I like it as well",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    },
-    {
-      "Type": "Action",
-      "Name": "ShowCardForPrototype",
-      "Comment": "There is a Loneliness",
-      "Parameters": {
-        "PrototypeId": "8030E1",
-        "DefaultImage": {
-          "Width": "300",
-          "Height": "200",
-          "Source": "Web",
-          "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547738341/SD_Memory.jpg"
-        }
-      }
-    },
-    {
-      "Type": "Action",
-      "Name": "ShowCardForPrototype",
-      "Comment": "Say you're the best",
-      "Parameters": {
-        "PrototypeId": "19EFF2"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "MinuteArtWhichPaintingIntro2Horrible",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "That would be horrible",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "MinuteArtWhichPaintingIntro2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I agree",
-            "fr": "...",
-            "es": "...",
-            "zh": "..."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "I like it as well",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Hopefully there is an escape route",
-            "fr": "...",
-            "es": "...",
-            "zh": "..."
-          }
+            "Type": "Action",
+            "Name": "ShowCardForPrototype",
+            "Comment": "There is a Loneliness",
+            "Parameters": {
+                "PrototypeId": "8030E1",
+                "DefaultImage": {
+                    "Width": "300",
+                    "Height": "200",
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547738341/SD_Memory.jpg"
+                }
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Let me ask you a few questions and tell you a few things I have discovered about art",
-            "fr": "...",
-            "es": "...",
-            "zh": "..."
-          }
+            "Type": "Action",
+            "Name": "ShowCardForPrototype",
+            "Comment": "What if we had against",
+            "Parameters": {
+                "PrototypeId": "9F8ED2",
+                "DefaultImage": {
+                    "Width": "300",
+                    "Height": "220",
+                    "Source": "Web",
+                    "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1549032996/Tower_of_Babel.jpg"
+                }
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtWhichPaintingIntro2Horrible",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That would be horrible",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I agree",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hopefully there is an escape route",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me ask you a few questions and tell you a few things I have discovered about art",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                }
+            ]
+        }
+    ]
 }
