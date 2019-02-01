@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "LeaveReviewExample",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "please leave a review",
+                "fr": "",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeaveReviewExampleYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks! Taking you to the store...",
+                        "fr": "",
+                        "es": "",
+                        "zh": ""
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "LeaveReview"
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "LeaveReviewExampleNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "",
+                "es": "",
+                "zh": ""
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK! Going to next sequence...",
+                        "fr": "",
+                        "es": "",
+                        "zh": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
