@@ -900,42 +900,6 @@
       }
     },
     {
-      "Id": "Rosetta",
-      "Caption": {
-        "en": "The Rosetta Stone",
-        "fr": "La Pierre de Rosette",
-        "es": "La Piedra de Rosetta",
-        "zh": ""
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538054922/rosetta_stone.jpg"
-      },
-      "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538409453/rosetta_stone_thumbnail2.jpg"
-      },
-      "Artist": {
-        "en": "Unknown",
-        "fr": "Inconnu",
-        "es": "Desonocido",
-        "zh": "名不见经传的 "
-      },
-      "SequenceId": "Rosetta",
-      "Year": {
-        "en": "196 BC",
-        "fr": "196 av. J.-C.",
-        "es": "196 a. C.",
-        "zh": ""
-      },
-      "Museum": {
-        "en": "The British Museum, London",
-        "fr": "British Museum, Londres",
-        "es": "El Museo Británico, Londres",
-        "zh": "大英博物馆 伦敦"
-      }
-    },
-    {
       "Id": "Reindeer",
       "Caption": {
         "en": "Ivory Reindeer",
@@ -962,42 +926,6 @@
         "en": "c. 11000 BC",
         "fr": "Vers 11000 av. J.-C.",
         "es": "c. 11000 a. C.",
-        "zh": ""
-      },
-      "Museum": {
-        "en": "The British Museum, London",
-        "fr": "British Museum, Londres",
-        "es": "El Museo Británico, Londres",
-        "zh": "大英博物馆 伦敦"
-      }
-    },
-    {
-      "Id": "SuttonHoo",
-      "Caption": {
-        "en": "The Sutton Hoo Helmet",
-        "fr": "Le Casque de Sutton Hoo",
-        "es": "El Casco de Sutton Hoo",
-        "zh": ""
-      },
-      "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056090/sutton_hoo_default.jpg"
-      },
-      "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1538056251/sutton_hoo_thumbnail.jpg"
-      },
-      "Artist": {
-        "en": "Unknown",
-        "fr": "Inconnu",
-        "es": "Desonocido",
-        "zh": "名不见经传的 "
-      },
-      "SequenceId": "SuttonHoo",
-      "Year": {
-        "en": "Early 7th century",
-        "fr": "Début du VIIe siècle",
-        "es": "Principios del siglo séptimo",
         "zh": ""
       },
       "Museum": {
