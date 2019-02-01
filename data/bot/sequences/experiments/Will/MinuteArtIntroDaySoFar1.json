@@ -1,68 +1,80 @@
 {
-  "Type": "Node",
-  "Id": "MinuteArtIntroDaySoFar1",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "How does your day look so far?",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "MinuteArtIntroDaySoFar1Cloudy",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Cloudy",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "MinuteArtIntroDaySoFar1",
+    "Steps": [
         {
-          "Type": "Action",
-          "Name": "ShowCardForPrototype",
-          "Comment": "Life isn't about waiting",
-          "Parameters": {
-            "PrototypeId": "606765"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "How does your day look so far?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
         }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "MinuteArtIntroDaySoFar1Sunny",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Sunny!",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Good to hear!",
-            "fr": "...",
-            "es": "...",
-            "zh": "..."
-          }
+            "Type": "Leaf",
+            "Id": "MinuteArtIntroDaySoFar1Cloudy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cloudy",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Life isn't about waiting",
+                    "Parameters": {
+                        "PrototypeId": "606765",
+                        "DefaultImage":{
+                            "Width": 260,
+                            "Height": 194,
+                            "Source": "web",
+                            "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547827644/JMW_Turner_New.jpg"
+                        }
+                    }
+                }
+            ]
         },
         {
-          "Type": "Action",
-          "Name": "ShowCardForPrototype",
-          "Comment": "My Life is like furniture",
-          "Parameters": {
-            "PrototypeId": "05513A"
-          }
+            "Type": "Leaf",
+            "Id": "MinuteArtIntroDaySoFar1Sunny",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sunny!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Good to hear!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "My Life is like furniture",
+                    "Parameters": {
+                        "PrototypeId": "05513A",
+                        "DefaultImage":{
+                            "Width": 800,
+                            "Height": 531,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/fbfriend/other/small/iStock_000013553761_Medium.jpg"
+                        }
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
