@@ -1,83 +1,89 @@
 {
-  "Type": "Node",
-  "Id": "MinuteArtIntroAdultVsChildhood1",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Do you think being an adult is better than childhood?",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "AdultWhatsThat",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Adult, what's that?",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "MinuteArtIntroAdultVsChildhood1",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Too true...",
-            "fr": "...",
-            "es": "...",
-            "zh": "..."
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowCardForPrototype",
-          "Comment": "When I was a Kid...",
-          "Parameters": {
-            "PrototypeId": "F9715D"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "TakeMeBack",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Take me back!",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "I know the feeling...",
-            "fr": "...",
-            "es": "...",
-            "zh": "..."
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowCardForPrototype",
-          "Comment": "Running away as adult",
-          "Parameters": {
-            "PrototypeId": "118042",
-            "DefaultImage": {
-              "Width": "200",
-              "Height": "600",
-              "Source": "Web",
-              "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547653922/Wanderer_2.jpg"
+            "Type": "Text",
+            "Label": {
+                "en": "Do you think being an adult is better than childhood?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
             }
-          }
         }
-      ]
-    }
-  ]
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "AdultWhatsThat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Adult, what's that?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Too true...",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "When I was a Kid...",
+                    "Parameters": {
+                        "PrototypeId": "F9715D",
+                        "DefaultImage":{
+                            "Width": 700,
+                            "Height": 466,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/themes/animals/small/7651.jpg"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "TakeMeBack",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Take me back!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I know the feeling...",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Running away as adult",
+                    "Parameters": {
+                        "PrototypeId": "118042",
+                        "DefaultImage": {
+                            "Width": "200",
+                            "Height": "600",
+                            "Source": "Web",
+                            "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1547653922/Wanderer_2.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }
