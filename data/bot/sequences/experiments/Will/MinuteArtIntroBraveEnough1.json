@@ -1,59 +1,71 @@
 {
-  "Type": "Node",
-  "Id": "MinuteArtIntroBraveEnough1",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Are you brave enough to stand up for what you want?",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "MinuteArtIntroBraveEnough1No",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "No",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "MinuteArtIntroBraveEnough1",
+    "Steps": [
         {
-          "Type": "Action",
-          "Name": "ShowCardForPrototype",
-          "Comment": "Courage is grace",
-          "Parameters": {
-            "PrototypeId": "D5DC41"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Are you brave enough to stand up for what you want?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
         }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "MinuteArtIntroBraveEnough1Yes",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Yes!",
-        "fr": "...",
-        "es": "...",
-        "zh": "..."
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Action",
-          "Name": "ShowCardForPrototype",
-          "Comment": "Are you up for adoption",
-          "Parameters": {
-            "PrototypeId": "1FB9D7"
-          }
+            "Type": "Leaf",
+            "Id": "MinuteArtIntroBraveEnough1No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Courage is grace",
+                    "Parameters": {
+                        "PrototypeId": "D5DC41",
+                        "DefaultImage":{
+                            "Width": 500,
+                            "Height": 375,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/fbfriend/stock/small/373812_10150513997644556_58269939555_8529781_806124745_n.jpg"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtIntroBraveEnough1Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Are you up for adoption",
+                    "Parameters": {
+                        "PrototypeId": "1FB9D7",
+                        "DefaultImage":{
+                            "Width": 600,
+                            "Height": 620,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/specialoccasions/I-like-you/default/small/12074535_731551716999660_3352024841488509428_n.jpg"
+                        }
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
