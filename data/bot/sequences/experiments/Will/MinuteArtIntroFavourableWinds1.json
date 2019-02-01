@@ -26,10 +26,16 @@
             "Steps": [
                 {
                     "Type": "Action",
-                     "Name": "ShowCardForPrototype",
-                     "Comment":  "If the wind will not serve",
-                     "Parameters": {
-                       "PrototypeId": "B2A875"
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "If the wind will not serve",
+                    "Parameters": {
+                        "PrototypeId": "B2A875",
+                        "DefaultImage": {
+                            "Width": 800,
+                            "Height": 521,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/stockdivers/small/s_i01_95000267.jpg"
+                        }
                     }
                 }
             ]
@@ -56,9 +62,15 @@
                 },
                 {
                     "Type": "Action",
-                     "Name": "ShowCardForPrototype",
-                     "Parameters": {
-                       "PrototypeId": "AEBC22"
+                    "Name": "ShowCardForPrototype",
+                    "Parameters": {
+                        "PrototypeId": "AEBC22",
+                        "DefaultImage": {
+                            "Width": 800,
+                            "Height": 534,
+                            "Source": "internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/shutterpairs/small/shutterstock_222713821.jpg"
+                        }
                     }
                 }
             ]
