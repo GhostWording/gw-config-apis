@@ -3,13 +3,9 @@
     {
       "Name": "rcbotdev",
      "file2": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
-      "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+      "file": "/data/bot/apps/swagfish/swagfishMasterDev.json"
     },
     {
-      "Name": "surveypony",
-      "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
-    },
-     {
       "Name": "swagfish",
       "file": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     },
@@ -21,8 +17,8 @@
   ],
   "FragmentsFiles": [
     {
-      "Topic": "lelouvre",
-      "File": "/data/bot/apps/museumapps/lelouvre/lelouvreFragments.json"
+      "Topic": "main",
+      "File": "/data/bot/apps/swagfish/swagfishFragments.json"
     }
   ],
   "FragmentsForKeywords" : [
