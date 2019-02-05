@@ -8,10 +8,14 @@
        { "order": 1210, "file":[ "/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
        { "order": 1220, "file":[ "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
        { "order": 1220, "file":[ "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
-       { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
-       { "order" : 1302, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
-       { "order" : 1520, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]},
-       { "order" : 1530, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withCountry.json"]}
+       
+      { "order" : 1302, "file": ["/data/bot/sequences/experiments/rui/oneFragmentForTag1.json"]},
+       { "order" : 1302, "file": ["/data/bot/sequences/experiments/rui/oneFragmentWithOneCommand1.json"]},
+  
+  
+       { "order" : 1302, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
+     
+      { "order" : 1520, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]}
   
       ]
    }
