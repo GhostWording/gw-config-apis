@@ -1,16 +1,16 @@
 {
   "MasterFiles": [
     {
-      "Name": "swagfish",
+      "Name":   "swagfish",
       "Source": "github",
-      "File": "/data/bot/apps/swagfish/swagfishMasterDev.json"
+      "File":   "/data/bot/apps/swagfish/swagfishMasterDev.json"
     }
   ],
   "FragmentsFiles": [
     {
       "Topic": "main",
-      "Other":"/data/bot/sequences/fragments/FragmentsMain.json",
-      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
+      "Other": "/data/bot/sequences/fragments/FragmentsMain.json",
+      "File":  "/data/bot/apps/swagfish/swagfishFragments.json"
     }
   ],
   "FragmentsForKeywords" : [
