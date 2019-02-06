@@ -3,8 +3,6 @@
     "GroupName":"ArtBuddy",
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtStart.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtStart2.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtStart3.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/DavidCoronation.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/Lacemaker.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/Lamassu.json"]},
