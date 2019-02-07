@@ -9,7 +9,8 @@
                 "fr": "Je suis sûr que tu reconnais cette statue.",
                 "es": "Estoy seguro de que reconoces esta estatua.",
                 "zh": "您肯定知道这座雕塑。"
-            }
+            },
+            "Vibration": "true"
         },
         {
             "Type": "Image",
@@ -50,7 +51,8 @@
                         "fr": "Quelle culture !",
                         "es": "¡Cuanto conocimiento!",
                         "zh": "了解了新的宝贵知识！"
-                    }
+                    },
+                    "Vibration": "true"
                 }
             ],
             "LinksToFragment": {
