@@ -43,6 +43,7 @@
                 "es": "Sí",
                 "zh": "知道"
             },
+            "Vibration": "true",
             "Steps": [
                 {
                     "Type": "Text",
@@ -51,8 +52,7 @@
                         "fr": "Quelle culture !",
                         "es": "¡Cuanto conocimiento!",
                         "zh": "了解了新的宝贵知识！"
-                    },
-                    "Vibration": "true"
+                    }
                 }
             ],
             "LinksToFragment": {
