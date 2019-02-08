@@ -1,0 +1,25 @@
+{
+    "Id": "London",
+    "Caption": {
+        "en": "London City Guide",
+        "fr": "London City Guide",
+        "es": "London City Guide"
+    },
+    "Location": {
+        "Latitude": "48.864716",
+        "Longitude": "2.349014"
+    },
+    "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+    },
+    "LocationSequenceId": "LondonMap",
+    "Topic": "london",
+    "Places" : [
+      {"Id": "TestBoxPark"},
+      {"Id": "TestOffice"},
+      {"Id": "TestMareStreet"},
+      {"Id": "TestHome"},
+      {"Id": "TestLiverpoolStreet"}
+    ]
+}
