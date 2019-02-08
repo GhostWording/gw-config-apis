@@ -1,0 +1,45 @@
+{
+    "Id": "LeaveReviewTest",
+    "Type": "Text",
+    "Label": {
+        "en": "Please rate us on the store!"
+    },
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeaveReviewTestOK",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "OK"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Taking you to the store..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "LeaveReview"
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "LeaveReviewTestNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not taking you to the store..."
+                    }
+                }
+            ]
+        }
+    ]
+}
