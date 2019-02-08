@@ -1,0 +1,45 @@
+{
+    "Id": "RateUsTest",
+    "Type": "Text",
+    "Label": {
+        "en": "Please rate us on the store!"
+    },
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RateUsTestOK",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "OK"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Taking you to the store..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "RateUs"
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RateUsTestNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not taking you to the store..."
+                    }
+                }
+            ]
+        }
+    ]
+}
