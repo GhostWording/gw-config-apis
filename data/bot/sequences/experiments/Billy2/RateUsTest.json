@@ -1,22 +1,36 @@
 {
+    "Type": "Node",
     "Id": "RateUsTest",
-    "Type": "Text",
-    "Label": {
-        "en": "Please rate us on the store!"
-    },
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "please leave a review",
+                "fr": "",
+                "es": "",
+                "zh": ""
+            }
+        }
+    ],
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "RateUsTestOK",
+            "Id": "RateUsTestYes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "OK"
+                "en": "yes",
+                "fr": "",
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Taking you to the store..."
+                        "en": "Thanks! Taking you to the store...",
+                        "fr": "",
+                        "es": "",
+                        "zh": ""
                     }
                 },
                 {
@@ -30,13 +44,19 @@
             "Id": "RateUsTestNo",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "No"
+                "en": "No",
+                "fr": "",
+                "es": "",
+                "zh": ""
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Not taking you to the store..."
+                        "en": "OK! Going to next sequence...",
+                        "fr": "",
+                        "es": "",
+                        "zh": ""
                     }
                 }
             ]
