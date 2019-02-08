@@ -1,0 +1,25 @@
+[
+  {
+      "Id": "ArcDeTriomphe",
+      "Caption": {
+          "en": "Arc de Triomphe",
+          "fr": "Arc de Triomphe",
+          "es": "Arco de Triunfo",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624370/arc_de_triomphe_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624568/arce_de_triomphe_thumbnail.jpg"
+      },
+      "SequenceId": "ArcDeTriomphe",
+      "Location": {
+          "Latitude": "48.8737793",
+          "Longitude": "2.2950155999999424"
+      },
+      "Arrondissement": "8e arrondissement"
+  }
+]
