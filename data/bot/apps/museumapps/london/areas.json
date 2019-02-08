@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "Museums",
+    "Caption": {
+      "en": "Museums",
+      "fr": "Musées",
+      "es": "Museos"
+    },
+      "DefaultImage": {
+      "Type": "Web",
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964758/louvre.jpg"
+    },
+    "AreaSequenceId" : "BestTestFragmentEver",
+    "Places" : [
+      {"Id": "LeLouvre"}
+    ]
+  }
+]
