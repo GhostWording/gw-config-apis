@@ -1,23 +1,23 @@
 
 {
 "apps": 
-  [
+  [   
     {
       "availablefor" : ["en","fr"],
-      "title": "Free stories about art",
+      "title": "Daily art stories",
       "titleLocalized": {
-        "en": "Art explained by an owl",
-        "fr": "L'art expliqué par une chouette",
-        "es": "Historias de arte!"
+        "en": "Daily art stories!",
+        "fr": "Histoires d'art",
+        "es": "Daily art stories!"
       },
-      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
-      "storeUrl": "https://www.producthunt.com/posts/art-buddy",
+      "iconUrl": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1550242225/minute_art_icon.png",
+      "storeUrl": "https://itunes.apple.com/gb/app/minute-art/id1441650916",
       "storeUrlLocalized": {
-        "en": "https://www.producthunt.com/posts/art-buddy",
-        "fr": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
-        "es": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8"
+        "en": "https://itunes.apple.com/gb/app/minute-art/id1441650916",
+        "fr": "https://itunes.apple.com/gb/app/minute-art/id1441650916",
+        "es": "https://itunes.apple.com/gb/app/minute-art/id1441650916"
       }
-    },    
+    }, 
     {
       "availablefor" : ["en","fr", "es"],
       "title": "Try me, I'm a bot!",
@@ -64,6 +64,22 @@
         "en": "https://itunes.apple.com/us/app/popular-stickers/id1111611495?mt=8",
         "fr": "https://itunes.apple.com/us/app/popular-stickers/id1111611495?mt=8",
         "es": "https://itunes.apple.com/us/app/popular-stickers/id1111611495?mt=8"
+      }
+    },
+    {
+      "availablefor" : ["en","fr", "es"],
+      "title": "Free stories about art",
+      "titleLocalized": {
+        "en": "Art explained by an owl",
+        "fr": "L'art expliqué par une chouette",
+        "es": "Historias de arte!"
+      },
+      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
+      "storeUrl": "https://www.producthunt.com/posts/art-buddy",
+      "storeUrlLocalized": {
+        "en": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
+        "fr": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
+        "es": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8"
       }
     }
   ]
