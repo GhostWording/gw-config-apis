@@ -22,7 +22,9 @@
       { "order" : 180, "file": ["/data/bot/sequences/appspecials/museum/artquest/GoMuseum.json"]},
       { "order" : 190, "file": ["/data/bot/sequences/appspecials/museum/artquest/ModernClassic.json"]}, 
       { "order" : 200, "file": ["/data/bot/sequences/appspecials/museum/artquest/PaintingsSculptures.json"]},
-      { "order" : 210, "file": ["/data/bot/sequences/appspecials/museum/artquest/TimeVisit.json"]}
+      { "order" : 210, "file": ["/data/bot/sequences/appspecials/museum/artquest/TimeVisit.json"]},
+      { "order" : 1, "file": ["/data/bot/sequences/appspecials/ShowAnAdvert.json"]},
+      { "order" : 2, "file": ["/data/bot/sequences/experiments/Billy2/LeaveReviewExample.json"]}
       ]
    }
 ]
