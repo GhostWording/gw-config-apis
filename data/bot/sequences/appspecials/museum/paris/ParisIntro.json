@@ -1,0 +1,137 @@
+{
+    "Type": "Node",
+    "Id": "ParisIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi! I'll be your guide to Paris!",
+                "fr": "Bonjour et bienvenue!",
+                "es": "Hi! I'll be your guide to Paris!",
+                "zh": "Hi! I'll be your guide to Paris!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Can you see my messages?",
+                "fr": "Peux-tu voir mes messages ?",
+                "es": "Can you hear me?",
+                "zh": "Can you hear me?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ParisIntroYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Vuelta",
+                "zh": "出口"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! It's nice to meet you!",
+                        "fr": "Parfait ! Je suis ravi de te rencontrer !",
+                        "es": "Great! It's nice to meet you!",
+                        "zh": "Great! It's nice to meet you!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ParisIntroYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ParisIntroYesYou",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "And you!",
+                            "fr": "Moi aussi !",
+                            "es": "And you!",
+                            "zh": "And you!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, let's talk about Paris!",
+                                    "fr": "Bon, parlons de Paris !",
+                                    "es": "Now, let's talk about Paris!",
+                                    "zh": "Now, let's talk about Paris!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ParisIntroNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "Vuelta",
+                "zh": "出口"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "How did you know to reply then? 🤔",
+                        "fr": "Comment as-tu fait  pour me répondre alors ? 🤔",
+                        "es": "How did you know to reply then? 🤔",
+                        "zh": "How did you know to reply then? 🤔"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, it's nice to meet you",
+                        "fr": "En tous cas, je suis ravi de te rencontrer",
+                        "es": "Anyway, it's nice to meet you",
+                        "zh": "Anyway, it's nice to meet you"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ParisIntroNoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ParisIntroNoYou",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "And you!",
+                            "fr": "Moi aussi !",
+                            "es": "And you!",
+                            "zh": "And you!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, let's talk about Paris!",
+                                    "fr": "Bon, parlons de Paris !",
+                                    "es": "Now, let's talk about Paris!",
+                                    "zh": "Now, let's talk about Paris!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
