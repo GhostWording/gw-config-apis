@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "please leave a review",
-                "fr": "merci de laisser un revue",
+                "en": "Please leave a review",
+                "fr": "Merci de laisser un revue",
                 "es": "",
                 "zh": ""
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "yes",
-                "fr": "oui",
+                "fr": "d'accord !",
                 "es": "",
                 "zh": ""
             },
@@ -44,8 +44,8 @@
             "Id": "LeaveReviewExampleNo",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "No",
-                "fr": "Non",
+                "en": "no",
+                "fr": "non",
                 "es": "",
                 "zh": ""
             },
