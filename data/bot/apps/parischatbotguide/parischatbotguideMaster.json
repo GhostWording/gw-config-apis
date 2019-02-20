@@ -5,7 +5,10 @@
       { "order" : 220, "file":["/data/bot/sequences/appspecials/museum/paris/ParisIntro.json"]},
       { "order" : 230, "file":["/data/bot/sequences/appspecials/museum/paris/LesHalles.json"]},
       { "order" : 240, "file":["/data/bot/sequences/appspecials/museum/paris/PalaisGarnier.json"]},
-      { "order" : 250, "file":["/data/bot/sequences/appspecials/museum/paris/SainteChapelle.json"]}
+      { "order" : 250, "file":["/data/bot/sequences/appspecials/museum/paris/SainteChapelle.json"]},
+      { "order" : 260, "file":["/data/bot/sequences/appspecials/museum/AgnesCup.json"]},
+      { "order" : 260, "file":["/data/bot/sequences/appspecials/museum/LouisXIV.json"]},
+      { "order" : 260, "file":["/data/bot/sequences/appspecials/museum/LibertyLeading.json"]}
     ]
   }
 ]
