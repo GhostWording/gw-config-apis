@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "please leave a review",
-                "fr": "",
+                "fr": "merci de laisser un revue",
                 "es": "",
                 "zh": ""
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "yes",
-                "fr": "",
+                "fr": "oui",
                 "es": "",
                 "zh": ""
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Thanks! Taking you to the store...",
-                        "fr": "",
+                        "fr": "Merci ! Redirection vers le store...",
                         "es": "",
                         "zh": ""
                     }
@@ -45,7 +45,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "",
+                "fr": "Non",
                 "es": "",
                 "zh": ""
             },
@@ -54,7 +54,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "OK! Going to next sequence...",
-                        "fr": "",
+                        "fr": "Ok ! En route vers la prochaine séquence",
                         "es": "",
                         "zh": ""
                     }
