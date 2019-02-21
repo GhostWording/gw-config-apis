@@ -43,7 +43,7 @@
           "Parameters": {
             "Image": {
               "Source": "Giphy",
-              "Path": "fsbTJNXmfCa9YbPKdR"
+              "Path": "9SIpiNzJHrelwzlOba"
             }
           }
         },
@@ -52,6 +52,40 @@
           "Label": {
             "en": "Tada 2",
             "fr": "Tada 2"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ChatheadChange",
+          "Parameters": {
+            "Image": {
+              "Source": "Giphy",
+              "Path": "g0gPuryLMENOVkAO2A"
+            }
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Tada 3",
+            "fr": "Tada 3"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ChatheadChange",
+          "Parameters": {
+            "Image": {
+              "Source": "Giphy",
+              "Path": "fsbTJNXmfCa9YbPKdR"
+            }
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Tada 4",
+            "fr": "Tada 4"
           }
         },
         {
