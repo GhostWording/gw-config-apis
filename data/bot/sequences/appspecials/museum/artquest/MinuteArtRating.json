@@ -50,7 +50,22 @@
                             "fr": "Avec plaisir",
                             "es": "",
                             "zh": ""
-                        }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! Taking you to the store...",
+                                    "fr": "Merci ! Redirection vers le store...",
+                                    "es": "",
+                                    "zh": ""
+                                }
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "LeaveReview"
+                            }
+                        ]
                     },
                     {
                         "Type": "Leaf",
