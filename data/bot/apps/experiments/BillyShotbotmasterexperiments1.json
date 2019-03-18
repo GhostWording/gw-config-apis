@@ -1,8 +1,8 @@
 [
   {
-    "GroupName":"BritishMuseum",
+    "GroupName":"test",
     "SequenceFiles" : [
-      { "order" : 2, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/RecommendLouvreApp.json"]},
+      { "order" : 2, "file": ["/data/bot/sequences/experiments/Billy2/AffiliateTestBohemian.json"]},
       { "order" : 4, "file": ["/data/bot/sequences/experiments/Billy2/LeaveReviewExample.json"]},
       { "order" : 6, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/DavidCoronation.json"]},
       { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/RandomizeTrue.json"]},
