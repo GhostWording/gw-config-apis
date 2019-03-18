@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "AffiliateTestBohemian3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I've been listening to the soundtrack non-stop...",
+                "fr": "Je n'arrête pas d'écouter la bande-son...",
+                "es": "No puedo dejar de escuchar la banda sonora..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here's a link to it on Amazon if it strikes your fancy too! 💿",
+                "fr": "Si cela vous intéresse, voici un lien vers ce site sur Amazon 💿",
+                "es": "Si te interesa, aquí tienes un enlace a él en Amazon 💿"
+            }
+        },
+        {
+            "Type": "ShowPersistentLink",
+            "Title": {
+                "en": "The awesome movie soundtrack!",
+                "fr": "La musique originale officielle",
+                "es": "La banda sonora oficial"
+            },
+            "LinkLabel": {
+                "en": "Bohemian Rhapsody 🎼",
+                "fr": "Bohemian Rhapsody 🎼",
+                "es": "Bohemian Rhapsody 🎼"
+            },
+            "url": "https://amzn.to/2VZOciK",
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1552894476/bohemian_rhapsody_OST_pic.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "AffiliateTestBohemian3Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "thanks!",
+                "fr": "merci !",
+                "es": "gracias"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AffiliateTestBohemian3No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "not now",
+                "fr": "pas maintenant",
+                "es": "ahora no"
+            }
+        }
+    ]
+}
