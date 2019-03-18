@@ -1,0 +1,76 @@
+{
+    "Type": "Node",
+    "Id": "AffiliateTestBohemian",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have you seen this movie?",
+                "fr": "Tu as vu ce film ?",
+                "es": "¿Has visto esta película?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 1080,
+                "Height": 1421,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1552892352/bohemian_rhapsody_poster_pic.jpg"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AffiliateTestBohemianYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "AffiliateTestBohemian2"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AffiliateTestBohemianNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "8UGoOaR1lA1uaAN892"
+                    }
+                }
+            ]
+        }
+    ]
+}
