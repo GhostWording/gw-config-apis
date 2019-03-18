@@ -1,0 +1,67 @@
+{
+    "Type": "Node",
+    "Id": "AffiliateTestBohemian2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Did you like the music? 😃",
+                "fr": "Tu as aimé la musique ? 😃",
+                "es": "¿Te gustó la música? 😃"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AffiliateTestBohemian2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "AffiliateTestBohemian3"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AffiliateTestBohemian2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "8UGoOaR1lA1uaAN892"
+                    }
+                }
+            ]
+        }
+    ]
+}
