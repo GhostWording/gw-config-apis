@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I've been listening to the soundtrack non-stop...",
-                "fr": "Je n'arrête pas d'écouter la bande-son...",
+                "fr": "J'écoute la bande-son en boucle",
                 "es": "No puedo dejar de escuchar la banda sonora..."
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Here's a link to it on Amazon if it strikes your fancy too! 💿",
-                "fr": "Si cela vous intéresse, voici un lien vers ce site sur Amazon 💿",
+                "fr": "Voici un lien vers la page Amazon si cela t'intéresse 💿",
                 "es": "Si te interesa, aquí tienes un enlace a él en Amazon 💿"
             }
         },
@@ -22,7 +22,7 @@
             "Type": "ShowPersistentLink",
             "Title": {
                 "en": "The awesome movie soundtrack!",
-                "fr": "La musique originale officielle",
+                "fr": "Bande son originale",
                 "es": "La banda sonora oficial"
             },
             "LinkLabel": {
