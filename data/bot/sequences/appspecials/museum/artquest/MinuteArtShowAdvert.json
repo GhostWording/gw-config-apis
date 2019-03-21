@@ -1,0 +1,60 @@
+{
+    "Type": "Node",
+    "Id": "MinuteArtShowAdvert",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to see an advert?",
+                "fr": "Puis-je te montrer une pub ?",
+                "es": "¿Te gustaría ver un anuncio?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtShowAdvertYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "OK",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great! Here it comes...",
+                        "fr": "Super ! Le voilà qui arrive....",
+                        "es": "¡Genial! Aquí viene..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowAdvert"
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "MinuteArtShowAdvertNo",
+            "ElementValue": "0",
+            "CommandLabel": {
+                "en": "no thanks",
+                "fr": "non merci",
+                "es": "no gracias"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, no problem! Let's move on...",
+                        "fr": "D'accord, passons à autre chose !",
+                        "es": "¡Muy bien, sigamos adelante!"
+                    }
+                }
+            ]
+        }
+    ]
+}
