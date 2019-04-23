@@ -3,19 +3,19 @@
 "apps": 
   [   
     {
-      "availablefor" : ["en","fr"],
-      "title": "Messenger Art Bot",
+      "availablefor" : ["en","fr","es"],
+      "title": "Art explained by an owl",
       "titleLocalized": {
-        "en": "Messenger Art Bot",
-        "fr": "Art Bot Messenger",
-        "es": "Daily art stories!"
+        "en": "Unbelievable art stories!",
+        "fr": "La face cachée de l'art",
+        "es": "Historias de arte!"
          },
-      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
-      "storeUrl": "https://www.messenger.com/t/1856439714479444",
+      "iconUrl": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1550242225/minute_art_icon.png",
+      "storeUrl": "https://itunes.apple.com/us/app/art-saga/id1441650916?ls=1&mt=8",
       "storeUrlLocalized": {
-        "en": "https://www.messenger.com/t/1856439714479444",
-        "fr": "https://www.messenger.com/t/1856439714479444",
-        "es": "https://www.messenger.com/t/1856439714479444"
+        "en": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
+        "fr": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
+        "es": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8"
          }
     }, 
     {
@@ -67,20 +67,20 @@
       }
     },
     {
-      "availablefor" : ["en","fr", "es"],
-      "title": "Art explained by an owl",
+      "availablefor" : ["en","fr"],
+      "title": "Messenger Art Bot",
       "titleLocalized": {
-        "en": "Try me, I'm an Art Bot",
-        "fr": "L'art expliqué par une chouette",
-        "es": "Historias de arte!"
+        "en": "Messenger Art Bot",
+        "fr": "Art Bot Messenger",
+        "es": "Messenger art stories!"
          },
-      "iconUrl": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1550242225/minute_art_icon.png",
-      "storeUrl": "https://itunes.apple.com/us/app/art-saga/id1441650916?ls=1&mt=8",
+      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
+      "storeUrl": "https://www.messenger.com/t/1856439714479444",
       "storeUrlLocalized": {
-        "en": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
-        "fr": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
-        "es": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8"
-         }
+        "en": "https://www.messenger.com/t/1856439714479444",
+        "fr": "https://www.messenger.com/t/1856439714479444",
+        "es": "https://www.messenger.com/t/1856439714479444"
+         }      
     }
   ]
 }
