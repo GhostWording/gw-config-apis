@@ -1,0 +1,121 @@
+{
+    "Type": "Node",
+    "Id": "SalesConfidence",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Recently, I've been taking some salesbot courses...",
+                "fr": "Recently, I've been taking some salesbot courses...",
+                "es": "Recently, I've been taking some salesbot courses..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They've told me to be more confident",
+                "fr": "They've told me to be more confident",
+                "es": "They've told me to be more confident"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesConfidenceGood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good idea!",
+                "fr": "Good idea!",
+                "es": "Good idea!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Ahem... now... I thought I had an item for sale... what was it again...?",
+                        "fr": "Ahem... now... I thought I had an item for sale... what was it again...?",
+                        "es": "Ahem... now... I thought I had an item for sale... what was it again...?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Um...",
+                        "fr": "Um...",
+                        "es": "Um..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hmm...",
+                        "fr": "Hmm...",
+                        "es": "Hmm..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I forgot...",
+                        "fr": "I forgot...",
+                        "es": "I forgot..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesConfidenceGoodStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesConfidenceGoodConfident",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Be confident!",
+                            "fr": "Be confident!",
+                            "es": "Be confident!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Ah... you're right... oops...",
+                                    "fr": "Ah... you're right... oops...",
+                                    "es": "Ah... you're right... oops..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesConfidence2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesConfidenceGoodUseless",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Useless...",
+                            "fr": "Useless...",
+                            "es": "Useless..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I know... what's wrong with me...",
+                                    "fr": "I know... what's wrong with me...",
+                                    "es": "I know... what's wrong with me..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesConfidence2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
