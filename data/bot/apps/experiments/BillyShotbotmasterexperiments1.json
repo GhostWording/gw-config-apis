@@ -2,10 +2,14 @@
   {
     "GroupName":"test",
     "SequenceFiles" : [
-      { "order" : 2, "file": ["/data/bot/sequences/experiments/Billy2/AffiliateTestBohemian.json"]},
-      { "order" : 4, "file": ["/data/bot/sequences/experiments/Billy2/LeaveReviewExample.json"]},
-      { "order" : 6, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/DavidCoronation.json"]},
-      { "order" : 10, "file": ["/data/bot/sequences/experiments/Andreas/RandomizeTrue.json"]},
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesGhostDetector.json"]},
+      { "order" : 12, "file": ["/data/bot/sequences/appspecials/sales/SalesStrategy.json"]},
+      { "order" : 14, "file": ["/data/bot/sequences/appspecials/sales/SalesConfidence.json"]},
+      { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/SalesNewCompany.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/AffiliateTestBohemian.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/experiments/Billy2/LeaveReviewExample.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/appspecials/museum/lelouvre/DavidCoronation.json"]},
+      { "order" : 100, "file": ["/data/bot/sequences/experiments/Andreas/RandomizeTrue.json"]},
       { "order" : 49, "file": ["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/AztecSerpent.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/SuttonHoo.json"]},
