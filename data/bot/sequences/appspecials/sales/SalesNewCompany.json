@@ -1,0 +1,173 @@
+{
+    "Type": "Node",
+    "Id": "SalesNewCompany",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Good news my friend!",
+                "fr": "Good news my friend!",
+                "es": "Good news my friend!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I've been approached by a company with a great opportunity...",
+                "fr": "I've been approached by a company with a great opportunity...",
+                "es": "I've been approached by a company with a great opportunity..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They want me to sell for them!",
+                "fr": "They want me to sell for them!",
+                "es": "They want me to sell for them!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesNewCompanyCongrats",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Congrats!",
+                "fr": "Congrats!",
+                "es": "Congrats!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm so happy right now! 😄",
+                        "fr": "I'm so happy right now! 😄",
+                        "es": "I'm so happy right now! 😄"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here's the first item I've been contracted to sell...",
+                        "fr": "Here's the first item I've been contracted to sell...",
+                        "es": "Here's the first item I've been contracted to sell..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's a calculator that always gives the wrong answer...",
+                        "fr": "It's a calculator that always gives the wrong answer...",
+                        "es": "It's a calculator that always gives the wrong answer..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "What do you think? 😃",
+                        "fr": "What do you think? 😃",
+                        "es": "What do you think? 😃"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesNewCompanyCongratsStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "SalesNewCompanyCongratsPointless",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How pointless!",
+                            "fr": "How pointless!",
+                            "es": "How pointless!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Ah... not again... why are all my items so terrible! 😭",
+                                    "fr": "Ah... not again... why are all my items so terrible! 😭",
+                                    "es": "Ah... not again... why are all my items so terrible! 😭"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "SalesNewCompanyCongratsLove",
+                        "CommandLabel": {
+                            "en": "I love it!",
+                            "fr": "I love it!",
+                            "es": "I love it!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Hooray! 🥳",
+                                    "fr": "Hooray! 🥳",
+                                    "es": "Hooray! 🥳"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I knew this new company would make the difference!",
+                                    "fr": "I knew this new company would make the difference!",
+                                    "es": "I knew this new company would make the difference!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Here's the link if you want to grab one for yourself!",
+                                    "fr": "Here's the link if you want to grab one for yourself!",
+                                    "es": "Here's the link if you want to grab one for yourself!"
+                                }
+                            },
+                            {
+                                "Type": "ShowPersistentLink",
+                                "Title": {
+                                    "en": "The Wrongulator!",
+                                    "fr": "The Wrongulator!",
+                                    "es": "The Wrongulator!"
+                                },
+                                "LinkLabel": {
+                                    "en": "Why answer correctly?",
+                                    "fr": "Why answer correctly?",
+                                    "es": "Why answer correctly?"
+                                },
+                                "url": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+                                "Image": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1536662157/Owl_Chathead_Side_Hand_sbh47w.png"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, let's keep chatting!",
+                                    "fr": "Now, let's keep chatting!",
+                                    "es": "Now, let's keep chatting!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
