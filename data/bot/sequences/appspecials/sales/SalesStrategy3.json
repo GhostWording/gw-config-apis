@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "SalesStrategy3",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 400,
+                "Height": 477,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Amazing, isn't it...",
+                "fr": "Amazing, isn't it...",
+                "es": "Amazing, isn't it..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesStrategy3Awful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It's awful",
+                "fr": "It's awful",
+                "es": "It's awful"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh boy... I really am the worst salesbot on the planet",
+                        "fr": "Oh boy... I really am the worst salesbot on the planet",
+                        "es": "Oh boy... I really am the worst salesbot on the planet"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesStrategy3Awesome",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It's awesome!",
+                "fr": "It's awesome!",
+                "es": "It's awesome!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes! I knew my new strategy would work!",
+                        "fr": "Yes! I knew my new strategy would work!",
+                        "es": "Yes! I knew my new strategy would work!"
+                    }
+                }
+            ]
+        }
+    ]
+}
