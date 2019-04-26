@@ -57,10 +57,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 400,
-                        "Height": 477,
+                        "Display": "FullScreenWidth",
+                        "Width": 276,
+                        "Height": 300,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1556283192/wrongulator.jpg"
                     }
                 },
                 {
@@ -150,10 +151,10 @@
                                     "fr": "Why answer correctly?",
                                     "es": "Why answer correctly?"
                                 },
-                                "url": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
+                                "url": "https://www.amazon.com/gp/product/B005K97THS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005K97THS&linkCode=as2&tag=drsynth-20",
                                 "Image": {
                                     "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1536662157/Owl_Chathead_Side_Hand_sbh47w.png"
+                                    "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1556283192/wrongulator.jpg"
                                 }
                             },
                             {
