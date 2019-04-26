@@ -1,0 +1,81 @@
+{
+    "Type": "Node",
+    "Id": "SalesConfidence3",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 400,
+                "Height": 477,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Surely you want to buy this... right?",
+                "fr": "Surely you want to buy this... right?",
+                "es": "Surely you want to buy this... right?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesConfidence3No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not even a bit",
+                "fr": "Not even a bit",
+                "es": "Not even a bit"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh man... I guess I'm going hungry again!",
+                        "fr": "Oh man... I guess I'm going hungry again!",
+                        "es": "Oh man... I guess I'm going hungry again!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesConfidence3Sure",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Sure!",
+                "es": "Sure!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wow! Great!",
+                        "fr": "Wow! Great!",
+                        "es": "Wow! Great!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Now... where did I put that link... 🤔",
+                        "fr": "Now... where did I put that link... 🤔",
+                        "es": "Now... where did I put that link... 🤔"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh bother... I've lost it again... let's move on!",
+                        "fr": "Oh bother... I've lost it again... let's move on!",
+                        "es": "Oh bother... I've lost it again... let's move on!"
+                    }
+                }
+            ]
+        }
+    ]
+}
