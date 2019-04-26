@@ -5,10 +5,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 400,
-                "Height": 477,
+                "Display": "FullScreenWidth",
+                "Width": 300,
+                "Height": 300,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1556282952/wineholder.jpg"
             }
         },
         {
