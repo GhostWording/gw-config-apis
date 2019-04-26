@@ -1,0 +1,179 @@
+{
+    "Type": "Node",
+    "Id": "SalesGhostDetector",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello there! I don't suppose you could give me some help? I'm in real trouble...",
+                "fr": "Hello there! I don't suppose you could give me some help? I'm in real trouble...",
+                "es": "Hello there! I don't suppose you could give me some help? I'm in real trouble..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesGhostDetectorWhat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What's up?",
+                "fr": "What's up?",
+                "es": "What's up?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I've recently started a new job as a salesbot... but I get the feeling I'm not great at it...",
+                        "fr": "I've recently started a new job as a salesbot... but I get the feeling I'm not great at it...",
+                        "es": "I've recently started a new job as a salesbot... but I get the feeling I'm not great at it..."
+                    }
+                }
+            ],
+            "Commands": [
+                {
+                    "Type": "Node",
+                    "Id": "SalesGhostDetectorWhatWhy",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                        "en": "Why?",
+                        "fr": "Why?",
+                        "es": "Why?"
+                    },
+                    "Steps": [
+                        {
+                            "Type": "Text",
+                            "Label": {
+                                "en": "Well... I haven't sold anything yet...",
+                                "fr": "Well... I haven't sold anything yet...",
+                                "es": "Well... I haven't sold anything yet..."
+                            }
+                        },
+                        {
+                            "Type": "Text",
+                            "Label": {
+                                "en": "I don't know whether it's my items that are bad... or just me",
+                                "fr": "I don't know whether it's my items that are bad... or just me",
+                                "es": "I don't know whether it's my items that are bad... or just me"
+                            }
+                        }
+                    ],
+                    "Commands": [
+                        {
+                            "Type": "Node",
+                            "Id": "SalesGhostDetectorWhatWhyShow",
+                            "ElementValue": "1",
+                            "CommandLabel": {
+                                "en": "Show me 😄",
+                                "fr": "Show me 😄",
+                                "es": "Show me 😄"
+                            },
+                            "Steps": [
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "Oh... wow... I never thought you'd ask!",
+                                        "fr": "Oh... wow... I never thought you'd ask!",
+                                        "es": "Oh... wow... I never thought you'd ask!"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "Here it is:",
+                                        "fr": "Here it is:",
+                                        "es": "Here it is:"
+                                    }
+                                },
+                                {
+                                    "Type": "Image",
+                                    "Parameters": {
+                                        "Width": 400,
+                                        "Height": 477,
+                                        "Source": "Web",
+                                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "It's, uhhh... a ghost detector! What do you think?",
+                                        "fr": "It's, uhhh... a ghost detector! What do you think?",
+                                        "es": "It's, uhhh... a ghost detector! What do you think?"
+                                    }
+                                }
+                            ],
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesGhostDetectorWhatWhyShowAwesome",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Awesome!",
+                                        "fr": "Awesome!",
+                                        "es": "Awesome!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, really?",
+                                                "fr": "Wow, really?",
+                                                "es": "Wow, really?"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Ah... but I've forgotten the sales link... I'm just so bad at this...",
+                                                "fr": "Ah... but I've forgotten the sales link... I'm just so bad at this...",
+                                                "es": "Ah... but I've forgotten the sales link... I'm just so bad at this..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Let's quickly change the subject!",
+                                                "fr": "Let's quickly change the subject!",
+                                                "es": "Let's quickly change the subject!"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesGhostDetectorWhatWhyShowUseless",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Useless",
+                                        "fr": "Useless",
+                                        "es": "Useless"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh man... I knew I was terrible at this...",
+                                                "fr": "Oh man... I knew I was terrible at this...",
+                                                "es": "Oh man... I knew I was terrible at this..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Let's quickly change the subject!",
+                                                "fr": "Let's quickly change the subject!",
+                                                "es": "Let's quickly change the subject!"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
