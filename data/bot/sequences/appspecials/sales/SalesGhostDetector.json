@@ -97,6 +97,7 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
+                                                "Display": "FullScreenWidth",
                                                 "Width": 500,
                                                 "Height": 535,
                                                 "Source": "Web",
