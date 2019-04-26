@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "SalesStrategy2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What if I told you I have a product that you can use to effortlessly make toast art",
+                "fr": "What if I told you I have a product that you can use to effortlessly make toast art",
+                "es": "What if I told you I have a product that you can use to effortlessly make toast art"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But... here's the twist... only in one creepy shape...",
+                "fr": "But... here's the twist... only in one creepy shape...",
+                "es": "But... here's the twist... only in one creepy shape..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You'd be interested, right?",
+                "fr": "You'd be interested, right?",
+                "es": "You'd be interested, right?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesStrategy2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not at all",
+                "fr": "Not at all",
+                "es": "Not at all"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh... that's a surprise... can I show you anyway?",
+                        "fr": "Oh... that's a surprise... can I show you anyway?",
+                        "es": "Oh... that's a surprise... can I show you anyway?"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesStrategy3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesStrategy2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Of course",
+                "fr": "Of course",
+                "es": "Of course"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Awesome! Here is the item of your dreams...",
+                        "fr": "Awesome! Here is the item of your dreams...",
+                        "es": "Awesome! Here is the item of your dreams..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesStrategy3"
+            }
+        }
+    ]
+}
