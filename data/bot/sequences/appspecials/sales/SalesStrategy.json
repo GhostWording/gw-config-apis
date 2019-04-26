@@ -1,0 +1,105 @@
+{
+    "Type": "Node",
+    "Id": "SalesStrategy",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I've decided to change up my sales strategy...",
+                "fr": "I've decided to change up my sales strategy...",
+                "es": "I've decided to change up my sales strategy..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This one will work for sure!",
+                "fr": "This one will work for sure!",
+                "es": "This one will work for sure!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesStrategyGo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Go on then",
+                "fr": "Go on then",
+                "es": "Go on then"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Have you ever thought your toast is too boring?",
+                        "fr": "Have you ever thought your toast is too boring?",
+                        "es": "Have you ever thought your toast is too boring?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Just plain old... normal... well-toasted toast?",
+                        "fr": "Just plain old... normal... well-toasted toast?",
+                        "es": "Just plain old... normal... well-toasted toast?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesStrategyGoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesStrategyGoNever",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Never",
+                            "fr": "Never",
+                            "es": "Never"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Oh... darn... well suppose you had!",
+                                    "fr": "Oh... darn... well suppose you had!",
+                                    "es": "Oh... darn... well suppose you had!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesStrategy2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesStrategyGoYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aha! That's perfect...",
+                                    "fr": "Aha! That's perfect...",
+                                    "es": "Aha! That's perfect..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesStrategy2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
