@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "SalesConfidence2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Ah, I remember!",
+                "fr": "Ah, I remember!",
+                "es": "Ah, I remember!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Ever feel like you need an extra hand to hold your wine glass?",
+                "fr": "Ever feel like you need an extra hand to hold your wine glass?",
+                "es": "Ever feel like you need an extra hand to hold your wine glass?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesConfidence2Never",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Literally never",
+                "fr": "Literally never",
+                "es": "Literally never"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh... oh no... um... well look at this anyway... please!",
+                        "fr": "Oh... oh no... um... well look at this anyway... please!",
+                        "es": "Oh... oh no... um... well look at this anyway... please!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesConfidence3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesConfidence2Always",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "All the time",
+                "fr": "All the time",
+                "es": "All the time"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well then, I have a great item for you! Look at this...",
+                        "fr": "Well then, I have a great item for you! Look at this...",
+                        "es": "Well then, I have a great item for you! Look at this..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesConfidence3"
+            }
+        }
+    ]
+}
