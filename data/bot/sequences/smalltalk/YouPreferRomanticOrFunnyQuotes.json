@@ -31,11 +31,10 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowCards",
+          "Type": "Image",
           "Parameters": {
-            "Type": "Gif",
-            "Path": "/data/common/giphycontent/flowers.json"
+            "Source": "Internal",
+            "Path": "/museums/artquest/small/Vermeer_TheGlassofWine1661.jpg"
           }
         }
       ]
@@ -62,14 +61,14 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 3000
+            "ms": 1000
           }
         },
         {
-          "Type": "AnimatedGif",
+          "Type": "Image",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "IgLt8tZcGGYXS"
+            "Source": "Internal",
+            "Path": "/museums/artquest/small/Chessmen.jpg"
           }
         }
       ]
