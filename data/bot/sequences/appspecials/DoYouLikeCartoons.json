@@ -35,13 +35,6 @@
             }
           },
           {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "bCcxY1ADkAqfS"
-            }
-          },
-          {
             "Type": "Pause",
             "Parameters": {
               "Mode": "Wait",
