@@ -87,11 +87,10 @@
                   },
                   "Steps": [
                     {
-                      "Type": "Action",
-                      "Name": "ShowCards",
+                      "Type": "Image",
                       "Parameters": {
-                        "Type": "Gif",
-                        "Path": "/data/common/giphycontent/thankyou.json"
+                        "Source": "Internal",
+                        "Path": "/specialoccasions/jokes/default/small/shutterstock_664316992.jpg"
                       }
                     }
                   ]
