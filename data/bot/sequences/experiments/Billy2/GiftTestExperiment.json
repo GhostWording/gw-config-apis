@@ -1,0 +1,45 @@
+{
+    "Type": "Leaf",
+    "Id": "GifTestExperiment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "should show a gif from web source"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "should show a gif from internal source"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "museums/gifs/amenhotepmap.gif"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "should show a gif from giphy source"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "3iwRn4BjxN5VrxtMEV"
+            }
+        }
+    ]
+}
