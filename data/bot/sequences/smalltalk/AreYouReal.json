@@ -311,13 +311,6 @@
             },
             "Steps": [
               {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "ktI31VYb7oG6k"
-                }
-              },
-              {
                 "Type": "Pause",
                 "Parameters": {
                   "Mode": "Wait",
@@ -343,13 +336,6 @@
               "es": "un unicornio"
             },
             "Steps": [
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "KlZUpkygM5hCM"
-                }
-              },
               {
                 "Type": "Pause",
                 "Parameters": {
@@ -409,13 +395,6 @@
               "es": "un extraterrestre"
             },
             "Steps": [
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "Zy79ySAjpMynS"
-                }
-              },
               {
                 "Type": "Pause",
                 "Parameters": {
