@@ -24,10 +24,10 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
+          "Type": "Image",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "juG2hdQUFo06Y"
+            "Source": "Internal",
+            "Path": "/museums/artquest/small/Munch_TheScream1910.jpg"
           }
         }
       ]
@@ -43,10 +43,10 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
+          "Type": "Image",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "3o7abB06u9bNzA8lu8"
+            "Source": "Internal",
+            "Path": "/museums/artquest/small/Munch_Melancholy1896.jpg"
           }
         }
       ]
