@@ -12,7 +12,7 @@
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                "Path": "http://gw-static.azurewebsites.net/museums/gifs/paintingslideshow.gif"
             }
         },
         {
@@ -25,7 +25,7 @@
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Internal",
-                "Path": "museums/gifs/amenhotepmap.gif"
+                "Path": "/museums/gifs/paintingslideshow.gif"
             }
         },
         {
