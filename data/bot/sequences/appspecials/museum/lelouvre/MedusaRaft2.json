@@ -30,20 +30,13 @@
             }
         },
         {
-            "Type": "Pause",
-            "Parameters": {
-                "Mode": "Wait",
-                "ms": 2000
-            }
-        },
-        {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Display": "FullScreenWidth",
-                "Width": 725,
-                "Height": 490,
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535035289/raft_of_meduse_smaller.jpg"
+                "Width": 1994,
+                "Height": 1348,
+                "Path": "/museums/louvre/previews/Raft_Meusa_NEW.jpg"
             }
         },
         {
