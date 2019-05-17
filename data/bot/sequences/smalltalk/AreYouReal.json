@@ -11,6 +11,27 @@
       }
     },
     {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QE9TcoKQR5N1hW8"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/museums/gifs/stealstatue.gif"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/museums/gifs/museumlook.gif"
+          }
+        },
+    {
       "Type": "Pause",
       "Parameters": {
         "Mode": "Wait",
