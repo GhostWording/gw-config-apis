@@ -1,0 +1,101 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I'm actually in a spot of trouble at the moment",
+                "fr": "I'm actually in a spot of trouble at the moment",
+                "es": "I'm actually in a spot of trouble at the moment"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I don't think I'm very good at my job!",
+                "fr": "I don't think I'm very good at my job!",
+                "es": "I don't think I'm very good at my job!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesIntro3How",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How so?",
+                "fr": "How so?",
+                "es": "How so?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... recently I joined a new company",
+                        "fr": "Well... recently I joined a new company",
+                        "es": "Well... recently I joined a new company"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntro3Oh",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh dear",
+                "fr": "Oh dear",
+                "es": "Oh dear"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, recently I joined a new company",
+                        "fr": "So, recently I joined a new company",
+                        "es": "So, recently I joined a new company"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntro3Jobs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Owls have jobs?",
+                "fr": "Owls have jobs?",
+                "es": "Owls have jobs?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Of course! How else would we earn capital and accumulate wealth?",
+                        "fr": "Of course! How else would we earn capital and accumulate wealth?",
+                        "es": "Of course! How else would we earn capital and accumulate wealth?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But recently I joined a new company",
+                        "fr": "But recently I joined a new company",
+                        "es": "But recently I joined a new company"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro4"
+            }
+        }
+    ]
+}
