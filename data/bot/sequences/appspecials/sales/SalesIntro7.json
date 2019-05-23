@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Could I please, please, practice with you?",
+                "fr": "Could I please, please, practice with you?",
+                "es": "Could I please, please, practice with you?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Shall I sell you a castle, or a kitten?",
+                "fr": "Shall I sell you a castle, or a kitten?",
+                "es": "Shall I sell you a castle, or a kitten?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesIntro7Castle",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Castle",
+                "fr": "Castle",
+                "es": "Castle"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏰",
+                    "fr": "🏰",
+                    "es": "🏰"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Surely you want to buy this... right?",
+                        "fr": "Surely you want to buy this... right?",
+                        "es": "Surely you want to buy this... right?"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BodiamIntro"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesIntro7Kitten",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Kitten",
+                "fr": "Kitten",
+                "es": "Kitten"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐈",
+                    "fr": "🐈",
+                    "es": "🐈"
+                },
+                "Picture": {
+                    "Source": "Internal",
+                    "Path": "/cvd/parent/shutterkittens/full/shutterstock_124480816.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Surely you want to buy this... right?",
+                        "fr": "Surely you want to buy this... right?",
+                        "es": "Surely you want to buy this... right?"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "STKIntro"
+            }
+        }
+    ]
+}
