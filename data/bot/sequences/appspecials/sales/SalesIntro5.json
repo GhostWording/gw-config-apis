@@ -1,0 +1,108 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We call it 'Owl Mighty'. Our manufacturing process is the finest in the world",
+                "fr": "We call it 'Owl Mighty'. Our manufacturing process is the finest in the world",
+                "es": "We call it 'Owl Mighty'. Our manufacturing process is the finest in the world"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesIntro5Fascinating",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fascinating",
+                "fr": "Fascinating",
+                "es": "Fascinating"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm surprised you are surprised!",
+                        "fr": "I'm surprised you are surprised!",
+                        "es": "I'm surprised you are surprised!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless, we just can't sell anything at the moment...",
+                        "fr": "Regardless, we just can't sell anything at the moment...",
+                        "es": "Regardless, we just can't sell anything at the moment..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and the boss thinks it's my fault!",
+                        "fr": "and the boss thinks it's my fault!",
+                        "es": "and the boss thinks it's my fault!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntro5Ridiculous",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Ridiculous",
+                "fr": "Ridiculous",
+                "es": "Ridiculous"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I assure you, the company exists",
+                        "fr": "I assure you, the company exists",
+                        "es": "I assure you, the company exists"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless, we just can't sell anything at the moment...",
+                        "fr": "Regardless, we just can't sell anything at the moment...",
+                        "es": "Regardless, we just can't sell anything at the moment..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and the boss thinks it's my fault!",
+                        "fr": "and the boss thinks it's my fault!",
+                        "es": "and the boss thinks it's my fault!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro6"
+            }
+        }
+    ]
+}
