@@ -1,0 +1,112 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have you ever tried selling things?",
+                "fr": "Have you ever tried selling things?",
+                "es": "Have you ever tried selling things?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesIntro6Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Aha! How did you find it?",
+                        "fr": "Aha! How did you find it?",
+                        "es": "Aha! How did you find it?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesIntro6YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesIntro6YesEasy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Easy",
+                            "fr": "Easy",
+                            "es": "Easy"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Wow! Maybe you can help me, then!",
+                                    "fr": "Wow! Maybe you can help me, then!",
+                                    "es": "Wow! Maybe you can help me, then!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesIntro7"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesIntro6YesDifficult",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Difficult",
+                            "fr": "Difficult",
+                            "es": "Difficult"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! It's so tough...",
+                                    "fr": "Right! It's so tough...",
+                                    "es": "Right! It's so tough..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesIntro7"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntro6No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No, never",
+                "fr": "No, never",
+                "es": "No, never"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's really tough...",
+                        "fr": "It's really tough...",
+                        "es": "It's really tough..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro7"
+            }
+        }
+    ]
+}
