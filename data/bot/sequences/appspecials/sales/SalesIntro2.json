@@ -1,0 +1,84 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are you usually lucky? 🎲",
+                "fr": "Are you usually lucky? 🎲",
+                "es": "Are you usually lucky? 🎲"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesIntro2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Recently my luck has run dry though",
+                        "fr": "Recently my luck has run dry though",
+                        "es": "Recently my luck has run dry though"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntro2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I feel your pain...",
+                        "fr": "I feel your pain...",
+                        "es": "I feel your pain..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Recently my luck has run dry",
+                        "fr": "Recently my luck has run dry",
+                        "es": "Recently my luck has run dry"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro3"
+            }
+        }
+    ]
+}
