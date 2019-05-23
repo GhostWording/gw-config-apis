@@ -1,0 +1,129 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "My job is to sell things, but I haven't sold a single item yet!",
+                "fr": "My job is to sell things, but I haven't sold a single item yet!",
+                "es": "My job is to sell things, but I haven't sold a single item yet!"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesIntro4Company",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What company?",
+                "fr": "What company?",
+                "es": "What company?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Our company is located in the Norwegian forests",
+                        "fr": "Our company is located in the Norwegian forests",
+                        "es": "Our company is located in the Norwegian forests"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Internal",
+                        "Path": "/themes/nature/small/shutterstock_150889871.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and is entirely run by owls",
+                        "fr": "and is entirely run by owls",
+                        "es": "and is entirely run by owls"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntro4Bad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's not good",
+                "fr": "That's not good",
+                "es": "That's not good"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No, it's really bad!",
+                        "fr": "No, it's really bad!",
+                        "es": "No, it's really bad!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Our company is located in the Norwegian forests",
+                        "fr": "Our company is located in the Norwegian forests",
+                        "es": "Our company is located in the Norwegian forests"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Internal",
+                        "Path": "/themes/nature/small/shutterstock_150889871.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and is entirely run by owls 🦉",
+                        "fr": "and is entirely run by owls 🦉",
+                        "es": "and is entirely run by owls 🦉"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro5"
+            }
+        }
+    ]
+}
