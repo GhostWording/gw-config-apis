@@ -1,0 +1,104 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi! 😁",
+                "fr": "Hi! 😁",
+                "es": "Hi! 😁"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a pleasure to meet you",
+                "fr": "It's a pleasure to meet you",
+                "es": "It's a pleasure to meet you"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesIntroHi",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hi!",
+                "fr": "Hi!",
+                "es": "Hi!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm a lucky owl with a fondness for unlikely causes",
+                        "fr": "I'm a lucky owl with a fondness for unlikely causes",
+                        "es": "I'm a lucky owl with a fondness for unlikely causes"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My friends call me Robin Hoot",
+                        "fr": "My friends call me Robin Hoot",
+                        "es": "My friends call me Robin Hoot"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesIntroWho",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Who are you?",
+                "fr": "Who are you?",
+                "es": "Who are you?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm a lucky owl with a fondness for unlikely causes",
+                        "fr": "I'm a lucky owl with a fondness for unlikely causes",
+                        "es": "I'm a lucky owl with a fondness for unlikely causes"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My friends call me Robin Hoot",
+                        "fr": "My friends call me Robin Hoot",
+                        "es": "My friends call me Robin Hoot"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 400,
+                        "Height": 477,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesIntro2"
+            }
+        }
+    ]
+}
