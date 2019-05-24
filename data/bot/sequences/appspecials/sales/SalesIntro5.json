@@ -31,6 +31,13 @@
                     }
                 },
                 {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_surprised132x132.gif"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Regardless, we just can't sell anything at the moment...",
@@ -50,7 +57,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                        "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
                     }
                 }
             ],
@@ -77,6 +84,13 @@
                     }
                 },
                 {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Regardless, we just can't sell anything at the moment...",
@@ -96,7 +110,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                        "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
                     }
                 }
             ],
