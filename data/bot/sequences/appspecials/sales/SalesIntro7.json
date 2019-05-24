@@ -23,7 +23,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "SalesIntro7Castle",
             "ElementValue": "1",
             "CommandLabel": {
@@ -57,7 +57,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "SalesIntro7Kitten",
             "ElementValue": "1",
             "CommandLabel": {
