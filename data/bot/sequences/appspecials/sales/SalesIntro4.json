@@ -14,7 +14,7 @@
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
             }
         }
     ],
@@ -40,8 +40,6 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 400,
-                        "Height": 477,
                         "Source": "Internal",
                         "Path": "/themes/nature/small/shutterstock_150889871.jpg"
                     }
@@ -57,10 +55,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 400,
-                        "Height": 477,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlsiblings.jpg"
                     }
                 }
             ],
@@ -97,8 +93,6 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 400,
-                        "Height": 477,
                         "Source": "Internal",
                         "Path": "/themes/nature/small/shutterstock_150889871.jpg"
                     }
@@ -114,10 +108,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 400,
-                        "Height": 477,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533294391/RoyalCup2_King.jpg"
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlsiblings.jpg"
                     }
                 }
             ],
