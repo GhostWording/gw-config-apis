@@ -11,10 +11,13 @@
             }
         },
         {
-            "Type": "AnimatedGif",
+            "Type": "Action",
+            "Name": "ChatheadChange",
             "Parameters": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                "Image": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                }
             }
         }
     ],
@@ -80,6 +83,16 @@
                         "en": "No, it's really bad!",
                         "fr": "No, it's really bad!",
                         "es": "No, it's really bad!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                        }
                     }
                 },
                 {
