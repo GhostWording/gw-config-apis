@@ -39,6 +39,16 @@
                         "fr": "Recently my luck has run dry though",
                         "es": "Recently my luck has run dry though"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        }
+                    }
                 }
             ],
             "LinksToFragment": {
