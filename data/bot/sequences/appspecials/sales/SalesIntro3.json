@@ -17,6 +17,16 @@
                 "fr": "I don't think I'm very good at my job!",
                 "es": "I don't think I'm very good at my job!"
             }
+        },
+        {
+            "Type": "Action",
+            "Name": "ChatheadChange",
+            "Parameters": {
+                "Image": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                }
+            }
         }
     ],
     "Commands": [
