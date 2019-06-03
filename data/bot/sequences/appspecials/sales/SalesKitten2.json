@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "SalesKitten2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you make of them?",
+                "fr": "Qu'est-ce que tu en penses ?",
+                "es": "¿Qué te parecen?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesKitten2Cute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So cute!",
+                "fr": "Trop mignon !",
+                "es": "¡Tan lindo!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I wouldn't be so sure...",
+                        "fr": "Je n'en serais pas si sûr...",
+                        "es": "No estaría tan seguro..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll tell you a story about one particular kitten...",
+                        "fr": "Je vais te raconter une histoire à propos d'un chaton en particulier...",
+                        "es": "Voy a contarte una historia a proposito de un gatito en particular..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesKitten3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesKitten2Evil",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I don't trust them",
+                "fr": "Je ne leur fais pas confiance",
+                "es": "No confío en ellos"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I appreciate your mistrust",
+                        "fr": "J'apprécie ta méfiance",
+                        "es": "Me gusta tu desconfianza"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here's a story about one particular kitten...",
+                        "fr": "Voici une histoire à propos d'un chaton en particulier...",
+                        "es": "Aquí está una historia a proposito de un gatito en particular..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesKitten3"
+            }
+        }
+    ]
+}
