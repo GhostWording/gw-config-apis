@@ -1,0 +1,249 @@
+{
+    "Type": "Node",
+    "Id": "SalesKitten3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is his ID card...",
+                "fr": "Voici sa carte d'identité...",
+                "es": "Aquí esta su documento de identidad..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/PtolemyCard.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Cute or evil?",
+                "fr": "Mignon ou méchant ?",
+                "es": "¿Lindo o malo?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesKitten3Cute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's cute!",
+                "fr": "Il est mignon !",
+                "es": "¡Es lindo!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, he is a cute criminal...",
+                        "fr": "Eh bien, c'est un criminel mignon...",
+                        "es": "Bueno, es un lindo criminal..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "C23cMUqoZdqMg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As you see, he attempted to steal valuable fabrics from his king",
+                        "fr": "Comme tu peux le voir, il a tenté de voler des tissus de valeur à son roi",
+                        "es": "Como lo puedes ver, intentó robar valosos tejidos a su rey"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesKitten3CuteCrime",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesKitten3CuteCrimeOK",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "it's toilet roll...",
+                            "fr": "c'est du papier...",
+                            "es": "es papel higiénico"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, his mother turned him in anyway",
+                                    "fr": "De toute façon, sa mère l'a remis à la justice",
+                                    "es": "De todos modos, su madre le denunció"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesKitten4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesKitten3CuteCrimeBad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Evil thief!",
+                            "fr": "Sale voleur !",
+                            "es": "¡Sucio ladrón!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "well, his mother thought the same... she turned him in",
+                                    "fr": "eh bien, sa mère pense la même chose... elle l'a remis à la justice",
+                                    "es": "bueno, su madre piensa lo mismo... le denunció"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesKitten4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesKitten3Evil",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's evil!",
+                "fr": "Il est méchant !",
+                "es": "¡Es malo!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He has certainly committed some crimes in his time...",
+                        "fr": "Il a sûrement commis des crimes, à l'époque...",
+                        "es": "Por supuesto cometió crímenes en ese momento..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "C23cMUqoZdqMg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As you see, he attempted to steal valuable fabrics from his king",
+                        "fr": "Comme tu peux le voir, il a tenté de voler des tissus de valeur à son roi",
+                        "es": "Como lo puedes ver, intentó robar valosos tejidos a su rey"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesKitten3EvilCrime",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesKitten3EvilCrimeOK",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "it's toilet roll...",
+                            "fr": "c'est du papier...",
+                            "es": "es papel higiénico"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, his mother turned him in anyway",
+                                    "fr": "De toute façon, sa mère l'a remis à la justice",
+                                    "es": "De todos modos, su madre le denunció"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesKitten4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesKitten3EvilCrimeBad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Evil thief!",
+                            "fr": "Sale voleur !",
+                            "es": "¡Sucio ladrón!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "well, his mother thought the same... she turned him in",
+                                    "fr": "eh bien, sa mère pense la même chose... elle l'a remis à la justice",
+                                    "es": "bueno, su madre piensa lo mismo... le denunció"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesKitten4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
