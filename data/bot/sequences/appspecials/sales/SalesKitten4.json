@@ -1,0 +1,102 @@
+{
+    "Type": "Node",
+    "Id": "SalesKitten4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, after hearing that story, would you want to buy him? 😁",
+                "fr": "So, after hearing that story, would you want to buy him? 😁",
+                "es": "So, after hearing that story, would you want to buy him? 😁"
+            }
+        },
+
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I'll even pull a cute face to help you decide!",
+                "fr": "I'll even pull a cute face to help you decide!",
+                "es": "I'll even pull a cute face to help you decide!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesKitten4No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thank you",
+                "fr": "No thank you",
+                "es": "No thank you"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess it's true... I am a terrible salesbot!",
+                        "fr": "I guess it's true... I am a terrible salesbot!",
+                        "es": "I guess it's true... I am a terrible salesbot!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                        },
+                        "ms": 5000
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesKitten4Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes please!",
+                "fr": "Yes please!",
+                "es": "Yes please!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wait... really?! 🎉",
+                        "fr": "Wait... really?! 🎉",
+                        "es": "Wait... really?! 🎉"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        },
+                        "ms": 5000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Too bad it was only a practice sale... his mother would have been glad to get rid of him!",
+                        "fr": "Too bad it was only a practice sale... his mother would have been glad to get rid of him!",
+                        "es": "Too bad it was only a practice sale... his mother would have been glad to get rid of him!"
+                    }
+                }
+            ]
+        }
+    ]
+}
