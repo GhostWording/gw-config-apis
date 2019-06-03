@@ -1,0 +1,133 @@
+{
+    "Type": "Node",
+    "Id": "SalesCastle2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A fearsome knight… Edward Dalyngrigge…",
+                "fr": "A fearsome knight… Edward Dalyngrigge…",
+                "es": "A fearsome knight… Edward Dalyngrigge…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "fresh from his travels and battles in France…",
+                "fr": "fresh from his travels and battles in France…",
+                "es": "fresh from his travels and battles in France…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "built this to defend himself!",
+                "fr": "built this to defend himself!",
+                "es": "built this to defend himself!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521630660/shutterstock_490784191.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to live there?",
+                "fr": "Would you like to live there?",
+                "es": "Would you like to live there?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesCastle2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes it looks cosy",
+                "fr": "Yes it looks cosy",
+                "es": "Yes it looks cosy"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And great for defence!",
+                        "fr": "And great for defence!",
+                        "es": "And great for defence!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s a popular destination, owned by the National Trust",
+                        "fr": "It’s a popular destination, owned by the National Trust",
+                        "es": "It’s a popular destination, owned by the National Trust"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm sure I can get you a great deal on it...",
+                        "fr": "I'm sure I can get you a great deal on it...",
+                        "es": "I'm sure I can get you a great deal on it..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesCastle2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way",
+                "fr": "No way",
+                "es": "No way"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But it's fantastic for defence!",
+                        "fr": "But it's fantastic for defence!",
+                        "es": "But it's fantastic for defence!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And it’s a popular destination, owned by the National Trust",
+                        "fr": "And it’s a popular destination, owned by the National Trust",
+                        "es": "And it’s a popular destination, owned by the National Trust"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm sure I can get you a great deal on it...",
+                        "fr": "I'm sure I can get you a great deal on it...",
+                        "es": "I'm sure I can get you a great deal on it..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
