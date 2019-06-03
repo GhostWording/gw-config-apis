@@ -1,0 +1,105 @@
+{
+    "Type": "Node",
+    "Id": "SalesCastle3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, how did I do? 😁",
+                "fr": "So, how did I do? 😁",
+                "es": "So, how did I do? 😁"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ChatheadChange",
+            "Parameters": {
+                "Image": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                },
+                "ms": 5000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you want to buy this castle?",
+                "fr": "Would you want to buy this castle?",
+                "es": "Would you want to buy this castle?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesCastle3No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thank you",
+                "fr": "No thank you",
+                "es": "No thank you"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess it's true... I am a terrible salesbot!",
+                        "fr": "I guess it's true... I am a terrible salesbot!",
+                        "es": "I guess it's true... I am a terrible salesbot!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                        },
+                        "ms": 5000
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesCastle3Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes please!",
+                "fr": "Yes please!",
+                "es": "Yes please!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Wait... really?! 🎉",
+                        "fr": "Wait... really?! 🎉",
+                        "es": "Wait... really?! 🎉"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        },
+                        "ms": 5000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Too bad it was only a practice sale... my commission would have been huge!",
+                        "fr": "Too bad it was only a practice sale... my commission would have been huge!",
+                        "es": "Too bad it was only a practice sale... my commission would have been huge!"
+                    }
+                }
+            ]
+        }
+    ]
+}
