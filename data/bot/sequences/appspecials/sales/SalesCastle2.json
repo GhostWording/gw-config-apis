@@ -84,7 +84,10 @@
                         "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesCastle3"
+            }
         },
         {
             "Type": "Node",
@@ -127,7 +130,10 @@
                         "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesCastle3"
+            }
         }
     ]
 }
