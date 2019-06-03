@@ -1,0 +1,326 @@
+{
+    "Type": "Node",
+    "Comments": "Bodiam Castle Sales",
+    "Id": "SalesCastle",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "OK.. here goes nothing!",
+                "fr": "OK.. here goes nothing!",
+                "es": "OK.. here goes nothing!"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you live in constant fear of a French invasion? ⚔🇫🇷",
+                "fr": "Do you live in constant fear of a French invasion? ⚔🇫🇷",
+                "es": "Do you live in constant fear of a French invasion? ⚔🇫🇷"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesCastleYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "How awful! What are you going to do about it?",
+                        "fr": "How awful! What are you going to do about it?",
+                        "es": "How awful! What are you going to do about it?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesCastleYesDo",
+                "ElementValue": "1",
+                "DisplayHint": "Carousel",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesCastleYesDoCastle",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Build a castle",
+                            "fr": "Build a castle",
+                            "es": "Build a castle"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏰",
+                                "fr": "🏰",
+                                "es": "🏰"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359458/Castle_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nice idea! But no need... I know someone who made one already!",
+                                    "fr": "Nice idea! But no need... I know someone who made one already!",
+                                    "es": "Nice idea! But no need... I know someone who made one already!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesCastle2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesCastleYesDoRun",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Run away",
+                            "fr": "Run away",
+                            "es": "Run away"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏃",
+                                "fr": "🏃",
+                                "es": "🏃"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359529/Running_Away_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But where will you hide? You need a castle!",
+                                    "fr": "But where will you hide? You need a castle!",
+                                    "es": "But where will you hide? You need a castle!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Lucky for you, I know of someone who has built one already!",
+                                    "fr": "Lucky for you, I know of someone who has built one already!",
+                                    "es": "Lucky for you, I know of someone who has built one already!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesCastle2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesCastleYesDoAttack",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Attack them",
+                            "fr": "Attack them",
+                            "es": "Attack them"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "⚔🏹",
+                                "fr": "⚔🏹",
+                                "es": "⚔🏹"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359598/Attack_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With what army? You need a castle!",
+                                    "fr": "With what army? You need a castle!",
+                                    "es": "With what army? You need a castle!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Lucky for you, I know of someone who has built one already!",
+                                    "fr": "Lucky for you, I know of someone who has built one already!",
+                                    "es": "Lucky for you, I know of someone who has built one already!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesCastle2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesCastleNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank goodness! May I ask what you would do if you did?",
+                        "fr": "Thank goodness! May I ask what you would do if you did?",
+                        "es": "Thank goodness! May I ask what you would do if you did?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesCastleNoDo",
+                "ElementValue": "1",
+                "DisplayHint": "Carousel",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesCastleNoDoCastle",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Build a castle",
+                            "fr": "Build a castle",
+                            "es": "Build a castle"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏰",
+                                "fr": "🏰",
+                                "es": "🏰"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359458/Castle_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nice idea! But no need... I know someone who made one already!",
+                                    "fr": "Nice idea! But no need... I know someone who made one already!",
+                                    "es": "Nice idea! But no need... I know someone who made one already!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesCastle2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesCastleNoDoRun",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Run away",
+                            "fr": "Run away",
+                            "es": "Run away"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏃",
+                                "fr": "🏃",
+                                "es": "🏃"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359529/Running_Away_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But where would you hide? You need a castle!",
+                                    "fr": "But where would you hide? You need a castle!",
+                                    "es": "But where would you hide? You need a castle!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Lucky for you, I know of someone who has built one already!",
+                                    "fr": "Lucky for you, I know of someone who has built one already!",
+                                    "es": "Lucky for you, I know of someone who has built one already!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesCastle2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesCastleNoDoAttack",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Attack them",
+                            "fr": "Attack them",
+                            "es": "Attack them"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "⚔🏹",
+                                "fr": "⚔🏹",
+                                "es": "⚔🏹"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359598/Attack_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With what army? You need a castle!",
+                                    "fr": "With what army? You need a castle!",
+                                    "es": "With what army? You need a castle!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Lucky for you, I know of someone who has built one already!",
+                                    "fr": "Lucky for you, I know of someone who has built one already!",
+                                    "es": "Lucky for you, I know of someone who has built one already!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "SalesCastle2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
