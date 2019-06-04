@@ -91,9 +91,16 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Too bad it was only a practice sale... his mother would have been glad to get rid of him!",
-                        "fr": "Too bad it was only a practice sale... his mother would have been glad to get rid of him!",
-                        "es": "Too bad it was only a practice sale... his mother would have been glad to get rid of him!"
+                        "en": "Unfortunately, his mother says he is under house arrest, and not up for adoption right now",
+                        "fr": "Unfortunately, his mother says he is under house arrest, and not up for adoption right now",
+                        "es": "Unfortunately, his mother says he is under house arrest, and not up for adoption right now"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/gifs/kitten/ptolemylabour.gif"
                     }
                 }
             ]
