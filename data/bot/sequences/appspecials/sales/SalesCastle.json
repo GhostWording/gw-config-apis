@@ -21,9 +21,9 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Do you live in constant fear of a French invasion? ⚔🇫🇷",
-                "fr": "Do you live in constant fear of a French invasion? ⚔🇫🇷",
-                "es": "Do you live in constant fear of a French invasion? ⚔🇫🇷"
+                "en": "Do you live in constant fear of a hostile invasion? ⚔",
+                "fr": "Do you live in constant fear of a hostile invasion? ⚔",
+                "es": "Do you live in constant fear of a hostile invasion? ⚔"
             }
         }
     ],
@@ -78,9 +78,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Nice idea! But no need... I know someone who made one already!",
-                                    "fr": "Nice idea! But no need... I know someone who made one already!",
-                                    "es": "Nice idea! But no need... I know someone who made one already!"
+                                    "en": "Nice idea!",
+                                    "fr": "Nice idea!",
+                                    "es": "Nice idea!"
                                 }
                             }
                         ],
@@ -116,14 +116,6 @@
                                     "fr": "But where will you hide? You need a castle!",
                                     "es": "But where will you hide? You need a castle!"
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Lucky for you, I know of someone who has built one already!",
-                                    "fr": "Lucky for you, I know of someone who has built one already!",
-                                    "es": "Lucky for you, I know of someone who has built one already!"
-                                }
                             }
                         ],
                         "LinksToFragment": {
@@ -157,14 +149,6 @@
                                     "en": "With what army? You need a castle!",
                                     "fr": "With what army? You need a castle!",
                                     "es": "With what army? You need a castle!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Lucky for you, I know of someone who has built one already!",
-                                    "fr": "Lucky for you, I know of someone who has built one already!",
-                                    "es": "Lucky for you, I know of someone who has built one already!"
                                 }
                             }
                         ],
@@ -225,9 +209,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Nice idea! But no need... I know someone who made one already!",
-                                    "fr": "Nice idea! But no need... I know someone who made one already!",
-                                    "es": "Nice idea! But no need... I know someone who made one already!"
+                                    "en": "Nice idea!",
+                                    "fr": "Nice idea!",
+                                    "es": "Nice idea!"
                                 }
                             }
                         ],
@@ -263,14 +247,6 @@
                                     "fr": "But where would you hide? You need a castle!",
                                     "es": "But where would you hide? You need a castle!"
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Lucky for you, I know of someone who has built one already!",
-                                    "fr": "Lucky for you, I know of someone who has built one already!",
-                                    "es": "Lucky for you, I know of someone who has built one already!"
-                                }
                             }
                         ],
                         "LinksToFragment": {
@@ -304,14 +280,6 @@
                                     "en": "With what army? You need a castle!",
                                     "fr": "With what army? You need a castle!",
                                     "es": "With what army? You need a castle!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Lucky for you, I know of someone who has built one already!",
-                                    "fr": "Lucky for you, I know of someone who has built one already!",
-                                    "es": "Lucky for you, I know of someone who has built one already!"
                                 }
                             }
                         ],
