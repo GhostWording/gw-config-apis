@@ -5,25 +5,9 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "A fearsome knight… Edward Dalyngrigge…",
-                "fr": "A fearsome knight… Edward Dalyngrigge…",
-                "es": "A fearsome knight… Edward Dalyngrigge…"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "fresh from his travels and battles in France…",
-                "fr": "fresh from his travels and battles in France…",
-                "es": "fresh from his travels and battles in France…"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "built this to defend himself!",
-                "fr": "built this to defend himself!",
-                "es": "built this to defend himself!"
+                "en": "And, just as it happens, I have one for you",
+                "fr": "And, just as it happens, I have one for you",
+                "es": "And, just as it happens, I have one for you"
             }
         },
         {
@@ -31,6 +15,14 @@
             "Parameters": {
                 "Source": "Web",
                 "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521630660/shutterstock_490784191.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's located in the hills of Bavaria... practically impenetrable",
+                "fr": "It's located in the hills of Bavaria... practically impenetrable",
+                "es": "It's located in the hills of Bavaria... practically impenetrable"
             }
         },
         {
@@ -56,32 +48,32 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "And great for defence!",
-                        "fr": "And great for defence!",
-                        "es": "And great for defence!"
+                        "en": "Now, I'm contractually obligated to tell you a few things",
+                        "fr": "Now, I'm contractually obligated to tell you a few things",
+                        "es": "Now, I'm contractually obligated to tell you a few things"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "It’s a popular destination, owned by the National Trust",
-                        "fr": "It’s a popular destination, owned by the National Trust",
-                        "es": "It’s a popular destination, owned by the National Trust"
+                        "en": "the castle has no running water, holes in the walls, and is generally freezing",
+                        "fr": "the castle has no running water, holes in the walls, and is generally freezing",
+                        "es": "the castle has no running water, holes in the walls, and is generally freezing"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I'm sure I can get you a great deal on it...",
-                        "fr": "I'm sure I can get you a great deal on it...",
-                        "es": "I'm sure I can get you a great deal on it..."
+                        "en": "oh, and it is regularly infested with warmongering ferrets",
+                        "fr": "oh, and it is regularly infested with warmongering ferrets",
+                        "es": "oh, and it is regularly infested with warmongering ferrets"
                     }
                 },
                 {
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1559649848/shutterstock_1189520911.jpg"
                     }
                 }
             ],
@@ -102,32 +94,32 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "But it's fantastic for defence!",
-                        "fr": "But it's fantastic for defence!",
-                        "es": "But it's fantastic for defence!"
+                        "en": "Oh... also, I'm contractually obligated to tell you a few things",
+                        "fr": "Oh... also, I'm contractually obligated to tell you a few things",
+                        "es": "Oh... also, I'm contractually obligated to tell you a few things"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "And it’s a popular destination, owned by the National Trust",
-                        "fr": "And it’s a popular destination, owned by the National Trust",
-                        "es": "And it’s a popular destination, owned by the National Trust"
+                        "en": "the castle has no running water, holes in the walls, and is generally freezing",
+                        "fr": "the castle has no running water, holes in the walls, and is generally freezing",
+                        "es": "the castle has no running water, holes in the walls, and is generally freezing"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I'm sure I can get you a great deal on it...",
-                        "fr": "I'm sure I can get you a great deal on it...",
-                        "es": "I'm sure I can get you a great deal on it..."
+                        "en": "oh, and it is regularly infested with warmongering ferrets",
+                        "fr": "oh, and it is regularly infested with warmongering ferrets",
+                        "es": "oh, and it is regularly infested with warmongering ferrets"
                     }
                 },
                 {
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/owls/images/small/babyowl.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1559649848/shutterstock_1189520911.jpg"
                     }
                 }
             ],
