@@ -13,6 +13,7 @@
         {
             "Type": "Image",
             "Parameters": {
+                "Display": "FullScreenWidth",
                 "Source": "Web",
                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1559655983/shutterstock_699336349.jpg"
             }
