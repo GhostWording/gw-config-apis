@@ -11,13 +11,10 @@
             }
         },
         {
-            "Type": "Action",
-            "Name": "ChatheadChange",
+            "Type": "Pause",
             "Parameters": {
-                "Image": {
-                    "Source": "Web",
-                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
-                }
+                "Mode": "Wait",
+                "ms": 4000
             }
         },
         {
@@ -26,6 +23,16 @@
                 "en": "It's a pleasure to meet you",
                 "fr": "It's a pleasure to meet you",
                 "es": "It's a pleasure to meet you"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ChatheadChange",
+            "Parameters": {
+                "Image": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                }
             }
         }
     ],
