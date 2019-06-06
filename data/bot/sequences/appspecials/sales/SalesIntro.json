@@ -18,14 +18,6 @@
             }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "It's a pleasure to meet you",
-                "fr": "It's a pleasure to meet you",
-                "es": "It's a pleasure to meet you"
-            }
-        },
-        {
             "Type": "Action",
             "Name": "ChatheadChange",
             "Parameters": {
@@ -33,6 +25,14 @@
                     "Source": "Web",
                     "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
                 }
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a pleasure to meet you",
+                "fr": "It's a pleasure to meet you",
+                "es": "It's a pleasure to meet you"
             }
         }
     ],
