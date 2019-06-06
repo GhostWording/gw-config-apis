@@ -83,6 +83,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 8000
+                    }
+                },
+                {
                     "Type": "Action",
                     "Name": "ChatheadChange",
                     "Parameters": {
@@ -90,13 +97,6 @@
                             "Source": "Web",
                             "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
                         }
-                    }
-                },
-                {
-                    "Type": "Pause",
-                    "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 8000
                     }
                 },
                 {
