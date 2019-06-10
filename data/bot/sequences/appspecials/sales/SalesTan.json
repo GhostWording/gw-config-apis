@@ -1,0 +1,229 @@
+{
+    "Type": "Node",
+    "Id": "SalesTan",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Luckily, we here at Owl Mighty have the perfect product…",
+                "fr": "Luckily, we here at Owl Mighty have the perfect product…",
+                "es": "Luckily, we here at Owl Mighty have the perfect product…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/owls/images/small/Quoteo.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Tanning shoes!",
+                "fr": "Tanning shoes!",
+                "es": "Tanning shoes!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Everyone uses them here in the office... it's why my feet are so brown!",
+                "fr": "Everyone uses them here in the office... it's why my feet are so brown!",
+                "es": "Everyone uses them here in the office... it's why my feet are so brown!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesTanReally",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Owls tan?",
+                "fr": "Owls tan?",
+                "es": "Owls tan?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Absolutely! As you can see from our gloriously brown feet...",
+                        "fr": "Absolutely! As you can see from our gloriously brown feet...",
+                        "es": "Absolutely! As you can see from our gloriously brown feet..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/Quoteo.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, would you like to buy a pair?",
+                        "fr": "So, would you like to buy a pair?",
+                        "es": "So, would you like to buy a pair?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesTanReallyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "SalesTanReallyNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not at all",
+                            "fr": "Not at all",
+                            "es": "Not at all"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But they really work...☹️",
+                                    "fr": "But they really work...☹️",
+                                    "es": "But they really work...☹️"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll have to try something else...",
+                                    "fr": "I'll have to try something else...",
+                                    "es": "I'll have to try something else..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll never stop until I make my first sale! 😁",
+                                    "fr": "I'll never stop until I make my first sale! 😁",
+                                    "es": "I'll never stop until I make my first sale! 😁"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "SalesTanReallyYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Absolutely!",
+                            "fr": "Absolutely!",
+                            "es": "Absolutely!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Amazing! My first sale... I am ecstatic! 😁",
+                                    "fr": "Amazing! My first sale... I am ecstatic! 😁",
+                                    "es": "Amazing! My first sale... I am ecstatic! 😁"
+                                }
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ChatheadChange",
+                                "Parameters": {
+                                    "Image": {
+                                        "Source": "Web",
+                                        "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                                    }
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll start organising everything... I'm kinda unprepared for this!",
+                                    "fr": "I'll start organising everything... I'm kinda unprepared for this!",
+                                    "es": "I'll start organising everything... I'm kinda unprepared for this!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesTanRubbish",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What rubbish..",
+                "fr": "What rubbish..",
+                "es": "What rubbish.."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But they really work...☹️",
+                        "fr": "But they really work...☹️",
+                        "es": "But they really work...☹️"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll have to try something else...",
+                        "fr": "I'll have to try something else...",
+                        "es": "I'll have to try something else..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll never stop until I make my first sale! 😁",
+                        "fr": "I'll never stop until I make my first sale! 😁",
+                        "es": "I'll never stop until I make my first sale! 😁"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesTanYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I'll take them!",
+                "fr": "I'll take them!",
+                "es": "I'll take them!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Amazing! My first sale... I am ecstatic! 😁",
+                        "fr": "Amazing! My first sale... I am ecstatic! 😁",
+                        "es": "Amazing! My first sale... I am ecstatic! 😁"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        }
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll start organising everything... I'm kinda unprepared for this!",
+                        "fr": "I'll start organising everything... I'm kinda unprepared for this!",
+                        "es": "I'll start organising everything... I'm kinda unprepared for this!"
+                    }
+                }
+            ]
+        }
+    ]
+}
