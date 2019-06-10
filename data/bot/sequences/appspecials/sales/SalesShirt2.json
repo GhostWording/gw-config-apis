@@ -1,0 +1,87 @@
+{
+    "Type": "Node",
+    "Id": "SalesShirt2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Introducing... the Hole Shirt!",
+                "fr": "Introducing... the Hole Shirt!",
+                "es": "Introducing... the Hole Shirt!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/owls/images/small/Quoteo.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "An innovative and vogue product from Owl Mighty..!",
+                "fr": "An innovative and vogue product from Owl Mighty..!",
+                "es": "An innovative and vogue product from Owl Mighty..!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesShirt2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I love it",
+                "fr": "I love it",
+                "es": "I love it"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Glad to hear it!",
+                        "fr": "Glad to hear it!",
+                        "es": "Glad to hear it!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will ship one to you ASAP",
+                        "fr": "I will ship one to you ASAP",
+                        "es": "I will ship one to you ASAP"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesShirt2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Horrific",
+                "fr": "Horrific",
+                "es": "Horrific"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I thought I pitched the perfect sale...",
+                        "fr": "I thought I pitched the perfect sale...",
+                        "es": "I thought I pitched the perfect sale..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Time to rethink my strategy again!",
+                        "fr": "Time to rethink my strategy again!",
+                        "es": "Time to rethink my strategy again!"
+                    }
+                }
+            ]
+        }
+    ]
+}
