@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "SalesShirt",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you ever feel like you need more ventilation in your shirt?!",
+                "fr": "Do you ever feel like you need more ventilation in your shirt?!",
+                "es": "Do you ever feel like you need more ventilation in your shirt?!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesShirtWhat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What..?",
+                "fr": "What..?",
+                "es": "What..?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I am told it is a common problem for people in warm countries...",
+                        "fr": "I am told it is a common problem for people in warm countries...",
+                        "es": "I am told it is a common problem for people in warm countries..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But not to fear... I can sort you out...😉",
+                        "fr": "But not to fear... I can sort you out...😉",
+                        "es": "But not to fear... I can sort you out...😉"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesShirt2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesShirtYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "All the time",
+                "fr": "All the time",
+                "es": "All the time"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I knew it... but not to worry...",
+                        "fr": "I knew it... but not to worry...",
+                        "es": "I knew it... but not to worry..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I can sort you out 😉",
+                        "fr": "I can sort you out 😉",
+                        "es": "I can sort you out 😉"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesShirt2"
+            }
+        }
+    ]
+}
