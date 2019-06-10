@@ -1,0 +1,95 @@
+{
+    "Type": "Node",
+    "Id": "SalesWeather",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…",
+                "fr": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…",
+                "es": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/owls/images/small/Quoteo.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's still lovely, though...",
+                "fr": "It's still lovely, though...",
+                "es": "It's still lovely, though..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What about in your country?",
+                "fr": "What about in your country?",
+                "es": "What about in your country?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesWeatherYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess it is warm often where you live...",
+                        "fr": "I guess it is warm often where you live...",
+                        "es": "I guess it is warm often where you live..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesShirt"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesWeatherNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really",
+                "fr": "Not really",
+                "es": "Not really"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I know how it feels",
+                        "fr": "I know how it feels",
+                        "es": "I know how it feels"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                        }
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "SalesTan"
+            }
+        }
+    ]
+}
