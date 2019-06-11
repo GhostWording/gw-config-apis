@@ -1,0 +1,485 @@
+{
+    "Type": "Node",
+    "Id": "SalesUnicorn",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "By the way... I don't suppose you or anyone in your family currently own a cat?",
+                "fr": "By the way... I don't suppose you or anyone in your family currently own a cat?",
+                "es": "By the way... I don't suppose you or anyone in your family currently own a cat?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SalesUnicornYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And I assume you often feel your cat is too boring?",
+                        "fr": "And I assume you often feel your cat is too boring?",
+                        "es": "And I assume you often feel your cat is too boring?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You wish he/she was a unicorn, right?",
+                        "fr": "You wish he/she was a unicorn, right?",
+                        "es": "You wish he/she was a unicorn, right?"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 600,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesUnicornYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesUnicornYesNever",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Never...",
+                            "fr": "Never...",
+                            "es": "Never..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Oh... how strange... but you must despise touching your cat, right?",
+                                    "fr": "Oh... how strange... but you must despise touching your cat, right?",
+                                    "es": "Oh... how strange... but you must despise touching your cat, right?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This should fix your issues...",
+                                    "fr": "This should fix your issues...",
+                                    "es": "This should fix your issues..."
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 425,
+                                    "Height": 425,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246878/petpetter.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "SalesUnicornYesNeverStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesUnicornYesNeverNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No way!",
+                                        "fr": "No way!",
+                                        "es": "No way!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh... I seem to have read this situation wrong...",
+                                                "fr": "Oh... I seem to have read this situation wrong...",
+                                                "es": "Oh... I seem to have read this situation wrong..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "We owls loathe kittens...",
+                                                "fr": "We owls loathe kittens...",
+                                                "es": "We owls loathe kittens..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Time to change my strategy!",
+                                                "fr": "Time to change my strategy!",
+                                                "es": "Time to change my strategy!"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesUnicornYesNeverYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It's perfect",
+                                        "fr": "It's perfect",
+                                        "es": "It's perfect"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Excellent!",
+                                                "fr": "Excellent!",
+                                                "es": "Excellent!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I will tell the factory to begin creating the product...",
+                                                "fr": "I will tell the factory to begin creating the product...",
+                                                "es": "I will tell the factory to begin creating the product..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "In the meantime...",
+                                                "fr": "In the meantime...",
+                                                "es": "In the meantime..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "SalesUnicornYesOften",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Often",
+                            "fr": "Often",
+                            "es": "Often"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I suspected so...",
+                                    "fr": "I suspected so...",
+                                    "es": "I suspected so..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Fear not... our custom made unicorn horns will instantly transform your horrible cat",
+                                    "fr": "Fear not... our custom made unicorn horns will instantly transform your horrible cat",
+                                    "es": "Fear not... our custom made unicorn horns will instantly transform your horrible cat"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And nobody will be able to tell the difference",
+                                    "fr": "And nobody will be able to tell the difference",
+                                    "es": "And nobody will be able to tell the difference"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I will send you one, free of charge, since your situation is so dire...",
+                                    "fr": "I will send you one, free of charge, since your situation is so dire...",
+                                    "es": "I will send you one, free of charge, since your situation is so dire..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "SalesUnicornNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And do you ever plan on owning one?",
+                        "fr": "And do you ever plan on owning one?",
+                        "es": "And do you ever plan on owning one?"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_surprised132x132.gif"
+                        }
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SalesUnicornNoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SalesUnicornNoNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Totally understandable... cats are horrible",
+                                    "fr": "Totally understandable... cats are horrible",
+                                    "es": "Totally understandable... cats are horrible"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But I assume you do want a unicorn?",
+                                    "fr": "But I assume you do want a unicorn?",
+                                    "es": "But I assume you do want a unicorn?"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 600,
+                                    "Height": 600,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "SalesUnicornNoNoStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesUnicornNoNoCat",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That's a cat",
+                                        "fr": "That's a cat",
+                                        "es": "That's a cat"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "No, no. I assure you, it's a cat!",
+                                                "fr": "No, no. I assure you, it's a cat!",
+                                                "es": "No, no. I assure you, it's a cat!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Please notice the horn on its head",
+                                                "fr": "Please notice the horn on its head",
+                                                "es": "Please notice the horn on its head"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "But you seem particularly shrewd, so let's move swiftly on",
+                                                "fr": "But you seem particularly shrewd, so let's move swiftly on",
+                                                "es": "But you seem particularly shrewd, so let's move swiftly on"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesUnicornNoNoYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes, I'll take one",
+                                        "fr": "Yes, I'll take one",
+                                        "es": "Yes, I'll take one"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Fantastic!",
+                                                "fr": "Fantastic!",
+                                                "es": "Fantastic!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "However, there is a chance that magical creatures are banned in your country",
+                                                "fr": "However, there is a chance that magical creatures are banned in your country",
+                                                "es": "However, there is a chance that magical creatures are banned in your country"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "In that case, we will just send you a cat. Apologies.",
+                                                "fr": "In that case, we will just send you a cat. Apologies.",
+                                                "es": "In that case, we will just send you a cat. Apologies."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "SalesUnicornNoYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How about making it unique...",
+                                    "fr": "How about making it unique...",
+                                    "es": "How about making it unique..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Your very own unicat!",
+                                    "fr": "Your very own unicat!",
+                                    "es": "Your very own unicat!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 600,
+                                    "Height": 600,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "SalesUnicornNoYesStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesUnicornNoYesNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thank you",
+                                        "fr": "No thank you",
+                                        "es": "No thank you"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "What a shame... ",
+                                                "fr": "What a shame... ",
+                                                "es": "What a shame... "
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "But I will never give up. I will make a sale one day...",
+                                                "fr": "But I will never give up. I will make a sale one day...",
+                                                "es": "But I will never give up. I will make a sale one day..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "SalesUnicornNoYesYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes please",
+                                        "fr": "Yes please",
+                                        "es": "Yes please"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Fantastic!",
+                                                "fr": "Fantastic!",
+                                                "es": "Fantastic!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "However, there is a chance that magical creatures are banned in your country",
+                                                "fr": "However, there is a chance that magical creatures are banned in your country",
+                                                "es": "However, there is a chance that magical creatures are banned in your country"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "In that case, we will just send you a cat. Apologies.",
+                                                "fr": "In that case, we will just send you a cat. Apologies.",
+                                                "es": "In that case, we will just send you a cat. Apologies."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
