@@ -13,8 +13,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Internal",
-                "Path": "/owls/images/small/Quoteo.jpg"
+                "Display": "FullScreenWidth",
+                "Width": 700,
+                "Height": 886,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560248114/holeshirt.jpg"
             }
         },
         {
