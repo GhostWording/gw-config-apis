@@ -2,9 +2,9 @@
   {
     "GroupName":"test",
     "SequenceFiles" : [
-      { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesGhostDetector.json"]},
-      { "order" : 12, "file": ["/data/bot/sequences/appspecials/sales/SalesStrategy.json"]},
-      { "order" : 14, "file": ["/data/bot/sequences/appspecials/sales/SalesConfidence.json"]},
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
+      { "order" : 12, "file": ["/data/bot/sequences/appspecials/sales/SalesWeather.json"]},
+      { "order" : 14, "file": ["/data/bot/sequences/appspecials/sales/SalesUnicorn.json"]},
       { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/SalesNewCompany.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/AffiliateTestBohemian.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/experiments/Billy2/LeaveReviewExample.json"]},
