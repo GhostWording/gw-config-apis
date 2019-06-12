@@ -13,11 +13,8 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 700,
-                "Height": 886,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560248114/holeshirt.jpg"
+                "Source": "Internal",
+                "Path": "/owls/images/small/Quoteo.jpg"
             }
         },
         {
@@ -55,6 +52,16 @@
                         "fr": "I will ship one to you ASAP",
                         "es": "I will ship one to you ASAP"
                     }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 334,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339763/shutterstock_1274862763.jpg"
+                    }
                 }
             ]
         },
@@ -74,6 +81,13 @@
                         "en": "I thought I pitched the perfect sale...",
                         "fr": "I thought I pitched the perfect sale...",
                         "es": "I thought I pitched the perfect sale..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "h5NmMolgdFcVW"
                     }
                 },
                 {
