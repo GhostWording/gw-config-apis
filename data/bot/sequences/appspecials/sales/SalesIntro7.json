@@ -11,6 +11,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 500,
+                "Height": 334,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338898/shutterstock_189926543.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Shall I sell you a castle, or a kitten?",
@@ -39,16 +49,16 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359458/Castle_for_NT.jpg"
+                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1559655983/shutterstock_699336349.jpg"
                 }
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Surely you want to buy this... right?",
-                        "fr": "Surely you want to buy this... right?",
-                        "es": "Surely you want to buy this... right?"
+                        "en": "I'll try make you want to buy it!",
+                        "fr": "I'll try make you want to buy it!",
+                        "es": "I'll try make you want to buy it!"
                     }
                 }
             ],
@@ -80,9 +90,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Surely you want to buy this... right?",
-                        "fr": "Surely you want to buy this... right?",
-                        "es": "Surely you want to buy this... right?"
+                        "en": "I'll try make you want to buy it!",
+                        "fr": "I'll try make you want to buy it!",
+                        "es": "I'll try make you want to buy it!"
                     }
                 }
             ],
