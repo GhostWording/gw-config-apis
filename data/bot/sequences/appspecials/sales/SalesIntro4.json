@@ -11,6 +11,13 @@
             }
         },
         {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "dCs0EncL8XJsY"
+            }
+        },
+        {
             "Type": "Action",
             "Name": "ChatheadChange",
             "Parameters": {
@@ -58,8 +65,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Internal",
-                        "Path": "/owls/images/small/owlsiblings.jpg"
+                        "Display": "FullScreenWidth",
+                        "Width": 459,
+                        "Height": 459,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338005/shutterstock_230773807.jpg"
                     }
                 }
             ],
@@ -121,8 +131,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Internal",
-                        "Path": "/owls/images/small/owlsiblings.jpg"
+                        "Display": "FullScreenWidth",
+                        "Width": 459,
+                        "Height": 459,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338005/shutterstock_230773807.jpg"
                     }
                 }
             ],
