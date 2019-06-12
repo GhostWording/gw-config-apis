@@ -57,6 +57,16 @@
                     }
                 },
                 {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 459,
+                        "Height": 459,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338005/shutterstock_230773807.jpg"
+                    }
+                },
+                {
                     "Type": "Action",
                     "Name": "ChatheadChange",
                     "Parameters": {
@@ -113,6 +123,16 @@
                         "en": "and the boss thinks it's my fault!",
                         "fr": "and the boss thinks it's my fault!",
                         "es": "and the boss thinks it's my fault!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 459,
+                        "Height": 459,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338005/shutterstock_230773807.jpg"
                     }
                 },
                 {
