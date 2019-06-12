@@ -13,11 +13,8 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 310,
-                "Height": 307,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560249388/feettanner.jpg"
+                "Source": "Internal",
+                "Path": "/owls/images/small/Quoteo.jpg"
             }
         },
         {
@@ -60,7 +57,7 @@
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Internal",
-                        "Path": "/owls/images/small/owlsiblings.jpg"
+                        "Path": "/owls/images/small/Quoteo.jpg"
                     }
                 },
                 {
@@ -93,6 +90,16 @@
                                     "en": "But they really work...☹️",
                                     "fr": "But they really work...☹️",
                                     "es": "But they really work...☹️"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 500,
+                                    "Height": 336,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339248/shutterstock_1294393294.jpg"
                                 }
                             },
                             {
@@ -170,6 +177,16 @@
                         "en": "But they really work...☹️",
                         "fr": "But they really work...☹️",
                         "es": "But they really work...☹️"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 336,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339248/shutterstock_1294393294.jpg"
                     }
                 },
                 {
