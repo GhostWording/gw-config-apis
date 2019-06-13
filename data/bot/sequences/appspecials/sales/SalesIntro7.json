@@ -11,16 +11,6 @@
             }
         },
         {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 500,
-                "Height": 334,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338898/shutterstock_189926543.jpg"
-            }
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "Shall I sell you a castle, or a kitten?",
