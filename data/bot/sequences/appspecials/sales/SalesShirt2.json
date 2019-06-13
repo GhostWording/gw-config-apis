@@ -13,8 +13,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Internal",
-                "Path": "/owls/images/small/Quoteo.jpg"
+                "Display": "FullScreenWidth",
+                "Width": 700,
+                "Height": 886,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560248114/holeshirt.jpg"
             }
         },
         {
@@ -60,7 +63,7 @@
                         "Width": 500,
                         "Height": 334,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339763/shutterstock_1274862763.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339304/shutterstock_44013220.jpg"
                     }
                 }
             ]
