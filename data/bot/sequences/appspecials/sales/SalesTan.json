@@ -142,6 +142,16 @@
                                 }
                             },
                             {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 500,
+                                    "Height": 334,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338898/shutterstock_189926543.jpg"
+                                }
+                            },
+                            {
                                 "Type": "Action",
                                 "Name": "ChatheadChange",
                                 "Parameters": {
@@ -226,6 +236,16 @@
                         "en": "Amazing! My first sale... I am ecstatic! 😁",
                         "fr": "Amazing! My first sale... I am ecstatic! 😁",
                         "es": "Amazing! My first sale... I am ecstatic! 😁"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 334,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338898/shutterstock_189926543.jpg"
                     }
                 },
                 {
