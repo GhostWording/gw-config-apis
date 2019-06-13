@@ -11,6 +11,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 459,
+                "Height": 459,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339763/shutterstock_1274862763.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "I don't think I'm very good at my job!",
