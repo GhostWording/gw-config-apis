@@ -3,6 +3,10 @@
     "Id": "SalesIntro",
     "Steps": [
         {
+            "Type": "Action",
+            "Name": "TypingBarHide"
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Hi! 😁",
