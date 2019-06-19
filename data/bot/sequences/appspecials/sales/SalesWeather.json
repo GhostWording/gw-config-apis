@@ -56,9 +56,27 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I guess it is warm there too, then...",
-                        "fr": "I guess it is warm there too, then...",
-                        "es": "I guess it is warm there too, then..."
+                        "en": "Aha... I was going to offer you this to tan your feet at work...",
+                        "fr": "Aha... I was going to offer you this to tan your feet at work...",
+                        "es": "Aha... I was going to offer you this to tan your feet at work..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 310,
+                        "Height": 307,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560249388/feettanner.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless... I guess it is warm there too, then...",
+                        "fr": "Regardless... I guess it is warm there too, then...",
+                        "es": "Regardless... I guess it is warm there too, then..."
                     }
                 }
             ],
