@@ -238,9 +238,27 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "I will send you one, free of charge, since your situation is so dire...",
-                                    "fr": "I will send you one, free of charge, since your situation is so dire...",
-                                    "es": "I will send you one, free of charge, since your situation is so dire..."
+                                    "en": "Here is a link to buy it...",
+                                    "fr": "Here is a link to buy it...",
+                                    "es": "Here is a link to buy it..."
+                                }
+                            },
+                            {
+                                "Type": "ShowPersistentLink",
+                                "Title": {
+                                    "en": "A genuine unicorn",
+                                    "fr": "A genuine unicorn",
+                                    "es": "A genuine unicorn"
+                                },
+                                "LinkLabel": {
+                                    "en": "Not a cat",
+                                    "fr": "Not a cat",
+                                    "es": "Not a cat"
+                                },
+                                "url": "https://www.ebay.co.uk/itm/352667934682",
+                                "Image": {
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
                                 }
                             }
                         ]
@@ -393,9 +411,27 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Fantastic!",
-                                                "fr": "Fantastic!",
-                                                "es": "Fantastic!"
+                                                "en": "Fantastic! Here is a link to buy it...",
+                                                "fr": "Fantastic! Here is a link to buy it...",
+                                                "es": "Fantastic! Here is a link to buy it..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "ShowPersistentLink",
+                                            "Title": {
+                                                "en": "A genuine unicorn",
+                                                "fr": "A genuine unicorn",
+                                                "es": "A genuine unicorn"
+                                            },
+                                            "LinkLabel": {
+                                                "en": "Not a cat",
+                                                "fr": "Not a cat",
+                                                "es": "Not a cat"
+                                            },
+                                            "url": "https://www.ebay.co.uk/itm/352667934682",
+                                            "Image": {
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
                                             }
                                         },
                                         {
@@ -522,9 +558,27 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Fantastic!",
-                                                "fr": "Fantastic!",
-                                                "es": "Fantastic!"
+                                                "en": "Fantastic! Here is a link to buy it...",
+                                                "fr": "Fantastic! Here is a link to buy it...",
+                                                "es": "Fantastic! Here is a link to buy it..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "ShowPersistentLink",
+                                            "Title": {
+                                                "en": "A genuine unicorn",
+                                                "fr": "A genuine unicorn",
+                                                "es": "A genuine unicorn"
+                                            },
+                                            "LinkLabel": {
+                                                "en": "Not a cat",
+                                                "fr": "Not a cat",
+                                                "es": "Not a cat"
+                                            },
+                                            "url": "https://www.ebay.co.uk/itm/352667934682",
+                                            "Image": {
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
                                             }
                                         },
                                         {
