@@ -155,27 +155,27 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Excellent!",
-                                                "fr": "Excellent!",
-                                                "es": "Excellent!"
+                                                "en": "Fantastic! Here is a link to buy it...",
+                                                "fr": "Fantastic! Here is a link to buy it...",
+                                                "es": "Fantastic! Here is a link to buy it..."
                                             }
                                         },
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "I will tell the factory to begin creating the product...",
-                                                "fr": "I will tell the factory to begin creating the product...",
-                                                "es": "I will tell the factory to begin creating the product..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
-                                            "Parameters": {
-                                                "Display": "FullScreenWidth",
-                                                "Width": 500,
-                                                "Height": 336,
+                                            "Type": "ShowPersistentLink",
+                                            "Title": {
+                                                "en": "The pet-petter",
+                                                "fr": "The pet-petter",
+                                                "es": "The pet-petter"
+                                            },
+                                            "LinkLabel": {
+                                                "en": "Buy",
+                                                "fr": "Buy",
+                                                "es": "Buy"
+                                            },
+                                            "url": "https://www.amazon.com/Prank-Pack-Pet-Petter-Prank/dp/B009LNZIZY",
+                                            "Image": {
                                                 "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339162/shutterstock_518464258.jpg"
+                                                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246878/petpetter.jpg"
                                             }
                                         },
                                         {
