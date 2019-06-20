@@ -11,6 +11,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…",
@@ -23,6 +30,13 @@
             "Parameters": {
                 "Source": "Internal",
                 "Path": "/themes/nature/small/134416_488589671175581_1129828197_o.jpg"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 5000
             }
         },
         {
@@ -69,6 +83,13 @@
                         "Height": 307,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560249388/feettanner.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
