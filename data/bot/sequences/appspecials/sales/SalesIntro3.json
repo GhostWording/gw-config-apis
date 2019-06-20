@@ -11,13 +11,10 @@
             }
         },
         {
-            "Type": "Image",
+            "Type": "Pause",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 500,
-                "Height": 334,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339763/shutterstock_1274862763.jpg"
+                "Mode": "Wait",
+                "ms": 4000
             }
         },
         {
@@ -57,6 +54,13 @@
                         "fr": "Well... recently I joined a new company",
                         "es": "Well... recently I joined a new company"
                     }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
                 }
             ],
             "LinksToFragment": {
@@ -79,6 +83,13 @@
                         "en": "So, recently I joined a new company",
                         "fr": "So, recently I joined a new company",
                         "es": "So, recently I joined a new company"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 }
             ],
@@ -109,6 +120,13 @@
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "26CaNjdrRvdK7bjj2"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 5000
                     }
                 },
                 {
