@@ -3,22 +3,11 @@
     "Id": "SalesIntro",
     "Steps": [
         {
-            "Type": "Action",
-            "Name": "TypingBarHide"
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "Hi! 😁",
                 "fr": "Hi! 😁",
                 "es": "Hi! 😁"
-            }
-        },
-        {
-            "Type": "Pause",
-            "Parameters": {
-                "Mode": "Wait",
-                "ms": 4000
             }
         },
         {
@@ -68,10 +57,24 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                },
+                {
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Internal",
                         "Path": "/owls/images/small/Quoteo.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
                     }
                 }
             ],
@@ -106,12 +109,26 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                },
+                {
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Internal",
                         "Path": "/owls/images/small/Quoteo.jpg"
                     }
-                }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                },
             ],
             "LinksToFragment": {
                 "FragmentPath": "SalesIntro2"
