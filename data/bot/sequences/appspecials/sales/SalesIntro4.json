@@ -18,6 +18,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
             "Type": "Action",
             "Name": "ChatheadChange",
             "Parameters": {
@@ -55,6 +62,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "and is entirely run by owls",
@@ -66,10 +80,17 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
-                        "Width": 500,
-                        "Height": 343,
+                        "Width": 459,
+                        "Height": 459,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338005/shutterstock_230773807.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 }
             ],
@@ -121,6 +142,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 5000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "and is entirely run by owls 🦉",
@@ -132,10 +160,17 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
-                        "Width": 500,
-                        "Height": 343,
+                        "Width": 459,
+                        "Height": 459,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338005/shutterstock_230773807.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 }
             ],
