@@ -31,6 +31,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "You wish he/she was a unicorn, right?",
@@ -70,6 +77,13 @@
                                     "en": "Oh... how strange... but you must despise touching your cat, right?",
                                     "fr": "Oh... how strange... but you must despise touching your cat, right?",
                                     "es": "Oh... how strange... but you must despise touching your cat, right?"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -115,6 +129,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "We owls loathe kittens...",
@@ -130,6 +151,13 @@
                                                 "Height": 336,
                                                 "Source": "Web",
                                                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339162/shutterstock_518464258.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -179,6 +207,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In the meantime...",
@@ -212,9 +247,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Fear not... our custom made unicorn horns will instantly transform your horrible cat",
-                                    "fr": "Fear not... our custom made unicorn horns will instantly transform your horrible cat",
-                                    "es": "Fear not... our custom made unicorn horns will instantly transform your horrible cat"
+                                    "en": "Fear not... our custom made unicorn horns will instantly transform your cat",
+                                    "fr": "Fear not... our custom made unicorn horns will instantly transform your cat",
+                                    "es": "Fear not... our custom made unicorn horns will instantly transform your cat"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -233,6 +275,13 @@
                                     "Height": 334,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338657/shutterstock_573366649.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -259,6 +308,13 @@
                                 "Image": {
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             }
                         ]
@@ -313,9 +369,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Totally understandable... cats are horrible",
-                                    "fr": "Totally understandable... cats are horrible",
-                                    "es": "Totally understandable... cats are horrible"
+                                    "en": "Totally understandable... cats are very unreliable",
+                                    "fr": "Totally understandable... cats are very unreliable",
+                                    "es": "Totally understandable... cats are very unreliable"
                                 }
                             },
                             {
@@ -326,6 +382,13 @@
                                     "Height": 336,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339162/shutterstock_518464258.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -344,6 +407,13 @@
                                     "Height": 600,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560246877/unicorncat.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             }
                         ],
@@ -381,11 +451,25 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Please notice the horn on its head",
                                                 "fr": "Please notice the horn on its head",
                                                 "es": "Please notice the horn on its head"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -435,6 +519,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "However, there is a chance that magical creatures are banned in your country",
@@ -453,11 +544,25 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In that case, we will just send you a cat. Apologies.",
                                                 "fr": "In that case, we will just send you a cat. Apologies.",
                                                 "es": "In that case, we will just send you a cat. Apologies."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
                                             }
                                         }
                                     ]
@@ -481,6 +586,13 @@
                                     "en": "How about making it unique...",
                                     "fr": "How about making it unique...",
                                     "es": "How about making it unique..."
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -536,6 +648,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "But I will never give up. I will make a sale one day...",
@@ -582,6 +701,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "However, there is a chance that magical creatures are banned in your country",
@@ -597,6 +723,13 @@
                                                 "Height": 334,
                                                 "Source": "Web",
                                                 "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560338657/shutterstock_573366649.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
                                             }
                                         },
                                         {
