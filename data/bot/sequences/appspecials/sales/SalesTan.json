@@ -21,11 +21,25 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 5000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Tanning shoes!",
                 "fr": "Tanning shoes!",
                 "es": "Tanning shoes!"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
             }
         },
         {
@@ -61,6 +75,13 @@
                     "Parameters": {
                         "Source": "Internal",
                         "Path": "/owls/images/small/owlsiblings.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 5000
                     }
                 },
                 {
@@ -103,6 +124,13 @@
                                     "Height": 336,
                                     "Source": "Web",
                                     "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339248/shutterstock_1294393294.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -162,6 +190,13 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll start organising everything... I'm kinda unprepared for this!",
@@ -200,6 +235,13 @@
                         "Height": 336,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339248/shutterstock_1294393294.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
@@ -256,6 +298,13 @@
                             "Source": "Web",
                             "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
                         }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
