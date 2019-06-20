@@ -19,11 +19,25 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "It's located in the hills of Bavaria... practically impenetrable",
                 "fr": "It's located in the hills of Bavaria... practically impenetrable",
                 "es": "It's located in the hills of Bavaria... practically impenetrable"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
             }
         },
         {
@@ -55,11 +69,25 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "the castle has no running water, holes in the walls, and is generally freezing",
                         "fr": "the castle has no running water, holes in the walls, and is generally freezing",
                         "es": "the castle has no running water, holes in the walls, and is generally freezing"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
@@ -75,6 +103,13 @@
                     "Parameters": {
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1559649848/shutterstock_1189520911.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 }
             ],
@@ -101,11 +136,25 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "the castle has no running water, holes in the walls, and is generally freezing",
                         "fr": "the castle has no running water, holes in the walls, and is generally freezing",
                         "es": "the castle has no running water, holes in the walls, and is generally freezing"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
@@ -121,6 +170,13 @@
                     "Parameters": {
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1559649848/shutterstock_1189520911.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 }
             ],
