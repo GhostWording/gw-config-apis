@@ -31,6 +31,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Action",
                     "Name": "ChatheadChange",
                     "Parameters": {
@@ -38,6 +45,13 @@
                             "Source": "Web",
                             "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_surprised132x132.gif"
                         }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 6000
                     }
                 },
                 {
@@ -64,6 +78,13 @@
                         "Height": 334,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560426131/shutterstock_49700137.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
@@ -94,9 +115,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I assure you, the company exists",
-                        "fr": "I assure you, the company exists",
-                        "es": "I assure you, the company exists"
+                        "en": "Please, respect my company",
+                        "fr": "Please, respect my company",
+                        "es": "Please, respect my company"
                     }
                 },
                 {
@@ -107,6 +128,13 @@
                             "Source": "Web",
                             "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
                         }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
@@ -133,6 +161,13 @@
                         "Height": 334,
                         "Source": "Web",
                         "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560426131/shutterstock_49700137.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
                     }
                 },
                 {
