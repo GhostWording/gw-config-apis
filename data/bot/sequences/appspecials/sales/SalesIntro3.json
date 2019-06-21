@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I'm actually in a spot of trouble at the moment",
-                "fr": "I'm actually in a spot of trouble at the moment",
+                "fr": "Je rencontre quelques difficultés en ce moment",
                 "es": "I'm actually in a spot of trouble at the moment"
             }
         },
@@ -21,7 +21,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I don't think I'm very good at my job!",
-                "fr": "I don't think I'm very good at my job!",
+                "fr": "Je n'ai pas l'impression de bien me débrouiller dans mon métier",
                 "es": "I don't think I'm very good at my job!"
             }
         },
@@ -43,7 +43,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How so?",
-                "fr": "How so?",
+                "fr": "Pourquoi ?",
                 "es": "How so?"
             },
             "Steps": [
@@ -51,7 +51,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well... recently I joined a new company",
-                        "fr": "Well... recently I joined a new company",
+                        "fr": "Et bien... récemment j'ai rejoint une nouvelle entreprise",
                         "es": "Well... recently I joined a new company"
                     }
                 },
@@ -73,7 +73,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Oh dear",
-                "fr": "Oh dear",
+                "fr": "Ah flûte",
                 "es": "Oh dear"
             },
             "Steps": [
@@ -81,7 +81,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So, recently I joined a new company",
-                        "fr": "So, recently I joined a new company",
+                        "fr": "Récemment j'ai rejoint une nouvelle entreprise",
                         "es": "So, recently I joined a new company"
                     }
                 },
@@ -103,7 +103,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Owls have jobs?",
-                "fr": "Owls have jobs?",
+                "fr": "Les chouettes ont un emploi ?",
                 "es": "Owls have jobs?"
             },
             "Steps": [
@@ -111,7 +111,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Of course! How else would we earn capital and accumulate wealth?",
-                        "fr": "Of course! How else would we earn capital and accumulate wealth?",
+                        "fr": "Oui bien sûr ! Comment pourrions-nous nous constituer un capital et accumuler de la richesse ?",
                         "es": "Of course! How else would we earn capital and accumulate wealth?"
                     }
                 },
@@ -133,7 +133,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But recently I joined a new company",
-                        "fr": "But recently I joined a new company",
+                        "fr": "Mais récemment j'ai rejoint une nouvelle entreprise",
                         "es": "But recently I joined a new company"
                     }
                 }
