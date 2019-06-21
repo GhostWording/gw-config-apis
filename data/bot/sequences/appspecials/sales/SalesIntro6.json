@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Have you ever tried selling things?",
-                "fr": "Have you ever tried selling things?",
+                "fr": "As-tu déjà essayé de vendre quelque choses ?",
                 "es": "Have you ever tried selling things?"
             }
         }
@@ -18,7 +18,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes"
             },
             "Steps": [
@@ -26,7 +26,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Aha! How did you find it?",
-                        "fr": "Aha! How did you find it?",
+                        "fr": "Aha! Tu as trouvé cela comment ?",
                         "es": "Aha! How did you find it?"
                     }
                 }
@@ -42,7 +42,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Easy",
-                            "fr": "Easy",
+                            "fr": "Facile",
                             "es": "Easy"
                         },
                         "Steps": [
@@ -50,7 +50,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Wow! Maybe you can help me, then!",
-                                    "fr": "Wow! Maybe you can help me, then!",
+                                    "fr": "Sensationnel ! Tu pourras peut-être m'aider!",
                                     "es": "Wow! Maybe you can help me, then!"
                                 }
                             }
@@ -65,7 +65,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Difficult",
-                            "fr": "Difficult",
+                            "fr": "Difficile",
                             "es": "Difficult"
                         },
                         "Steps": [
@@ -73,7 +73,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right! It's so tough...",
-                                    "fr": "Right! It's so tough...",
+                                    "fr": "N'est-ce pas ! C'est super difficile...",
                                     "es": "Right! It's so tough..."
                                 }
                             }
@@ -91,7 +91,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No, never",
-                "fr": "No, never",
+                "fr": "Non, jamais",
                 "es": "No, never"
             },
             "Steps": [
@@ -99,7 +99,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's really tough...",
-                        "fr": "It's really tough...",
+                        "fr": "C'est vraiment dur...",
                         "es": "It's really tough..."
                     }
                 }
