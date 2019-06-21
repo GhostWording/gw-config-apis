@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you ever feel like you need more ventilation in your shirt?!",
-                "fr": "Do you ever feel like you need more ventilation in your shirt?!",
+                "fr": "Sens-tu le besoin impérieux d'avoir des habits mieux ventilés?!",
                 "es": "Do you ever feel like you need more ventilation in your shirt?!"
             }
         }
@@ -18,7 +18,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What..?",
-                "fr": "What..?",
+                "fr": "Comment..?",
                 "es": "What..?"
             },
             "Steps": [
@@ -26,7 +26,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I am told it is a common problem for people in warm countries...",
-                        "fr": "I am told it is a common problem for people in warm countries...",
+                        "fr": "On m'a dit que c'était un problème courant dans les pays chauds ou tempérés...",
                         "es": "I am told it is a common problem for people in warm countries..."
                     }
                 },
@@ -51,7 +51,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But not to fear... I can sort you out...😉",
-                        "fr": "But not to fear... I can sort you out...😉",
+                        "fr": "Aucune crainte... J'ai une solution...😉",
                         "es": "But not to fear... I can sort you out...😉"
                     }
                 }
@@ -66,7 +66,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "All the time",
-                "fr": "All the time",
+                "fr": "Tout le temps",
                 "es": "All the time"
             },
             "Steps": [
@@ -74,7 +74,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I knew it... but not to worry...",
-                        "fr": "I knew it... but not to worry...",
+                        "fr": "Je le savais ! Pas d'inquiétude...",
                         "es": "I knew it... but not to worry..."
                     }
                 },
@@ -99,7 +99,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I can sort you out 😉",
-                        "fr": "I can sort you out 😉",
+                        "fr": "J'ai une chouette solution 😉",
                         "es": "I can sort you out 😉"
                     }
                 }
