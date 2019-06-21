@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I guess I'll practice on you!",
-                "fr": "I guess I'll practice on you!",
+                "fr": "Le mieux c'est que je m'entraîne un peu avec toi !",
                 "es": "I guess I'll practice on you!"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Shall I sell you a castle, or a kitten?",
-                "fr": "Shall I sell you a castle, or a kitten?",
+                "fr": "J'essaye de te vendre un chateau ou un chaton ?",
                 "es": "Shall I sell you a castle, or a kitten?"
             }
         }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Castle",
-                "fr": "Castle",
+                "fr": "Un chateau",
                 "es": "Castle"
             },
             "CarouselElements": {
@@ -47,7 +47,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'll try make you want to buy it!",
-                        "fr": "I'll try make you want to buy it!",
+                        "fr": "Je vais essayer de te donner envie de l'acheter !",
                         "es": "I'll try make you want to buy it!"
                     }
                 }
@@ -62,7 +62,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Kitten",
-                "fr": "Kitten",
+                "fr": "Un chaton",
                 "es": "Kitten"
             },
             "CarouselElements": {
@@ -81,7 +81,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'll try make you want to buy it!",
-                        "fr": "I'll try make you want to buy it!",
+                        "fr": "Je vais essayer de te donner envie de l'acheter !",
                         "es": "I'll try make you want to buy it!"
                     }
                 }
