@@ -7,7 +7,7 @@
             "Type": "Text",
             "Label": {
                 "en": "OK... here we go!",
-                "fr": "OK... here we go!",
+                "fr": "Alors c'est parti !",
                 "es": "OK... here we go!"
             }
         },
@@ -22,7 +22,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you live in constant fear of a hostile invasion? ⚔",
-                "fr": "Do you live in constant fear of a hostile invasion? ⚔",
+                "fr": "Vis-tu dans la crainte constante d'une invasion ⚔",
                 "es": "Do you live in constant fear of a hostile invasion? ⚔"
             }
         }
@@ -34,7 +34,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes"
             },
             "Steps": [
@@ -42,7 +42,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "How awful! What are you going to do about it?",
-                        "fr": "How awful! What are you going to do about it?",
+                        "fr": "C'est horrible ! Quelles sont les solutions ?",
                         "es": "How awful! What are you going to do about it?"
                     }
                 }
@@ -60,7 +60,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Build a castle",
-                            "fr": "Build a castle",
+                            "fr": "Construire un chateau",
                             "es": "Build a castle"
                         },
                         "CarouselElements": {
@@ -79,7 +79,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Nice idea!",
-                                    "fr": "Nice idea!",
+                                    "fr": "Excellente idée !",
                                     "es": "Nice idea!"
                                 }
                             }
@@ -94,7 +94,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Run away",
-                            "fr": "Run away",
+                            "fr": "Fuir",
                             "es": "Run away"
                         },
                         "CarouselElements": {
@@ -113,7 +113,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But where will you hide? You need a castle!",
-                                    "fr": "But where will you hide? You need a castle!",
+                                    "fr": "Où te cacheras-tu ? Tu as besoin d'un chateau !",
                                     "es": "But where will you hide? You need a castle!"
                                 }
                             }
@@ -128,7 +128,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Attack them",
-                            "fr": "Attack them",
+                            "fr": "Les attaquer",
                             "es": "Attack them"
                         },
                         "CarouselElements": {
@@ -147,7 +147,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "With what army? You need a castle!",
-                                    "fr": "With what army? You need a castle!",
+                                    "fr": "Avec quelle armée ? Tu as besoin d'un chateau !",
                                     "es": "With what army? You need a castle!"
                                 }
                             }
@@ -173,7 +173,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Thank goodness! May I ask what you would do if you did?",
-                        "fr": "Thank goodness! May I ask what you would do if you did?",
+                        "fr": "Dieu merci ! Puis-je demander ce que serait la solution dans le cas contraire ?",
                         "es": "Thank goodness! May I ask what you would do if you did?"
                     }
                 }
@@ -191,7 +191,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Build a castle",
-                            "fr": "Build a castle",
+                            "fr": "Construire un chateau",
                             "es": "Build a castle"
                         },
                         "CarouselElements": {
@@ -210,7 +210,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Nice idea!",
-                                    "fr": "Nice idea!",
+                                    "fr": "Bonne idée !",
                                     "es": "Nice idea!"
                                 }
                             }
@@ -225,7 +225,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Run away",
-                            "fr": "Run away",
+                            "fr": "Fuir",
                             "es": "Run away"
                         },
                         "CarouselElements": {
@@ -244,7 +244,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But where would you hide? You need a castle!",
-                                    "fr": "But where would you hide? You need a castle!",
+                                    "fr": "Où te cacheras-tu ? Tu as besoin d'un chateau !",
                                     "es": "But where would you hide? You need a castle!"
                                 }
                             }
@@ -259,7 +259,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Attack them",
-                            "fr": "Attack them",
+                            "fr": "Les attaquer",
                             "es": "Attack them"
                         },
                         "CarouselElements": {
@@ -278,7 +278,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "With what army? You need a castle!",
-                                    "fr": "With what army? You need a castle!",
+                                    "fr": "Avec quelle armée ? Tu as besoin d'un chateau !",
                                     "es": "With what army? You need a castle!"
                                 }
                             }
