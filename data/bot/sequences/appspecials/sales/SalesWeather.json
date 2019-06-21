@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Now, let's keep chatting!",
-                "fr": "Now, let's keep chatting!",
+                "fr": "Continuons à bavarder !",
                 "es": "Now, let's keep chatting!"
             }
         },
@@ -21,7 +21,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…",
-                "fr": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…",
+                "fr": "Ici dans les forêts de Norvège, les occasions de profiter du soleil sont rares…",
                 "es": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…"
             }
         },
@@ -51,7 +51,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Is it often sunny in your country?",
-                "fr": "Is it often sunny in your country?",
+                "fr": "Ton pays est-il très ensoleillé ?",
                 "es": "Is it often sunny in your country?"
             }
         }
@@ -63,7 +63,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes"
             },
             "Steps": [
@@ -71,7 +71,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Aha... I was going to offer you this to tan your feet at work...",
-                        "fr": "Aha... I was going to offer you this to tan your feet at work...",
+                        "fr": "Ah bigre... J'étais sur le point de te proposer ceci....pour faire bronzer tes pieds au bureau...",
                         "es": "Aha... I was going to offer you this to tan your feet at work..."
                     }
                 },
@@ -96,7 +96,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Regardless... I guess it is warm there too, then...",
-                        "fr": "Regardless... I guess it is warm there too, then...",
+                        "fr": "Quoi qu'il en soit... Je suppose qu'il fait plutôt chaud, et donc...",
                         "es": "Regardless... I guess it is warm there too, then..."
                     }
                 }
@@ -111,7 +111,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not really",
-                "fr": "Not really",
+                "fr": "Pas vraiment",
                 "es": "Not really"
             },
             "Steps": [
@@ -119,7 +119,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I know how it feels",
-                        "fr": "I know how it feels",
+                        "fr": "Je connais cette sensation",
                         "es": "I know how it feels"
                     }
                 },
