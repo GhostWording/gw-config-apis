@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Luckily, we here at Owl Mighty have the perfect product…",
-                "fr": "Luckily, we here at Owl Mighty have the perfect product…",
+                "fr": "Heureuselemnt, la société Owl Mighty propose le produit idéal …",
                 "es": "Luckily, we here at Owl Mighty have the perfect product…"
             }
         },
@@ -31,7 +31,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Tanning shoes!",
-                "fr": "Tanning shoes!",
+                "fr": "Des chaussures bonzantes !",
                 "es": "Tanning shoes!"
             }
         },
@@ -46,7 +46,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Everyone uses them here in the office... it's why my feet are so brown!",
-                "fr": "Everyone uses them here in the office... it's why my feet are so brown!",
+                "fr": "Tout le monde les utilise au bureau... c'est pour cela que j'ai de jolies pattes marrons !",
                 "es": "Everyone uses them here in the office... it's why my feet are so brown!"
             }
         }
@@ -58,7 +58,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Owls tan?",
-                "fr": "Owls tan?",
+                "fr": "Les chouettes bronzent ?",
                 "es": "Owls tan?"
             },
             "Steps": [
@@ -66,7 +66,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Absolutely! As you can see from our gloriously brown feet...",
-                        "fr": "Absolutely! As you can see from our gloriously brown feet...",
+                        "fr": "Asolument ! L'observation de mes merveilleuses pattes brunes le confirmera...",
                         "es": "Absolutely! As you can see from our gloriously brown feet..."
                     }
                 },
@@ -88,7 +88,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So, would you like to buy a pair?",
-                        "fr": "So, would you like to buy a pair?",
+                        "fr": "Alors, tu souhaites en acheter une paire ?",
                         "es": "So, would you like to buy a pair?"
                     }
                 }
@@ -104,7 +104,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Not at all",
-                            "fr": "Not at all",
+                            "fr": "Pas du tout",
                             "es": "Not at all"
                         },
                         "Steps": [
@@ -112,7 +112,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But they really work...☹️",
-                                    "fr": "But they really work...☹️",
+                                    "fr": "Mais cela marche vraiment...☹️",
                                     "es": "But they really work...☹️"
                                 }
                             },
@@ -137,7 +137,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll have to try something else...",
-                                    "fr": "I'll have to try something else...",
+                                    "fr": "Je vais devoir essayer autre chose...",
                                     "es": "I'll have to try something else..."
                                 }
                             },
@@ -145,7 +145,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll never stop until I make my first sale! 😁",
-                                    "fr": "I'll never stop until I make my first sale! 😁",
+                                    "fr": "Je ne renoncerai pas avant d'avoir conclu ma première vente ! 😁",
                                     "es": "I'll never stop until I make my first sale! 😁"
                                 }
                             }
@@ -157,7 +157,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Absolutely!",
-                            "fr": "Absolutely!",
+                            "fr": "Absolument !",
                             "es": "Absolutely!"
                         },
                         "Steps": [
@@ -165,7 +165,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Amazing! My first sale... I am ecstatic! 😁",
-                                    "fr": "Amazing! My first sale... I am ecstatic! 😁",
+                                    "fr": "Incroyable! Ma première vente... Je suis extatique ! 😁",
                                     "es": "Amazing! My first sale... I am ecstatic! 😁"
                                 }
                             },
@@ -200,7 +200,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll start organising everything... I'm kinda unprepared for this!",
-                                    "fr": "I'll start organising everything... I'm kinda unprepared for this!",
+                                    "fr": "Je vais me pencher sur la logistique... Je n'étais pas vraiment préparé à cela !",
                                     "es": "I'll start organising everything... I'm kinda unprepared for this!"
                                 }
                             }
@@ -215,7 +215,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What rubbish..",
-                "fr": "What rubbish..",
+                "fr": "Cela ne vaut rien..",
                 "es": "What rubbish.."
             },
             "Steps": [
@@ -223,7 +223,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But they really work...☹️",
-                        "fr": "But they really work...☹️",
+                        "fr": "Mais cela marche vraiment...☹️",
                         "es": "But they really work...☹️"
                     }
                 },
@@ -248,7 +248,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'll have to try something else...",
-                        "fr": "I'll have to try something else...",
+                        "fr": "Je vais devoir essayer autre chose...",
                         "es": "I'll have to try something else..."
                     }
                 },
@@ -256,7 +256,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'll never stop until I make my first sale! 😁",
-                        "fr": "I'll never stop until I make my first sale! 😁",
+                        "fr": "Je ne renoncerai pas avant d'avoir conclu ma première vente ! 😁",
                         "es": "I'll never stop until I make my first sale! 😁"
                     }
                 }
@@ -268,7 +268,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "I'll take them!",
-                "fr": "I'll take them!",
+                "fr": "Je les achète !",
                 "es": "I'll take them!"
             },
             "Steps": [
@@ -276,7 +276,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Amazing! My first sale... I am ecstatic! 😁",
-                        "fr": "Amazing! My first sale... I am ecstatic! 😁",
+                        "fr": "Incroyable ! Ma première vente... Je suis extatique ! 😁",
                         "es": "Amazing! My first sale... I am ecstatic! 😁"
                     }
                 },
@@ -311,7 +311,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'll start organising everything... I'm kinda unprepared for this!",
-                        "fr": "I'll start organising everything... I'm kinda unprepared for this!",
+                        "fr": "Je vais me pencher sur l'organisation... Je n'étais pas vraiment préparé à cela!",
                         "es": "I'll start organising everything... I'm kinda unprepared for this!"
                     }
                 }
