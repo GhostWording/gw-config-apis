@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "So, after hearing that story, would you want to buy him? 😁",
-                "fr": "So, after hearing that story, would you want to buy him? 😁",
+                "fr": "Souhaites-tu l'acheter maintenant que tu connais son histoire ? 😁",
                 "es": "So, after hearing that story, would you want to buy him? 😁"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I'll even pull a cute face to help you decide!",
-                "fr": "I'll even pull a cute face to help you decide!",
+                "fr": "Je vais prendre mon air le plus inspiré pour t'aider à décider !",
                 "es": "I'll even pull a cute face to help you decide!"
             }
         },
@@ -33,7 +33,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thank you",
-                "fr": "No thank you",
+                "fr": "Non merci",
                 "es": "No thank you"
             },
             "Steps": [
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wow... I guess it's true... I do need to improve my sales skills!",
-                        "fr": "Wow... I guess it's true... I do need to improve my sales skills!",
+                        "fr": "Bigre... Alors c'est vrai... Il faut que j'améliore mes techniques de vente !",
                         "es": "Wow... I guess it's true... I do need to improve my sales skills!"
                     }
                 },
@@ -64,7 +64,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes please!",
-                "fr": "Yes please!",
+                "fr": "Oui s'il te plaît!",
                 "es": "Yes please!"
             },
             "Steps": [
@@ -72,7 +72,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wait... really?! 🎉",
-                        "fr": "Wait... really?! 🎉",
+                        "fr": "Attends... pour de vrai ?! 🎉",
                         "es": "Wait... really?! 🎉"
                     }
                 },
@@ -91,7 +91,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Unfortunately, his mother says he is under house arrest, and not up for adoption right now",
-                        "fr": "Unfortunately, his mother says he is under house arrest, and not up for adoption right now",
+                        "fr": "Hélas, sa maman dit qu'il fait l'objet d'une assignation à domicile et n'est pas disponible pour une adoption à cet instant",
                         "es": "Unfortunately, his mother says he is under house arrest, and not up for adoption right now"
                     }
                 },
