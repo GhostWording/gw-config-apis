@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "By the way... I don't suppose you or anyone in your family currently own a cat?",
-                "fr": "By the way... I don't suppose you or anyone in your family currently own a cat?",
+                "fr": "A propos... Il y a-t-il des amateurs de chat dans ta famille ?",
                 "es": "By the way... I don't suppose you or anyone in your family currently own a cat?"
             }
         }
@@ -18,7 +18,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes"
             },
             "Steps": [
@@ -26,7 +26,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "And I assume you often feel your cat is too boring?",
-                        "fr": "And I assume you often feel your cat is too boring?",
+                        "fr": "Et je suppose que vous les trouvez un peu ennuyeux?",
                         "es": "And I assume you often feel your cat is too boring?"
                     }
                 },
@@ -41,7 +41,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "You wish he/she was a unicorn, right?",
-                        "fr": "You wish he/she was a unicorn, right?",
+                        "fr": "Vous préfererriez une licorne, n'est-ce pas ?",
                         "es": "You wish he/she was a unicorn, right?"
                     }
                 },
@@ -67,7 +67,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Never...",
-                            "fr": "Never...",
+                            "fr": "Certainement pas...",
                             "es": "Never..."
                         },
                         "Steps": [
@@ -75,7 +75,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Oh... how strange... but you must despise touching your cat, right?",
-                                    "fr": "Oh... how strange... but you must despise touching your cat, right?",
+                                    "fr": "Ah bon... c'est étrange... mais toucher les chats doit être horrible, n'est-ce pas ?",
                                     "es": "Oh... how strange... but you must despise touching your cat, right?"
                                 }
                             },
@@ -90,7 +90,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "This should fix your issues...",
-                                    "fr": "This should fix your issues...",
+                                    "fr": "J'ai la solution...",
                                     "es": "This should fix your issues..."
                                 }
                             },
@@ -116,7 +116,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No way!",
-                                        "fr": "No way!",
+                                        "fr": "Certainement pas!",
                                         "es": "No way!"
                                     },
                                     "Steps": [
@@ -124,7 +124,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Oh... I seem to have read this situation wrong...",
-                                                "fr": "Oh... I seem to have read this situation wrong...",
+                                                "fr": "Ah... J'ai du mal apprécier la situation...",
                                                 "es": "Oh... I seem to have read this situation wrong..."
                                             }
                                         },
@@ -139,7 +139,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "We owls loathe kittens...",
-                                                "fr": "We owls loathe kittens...",
+                                                "fr": "Nous autres chouettes sommes terrifiées par les chats...",
                                                 "es": "We owls loathe kittens..."
                                             }
                                         },
@@ -164,7 +164,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Time to change my strategy!",
-                                                "fr": "Time to change my strategy!",
+                                                "fr": "Il est temps de revoir ma stratégie!",
                                                 "es": "Time to change my strategy!"
                                             }
                                         }
@@ -176,7 +176,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "It's perfect",
-                                        "fr": "It's perfect",
+                                        "fr": "C'est parfait",
                                         "es": "It's perfect"
                                     },
                                     "Steps": [
@@ -184,7 +184,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Fantastic! Here is a link to buy it...",
-                                                "fr": "Fantastic! Here is a link to buy it...",
+                                                "fr": "Fantastique! Voici le lien pour l'acheter...",
                                                 "es": "Fantastic! Here is a link to buy it..."
                                             }
                                         },
@@ -192,12 +192,12 @@
                                             "Type": "ShowPersistentLink",
                                             "Title": {
                                                 "en": "The pet-petter",
-                                                "fr": "The pet-petter",
+                                                "fr": "Le caresse-chat",
                                                 "es": "The pet-petter"
                                             },
                                             "LinkLabel": {
                                                 "en": "Buy",
-                                                "fr": "Buy",
+                                                "fr": "Acheter",
                                                 "es": "Buy"
                                             },
                                             "url": "https://www.amazon.com/Prank-Pack-Pet-Petter-Prank/dp/B009LNZIZY",
@@ -217,7 +217,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In the meantime...",
-                                                "fr": "In the meantime...",
+                                                "fr": "En attendant...",
                                                 "es": "In the meantime..."
                                             }
                                         }
@@ -232,7 +232,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Often",
-                            "fr": "Often",
+                            "fr": "Souvent",
                             "es": "Often"
                         },
                         "Steps": [
@@ -240,7 +240,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I suspected so...",
-                                    "fr": "I suspected so...",
+                                    "fr": "C'est ce que je me disais...",
                                     "es": "I suspected so..."
                                 }
                             },
@@ -248,7 +248,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Fear not... our custom made unicorn horns will instantly transform your cat",
-                                    "fr": "Fear not... our custom made unicorn horns will instantly transform your cat",
+                                    "fr": "Pas de problème... notre chat-corne de licorne transforme instantanément n'importe quel chat",
                                     "es": "Fear not... our custom made unicorn horns will instantly transform your cat"
                                 }
                             },
@@ -263,7 +263,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "And nobody will be able to tell the difference",
-                                    "fr": "And nobody will be able to tell the difference",
+                                    "fr": "Et personne ne verra la différence !",
                                     "es": "And nobody will be able to tell the difference"
                                 }
                             },
@@ -288,7 +288,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Here is a link to buy it...",
-                                    "fr": "Here is a link to buy it...",
+                                    "fr": "voici un lien pour l'acheter...",
                                     "es": "Here is a link to buy it..."
                                 }
                             },
@@ -296,12 +296,12 @@
                                 "Type": "ShowPersistentLink",
                                 "Title": {
                                     "en": "A genuine unicorn",
-                                    "fr": "A genuine unicorn",
+                                    "fr": "Une véritable licorne",
                                     "es": "A genuine unicorn"
                                 },
                                 "LinkLabel": {
                                     "en": "Not a cat",
-                                    "fr": "Not a cat",
+                                    "fr": "Pas un chat",
                                     "es": "Not a cat"
                                 },
                                 "url": "https://www.ebay.co.uk/itm/352667934682",
@@ -336,7 +336,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "And do you ever plan on owning one?",
-                        "fr": "And do you ever plan on owning one?",
+                        "fr": "Et tu as le projet d'en avoir un?",
                         "es": "And do you ever plan on owning one?"
                     }
                 },
@@ -362,7 +362,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No"
                         },
                         "Steps": [
@@ -370,7 +370,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Totally understandable... cats are very unreliable",
-                                    "fr": "Totally understandable... cats are very unreliable",
+                                    "fr": "Je comprends tout à fait... les chats sont très peu fiables",
                                     "es": "Totally understandable... cats are very unreliable"
                                 }
                             },
@@ -395,7 +395,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But I assume you do want a unicorn?",
-                                    "fr": "But I assume you do want a unicorn?",
+                                    "fr": "Mais je pense qu'avoir une licorne serait formidable ?",
                                     "es": "But I assume you do want a unicorn?"
                                 }
                             },
@@ -428,7 +428,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "That's a cat",
-                                        "fr": "That's a cat",
+                                        "fr": "C'est un chat",
                                         "es": "That's a cat"
                                     },
                                     "Steps": [
@@ -436,7 +436,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "No, no. I assure you, it's a unicorn!",
-                                                "fr": "No, no. I assure you, it's a unicorn!",
+                                                "fr": "Non, non. Je t'assure, c'est une licorne!",
                                                 "es": "No, no. I assure you, it's a unicorn!"
                                             }
                                         },
@@ -461,7 +461,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Please notice the horn on its head",
-                                                "fr": "Please notice the horn on its head",
+                                                "fr": "Regarde la corne sur la tête",
                                                 "es": "Please notice the horn on its head"
                                             }
                                         },
@@ -476,7 +476,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "But you seem particularly shrewd, so let's move swiftly on",
-                                                "fr": "But you seem particularly shrewd, so let's move swiftly on",
+                                                "fr": "Mais ton attention aux détails semble redoutable, passons promptement à autre chose",
                                                 "es": "But you seem particularly shrewd, so let's move swiftly on"
                                             }
                                         }
@@ -488,7 +488,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Yes, I'll take one",
-                                        "fr": "Yes, I'll take one",
+                                        "fr": "J'en veux un",
                                         "es": "Yes, I'll take one"
                                     },
                                     "Steps": [
@@ -496,7 +496,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Fantastic! Here is a link to buy it...",
-                                                "fr": "Fantastic! Here is a link to buy it...",
+                                                "fr": "Fantastique! Voici un lieu pour l'acheter...",
                                                 "es": "Fantastic! Here is a link to buy it..."
                                             }
                                         },
@@ -504,12 +504,12 @@
                                             "Type": "ShowPersistentLink",
                                             "Title": {
                                                 "en": "A genuine unicorn",
-                                                "fr": "A genuine unicorn",
+                                                "fr": "Une véritable licorne",
                                                 "es": "A genuine unicorn"
                                             },
                                             "LinkLabel": {
                                                 "en": "Not a cat",
-                                                "fr": "Not a cat",
+                                                "fr": "Pas un chat",
                                                 "es": "Not a cat"
                                             },
                                             "url": "https://www.ebay.co.uk/itm/352667934682",
@@ -529,7 +529,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "However, there is a chance that magical creatures are banned in your country",
-                                                "fr": "However, there is a chance that magical creatures are banned in your country",
+                                                "fr": "Cependant, est-il possible que cette créature magique soit bannie de ton pays",
                                                 "es": "However, there is a chance that magical creatures are banned in your country"
                                             }
                                         },
@@ -554,7 +554,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In that case, we will just send you a cat. Apologies.",
-                                                "fr": "In that case, we will just send you a cat. Apologies.",
+                                                "fr": "Dans ce cas, nous nous contenterons de t'envoyer un chat. Mes excuses.",
                                                 "es": "In that case, we will just send you a cat. Apologies."
                                             }
                                         },
@@ -576,7 +576,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yes",
-                            "fr": "Yes",
+                            "fr": "Oui",
                             "es": "Yes"
                         },
                         "Steps": [
@@ -584,7 +584,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "How about making it unique...",
-                                    "fr": "How about making it unique...",
+                                    "fr": "Que dirais-tu de le rendre unique...",
                                     "es": "How about making it unique..."
                                 }
                             },
@@ -599,7 +599,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Your very own unicat!",
-                                    "fr": "Your very own unicat!",
+                                    "fr": "D'en faire un merveilleux unichat!",
                                     "es": "Your very own unicat!"
                                 }
                             },
@@ -625,7 +625,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No thank you",
-                                        "fr": "No thank you",
+                                        "fr": "Non merci",
                                         "es": "No thank you"
                                     },
                                     "Steps": [
@@ -633,7 +633,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "What a shame... ",
-                                                "fr": "What a shame... ",
+                                                "fr": "Quel dommage... ",
                                                 "es": "What a shame... "
                                             }
                                         },
@@ -658,7 +658,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "But I will never give up. I will make a sale one day...",
-                                                "fr": "But I will never give up. I will make a sale one day...",
+                                                "fr": "Mais je n'abandonne pas. Un jour j'arriverai à vendre quelque chose...",
                                                 "es": "But I will never give up. I will make a sale one day..."
                                             }
                                         }
@@ -678,7 +678,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Fantastic! Here is a link to buy it...",
-                                                "fr": "Fantastic! Here is a link to buy it...",
+                                                "fr": "Fantastique! Voici un lien pour l'acheter...",
                                                 "es": "Fantastic! Here is a link to buy it..."
                                             }
                                         },
@@ -686,12 +686,12 @@
                                             "Type": "ShowPersistentLink",
                                             "Title": {
                                                 "en": "A genuine unicorn",
-                                                "fr": "A genuine unicorn",
+                                                "fr": "Une véritable licorne",
                                                 "es": "A genuine unicorn"
                                             },
                                             "LinkLabel": {
                                                 "en": "Not a cat",
-                                                "fr": "Not a cat",
+                                                "fr": "Pas un chat",
                                                 "es": "Not a cat"
                                             },
                                             "url": "https://www.ebay.co.uk/itm/352667934682",
@@ -711,7 +711,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "However, there is a chance that magical creatures are banned in your country",
-                                                "fr": "However, there is a chance that magical creatures are banned in your country",
+                                                "fr": "Cependant, est-il possible que cette créature magique soit interdite par les normes de sécurité de ton pays",
                                                 "es": "However, there is a chance that magical creatures are banned in your country"
                                             }
                                         },
@@ -736,7 +736,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In that case, we will just send you a cat. Apologies.",
-                                                "fr": "In that case, we will just send you a cat. Apologies.",
+                                                "fr": "Dans ce cas nous enverrons simplement un chat. Toute mes excuses !",
                                                 "es": "In that case, we will just send you a cat. Apologies."
                                             }
                                         }
