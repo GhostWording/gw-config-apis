@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "My job is to sell things, but I haven't sold a single item yet!",
-                "fr": "My job is to sell things, but I haven't sold a single item yet!",
+                "fr": "Mon travail c'est de promouvoir des choses mais pour l'instant je n'ai encore rien vendu !",
                 "es": "My job is to sell things, but I haven't sold a single item yet!"
             }
         },
@@ -42,7 +42,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What company?",
-                "fr": "What company?",
+                "fr": "Quelle entreprise ?",
                 "es": "What company?"
             },
             "Steps": [
@@ -50,7 +50,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Our company is located in the Norwegian forests",
-                        "fr": "Our company is located in the Norwegian forests",
+                        "fr": "Notre société est situé dans la forêt norvégienne",
                         "es": "Our company is located in the Norwegian forests"
                     }
                 },
@@ -72,7 +72,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "and is entirely run by owls",
-                        "fr": "and is entirely run by owls",
+                        "fr": "et est entièrement géré par des chouettes",
                         "es": "and is entirely run by owls"
                     }
                 },
@@ -104,7 +104,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "That's not good",
-                "fr": "That's not good",
+                "fr": "Ce n'est pas très bon",
                 "es": "That's not good"
             },
             "Steps": [
@@ -112,7 +112,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "No, it's really bad!",
-                        "fr": "No, it's really bad!",
+                        "fr": "Non, c'est vraiment très mauvais !",
                         "es": "No, it's really bad!"
                     }
                 },
@@ -130,7 +130,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Our company is located in the Norwegian forests",
-                        "fr": "Our company is located in the Norwegian forests",
+                        "fr": "Notre société est situé dans la forêt norvégienne",
                         "es": "Our company is located in the Norwegian forests"
                     }
                 },
@@ -152,7 +152,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "and is entirely run by owls 🦉",
-                        "fr": "and is entirely run by owls 🦉",
+                        "fr": "et est entièrement gérée par des chouettes 🦉",
                         "es": "and is entirely run by owls 🦉"
                     }
                 },
