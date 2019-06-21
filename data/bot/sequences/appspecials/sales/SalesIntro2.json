@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Are you usually lucky? 🎲",
-                "fr": "Are you usually lucky? 🎲",
+                "fr": "As-tu généralement de la chance ? 🎲",
                 "es": "Are you usually lucky? 🎲"
             }
         }
@@ -18,7 +18,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes"
             },
             "Steps": [
@@ -26,7 +26,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Awesome!",
-                        "fr": "Awesome!",
+                        "fr": "Formidable !",
                         "es": "Awesome!"
                     }
                 },
@@ -44,7 +44,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Recently my luck has run dry though",
-                        "fr": "Recently my luck has run dry though",
+                        "fr": "Récemment ma chance semble cependant m'avoir abandonné",
                         "es": "Recently my luck has run dry though"
                     }
                 },
@@ -70,7 +70,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No"
             },
             "Steps": [
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I feel your pain...",
-                        "fr": "I feel your pain...",
+                        "fr": "Je partage ta douleur...",
                         "es": "I feel your pain..."
                     }
                 },
@@ -103,7 +103,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Recently my luck has run dry",
-                        "fr": "Recently my luck has run dry",
+                        "fr": "Récemment ma chance m'a abandonné",
                         "es": "Recently my luck has run dry"
                     }
                 }
