@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "So, how did I do? 😁",
-                "fr": "So, how did I do? 😁",
+                "fr": "Alors, comment est-ce que je me débrouille ? 😁",
                 "es": "So, how did I do? 😁"
             }
         },
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Would you want to buy this castle?",
-                "fr": "Would you want to buy this castle?",
+                "fr": "Veux-tu acheter ce chateau ?",
                 "es": "Would you want to buy this castle?"
             }
         }
@@ -37,7 +37,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thank you",
-                "fr": "No thank you",
+                "fr": "Non merci",
                 "es": "No thank you"
             },
             "Steps": [
@@ -45,7 +45,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wow... I guess it's true... I do need to improve my sales skills!",
-                        "fr": "Wow... I guess it's true... I do need to improve my sales skills!",
+                        "fr": "Bigre... C'est donc vrai... Il faut que j'améliore mes techniques de vente !",
                         "es": "Wow... I guess it's true... I do need to improve my sales skills!"
                     }
                 },
@@ -68,7 +68,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes please!",
-                "fr": "Yes please!",
+                "fr": "Oui s'il te plait!",
                 "es": "Yes please!"
             },
             "Steps": [
@@ -76,7 +76,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wait... really?! 🎉",
-                        "fr": "Wait... really?! 🎉",
+                        "fr": "Quoi ? Comment ?... pour de vrai ?! 🎉",
                         "es": "Wait... really?! 🎉"
                     }
                 },
@@ -95,7 +95,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Unfortunately, I've just received word from the current owners",
-                        "fr": "Unfortunately, I've just received word from the current owners",
+                        "fr": "Quelle malchance, je viens de recevoir un mot des propriétaires",
                         "es": "Unfortunately, I've just received word from the current owners"
                     }
                 },
@@ -103,7 +103,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They are so terrified of invasion, they have refused to leave the castle",
-                        "fr": "They are so terrified of invasion, they have refused to leave the castle",
+                        "fr": "Ils sont terrifiés par la perspective d'une invasion et refusent de quitter le chateau",
                         "es": "They are so terrified of invasion, they have refused to leave the castle"
                     }
                 }
