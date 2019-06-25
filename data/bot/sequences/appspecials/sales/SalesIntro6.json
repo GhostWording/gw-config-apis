@@ -7,7 +7,7 @@
             "Label": {
                 "en": "Have you ever tried selling things?",
                 "fr": "As-tu déjà essayé de vendre quelque choses ?",
-                "es": "Have you ever tried selling things?"
+                "es": "¿Alguna vez has intentado vender algo?"
             }
         }
     ],
@@ -19,7 +19,7 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": "Yes"
+                "es": "Si"
             },
             "Steps": [
                 {
@@ -27,7 +27,7 @@
                     "Label": {
                         "en": "Aha! How did you find it?",
                         "fr": "Aha! Tu as trouvé cela comment ?",
-                        "es": "Aha! How did you find it?"
+                        "es": "¡Ajá! ¿Cómo lo encontraste?"
                     }
                 }
             ],
@@ -43,7 +43,7 @@
                         "CommandLabel": {
                             "en": "Easy",
                             "fr": "Facile",
-                            "es": "Easy"
+                            "es": "Fácil"
                         },
                         "Steps": [
                             {
@@ -51,7 +51,7 @@
                                 "Label": {
                                     "en": "Wow! Maybe you can help me, then!",
                                     "fr": "Sensationnel ! Tu pourras peut-être m'aider!",
-                                    "es": "Wow! Maybe you can help me, then!"
+                                    "es": "¡Wao! ¡A lo mejor me puedes ayudar!"
                                 }
                             }
                         ],
@@ -66,7 +66,7 @@
                         "CommandLabel": {
                             "en": "Difficult",
                             "fr": "Difficile",
-                            "es": "Difficult"
+                            "es": "Difícil"
                         },
                         "Steps": [
                             {
@@ -74,7 +74,7 @@
                                 "Label": {
                                     "en": "Right! It's so tough...",
                                     "fr": "N'est-ce pas ! C'est super difficile...",
-                                    "es": "Right! It's so tough..."
+                                    "es": "¡De acuerdo! Es muy difícil..."
                                 }
                             }
                         ],
@@ -92,7 +92,7 @@
             "CommandLabel": {
                 "en": "No, never",
                 "fr": "Non, jamais",
-                "es": "No, never"
+                "es": "No, nunca"
             },
             "Steps": [
                 {
@@ -100,7 +100,7 @@
                     "Label": {
                         "en": "It's really tough...",
                         "fr": "C'est vraiment dur...",
-                        "es": "It's really tough..."
+                        "es": "Es muy difícil"
                     }
                 }
             ],
