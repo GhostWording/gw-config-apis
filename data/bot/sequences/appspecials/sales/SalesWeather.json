@@ -7,7 +7,7 @@
             "Label": {
                 "en": "Now, let's keep chatting!",
                 "fr": "Continuons à bavarder !",
-                "es": "Now, let's keep chatting!"
+                "es": "¡Sigamos conversando!"
             }
         },
         {
@@ -22,7 +22,7 @@
             "Label": {
                 "en": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…",
                 "fr": "Ici dans les forêts de Norvège, les occasions de profiter du soleil sont rares…",
-                "es": "Here in the woods in Norway, we don’t often get much opportunity to enjoy the sun…"
+                "es": "Aquí, en los bosques de Noruega, no tenemos muchas ocasiones para disfrutar del sol..."
             }
         },
         {
@@ -44,7 +44,7 @@
             "Label": {
                 "en": "It's still lovely, though...",
                 "fr": "It's still lovely, though...",
-                "es": "It's still lovely, though..."
+                "es": "Aun así, es hermoso..."
             }
         },
         {
@@ -52,7 +52,7 @@
             "Label": {
                 "en": "Is it often sunny in your country?",
                 "fr": "Ton pays est-il très ensoleillé ?",
-                "es": "Is it often sunny in your country?"
+                "es": "¿En tu país hace sol con frecuencia?"
             }
         }
     ],
@@ -64,7 +64,7 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": "Yes"
+                "es": "Sí"
             },
             "Steps": [
                 {
@@ -72,7 +72,7 @@
                     "Label": {
                         "en": "Aha... I was going to offer you this to tan your feet at work...",
                         "fr": "Ah bigre... J'étais sur le point de te proposer ceci....pour faire bronzer tes pieds au bureau...",
-                        "es": "Aha... I was going to offer you this to tan your feet at work..."
+                        "es": "Ajá... te iba a ofrecer esto para broncearte los pies en la oficina..."
                     }
                 },
                 {
@@ -97,7 +97,7 @@
                     "Label": {
                         "en": "Regardless... I guess it is warm there too, then...",
                         "fr": "Quoi qu'il en soit... Je suppose qu'il fait plutôt chaud, et donc...",
-                        "es": "Regardless... I guess it is warm there too, then..."
+                        "es": "Pero... pienso que allí tambien hace calor..."
                     }
                 }
             ],
@@ -112,7 +112,7 @@
             "CommandLabel": {
                 "en": "Not really",
                 "fr": "Pas vraiment",
-                "es": "Not really"
+                "es": "No realmente"
             },
             "Steps": [
                 {
@@ -120,7 +120,7 @@
                     "Label": {
                         "en": "I know how it feels",
                         "fr": "Je connais cette sensation",
-                        "es": "I know how it feels"
+                        "es": "Sé cómo se siente"
                     }
                 },
                 {
