@@ -7,7 +7,7 @@
             "Label": {
                 "en": "Recently, I've been taking some salesbot courses...",
                 "fr": "Récemment j'ai pris des cours de type Vente pour les nuls, les chouettes et les chatbots...",
-                "es": "Recently, I've been taking some salesbot courses..."
+                "es": "Recientemente, he tomado clases de ventas..."
             }
         },
         {
@@ -15,7 +15,7 @@
             "Label": {
                 "en": "They've told me to be more confident",
                 "fr": "Il paraît que je dois avoir davantage confiance en moi",
-                "es": "They've told me to be more confident"
+                "es": "Me han dicho que debo mostrarme más seguro"
             }
         }
     ],
@@ -27,7 +27,7 @@
             "CommandLabel": {
                 "en": "Good idea!",
                 "fr": "Bonne idée !",
-                "es": "Good idea!"
+                "es": "¡Buena idea!"
             },
             "Steps": [
                 {
@@ -35,7 +35,7 @@
                     "Label": {
                         "en": "Ahem... now... I thought I had an item for sale... what was it again...?",
                         "fr": "Ahem... alors... Il me semble que j'avais quelque chose à vendre... c'était quoi déjà...?",
-                        "es": "Ahem... now... I thought I had an item for sale... what was it again...?"
+                        "es": "Hmm... ahora... creo que tenía algo para la venta... ¿qué era?"
                     }
                 },
                 {
@@ -59,7 +59,7 @@
                     "Label": {
                         "en": "I forgot...",
                         "fr": "Je ne suis plus très sûr...",
-                        "es": "I forgot..."
+                        "es": "Lo olvidé..."
                     }
                 }
             ],
@@ -75,7 +75,7 @@
                         "CommandLabel": {
                             "en": "Be confident!",
                             "fr": "Aie confiance !",
-                            "es": "Be confident!"
+                            "es": "¡Mostrar seguridad!"
                         },
                         "Steps": [
                             {
@@ -83,7 +83,7 @@
                                 "Label": {
                                     "en": "Ah... you're right... oops...",
                                     "fr": "Ah... d'accord... oups...",
-                                    "es": "Ah... you're right... oops..."
+                                    "es": "Ah... tienes razón... ops..."
                                 }
                             }
                         ],
@@ -98,7 +98,7 @@
                         "CommandLabel": {
                             "en": "Useless...",
                             "fr": "C'est sans espoir...",
-                            "es": "Useless..."
+                            "es": "Es inútil....."
                         },
                         "Steps": [
                             {
@@ -106,7 +106,7 @@
                                 "Label": {
                                     "en": "I know... what's wrong with me...",
                                     "fr": "Je sais... je me demande ce qui ne tourne pas rond chez moi...",
-                                    "es": "I know... what's wrong with me..."
+                                    "es": "Lo sé... qué es lo que me ocurre ... "
                                 }
                             }
                         ],
