@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Ah, I remember!",
-                "fr": "Ah, I remember!",
+                "fr": "Ah, je me souviens !",
                 "es": "Ah, I remember!"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Ever feel like you need an extra hand to hold your wine glass?",
-                "fr": "Ever feel like you need an extra hand to hold your wine glass?",
+                "fr": "As-tu déjà ressenti le besoin d'une main en plus pour tenir ton verre ?",
                 "es": "Ever feel like you need an extra hand to hold your wine glass?"
             }
         }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Literally never",
-                "fr": "Literally never",
+                "fr": "Absolument jamais",
                 "es": "Literally never"
             },
             "Steps": [
@@ -34,7 +34,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Oh... oh no... um... well look at this anyway... please!",
-                        "fr": "Oh... oh no... um... well look at this anyway... please!",
+                        "fr": "Ah... flûte... hem... eh bien jette un coup d'oeil de toute façon... s'il te plaît !",
                         "es": "Oh... oh no... um... well look at this anyway... please!"
                     }
                 }
@@ -49,7 +49,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "All the time",
-                "fr": "All the time",
+                "fr": "Tout le temps",
                 "es": "All the time"
             },
             "Steps": [
@@ -57,7 +57,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well then, I have a great item for you! Look at this...",
-                        "fr": "Well then, I have a great item for you! Look at this...",
+                        "fr": "Alors j'ai un excellent article pour toi ! Jette un coup d'oeil à cela...",
                         "es": "Well then, I have a great item for you! Look at this..."
                     }
                 }
