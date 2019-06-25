@@ -7,7 +7,7 @@
             "Label": {
                 "en": "Are you usually lucky? 🎲",
                 "fr": "As-tu généralement de la chance ? 🎲",
-                "es": "Are you usually lucky? 🎲"
+                "es": "¿Tienes buena suerte? 🎲"
             }
         }
     ],
@@ -19,7 +19,7 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": "Yes"
+                "es": "Si"
             },
             "Steps": [
                 {
@@ -27,7 +27,7 @@
                     "Label": {
                         "en": "Awesome!",
                         "fr": "Formidable !",
-                        "es": "Awesome!"
+                        "es": "¡Genial!"
                     }
                 },
                 {
@@ -45,7 +45,7 @@
                     "Label": {
                         "en": "Recently my luck has run dry though",
                         "fr": "Récemment ma chance semble cependant m'avoir abandonné",
-                        "es": "Recently my luck has run dry though"
+                        "es": "Aunque ultimamente mi suerte parece haberme abandonado"
                     }
                 },
                 {
@@ -79,7 +79,7 @@
                     "Label": {
                         "en": "I feel your pain...",
                         "fr": "Je partage ta douleur...",
-                        "es": "I feel your pain..."
+                        "es": "Siento tu dolor..."
                     }
                 },
                 {
@@ -104,7 +104,7 @@
                     "Label": {
                         "en": "Recently my luck has run dry",
                         "fr": "Récemment ma chance m'a abandonné",
-                        "es": "Recently my luck has run dry"
+                        "es": "Ultimamente mi suerte me ha abandonado"
                     }
                 }
             ],
