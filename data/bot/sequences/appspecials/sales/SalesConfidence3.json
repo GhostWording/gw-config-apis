@@ -16,7 +16,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Surely you want to buy this... right?",
-                "fr": "Surely you want to buy this... right?",
+                "fr": "Tu chouettes asolument l'acheter ... n'est-ce-pas ?",
                 "es": "Surely you want to buy this... right?"
             }
         }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not even a bit",
-                "fr": "Not even a bit",
+                "fr": "Même pas en rêve",
                 "es": "Not even a bit"
             },
             "Steps": [
@@ -36,7 +36,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Oh man... I guess I'm going hungry again!",
-                        "fr": "Oh man... I guess I'm going hungry again!",
+                        "fr": "Ah bigre... J'ai l'impression que je n'ai pas fini d'avoir faim !",
                         "es": "Oh man... I guess I'm going hungry again!"
                     }
                 }
@@ -48,7 +48,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Sure!",
-                "fr": "Sure!",
+                "fr": "Absolument !",
                 "es": "Sure!"
             },
             "Steps": [
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Wow! Great!",
-                        "fr": "Wow! Great!",
+                        "fr": "Wahou ! Super !",
                         "es": "Wow! Great!"
                     }
                 },
@@ -64,7 +64,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Now... where did I put that link... 🤔",
-                        "fr": "Now... where did I put that link... 🤔",
+                        "fr": "Maintenant... où ai-je mis le lien vers l'article... 🤔",
                         "es": "Now... where did I put that link... 🤔"
                     }
                 },
@@ -72,7 +72,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Oh bother... I've lost it again... let's move on!",
-                        "fr": "Oh bother... I've lost it again... let's move on!",
+                        "fr": "Et non... je l'ai encore perdu... passons vite à autre chose !",
                         "es": "Oh bother... I've lost it again... let's move on!"
                     }
                 }
