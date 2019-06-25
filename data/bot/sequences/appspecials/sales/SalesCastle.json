@@ -8,7 +8,7 @@
             "Label": {
                 "en": "OK... here we go!",
                 "fr": "Alors c'est parti !",
-                "es": "OK... here we go!"
+                "es": "OK ... ¡hagamoslo!"
             }
         },
         {
@@ -23,7 +23,7 @@
             "Label": {
                 "en": "Do you live in constant fear of a hostile invasion? ⚔",
                 "fr": "Vis-tu dans la crainte constante d'une invasion ⚔",
-                "es": "Do you live in constant fear of a hostile invasion? ⚔"
+                "es": "¿Vives con el miedo constante de una invasión? ⚔"
             }
         }
     ],
@@ -35,7 +35,7 @@
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
-                "es": "Yes"
+                "es": "Si"
             },
             "Steps": [
                 {
@@ -43,7 +43,7 @@
                     "Label": {
                         "en": "How awful! What are you going to do about it?",
                         "fr": "C'est horrible ! Quelles sont les solutions ?",
-                        "es": "How awful! What are you going to do about it?"
+                        "es": "¡Qué horror! ¿Y qué vas a hacer al respecto?"
                     }
                 }
             ],
@@ -61,7 +61,7 @@
                         "CommandLabel": {
                             "en": "Build a castle",
                             "fr": "Construire un chateau",
-                            "es": "Build a castle"
+                            "es": "Construir un castillo"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -80,7 +80,7 @@
                                 "Label": {
                                     "en": "Nice idea!",
                                     "fr": "Excellente idée !",
-                                    "es": "Nice idea!"
+                                    "es": "¡Buena idea!"
                                 }
                             }
                         ],
@@ -95,7 +95,7 @@
                         "CommandLabel": {
                             "en": "Run away",
                             "fr": "Fuir",
-                            "es": "Run away"
+                            "es": "Correr"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -114,7 +114,7 @@
                                 "Label": {
                                     "en": "But where will you hide? You need a castle!",
                                     "fr": "Où te cacheras-tu ? Tu as besoin d'un chateau !",
-                                    "es": "But where will you hide? You need a castle!"
+                                    "es": "¿Pero en dónde te vas a esconder? ¡Necesitas un castillo!"
                                 }
                             }
                         ],
@@ -129,7 +129,7 @@
                         "CommandLabel": {
                             "en": "Attack them",
                             "fr": "Les attaquer",
-                            "es": "Attack them"
+                            "es": "Atacarlos"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -148,7 +148,7 @@
                                 "Label": {
                                     "en": "With what army? You need a castle!",
                                     "fr": "Avec quelle armée ? Tu as besoin d'un chateau !",
-                                    "es": "With what army? You need a castle!"
+                                    "es": "¿Con qué ejercito? ¡Necesitas un castillo!"
                                 }
                             }
                         ],
@@ -165,7 +165,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No"
             },
             "Steps": [
@@ -174,7 +174,7 @@
                     "Label": {
                         "en": "Thank goodness! May I ask what you would do if you did?",
                         "fr": "Dieu merci ! Puis-je demander ce que serait la solution dans le cas contraire ?",
-                        "es": "Thank goodness! May I ask what you would do if you did?"
+                        "es": "¡Gracias a Dios! Puedo preguntar ¿qué pasaría si lo hicieras?"
                     }
                 }
             ],
@@ -192,7 +192,7 @@
                         "CommandLabel": {
                             "en": "Build a castle",
                             "fr": "Construire un chateau",
-                            "es": "Build a castle"
+                            "es": "Construir un castillo"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -211,7 +211,7 @@
                                 "Label": {
                                     "en": "Nice idea!",
                                     "fr": "Bonne idée !",
-                                    "es": "Nice idea!"
+                                    "es": "¡Buena idea!"
                                 }
                             }
                         ],
@@ -226,7 +226,7 @@
                         "CommandLabel": {
                             "en": "Run away",
                             "fr": "Fuir",
-                            "es": "Run away"
+                            "es": "Correr"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -245,7 +245,7 @@
                                 "Label": {
                                     "en": "But where would you hide? You need a castle!",
                                     "fr": "Où te cacheras-tu ? Tu as besoin d'un chateau !",
-                                    "es": "But where would you hide? You need a castle!"
+                                    "es": "¿Pero en dónde te vas a esconder? ¡Necesitas un castillo!"
                                 }
                             }
                         ],
@@ -260,7 +260,7 @@
                         "CommandLabel": {
                             "en": "Attack them",
                             "fr": "Les attaquer",
-                            "es": "Attack them"
+                            "es": "Atacarlos"
                         },
                         "CarouselElements": {
                             "Title": {
@@ -279,7 +279,7 @@
                                 "Label": {
                                     "en": "With what army? You need a castle!",
                                     "fr": "Avec quelle armée ? Tu as besoin d'un chateau !",
-                                    "es": "With what army? You need a castle!"
+                                    "es": "¿Con qué ejercito? ¡Necesitas un castillo!"
                                 }
                             }
                         ],
