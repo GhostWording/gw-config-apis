@@ -1,0 +1,117 @@
+{
+    "Type": "Node",
+    "Id": "SalesWinds",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have the winds been favourable this week?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesWindsNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "If the wind will not serve",
+                    "Parameters": {
+                        "PrototypeId": "B2A875",
+                        "DefaultImage": {
+                            "Width": 800,
+                            "Height": 521,
+                            "Source": "Internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/stockdivers/small/s_i01_95000267.jpg"
+                        }
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "We can struggle together...",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 334,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owltiny.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesWindsYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You are so lucky!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Parameters": {
+                        "PrototypeId": "AEBC22",
+                        "DefaultImage": {
+                            "Width": 800,
+                            "Height": 534,
+                            "Source": "Internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/shutterpairs/small/shutterstock_222713821.jpg"
+                        }
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After I make some sales, my fortunes will change too, I am sure!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 334,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owltiny.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
