@@ -2,6 +2,10 @@
   {
     "GroupName": "MinuteArt",
     "SequenceFiles": [
+      { "order" : 17, "file":["/data/bot/sequences/appspecials/sales/SalesWinds.json"]},
+      { "order" : 18, "file":["/data/bot/sequences/appspecials/sales/SalesOutside.json"]},
+      { "order" : 19, "file":["/data/bot/sequences/appspecials/sales/SalesDaySoFar.json"]},
+      { "order" : 20, "file":["/data/bot/sequences/appspecials/sales/SalesCooking.json"]},
       { "order" : 210, "file":["/data/bot/sequences/experiments/Billy2/GifTestExperiment.json"]},
       { "order" : 220, "file":["/data/bot/sequences/experiments/Will/ISeeWeShare.json"]},
       { "order" : 220, "file":["/data/bot/sequences/experiments/Will/MinuteArtDescribeDay.json"]},
