@@ -1,0 +1,161 @@
+{
+    "Type": "Node",
+    "Id": "SalesCooking",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you enjoy cooking?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesCookingNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not at all",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're preaching to the choir",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Bad At Cooking",
+                    "Parameters": {
+                        "PrototypeId": "1527C8",
+                        "DefaultImage": {
+                            "Width": 212,
+                            "Height": 238,
+                            "Source": "Web",
+                            "Path": "https://res.cloudinary.com/dbfdzpofr/image/upload/v1549031778/Webp.net-compress-image.jpg"
+                        }
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Despite my lack of cooking skill... this item has changed my breakfast forever...",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "ShowPersistentLink",
+                    "Title": {
+                        "en": "The Domo-Toaster",
+                        "fr": "...",
+                        "es": "..."
+                    },
+                    "LinkLabel": {
+                        "en": "Check it out!",
+                        "fr": "Check it out!",
+                        "es": "Check it out!"
+                    },
+                    "url": "https://www.amazon.co.uk/TSTE-DMO-DDB-Domo-Two-Slice-Cool-Touch-Toaster/dp/B00829HUTK",
+                    "Image": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1562155579/domo_toaster.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Make cooking fun again!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesCookingYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I love it!",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Finally, a human after my own heart!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCardForPrototype",
+                    "Comment": "Love Cooking",
+                    "Parameters": {
+                        "PrototypeId": "7A2B80",
+                        "DefaultImage": {
+                            "Width": 553,
+                            "Height": 833,
+                            "Source": "Internal",
+                            "Path": "http://gw-static.azurewebsites.net/cvd/loveinterest/istockpairs/small/iStock_000003176839_Medium.jpg"
+                        }
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A special suggestion for you, my chef-friend!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "ShowPersistentLink",
+                    "Title": {
+                        "en": "The Domo-Toaster",
+                        "fr": "...",
+                        "es": "..."
+                    },
+                    "LinkLabel": {
+                        "en": "Check it out!",
+                        "fr": "Check it out!",
+                        "es": "Check it out!"
+                    },
+                    "url": "https://www.amazon.co.uk/TSTE-DMO-DDB-Domo-Two-Slice-Cool-Touch-Toaster/dp/B00829HUTK",
+                    "Image": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1562155579/domo_toaster.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Make cooking fun again!",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                }
+            ]
+        }
+    ]
+}
