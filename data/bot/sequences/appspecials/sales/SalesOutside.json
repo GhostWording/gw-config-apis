@@ -1,0 +1,153 @@
+{
+    "Type": "Node",
+    "Id": "SalesOutside",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you do when nothing is happening outside your window?",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesOutsideWall",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Stare at the wall",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "👀",
+                    "fr": "👀",
+                    "es": "👀",
+                    "zh": "👀"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "emMGkiPfnNeg8Azy5u"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "For us owls, there is always something going on outside",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It is a perk of living in such beautiful woods",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 500,
+                        "Height": 334,
+                        "Source": "Internal",
+                        "Path": "/themes/nature/small/10256897_639810416130232_6411597551677797304_n.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesOutsideArt",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Look at art",
+                "fr": "...",
+                "es": "...",
+                "zh": "..."
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🖌",
+                    "fr": "🖌",
+                    "es": "🖌",
+                    "zh": "🖌"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "emMGkiPfnNeg8Azy5u"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Us owls understand art surprisingly well",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I even have a distant cousin who claims to know everything about any art, ever",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dk7wh86v4/image/upload/v1543851630/owl_painting.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He says he painted that himself. But it could be a lie. He is a bit of a liar",
+                        "fr": "...",
+                        "es": "...",
+                        "zh": "..."
+                    }
+                }
+            ]
+        }
+    ]
+}
