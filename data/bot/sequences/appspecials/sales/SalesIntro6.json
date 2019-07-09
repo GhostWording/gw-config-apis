@@ -37,7 +37,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "SalesIntro6YesEasy",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -57,7 +57,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "SalesIntro6YesDifficult",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -80,7 +80,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "SalesIntro6No",
             "ElementValue": "1",
             "CommandLabel": {
