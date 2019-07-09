@@ -54,10 +54,7 @@
                                     "es": "¡Wao! ¡A lo mejor me puedes ayudar!"
                                 }
                             }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "SalesIntro7"
-                        }
+                        ]
                     },
                     {
                         "Type": "Node",
@@ -77,10 +74,7 @@
                                     "es": "¡De acuerdo! Es muy difícil..."
                                 }
                             }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "SalesIntro7"
-                        }
+                        ]
                     }
                 ]
             }
@@ -103,10 +97,7 @@
                         "es": "Es muy difícil"
                     }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "SalesIntro7"
-            }
+            ]
         }
     ]
 }
