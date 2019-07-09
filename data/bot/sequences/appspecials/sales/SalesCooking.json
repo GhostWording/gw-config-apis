@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you enjoy cooking?",
-                "fr": "...",
+                "fr": "Aimes-tu cuisiner ?",
                 "es": "...",
                 "zh": "..."
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not at all",
-                "fr": "...",
+                "fr": "Pas du tout",
                 "es": "...",
                 "zh": "..."
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "You're preaching to the choir",
-                        "fr": "...",
+                        "fr": "Tu enfonces une porte ouverte",
                         "es": "...",
                         "zh": "..."
                     }
@@ -51,7 +51,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Despite my lack of cooking skill... this item has changed my breakfast forever...",
-                        "fr": "...",
+                        "fr": "Je n'ai aucun talent culinaire, mais cet article a changé la physionomie de mon petit-déjeuner à tout jamais",
                         "es": "...",
                         "zh": "..."
                     }
@@ -60,12 +60,12 @@
                     "Type": "ShowPersistentLink",
                     "Title": {
                         "en": "The Domo-Toaster",
-                        "fr": "...",
+                        "fr": "Le Domo-Toaster",
                         "es": "..."
                     },
                     "LinkLabel": {
                         "en": "Check it out!",
-                        "fr": "Check it out!",
+                        "fr": "Jette un oeil !",
                         "es": "Check it out!"
                     },
                     "url": "https://www.amazon.co.uk/TSTE-DMO-DDB-Domo-Two-Slice-Cool-Touch-Toaster/dp/B00829HUTK",
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Make cooking fun again!",
-                        "fr": "...",
+                        "fr": "Adieu, petit-déjeûner ennuyeux !",
                         "es": "...",
                         "zh": "..."
                     }
@@ -91,7 +91,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "I love it!",
-                "fr": "...",
+                "fr": "J'adore",
                 "es": "...",
                 "zh": "..."
             },
@@ -100,7 +100,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Finally, a human after my own heart!",
-                        "fr": "...",
+                        "fr": "Enfin une âme soeur !",
                         "es": "...",
                         "zh": "..."
                     }
@@ -123,7 +123,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "A special suggestion for you, my chef-friend!",
-                        "fr": "...",
+                        "fr": "Voici donc la suggestion du jour, mon ami cuistot",
                         "es": "...",
                         "zh": "..."
                     }
@@ -132,12 +132,12 @@
                     "Type": "ShowPersistentLink",
                     "Title": {
                         "en": "The Domo-Toaster",
-                        "fr": "...",
+                        "fr": "Le Domo-Toaster",
                         "es": "..."
                     },
                     "LinkLabel": {
                         "en": "Check it out!",
-                        "fr": "Check it out!",
+                        "fr": "Jette un oeil !",
                         "es": "Check it out!"
                     },
                     "url": "https://www.amazon.co.uk/TSTE-DMO-DDB-Domo-Two-Slice-Cool-Touch-Toaster/dp/B00829HUTK",
@@ -150,7 +150,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Make cooking fun again!",
-                        "fr": "...",
+                        "fr": "Adieu, petit-déjeûner ennuyeux !",
                         "es": "...",
                         "zh": "..."
                     }
