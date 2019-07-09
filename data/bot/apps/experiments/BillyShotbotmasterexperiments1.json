@@ -15,7 +15,32 @@
       { "order" : 110, "file": ["/data/bot/sequences/appspecials/sales/SalesCooking.json"]},
       { "order" : 120, "file": ["/data/bot/sequences/appspecials/sales/SalesDaySoFar.json"]},
       { "order" : 130, "file": ["/data/bot/sequences/appspecials/sales/SalesWinds.json"]},
-      { "order" : 140, "file": ["/data/bot/sequences/appspecials/sales/SalesNothing.json"]}
+      { "order" : 140, "file": ["/data/bot/sequences/appspecials/sales/SalesNothing.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/HowDoYouShowLove.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/CreateAnimatedEmoji.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/AreYouReal.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatDoYouWannaKnowAboutMe.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/PerfectGiftForYou.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/RateUs.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/IsThereSomeone.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/LateBirthday.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/RealBot.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WantMessageSuggestions.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhichMessagesDoYouSend.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/settings/Age.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/settings/AreYouSingle.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/ShowAnAdvert.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatDoesItSmell.json"]}, 
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/IHaveAJokeForYou.json"]},
+      { "order" : 500, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]}
       ]
    }
 ]
