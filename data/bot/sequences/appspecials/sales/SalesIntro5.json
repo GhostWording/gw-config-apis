@@ -13,7 +13,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "SalesIntro5Fascinating",
             "ElementValue": "1",
             "CommandLabel": {
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "SalesIntro5Ridiculous",
             "ElementValue": "1",
             "CommandLabel": {
