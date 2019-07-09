@@ -35,7 +35,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "SalesIntroHi",
             "ElementValue": "1",
             "CommandLabel": {
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "SalesIntroWho",
             "ElementValue": "1",
             "CommandLabel": {
