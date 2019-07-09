@@ -3,13 +3,19 @@
     "GroupName":"test",
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
-      { "order" : 12, "file": ["/data/bot/sequences/appspecials/sales/SalesWeather.json"]},
-      { "order" : 14, "file": ["/data/bot/sequences/appspecials/sales/SalesUnicorn.json"]},
-      { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/SalesConfidence.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesCooking.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesDaySoFar.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesWinds.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesNothing.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro2.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro3.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro4.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro5.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro6.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro7.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/sales/SalesWeather.json"]},
+      { "order" : 90, "file": ["/data/bot/sequences/appspecials/sales/SalesUnicorn.json"]},
+      { "order" : 100, "file": ["/data/bot/sequences/appspecials/sales/SalesConfidence.json"]},
+      { "order" : 110, "file": ["/data/bot/sequences/appspecials/sales/SalesCooking.json"]},
+      { "order" : 120, "file": ["/data/bot/sequences/appspecials/sales/SalesDaySoFar.json"]},
+      { "order" : 130, "file": ["/data/bot/sequences/appspecials/sales/SalesWinds.json"]},
+      { "order" : 140, "file": ["/data/bot/sequences/appspecials/sales/SalesNothing.json"]}
       ]
    }
 ]
