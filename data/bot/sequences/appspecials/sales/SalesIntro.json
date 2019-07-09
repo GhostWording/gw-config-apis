@@ -12,6 +12,10 @@
         },
         {
             "Type": "Action",
+            "Name": "TypingBarHide"
+        },
+        {
+            "Type": "Action",
             "Name": "ChatheadChange",
             "Parameters": {
                 "Image": {
