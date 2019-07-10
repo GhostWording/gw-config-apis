@@ -8,7 +8,8 @@
                 "en": "Hi! 😁",
                 "fr": "Salut ! 😁",
                 "es": "Hola 😁"
-            }
+            },
+            "Vibration": "true"
         },
         {
             "Type": "Action",
@@ -30,7 +31,8 @@
                 "en": "It's a pleasure to meet you",
                 "fr": "Je suis content de faire ta connaissance",
                 "es": "Es un placer conocerte"
-            }
+            },
+            "Vibration": "true"
         }
     ],
     "Commands": [
@@ -58,6 +60,12 @@
                         "en": "My friends call me Robin Hoot",
                         "fr": "Mes amis m'appellent Robin Hoot",
                         "es": "Mis amigos me llaman Robin Hoot"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
                     }
                 },
                 {
@@ -72,6 +80,12 @@
                     "Parameters": {
                         "Source": "Internal",
                         "Path": "/owls/images/small/Quoteo.jpg"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
                     }
                 },
                 {
@@ -107,6 +121,12 @@
                         "en": "My friends call me Robin Hoot",
                         "fr": "Mes amis m'appellent Robin Hoot",
                         "es": "Mis amigos me llaman Robin Hoot"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
                     }
                 },
                 {
@@ -121,6 +141,12 @@
                     "Parameters": {
                         "Source": "Internal",
                         "Path": "/owls/images/small/Quoteo.jpg"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
                     }
                 },
                 {
