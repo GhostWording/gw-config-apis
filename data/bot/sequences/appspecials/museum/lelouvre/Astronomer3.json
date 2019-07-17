@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "We think it's this guy... Anthonie van Leeuwenhoek",
-                "fr": "We think it's this guy... Anthonie van Leeuwenhoek",
+                "fr": "On pense qu'il s'agit de cette personne ... Anthonie van Leeuwenhoek",
                 "es": "We think it's this guy... Anthonie van Leeuwenhoek",
                 "zh": "We think it's this guy... Anthonie van Leeuwenhoek"
             }                    
@@ -24,7 +24,7 @@
             "Type": "Text",
             "Label": {
                 "en": "He was a famous Dutch scientist at the time",
-                "fr": "He was a famous Dutch scientist at the time",
+                "fr": "Un scientifique hollandais célèbre à cette époque",
                 "es": "He was a famous Dutch scientist at the time",
                 "zh": "He was a famous Dutch scientist at the time"
             }
@@ -37,7 +37,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me more",
-                "fr": "Tell me more",
+                "fr": "Dis-m'en plus",
                 "es": "Tell me more",
                 "zh": "Tell me more"
             },
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "At that time, 'science' was booming in the Netherlands",
-                        "fr": "At that time, 'science' was booming in the Netherlands",
+                        "fr": "A cette épopque, la 'science' était en pleine effervescende aux Pays-Bas",
                         "es": "At that time, 'science' was booming in the Netherlands",
                         "zh": "At that time, 'science' was booming in the Netherlands"
                     }                    
@@ -65,7 +65,7 @@
                     "Label": {
                         "en": "These days, we call it the Dutch Golden Age",
                         "fr": "These days, we call it the Dutch Golden Age",
-                        "es": "These days, we call it the Dutch Golden Age",
+                        "es": "On l'appelle de nos jours le siècle d'or néerlandais",
                         "zh": "These days, we call it the Dutch Golden Age"
                     }
                 },
@@ -82,7 +82,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The country was a powerhouse in Europe",
-                        "fr": "The country was a powerhouse in Europe",
+                        "fr": "Le pays était une locomotive de l'Europe",
                         "es": "The country was a powerhouse in Europe",
                         "zh": "The country was a powerhouse in Europe"
                     }
@@ -99,7 +99,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Never knew!",
-                            "fr": "Never knew!",
+                            "fr": "Je l'ignorais !",
                             "es": "Never knew!",
                             "zh": "Never knew!"
                         },
@@ -108,7 +108,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Now you do!",
-                                    "fr": "Now you do!",
+                                    "fr": "Plus maintenant !",
                                     "es": "Now you do!",
                                     "zh": "Now you do!"
                                 }
@@ -124,7 +124,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Knew that",
-                            "fr": "Knew that",
+                            "fr": "Je le savais",
                             "es": "Knew that",
                             "zh": "Knew that"
                         },
@@ -133,7 +133,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "A history genius! I'll try tell you something you don't already know...",
-                                    "fr": "A history genius! I'll try tell you something you don't already know...",
+                                    "fr": "Quelle érudition ! Je vais maintenant te dire quelque chose que tu sais pas...",
                                     "es": "A history genius! I'll try tell you something you don't already know...",
                                     "zh": "A history genius! I'll try tell you something you don't already know..."
                                 }
