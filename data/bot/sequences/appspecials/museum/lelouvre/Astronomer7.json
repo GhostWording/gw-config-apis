@@ -1,0 +1,87 @@
+{
+    "Type": "Node",
+    "Id": "Astronomer7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was taken by the Nazis during World War 2!",
+                "fr": "It was taken by the Nazis during World War 2!",
+                "es": "It was taken by the Nazis during World War 2!",
+                "zh": "It was taken by the Nazis during World War 2!"
+            }                    
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Astronomer was stamped on the back with a black swastika..",
+                "fr": "The Astronomer was stamped on the back with a black swastika..",
+                "es": "The Astronomer was stamped on the back with a black swastika..",
+                "zh": "The Astronomer was stamped on the back with a black swastika.."
+            }                    
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Astronomer7Then",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Then what?",
+                "fr": "Then what?",
+                "es": "Then what?",
+                "zh": "Then what?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks to the efforts of the Monuments Men, it was rescued and returned!",
+                        "fr": "Thanks to the efforts of the Monuments Men, it was rescued and returned!",
+                        "es": "Thanks to the efforts of the Monuments Men, it was rescued and returned!",
+                        "zh": "Thanks to the efforts of the Monuments Men, it was rescued and returned!"
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If you didn't know, they were a group of soldiers tasked with finding stolen paintings!",
+                        "fr": "If you didn't know, they were a group of soldiers tasked with finding stolen paintings!",
+                        "es": "If you didn't know, they were a group of soldiers tasked with finding stolen paintings!",
+                        "zh": "If you didn't know, they were a group of soldiers tasked with finding stolen paintings!"
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A movie about them was made in 2014, featuring George Clooney and Matt Damon!",
+                        "fr": "A movie about them was made in 2014, featuring George Clooney and Matt Damon!",
+                        "es": "A movie about them was made in 2014, featuring George Clooney and Matt Damon!",
+                        "zh": "A movie about them was made in 2014, featuring George Clooney and Matt Damon!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After being returned, it was placed in the Louvre, and is still there today, unless it's away being reunited with it's brother!",
+                        "fr": "After being returned, it was placed in the Louvre, and is still there today, unless it's away being reunited with it's brother!",
+                        "es": "After being returned, it was placed in the Louvre, and is still there today, unless it's away being reunited with it's brother!",
+                        "zh": "After being returned, it was placed in the Louvre, and is still there today, unless it's away being reunited with it's brother!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "AstronomerFeedback"
+            }                        
+        }
+    ]
+}
