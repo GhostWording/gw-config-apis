@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was largely in thanks to the re-emergence of this piece!",
+                "fr": "It was largely in thanks to the re-emergence of this piece!",
+                "es": "It was largely in thanks to the re-emergence of this piece!",
+                "zh": "It was largely in thanks to the re-emergence of this piece!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Before around 1930, we did not know it existed!",
+                "fr": "Before around 1930, we did not know it existed!",
+                "es": "Before around 1930, we did not know it existed!",
+                "zh": "Before around 1930, we did not know it existed!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur4IDid",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I did",
+                "fr": "I did",
+                "es": "I did",
+                "zh": "I did"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That is very impressive!",
+                        "fr": "That is very impressive!",
+                        "es": "That is very impressive!",
+                        "zh": "That is very impressive!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur4Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How come?",
+                "fr": "How come?",
+                "es": "How come?",
+                "zh": "How come?"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur5"
+            }
+        }
+    ]
+}
