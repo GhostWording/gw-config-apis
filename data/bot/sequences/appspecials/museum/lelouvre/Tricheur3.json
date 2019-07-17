@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's perhaps his most famous piece...",
+                "fr": "It's perhaps his most famous piece...",
+                "es": "It's perhaps his most famous piece...",
+                "zh": "It's perhaps his most famous piece..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These days, he's considered a powerhouse of the French baroque",
+                "fr": "These days, he's considered a powerhouse of the French baroque",
+                "es": "These days, he's considered a powerhouse of the French baroque",
+                "zh": "These days, he's considered a powerhouse of the French baroque"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But he wasn't always so famous...",
+                "fr": "But he wasn't always so famous...",
+                "es": "But he wasn't always so famous...",
+                "zh": "But he wasn't always so famous..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur3How",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How so?",
+                "fr": "How so?",
+                "es": "How so?",
+                "zh": "How so?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, he had a huge surge in popularity in the 20th century!",
+                        "fr": "Well, he had a huge surge in popularity in the 20th century!",
+                        "es": "Well, he had a huge surge in popularity in the 20th century!",
+                        "zh": "Well, he had a huge surge in popularity in the 20th century!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur3Explain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Explain",
+                "fr": "Explain",
+                "es": "Explain",
+                "zh": "Explain"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He had a huge surge in popularity in the 20th century...",
+                        "fr": "He had a huge surge in popularity in the 20th century...",
+                        "es": "He had a huge surge in popularity in the 20th century...",
+                        "zh": "He had a huge surge in popularity in the 20th century..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur4"
+            }
+        }
+    ]
+}
