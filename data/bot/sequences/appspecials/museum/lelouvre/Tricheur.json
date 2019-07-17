@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, how much do you know about French baroque painters?",
+                "fr": "So, how much do you know about French baroque painters?",
+                "es": "So, how much do you know about French baroque painters?",
+                "zh": "So, how much do you know about French baroque painters?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TricheurNothing",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nothing",
+                "fr": "Nothing",
+                "es": "Nothing",
+                "zh": "Nothing"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Time to learn, then! Check this out...",
+                        "fr": "Time to learn, then! Check this out...",
+                        "es": "Time to learn, then! Check this out...",
+                        "zh": "Time to learn, then! Check this out..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TricheurEverything",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Everything",
+                "fr": "Everything",
+                "es": "Everything",
+                "zh": "Everything"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess you'll know this, then!",
+                        "fr": "I guess you'll know this, then!",
+                        "es": "I guess you'll know this, then!",
+                        "zh": "I guess you'll know this, then!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TricheurSome",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Some",
+                "fr": "Some",
+                "es": "Some",
+                "zh": "Some"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let's see if you know this one, then!",
+                        "fr": "Let's see if you know this one, then!",
+                        "es": "Let's see if you know this one, then!",
+                        "zh": "Let's see if you know this one, then!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur2"
+            }
+        }
+    ]
+}
