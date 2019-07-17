@@ -1,0 +1,76 @@
+{
+    "Type": "Node",
+    "Id": "Astronomer5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He also got up to some weird stuff... like alchemy... that's trying to turn things into gold!",
+                "fr": "He also got up to some weird stuff... like alchemy... that's trying to turn things into gold!",
+                "es": "He also got up to some weird stuff... like alchemy... that's trying to turn things into gold!",
+                "zh": "He also got up to some weird stuff... like alchemy... that's trying to turn things into gold!"
+            }                    
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Astronomer5Mad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A mad scientist",
+                "fr": "A mad scientist",
+                "es": "A mad scientist",
+                "zh": "A mad scientist"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right... but that was normal for 'science' at the time!",
+                        "fr": "Right... but that was normal for 'science' at the time!",
+                        "es": "Right... but that was normal for 'science' at the time!",
+                        "zh": "Right... but that was normal for 'science' at the time!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Astronomer6"
+            }                        
+        },
+        {
+            "Type": "Node",
+            "Id": "Astronomer5Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I do that too",
+                "fr": "I do that too",
+                "es": "I do that too",
+                "zh": "I do that too"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If you succeed, share some of the gold with me!",
+                        "fr": "If you succeed, share some of the gold with me!",
+                        "es": "If you succeed, share some of the gold with me!",
+                        "zh": "If you succeed, share some of the gold with me!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Astronomer6"
+            }                        
+        }
+    ]
+}
