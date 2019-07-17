@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Have a look at these!",
-                "fr": "Have a look at these!",
+                "fr": "Jette un oeil à ceux-là !",
                 "es": "Have a look at these!",
                 "zh": "Have a look at these!"
             }
@@ -22,7 +22,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Look pretty similar, right?",
-                "fr": "Look pretty similar, right?",
+                "fr": "Ils se ressemblent, non ?",
                 "es": "Look pretty similar, right?",
                 "zh": "Look pretty similar, right?"
             }
@@ -35,7 +35,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Totally different",
-                "fr": "Totally different",
+                "fr": "Complètement différents",
                 "es": "Totally different",
                 "zh": "Totally different"
             },
@@ -44,7 +44,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "What? Look... it's the same room, with all the same props",
-                        "fr": "What? Look... it's the same room, with all the same props",
+                        "fr": "Quoi ? Regarde... c'est la même pièce, avec les mêmes objets",
                         "es": "What? Look... it's the same room, with all the same props",
                         "zh": "What? Look... it's the same room, with all the same props"
                     }                    
@@ -62,7 +62,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They were painted at the same time, by the same artist - Vermeer",
-                        "fr": "They were painted at the same time, by the same artist - Vermeer",
+                        "fr": "Ils ont été paints à la même époque par le même artiste, Vermeer",
                         "es": "They were painted at the same time, by the same artist - Vermeer",
                         "zh": "They were painted at the same time, by the same artist - Vermeer"
                     }
@@ -71,7 +71,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They were even from the same bolt of canvas!",
-                        "fr": "They were even from the same bolt of canvas!",
+                        "fr": "Ils ont même été crées dans la même pièce de toile !",
                         "es": "They were even from the same bolt of canvas!",
                         "zh": "They were even from the same bolt of canvas!"
                     }
@@ -88,7 +88,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Fair enough",
-                            "fr": "Fair enough",
+                            "fr": "Bon d'accord",
                             "es": "Fair enough",
                             "zh": "Fair enough"
                         },
@@ -97,7 +97,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It's even the same model!",
-                                    "fr": "It's even the same model!",
+                                    "fr": "C'est même la même personne qui pose !",
                                     "es": "It's even the same model!",
                                     "zh": "It's even the same model!"
                                 }
@@ -113,7 +113,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Not similar",
-                            "fr": "Not similar",
+                            "fr": "Ils sont différents",
                             "es": "Not similar",
                             "zh": "Not similar"
                         },
@@ -122,7 +122,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Come on... it's even the same model!",
-                                    "fr": "Come on... it's even the same model!",
+                                    "fr": "Allez... c'est même la même personne qui pose !",
                                     "es": "Come on... it's even the same model!",
                                     "zh": "Come on... it's even the same model!"
                                 }
@@ -141,7 +141,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yeah!",
-                "fr": "Yeah!",
+                "fr": "Yops!",
                 "es": "Yeah!",
                 "zh": "Yeah!"
             },
@@ -150,7 +150,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Right! It's the same room, with all the same props",
-                        "fr": "Right! It's the same room, with all the same props",
+                        "fr": "Exact! C'est la même pièce, avec les mêmes objets",
                         "es": "Right! It's the same room, with all the same props",
                         "zh": "Right! It's the same room, with all the same props"
                     }                    
@@ -168,7 +168,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They were painted at the same time, by the same artist - Vermeer",
-                        "fr": "They were painted at the same time, by the same artist - Vermeer",
+                        "fr": "Ils ont été peints à la même époque par le même artiste - Vermeer",
                         "es": "They were painted at the same time, by the same artist - Vermeer",
                         "zh": "They were painted at the same time, by the same artist - Vermeer"
                     }
@@ -177,7 +177,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They were even from the same bolt of canvas!",
-                        "fr": "They were even from the same bolt of canvas!",
+                        "fr": "Ils ont même été créés sur la même pièce de toile !",
                         "es": "They were even from the same bolt of canvas!",
                         "zh": "They were even from the same bolt of canvas!"
                     }
@@ -194,7 +194,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Super similar",
-                            "fr": "Super similar",
+                            "fr": "Super ressemblants",
                             "es": "Super similar",
                             "zh": "Super similar"
                         },
@@ -203,7 +203,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It's even the same model!",
-                                    "fr": "It's even the same model!",
+                                    "fr": "C'est même la même personne qui pose!",
                                     "es": "It's even the same model!",
                                     "zh": "It's even the same model!"
                                 }
