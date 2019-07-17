@@ -1,0 +1,103 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur8",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Also, La Tour must have had been planning this painting for a while: there's a duplicate!",
+                "fr": "Also, La Tour must have had been planning this painting for a while: there's a duplicate!",
+                "es": "Also, La Tour must have had been planning this painting for a while: there's a duplicate!",
+                "zh": "Also, La Tour must have had been planning this painting for a while: there's a duplicate!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's in the Kimbell Art Museum, in Texas...",
+                "fr": "It's in the Kimbell Art Museum, in Texas...",
+                "es": "It's in the Kimbell Art Museum, in Texas...",
+                "zh": "It's in the Kimbell Art Museum, in Texas..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's virtually the same, but with some very small differences!",
+                "fr": "It's virtually the same, but with some very small differences!",
+                "es": "It's virtually the same, but with some very small differences!",
+                "zh": "It's virtually the same, but with some very small differences!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Zoom in on the picture and try to find them all!",
+                "fr": "Zoom in on the picture and try to find them all!",
+                "es": "Zoom in on the picture and try to find them all!",
+                "zh": "Zoom in on the picture and try to find them all!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur8Found",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Got them",
+                "fr": "Got them",
+                "es": "Got them",
+                "zh": "Got them"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A real sleuth you are!",
+                        "fr": "A real sleuth you are!",
+                        "es": "A real sleuth you are!",
+                        "zh": "A real sleuth you are!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur9"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur8Same",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No differences",
+                "fr": "No differences",
+                "es": "No differences",
+                "zh": "No differences"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You are certainly no Sherlock Holmes!",
+                        "fr": "You are certainly no Sherlock Holmes!",
+                        "es": "You are certainly no Sherlock Holmes!",
+                        "zh": "You are certainly no Sherlock Holmes!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur9"
+            }
+        }
+    ]
+}
