@@ -1,0 +1,211 @@
+{
+    "Type": "Node",
+    "Id": "Astronomer",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I don't suppose you have any siblings?",
+                "fr": "I don't suppose you have any siblings?",
+                "es": "I don't suppose you have any siblings?",
+                "zh": "I don't suppose you have any siblings?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "AstronomerYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes",
+                "zh": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! So do I... many, in fact!",
+                        "fr": "Cool! So do I... many, in fact!",
+                        "es": "Cool! So do I... many, in fact!",
+                        "zh": "Cool! So do I... many, in fact!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Did you know that paintings can have siblings too?",
+                        "fr": "Did you know that paintings can have siblings too?",
+                        "es": "Did you know that paintings can have siblings too?",
+                        "zh": "Did you know that paintings can have siblings too?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstronomerYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AstronomerYesYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes",
+                            "zh": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You might be aware of this pair then!",
+                                    "fr": "You might be aware of this pair then!",
+                                    "es": "You might be aware of this pair then!",
+                                    "zh": "You might be aware of this pair then!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "AstronomerYesNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No",
+                            "zh": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They can!",
+                                    "fr": "They can!",
+                                    "es": "They can!",
+                                    "zh": "They can!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "AstronomerNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Interesting! I do... many, in fact..",
+                        "fr": "Interesting! I do... many, in fact..",
+                        "es": "Interesting! I do... many, in fact..",
+                        "zh": "Interesting! I do... many, in fact.."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Did you know that paintings can have siblings too?",
+                        "fr": "Did you know that paintings can have siblings too?",
+                        "es": "Did you know that paintings can have siblings too?",
+                        "zh": "Did you know that paintings can have siblings too?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "AstronomerNoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "AstronomerNoYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes",
+                            "zh": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You might be aware of this pair then!",
+                                    "fr": "You might be aware of this pair then!",
+                                    "es": "You might be aware of this pair then!",
+                                    "zh": "You might be aware of this pair then!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "AstronomerNoNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No",
+                            "zh": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They can!",
+                                    "fr": "They can!",
+                                    "es": "They can!",
+                                    "zh": "They can!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
