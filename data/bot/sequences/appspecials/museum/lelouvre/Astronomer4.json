@@ -1,0 +1,195 @@
+{
+    "Type": "Node",
+    "Id": "Astronomer4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, let's have a closer look at the painting in the Louvre - the Astronomer!",
+                "fr": "So, let's have a closer look at the painting in the Louvre - the Astronomer!",
+                "es": "So, let's have a closer look at the painting in the Louvre - the Astronomer!",
+                "zh": "So, let's have a closer look at the painting in the Louvre - the Astronomer!"
+            }                    
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As usual with Vermeer, it shows the subject of the painting deep in thought at their task!",
+                "fr": "As usual with Vermeer, it shows the subject of the painting deep in thought at their task!",
+                "es": "As usual with Vermeer, it shows the subject of the painting deep in thought at their task!",
+                "zh": "As usual with Vermeer, it shows the subject of the painting deep in thought at their task!"
+            }                    
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/AstronomerC2.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's really his specialty",
+                "fr": "It's really his specialty",
+                "es": "It's really his specialty",
+                "zh": "It's really his specialty"
+            }                    
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Astronomer4More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "We can tell his scientific interest from the globe and the book on the table!",
+                        "fr": "We can tell his scientific interest from the globe and the book on the table!",
+                        "es": "We can tell his scientific interest from the globe and the book on the table!",
+                        "zh": "We can tell his scientific interest from the globe and the book on the table!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's not a normal globe, though, it's a celestial globe, which shows the stars and planets",
+                        "fr": "It's not a normal globe, though, it's a celestial globe, which shows the stars and planets",
+                        "es": "It's not a normal globe, though, it's a celestial globe, which shows the stars and planets",
+                        "zh": "It's not a normal globe, though, it's a celestial globe, which shows the stars and planets"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Astronomer4MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Astronomer4MoreCool",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Cool!",
+                            "fr": "Cool!",
+                            "es": "Cool!",
+                            "zh": "Cool!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We also know the exact book he's reading...",
+                                    "fr": "We also know the exact book he's reading...",
+                                    "es": "We also know the exact book he's reading...",
+                                    "zh": "We also know the exact book he's reading..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's 'Institutiones Astronomicae Geographicae', by Adriaan Metius, printed in 1621",
+                                    "fr": "It's 'Institutiones Astronomicae Geographicae', by Adriaan Metius, printed in 1621",
+                                    "es": "It's 'Institutiones Astronomicae Geographicae', by Adriaan Metius, printed in 1621",
+                                    "zh": "It's 'Institutiones Astronomicae Geographicae', by Adriaan Metius, printed in 1621"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 880,
+                                    "Height": 550,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Astronomer4MoreCoolStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Astronomer4MoreCoolGood",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Looks good!",
+                                        "fr": "Looks good!",
+                                        "es": "Looks good!",
+                                        "zh": "Looks good!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You would have fit right in with 17th century Europe!",
+                                                "fr": "You would have fit right in with 17th century Europe!",
+                                                "es": "You would have fit right in with 17th century Europe!",
+                                                "zh": "You would have fit right in with 17th century Europe!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Astronomer5"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Astronomer4MoreDull",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Looks dull!",
+                                        "fr": "Looks dull!",
+                                        "es": "Looks dull!",
+                                        "zh": "Looks dull!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I think I'm with you on that...",
+                                                "fr": "I think I'm with you on that...",
+                                                "es": "I think I'm with you on that...",
+                                                "zh": "I think I'm with you on that..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Astronomer5"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
