@@ -1,0 +1,101 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur2",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Who is it by?",
+                "fr": "Who is it by?",
+                "es": "Who is it by?",
+                "zh": "Who is it by?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur2Poussin",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Poussin",
+                "fr": "Poussin",
+                "es": "Poussin",
+                "zh": "Poussin"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Nice try! It's actually La Tour...",
+                        "fr": "Nice try! It's actually La Tour...",
+                        "es": "Nice try! It's actually La Tour...",
+                        "zh": "Nice try! It's actually La Tour..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur2LaTour",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "La Tour",
+                "fr": "La Tour",
+                "es": "La Tour",
+                "zh": "La Tour"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Spot on!",
+                        "fr": "Spot on!",
+                        "es": "Spot on!",
+                        "zh": "Spot on!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur2LeBrun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Le Brun",
+                "fr": "Le Brun",
+                "es": "Le Brun",
+                "zh": "Le Brun"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Nice try! It's actually La Tour...",
+                        "fr": "Nice try! It's actually La Tour...",
+                        "es": "Nice try! It's actually La Tour...",
+                        "zh": "Nice try! It's actually La Tour..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur3"
+            }
+        }
+    ]
+}
