@@ -1,0 +1,220 @@
+{
+    "Type": "Node",
+    "Id": "Astronomer2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have a look at these!",
+                "fr": "Have a look at these!",
+                "es": "Have a look at these!",
+                "zh": "Have a look at these!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/AstronomerC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Look pretty similar, right?",
+                "fr": "Look pretty similar, right?",
+                "es": "Look pretty similar, right?",
+                "zh": "Look pretty similar, right?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Astronomer2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Totally different",
+                "fr": "Totally different",
+                "es": "Totally different",
+                "zh": "Totally different"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "What? Look... it's the same room, with all the same props",
+                        "fr": "What? Look... it's the same room, with all the same props",
+                        "es": "What? Look... it's the same room, with all the same props",
+                        "zh": "What? Look... it's the same room, with all the same props"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They were painted at the same time, by the same artist - Vermeer",
+                        "fr": "They were painted at the same time, by the same artist - Vermeer",
+                        "es": "They were painted at the same time, by the same artist - Vermeer",
+                        "zh": "They were painted at the same time, by the same artist - Vermeer"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They were even from the same bolt of canvas!",
+                        "fr": "They were even from the same bolt of canvas!",
+                        "es": "They were even from the same bolt of canvas!",
+                        "zh": "They were even from the same bolt of canvas!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Astronomer2NoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Astronomer2NoYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Fair enough",
+                            "fr": "Fair enough",
+                            "es": "Fair enough",
+                            "zh": "Fair enough"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's even the same model!",
+                                    "fr": "It's even the same model!",
+                                    "es": "It's even the same model!",
+                                    "zh": "It's even the same model!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Astronomer2NoNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not similar",
+                            "fr": "Not similar",
+                            "es": "Not similar",
+                            "zh": "Not similar"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Come on... it's even the same model!",
+                                    "fr": "Come on... it's even the same model!",
+                                    "es": "Come on... it's even the same model!",
+                                    "zh": "Come on... it's even the same model!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Astronomer2Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Yeah!",
+                "es": "Yeah!",
+                "zh": "Yeah!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! It's the same room, with all the same props",
+                        "fr": "Right! It's the same room, with all the same props",
+                        "es": "Right! It's the same room, with all the same props",
+                        "zh": "Right! It's the same room, with all the same props"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They were painted at the same time, by the same artist - Vermeer",
+                        "fr": "They were painted at the same time, by the same artist - Vermeer",
+                        "es": "They were painted at the same time, by the same artist - Vermeer",
+                        "zh": "They were painted at the same time, by the same artist - Vermeer"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They were even from the same bolt of canvas!",
+                        "fr": "They were even from the same bolt of canvas!",
+                        "es": "They were even from the same bolt of canvas!",
+                        "zh": "They were even from the same bolt of canvas!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Astronomer2YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Astronomer2YesYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Super similar",
+                            "fr": "Super similar",
+                            "es": "Super similar",
+                            "zh": "Super similar"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's even the same model!",
+                                    "fr": "It's even the same model!",
+                                    "es": "It's even the same model!",
+                                    "zh": "It's even the same model!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
