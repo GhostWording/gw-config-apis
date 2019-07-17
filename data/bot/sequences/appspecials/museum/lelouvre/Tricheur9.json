@@ -1,0 +1,211 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur9",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can see a difference in clothes, and different sized piles of money...",
+                "fr": "I can see a difference in clothes, and different sized piles of money...",
+                "es": "I can see a difference in clothes, and different sized piles of money...",
+                "zh": "I can see a difference in clothes, and different sized piles of money..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And, most importantly, the suit of the cards is different!",
+                "fr": "And, most importantly, the suit of the cards is different!",
+                "es": "And, most importantly, the suit of the cards is different!",
+                "zh": "And, most importantly, the suit of the cards is different!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur9Enigmatic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How enigmatic",
+                "fr": "How enigmatic",
+                "es": "How enigmatic",
+                "zh": "How enigmatic"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch...",
+                        "fr": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch...",
+                        "es": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch...",
+                        "zh": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You can make your own theory!",
+                        "fr": "You can make your own theory!",
+                        "es": "You can make your own theory!",
+                        "zh": "You can make your own theory!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Tricheur9EnigmaticStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur9EnigmaticNever",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Never",
+                            "fr": "Never",
+                            "es": "Never",
+                            "zh": "Never"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Do whatever suits you!",
+                                    "fr": "Do whatever suits you!",
+                                    "es": "Do whatever suits you!",
+                                    "zh": "Do whatever suits you!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Tricheur10"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur9EnigmaticWill",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I shall do",
+                            "fr": "I shall do",
+                            "es": "I shall do",
+                            "zh": "I shall do"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let me know what you come up with!",
+                                    "fr": "Let me know what you come up with!",
+                                    "es": "Let me know what you come up with!",
+                                    "zh": "Let me know what you come up with!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Tricheur10"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur9Meaningless",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Meaningless",
+                "fr": "Meaningless",
+                "es": "Meaningless",
+                "zh": "Meaningless"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch...",
+                        "fr": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch...",
+                        "es": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch...",
+                        "zh": "Everyone from art scholars to tarot readers have theorised on the meaning of this switch..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You can make your own theory!",
+                        "fr": "You can make your own theory!",
+                        "es": "You can make your own theory!",
+                        "zh": "You can make your own theory!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Tricheur9MeaninglessStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur9MeaninglessNever",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Never",
+                            "fr": "Never",
+                            "es": "Never",
+                            "zh": "Never"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Do whatever suits you!",
+                                    "fr": "Do whatever suits you!",
+                                    "es": "Do whatever suits you!",
+                                    "zh": "Do whatever suits you!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Tricheur10"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur9MeaninglessWill",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I shall do",
+                            "fr": "I shall do",
+                            "es": "I shall do",
+                            "zh": "I shall do"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let me know what you come up with!",
+                                    "fr": "Let me know what you come up with!",
+                                    "es": "Let me know what you come up with!",
+                                    "zh": "Let me know what you come up with!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Tricheur10"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
