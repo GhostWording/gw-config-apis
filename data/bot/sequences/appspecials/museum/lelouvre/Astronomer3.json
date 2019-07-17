@@ -1,0 +1,150 @@
+{
+    "Type": "Node",
+    "Id": "Astronomer3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We think it's this guy... Anthonie van Leeuwenhoek",
+                "fr": "We think it's this guy... Anthonie van Leeuwenhoek",
+                "es": "We think it's this guy... Anthonie van Leeuwenhoek",
+                "zh": "We think it's this guy... Anthonie van Leeuwenhoek"
+            }                    
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was a famous Dutch scientist at the time",
+                "fr": "He was a famous Dutch scientist at the time",
+                "es": "He was a famous Dutch scientist at the time",
+                "zh": "He was a famous Dutch scientist at the time"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Astronomer3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more",
+                "fr": "Tell me more",
+                "es": "Tell me more",
+                "zh": "Tell me more"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "At that time, 'science' was booming in the Netherlands",
+                        "fr": "At that time, 'science' was booming in the Netherlands",
+                        "es": "At that time, 'science' was booming in the Netherlands",
+                        "zh": "At that time, 'science' was booming in the Netherlands"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "These days, we call it the Dutch Golden Age",
+                        "fr": "These days, we call it the Dutch Golden Age",
+                        "es": "These days, we call it the Dutch Golden Age",
+                        "zh": "These days, we call it the Dutch Golden Age"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The country was a powerhouse in Europe",
+                        "fr": "The country was a powerhouse in Europe",
+                        "es": "The country was a powerhouse in Europe",
+                        "zh": "The country was a powerhouse in Europe"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Astronomer3MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Astronomer3MoreNever",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Never knew!",
+                            "fr": "Never knew!",
+                            "es": "Never knew!",
+                            "zh": "Never knew!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now you do!",
+                                    "fr": "Now you do!",
+                                    "es": "Now you do!",
+                                    "zh": "Now you do!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Astronomer3MoreKnew",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Knew that",
+                            "fr": "Knew that",
+                            "es": "Knew that",
+                            "zh": "Knew that"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "A history genius! I'll try tell you something you don't already know...",
+                                    "fr": "A history genius! I'll try tell you something you don't already know...",
+                                    "es": "A history genius! I'll try tell you something you don't already know...",
+                                    "zh": "A history genius! I'll try tell you something you don't already know..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Astronomer4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
