@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... ",
+                "fr": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... ",
+                "es": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... ",
+                "zh": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... "
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Before that, we had no record of it!",
+                "fr": "Before that, we had no record of it!",
+                "es": "Before that, we had no record of it!",
+                "zh": "Before that, we had no record of it!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So we really know very little about its history, but shall we talk about its content?",
+                "fr": "So we really know very little about its history, but shall we talk about its content?",
+                "es": "So we really know very little about its history, but shall we talk about its content?",
+                "zh": "So we really know very little about its history, but shall we talk about its content?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur5Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Do it!",
+                "fr": "Do it!",
+                "es": "Do it!",
+                "zh": "Do it!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, he had a huge surge in popularity in the 20th century!",
+                        "fr": "Well, he had a huge surge in popularity in the 20th century!",
+                        "es": "Well, he had a huge surge in popularity in the 20th century!",
+                        "zh": "Well, he had a huge surge in popularity in the 20th century!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur5No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "No thanks",
+                "es": "No thanks",
+                "zh": "No thanks"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright!",
+                        "fr": "Alright!",
+                        "es": "Alright!",
+                        "zh": "Alright!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TricheurFeedback"
+            }
+        }
+    ]
+}
