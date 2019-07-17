@@ -1,0 +1,110 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur10",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless, what do you think of the tone of the painting?",
+                "fr": "Regardless, what do you think of the tone of the painting?",
+                "es": "Regardless, what do you think of the tone of the painting?",
+                "zh": "Regardless, what do you think of the tone of the painting?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Is the man on the left's smile playful, or cruel?",
+                "fr": "Is the man on the left's smile playful, or cruel?",
+                "es": "Is the man on the left's smile playful, or cruel?",
+                "zh": "Is the man on the left's smile playful, or cruel?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are we sharing a joke? Or accomplices to a crime?",
+                "fr": "Are we sharing a joke? Or accomplices to a crime?",
+                "es": "Are we sharing a joke? Or accomplices to a crime?",
+                "zh": "Are we sharing a joke? Or accomplices to a crime?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur10Cruel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cruel",
+                "fr": "Cruel",
+                "es": "Cruel",
+                "zh": "Cruel"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's questions like this that make me love art!",
+                        "fr": "It's questions like this that make me love art!",
+                        "es": "It's questions like this that make me love art!",
+                        "zh": "It's questions like this that make me love art!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TricheurFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur10Playful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Playful",
+                "fr": "Playful",
+                "es": "Playful",
+                "zh": "Playful"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's questions like this that make me love art!",
+                        "fr": "It's questions like this that make me love art!",
+                        "es": "It's questions like this that make me love art!",
+                        "zh": "It's questions like this that make me love art!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TricheurFeedback"
+            }
+        }
+    ]
+}
