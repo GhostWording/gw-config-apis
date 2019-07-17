@@ -1,0 +1,357 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Clearly, theyre running some kind of scam",
+                "fr": "Clearly, theyre running some kind of scam",
+                "es": "Clearly, theyre running some kind of scam",
+                "zh": "Clearly, theyre running some kind of scam"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And they're appealing to all his vices: gambling, wine, and lust...",
+                "fr": "And they're appealing to all his vices: gambling, wine, and lust...",
+                "es": "And they're appealing to all his vices: gambling, wine, and lust...",
+                "zh": "And they're appealing to all his vices: gambling, wine, and lust..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TricheurC2.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This kind of scene was popular for that exact reason: as a way to warn against these sins!",
+                "fr": "This kind of scene was popular for that exact reason: as a way to warn against these sins!",
+                "es": "This kind of scene was popular for that exact reason: as a way to warn against these sins!",
+                "zh": "This kind of scene was popular for that exact reason: as a way to warn against these sins!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur7Explain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Explain (detail)",
+                "fr": "Explain (detail)",
+                "es": "Explain (detail)",
+                "zh": "Explain (detail)"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In the 1500s and 1600s, Protestantism became popular, as you might know!",
+                        "fr": "In the 1500s and 1600s, Protestantism became popular, as you might know!",
+                        "es": "In the 1500s and 1600s, Protestantism became popular, as you might know!",
+                        "zh": "In the 1500s and 1600s, Protestantism became popular, as you might know!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The Catholic Church couldn't have that! So they held a big meeting",
+                        "fr": "The Catholic Church couldn't have that! So they held a big meeting",
+                        "es": "The Catholic Church couldn't have that! So they held a big meeting",
+                        "zh": "The Catholic Church couldn't have that! So they held a big meeting"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Tricheur7ExplainStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur7ExplainMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I suppose not",
+                            "fr": "I suppose not",
+                            "es": "I suppose not",
+                            "zh": "I suppose not"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In the meeting, they decided to use art to spread their messages",
+                                    "fr": "In the meeting, they decided to use art to spread their messages",
+                                    "es": "In the meeting, they decided to use art to spread their messages",
+                                    "zh": "In the meeting, they decided to use art to spread their messages"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This program is usually called the counter-reformation!",
+                                    "fr": "This program is usually called the counter-reformation!",
+                                    "es": "This program is usually called the counter-reformation!",
+                                    "zh": "This program is usually called the counter-reformation!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And La Tour, as a staunch French Catholic, fits right into this!",
+                                    "fr": "And La Tour, as a staunch French Catholic, fits right into this!",
+                                    "es": "And La Tour, as a staunch French Catholic, fits right into this!",
+                                    "zh": "And La Tour, as a staunch French Catholic, fits right into this!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Tricheur7ExplainMoreStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Tricheur7ExplainMoreOK",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Got it",
+                                        "fr": "Got it",
+                                        "es": "Got it",
+                                        "zh": "Got it"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "As I suggested before, this painting is not the only one to show such a scene",
+                                                "fr": "As I suggested before, this painting is not the only one to show such a scene",
+                                                "es": "As I suggested before, this painting is not the only one to show such a scene",
+                                                "zh": "As I suggested before, this painting is not the only one to show such a scene"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Check out this one, by Caravaggio (roughly 1594)",
+                                                "fr": "Check out this one, by Caravaggio (roughly 1594)",
+                                                "es": "Check out this one, by Caravaggio (roughly 1594)",
+                                                "zh": "Check out this one, by Caravaggio (roughly 1594)"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Width": 880,
+                                                "Height": 550,
+                                                "Source": "Web",
+                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Similar, right?",
+                                                "fr": "Similar, right?",
+                                                "es": "Similar, right?",
+                                                "zh": "Similar, right?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Tricheur7ExplainMoreOKStep",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Tricheur7ExplainMoreOKSimilar",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Very similar",
+                                                    "fr": "Very similar",
+                                                    "es": "Very similar",
+                                                    "zh": "Very similar"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Glad you think so!",
+                                                            "fr": "Glad you think so!",
+                                                            "es": "Glad you think so!",
+                                                            "zh": "Glad you think so!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Tricheur8"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "Tricheur7ExplainMoreOKDifferent",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Totally different",
+                                                    "fr": "Totally different",
+                                                    "es": "Totally different",
+                                                    "zh": "Totally different"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "I think you need an eye test!",
+                                                            "fr": "I think you need an eye test!",
+                                                            "es": "I think you need an eye test!",
+                                                            "zh": "I think you need an eye test!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksToFragment": {
+                                                    "FragmentPath": "Tricheur8"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur7Skip",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I know why",
+                "fr": "I know why",
+                "es": "I know why",
+                "zh": "I know why"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I knew you were a history buff!",
+                        "fr": "I knew you were a history buff!",
+                        "es": "I knew you were a history buff!",
+                        "zh": "I knew you were a history buff!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, as I suggested before, this painting is not the only one to show such a scene",
+                        "fr": "So, as I suggested before, this painting is not the only one to show such a scene",
+                        "es": "So, as I suggested before, this painting is not the only one to show such a scene",
+                        "zh": "So, as I suggested before, this painting is not the only one to show such a scene"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Check out this one, by Caravaggio (roughly 1594)",
+                        "fr": "Check out this one, by Caravaggio (roughly 1594)",
+                        "es": "Check out this one, by Caravaggio (roughly 1594)",
+                        "zh": "Check out this one, by Caravaggio (roughly 1594)"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Similar, right?",
+                        "fr": "Similar, right?",
+                        "es": "Similar, right?",
+                        "zh": "Similar, right?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Tricheur7SkipStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur7SkipSimilar",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Very similar",
+                            "fr": "Very similar",
+                            "es": "Very similar",
+                            "zh": "Very similar"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Glad you think so!",
+                                    "fr": "Glad you think so!",
+                                    "es": "Glad you think so!",
+                                    "zh": "Glad you think so!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Tricheur8"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Tricheur7SkipDifferent",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Totally different",
+                            "fr": "Totally different",
+                            "es": "Totally different",
+                            "zh": "Totally different"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think you need an eye test!",
+                                    "fr": "I think you need an eye test!",
+                                    "es": "I think you need an eye test!",
+                                    "zh": "I think you need an eye test!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Tricheur8"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
