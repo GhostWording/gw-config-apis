@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I don't suppose you have any siblings?",
-                "fr": "I don't suppose you have any siblings?",
+                "fr": "Tu as des frères et soeurs ?",
                 "es": "I don't suppose you have any siblings?",
                 "zh": "I don't suppose you have any siblings?"
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes",
                 "zh": "Yes"
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! So do I... many, in fact!",
-                        "fr": "Cool! So do I... many, in fact!",
+                        "fr": "Cool! Moi aussi... beaucoup, en fait !",
                         "es": "Cool! So do I... many, in fact!",
                         "zh": "Cool! So do I... many, in fact!"
                     }                    
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Did you know that paintings can have siblings too?",
-                        "fr": "Did you know that paintings can have siblings too?",
+                        "fr": "Savais-tu que certains tableaux en ont aussi ?",
                         "es": "Did you know that paintings can have siblings too?",
                         "zh": "Did you know that paintings can have siblings too?"
                     }
@@ -72,7 +72,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "You might be aware of this pair then!",
-                                    "fr": "You might be aware of this pair then!",
+                                    "fr": "Alors tu connais peut-être cette paire !",
                                     "es": "You might be aware of this pair then!",
                                     "zh": "You might be aware of this pair then!"
                                 }
@@ -88,7 +88,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non ",
                             "es": "No",
                             "zh": "No"
                         },
@@ -97,7 +97,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "They can!",
-                                    "fr": "They can!",
+                                    "fr": "Ils le peuvent !",
                                     "es": "They can!",
                                     "zh": "They can!"
                                 }
@@ -116,7 +116,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
@@ -125,7 +125,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Interesting! I do... many, in fact..",
-                        "fr": "Interesting! I do... many, in fact..",
+                        "fr": "Interessant! J'en ai... beaucoup, en fait..",
                         "es": "Interesting! I do... many, in fact..",
                         "zh": "Interesting! I do... many, in fact.."
                     }
@@ -143,7 +143,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Did you know that paintings can have siblings too?",
-                        "fr": "Did you know that paintings can have siblings too?",
+                        "fr": "Savais-tu que les tableaux peuvent aussi en avoir ?",
                         "es": "Did you know that paintings can have siblings too?",
                         "zh": "Did you know that paintings can have siblings too?"
                     }
@@ -160,7 +160,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yes",
-                            "fr": "Yes",
+                            "fr": "Oui",
                             "es": "Yes",
                             "zh": "Yes"
                         },
@@ -169,7 +169,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "You might be aware of this pair then!",
-                                    "fr": "You might be aware of this pair then!",
+                                    "fr": "Alors tu connais peut-être cette paire !",
                                     "es": "You might be aware of this pair then!",
                                     "zh": "You might be aware of this pair then!"
                                 }
@@ -185,7 +185,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No",
                             "zh": "No"
                         },
@@ -194,7 +194,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "They can!",
-                                    "fr": "They can!",
+                                    "fr": "Ils le peuvent !",
                                     "es": "They can!",
                                     "zh": "They can!"
                                 }
