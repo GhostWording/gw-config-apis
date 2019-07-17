@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "Tricheur6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, it shows a popular scene for the 1600s: a rich young man being fooled by tricksters",
+                "fr": "So, it shows a popular scene for the 1600s: a rich young man being fooled by tricksters",
+                "es": "So, it shows a popular scene for the 1600s: a rich young man being fooled by tricksters",
+                "zh": "So, it shows a popular scene for the 1600s: a rich young man being fooled by tricksters"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "His wealth is shown from the coins on the table, his plump face, and his expensive clothes",
+                "fr": "His wealth is shown from the coins on the table, his plump face, and his expensive clothes",
+                "es": "His wealth is shown from the coins on the table, his plump face, and his expensive clothes",
+                "zh": "His wealth is shown from the coins on the table, his plump face, and his expensive clothes"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TricheurC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He is looking intently at his cards, but the rest of the characters are most certainly up to something!",
+                "fr": "He is looking intently at his cards, but the rest of the characters are most certainly up to something!",
+                "es": "He is looking intently at his cards, but the rest of the characters are most certainly up to something!",
+                "zh": "He is looking intently at his cards, but the rest of the characters are most certainly up to something!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Tricheur6Cheats",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cheats!",
+                "fr": "Cheats!",
+                "es": "Cheats!",
+                "zh": "Cheats!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right!",
+                        "fr": "Right!",
+                        "es": "Right!",
+                        "zh": "Right!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur7"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Tricheur6Fair",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fair play",
+                "fr": "Fair play",
+                "es": "Fair play",
+                "zh": "Fair play"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Remind me to never play cards with you!",
+                        "fr": "Remind me to never play cards with you!",
+                        "es": "Remind me to never play cards with you!",
+                        "zh": "Remind me to never play cards with you!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Tricheur7"
+            }
+        }
+    ]
+}
