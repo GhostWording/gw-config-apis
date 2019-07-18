@@ -1,0 +1,103 @@
+{
+    "Type": "Node",
+    "Id": "Martyr",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you think art can make you feel emotions?",
+                "fr": "Do you think art can make you feel emotions?",
+                "es": "Do you think art can make you feel emotions?",
+                "zh": "Do you think art can make you feel emotions?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "MartyrYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes",
+                "zh": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! This one certainly will make you feel something...",
+                        "fr": "Right! This one certainly will make you feel something...",
+                        "es": "Right! This one certainly will make you feel something...",
+                        "zh": "Right! This one certainly will make you feel something..."
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's called the Young Martyr",
+                        "fr": "It's called the Young Martyr",
+                        "es": "It's called the Young Martyr",
+                        "zh": "It's called the Young Martyr"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "MartyrNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me show you this one, and we'll see if you still think that afterwards!",
+                        "fr": "Let me show you this one, and we'll see if you still think that afterwards!",
+                        "es": "Let me show you this one, and we'll see if you still think that afterwards!",
+                        "zh": "Let me show you this one, and we'll see if you still think that afterwards!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's called the Young Martyr",
+                        "fr": "It's called the Young Martyr",
+                        "es": "It's called the Young Martyr",
+                        "zh": "It's called the Young Martyr"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr2"
+            }
+        }
+    ]
+}
