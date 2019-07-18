@@ -1,0 +1,141 @@
+{
+    "Type": "Node",
+    "Id": "Martyr3",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That's him there!",
+                "fr": "That's him there!",
+                "es": "That's him there!",
+                "zh": "That's him there!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Martyr3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "People think it's inspired by the death of his wife in 1845...",
+                        "fr": "People think it's inspired by the death of his wife in 1845...",
+                        "es": "People think it's inspired by the death of his wife in 1845...",
+                        "zh": "People think it's inspired by the death of his wife in 1845..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He even made a sketch of her on her death bed...",
+                        "fr": "He even made a sketch of her on her death bed...",
+                        "es": "He even made a sketch of her on her death bed...",
+                        "zh": "He even made a sketch of her on her death bed..."
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You can see why people link the two pieces! It's a very similar scene...",
+                        "fr": "You can see why people link the two pieces! It's a very similar scene...",
+                        "es": "You can see why people link the two pieces! It's a very similar scene...",
+                        "zh": "You can see why people link the two pieces! It's a very similar scene..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Martyr3MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Martyr3MoreAgreed",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Agreed!",
+                            "fr": "Agreed!",
+                            "es": "Agreed!",
+                            "zh": "Agreed!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So, let's talk about the painting in detail!",
+                                    "fr": "So, let's talk about the painting in detail!",
+                                    "es": "So, let's talk about the painting in detail!",
+                                    "zh": "So, let's talk about the painting in detail!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Martyr4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Martyr3MoreDifferent",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Totally different",
+                            "fr": "Totally different",
+                            "es": "Totally different",
+                            "zh": "Totally different"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'm suprised you think that!",
+                                    "fr": "I'm suprised you think that!",
+                                    "es": "I'm suprised you think that!",
+                                    "zh": "I'm suprised you think that!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, let's talk about the painting in detail!",
+                                    "fr": "Anyway, let's talk about the painting in detail!",
+                                    "es": "Anyway, let's talk about the painting in detail!",
+                                    "zh": "Anyway, let's talk about the painting in detail!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Martyr4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
