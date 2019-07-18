@@ -1,0 +1,112 @@
+{
+    "Type": "Node",
+    "Id": "Martyr5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There's also a contrast in energy...",
+                "fr": "There's also a contrast in energy...",
+                "es": "There's also a contrast in energy...",
+                "zh": "There's also a contrast in energy..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Compare the loud, active characters in the background, and the orange sun",
+                "fr": "Compare the loud, active characters in the background, and the orange sun",
+                "es": "Compare the loud, active characters in the background, and the orange sun",
+                "zh": "Compare the loud, active characters in the background, and the orange sun"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "To the quiet, still scene in the foreground, with it's peaceful palette",
+                "fr": "To the quiet, still scene in the foreground, with it's peaceful palette",
+                "es": "To the quiet, still scene in the foreground, with it's peaceful palette",
+                "zh": "To the quiet, still scene in the foreground, with it's peaceful palette"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Martyr5Beautiful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Beautiful",
+                "fr": "Beautiful",
+                "es": "Beautiful",
+                "zh": "Beautiful"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Finally, the topic of Christian persecution was relevant for Delaroche!",
+                        "fr": "Finally, the topic of Christian persecution was relevant for Delaroche!",
+                        "es": "Finally, the topic of Christian persecution was relevant for Delaroche!",
+                        "zh": "Finally, the topic of Christian persecution was relevant for Delaroche!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Martyr5Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So sad",
+                "fr": "So sad",
+                "es": "So sad",
+                "zh": "So sad"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Agreed... it's such a moving painting",
+                        "fr": "Agreed... it's such a moving painting",
+                        "es": "Agreed... it's such a moving painting",
+                        "zh": "Agreed... it's such a moving painting"
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So... lastly... the topic of Christian persecution was especially relevant for Delaroche!",
+                        "fr": "So... lastly... the topic of Christian persecution was especially relevant for Delaroche!",
+                        "es": "So... lastly... the topic of Christian persecution was especially relevant for Delaroche!",
+                        "zh": "So... lastly... the topic of Christian persecution was especially relevant for Delaroche!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr6"
+            }
+        }
+    ]
+}
