@@ -1,0 +1,119 @@
+{
+    "Type": "Node",
+    "Id": "Martyr2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have a good look at it... how does it make you feel?",
+                "fr": "Have a good look at it... how does it make you feel?",
+                "es": "Have a good look at it... how does it make you feel?",
+                "zh": "Have a good look at it... how does it make you feel?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Martyr2Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sad",
+                "fr": "Sad",
+                "es": "Sad",
+                "zh": "Sad"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Me too! It's a terrible sad painting...",
+                        "fr": "Me too! It's a terrible sad painting...",
+                        "es": "Me too! It's a terrible sad painting...",
+                        "zh": "Me too! It's a terrible sad painting..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "fr": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "es": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "zh": "It's by Paul Delaroche... painted around 1855, a year before his death!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Martyr2Confused",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Confused",
+                "fr": "Confused",
+                "es": "Confused",
+                "zh": "Confused"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's certainly a lot to take in... for me... I get really sad",
+                        "fr": "It's certainly a lot to take in... for me... I get really sad",
+                        "es": "It's certainly a lot to take in... for me... I get really sad",
+                        "zh": "It's certainly a lot to take in... for me... I get really sad"
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "fr": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "es": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "zh": "It's by Paul Delaroche... painted around 1855, a year before his death!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Martyr2Nothing",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nothing",
+                "fr": "Nothing",
+                "es": "Nothing",
+                "zh": "Nothing"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You have a heart of stone! It makes me feel really sad...",
+                        "fr": "You have a heart of stone! It makes me feel really sad...",
+                        "es": "You have a heart of stone! It makes me feel really sad...",
+                        "zh": "You have a heart of stone! It makes me feel really sad..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "fr": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "es": "It's by Paul Delaroche... painted around 1855, a year before his death!",
+                        "zh": "It's by Paul Delaroche... painted around 1855, a year before his death!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Martyr3"
+            }
+        }
+    ]
+}
