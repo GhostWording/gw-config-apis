@@ -1,0 +1,159 @@
+{
+    "Type": "Node",
+    "Id": "Martyr4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The contrast in lighting is the key thing to notice in this painting",
+                "fr": "The contrast in lighting is the key thing to notice in this painting",
+                "es": "The contrast in lighting is the key thing to notice in this painting",
+                "zh": "The contrast in lighting is the key thing to notice in this painting"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Look how dark everything is, except the heavenly light of the woman!",
+                "fr": "Look how dark everything is, except the heavenly light of the woman!",
+                "es": "Look how dark everything is, except the heavenly light of the woman!",
+                "zh": "Look how dark everything is, except the heavenly light of the woman!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And the crisp, clear halo shines above all, illuminating the water..",
+                "fr": "And the crisp, clear halo shines above all, illuminating the water..",
+                "es": "And the crisp, clear halo shines above all, illuminating the water..",
+                "zh": "And the crisp, clear halo shines above all, illuminating the water.."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Martyr4More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Keep going",
+                "fr": "Keep going",
+                "es": "Keep going",
+                "zh": "Keep going"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Her robes and body seem to be disappearing into the water, becoming more blurred",
+                        "fr": "Her robes and body seem to be disappearing into the water, becoming more blurred",
+                        "es": "Her robes and body seem to be disappearing into the water, becoming more blurred",
+                        "zh": "Her robes and body seem to be disappearing into the water, becoming more blurred"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But the halo alone is sharp and clear...",
+                        "fr": "But the halo alone is sharp and clear...",
+                        "es": "But the halo alone is sharp and clear...",
+                        "zh": "But the halo alone is sharp and clear..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It could be that her mortal body is vanishing, but her Christian spirit triumphs over death",
+                        "fr": "It could be that her mortal body is vanishing, but her Christian spirit triumphs over death",
+                        "es": "It could be that her mortal body is vanishing, but her Christian spirit triumphs over death",
+                        "zh": "It could be that her mortal body is vanishing, but her Christian spirit triumphs over death"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Martyr4MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Martyr4MoreRight",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sounds right!",
+                            "fr": "Sounds right!",
+                            "es": "Sounds right!",
+                            "zh": "Sounds right!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Making theories like that is one of my favourite things to do when looking at art!",
+                                    "fr": "Making theories like that is one of my favourite things to do when looking at art!",
+                                    "es": "Making theories like that is one of my favourite things to do when looking at art!",
+                                    "zh": "Making theories like that is one of my favourite things to do when looking at art!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Martyr5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Martyr4MoreNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I don't buy it",
+                            "fr": "I don't buy it",
+                            "es": "I don't buy it",
+                            "zh": "I don't buy it"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well... that's the fun of art! You can make your own theories!",
+                                    "fr": "Well... that's the fun of art! You can make your own theories!",
+                                    "es": "Well... that's the fun of art! You can make your own theories!",
+                                    "zh": "Well... that's the fun of art! You can make your own theories!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Martyr5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
