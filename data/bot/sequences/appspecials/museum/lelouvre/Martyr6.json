@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "Martyr6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was living in the time of Napoleon III, who was trying to restore Catholicism to France",
+                "fr": "He was living in the time of Napoleon III, who was trying to restore Catholicism to France",
+                "es": "He was living in the time of Napoleon III, who was trying to restore Catholicism to France",
+                "zh": "He was living in the time of Napoleon III, who was trying to restore Catholicism to France"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But the anti-Catholic sentiment of the recent French revolution would have been fresh in everyone's memory!",
+                "fr": "But the anti-Catholic sentiment of the recent French revolution would have been fresh in everyone's memory!",
+                "es": "But the anti-Catholic sentiment of the recent French revolution would have been fresh in everyone's memory!",
+                "zh": "But the anti-Catholic sentiment of the recent French revolution would have been fresh in everyone's memory!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So it's no surprise that Delaroche, a firm Catholic, would be lamenting Christian persecution in his painting!",
+                "fr": "So it's no surprise that Delaroche, a firm Catholic, would be lamenting Christian persecution in his painting!",
+                "es": "So it's no surprise that Delaroche, a firm Catholic, would be lamenting Christian persecution in his painting!",
+                "zh": "So it's no surprise that Delaroche, a firm Catholic, would be lamenting Christian persecution in his painting!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Martyr6Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Of course!",
+                "fr": "Of course!",
+                "es": "Of course!",
+                "zh": "Of course!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Now, let's move on!",
+                        "fr": "Now, let's move on!",
+                        "es": "Now, let's move on!",
+                        "zh": "Now, let's move on!"
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MartyrFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Martyr6Next",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Next!",
+                "fr": "Next!",
+                "es": "Next!",
+                "zh": "Next!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My story is over! So let's move on...",
+                        "fr": "My story is over! So let's move on...",
+                        "es": "My story is over! So let's move on...",
+                        "zh": "My story is over! So let's move on..."
+                    }                    
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "MartyrFeedback"
+            }
+        }
+    ]
+}
