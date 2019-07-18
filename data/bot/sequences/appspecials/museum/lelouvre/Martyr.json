@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you think art can make you feel emotions?",
-                "fr": "Do you think art can make you feel emotions?",
+                "fr": "Penses-tu que l'art suscite l'émotion ?",
                 "es": "Do you think art can make you feel emotions?",
                 "zh": "Do you think art can make you feel emotions?"
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes",
                 "zh": "Yes"
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Right! This one certainly will make you feel something...",
-                        "fr": "Right! This one certainly will make you feel something...",
+                        "fr": "Exactement! Cette oeuvre-ci va probablement te faire ressentir quelque chose...",
                         "es": "Right! This one certainly will make you feel something...",
                         "zh": "Right! This one certainly will make you feel something..."
                     }                    
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's called the Young Martyr",
-                        "fr": "It's called the Young Martyr",
+                        "fr": "On l'appelle La Jeune Martyre",
                         "es": "It's called the Young Martyr",
                         "zh": "It's called the Young Martyr"
                     }
@@ -62,7 +62,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
@@ -71,7 +71,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Let me show you this one, and we'll see if you still think that afterwards!",
-                        "fr": "Let me show you this one, and we'll see if you still think that afterwards!",
+                        "fr": "Laisse-moi te montrer une oeuvre pour voir si tu continues à penser de même !",
                         "es": "Let me show you this one, and we'll see if you still think that afterwards!",
                         "zh": "Let me show you this one, and we'll see if you still think that afterwards!"
                     }                    
@@ -89,7 +89,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It's called the Young Martyr",
-                        "fr": "It's called the Young Martyr",
+                        "fr": "On l'appelle La Jeune Martyre",
                         "es": "It's called the Young Martyr",
                         "zh": "It's called the Young Martyr"
                     }
