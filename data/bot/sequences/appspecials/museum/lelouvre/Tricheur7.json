@@ -21,10 +21,12 @@
             }
         },
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
+            "Type": "Image",
             "Parameters": {
-                "Path": "/data/common/carousel/museum/TricheurC2.json"
+                "Width": 340,
+                "Height": 349,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536681/diamonds_vices_detail.jpg"
             }
         },
         {
@@ -61,10 +63,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Width": 280,
+                        "Height": 174,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536956/protestants.jpg"
                     }
                 },
                 {
@@ -74,6 +76,15 @@
                         "fr": "L'Eglise catholique en était contrarié! Alors il y a eu une grande réunion",
                         "es": "The Catholic Church couldn't have that! So they held a big meeting",
                         "zh": "The Catholic Church couldn't have that! So they held a big meeting"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 461,
+                        "Height": 318,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563537014/council_of_trent.jpg"
                     }
                 }
             ],
@@ -158,10 +169,10 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Width": 880,
-                                                "Height": 550,
+                                                "Width": 350,
+                                                "Height": 252,
                                                 "Source": "Web",
-                                                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563537054/cardsharps.jpg"
                                             }
                                         },
                                         {
@@ -279,10 +290,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Width": 350,
+                        "Height": 252,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563537054/cardsharps.jpg"
                     }
                 },
                 {
