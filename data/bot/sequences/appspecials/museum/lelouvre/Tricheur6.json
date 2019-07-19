@@ -21,10 +21,12 @@
             }
         },
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
+            "Type": "Image",
             "Parameters": {
-                "Path": "/data/common/carousel/museum/TricheurC1.json"
+                "Width": 319,
+                "Height": 369,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536478/diamonds_boy_detail.jpg"
             }
         },
         {
