@@ -1114,6 +1114,102 @@
         "es": "El Museo Británico, Londres",
         "zh": "大英博物馆 伦敦"
       }
+    },
+    {
+      "Id": "Tricheur",
+      "Caption": {
+        "en": "The Cheat with the Ace of Diamonds",
+        "fr": "Le Tricheur à l'as de carreau"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563539436/la_tour_diamonds.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536478/diamonds_boy_detail.jpg"
+      },
+      "Artist": {
+        "en": "Georges de La Tour",
+        "fr": "Georges de La Tour",
+        "es": "Georges de La Tour",
+        "zh": "Georges de La Tour"
+      },
+      "SequenceId": "Tricheur",
+      "Year": {
+        "en": "c. 1536",
+        "fr": "Vers 1536"
+      },
+      "Museum": {
+        "en": "Louvre Museum, Paris",
+        "fr": "Musée du Louvre, Paris",
+        "es": "Museo del Louvre, París",
+        "zh": "卢浮宫博物馆 巴黎"
+      }
+    },
+    {
+      "Id": "Astronomer",
+      "Caption": {
+        "en": "The Astronomer",
+        "fr": "l'Astronome"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563534526/astronomer_medium.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563533326/astronomer.jpg"
+      },
+      "Artist": {
+        "en": "Johannes Vermeer",
+        "fr": "Johannes Vermeer",
+        "es": "Johannes Vermeer",
+        "zh": "扬·弗美尔 "
+      },
+      "SequenceId": "Astronomer",
+      "Year": {
+        "en": "c. 1668",
+        "fr": "Vers 1668"
+      },
+      "Museum": {
+        "en": "Louvre Museum, Paris",
+        "fr": "Musée du Louvre, Paris",
+        "es": "Museo del Louvre, París",
+        "zh": "卢浮宫博物馆 巴黎"
+      }
+    },
+    {
+      "Id": "Martyr",
+      "Caption": {
+        "en": "The Young Martyr",
+        "fr": "La Jeune Martyre"
+      },
+      "DefaultImage": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563535389/youngmartyr.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Web",
+        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563535389/youngmartyr.jpg"
+      },
+      "Artist": {
+        "en": "Paul Delaroche",
+        "fr": "Paul Delaroche",
+        "es": "Paul Delaroche",
+        "zh": "Paul Delaroche"
+      },
+      "SequenceId": "Martyr",
+      "Year": {
+        "en": "1855",
+        "fr": "1855"
+      },
+      "Museum": {
+        "en": "Louvre Museum, Paris",
+        "fr": "Musée du Louvre, Paris",
+        "es": "Museo del Louvre, París",
+        "zh": "卢浮宫博物馆 巴黎"
+      }
     }
   ]
   
