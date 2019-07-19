@@ -12,6 +12,15 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 384,
+                "Height": 288,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536241/la_tour_diamonds_louvre.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "These days, he's considered a powerhouse of the French baroque",
