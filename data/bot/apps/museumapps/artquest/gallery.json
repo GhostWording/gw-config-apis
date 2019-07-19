@@ -1823,6 +1823,74 @@
         "TextSuggestion": {
             "IntentionId": "006B9F"
         }
+    },
+    {
+        "Caption": {
+            "en": "The Astronomer",
+            "fr": "l'Astronome"
+        },
+        "Artist": {
+            "en": "Johannes Vermeer",
+            "fr": "Johannes Vermeer",
+            "es": "Johannes Vermeer",
+            "zh": "扬·弗美尔"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563533326/astronomer.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563534526/astronomer_medium.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Young Martyr",
+            "fr": "La Jeune Martyre"
+        },
+        "Artist": {
+            "en": "Paul Delaroche",
+            "fr": "Paul Delaroche",
+            "es": "Paul Delaroche",
+            "zh": "Paul Delaroche"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563535389/youngmartyr.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563535389/youngmartyr.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
+    },
+    {
+        "Caption": {
+            "en": "The Cheat with the Ace of Diamonds",
+            "fr": "Le Tricheur à l'as de carreau"
+        },
+        "Artist": {
+            "en": "Georges de La Tour",
+            "fr": "Georges de La Tour",
+            "es": "Georges de La Tour",
+            "zh": "Georges de La Tour"
+        },
+        "Thumbnail": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536478/diamonds_boy_detail.jpg"
+        },
+        "DefaultImage": {
+            "Type": "Web",
+            "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563539436/la_tour_diamonds.jpg"
+        },
+        "TextSuggestion": {
+            "IntentionId": "006B9F"
+        }
     }
-    
 ]
