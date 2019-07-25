@@ -1,0 +1,188 @@
+{
+    "Type": "Node",
+    "Id": "PontDesArts",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I guess when you think of Paris, one of the things that comes to mind is romance, right?",
+                "fr": "I guess when you think of Paris, one of the things that comes to mind is romance, right?",
+                "es": "I guess when you think of Paris, one of the things that comes to mind is romance, right?",
+                "zh": "I guess when you think of Paris, one of the things that comes to mind is romance, right?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 500,
+                "Height": 343,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PontDesArtsYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Yes",
+                "zh": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! Many even call it the City of Love...",
+                        "fr": "Right! Many even call it the City of Love...",
+                        "es": "Right! Many even call it the City of Love...",
+                        "zh": "Right! Many even call it the City of Love..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "One reason for that is the idyllic scenery surrounding the river Seine",
+                        "fr": "One reason for that is the idyllic scenery surrounding the river Seine",
+                        "es": "One reason for that is the idyllic scenery surrounding the river Seine",
+                        "zh": "One reason for that is the idyllic scenery surrounding the river Seine"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And the centre of all that romance is the Pont des Arts, the subject of this story!",
+                        "fr": "And the centre of all that romance is the Pont des Arts, the subject of this story!",
+                        "es": "And the centre of all that romance is the Pont des Arts, the subject of this story!",
+                        "zh": "And the centre of all that romance is the Pont des Arts, the subject of this story!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArtsYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArtsYesMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me about it!",
+                            "fr": "Tell me about it!",
+                            "es": "Tell me about it!",
+                            "zh": "Tell me about it!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So… this bridge has a reputation of being one of the most romantic places in the world",
+                                    "fr": "So… this bridge has a reputation of being one of the most romantic places in the world",
+                                    "es": "So… this bridge has a reputation of being one of the most romantic places in the world",
+                                    "zh": "So… this bridge has a reputation of being one of the most romantic places in the world"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PontDesArtsNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The city is well known for it! It’s sometimes even called the City of Love!",
+                        "fr": "The city is well known for it! It’s sometimes even called the City of Love!",
+                        "es": "The city is well known for it! It’s sometimes even called the City of Love!",
+                        "zh": "The city is well known for it! It’s sometimes even called the City of Love!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "One reason for that is the idyllic scenery surrounding the river Seine",
+                        "fr": "One reason for that is the idyllic scenery surrounding the river Seine",
+                        "es": "One reason for that is the idyllic scenery surrounding the river Seine",
+                        "zh": "One reason for that is the idyllic scenery surrounding the river Seine"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And the centre of all that romance is the Pont des Arts, the subject of this story!",
+                        "fr": "And the centre of all that romance is the Pont des Arts, the subject of this story!",
+                        "es": "And the centre of all that romance is the Pont des Arts, the subject of this story!",
+                        "zh": "And the centre of all that romance is the Pont des Arts, the subject of this story!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArtsNoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArtsNoMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me about it!",
+                            "fr": "Tell me about it!",
+                            "es": "Tell me about it!",
+                            "zh": "Tell me about it!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So… this bridge has a reputation of being one of the most romantic places in the world",
+                                    "fr": "So… this bridge has a reputation of being one of the most romantic places in the world",
+                                    "es": "So… this bridge has a reputation of being one of the most romantic places in the world",
+                                    "zh": "So… this bridge has a reputation of being one of the most romantic places in the world"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
