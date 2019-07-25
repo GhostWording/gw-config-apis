@@ -1,0 +1,123 @@
+{
+    "Type": "Node",
+    "Id": "PontDesArts2",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 500,
+                "Height": 343,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s appeared in many films and books as a result!",
+                "fr": "It’s appeared in many films and books as a result!",
+                "es": "It’s appeared in many films and books as a result!",
+                "zh": "It’s appeared in many films and books as a result!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PontDesArts2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Continue",
+                "fr": "Continue",
+                "es": "Continue",
+                "zh": "Continue"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thousands of couples visit every year to take romantic walks, or have relaxed picnics on the grass.",
+                        "fr": "Thousands of couples visit every year to take romantic walks, or have relaxed picnics on the grass.",
+                        "es": "Thousands of couples visit every year to take romantic walks, or have relaxed picnics on the grass.",
+                        "zh": "Thousands of couples visit every year to take romantic walks, or have relaxed picnics on the grass."
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But, the main story I want to tell is the battle between the authorities and the power of love!",
+                        "fr": "But, the main story I want to tell is the battle between the authorities and the power of love!",
+                        "es": "But, the main story I want to tell is the battle between the authorities and the power of love!",
+                        "zh": "But, the main story I want to tell is the battle between the authorities and the power of love!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts2MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts2MoreCool",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sounds cool!",
+                            "fr": "Sounds cool!",
+                            "es": "Sounds cool!",
+                            "zh": "Sounds cool!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…",
+                                    "fr": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…",
+                                    "es": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…",
+                                    "zh": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts2MoreMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Go on...",
+                            "fr": "Go on...",
+                            "es": "Go on...",
+                            "zh": "Go on..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…",
+                                    "fr": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…",
+                                    "es": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…",
+                                    "zh": "Over the years, a custom arose among tourists, whereby they would attach padlocks to the railings of the bridge…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
