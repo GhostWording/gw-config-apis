@@ -1,0 +1,247 @@
+{
+    "Type": "Node",
+    "Id": "PontDesArts4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They begged tourists not to put padlocks on the railings, and started the “love without locks” campaign",
+                "fr": "They begged tourists not to put padlocks on the railings, and started the “love without locks” campaign",
+                "es": "They begged tourists not to put padlocks on the railings, and started the “love without locks” campaign",
+                "zh": "They begged tourists not to put padlocks on the railings, and started the “love without locks” campaign"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 500,
+                "Height": 343,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But those young lovers couldn’t be stopped!",
+                "fr": "But those young lovers couldn’t be stopped!",
+                "es": "But those young lovers couldn’t be stopped!",
+                "zh": "But those young lovers couldn’t be stopped!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PontDesArts4Criminals",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Criminals!",
+                "fr": "Criminals!",
+                "es": "Criminals!",
+                "zh": "Criminals!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The authorities thought so too, and really put their foot down: they spent a whole load of money removing the padlocks",
+                        "fr": "The authorities thought so too, and really put their foot down: they spent a whole load of money removing the padlocks",
+                        "es": "The authorities thought so too, and really put their foot down: they spent a whole load of money removing the padlocks",
+                        "zh": "The authorities thought so too, and really put their foot down: they spent a whole load of money removing the padlocks"
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And even replaced many of the sections with glass and wood panels!",
+                        "fr": "And even replaced many of the sections with glass and wood panels!",
+                        "es": "And even replaced many of the sections with glass and wood panels!",
+                        "zh": "And even replaced many of the sections with glass and wood panels!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Was that the end for the lovers?",
+                        "fr": "Was that the end for the lovers?",
+                        "es": "Was that the end for the lovers?",
+                        "zh": "Was that the end for the lovers?"
+                    }                    
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts4CriminalsStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts4CriminalsYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Surely it was",
+                            "fr": "Surely it was",
+                            "es": "Surely it was",
+                            "zh": "Surely it was"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not quite! The romantic couples began to write their messages in graffiti!",
+                                    "fr": "Not quite! The romantic couples began to write their messages in graffiti!",
+                                    "es": "Not quite! The romantic couples began to write their messages in graffiti!",
+                                    "zh": "Not quite! The romantic couples began to write their messages in graffiti!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts4CriminalsNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Unlikely",
+                            "fr": "Unlikely",
+                            "es": "Unlikely",
+                            "zh": "Unlikely"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You're right! The romantic couples began to write their messages in graffiti!",
+                                    "fr": "You're right! The romantic couples began to write their messages in graffiti!",
+                                    "es": "You're right! The romantic couples began to write their messages in graffiti!",
+                                    "zh": "You're right! The romantic couples began to write their messages in graffiti!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PontDesArts4Heroes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Heroes!",
+                "fr": "Heroes!",
+                "es": "Heroes!",
+                "zh": "Heroes!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, not according to the authorities. They spent a whole load of money removing the padlocks",
+                        "fr": "Well, not according to the authorities. They spent a whole load of money removing the padlocks",
+                        "es": "Well, not according to the authorities. They spent a whole load of money removing the padlocks",
+                        "zh": "Well, not according to the authorities. They spent a whole load of money removing the padlocks"
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And even replaced many of the sections with glass and wood panels!",
+                        "fr": "And even replaced many of the sections with glass and wood panels!",
+                        "es": "And even replaced many of the sections with glass and wood panels!",
+                        "zh": "And even replaced many of the sections with glass and wood panels!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Was that the end for the lovers?",
+                        "fr": "Was that the end for the lovers?",
+                        "es": "Was that the end for the lovers?",
+                        "zh": "Was that the end for the lovers?"
+                    }                    
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts4HeroesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts4HeroesYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Surely it was",
+                            "fr": "Surely it was",
+                            "es": "Surely it was",
+                            "zh": "Surely it was"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not quite! The romantic couples began to write their messages in graffiti!",
+                                    "fr": "Not quite! The romantic couples began to write their messages in graffiti!",
+                                    "es": "Not quite! The romantic couples began to write their messages in graffiti!",
+                                    "zh": "Not quite! The romantic couples began to write their messages in graffiti!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts4HeroesNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Unlikely",
+                            "fr": "Unlikely",
+                            "es": "Unlikely",
+                            "zh": "Unlikely"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You're right! The romantic couples began to write their messages in graffiti!",
+                                    "fr": "You're right! The romantic couples began to write their messages in graffiti!",
+                                    "es": "You're right! The romantic couples began to write their messages in graffiti!",
+                                    "zh": "You're right! The romantic couples began to write their messages in graffiti!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
