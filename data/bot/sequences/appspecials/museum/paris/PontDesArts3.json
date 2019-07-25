@@ -1,0 +1,188 @@
+{
+    "Type": "Node",
+    "Id": "PontDesArts3",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 500,
+                "Height": 343,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Couples would write their names on the lock, then throw the key into the Seine!",
+                "fr": "Couples would write their names on the lock, then throw the key into the Seine!",
+                "es": "Couples would write their names on the lock, then throw the key into the Seine!",
+                "zh": "Couples would write their names on the lock, then throw the key into the Seine!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PontDesArts3Romantic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How romantic! 🌹",
+                "fr": "How romantic! 🌹",
+                "es": "How romantic! 🌹",
+                "zh": "How romantic! 🌹"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It sure was! But it had an unfortunate side-effect...",
+                        "fr": "It sure was! But it had an unfortunate side-effect...",
+                        "es": "It sure was! But it had an unfortunate side-effect...",
+                        "zh": "It sure was! But it had an unfortunate side-effect..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The bridge railings began to look like this!",
+                        "fr": "The bridge railings began to look like this!",
+                        "es": "The bridge railings began to look like this!",
+                        "zh": "The bridge railings began to look like this!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!",
+                        "fr": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!",
+                        "es": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!",
+                        "zh": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts3RomanticStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts3RomanticUnbelievable",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Unbelievable!",
+                            "fr": "Unbelievable!",
+                            "es": "Unbelievable!",
+                            "zh": "Unbelievable!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Believe it! It was causing railings to collapse, so the authorities stepped in!",
+                                    "fr": "Believe it! It was causing railings to collapse, so the authorities stepped in!",
+                                    "es": "Believe it! It was causing railings to collapse, so the authorities stepped in!",
+                                    "zh": "Believe it! It was causing railings to collapse, so the authorities stepped in!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PontDesArts3Pointless",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How pointless!",
+                "fr": "How pointless!",
+                "es": "How pointless!",
+                "zh": "How pointless!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It also had an unfortunate side-effect...",
+                        "fr": "It also had an unfortunate side-effect...",
+                        "es": "It also had an unfortunate side-effect...",
+                        "zh": "It also had an unfortunate side-effect..."
+                    }                    
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The bridge railings began to look like this!",
+                        "fr": "The bridge railings began to look like this!",
+                        "es": "The bridge railings began to look like this!",
+                        "zh": "The bridge railings began to look like this!"
+                    }                    
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 343,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!",
+                        "fr": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!",
+                        "es": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!",
+                        "zh": "At one point, over 45 tons worth of padlocks were attached to the bridge! That’s the weight of 7 adult male African elephants!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts3PointlessStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts3PointlessUnbelievable",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Unbelievable!",
+                            "fr": "Unbelievable!",
+                            "es": "Unbelievable!",
+                            "zh": "Unbelievable!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Believe it! It was causing railings to collapse, so the authorities stepped in!",
+                                    "fr": "Believe it! It was causing railings to collapse, so the authorities stepped in!",
+                                    "es": "Believe it! It was causing railings to collapse, so the authorities stepped in!",
+                                    "zh": "Believe it! It was causing railings to collapse, so the authorities stepped in!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArts4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
