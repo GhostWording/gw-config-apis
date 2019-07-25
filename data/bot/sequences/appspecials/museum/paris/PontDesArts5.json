@@ -1,0 +1,270 @@
+{
+    "Type": "Node",
+    "Id": "PontDesArts5",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 500,
+                "Height": 343,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Many locals who had hated the sight of the locks thought this was even worse!",
+                "fr": "Many locals who had hated the sight of the locks thought this was even worse!",
+                "es": "Many locals who had hated the sight of the locks thought this was even worse!",
+                "zh": "Many locals who had hated the sight of the locks thought this was even worse!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PontDesArts5Spoilsports",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Spoilsports!",
+                "fr": "Spoilsports!",
+                "es": "Spoilsports!",
+                "zh": "Spoilsports!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But I guess you can’t silence the power of love!",
+                        "fr": "But I guess you can’t silence the power of love!",
+                        "es": "But I guess you can’t silence the power of love!",
+                        "zh": "But I guess you can’t silence the power of love!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, who's side are you on in this battle?",
+                        "fr": "So, who's side are you on in this battle?",
+                        "es": "So, who's side are you on in this battle?",
+                        "zh": "So, who's side are you on in this battle?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts5SpoilsportsStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts5SpoilsportsLovers",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Lovers",
+                            "fr": "Lovers",
+                            "es": "Lovers",
+                            "zh": "Lovers"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "fr": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "es": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "zh": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Come check it out if you’re in the mood for love!",
+                                    "fr": "Come check it out if you’re in the mood for love!",
+                                    "es": "Come check it out if you’re in the mood for love!",
+                                    "zh": "Come check it out if you’re in the mood for love!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArtsFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts5SpoilsportsAuthorities",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Authorities",
+                            "fr": "Authorities",
+                            "es": "Authorities",
+                            "zh": "Authorities"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "fr": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "es": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "zh": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Come check it out if you’re in the mood for love!",
+                                    "fr": "Come check it out if you’re in the mood for love!",
+                                    "es": "Come check it out if you’re in the mood for love!",
+                                    "zh": "Come check it out if you’re in the mood for love!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArtsFeedback"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PontDesArts5Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "They're right!",
+                "fr": "They're right!",
+                "es": "They're right!",
+                "zh": "They're right!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But I guess you can’t silence the power of love!",
+                        "fr": "But I guess you can’t silence the power of love!",
+                        "es": "But I guess you can’t silence the power of love!",
+                        "zh": "But I guess you can’t silence the power of love!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, who's side are you on in this battle?",
+                        "fr": "So, who's side are you on in this battle?",
+                        "es": "So, who's side are you on in this battle?",
+                        "zh": "So, who's side are you on in this battle?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PontDesArts5RightStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts5RightLovers",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Lovers",
+                            "fr": "Lovers",
+                            "es": "Lovers",
+                            "zh": "Lovers"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "fr": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "es": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "zh": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Come check it out if you’re in the mood for love!",
+                                    "fr": "Come check it out if you’re in the mood for love!",
+                                    "es": "Come check it out if you’re in the mood for love!",
+                                    "zh": "Come check it out if you’re in the mood for love!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArtsFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PontDesArts5RightAuthorities",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Authorities",
+                            "fr": "Authorities",
+                            "es": "Authorities",
+                            "zh": "Authorities"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "fr": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "es": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience",
+                                    "zh": "Regardless, the bridge is still visited by thousands of romantic tourists every year, thanks to it’s pretty views and ambience"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Come check it out if you’re in the mood for love!",
+                                    "fr": "Come check it out if you’re in the mood for love!",
+                                    "es": "Come check it out if you’re in the mood for love!",
+                                    "zh": "Come check it out if you’re in the mood for love!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PontDesArtsFeedback"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
