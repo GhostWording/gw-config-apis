@@ -1,0 +1,229 @@
+{
+    "Type": "Node",
+    "Id": "Sulpice2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "One of the strangest features is that the towers don’t match! Look closely…",
+                "fr": "One of the strangest features is that the towers don’t match! Look closely…",
+                "es": "One of the strangest features is that the towers don’t match! Look closely…",
+                "zh": "One of the strangest features is that the towers don’t match! Look closely…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Sulpice2Strange",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How strange!",
+                "fr": "How strange!",
+                "es": "How strange!",
+                "zh": "How strange!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The church gets its name from St Sulpicius of Bourges",
+                        "fr": "The church gets its name from St Sulpicius of Bourges",
+                        "es": "The church gets its name from St Sulpicius of Bourges",
+                        "zh": "The church gets its name from St Sulpicius of Bourges"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "ever heard of him?",
+                        "fr": "ever heard of him?",
+                        "es": "ever heard of him?",
+                        "zh": "ever heard of him?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice2StrangeStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice2StrangeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No",
+                            "zh": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He was a monk from the 7th century, nicknamed 'the Pious'",
+                                    "fr": "He was a monk from the 7th century, nicknamed 'the Pious'",
+                                    "es": "He was a monk from the 7th century, nicknamed 'the Pious'",
+                                    "zh": "He was a monk from the 7th century, nicknamed 'the Pious'"
+                                },
+                                "LinksToFragment": {
+                                    "FragmentPath": "Sulpice3"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice2StrangeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes",
+                            "zh": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'm impressed... you certainly know your 7th century monks!",
+                                    "fr": "I'm impressed... you certainly know your 7th century monks!",
+                                    "es": "I'm impressed... you certainly know your 7th century monks!",
+                                    "zh": "I'm impressed... you certainly know your 7th century monks!"
+                                },
+                                "LinksToFragment": {
+                                    "FragmentPath": "Sulpice3"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Sulpice2Normal",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Totally normal",
+                "fr": "Totally normal",
+                "es": "Totally normal",
+                "zh": "Totally normal"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I suggest you don't take up architecture as a job...",
+                        "fr": "I suggest you don't take up architecture as a job...",
+                        "es": "I suggest you don't take up architecture as a job...",
+                        "zh": "I suggest you don't take up architecture as a job..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, the church gets its name from St Sulpicius of Bourges",
+                        "fr": "Anyway, the church gets its name from St Sulpicius of Bourges",
+                        "es": "Anyway, the church gets its name from St Sulpicius of Bourges",
+                        "zh": "Anyway, the church gets its name from St Sulpicius of Bourges"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "ever heard of him?",
+                        "fr": "ever heard of him?",
+                        "es": "ever heard of him?",
+                        "zh": "ever heard of him?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice2NormalStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice2NormalNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No",
+                            "zh": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He was a monk from the 7th century, nicknamed 'the Pious'",
+                                    "fr": "He was a monk from the 7th century, nicknamed 'the Pious'",
+                                    "es": "He was a monk from the 7th century, nicknamed 'the Pious'",
+                                    "zh": "He was a monk from the 7th century, nicknamed 'the Pious'"
+                                },
+                                "LinksToFragment": {
+                                    "FragmentPath": "Sulpice3"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice2NormalYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes",
+                            "fr": "Yes",
+                            "es": "Yes",
+                            "zh": "Yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'm impressed... you certainly know your 7th century monks!",
+                                    "fr": "I'm impressed... you certainly know your 7th century monks!",
+                                    "es": "I'm impressed... you certainly know your 7th century monks!",
+                                    "zh": "I'm impressed... you certainly know your 7th century monks!"
+                                },
+                                "LinksToFragment": {
+                                    "FragmentPath": "Sulpice3"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
