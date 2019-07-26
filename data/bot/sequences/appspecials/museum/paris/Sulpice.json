@@ -1,0 +1,188 @@
+{
+    "Type": "Node",
+    "Id": "Sulpice",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!",
+                "fr": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!",
+                "es": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!",
+                "zh": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!",
+                "fr": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!",
+                "es": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!",
+                "zh": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SulpiceMore",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Tell me about it!",
+                "fr": "Tell me about it!",
+                "es": "Tell me about it!",
+                "zh": "Tell me about it!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Gladly!",
+                        "fr": "Gladly!",
+                        "es": "Gladly!",
+                        "zh": "Gladly!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The facade of this church, while beautiful to look at, is very unusual!",
+                        "fr": "The facade of this church, while beautiful to look at, is very unusual!",
+                        "es": "The facade of this church, while beautiful to look at, is very unusual!",
+                        "zh": "The facade of this church, while beautiful to look at, is very unusual!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s mostly due to several complications during its construction!",
+                        "fr": "It’s mostly due to several complications during its construction!",
+                        "es": "It’s mostly due to several complications during its construction!",
+                        "zh": "It’s mostly due to several complications during its construction!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "SulpiceMoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "SulpiceMoreMore",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "Continue",
+                            "fr": "Continue",
+                            "es": "Continue",
+                            "zh": "Continue"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral",
+                                    "fr": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral",
+                                    "es": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral",
+                                    "zh": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 880,
+                                    "Height": 550,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But after the designers and plans changed a few times, it ended up looking as it now does",
+                                    "fr": "But after the designers and plans changed a few times, it ended up looking as it now does",
+                                    "es": "But after the designers and plans changed a few times, it ended up looking as it now does",
+                                    "zh": "But after the designers and plans changed a few times, it ended up looking as it now does"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "SulpiceMoreMoreStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "SulpiceMoreMoreLike",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I like it!",
+                                        "fr": "I like it!",
+                                        "es": "I like it!",
+                                        "zh": "I like it!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Great taste!",
+                                                "fr": "Great taste!",
+                                                "es": "Great taste!",
+                                                "zh": "Great taste!"
+                                            },
+                                            "LinksToFragment": {
+                                                "FragmentPath": "Sulpice2"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "SulpiceMoreMoreDislike",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Not a fan",
+                                        "fr": "Not a fan",
+                                        "es": "Not a fan",
+                                        "zh": "Not a fan"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I'll make you a fan!",
+                                                "fr": "I'll make you a fan!",
+                                                "es": "I'll make you a fan!",
+                                                "zh": "I'll make you a fan!"
+                                            },
+                                            "LinksToFragment": {
+                                                "FragmentPath": "Sulpice2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
