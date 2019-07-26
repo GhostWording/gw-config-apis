@@ -1,0 +1,238 @@
+{
+    "Type": "Node",
+    "Id": "Sulpice4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Take the “gnomon”, for instance",
+                "fr": "Take the “gnomon”, for instance",
+                "es": "Take the “gnomon”, for instance",
+                "zh": "Take the “gnomon”, for instance"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "While some people say it was built to predict astronomical events, I think it’s more mysterious than that…",
+                "fr": "While some people say it was built to predict astronomical events, I think it’s more mysterious than that…",
+                "es": "While some people say it was built to predict astronomical events, I think it’s more mysterious than that…",
+                "zh": "While some people say it was built to predict astronomical events, I think it’s more mysterious than that…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Sulpice4Really",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Come on...🤦",
+                "fr": "Come on...🤦",
+                "es": "Come on...🤦",
+                "zh": "Come on...🤦"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm serious!",
+                        "fr": "I'm serious!",
+                        "es": "I'm serious!",
+                        "zh": "I'm serious!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
+                        "fr": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
+                        "es": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
+                        "zh": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But to me, that’s just a front… I think it’s some sort of occult communication device",
+                        "fr": "But to me, that’s just a front… I think it’s some sort of occult communication device",
+                        "es": "But to me, that’s just a front… I think it’s some sort of occult communication device",
+                        "zh": "But to me, that’s just a front… I think it’s some sort of occult communication device"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice4ReallyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice4ReallyNo",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "No way...",
+                            "fr": "No way...",
+                            "es": "No way...",
+                            "zh": "No way..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'm not the only one who thinks that!",
+                                    "fr": "I'm not the only one who thinks that!",
+                                    "es": "I'm not the only one who thinks that!",
+                                    "zh": "I'm not the only one who thinks that!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice4ReallyYes",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "I think so too",
+                            "fr": "I think so too",
+                            "es": "I think so too",
+                            "zh": "I think so too"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We're not alone in our theory, either!",
+                                    "fr": "We're not alone in our theory, either!",
+                                    "es": "We're not alone in our theory, either!",
+                                    "zh": "We're not alone in our theory, either!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Sulpice4Interesting",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Go on...",
+                "fr": "Go on...",
+                "es": "Go on...",
+                "zh": "Go on..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
+                        "fr": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
+                        "es": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
+                        "zh": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But to me, that’s just a front… I think it’s some sort of occult communication device",
+                        "fr": "But to me, that’s just a front… I think it’s some sort of occult communication device",
+                        "es": "But to me, that’s just a front… I think it’s some sort of occult communication device",
+                        "zh": "But to me, that’s just a front… I think it’s some sort of occult communication device"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice4InterestingStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice4InterestingNo",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "No way...",
+                            "fr": "No way...",
+                            "es": "No way...",
+                            "zh": "No way..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'm not the only one who thinks that!",
+                                    "fr": "I'm not the only one who thinks that!",
+                                    "es": "I'm not the only one who thinks that!",
+                                    "zh": "I'm not the only one who thinks that!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice4InterestingYes",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "I think so too",
+                            "fr": "I think so too",
+                            "es": "I think so too",
+                            "zh": "I think so too"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We're not alone in our theory, either!",
+                                    "fr": "We're not alone in our theory, either!",
+                                    "es": "We're not alone in our theory, either!",
+                                    "zh": "We're not alone in our theory, either!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
