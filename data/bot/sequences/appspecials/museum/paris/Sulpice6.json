@@ -1,0 +1,122 @@
+{
+    "Type": "Node",
+    "Id": "Sulpice6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "To this day, we don’t know who put the plaque there, or why it hasn’t been removed!",
+                "fr": "To this day, we don’t know who put the plaque there, or why it hasn’t been removed!",
+                "es": "To this day, we don’t know who put the plaque there, or why it hasn’t been removed!",
+                "zh": "To this day, we don’t know who put the plaque there, or why it hasn’t been removed!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Maybe that creepy cult is still alive in secret…",
+                "fr": "Maybe that creepy cult is still alive in secret…",
+                "es": "Maybe that creepy cult is still alive in secret…",
+                "zh": "Maybe that creepy cult is still alive in secret…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Sulpice6More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Is that all?",
+                "fr": "Is that all?",
+                "es": "Is that all?",
+                "zh": "Is that all?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Aha, sorry, I got carried away in my conspiracy theories",
+                        "fr": "Aha, sorry, I got carried away in my conspiracy theories",
+                        "es": "Aha, sorry, I got carried away in my conspiracy theories",
+                        "zh": "Aha, sorry, I got carried away in my conspiracy theories"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes, the church also has a huge and incredible organ, one of the largest in the world",
+                        "fr": "Yes, the church also has a huge and incredible organ, one of the largest in the world",
+                        "es": "Yes, the church also has a huge and incredible organ, one of the largest in the world",
+                        "zh": "Yes, the church also has a huge and incredible organ, one of the largest in the world"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s definitely a must see, and is amazing to listen to, too!",
+                        "fr": "It’s definitely a must see, and is amazing to listen to, too!",
+                        "es": "It’s definitely a must see, and is amazing to listen to, too!",
+                        "zh": "It’s definitely a must see, and is amazing to listen to, too!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice6MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice6MoreGo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'll go!",
+                            "fr": "I'll go!",
+                            "es": "I'll go!",
+                            "zh": "I'll go!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There are also some fantastic friezes by none other than Eugene Delacroix, if you’re an art fan!",
+                                    "fr": "There are also some fantastic friezes by none other than Eugene Delacroix, if you’re an art fan!",
+                                    "es": "There are also some fantastic friezes by none other than Eugene Delacroix, if you’re an art fan!",
+                                    "zh": "There are also some fantastic friezes by none other than Eugene Delacroix, if you’re an art fan!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Just keep an eye out for mysterious cultists 😃",
+                                    "fr": "Just keep an eye out for mysterious cultists 😃",
+                                    "es": "Just keep an eye out for mysterious cultists 😃",
+                                    "zh": "Just keep an eye out for mysterious cultists 😃"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
