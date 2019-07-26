@@ -1,0 +1,247 @@
+{
+    "Type": "Node",
+    "Id": "Sulpice5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This church and the gnomon feature in the famous book, The Da Vinci Code, by Dan Brown, during a treasure hunt for the holy grail!",
+                "fr": "This church and the gnomon feature in the famous book, The Da Vinci Code, by Dan Brown, during a treasure hunt for the holy grail!",
+                "es": "This church and the gnomon feature in the famous book, The Da Vinci Code, by Dan Brown, during a treasure hunt for the holy grail!",
+                "zh": "This church and the gnomon feature in the famous book, The Da Vinci Code, by Dan Brown, during a treasure hunt for the holy grail!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And you know what gnomon literally means (from ancient greek?)",
+                "fr": "And you know what gnomon literally means (from ancient greek?)",
+                "es": "And you know what gnomon literally means (from ancient greek?)",
+                "zh": "And you know what gnomon literally means (from ancient greek?)"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "… The thing that knows …",
+                "fr": "… The thing that knows …",
+                "es": "… The thing that knows …",
+                "zh": "… The thing that knows …"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "CREEPY",
+                "fr": "CREEPY",
+                "es": "CREEPY",
+                "zh": "CREEPY"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Sulpice5Ridiculous",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Ridiculous",
+                "fr": "Ridiculous",
+                "es": "Ridiculous",
+                "zh": "Ridiculous"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'",
+                        "fr": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'",
+                        "es": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'",
+                        "zh": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly.",
+                        "fr": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly.",
+                        "es": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly.",
+                        "zh": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice5RidiculousStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice5RidiculousNo",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "So... all of it?",
+                            "fr": "So... all of it?",
+                            "es": "So... all of it?",
+                            "zh": "So... all of it?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Very funny 😄",
+                                    "fr": "Very funny 😄",
+                                    "es": "Very funny 😄",
+                                    "zh": "Very funny 😄"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice5RidiculousYes",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "Keep going",
+                            "fr": "Keep going",
+                            "es": "Keep going",
+                            "zh": "Keep going"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Almost done!",
+                                    "fr": "Almost done!",
+                                    "es": "Almost done!",
+                                    "zh": "Almost done!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice6"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Sulpice5Believe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I believe it",
+                "fr": "I believe it",
+                "es": "I believe it",
+                "zh": "I believe it"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'",
+                        "fr": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'",
+                        "es": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'",
+                        "zh": "As if that wasn’t enough, there’s a plaque at the front of the church, which was put up by the “cult of the Supreme Being” in the 18th century, during the French 'Terreur'"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly.",
+                        "fr": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly.",
+                        "es": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly.",
+                        "zh": "If you didn’t know, la Terreur was a period in French history when they executed lots of people publicly."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Sulpice5BelieveStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice5BelieveNo",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "So... all of it?",
+                            "fr": "So... all of it?",
+                            "es": "So... all of it?",
+                            "zh": "So... all of it?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Very funny 😄",
+                                    "fr": "Very funny 😄",
+                                    "es": "Very funny 😄",
+                                    "zh": "Very funny 😄"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Sulpice5BelieveYes",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "Keep going",
+                            "fr": "Keep going",
+                            "es": "Keep going",
+                            "zh": "Keep going"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Almost done!",
+                                    "fr": "Almost done!",
+                                    "es": "Almost done!",
+                                    "zh": "Almost done!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
