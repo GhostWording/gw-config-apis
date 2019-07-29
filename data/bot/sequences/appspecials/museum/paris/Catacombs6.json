@@ -1,0 +1,150 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In 2004, police found an illegal cinema in one of the tunnels!",
+                "fr": "In 2004, police found an illegal cinema in one of the tunnels!",
+                "es": "In 2004, police found an illegal cinema in one of the tunnels!",
+                "zh": "In 2004, police found an illegal cinema in one of the tunnels!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A fully equipped, professional cinema, complete with seats, film reels, giant screen, and a restaurant!",
+                "fr": "A fully equipped, professional cinema, complete with seats, film reels, giant screen, and a restaurant!",
+                "es": "A fully equipped, professional cinema, complete with seats, film reels, giant screen, and a restaurant!",
+                "zh": "A fully equipped, professional cinema, complete with seats, film reels, giant screen, and a restaurant!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This cinema was totally off record!",
+                "fr": "This cinema was totally off record!",
+                "es": "This cinema was totally off record!",
+                "zh": "This cinema was totally off record!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Catacombs6Wow",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "No way...",
+                "fr": "No way...",
+                "es": "No way...",
+                "zh": "No way..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s crazy!",
+                        "fr": "It’s crazy!",
+                        "es": "It’s crazy!",
+                        "zh": "It’s crazy!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!",
+                        "fr": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!",
+                        "es": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!",
+                        "zh": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And it’s not the only thing of that kind! The remains of illegal parties and events are regularly found… and people often go missing down there...",
+                        "fr": "And it’s not the only thing of that kind! The remains of illegal parties and events are regularly found… and people often go missing down there...",
+                        "es": "And it’s not the only thing of that kind! The remains of illegal parties and events are regularly found… and people often go missing down there...",
+                        "zh": "And it’s not the only thing of that kind! The remains of illegal parties and events are regularly found… and people often go missing down there..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs6WowStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs6WowSpooky",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Spooky!!",
+                            "fr": "Spooky!!",
+                            "es": "Spooky!!",
+                            "zh": "Spooky!!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”",
+                                    "fr": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”",
+                                    "es": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”",
+                                    "zh": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs7"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs6WowCool",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Cool place!",
+                            "fr": "Cool place!",
+                            "es": "Cool place!",
+                            "zh": "Cool place!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”",
+                                    "fr": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”",
+                                    "es": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”",
+                                    "zh": "In fact, there’s a whole secret community of cave explorers in the catacombs! They’re called the “cataphiles”"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs7"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
