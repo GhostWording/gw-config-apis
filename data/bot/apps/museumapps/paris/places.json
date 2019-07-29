@@ -131,7 +131,7 @@
           "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626234/catacombes_thumbnail.jpg"
       },
-      "SequenceId": "Catacombes",
+      "SequenceId": "Catacombs",
       "Location": {
           "Latitude": "48.8338325",
           "Longitude": "2.3324221999999963"
@@ -269,7 +269,7 @@
           "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630391/ile_de_la_cite_thumbnail.jpg"
       },
-      "SequenceId": "IleDeLaCite",
+      "SequenceId": "IleCite",
       "Location": {
           "Latitude": "48.8548825",
           "Longitude": "2.3474928000000546"
@@ -384,7 +384,7 @@
           "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631492/les_halles_thumbnail.jpg"
       },
-      "SequenceId": "MuseumIntro",
+      "SequenceId": "LesHalles",
       "Location": {
           "Latitude": "48.8620508",
           "Longitude": "2.3471531999999797"
@@ -614,7 +614,7 @@
           "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542710960/pere_lachaise_thumbnail.jpg"
       },
-      "SequenceId": "PereLachaise",
+      "SequenceId": "Lachaise",
       "Location": {
           "Latitude": "48.8627872",
           "Longitude": "2.3928086999999323"
@@ -852,7 +852,7 @@
       "Arrondissement": "1er arrondissement"
   },
   {
-      "Id": "SaintSulpice",
+      "Id": "Sulpice",
       "Caption": {
           "en": "Church of Saint-Sulpice",
           "fr": "L'Église Saint-Sulpice",
@@ -942,105 +942,5 @@
           "Longitude": "2.327494300000012"
       },
       "Arrondissement": "1er arrondissement"
-  },
-  {
-      "Id": "TestLiverpoolStreet",
-      "Caption": {
-          "en": "Liverpool Street"
-      },
-      "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714852/tuileries_preview.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714926/tuileries_thumbnail.jpg"
-      },
-      "SequenceId": "Tuileries",
-      "Location": {
-          "Latitude": "51.518485",
-          "Longitude": "-0.085018"
-      },
-      "Arrondissement": "1er arrondissement"
-  },
-  {
-    "Id": "TestHome",
-    "Caption": {
-        "en": "Home"
-    },
-    "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://desenio.co.uk/bilder/artiklar/zoom/10369_1.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://desenio.co.uk/bilder/artiklar/zoom/10369_1.jpg"
-    },
-    "SequenceId": "Tuileries",
-    "Location": {
-        "Latitude": "51.540124",
-        "Longitude": "-0.039996"
-    },
-    "Arrondissement": "1er arrondissement"
-  },
-  {
-    "Id": "TestMareStreet",
-    "Caption": {
-        "en": "Mare Street"
-    },
-    "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://hg-images.condecdn.net/image/796LW4EewXM/crop/3240/f/marestreetmarket_dining-room.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://hg-images.condecdn.net/image/796LW4EewXM/crop/3240/f/marestreetmarket_dining-room.jpg"
-    },
-    "SequenceId": "Tuileries",
-    "Location": {
-        "Latitude": "51.535637",
-        "Longitude": "-0.057230"
-    },
-    "Arrondissement": "1er arrondissement"
-  },
-  {
-    "Id": "TestOffice",
-    "Caption": {
-        "en": "Office"
-    },
-    "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/The_office_US.jpg/300px-The_office_US.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/The_office_US.jpg/300px-The_office_US.jpg"
-    },
-    "SequenceId": "Tuileries",
-    "Location": {
-        "Latitude": "51.519405",
-        "Longitude": "-0.087937"
-    },
-    "Arrondissement": "1er arrondissement"
-  },
-  {
-    "Id": "TestBoxPark",
-    "Caption": {
-        "en": "Box Park"
-    },
-    "DefaultImage": {
-        "Type": "Web",
-        "Path": "https://media.timeout.com/images/104693669/630/472/image.jpg"
-    },
-    "Thumbnail": {
-        "Type": "Web",
-        "Path": "https://media.timeout.com/images/104693669/630/472/image.jpg"
-    },
-    "SequenceId": "Tuileries",
-    "Location": {
-        "Latitude": "51.523645",
-        "Longitude": "-0.076842"
-    },
-    "Arrondissement": "1er arrondissement"
   }
 ]
