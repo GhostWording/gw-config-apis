@@ -1,0 +1,229 @@
+{
+    "Type": "Node",
+    "Id": "IleCite4",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This statue was actually destroyed at one point in France’s history… can you guess when?",
+                "fr": "This statue was actually destroyed at one point in France’s history… can you guess when?",
+                "es": "This statue was actually destroyed at one point in France’s history… can you guess when?",
+                "zh": "This statue was actually destroyed at one point in France’s history… can you guess when?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "IleCite4Revolution",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "The Revolution",
+                "fr": "The Revolution",
+                "es": "The Revolution",
+                "zh": "The Revolution"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct! I see you’ve noticed a pattern from reading my other stories 😂",
+                        "fr": "Correct! I see you’ve noticed a pattern from reading my other stories 😂",
+                        "es": "Correct! I see you’ve noticed a pattern from reading my other stories 😂",
+                        "zh": "Correct! I see you’ve noticed a pattern from reading my other stories 😂"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Fortunately, it was recast and restored later on, and rests there today!",
+                        "fr": "Fortunately, it was recast and restored later on, and rests there today!",
+                        "es": "Fortunately, it was recast and restored later on, and rests there today!",
+                        "zh": "Fortunately, it was recast and restored later on, and rests there today!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "IleCite4RevolutionStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite4RevolutionGood",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Thank goodness!",
+                            "fr": "Thank goodness!",
+                            "es": "Thank goodness!",
+                            "zh": "Thank goodness!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, those are some of the cool stories about the island",
+                                    "fr": "Anyway, those are some of the cool stories about the island",
+                                    "es": "Anyway, those are some of the cool stories about the island",
+                                    "zh": "Anyway, those are some of the cool stories about the island"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "IleCiteFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite4RevolutionDeath",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Death to kings!",
+                            "fr": "Death to kings!",
+                            "es": "Death to kings!",
+                            "zh": "Death to kings!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think you're a couple of centuries late!",
+                                    "fr": "I think you're a couple of centuries late!",
+                                    "es": "I think you're a couple of centuries late!",
+                                    "zh": "I think you're a couple of centuries late!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, those are some of the cool stories about the island",
+                                    "fr": "Anyway, those are some of the cool stories about the island",
+                                    "es": "Anyway, those are some of the cool stories about the island",
+                                    "zh": "Anyway, those are some of the cool stories about the island"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "IleCiteFeedback"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "IleCite4War",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "World War 2",
+                "fr": "World War 2",
+                "es": "World War 2",
+                "zh": "World War 2"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite! It was destroyed during the French Revolution, along with pretty much everything else!",
+                        "fr": "Not quite! It was destroyed during the French Revolution, along with pretty much everything else!",
+                        "es": "Not quite! It was destroyed during the French Revolution, along with pretty much everything else!",
+                        "zh": "Not quite! It was destroyed during the French Revolution, along with pretty much everything else!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's become a bit of a running theme in my stories!",
+                        "fr": "It's become a bit of a running theme in my stories!",
+                        "es": "It's become a bit of a running theme in my stories!",
+                        "zh": "It's become a bit of a running theme in my stories!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Fortunately, it was recast and restored later on, and rests there today!",
+                        "fr": "Fortunately, it was recast and restored later on, and rests there today!",
+                        "es": "Fortunately, it was recast and restored later on, and rests there today!",
+                        "zh": "Fortunately, it was recast and restored later on, and rests there today!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "IleCite4WarStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite4WarGood",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Thank goodness!",
+                            "fr": "Thank goodness!",
+                            "es": "Thank goodness!",
+                            "zh": "Thank goodness!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, those are some of the cool stories about the island",
+                                    "fr": "Anyway, those are some of the cool stories about the island",
+                                    "es": "Anyway, those are some of the cool stories about the island",
+                                    "zh": "Anyway, those are some of the cool stories about the island"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "IleCiteFeedback"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite4WarDeath",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Death to kings!",
+                            "fr": "Death to kings!",
+                            "es": "Death to kings!",
+                            "zh": "Death to kings!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think you're a couple of centuries late!",
+                                    "fr": "I think you're a couple of centuries late!",
+                                    "es": "I think you're a couple of centuries late!",
+                                    "zh": "I think you're a couple of centuries late!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, those are some of the cool stories about the island",
+                                    "fr": "Anyway, those are some of the cool stories about the island",
+                                    "es": "Anyway, those are some of the cool stories about the island",
+                                    "zh": "Anyway, those are some of the cool stories about the island"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "IleCiteFeedback"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
