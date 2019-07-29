@@ -1,0 +1,220 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So I bet you're wondering, how did all those bodies get there?",
+                "fr": "So I bet you're wondering, how did all those bodies get there?",
+                "es": "So I bet you're wondering, how did all those bodies get there?",
+                "zh": "So I bet you're wondering, how did all those bodies get there?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Catacombs3Yes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Yeah!",
+                "fr": "Yeah!",
+                "es": "Yeah!",
+                "zh": "Yeah!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!",
+                        "fr": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!",
+                        "es": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!",
+                        "zh": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!",
+                        "fr": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!",
+                        "es": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!",
+                        "zh": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs3YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs3YesGross",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Gross 💀!",
+                            "fr": "Gross 💀!",
+                            "es": "Gross 💀!",
+                            "zh": "Gross 💀!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not a horror fan I guess...",
+                                    "fr": "Not a horror fan I guess...",
+                                    "es": "Not a horror fan I guess...",
+                                    "zh": "Not a horror fan I guess..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs3YesCool",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Cool! 😈",
+                            "fr": "Cool! 😈",
+                            "es": "Cool! 😈",
+                            "zh": "Cool! 😈"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You must be a fan of the macabre! You'll love this place then...",
+                                    "fr": "You must be a fan of the macabre! You'll love this place then...",
+                                    "es": "You must be a fan of the macabre! You'll love this place then...",
+                                    "zh": "You must be a fan of the macabre! You'll love this place then..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Catacombs3No",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "I wasn't",
+                "fr": "I wasn't",
+                "es": "I wasn't",
+                "zh": "I wasn't"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will tell you anyway...",
+                        "fr": "I will tell you anyway...",
+                        "es": "I will tell you anyway...",
+                        "zh": "I will tell you anyway..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!",
+                        "fr": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!",
+                        "es": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!",
+                        "zh": "Over a period of two years, wagons carried piles of bodies from cemeteries into the tunnels!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!",
+                        "fr": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!",
+                        "es": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!",
+                        "zh": "It’s thought to be one of the largest relocations of human remains in history… a rather grisly record to hold!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs3NoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs3NoGross",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Gross 💀!",
+                            "fr": "Gross 💀!",
+                            "es": "Gross 💀!",
+                            "zh": "Gross 💀!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not a horror fan I guess...",
+                                    "fr": "Not a horror fan I guess...",
+                                    "es": "Not a horror fan I guess...",
+                                    "zh": "Not a horror fan I guess..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs3NoCool",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Cool! 😈",
+                            "fr": "Cool! 😈",
+                            "es": "Cool! 😈",
+                            "zh": "Cool! 😈"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You must be a fan of the macabre! You'll love this place then...",
+                                    "fr": "You must be a fan of the macabre! You'll love this place then...",
+                                    "es": "You must be a fan of the macabre! You'll love this place then...",
+                                    "zh": "You must be a fan of the macabre! You'll love this place then..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
