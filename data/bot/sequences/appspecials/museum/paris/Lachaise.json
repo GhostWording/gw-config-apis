@@ -1,0 +1,116 @@
+{
+    "Type": "Node",
+    "Id": "Lachaise",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!",
+                "fr": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!",
+                "es": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!",
+                "zh": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It attracts over 3.5 million people every year...",
+                "fr": "It attracts over 3.5 million people every year...",
+                "es": "It attracts over 3.5 million people every year...",
+                "zh": "It attracts over 3.5 million people every year..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Shall we discover why?",
+                "fr": "Shall we discover why?",
+                "es": "Shall we discover why?",
+                "zh": "Shall we discover why?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LachaiseYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Yeah!",
+                "es": "Yeah!",
+                "zh": "Yeah!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, firstly, it's really big - with over 1 million people buried there!",
+                        "fr": "Well, firstly, it's really big - with over 1 million people buried there!",
+                        "es": "Well, firstly, it's really big - with over 1 million people buried there!",
+                        "zh": "Well, firstly, it's really big - with over 1 million people buried there!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks",
+                        "fr": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks",
+                        "es": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks",
+                        "zh": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But most importantly, it's full of celebrities! There's a cool story behind that, too...",
+                        "fr": "But most importantly, it's full of celebrities! There's a cool story behind that, too...",
+                        "es": "But most importantly, it's full of celebrities! There's a cool story behind that, too...",
+                        "zh": "But most importantly, it's full of celebrities! There's a cool story behind that, too..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LachaiseYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LachaiseYesStart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let's hear it!",
+                            "fr": "Let's hear it!",
+                            "es": "Let's hear it!",
+                            "zh": "Let's hear it!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Alright!",
+                                    "fr": "Alright!",
+                                    "es": "Alright!",
+                                    "zh": "Alright!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Lachaise2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
