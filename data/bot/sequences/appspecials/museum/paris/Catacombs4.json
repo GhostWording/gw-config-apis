@@ -1,0 +1,247 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Exhuming remains is spooky business… so each of the wagonloads of bodies was accompanied by a priest, to ensure the souls were still at rest…",
+                "fr": "Exhuming remains is spooky business… so each of the wagonloads of bodies was accompanied by a priest, to ensure the souls were still at rest…",
+                "es": "Exhuming remains is spooky business… so each of the wagonloads of bodies was accompanied by a priest, to ensure the souls were still at rest…",
+                "zh": "Exhuming remains is spooky business… so each of the wagonloads of bodies was accompanied by a priest, to ensure the souls were still at rest…"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I guess they didn’t want to take the chance of 6 million ghosts and spectres being released into the night…",
+                "fr": "I guess they didn’t want to take the chance of 6 million ghosts and spectres being released into the night…",
+                "es": "I guess they didn’t want to take the chance of 6 million ghosts and spectres being released into the night…",
+                "zh": "I guess they didn’t want to take the chance of 6 million ghosts and spectres being released into the night…"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Catacombs4Boring",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "That's no fun",
+                "fr": "That's no fun",
+                "es": "That's no fun",
+                "zh": "That's no fun"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "However, that doesn't stop the catacombs from being spooky",
+                        "fr": "However, that doesn't stop the catacombs from being spooky",
+                        "es": "However, that doesn't stop the catacombs from being spooky",
+                        "zh": "However, that doesn't stop the catacombs from being spooky"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists",
+                        "fr": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists",
+                        "es": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists",
+                        "zh": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs4BoringStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs4BoringTasteless",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How tasteless!",
+                            "fr": "How tasteless!",
+                            "es": "How tasteless!",
+                            "zh": "How tasteless!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "fr": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "es": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "zh": "There’s a reason many horror films and ghost documentaries have been filmed down there…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs4BoringFun",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Fun!",
+                            "fr": "Fun!",
+                            "es": "Fun!",
+                            "zh": "Fun!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "fr": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "es": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "zh": "There’s a reason many horror films and ghost documentaries have been filmed down there…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Catacombs4Smart",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "A smart decision",
+                "fr": "A smart decision",
+                "es": "A smart decision",
+                "zh": "A smart decision"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But... did it work?",
+                        "fr": "But... did it work?",
+                        "es": "But... did it work?",
+                        "zh": "But... did it work?"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists",
+                        "fr": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists",
+                        "es": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists",
+                        "zh": "The place was purposefully redesigned in modern times to be a macabre attraction for tourists"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs4SmartStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs4SmartTasteless",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How tasteless!",
+                            "fr": "How tasteless!",
+                            "es": "How tasteless!",
+                            "zh": "How tasteless!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "fr": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "es": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "zh": "There’s a reason many horror films and ghost documentaries have been filmed down there…"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway! Time for some spooky stories...",
+                                    "fr": "Anyway! Time for some spooky stories...",
+                                    "es": "Anyway! Time for some spooky stories...",
+                                    "zh": "Anyway! Time for some spooky stories..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs4SmartFun",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Fun!",
+                            "fr": "Fun!",
+                            "es": "Fun!",
+                            "zh": "Fun!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "fr": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "es": "There’s a reason many horror films and ghost documentaries have been filmed down there…",
+                                    "zh": "There’s a reason many horror films and ghost documentaries have been filmed down there…"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway! Time for some spooky stories...",
+                                    "fr": "Anyway! Time for some spooky stories...",
+                                    "es": "Anyway! Time for some spooky stories...",
+                                    "zh": "Anyway! Time for some spooky stories..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
