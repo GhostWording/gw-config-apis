@@ -1,0 +1,114 @@
+{
+    "Type": "Node",
+    "Id": "IleCite3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s likely one of the reasons it’s still the capital to this day!",
+                "fr": "It’s likely one of the reasons it’s still the capital to this day!",
+                "es": "It’s likely one of the reasons it’s still the capital to this day!",
+                "zh": "It’s likely one of the reasons it’s still the capital to this day!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "IleCite3Awesome",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Awesome!",
+                "fr": "Awesome!",
+                "es": "Awesome!",
+                "zh": "Awesome!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "At the Western end, theres the Pont Neuf, which means “new bridge”",
+                        "fr": "At the Western end, theres the Pont Neuf, which means “new bridge”",
+                        "es": "At the Western end, theres the Pont Neuf, which means “new bridge”",
+                        "zh": "At the Western end, theres the Pont Neuf, which means “new bridge”"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s ironic, then, that this is in fact the oldest bridge in Paris 🤣",
+                        "fr": "It’s ironic, then, that this is in fact the oldest bridge in Paris 🤣",
+                        "es": "It’s ironic, then, that this is in fact the oldest bridge in Paris 🤣",
+                        "zh": "It’s ironic, then, that this is in fact the oldest bridge in Paris 🤣"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "IleCite3AwesomeStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite3AwesomeNice",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Nice joke...",
+                            "fr": "Nice joke...",
+                            "es": "Nice joke...",
+                            "zh": "Nice joke..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner",
+                                    "fr": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner",
+                                    "es": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner",
+                                    "zh": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "IleCite4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite3AwesomeCurious",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How curious...",
+                            "fr": "How curious...",
+                            "es": "How curious...",
+                            "zh": "How curious..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner",
+                                    "fr": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner",
+                                    "es": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner",
+                                    "zh": "Right near there, King Henry IV’s wife had a statue built in 1614, which depicted the king riding a horse in a classic heroic manner"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "IleCite4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
