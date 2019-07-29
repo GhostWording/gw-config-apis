@@ -1,0 +1,321 @@
+{
+    "Type": "Node",
+    "Id": "IleCite2",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TricheurC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But speaking of protection from enemies, what’s better protection than a natural island, surrounded by a river?",
+                "fr": "But speaking of protection from enemies, what’s better protection than a natural island, surrounded by a river?",
+                "es": "But speaking of protection from enemies, what’s better protection than a natural island, surrounded by a river?",
+                "zh": "But speaking of protection from enemies, what’s better protection than a natural island, surrounded by a river?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "IleCite2Nothing",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Nothing",
+                "fr": "Nothing",
+                "es": "Nothing",
+                "zh": "Nothing"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! So as a result, the island was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…",
+                        "fr": "Right! So as a result, the island was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…",
+                        "es": "Right! So as a result, the island was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…",
+                        "zh": "Right! So as a result, the island was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s believed to have had at least some kind of palace on it for over 1000 years!",
+                        "fr": "It’s believed to have had at least some kind of palace on it for over 1000 years!",
+                        "es": "It’s believed to have had at least some kind of palace on it for over 1000 years!",
+                        "zh": "It’s believed to have had at least some kind of palace on it for over 1000 years!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "IleCite2NothingStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite2NothingImpressive",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Impressive!",
+                            "fr": "Impressive!",
+                            "es": "Impressive!",
+                            "zh": "Impressive!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It came in super handy in 886 when Paris was besieged by the Vikings!",
+                                    "fr": "It came in super handy in 886 when Paris was besieged by the Vikings!",
+                                    "es": "It came in super handy in 886 when Paris was besieged by the Vikings!",
+                                    "zh": "It came in super handy in 886 when Paris was besieged by the Vikings!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 880,
+                                    "Height": 550,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!",
+                                    "fr": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!",
+                                    "es": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!",
+                                    "zh": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "IleCite2NothingImpressiveStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "IleCite2NothingImpressiveNice",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Nice strategy!",
+                                        "fr": "Nice strategy!",
+                                        "es": "Nice strategy!",
+                                        "zh": "Nice strategy!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "fr": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "es": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "zh": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "IleCite3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "IleCite2NothingImpressiveInteresting",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Interesting!",
+                                        "fr": "Interesting!",
+                                        "es": "Interesting!",
+                                        "zh": "Interesting!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "fr": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "es": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "zh": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "IleCite3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "IleCite2Tank",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "A tank!",
+                "fr": "A tank!",
+                "es": "A tank!",
+                "zh": "A tank!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK, maybe that... but the island is useful too!",
+                        "fr": "OK, maybe that... but the island is useful too!",
+                        "es": "OK, maybe that... but the island is useful too!",
+                        "zh": "OK, maybe that... but the island is useful too!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…",
+                        "fr": "It was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…",
+                        "es": "It was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…",
+                        "zh": "It was regularly used by the various civilisations and nations that inhabited the area. The Gauls, the Romans, the Franks…"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s believed to have had at least some kind of palace on it for over 1000 years!",
+                        "fr": "It’s believed to have had at least some kind of palace on it for over 1000 years!",
+                        "es": "It’s believed to have had at least some kind of palace on it for over 1000 years!",
+                        "zh": "It’s believed to have had at least some kind of palace on it for over 1000 years!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "IleCite2TankStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "IleCite2TankImpressive",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Impressive!",
+                            "fr": "Impressive!",
+                            "es": "Impressive!",
+                            "zh": "Impressive!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It came in super handy in 886 when Paris was besieged by the Vikings!",
+                                    "fr": "It came in super handy in 886 when Paris was besieged by the Vikings!",
+                                    "es": "It came in super handy in 886 when Paris was besieged by the Vikings!",
+                                    "zh": "It came in super handy in 886 when Paris was besieged by the Vikings!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 880,
+                                    "Height": 550,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!",
+                                    "fr": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!",
+                                    "es": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!",
+                                    "zh": "Even though the Frankish forces had hardly any troops, the raiders just couldn’t storm the island… and the Franks managed to hold off until reinforcements arrived!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "IleCite2TankImpressiveStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "IleCite2TankImpressiveNice",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Nice strategy!",
+                                        "fr": "Nice strategy!",
+                                        "es": "Nice strategy!",
+                                        "zh": "Nice strategy!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "fr": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "es": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "zh": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "IleCite3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "IleCite2TankImpressiveInteresting",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Interesting!",
+                                        "fr": "Interesting!",
+                                        "es": "Interesting!",
+                                        "zh": "Interesting!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "fr": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "es": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France",
+                                                "zh": "At the time, Paris was just one of many important cities in France, but after that point, it became clear that it was the key to France"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "IleCite3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
