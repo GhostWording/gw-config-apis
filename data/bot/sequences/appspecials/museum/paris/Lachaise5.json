@@ -1,0 +1,341 @@
+{
+    "Type": "Node",
+    "Id": "Lachaise5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Victor Noir’s resting body is said to bring fertility if touched in a specific place...",
+                "fr": "Victor Noir’s resting body is said to bring fertility if touched in a specific place...",
+                "es": "Victor Noir’s resting body is said to bring fertility if touched in a specific place...",
+                "zh": "Victor Noir’s resting body is said to bring fertility if touched in a specific place..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "🤔",
+                "fr": "🤔",
+                "es": "🤔",
+                "zh": "🤔"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lachaise5Weird",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Weird!",
+                "fr": "Weird!",
+                "es": "Weird!",
+                "zh": "Weird!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum",
+                        "fr": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum",
+                        "es": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum",
+                        "zh": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "She is said to have left a challenge in her will",
+                        "fr": "She is said to have left a challenge in her will",
+                        "es": "She is said to have left a challenge in her will",
+                        "zh": "She is said to have left a challenge in her will"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lachaise5WeirdStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise5WeirdWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What is it?",
+                            "fr": "What is it?",
+                            "es": "What is it?",
+                            "zh": "What is it?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The legend is that anyone who spent an entire year in her tomb without leaving...",
+                                    "fr": "The legend is that anyone who spent an entire year in her tomb without leaving...",
+                                    "es": "The legend is that anyone who spent an entire year in her tomb without leaving...",
+                                    "zh": "The legend is that anyone who spent an entire year in her tomb without leaving..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Would receive a split of her considerable fortune…",
+                                    "fr": "Would receive a split of her considerable fortune…",
+                                    "es": "Would receive a split of her considerable fortune…",
+                                    "zh": "Would receive a split of her considerable fortune…"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Many people have tried, but none have succeeded, so the rumour lives on!",
+                                    "fr": "Many people have tried, but none have succeeded, so the rumour lives on!",
+                                    "es": "Many people have tried, but none have succeeded, so the rumour lives on!",
+                                    "zh": "Many people have tried, but none have succeeded, so the rumour lives on!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Would you do it?",
+                                    "fr": "Would you do it?",
+                                    "es": "Would you do it?",
+                                    "zh": "Would you do it?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Lachaise5WeirdWhatStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Lachaise5WeirdWhatYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yeah!",
+                                        "fr": "Yeah!",
+                                        "es": "Yeah!",
+                                        "zh": "Yeah!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Why not start today? I'll see you in a year...",
+                                                "fr": "Why not start today? I'll see you in a year...",
+                                                "es": "Why not start today? I'll see you in a year...",
+                                                "zh": "Why not start today? I'll see you in a year..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Lachaise6"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Lachaise5WeirdWhatNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thanks",
+                                        "fr": "No thanks",
+                                        "es": "No thanks",
+                                        "zh": "No thanks"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Probably a good idea...",
+                                                "fr": "Probably a good idea...",
+                                                "es": "Probably a good idea...",
+                                                "zh": "Probably a good idea..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Lachaise6"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lachaise5Wow",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Wow...",
+                "fr": "Wow...",
+                "es": "Wow...",
+                "zh": "Wow..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum",
+                        "fr": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum",
+                        "es": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum",
+                        "zh": "One Russian aristocrat, Elisabeth Alexandrovna Stroganoff, is buried in a towering mausoleum"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "She is said to have left a challenge in her will",
+                        "fr": "She is said to have left a challenge in her will",
+                        "es": "She is said to have left a challenge in her will",
+                        "zh": "She is said to have left a challenge in her will"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lachaise5WowStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise5WowWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What is it?",
+                            "fr": "What is it?",
+                            "es": "What is it?",
+                            "zh": "What is it?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The legend is that anyone who spent an entire year in her tomb without leaving...",
+                                    "fr": "The legend is that anyone who spent an entire year in her tomb without leaving...",
+                                    "es": "The legend is that anyone who spent an entire year in her tomb without leaving...",
+                                    "zh": "The legend is that anyone who spent an entire year in her tomb without leaving..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Would receive a split of her considerable fortune…",
+                                    "fr": "Would receive a split of her considerable fortune…",
+                                    "es": "Would receive a split of her considerable fortune…",
+                                    "zh": "Would receive a split of her considerable fortune…"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Many people have tried, but none have succeeded, so the rumour lives on!",
+                                    "fr": "Many people have tried, but none have succeeded, so the rumour lives on!",
+                                    "es": "Many people have tried, but none have succeeded, so the rumour lives on!",
+                                    "zh": "Many people have tried, but none have succeeded, so the rumour lives on!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Would you do it?",
+                                    "fr": "Would you do it?",
+                                    "es": "Would you do it?",
+                                    "zh": "Would you do it?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Lachaise5WowWhatStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Lachaise5WowWhatYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yeah!",
+                                        "fr": "Yeah!",
+                                        "es": "Yeah!",
+                                        "zh": "Yeah!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Why not start today? I'll see you in a year...",
+                                                "fr": "Why not start today? I'll see you in a year...",
+                                                "es": "Why not start today? I'll see you in a year...",
+                                                "zh": "Why not start today? I'll see you in a year..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Lachaise6"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Lachaise5WowWhatNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No thanks",
+                                        "fr": "No thanks",
+                                        "es": "No thanks",
+                                        "zh": "No thanks"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Probably a good idea...",
+                                                "fr": "Probably a good idea...",
+                                                "es": "Probably a good idea...",
+                                                "zh": "Probably a good idea..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Lachaise6"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
