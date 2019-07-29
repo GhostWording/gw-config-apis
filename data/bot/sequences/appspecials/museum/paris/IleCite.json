@@ -1,0 +1,179 @@
+{
+    "Type": "Node",
+    "Id": "IleCite",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "While you've been learning all about Paris, you've probably been wondering 'where is the centre?'",
+                "fr": "While you've been learning all about Paris, you've probably been wondering 'where is the centre?'",
+                "es": "While you've been learning all about Paris, you've probably been wondering 'where is the centre?'",
+                "zh": "While you've been learning all about Paris, you've probably been wondering 'where is the centre?'"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well, it's right here!",
+                "fr": "Well, it's right here!",
+                "es": "Well, it's right here!",
+                "zh": "Well, it's right here!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "On the larger of the two islands that rest in the Seine: l’Ile de la Cite",
+                "fr": "On the larger of the two islands that rest in the Seine: l’Ile de la Cite",
+                "es": "On the larger of the two islands that rest in the Seine: l’Ile de la Cite",
+                "zh": "On the larger of the two islands that rest in the Seine: l’Ile de la Cite"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "IleCiteInteresting",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Good to know!",
+                "fr": "Good to know!",
+                "es": "Good to know!",
+                "zh": "Good to know!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "All distances in France from Paris are calculated from this island!",
+                        "fr": "All distances in France from Paris are calculated from this island!",
+                        "es": "All distances in France from Paris are calculated from this island!",
+                        "zh": "All distances in France from Paris are calculated from this island!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "We think it has been the traditional centre of the city for thousands of years!",
+                        "fr": "We think it has been the traditional centre of the city for thousands of years!",
+                        "es": "We think it has been the traditional centre of the city for thousands of years!",
+                        "zh": "We think it has been the traditional centre of the city for thousands of years!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "IleCiteInterestingStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "IleCiteInterestingWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why?",
+                            "fr": "Why?",
+                            "es": "Why?",
+                            "zh": "Why?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, ancient people loved to set up their settlements near rivers",
+                                    "fr": "Well, ancient people loved to set up their settlements near rivers",
+                                    "es": "Well, ancient people loved to set up their settlements near rivers",
+                                    "zh": "Well, ancient people loved to set up their settlements near rivers"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "After all, they gave protection from enemies, opportunities for trade and transport, fertile soil for farming, water to drink, and opportunities for fishing!",
+                                    "fr": "After all, they gave protection from enemies, opportunities for trade and transport, fertile soil for farming, water to drink, and opportunities for fishing!",
+                                    "es": "After all, they gave protection from enemies, opportunities for trade and transport, fertile soil for farming, water to drink, and opportunities for fishing!",
+                                    "zh": "After all, they gave protection from enemies, opportunities for trade and transport, fertile soil for farming, water to drink, and opportunities for fishing!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "IleCiteInterestingWhyStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "IleCiteInterestingWhyOK",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I suppose",
+                                        "fr": "I suppose",
+                                        "es": "I suppose",
+                                        "zh": "I suppose"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It’s no surprise that so many of our most famous cities are based around rivers!",
+                                                "fr": "It’s no surprise that so many of our most famous cities are based around rivers!",
+                                                "es": "It’s no surprise that so many of our most famous cities are based around rivers!",
+                                                "zh": "It’s no surprise that so many of our most famous cities are based around rivers!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "IleCite2"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "IleCiteInterestingWhySure",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Of course",
+                                        "fr": "Of course",
+                                        "es": "Of course",
+                                        "zh": "Of course"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It’s no surprise that so many of our most famous cities are based around rivers!",
+                                                "fr": "It’s no surprise that so many of our most famous cities are based around rivers!",
+                                                "es": "It’s no surprise that so many of our most famous cities are based around rivers!",
+                                                "zh": "It’s no surprise that so many of our most famous cities are based around rivers!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "IleCite2"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
