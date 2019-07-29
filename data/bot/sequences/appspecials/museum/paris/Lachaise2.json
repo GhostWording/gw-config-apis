@@ -1,0 +1,179 @@
+{
+    "Type": "Node",
+    "Id": "Lachaise2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past",
+                "fr": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past",
+                "es": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past",
+                "zh": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804",
+                "fr": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804",
+                "es": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804",
+                "zh": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Unfortunately, no-one wanted to be buried there!",
+                "fr": "Unfortunately, no-one wanted to be buried there!",
+                "es": "Unfortunately, no-one wanted to be buried there!",
+                "zh": "Unfortunately, no-one wanted to be buried there!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lachaise2Why",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Why?",
+                "fr": "Why?",
+                "es": "Why?",
+                "zh": "Why?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, it was quite far away from the centre at that time...",
+                        "fr": "Well, it was quite far away from the centre at that time...",
+                        "es": "Well, it was quite far away from the centre at that time...",
+                        "zh": "Well, it was quite far away from the centre at that time..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!",
+                        "fr": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!",
+                        "es": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!",
+                        "zh": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lachaise2WhyStep",
+                "ElementValue": "1",
+                "Commands:": [
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise2WhyOK",
+                        "ElementValue": "1",
+                        "Commandlabel": {
+                            "en": "Makes sense",
+                            "fr": "Makes sense",
+                            "es": "Makes sense",
+                            "zh": "Makes sense"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony",
+                                    "fr": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony",
+                                    "es": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony",
+                                    "zh": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 880,
+                                    "Height": 550,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It worked amazingly! Everyone wanted to be buried near the celebrities",
+                                    "fr": "It worked amazingly! Everyone wanted to be buried near the celebrities",
+                                    "es": "It worked amazingly! Everyone wanted to be buried near the celebrities",
+                                    "zh": "It worked amazingly! Everyone wanted to be buried near the celebrities"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Lachaise2WhyOKStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Lachaise2WhyOKYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Who wouldn't",
+                                        "fr": "Who wouldn't",
+                                        "es": "Who wouldn't",
+                                        "zh": "Who wouldn't"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "In fact, it worked a little too well!",
+                                                "fr": "In fact, it worked a little too well!",
+                                                "es": "In fact, it worked a little too well!",
+                                                "zh": "In fact, it worked a little too well!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Lachaise3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Lachaise2WhyOKWeird",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "That's weird",
+                                        "fr": "That's weird",
+                                        "es": "That's weird",
+                                        "zh": "That's weird"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Well, it worked a little too well!",
+                                                "fr": "Well, it worked a little too well!",
+                                                "es": "Well, it worked a little too well!",
+                                                "zh": "Well, it worked a little too well!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Lachaise3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
