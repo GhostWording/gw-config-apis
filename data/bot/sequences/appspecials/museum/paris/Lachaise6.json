@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "Lachaise6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There’s also a plaque dedicated to the 147 rebels who were shot by the government in 1871 when the Commune was crushed",
+                "fr": "There’s also a plaque dedicated to the 147 rebels who were shot by the government in 1871 when the Commune was crushed",
+                "es": "There’s also a plaque dedicated to the 147 rebels who were shot by the government in 1871 when the Commune was crushed",
+                "zh": "There’s also a plaque dedicated to the 147 rebels who were shot by the government in 1871 when the Commune was crushed"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That story is too long to tell here...",
+                "fr": "That story is too long to tell here...",
+                "es": "That story is too long to tell here...",
+                "zh": "That story is too long to tell here..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But as a result, the graveyard remains a popular meeting point for anarchists and socialists to this day!",
+                "fr": "But as a result, the graveyard remains a popular meeting point for anarchists and socialists to this day!",
+                "es": "But as a result, the graveyard remains a popular meeting point for anarchists and socialists to this day!",
+                "zh": "But as a result, the graveyard remains a popular meeting point for anarchists and socialists to this day!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lachaise6Sure",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Of course!",
+                "fr": "Of course!",
+                "es": "Of course!",
+                "zh": "Of course!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's a lovely place... please check it out!",
+                        "fr": "It's a lovely place... please check it out!",
+                        "es": "It's a lovely place... please check it out!",
+                        "zh": "It's a lovely place... please check it out!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LachaiseFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lachaise6Avoid",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "I'll avoid it!",
+                "fr": "I'll avoid it!",
+                "es": "I'll avoid it!",
+                "zh": "I'll avoid it!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No... don't! It's a lovely place... please check it out!",
+                        "fr": "No... don't! It's a lovely place... please check it out!",
+                        "es": "No... don't! It's a lovely place... please check it out!",
+                        "zh": "No... don't! It's a lovely place... please check it out!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LachaiseFeedback"
+            }
+        }
+    ]
+}
