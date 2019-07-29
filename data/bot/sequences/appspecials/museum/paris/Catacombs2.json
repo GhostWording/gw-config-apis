@@ -1,0 +1,161 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Much of Paris used to rest on rich deposits of limestone, and so extensive mining tunnels were dug in medieval times!",
+                "fr": "Much of Paris used to rest on rich deposits of limestone, and so extensive mining tunnels were dug in medieval times!",
+                "es": "Much of Paris used to rest on rich deposits of limestone, and so extensive mining tunnels were dug in medieval times!",
+                "zh": "Much of Paris used to rest on rich deposits of limestone, and so extensive mining tunnels were dug in medieval times!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Catacombs2So",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "So?",
+                "fr": "So?",
+                "es": "So?",
+                "zh": "So?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Unfortunately, the methods used at that time were rather unsafe...",
+                        "fr": "Unfortunately, the methods used at that time were rather unsafe...",
+                        "es": "Unfortunately, the methods used at that time were rather unsafe...",
+                        "zh": "Unfortunately, the methods used at that time were rather unsafe..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As a result, when buildings started to be developed on the ground above the mines, collapses occurred…",
+                        "fr": "As a result, when buildings started to be developed on the ground above the mines, collapses occurred…",
+                        "es": "As a result, when buildings started to be developed on the ground above the mines, collapses occurred…",
+                        "zh": "As a result, when buildings started to be developed on the ground above the mines, collapses occurred…"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs2SoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs2SoDear",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Oh dear...",
+                            "fr": "Oh dear...",
+                            "es": "Oh dear...",
+                            "zh": "Oh dear..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Once the mines were depleted, the tunnels lost their primary purpose!",
+                                    "fr": "Once the mines were depleted, the tunnels lost their primary purpose!",
+                                    "es": "Once the mines were depleted, the tunnels lost their primary purpose!",
+                                    "zh": "Once the mines were depleted, the tunnels lost their primary purpose!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Fortunately, they became useful again in the 18th century, when Paris’ cemeteries began to overflow",
+                                    "fr": "Fortunately, they became useful again in the 18th century, when Paris’ cemeteries began to overflow",
+                                    "es": "Fortunately, they became useful again in the 18th century, when Paris’ cemeteries began to overflow",
+                                    "zh": "Fortunately, they became useful again in the 18th century, when Paris’ cemeteries began to overflow"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The tunnels were the ideal venue to dump a whole load of bones! 6 million bodies’ worth, in fact!",
+                                    "fr": "The tunnels were the ideal venue to dump a whole load of bones! 6 million bodies’ worth, in fact!",
+                                    "es": "The tunnels were the ideal venue to dump a whole load of bones! 6 million bodies’ worth, in fact!",
+                                    "zh": "The tunnels were the ideal venue to dump a whole load of bones! 6 million bodies’ worth, in fact!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Catacombs2SoDearStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Catacombs2SoDearWow",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Oh wow...",
+                                        "fr": "Oh wow...",
+                                        "es": "Oh wow...",
+                                        "zh": "Oh wow..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "A practical solution, in my view!",
+                                                "fr": "A practical solution, in my view!",
+                                                "es": "A practical solution, in my view!",
+                                                "zh": "A practical solution, in my view!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Catacombs3"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Catacombs2SoDearSense",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Makes sense!",
+                                        "fr": "Makes sense!",
+                                        "es": "Makes sense!",
+                                        "zh": "Makes sense!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "A practical solution, in my view!",
+                                                "fr": "A practical solution, in my view!",
+                                                "es": "A practical solution, in my view!",
+                                                "zh": "A practical solution, in my view!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Catacombs3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
