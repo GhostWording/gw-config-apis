@@ -1,0 +1,229 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital",
+                "fr": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital",
+                "es": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital",
+                "zh": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He had been missing since 1793… it took eleven years for his body to be found!",
+                "fr": "He had been missing since 1793… it took eleven years for his body to be found!",
+                "es": "He had been missing since 1793… it took eleven years for his body to be found!",
+                "zh": "He had been missing since 1793… it took eleven years for his body to be found!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Catacombs5Awful",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "How awful!",
+                "fr": "How awful!",
+                "es": "How awful!",
+                "zh": "How awful!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "fr": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "es": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "zh": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He was buried where he was found, and a tombstone has been left there…",
+                        "fr": "He was buried where he was found, and a tombstone has been left there…",
+                        "es": "He was buried where he was found, and a tombstone has been left there…",
+                        "zh": "He was buried where he was found, and a tombstone has been left there…"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs5AwfulStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs5AwfulAnother",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me another!",
+                            "fr": "Tell me another!",
+                            "es": "Tell me another!",
+                            "zh": "Tell me another!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK!",
+                                    "fr": "OK!",
+                                    "es": "OK!",
+                                    "zh": "OK!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs5AwfulBoring",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not scary...",
+                            "fr": "Not scary...",
+                            "es": "Not scary...",
+                            "zh": "Not scary..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This next one will be!",
+                                    "fr": "This next one will be!",
+                                    "es": "This next one will be!",
+                                    "zh": "This next one will be!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs6"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Catacombs5Next",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "What then..?",
+                "fr": "What then..?",
+                "es": "What then..?",
+                "zh": "What then..?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "fr": "No cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "es": "No cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "zh": "No cause of death was determined, and to this day, we do not know why he entered the catacombs"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He was buried where he was found, and a tombstone has been left there…",
+                        "fr": "He was buried where he was found, and a tombstone has been left there…",
+                        "es": "He was buried where he was found, and a tombstone has been left there…",
+                        "zh": "He was buried where he was found, and a tombstone has been left there…"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Catacombs5NextStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs5NextAnother",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me another!",
+                            "fr": "Tell me another!",
+                            "es": "Tell me another!",
+                            "zh": "Tell me another!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK!",
+                                    "fr": "OK!",
+                                    "es": "OK!",
+                                    "zh": "OK!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Catacombs5NextBoring",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not scary...",
+                            "fr": "Not scary...",
+                            "es": "Not scary...",
+                            "zh": "Not scary..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This next one will be!",
+                                    "fr": "This next one will be!",
+                                    "es": "This next one will be!",
+                                    "zh": "This next one will be!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
