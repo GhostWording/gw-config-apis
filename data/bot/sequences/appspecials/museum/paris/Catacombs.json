@@ -1,0 +1,211 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?",
+                "fr": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?",
+                "es": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?",
+                "zh": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "CatacombsUntrue",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Untrue",
+                "fr": "Untrue",
+                "es": "Untrue",
+                "zh": "Untrue"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yep, it’s true! They’re called the Catacombs!",
+                        "fr": "Yep, it’s true! They’re called the Catacombs!",
+                        "es": "Yep, it’s true! They’re called the Catacombs!",
+                        "zh": "Yep, it’s true! They’re called the Catacombs!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "fr": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "es": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "zh": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "CatacombsUntrueStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "CatacombsUntrueSkip",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Skip!",
+                            "fr": "Skip!",
+                            "es": "Skip!",
+                            "zh": "Skip!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Alright!",
+                                    "fr": "Alright!",
+                                    "es": "Alright!",
+                                    "zh": "Alright!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "CatacombsUntrueHistory",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "History first!",
+                            "fr": "History first!",
+                            "es": "History first!",
+                            "zh": "History first!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Good choice!",
+                                    "fr": "Good choice!",
+                                    "es": "Good choice!",
+                                    "zh": "Good choice!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "CatacombsTrue",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "True",
+                "fr": "True",
+                "es": "True",
+                "zh": "True"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! The famous Catacombs!",
+                        "fr": "Right! The famous Catacombs!",
+                        "es": "Right! The famous Catacombs!",
+                        "zh": "Right! The famous Catacombs!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "fr": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "es": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "zh": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "CatacombsTrueStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "CatacombsTrueSkip",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Skip!",
+                            "fr": "Skip!",
+                            "es": "Skip!",
+                            "zh": "Skip!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Alright!",
+                                    "fr": "Alright!",
+                                    "es": "Alright!",
+                                    "zh": "Alright!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "CatacombsTrueHistory",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "History first!",
+                            "fr": "History first!",
+                            "es": "History first!",
+                            "zh": "History first!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Good choice!",
+                                    "fr": "Good choice!",
+                                    "es": "Good choice!",
+                                    "zh": "Good choice!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Catacombs2"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
