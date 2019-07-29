@@ -1,0 +1,108 @@
+{
+    "Type": "Node",
+    "Id": "Lachaise3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These days, the cemetery is actually too full! There’s a huge waiting list…",
+                "fr": "These days, the cemetery is actually too full! There’s a huge waiting list…",
+                "es": "These days, the cemetery is actually too full! There’s a huge waiting list…",
+                "zh": "These days, the cemetery is actually too full! There’s a huge waiting list…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's status as a celebrity graveyard has continued to this day, though!",
+                "fr": "It's status as a celebrity graveyard has continued to this day, though!",
+                "es": "It's status as a celebrity graveyard has continued to this day, though!",
+                "zh": "It's status as a celebrity graveyard has continued to this day, though!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Want to hear about some of the coolest or most famous graves?",
+                "fr": "Want to hear about some of the coolest or most famous graves?",
+                "es": "Want to hear about some of the coolest or most famous graves?",
+                "zh": "Want to hear about some of the coolest or most famous graves?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lachaise3Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Yeah!",
+                "es": "Yeah!",
+                "zh": "Yeah!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here's a few of the most famous ones:",
+                        "fr": "Here's a few of the most famous ones:",
+                        "es": "Here's a few of the most famous ones:",
+                        "zh": "Here's a few of the most famous ones:"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/museum/LachaiseC1.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's the Beverly Hills of graveyards!",
+                        "fr": "It's the Beverly Hills of graveyards!",
+                        "es": "It's the Beverly Hills of graveyards!",
+                        "zh": "It's the Beverly Hills of graveyards!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lachaise3YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise3YesMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Show me more!",
+                            "fr": "Show me more!",
+                            "es": "Show me more!",
+                            "zh": "Show me more!"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "Lachaise4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lachaise3No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now",
+                "fr": "Pas maintenant",
+                "es": "Not right now",
+                "zh": "Not right now"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Exit"
+            }
+        }
+    ]
+}
