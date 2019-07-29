@@ -1,0 +1,229 @@
+{
+    "Type": "Node",
+    "Id": "Lachaise4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I especially like this: of Rodenbach bursting out of his tomb… how creepy!",
+                "fr": "I especially like this: of Rodenbach bursting out of his tomb… how creepy!",
+                "es": "I especially like this: of Rodenbach bursting out of his tomb… how creepy!",
+                "zh": "I especially like this: of Rodenbach bursting out of his tomb… how creepy!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And, of course, many superstitions or traditions exist concerning some of these famous graves!",
+                "fr": "And, of course, many superstitions or traditions exist concerning some of these famous graves!",
+                "es": "And, of course, many superstitions or traditions exist concerning some of these famous graves!",
+                "zh": "And, of course, many superstitions or traditions exist concerning some of these famous graves!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Lachaise4What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Like what?",
+                "fr": "Like what?",
+                "es": "Like what?",
+                "zh": "Like what?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oscar Wilde’s is covered in lipstick",
+                        "fr": "Oscar Wilde’s is covered in lipstick",
+                        "es": "Oscar Wilde’s is covered in lipstick",
+                        "zh": "Oscar Wilde’s is covered in lipstick"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And some say ghosts replenish the flowers on Colette’s tomb…",
+                        "fr": "And some say ghosts replenish the flowers on Colette’s tomb…",
+                        "es": "And some say ghosts replenish the flowers on Colette’s tomb…",
+                        "zh": "And some say ghosts replenish the flowers on Colette’s tomb…"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lachaise4WhatStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise4WhatNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No way",
+                            "fr": "No way",
+                            "es": "No way",
+                            "zh": "No way"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Maybe you should set up a camera to check!",
+                                    "fr": "Maybe you should set up a camera to check!",
+                                    "es": "Maybe you should set up a camera to check!",
+                                    "zh": "Maybe you should set up a camera to check!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Lachaise5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise4WhatTrue",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It's true",
+                            "fr": "It's true",
+                            "es": "It's true",
+                            "zh": "It's true"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's nice to see a fellow believer!",
+                                    "fr": "It's nice to see a fellow believer!",
+                                    "es": "It's nice to see a fellow believer!",
+                                    "zh": "It's nice to see a fellow believer!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Lachaise5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Lachaise4Typical",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Typical",
+                "fr": "Typical",
+                "es": "Typical",
+                "zh": "Typical"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oscar Wilde’s is covered in lipstick",
+                        "fr": "Oscar Wilde’s is covered in lipstick",
+                        "es": "Oscar Wilde’s is covered in lipstick",
+                        "zh": "Oscar Wilde’s is covered in lipstick"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 880,
+                        "Height": 550,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And some say ghosts replenish the flowers on Colette’s tomb…",
+                        "fr": "And some say ghosts replenish the flowers on Colette’s tomb…",
+                        "es": "And some say ghosts replenish the flowers on Colette’s tomb…",
+                        "zh": "And some say ghosts replenish the flowers on Colette’s tomb…"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Lachaise4TypicalStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise4TypicalNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No way",
+                            "fr": "No way",
+                            "es": "No way",
+                            "zh": "No way"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Maybe you should set up a camera to check!",
+                                    "fr": "Maybe you should set up a camera to check!",
+                                    "es": "Maybe you should set up a camera to check!",
+                                    "zh": "Maybe you should set up a camera to check!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Lachaise5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Lachaise4TypicalTrue",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It's true",
+                            "fr": "It's true",
+                            "es": "It's true",
+                            "zh": "It's true"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's nice to see a fellow believer!",
+                                    "fr": "It's nice to see a fellow believer!",
+                                    "es": "It's nice to see a fellow believer!",
+                                    "zh": "It's nice to see a fellow believer!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Lachaise5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
