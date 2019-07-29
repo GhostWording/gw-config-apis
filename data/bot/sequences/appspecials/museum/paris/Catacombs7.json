@@ -1,0 +1,131 @@
+{
+    "Type": "Node",
+    "Id": "Catacombs7",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They get up to a lot… including going for night swims!",
+                "fr": "They get up to a lot… including going for night swims!",
+                "es": "They get up to a lot… including going for night swims!",
+                "zh": "They get up to a lot… including going for night swims!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They very likely know the tunnel system better than the authorities",
+                "fr": "They very likely know the tunnel system better than the authorities",
+                "es": "They very likely know the tunnel system better than the authorities",
+                "zh": "They very likely know the tunnel system better than the authorities"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you approve of their activities?",
+                "fr": "Do you approve of their activities?",
+                "es": "Do you approve of their activities?",
+                "zh": "Do you approve of their activities?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Catacombs7Yes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Absolutely!",
+                "fr": "Absolutely!",
+                "es": "Absolutely!",
+                "zh": "Absolutely!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, I hoped you liked my story!",
+                        "fr": "Anyway, I hoped you liked my story!",
+                        "es": "Anyway, I hoped you liked my story!",
+                        "zh": "Anyway, I hoped you liked my story!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Try visiting the catacombs, if you’re brave enough",
+                        "fr": "Try visiting the catacombs, if you’re brave enough",
+                        "es": "Try visiting the catacombs, if you’re brave enough",
+                        "zh": "Try visiting the catacombs, if you’re brave enough"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "Catacombs7No",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not at all!",
+                "fr": "Not at all!",
+                "es": "Not at all!",
+                "zh": "Not at all!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, I hoped you liked my story!",
+                        "fr": "Anyway, I hoped you liked my story!",
+                        "es": "Anyway, I hoped you liked my story!",
+                        "zh": "Anyway, I hoped you liked my story!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Try visiting the catacombs, if you’re brave enough",
+                        "fr": "Try visiting the catacombs, if you’re brave enough",
+                        "es": "Try visiting the catacombs, if you’re brave enough",
+                        "zh": "Try visiting the catacombs, if you’re brave enough"
+                    }
+                }
+            ]
+        }
+    ]
+}
