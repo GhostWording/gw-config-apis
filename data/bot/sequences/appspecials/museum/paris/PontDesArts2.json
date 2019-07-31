@@ -5,10 +5,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 500,
-                "Height": 343,
+                "Display": "FullScreenWidth",
+                "Width": 480,
+                "Height": 313,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564578042/pontdesartsfull.jpg"
             }
         },
         {
@@ -41,15 +42,6 @@
                         "es": "Thousands of couples visit every year to take romantic walks, or have relaxed picnics on the grass.",
                         "zh": "Thousands of couples visit every year to take romantic walks, or have relaxed picnics on the grass."
                     }                    
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Width": 500,
-                        "Height": 343,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
-                    }
                 },
                 {
                     "Type": "Text",
