@@ -1,0 +1,61 @@
+{
+    "Id": "Paris",
+    "Caption": {
+        "en": "Paris City Guide",
+        "fr": "Paris City Guide",
+        "es": "Paris City Guide"
+    },
+    "Location": {
+        "Latitude": "48.864716",
+        "Longitude": "2.349014"
+    },
+    "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiAstro/small/CapricornEmoji.jpg"
+    },
+    "LocationSequenceId": "ParisMap",
+    "Topic": "paris",
+    "Places" : [
+      {"Id": "ArcDeTriomphe"},
+      {"Id": "BonMarche"},
+      {"Id": "BoulevardHaussmann"},
+      {"Id": "ButteAuxCailles"},
+      {"Id": "ButtesChaumont"},
+      {"Id": "Catacombs"},
+      {"Id": "Conciergerie"},
+      {"Id": "Elysee"},
+      {"Id": "FontaineInnocents"},
+      {"Id": "GrandPalais"},
+      {"Id": "HotelDeVille"},
+      {"Id": "IleCite"},
+      {"Id": "Invalides"},
+      {"Id": "JardinDesPlantes"},
+      {"Id": "LeLouvre"},
+      {"Id": "LeMarais"},
+      {"Id": "LesHalles"},
+      {"Id": "LouisVuitton"},
+      {"Id": "Luxembourg"},
+      {"Id": "MoulinRouge"},
+      {"Id": "NotreDame"},
+      {"Id": "Orsay"},
+      {"Id": "PalaisGarnier"},
+      {"Id": "PalaisTokyo"},
+      {"Id": "Pantheon"},
+      {"Id": "ParcVillette"},
+      {"Id": "Lachaise"},
+      {"Id": "PlaceBastille"},
+      {"Id": "PlaceConcorde"},
+      {"Id": "PlaceTrocadero"},
+      {"Id": "PlaceVendome"},
+      {"Id": "PlaceVosges"},
+      {"Id": "Pompidou"},
+      {"Id": "PontAlexandreIII"},
+      {"Id": "PontDesArts"},
+      {"Id": "SacreCoeur"},
+      {"Id": "SainteChapelle"},
+      {"Id": "Sulpice"},
+      {"Id": "TourEiffel"},
+      {"Id": "TourMontparnasse"},
+      {"Id": "Tuileries"}
+    ]
+}
