@@ -86,7 +86,10 @@
                         "zh": "Try visiting the catacombs, if you’re brave enough"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "CatacombsFeedback"
+            }
         },
         {
             "Type": "Node",
