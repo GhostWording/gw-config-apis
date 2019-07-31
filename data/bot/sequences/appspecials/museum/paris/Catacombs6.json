@@ -23,10 +23,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 880,
-                "Height": 550,
+                "Display": "FullScreenWidth",
+                "Width": 750,
+                "Height": 396,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564575218/catacombscinema.jpg"
             }
         },
         {
@@ -67,15 +68,6 @@
                         "fr": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!",
                         "es": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!",
                         "zh": "What’s more, we still have no idea who created it, who attended it, or where they drew their electricity from!"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
                     }
                 },
                 {
