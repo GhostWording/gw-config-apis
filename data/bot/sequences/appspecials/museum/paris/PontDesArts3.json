@@ -5,10 +5,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 500,
-                "Height": 343,
+                "Width": 260,
+                "Height": 200,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713387/pont_des_arts_thumbnail.jpg"
             }
         },
         {
@@ -54,10 +54,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 500,
-                        "Height": 343,
+                        "Display": "FullScreenWidth",
+                        "Width": 336,
+                        "Height": 186,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564578253/lockscollapse.jpg"
                     }
                 },
                 {
@@ -135,10 +136,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 500,
-                        "Height": 343,
+                        "Display": "FullScreenWidth",
+                        "Width": 336,
+                        "Height": 186,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560424439/shutterstock_431450167.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564578253/lockscollapse.jpg"
                     }
                 },
                 {
