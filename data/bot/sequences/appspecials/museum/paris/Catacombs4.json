@@ -55,6 +55,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Width": 650,
                         "Height": 487,
                         "Source": "Web",
@@ -152,6 +153,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Width": 650,
                         "Height": 487,
                         "Source": "Web",
