@@ -14,10 +14,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 880,
-                "Height": 550,
+                "Display": "FullScreenWidth",
+                "Width": 445,
+                "Height": 390,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564579165/sulpicefull.jpg"
             }
         },
         {
@@ -63,10 +64,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Display": "FullScreenWidth",
+                        "Width": 220,
+                        "Height": 252,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564579225/facade.jpg"
                     }
                 },
                 {
@@ -107,10 +109,11 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Width": 880,
-                                    "Height": 550,
+                                    "Display": "FullScreenWidth",
+                                    "Width": 430,
+                                    "Height": 330,
                                     "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564579269/stpauls.jpg"
                                 }
                             },
                             {
