@@ -14,10 +14,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 880,
-                "Height": 550,
+                "Display": "FullScreenWidth",
+                "Width": 362,
+                "Height": 400,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577338/rodenbach.jpg"
             }
         },
         {
@@ -54,10 +55,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Display": "FullScreenWidth",
+                        "Width": 480,
+                        "Height": 360,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577416/wilde.jpg"
                     }
                 },
                 {
@@ -151,10 +153,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Display": "FullScreenWidth",
+                        "Width": 480,
+                        "Height": 360,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577416/wilde.jpg"
                     }
                 },
                 {
