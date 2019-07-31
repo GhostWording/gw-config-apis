@@ -36,6 +36,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Width": 1280,
                         "Height": 804,
                         "Source": "Web",
@@ -133,6 +134,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Width": 1280,
                         "Height": 804,
                         "Source": "Web",
