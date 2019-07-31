@@ -14,10 +14,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 880,
-                "Height": 550,
+                "Display": "FullScreenWidth",
+                "Width": 220,
+                "Height": 293,
                 "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564579547/gnomon.jpg"
             }
         },
         {
@@ -58,15 +59,6 @@
                         "fr": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
                         "es": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
                         "zh": "It’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
                     }
                 },
                 {
@@ -155,15 +147,6 @@
                         "fr": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
                         "es": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
                         "zh": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
                     }
                 },
                 {
