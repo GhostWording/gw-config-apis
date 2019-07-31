@@ -3,13 +3,6 @@
     "Id": "IleCite2",
     "Steps": [
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/museum/TricheurC1.json"
-            }
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "But speaking of protection from enemies, what’s better protection than a natural island, surrounded by a river?",
@@ -43,10 +36,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Width": 433,
+                        "Height": 378,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564576201/ileciteearly.jpg"
                     }
                 },
                 {
@@ -87,10 +80,11 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Width": 880,
-                                    "Height": 550,
+                                    "Display": "FullScreenWidth",
+                                    "Width": 512,
+                                    "Height": 404,
                                     "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564575881/parissiege.jpg"
                                 }
                             },
                             {
@@ -196,10 +190,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Width": 433,
+                        "Height": 378,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564576201/ileciteearly.jpg"
                     }
                 },
                 {
@@ -240,10 +234,11 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Width": 880,
-                                    "Height": 550,
+                                    "Display": "FullScreenWidth",
+                                    "Width": 512,
+                                    "Height": 404,
                                     "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564575881/parissiege.jpg"
                                 }
                             },
                             {
