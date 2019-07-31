@@ -43,13 +43,11 @@
                     }
                 },
                 {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
-                    }
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "2ZFuPKWcSw16E"
+                  }
                 }
             ],
             "LinksTo": {
