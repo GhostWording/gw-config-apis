@@ -62,6 +62,16 @@
                     }
                 },
                 {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 385,
+                        "Height": 513,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564579722/gnomonplaque.jpg"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "But to me, that’s just a front… I think it’s some sort of occult communication device",
@@ -147,6 +157,16 @@
                         "fr": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
                         "es": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices",
                         "zh": "Well, it’s built exactly so that a ray of light lines up perfectly during the summer and winter solstices"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 385,
+                        "Height": 513,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564579722/gnomonplaque.jpg"
                     }
                 },
                 {
