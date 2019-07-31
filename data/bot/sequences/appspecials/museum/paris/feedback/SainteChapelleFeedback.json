@@ -29,7 +29,7 @@
                     "Type": "Action",
                     "Name": "Feedback",
                     "Parameters": {
-                        "SequenceId": "Astronomer",
+                        "SequenceId": "SainteChapelle",
                         "FeedbackValue": "Good"
                     }
                 },
@@ -40,10 +40,7 @@
                         "FragmentPath": "Exit"
                     }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "ChooseLouvreStory"
-            }
+            ]
         },
         {
             "Type": "Node",
@@ -60,7 +57,7 @@
                     "Type": "Action",
                     "Name": "Feedback",
                     "Parameters": {
-                        "SequenceId": "Astronomer",
+                        "SequenceId": "SainteChapelle",
                         "FeedbackValue": "Bad"
                     }
                 },
@@ -71,10 +68,7 @@
                         "FragmentPath": "Exit"
                     }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "ChooseLouvreStory"
-            }
+            ]
         }
     ]
 }
