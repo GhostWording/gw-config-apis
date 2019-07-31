@@ -12,6 +12,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 1024,
+                "Height": 683,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542710860/pere_lachaise_preview.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "It attracts over 3.5 million people every year...",
@@ -63,10 +73,11 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 880,
-                        "Height": 550,
+                        "Display": "FullScreenWidth",
+                        "Width": 615,
+                        "Height": 461,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535024914/2coronation_heights.jpg"
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564576806/gardenwalk.jpg"
                     }
                 },
                 {
