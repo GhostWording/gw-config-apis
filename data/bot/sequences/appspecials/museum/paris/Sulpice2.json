@@ -191,12 +191,12 @@
                                     "fr": "He was a monk from the 7th century, nicknamed 'the Pious'",
                                     "es": "He was a monk from the 7th century, nicknamed 'the Pious'",
                                     "zh": "He was a monk from the 7th century, nicknamed 'the Pious'"
-                                },
-                                "LinksToFragment": {
-                                    "FragmentPath": "Sulpice3"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice3"
+                        }
                     },
                     {
                         "Type": "Node",
@@ -216,12 +216,12 @@
                                     "fr": "I'm impressed... you certainly know your 7th century monks!",
                                     "es": "I'm impressed... you certainly know your 7th century monks!",
                                     "zh": "I'm impressed... you certainly know your 7th century monks!"
-                                },
-                                "LinksToFragment": {
-                                    "FragmentPath": "Sulpice3"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Sulpice3"
+                        }
                     }
                 ]
             }
