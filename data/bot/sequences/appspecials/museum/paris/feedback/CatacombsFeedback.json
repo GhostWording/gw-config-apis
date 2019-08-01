@@ -15,7 +15,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "CatacombsFeedbackGood",
             "ElementValue": "1",
             "CommandLabel": {
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "CatacombsFeedbackBad",
             "ElementValue": "1",
             "CommandLabel": {
