@@ -149,12 +149,12 @@
                                                 "fr": "Great taste!",
                                                 "es": "Great taste!",
                                                 "zh": "Great taste!"
-                                            },
-                                            "LinksToFragment": {
-                                                "FragmentPath": "Sulpice2"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Sulpice2"
+                                    }
                                 },
                                 {
                                     "Type": "Node",
@@ -174,12 +174,12 @@
                                                 "fr": "I'll make you a fan!",
                                                 "es": "I'll make you a fan!",
                                                 "zh": "I'll make you a fan!"
-                                            },
-                                            "LinksToFragment": {
-                                                "FragmentPath": "Sulpice2"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "Sulpice2"
+                                    }
                                 }
                             ]
                         }
