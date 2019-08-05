@@ -69,6 +69,29 @@
       "Arrondissement": "1er arrondissement"
   },
   {
+      "Id": "FontaineInnocents",
+      "Caption": {
+          "en": "Fontaine des Innocents",
+          "fr": "La Fontaine des Innocents",
+          "es": "La Fuente de los Inocentes",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626959/fontaine_innocents_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542627045/fontaine_innocents_thumbnail.jpg"
+      },
+      "SequenceId": "FontaineInnocents",
+      "Location": {
+          "Latitude": "48.860647",
+          "Longitude": "2.348032699999976"
+      },
+      "Arrondissement": "1er arrondissement"
+  },
+  {
       "Id": "PalaisGarnier",
       "Caption": {
           "en": "Palais Garnier opera house",
