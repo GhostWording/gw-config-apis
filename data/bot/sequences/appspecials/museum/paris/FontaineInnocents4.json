@@ -1,0 +1,186 @@
+{
+    "Type": "Node",
+    "Id": "FontaineInnocents4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787",
+                "fr": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787",
+                "es": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787",
+                "zh": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "To fill the space, they moved this fountain here!",
+                "fr": "To fill the space, they moved this fountain here!",
+                "es": "To fill the space, they moved this fountain here!",
+                "zh": "To fill the space, they moved this fountain here!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 512,
+                "Height": 343,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010696/3innocents_fountain_old.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's now a popular square for relaxing, with many shops and attractions around",
+                "fr": "It's now a popular square for relaxing, with many shops and attractions around",
+                "es": "It's now a popular square for relaxing, with many shops and attractions around",
+                "zh": "It's now a popular square for relaxing, with many shops and attractions around"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now, I have a couple of cool anecdotes about the place, want to hear?",
+                "fr": "Now, I have a couple of cool anecdotes about the place, want to hear?",
+                "es": "Now, I have a couple of cool anecdotes about the place, want to hear?",
+                "zh": "Now, I have a couple of cool anecdotes about the place, want to hear?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents4Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yeah!",
+                "fr": "Yeah!",
+                "es": "Yeah!",
+                "zh": "Yeah!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, because the area was so famous for being horrible, it has been popular in fiction!",
+                        "fr": "So, because the area was so famous for being horrible, it has been popular in fiction!",
+                        "es": "So, because the area was so famous for being horrible, it has been popular in fiction!",
+                        "zh": "So, because the area was so famous for being horrible, it has been popular in fiction!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "In particular, the home of several groups of vampires...",
+                        "fr": "In particular, the home of several groups of vampires...",
+                        "es": "In particular, the home of several groups of vampires...",
+                        "zh": "In particular, the home of several groups of vampires..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 407,
+                        "Height": 512,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010749/4innocents_creepy.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
+                        "fr": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
+                        "es": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
+                        "zh": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents4YesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents4YesSuitable",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Seems suitable",
+                            "fr": "Seems suitable",
+                            "es": "Seems suitable",
+                            "zh": "Seems suitable"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yeah... it kinda fits",
+                                    "fr": "Yeah... it kinda fits",
+                                    "es": "Yeah... it kinda fits",
+                                    "zh": "Yeah... it kinda fits"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents4YesSure",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Can't imagine why!",
+                            "fr": "Can't imagine why!",
+                            "es": "Can't imagine why!",
+                            "zh": "Can't imagine why!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yeah... it kinda fits",
+                                    "fr": "Yeah... it kinda fits",
+                                    "es": "Yeah... it kinda fits",
+                                    "zh": "Yeah... it kinda fits"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents4No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks!",
+                "fr": "No thanks!",
+                "es": "No thanks!",
+                "zh": "No thanks!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright!",
+                        "fr": "Alright!",
+                        "es": "Alright!",
+                        "zh": "Alright!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FontaineInnocentsFeedback"
+            }
+        }
+    ]
+}            
