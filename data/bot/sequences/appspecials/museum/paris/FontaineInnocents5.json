@@ -1,0 +1,229 @@
+{
+    "Type": "Node",
+    "Id": "FontaineInnocents5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Secondly, a king was murdered just near here!",
+                "fr": "Secondly, a king was murdered just near here!",
+                "es": "Secondly, a king was murdered just near here!",
+                "zh": "Secondly, a king was murdered just near here!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents5Wow",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way!",
+                "fr": "No way!",
+                "es": "No way!",
+                "zh": "No way!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes way!",
+                        "fr": "Yes way!",
+                        "es": "Yes way!",
+                        "zh": "Yes way!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "King Henry IV was assassinated by Francois Ravaillac in 1610!",
+                        "fr": "King Henry IV was assassinated by Francois Ravaillac in 1610!",
+                        "es": "King Henry IV was assassinated by Francois Ravaillac in 1610!",
+                        "zh": "King Henry IV was assassinated by Francois Ravaillac in 1610!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 324,
+                        "Height": 425,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010861/5ravaillac.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons",
+                        "fr": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons",
+                        "es": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons",
+                        "zh": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents5WowStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents5WowPointless",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How pointless...",
+                            "fr": "How pointless...",
+                            "es": "How pointless...",
+                            "zh": "How pointless..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It certainly seems so...",
+                                    "fr": "It certainly seems so...",
+                                    "es": "It certainly seems so...",
+                                    "zh": "It certainly seems so..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents5WowBravo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Bravo!",
+                            "fr": "Bravo!",
+                            "es": "Bravo!",
+                            "zh": "Bravo!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You're scaring me...",
+                                    "fr": "You're scaring me...",
+                                    "es": "You're scaring me...",
+                                    "zh": "You're scaring me..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents6"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents5Who",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way!",
+                "fr": "No way!",
+                "es": "No way!",
+                "zh": "No way!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes way!",
+                        "fr": "Yes way!",
+                        "es": "Yes way!",
+                        "zh": "Yes way!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "King Henry IV was assassinated by Francois Ravaillac in 1610!",
+                        "fr": "King Henry IV was assassinated by Francois Ravaillac in 1610!",
+                        "es": "King Henry IV was assassinated by Francois Ravaillac in 1610!",
+                        "zh": "King Henry IV was assassinated by Francois Ravaillac in 1610!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 324,
+                        "Height": 425,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010861/5ravaillac.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons",
+                        "fr": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons",
+                        "es": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons",
+                        "zh": "He was a Catholic fanatic, and killed Henry (a famous protestant) for religious reasons"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents5WhoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents5WhoPointless",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How pointless...",
+                            "fr": "How pointless...",
+                            "es": "How pointless...",
+                            "zh": "How pointless..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It certainly seems so...",
+                                    "fr": "It certainly seems so...",
+                                    "es": "It certainly seems so...",
+                                    "zh": "It certainly seems so..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents5WhoBravo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Bravo!",
+                            "fr": "Bravo!",
+                            "es": "Bravo!",
+                            "zh": "Bravo!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You're scaring me...",
+                                    "fr": "You're scaring me...",
+                                    "es": "You're scaring me...",
+                                    "zh": "You're scaring me..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}            
