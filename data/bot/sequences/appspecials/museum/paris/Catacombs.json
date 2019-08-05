@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?",
-                "fr": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?",
+                "fr": "Que penserais-tu si je te disais que Paris est construite sur un réseau de tunnels pleins d'ossements ?",
                 "es": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?",
                 "zh": "What if I told you Paris lies on top of a labyrinth of largely abandoned tunnels full of bones?"
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Untrue",
-                "fr": "Untrue",
+                "fr": "Pas vrai",
                 "es": "Untrue",
                 "zh": "Untrue"
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Yep, it’s true! They’re called the Catacombs!",
-                        "fr": "Yep, it’s true! They’re called the Catacombs!",
+                        "fr": "Si, c'est vrail, cela s'appelle les catacombes !",
                         "es": "Yep, it’s true! They’re called the Catacombs!",
                         "zh": "Yep, it’s true! They’re called the Catacombs!"
                     }
@@ -47,7 +47,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
-                        "fr": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "fr": "Avant d'aborder les détails effrayants, veux-tu en savoir plus sur l'histoire des catacombes ou juste sauter et passer à la suite ? 👻",
                         "es": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
                         "zh": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻"
                     }
@@ -64,7 +64,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Skip!",
-                            "fr": "Skip!",
+                            "fr": "Sauter !",
                             "es": "Skip!",
                             "zh": "Skip!"
                         },
@@ -73,7 +73,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Alright!",
-                                    "fr": "Alright!",
+                                    "fr": "D'accord !",
                                     "es": "Alright!",
                                     "zh": "Alright!"
                                 }
@@ -89,7 +89,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "History first!",
-                            "fr": "History first!",
+                            "fr": "D'abord l'Histoire !",
                             "es": "History first!",
                             "zh": "History first!"
                         },
@@ -98,7 +98,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Good choice!",
-                                    "fr": "Good choice!",
+                                    "fr": "Excellent choix !",
                                     "es": "Good choice!",
                                     "zh": "Good choice!"
                                 }
@@ -117,7 +117,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "True",
-                "fr": "True",
+                "fr": "Vrai",
                 "es": "True",
                 "zh": "True"
             },
@@ -126,7 +126,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Right! The famous Catacombs!",
-                        "fr": "Right! The famous Catacombs!",
+                        "fr": "Absolument ! Les fameuses catacombes !",
                         "es": "Right! The famous Catacombs!",
                         "zh": "Right! The famous Catacombs!"
                     }
@@ -145,7 +145,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
-                        "fr": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
+                        "fr": "Avant d'aborder les détails effrayants, veux-tu en savoir plus sur l'histoire des catacombes ou juste sauter et passer à la suite ? 👻",
                         "es": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻",
                         "zh": "Before we get to the spooky stories, want to hear briefly about the catacombs history? Or shall we just skip forward 👻"
                     }
@@ -162,7 +162,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Skip!",
-                            "fr": "Skip!",
+                            "fr": "Sauter !",
                             "es": "Skip!",
                             "zh": "Skip!"
                         },
@@ -171,7 +171,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Alright!",
-                                    "fr": "Alright!",
+                                    "fr": "D'accord!",
                                     "es": "Alright!",
                                     "zh": "Alright!"
                                 }
@@ -187,7 +187,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "History first!",
-                            "fr": "History first!",
+                            "fr": "D'abord l'Histoires !",
                             "es": "History first!",
                             "zh": "History first!"
                         },
@@ -196,7 +196,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Good choice!",
-                                    "fr": "Good choice!",
+                                    "fr": "Excellent choix !",
                                     "es": "Good choice!",
                                     "zh": "Good choice!"
                                 }
