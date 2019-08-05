@@ -1,0 +1,491 @@
+{
+    "Type": "Node",
+    "Id": "FontaineInnocents",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is the famous 'Fountain of the Innocents'",
+                "fr": "Here is the famous 'Fountain of the Innocents'",
+                "es": "Here is the famous 'Fountain of the Innocents'",
+                "zh": "Here is the famous 'Fountain of the Innocents'"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 880,
+                "Height": 550,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010311/0fontaine.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now, I'm sure you're wondering how it gets that name?",
+                "fr": "Now, I'm sure you're wondering how it gets that name?",
+                "es": "Now, I'm sure you're wondering how it gets that name?",
+                "zh": "Now, I'm sure you're wondering how it gets that name?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocentsNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really",
+                "fr": "Not really",
+                "es": "Not really",
+                "zh": "Not really"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, I will tell you anyway... just in case...",
+                        "fr": "Well, I will tell you anyway... just in case...",
+                        "es": "Well, I will tell you anyway... just in case...",
+                        "zh": "Well, I will tell you anyway... just in case..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'",
+                        "fr": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'",
+                        "es": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'",
+                        "zh": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess you're wondering how that one got it's name?",
+                        "fr": "I guess you're wondering how that one got it's name?",
+                        "es": "I guess you're wondering how that one got it's name?",
+                        "zh": "I guess you're wondering how that one got it's name?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocentsNoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocentsNoNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No...",
+                            "fr": "No...",
+                            "es": "No...",
+                            "zh": "No..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Please let me tell you anyway... I have to sound smart!",
+                                    "fr": "Please let me tell you anyway... I have to sound smart!",
+                                    "es": "Please let me tell you anyway... I have to sound smart!",
+                                    "zh": "Please let me tell you anyway... I have to sound smart!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "fr": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "fr": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "es": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "zh": "Now, I'm sure you're dying to know how THAT got it's name?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "FontaineInnocentsNoNoStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsNoNoNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Just tell me...",
+                                        "fr": "Just tell me...",
+                                        "es": "Just tell me...",
+                                        "zh": "Just tell me..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsNoNoYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes!",
+                                        "fr": "Yes!",
+                                        "es": "Yes!",
+                                        "zh": "Yes!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocentsNoYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes!",
+                            "fr": "Yes!",
+                            "es": "Yes!",
+                            "zh": "Yes!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "fr": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "fr": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "es": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "zh": "Now, I'm sure you're dying to know how THAT got it's name?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "FontaineInnocentsNoYesStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsNoYesNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Just tell me...",
+                                        "fr": "Just tell me...",
+                                        "es": "Just tell me...",
+                                        "zh": "Just tell me..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsNoYesYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes!",
+                                        "fr": "Yes!",
+                                        "es": "Yes!",
+                                        "zh": "Yes!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocentsYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me!",
+                "fr": "Tell me!",
+                "es": "Tell me!",
+                "zh": "Tell me!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'",
+                        "fr": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'",
+                        "es": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'",
+                        "zh": "It's named after the cemetery that previously occupied the space, called the 'Cemetery of the Innocents'"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess you're wondering how that one got it's name?",
+                        "fr": "I guess you're wondering how that one got it's name?",
+                        "es": "I guess you're wondering how that one got it's name?",
+                        "zh": "I guess you're wondering how that one got it's name?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocentsYesStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocentsYesNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No...",
+                            "fr": "No...",
+                            "es": "No...",
+                            "zh": "No..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Please let me tell you anyway... I have to sound smart!",
+                                    "fr": "Please let me tell you anyway... I have to sound smart!",
+                                    "es": "Please let me tell you anyway... I have to sound smart!",
+                                    "zh": "Please let me tell you anyway... I have to sound smart!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "fr": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "fr": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "es": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "zh": "Now, I'm sure you're dying to know how THAT got it's name?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "FontaineInnocentsYesNoStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsYesNoNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Just tell me...",
+                                        "fr": "Just tell me...",
+                                        "es": "Just tell me...",
+                                        "zh": "Just tell me..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsYesNoYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes!",
+                                        "fr": "Yes!",
+                                        "es": "Yes!",
+                                        "zh": "Yes!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocentsYesYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes!",
+                            "fr": "Yes!",
+                            "es": "Yes!",
+                            "zh": "Yes!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "fr": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
+                                    "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "fr": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "es": "Now, I'm sure you're dying to know how THAT got it's name?",
+                                    "zh": "Now, I'm sure you're dying to know how THAT got it's name?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "FontaineInnocentsYesYesStep",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsYesYesNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Just tell me...",
+                                        "fr": "Just tell me...",
+                                        "es": "Just tell me...",
+                                        "zh": "Just tell me..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "FontaineInnocentsYesYesYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Yes!",
+                                        "fr": "Yes!",
+                                        "es": "Yes!",
+                                        "zh": "Yes!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "fr": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "es": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod",
+                                                "zh": "It was named after the famous 'Massacre of the Innocents' from the bible, organised by King Herod"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "FontaineInnocents2"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
