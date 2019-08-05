@@ -1,0 +1,231 @@
+{
+    "Type": "Node",
+    "Id": "FontaineInnocents3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They say that every time it rained, the soil was eroded, exposing remains!",
+                "fr": "They say that every time it rained, the soil was eroded, exposing remains!",
+                "es": "They say that every time it rained, the soil was eroded, exposing remains!",
+                "zh": "They say that every time it rained, the soil was eroded, exposing remains!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents3Awful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's awful!",
+                "fr": "That's awful!",
+                "es": "That's awful!",
+                "zh": "That's awful!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not only that... but the smell was terrible!",
+                        "fr": "Not only that... but the smell was terrible!",
+                        "es": "Not only that... but the smell was terrible!",
+                        "zh": "Not only that... but the smell was terrible!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "just try to imagine the smell of a million rotting bodies a few metres under your legs… 🤢",
+                        "fr": "just try to imagine the smell of a million rotting bodies a few metres under your legs… 🤢",
+                        "es": "just try to imagine the smell of a million rotting bodies a few metres under your legs… 🤢",
+                        "zh": "just try to imagine the smell of a million rotting bodies a few metres under your legs… 🤢"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 486,
+                        "Height": 313,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010583/2innocents_cemetery_gross.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was also full of rats, dogs and disease!",
+                        "fr": "It was also full of rats, dogs and disease!",
+                        "es": "It was also full of rats, dogs and disease!",
+                        "zh": "It was also full of rats, dogs and disease!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents3AwfulStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents3AwfulStop",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Please stop!",
+                            "fr": "Please stop!",
+                            "es": "Please stop!",
+                            "zh": "Please stop!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Alright, alright",
+                                    "fr": "Alright, alright",
+                                    "es": "Alright, alright",
+                                    "zh": "Alright, alright"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents3AwfulNice",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Lovely!",
+                            "fr": "Lovely!",
+                            "es": "Lovely!",
+                            "zh": "Lovely!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think there's something wrong with you!",
+                                    "fr": "I think there's something wrong with you!",
+                                    "es": "I think there's something wrong with you!",
+                                    "zh": "I think there's something wrong with you!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents3Nice",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My kind of place!",
+                "fr": "My kind of place!",
+                "es": "My kind of place!",
+                "zh": "My kind of place!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "fr": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "es": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "zh": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The main cemetery in all of Paris, actually!",
+                        "fr": "The main cemetery in all of Paris, actually!",
+                        "es": "The main cemetery in all of Paris, actually!",
+                        "zh": "The main cemetery in all of Paris, actually!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 486,
+                        "Height": 313,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010583/2innocents_cemetery_gross.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They say it had over a million bodies beneath it!",
+                        "fr": "They say it had over a million bodies beneath it!",
+                        "es": "They say it had over a million bodies beneath it!",
+                        "zh": "They say it had over a million bodies beneath it!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents3NiceStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents3NiceStop",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Please stop!",
+                            "fr": "Please stop!",
+                            "es": "Please stop!",
+                            "zh": "Please stop!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Alright, alright",
+                                    "fr": "Alright, alright",
+                                    "es": "Alright, alright",
+                                    "zh": "Alright, alright"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents3NiceNice",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Lovely!",
+                            "fr": "Lovely!",
+                            "es": "Lovely!",
+                            "zh": "Lovely!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think there's something wrong with you!",
+                                    "fr": "I think there's something wrong with you!",
+                                    "es": "I think there's something wrong with you!",
+                                    "zh": "I think there's something wrong with you!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
