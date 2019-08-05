@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787",
-                "fr": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787",
+                "fr": "A cause de tout ceci, le gouvernement a décidé de déménager le cimetière et les corps en 1787",
                 "es": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787",
                 "zh": "Because of all this, the government decided to move the graveyard, and the bodies, out of the city in 1787"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "To fill the space, they moved this fountain here!",
-                "fr": "To fill the space, they moved this fountain here!",
+                "fr": "Et ils y ont déplacé une fontaine pour marquer l'endroit!",
                 "es": "To fill the space, they moved this fountain here!",
                 "zh": "To fill the space, they moved this fountain here!"
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It's now a popular square for relaxing, with many shops and attractions around",
-                "fr": "It's now a popular square for relaxing, with many shops and attractions around",
+                "fr": "C'est maintenant une place populaire pour se détendre, entourée de nombreuses boutiques",
                 "es": "It's now a popular square for relaxing, with many shops and attractions around",
                 "zh": "It's now a popular square for relaxing, with many shops and attractions around"
             }
@@ -43,7 +43,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Now, I have a couple of cool anecdotes about the place, want to hear?",
-                "fr": "Now, I have a couple of cool anecdotes about the place, want to hear?",
+                "fr": "J'ai quelques anecdotes sur cet endroit, cela t'intéresse ?",
                 "es": "Now, I have a couple of cool anecdotes about the place, want to hear?",
                 "zh": "Now, I have a couple of cool anecdotes about the place, want to hear?"
             }
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So, because the area was so famous for being horrible, it has been popular in fiction!",
-                        "fr": "So, because the area was so famous for being horrible, it has been popular in fiction!",
+                        "fr": "Etant donné que l'endroit avec la réputation d'ête horrible, il a été popularité dans les fictions!",
                         "es": "So, because the area was so famous for being horrible, it has been popular in fiction!",
                         "zh": "So, because the area was so famous for being horrible, it has been popular in fiction!"
                     }
@@ -74,7 +74,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "In particular, the home of several groups of vampires...",
-                        "fr": "In particular, the home of several groups of vampires...",
+                        "fr": "En particulier, comme base de plusieurs groupes de vampires..",
                         "es": "In particular, the home of several groups of vampires...",
                         "zh": "In particular, the home of several groups of vampires..."
                     }
@@ -93,7 +93,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
-                        "fr": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
+                        "fr": "Et lieu de naissance d'un méchant avec de super-pouvoirs offalctifs dans 'Parfum' de Patrick Suskind",
                         "es": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
                         "zh": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind"
                     }
@@ -110,7 +110,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Seems suitable",
-                            "fr": "Seems suitable",
+                            "fr": "Cela semble adéquat",
                             "es": "Seems suitable",
                             "zh": "Seems suitable"
                         },
@@ -119,7 +119,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yeah... it kinda fits",
-                                    "fr": "Yeah... it kinda fits",
+                                    "fr": "Glop glop...cela paraît coller",
                                     "es": "Yeah... it kinda fits",
                                     "zh": "Yeah... it kinda fits"
                                 }
@@ -135,7 +135,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Can't imagine why!",
-                            "fr": "Can't imagine why!",
+                            "fr": "Je ne vois pas pourquoi !",
                             "es": "Can't imagine why!",
                             "zh": "Can't imagine why!"
                         },
@@ -144,7 +144,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yeah... it kinda fits",
-                                    "fr": "Yeah... it kinda fits",
+                                    "fr": "Oui...cela semble coller",
                                     "es": "Yeah... it kinda fits",
                                     "zh": "Yeah... it kinda fits"
                                 }
@@ -163,7 +163,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thanks!",
-                "fr": "No thanks!",
+                "fr": "Non merci !!",
                 "es": "No thanks!",
                 "zh": "No thanks!"
             },
@@ -172,7 +172,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright!",
-                        "fr": "Alright!",
+                        "fr": "D'accord !",
                         "es": "Alright!",
                         "zh": "Alright!"
                     }
