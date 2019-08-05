@@ -1,0 +1,181 @@
+{
+    "Type": "Node",
+    "Id": "FontaineInnocents2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And... that's it!",
+                "fr": "And... that's it!",
+                "es": "And... that's it!",
+                "zh": "And... that's it!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents2Thanks",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thanks!",
+                "fr": "Thanks!",
+                "es": "Thanks!",
+                "zh": "Thanks!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "fr": "So, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "es": "So, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "zh": "So, as I said, there used to be a cemetery in the spot where the fountain now lies"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The main cemetery in all of Paris, actually!",
+                        "fr": "The main cemetery in all of Paris, actually!",
+                        "es": "The main cemetery in all of Paris, actually!",
+                        "zh": "The main cemetery in all of Paris, actually!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 336,
+                        "Height": 341,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010486/1innocents_cemetery.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They say it had over a million bodies beneath it!",
+                        "fr": "They say it had over a million bodies beneath it!",
+                        "es": "They say it had over a million bodies beneath it!",
+                        "zh": "They say it had over a million bodies beneath it!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents2ThanksStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents2ThanksMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Go on...",
+                            "fr": "Go on...",
+                            "es": "Go on...",
+                            "zh": "Go on..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In fact, it was famous for being a truly horrible place",
+                                    "fr": "In fact, it was famous for being a truly horrible place",
+                                    "es": "In fact, it was famous for being a truly horrible place",
+                                    "zh": "In fact, it was famous for being a truly horrible place"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "fr": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "es": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies",
+                        "zh": "Well, as I said, there used to be a cemetery in the spot where the fountain now lies"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The main cemetery in all of Paris, actually!",
+                        "fr": "The main cemetery in all of Paris, actually!",
+                        "es": "The main cemetery in all of Paris, actually!",
+                        "zh": "The main cemetery in all of Paris, actually!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 336,
+                        "Height": 341,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010486/1innocents_cemetery.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They say it had over a million bodies beneath it!",
+                        "fr": "They say it had over a million bodies beneath it!",
+                        "es": "They say it had over a million bodies beneath it!",
+                        "zh": "They say it had over a million bodies beneath it!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FontaineInnocents2MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "FontaineInnocents2MoreMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Go on...",
+                            "fr": "Go on...",
+                            "es": "Go on...",
+                            "zh": "Go on..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "In fact, it was famous for being a truly horrible place",
+                                    "fr": "In fact, it was famous for being a truly horrible place",
+                                    "es": "In fact, it was famous for being a truly horrible place",
+                                    "zh": "In fact, it was famous for being a truly horrible place"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FontaineInnocents3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}          
