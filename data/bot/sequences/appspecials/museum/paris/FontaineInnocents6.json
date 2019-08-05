@@ -1,0 +1,142 @@
+{
+    "Type": "Node",
+    "Id": "FontaineInnocents6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, on that day, Henry IV was travelling in his carriage, but heavy traffic congested the road!",
+                "fr": "Anyway, on that day, Henry IV was travelling in his carriage, but heavy traffic congested the road!",
+                "es": "Anyway, on that day, Henry IV was travelling in his carriage, but heavy traffic congested the road!",
+                "zh": "Anyway, on that day, Henry IV was travelling in his carriage, but heavy traffic congested the road!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the confusion, Ravaillac managed to storm the carriage and kill the king!",
+                "fr": "In the confusion, Ravaillac managed to storm the carriage and kill the king!",
+                "es": "In the confusion, Ravaillac managed to storm the carriage and kill the king!",
+                "zh": "In the confusion, Ravaillac managed to storm the carriage and kill the king!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 538,
+                "Height": 414,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565010981/6assassination.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents6Awesome",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Awesome!",
+                "fr": "Awesome!",
+                "es": "Awesome!",
+                "zh": "Awesome!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Really?! Just seeing it like that makes me scared... it must have been pandemonium!",
+                        "fr": "Really?! Just seeing it like that makes me scared... it must have been pandemonium!",
+                        "es": "Really?! Just seeing it like that makes me scared... it must have been pandemonium!",
+                        "zh": "Really?! Just seeing it like that makes me scared... it must have been pandemonium!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There is now a plaque on the floor remembering the event!",
+                        "fr": "There is now a plaque on the floor remembering the event!",
+                        "es": "There is now a plaque on the floor remembering the event!",
+                        "zh": "There is now a plaque on the floor remembering the event!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 512,
+                        "Height": 384,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565011070/7plaque_assassinat.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, that concludes my story on the Fontaine des Innocents!",
+                        "fr": "Anyway, that concludes my story on the Fontaine des Innocents!",
+                        "es": "Anyway, that concludes my story on the Fontaine des Innocents!",
+                        "zh": "Anyway, that concludes my story on the Fontaine des Innocents!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FontaineInnocentsFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FontaineInnocents6Madness",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Madness!",
+                "fr": "Madness!",
+                "es": "Madness!",
+                "zh": "Madness!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! Just seeing it like that makes me scared... it must have been pandemonium!",
+                        "fr": "Right! Just seeing it like that makes me scared... it must have been pandemonium!",
+                        "es": "Right! Just seeing it like that makes me scared... it must have been pandemonium!",
+                        "zh": "Right! Just seeing it like that makes me scared... it must have been pandemonium!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "There is now a plaque on the floor remembering the event!",
+                        "fr": "There is now a plaque on the floor remembering the event!",
+                        "es": "There is now a plaque on the floor remembering the event!",
+                        "zh": "There is now a plaque on the floor remembering the event!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 512,
+                        "Height": 384,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1565011070/7plaque_assassinat.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, that concludes my story on the Fontaine des Innocents!",
+                        "fr": "Anyway, that concludes my story on the Fontaine des Innocents!",
+                        "es": "Anyway, that concludes my story on the Fontaine des Innocents!",
+                        "zh": "Anyway, that concludes my story on the Fontaine des Innocents!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FontaineInnocentsFeedback"
+            }
+        }
+    ]
+}
