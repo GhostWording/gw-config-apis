@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital",
-                "fr": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital",
+                "fr": "Pour commencer, un mystère. Le corps d'un homme fut trouvé gisant dans les catacombes en 1804, celui d'un certain Philibert Aspart, portier d'un hôpital",
                 "es": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital",
                 "zh": "Here’s one: The body of a man was found lying in the catacombs in 1804, and was identified as being Philibert Aspairt, the doorman of a hospital"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "He had been missing since 1793… it took eleven years for his body to be found!",
-                "fr": "He had been missing since 1793… it took eleven years for his body to be found!",
+                "fr": "Il était porté disparu depuis 1793...il a fallut 11 ans pour retrouver son corps !",
                 "es": "He had been missing since 1793… it took eleven years for his body to be found!",
                 "zh": "He had been missing since 1793… it took eleven years for his body to be found!"
             }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How awful!",
-                "fr": "How awful!",
+                "fr": "C'est terrible !",
                 "es": "How awful!",
                 "zh": "How awful!"
             },
@@ -37,7 +37,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs",
-                        "fr": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "fr": "Ah oui alors. Pire encore on ne sait pas à ce jour de quoi il est mort, ni ce qu'il venait faire là",
                         "es": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs",
                         "zh": "Right! What’s worse, no cause of death was determined, and to this day, we do not know why he entered the catacombs"
                     }
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "He was buried where he was found, and a tombstone has been left there…",
-                        "fr": "He was buried where he was found, and a tombstone has been left there…",
+                        "fr": "Il a été enterré là où il a été découvert. Une pierre tombable montre l'endroit…",
                         "es": "He was buried where he was found, and a tombstone has been left there…",
                         "zh": "He was buried where he was found, and a tombstone has been left there…"
                     }
@@ -72,7 +72,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tell me another!",
-                            "fr": "Tell me another!",
+                            "fr": "Une autre !",
                             "es": "Tell me another!",
                             "zh": "Tell me another!"
                         },
@@ -81,7 +81,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "OK!",
-                                    "fr": "OK!",
+                                    "fr": "OK",
                                     "es": "OK!",
                                     "zh": "OK!"
                                 }
@@ -97,7 +97,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Not scary...",
-                            "fr": "Not scary...",
+                            "fr": "Pas très affrayant...",
                             "es": "Not scary...",
                             "zh": "Not scary..."
                         },
@@ -106,7 +106,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "This next one will be!",
-                                    "fr": "This next one will be!",
+                                    "fr": "La prochaine histoires le sera !",
                                     "es": "This next one will be!",
                                     "zh": "This next one will be!"
                                 }
@@ -125,7 +125,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What then..?",
-                "fr": "What then..?",
+                "fr": "Et ensuite..?",
                 "es": "What then..?",
                 "zh": "What then..?"
             },
@@ -134,7 +134,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "No cause of death was determined, and to this day, we do not know why he entered the catacombs",
-                        "fr": "No cause of death was determined, and to this day, we do not know why he entered the catacombs",
+                        "fr": "Ah oui alors. Pire encore on ne sait pas à ce jour de quoi il est mort, ni ce qu'il venait faire là",
                         "es": "No cause of death was determined, and to this day, we do not know why he entered the catacombs",
                         "zh": "No cause of death was determined, and to this day, we do not know why he entered the catacombs"
                     }
@@ -143,7 +143,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "He was buried where he was found, and a tombstone has been left there…",
-                        "fr": "He was buried where he was found, and a tombstone has been left there…",
+                        "fr": "Il a été enterré là où il a été découvert. Une pierre tombale marque l'endroit…",
                         "es": "He was buried where he was found, and a tombstone has been left there…",
                         "zh": "He was buried where he was found, and a tombstone has been left there…"
                     }
@@ -169,7 +169,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tell me another!",
-                            "fr": "Tell me another!",
+                            "fr": "Une autre",
                             "es": "Tell me another!",
                             "zh": "Tell me another!"
                         },
@@ -178,7 +178,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "OK!",
-                                    "fr": "OK!",
+                                    "fr": "OK",
                                     "es": "OK!",
                                     "zh": "OK!"
                                 }
@@ -194,7 +194,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Not scary...",
-                            "fr": "Not scary...",
+                            "fr": "Pa très effrayant...",
                             "es": "Not scary...",
                             "zh": "Not scary..."
                         },
@@ -203,7 +203,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "This next one will be!",
-                                    "fr": "This next one will be!",
+                                    "fr": "La prochaine histoire le sera davantage!",
                                     "es": "This next one will be!",
                                     "zh": "This next one will be!"
                                 }
