@@ -1,0 +1,133 @@
+{
+    "Type": "Node",
+    "Id": "PlaceVendome5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Unfortunately for Napoleon, much like most of his empire, it didn't last forever",
+                "fr": "Unfortunately for Napoleon, much like most of his empire, it didn't last forever",
+                "es": "Unfortunately for Napoleon, much like most of his empire, it didn't last forever",
+                "zh": "Unfortunately for Napoleon, much like most of his empire, it didn't last forever"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The allies unsurprisingly tore the statue down in 1814 after defeating him",
+                "fr": "The allies unsurprisingly tore the statue down in 1814 after defeating him",
+                "es": "The allies unsurprisingly tore the statue down in 1814 after defeating him",
+                "zh": "The allies unsurprisingly tore the statue down in 1814 after defeating him"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 255,
+                "Height": 344,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565092300/placevendometopple.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PlaceVendome5More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I see a pattern",
+                "fr": "I see a pattern",
+                "es": "I see a pattern",
+                "zh": "I see a pattern"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But public opinion flipped again!",
+                        "fr": "But public opinion flipped again!",
+                        "es": "But public opinion flipped again!",
+                        "zh": "But public opinion flipped again!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "People began to idolise his rule...",
+                        "fr": "People began to idolise his rule...",
+                        "es": "People began to idolise his rule...",
+                        "zh": "People began to idolise his rule..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They were the probably most powerful nation in the world during those times, so it’s understandable...",
+                        "fr": "They were the probably most powerful nation in the world during those times, so it’s understandable...",
+                        "es": "They were the probably most powerful nation in the world during those times, so it’s understandable...",
+                        "zh": "They were the probably most powerful nation in the world during those times, so it’s understandable..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PlaceVendome5MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PlaceVendome5MoreBravo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Bravo! 🇫🇷",
+                            "fr": "Bravo! 🇫🇷",
+                            "es": "Bravo! 🇫🇷",
+                            "zh": "Bravo! 🇫🇷"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…",
+                                    "fr": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…",
+                                    "es": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…",
+                                    "zh": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PlaceVendome6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PlaceVendome5MoreTerrible",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "A terrible time..",
+                            "fr": "A terrible time..",
+                            "es": "A terrible time..",
+                            "zh": "A terrible time.."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…",
+                                    "fr": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…",
+                                    "es": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…",
+                                    "zh": "Looking to capitalise on this, the current king, Louis-Philippe, asked for a NEW statue of Napoleon to be put on the column…"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PlaceVendome6"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
