@@ -124,21 +124,12 @@
             "Id": "FontaineInnocents5Who",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "No way!",
-                "fr": "Pas possible !",
+                "en": "Who?",
+                "fr": "C'était qui?",
                 "es": "No way!",
                 "zh": "No way!"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Yes way!",
-                        "fr": "Si, possible !",
-                        "es": "Yes way!",
-                        "zh": "Yes way!"
-                    }
-                },
                 {
                     "Type": "Text",
                     "Label": {
