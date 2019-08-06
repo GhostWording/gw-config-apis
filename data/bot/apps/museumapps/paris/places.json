@@ -46,6 +46,29 @@
       "Arrondissement": "1er & 4e arrondissements"
   },
   {
+      "Id": "PlaceVendome",
+      "Caption": {
+          "en": "Place Vendôme",
+          "fr": "La Place Vendôme",
+          "es": "La Plaza Vendôme",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712350/vendome_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712436/vendome_thumbnail.jpg"
+      },
+      "SequenceId": "PlaceVendome",
+      "Location": {
+          "Latitude": "48.8675839",
+          "Longitude": "2.3293456000000106"
+      },
+      "Arrondissement": "1er arrondissement"
+  },
+  {
       "Id": "LesHalles",
       "Caption": {
           "en": "Les Halles",
