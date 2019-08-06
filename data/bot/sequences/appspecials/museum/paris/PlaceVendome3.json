@@ -1,0 +1,85 @@
+{
+    "Type": "Node",
+    "Id": "PlaceVendome3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Turns out the anti-monarchy revolutionaries weren’t huge fans of the statue of the king, and they tore it down",
+                "fr": "Turns out the anti-monarchy revolutionaries weren’t huge fans of the statue of the king, and they tore it down",
+                "es": "Turns out the anti-monarchy revolutionaries weren’t huge fans of the statue of the king, and they tore it down",
+                "zh": "Turns out the anti-monarchy revolutionaries weren’t huge fans of the statue of the king, and they tore it down"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Unfortunately, in their zeal to pull it down, they disregarded safety somewhat…",
+                "fr": "Unfortunately, in their zeal to pull it down, they disregarded safety somewhat…",
+                "es": "Unfortunately, in their zeal to pull it down, they disregarded safety somewhat…",
+                "zh": "Unfortunately, in their zeal to pull it down, they disregarded safety somewhat…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As it fell, it crushed one of the revolutionaries!",
+                "fr": "As it fell, it crushed one of the revolutionaries!",
+                "es": "As it fell, it crushed one of the revolutionaries!",
+                "zh": "As it fell, it crushed one of the revolutionaries!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PlaceVendome3Ironic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How ironic",
+                "fr": "How ironic",
+                "es": "How ironic",
+                "zh": "How ironic"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alongside the removal of the statue, the name was changed again, to Place des Piques",
+                        "fr": "Alongside the removal of the statue, the name was changed again, to Place des Piques",
+                        "es": "Alongside the removal of the statue, the name was changed again, to Place des Piques",
+                        "zh": "Alongside the removal of the statue, the name was changed again, to Place des Piques"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "PlaceVendome4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PlaceVendome3Awful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How awful",
+                "fr": "How awful",
+                "es": "How awful",
+                "zh": "How awful"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alongside the removal of the statue, the name was changed again, to Place des Piques",
+                        "fr": "Alongside the removal of the statue, the name was changed again, to Place des Piques",
+                        "es": "Alongside the removal of the statue, the name was changed again, to Place des Piques",
+                        "zh": "Alongside the removal of the statue, the name was changed again, to Place des Piques"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "PlaceVendome4"
+            }
+        }
+    ]
+}
