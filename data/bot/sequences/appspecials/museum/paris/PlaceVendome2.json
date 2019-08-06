@@ -1,0 +1,133 @@
+{
+    "Type": "Node",
+    "Id": "PlaceVendome2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It begins in 1702, when the square was built to honour king Louis XIV, and named Place des Conquetes to honour his recent military victories",
+                "fr": "It begins in 1702, when the square was built to honour king Louis XIV, and named Place des Conquetes to honour his recent military victories",
+                "es": "It begins in 1702, when the square was built to honour king Louis XIV, and named Place des Conquetes to honour his recent military victories",
+                "zh": "It begins in 1702, when the square was built to honour king Louis XIV, and named Place des Conquetes to honour his recent military victories"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But once those victories turned out to be a bit less important than initially thought, they changed the name to Place Louis le Grand",
+                "fr": "But once those victories turned out to be a bit less important than initially thought, they changed the name to Place Louis le Grand",
+                "es": "But once those victories turned out to be a bit less important than initially thought, they changed the name to Place Louis le Grand",
+                "zh": "But once those victories turned out to be a bit less important than initially thought, they changed the name to Place Louis le Grand"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PlaceVendome2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Is that it?",
+                "fr": "Is that it?",
+                "es": "Is that it?",
+                "zh": "Is that it?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not at all!",
+                        "fr": "Not at all!",
+                        "es": "Not at all!",
+                        "zh": "Not at all!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A huge statue was created in the middle, of King Louis on a horse",
+                        "fr": "A huge statue was created in the middle, of King Louis on a horse",
+                        "es": "A huge statue was created in the middle, of King Louis on a horse",
+                        "zh": "A huge statue was created in the middle, of King Louis on a horse"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 318,
+                        "Height": 327,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565091760/vendomelouis.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "This survived all the way through until the French revolution",
+                        "fr": "This survived all the way through until the French revolution",
+                        "es": "This survived all the way through until the French revolution",
+                        "zh": "This survived all the way through until the French revolution"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PlaceVendome2MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PlaceVendome2MoreSure",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No surprise there",
+                            "fr": "No surprise there",
+                            "es": "No surprise there",
+                            "zh": "No surprise there"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right 😅",
+                                    "fr": "Right 😅",
+                                    "es": "Right 😅",
+                                    "zh": "Right 😅"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PlaceVendome3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PlaceVendome2MoreWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why?",
+                            "fr": "Why?",
+                            "es": "Why?",
+                            "zh": "Why?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well...",
+                                    "fr": "Well...",
+                                    "es": "Well...",
+                                    "zh": "Well..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "PlaceVendome3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}            
