@@ -1,0 +1,209 @@
+{
+    "Type": "Node",
+    "Id": "PlaceVendome6",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 420,
+                "Height": 367,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565092633/placevendome3.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was no longer Roman! More of the 'little corporal'",
+                "fr": "He was no longer Roman! More of the 'little corporal'",
+                "es": "He was no longer Roman! More of the 'little corporal'",
+                "zh": "He was no longer Roman! More of the 'little corporal'"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But this, too, didn't last long",
+                "fr": "But this, too, didn't last long",
+                "es": "But this, too, didn't last long",
+                "zh": "But this, too, didn't last long"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PlaceVendome6More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Go on...",
+                "fr": "Go on...",
+                "es": "Go on...",
+                "zh": "Go on..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Napoleon's nephew, Napoleon III, wanted his uncle to look more intimidating",
+                        "fr": "Napoleon's nephew, Napoleon III, wanted his uncle to look more intimidating",
+                        "es": "Napoleon's nephew, Napoleon III, wanted his uncle to look more intimidating",
+                        "zh": "Napoleon's nephew, Napoleon III, wanted his uncle to look more intimidating"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So changed the statue to this!",
+                        "fr": "So changed the statue to this!",
+                        "es": "So changed the statue to this!",
+                        "zh": "So changed the statue to this!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 256,
+                        "Height": 400,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565092557/vendomefinal.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Incredibly, that isn't the end...",
+                        "fr": "Incredibly, that isn't the end...",
+                        "es": "Incredibly, that isn't the end...",
+                        "zh": "Incredibly, that isn't the end..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PlaceVendome6MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PlaceVendome6MoreMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me...",
+                            "fr": "Tell me...",
+                            "es": "Tell me...",
+                            "zh": "Tell me..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The socialist Commune tore it down once more in 1871!",
+                                    "fr": "The socialist Commune tore it down once more in 1871!",
+                                    "es": "The socialist Commune tore it down once more in 1871!",
+                                    "zh": "The socialist Commune tore it down once more in 1871!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 399,
+                                    "Height": 267,
+                                    "Source": "Web",
+                                    "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565092430/vendometopple2.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And then after the Commune was disbanded, the new government restored it!",
+                                    "fr": "And then after the Commune was disbanded, the new government restored it!",
+                                    "es": "And then after the Commune was disbanded, the new government restored it!",
+                                    "zh": "And then after the Commune was disbanded, the new government restored it!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PlaceVendome6MoreMoreStep",
+                            "ElementValue": "1",
+                            "Commands":[
+                                {
+                                    "Type": "Node",
+                                    "Id": "PlaceVendome6MoreMoreRidiculous",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Ridiculous!",
+                                        "fr": "Ridiculous!",
+                                        "es": "Ridiculous!",
+                                        "zh": "Ridiculous!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Luckily, that's the last change! 😂",
+                                                "fr": "Luckily, that's the last change! 😂",
+                                                "es": "Luckily, that's the last change! 😂",
+                                                "zh": "Luckily, that's the last change! 😂"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Thanks for keeping up!",
+                                                "fr": "Thanks for keeping up!",
+                                                "es": "Thanks for keeping up!",
+                                                "zh": "Thanks for keeping up!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "PlaceVendomeFeedback"
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PlaceVendome6MoreMoreUnderstandable",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "All understandable",
+                                        "fr": "All understandable",
+                                        "es": "All understandable",
+                                        "zh": "All understandable"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Luckily, that's the last change! 😂",
+                                                "fr": "Luckily, that's the last change! 😂",
+                                                "es": "Luckily, that's the last change! 😂",
+                                                "zh": "Luckily, that's the last change! 😂"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Thanks for keeping up!",
+                                                "fr": "Thanks for keeping up!",
+                                                "es": "Thanks for keeping up!",
+                                                "zh": "Thanks for keeping up!"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "FragmentPath": "PlaceVendomeFeedback"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]     
+            }
+        }
+    ]
+}
