@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!",
-                "fr": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!",
+                "fr": "Découvront maintenant le Père Lachaise, probablement le cimetière le plus célèbre du monde !",
                 "es": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!",
                 "zh": "Time to learn about Père Lachaise - possibly the most famous graveyard in the world!"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It attracts over 3.5 million people every year...",
-                "fr": "It attracts over 3.5 million people every year...",
+                "fr": "Il attire plus de 3.5 millions de visiteurs par an...",
                 "es": "It attracts over 3.5 million people every year...",
                 "zh": "It attracts over 3.5 million people every year..."
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Shall we discover why?",
-                "fr": "Shall we discover why?",
+                "fr": "Tu veux savoir pourquoi ?",
                 "es": "Shall we discover why?",
                 "zh": "Shall we discover why?"
             }
@@ -47,7 +47,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yeah!",
-                "fr": "Yeah!",
+                "fr": "Oui !",
                 "es": "Yeah!",
                 "zh": "Yeah!"
             },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, firstly, it's really big - with over 1 million people buried there!",
-                        "fr": "Well, firstly, it's really big - with over 1 million people buried there!",
+                        "fr": "Pour commencer il est vraiment grand - plus d'un million de personnes y sont enterrées !",
                         "es": "Well, firstly, it's really big - with over 1 million people buried there!",
                         "zh": "Well, firstly, it's really big - with over 1 million people buried there!"
                     }
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks",
-                        "fr": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks",
+                        "fr": "Ensuite c'est un très bel endroit...une sorte de parc...vraiment populaire pour les promenades et la réflexion",
                         "es": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks",
                         "zh": "Secondly, it's beautiful... like a park... and so is really popular for thoughtful walks"
                     }
@@ -84,7 +84,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But most importantly, it's full of celebrities! There's a cool story behind that, too...",
-                        "fr": "But most importantly, it's full of celebrities! There's a cool story behind that, too...",
+                        "fr": "Mais surtout il regorge de célébrités ! Avec des histoires qui valent le détour...",
                         "es": "But most importantly, it's full of celebrities! There's a cool story behind that, too...",
                         "zh": "But most importantly, it's full of celebrities! There's a cool story behind that, too..."
                     }
@@ -101,7 +101,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Let's hear it!",
-                            "fr": "Let's hear it!",
+                            "fr": "Allons-y !",
                             "es": "Let's hear it!",
                             "zh": "Let's hear it!"
                         },
@@ -110,7 +110,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Alright!",
-                                    "fr": "Alright!",
+                                    "fr": "C'est parti",
                                     "es": "Alright!",
                                     "zh": "Alright!"
                                 }
