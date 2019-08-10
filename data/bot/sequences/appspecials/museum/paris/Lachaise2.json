@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past",
-                "fr": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past",
+                "fr": "Si tu as lu mes histoires sur la Fontaine des Innocent ou les Catacombes, tu sauras que par le passé Paris, a rencontrer de sérieuses difficulités pour loger ses morts ",
                 "es": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past",
                 "zh": "So, if you've read my stories on Fontaine des Innocents or the Catacombs, you'll know that Paris has some serious problems burying all their dead in the past"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804",
-                "fr": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804",
+                "fr": "Pour résoudre le problème, la ville a ouvert le cimetière du Père Lachaise en 1804",
                 "es": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804",
                 "zh": "To try to solve the issue, the city opened this new cemetery, Père Lachaise, in 1804"
             }
@@ -24,7 +24,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Unfortunately, no-one wanted to be buried there!",
-                "fr": "Unfortunately, no-one wanted to be buried there!",
+                "fr": "Problème : personne ne voulait y être enterré !",
                 "es": "Unfortunately, no-one wanted to be buried there!",
                 "zh": "Unfortunately, no-one wanted to be buried there!"
             }
@@ -37,7 +37,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Why?",
-                "fr": "Why?",
+                "fr": "Pourquoi ?",
                 "es": "Why?",
                 "zh": "Why?"
             },
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, it was quite far away from the centre at that time...",
-                        "fr": "Well, it was quite far away from the centre at that time...",
+                        "fr": "Eh bien! il était assez éloigné du centre de la ville à l'époque...",
                         "es": "Well, it was quite far away from the centre at that time...",
                         "zh": "Well, it was quite far away from the centre at that time..."
                     }
@@ -55,7 +55,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!",
-                        "fr": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!",
+                        "fr": "et n'avait pas encore été consacré par l'Eglise Catholique, ce qui était un gros problème !",
                         "es": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!",
                         "zh": "And it hadn't yet been blessed by the Catholic Church, which was a big deal!"
                     }
@@ -72,7 +72,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Makes sense",
-                            "fr": "Makes sense",
+                            "fr": "Cela fait sens",
                             "es": "Makes sense",
                             "zh": "Makes sense"
                         },
@@ -81,7 +81,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony",
-                                    "fr": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony",
+                                    "fr": "Du coup les gestionnaires du cimetière on organisé un gros coup de pub: ils y ont déplacé les dépouilles de personnes célèbre en grande pompe, lors d'une grande cérémonie",
                                     "es": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony",
                                     "zh": "So, the owners did some fantastic marketing: they moved the bones of some famous people there, in a great ceremony"
                                 }
@@ -100,7 +100,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It worked amazingly! Everyone wanted to be buried near the celebrities",
-                                    "fr": "It worked amazingly! Everyone wanted to be buried near the celebrities",
+                                    "fr": "Cela a super bien marché ! Tout le monde voulait sa place près des célébrités",
                                     "es": "It worked amazingly! Everyone wanted to be buried near the celebrities",
                                     "zh": "It worked amazingly! Everyone wanted to be buried near the celebrities"
                                 }
@@ -117,7 +117,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Who wouldn't",
-                                        "fr": "Who wouldn't",
+                                        "fr": "Qui s'en priverait",
                                         "es": "Who wouldn't",
                                         "zh": "Who wouldn't"
                                     },
@@ -126,7 +126,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "In fact, it worked a little too well!",
-                                                "fr": "In fact, it worked a little too well!",
+                                                "fr": "En fait, cela a marché un peu trop bien !",
                                                 "es": "In fact, it worked a little too well!",
                                                 "zh": "In fact, it worked a little too well!"
                                             }
@@ -142,7 +142,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "That's weird",
-                                        "fr": "That's weird",
+                                        "fr": "C'est bizarre",
                                         "es": "That's weird",
                                         "zh": "That's weird"
                                     },
@@ -151,7 +151,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Well, it worked a little too well!",
-                                                "fr": "Well, it worked a little too well!",
+                                                "fr": "Dans la pratique, cela a marché un peu trop bien !",
                                                 "es": "Well, it worked a little too well!",
                                                 "zh": "Well, it worked a little too well!"
                                             }
