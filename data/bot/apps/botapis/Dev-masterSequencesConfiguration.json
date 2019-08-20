@@ -3,7 +3,8 @@
     {
       "Name": "surveypony",
       "Source": "github",
-      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
+      "NewsFile" : "/data/bot/apps/surveypony/surveyPonyPushNewsTests.json",
     }
   ],
   "FragmentsFiles": [
