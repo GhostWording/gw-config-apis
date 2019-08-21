@@ -1,0 +1,22 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "testscenario1",
+      "Source": "github",
+      "File": "/data/bot/apps/botapis/dev/testScenarios1.json",
+      "NewsFile" : "/data/bot/apps/botapis/dev/testScenarios1.NewsToPush.json",
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "testnewformat",
+      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests2.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
+  ]
+}
