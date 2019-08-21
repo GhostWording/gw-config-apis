@@ -1,0 +1,22 @@
+[
+  {
+    "GroupName":"Test",
+    "SequenceFiles" : [
+      { "order" : 10, "file": [ 
+        { 
+          "path" : /data/bot/sequences/experiments/rui/MyCoffeJokeSequence.json",
+          "id" : "MyCoffeJokeSequence",
+          "type": "Node",
+          "Condition": "u.PsychologicalProfile=='XYZ'"
+         }
+       ]},
+      { "order" : 20, "file": [ 
+        {
+          "path" : "/data/bot/sequences/experiments/rui/OneSimpleHelloWorldTestDuplicate.json",
+          "id": "OneSimpleHelloWorldTestDuplicate",
+          "type":"Leaf"
+        }
+       ]}
+    ]
+  }
+]
