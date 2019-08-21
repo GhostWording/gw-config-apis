@@ -7,8 +7,7 @@
         { 
           "path" : "/data/bot/sequences/experiments/rui/MyCoffeJokeSequence.json",
           "id" : "MyCoffeJokeSequence",
-          "type": "Node",
-          "Condition": "u.PsychologicalProfile=='XYZ'"
+          "type": "Node"
          },
           { 
           "path" : "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
@@ -21,7 +20,7 @@
       { "order" : 20, "sequencesInfo": [ 
         {
           "path" : "/data/bot/sequences/experiments/rui/OneSimpleHelloWorld.json",
-          "id": "OneSimpleHelloWorldTestDuplicate",
+          "id": "OneSimpleHelloWorld",
           "type":"Leaf"
         }
        ]
