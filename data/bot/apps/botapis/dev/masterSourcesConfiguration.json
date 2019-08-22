@@ -5,12 +5,17 @@
       "Source": "github",
       "File": "/data/bot/apps/botapis/dev/testScenarios1.json",
       "NewsFile" : "/data/bot/apps/botapis/dev/testScenarios1.NewsToPush.json",
+    },
+    {
+      "Name":   "swagfish",
+      "Source": "github",
+      "File":   "/data/bot/apps/swagfish/swagfishMasterDev.json"
     }
   ],
   "FragmentsFiles": [
     {
-      "Topic": "testnewformat",
-      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests2.json"
+      "Topic": "swagfish",
+      "File":  "/data/bot/apps/swagfish/swagfishFragments.json"
     }
   ],
   "FragmentsForKeywords" : [
@@ -18,5 +23,6 @@
        "Name" : "default",
        "File" : "/data/bot/apps/botapis/keywords-default.json"
     }
-  ]
+  ],
+  "FragmentForUnknownCommand":"/data/bot/sequences/smalltalk/AreYouHuman.json"
 }
