@@ -1,0 +1,151 @@
+{
+    "Type": "Node",
+    "Id": "Conciergerie3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "One of the first things to happen was that a public clock was added outside the Conciergerie in 1371",
+                "fr": "One of the first things to happen was that a public clock was added outside the Conciergerie in 1371",
+                "es": "One of the first things to happen was that a public clock was added outside the Conciergerie in 1371",
+                "zh": "One of the first things to happen was that a public clock was added outside the Conciergerie in 1371"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was the first ever public clock in France!",
+                "fr": "It was the first ever public clock in France!",
+                "es": "It was the first ever public clock in France!",
+                "zh": "It was the first ever public clock in France!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was destroyed in the Revolution, and subsequently restored (Like everything in Paris!)",
+                "fr": "It was destroyed in the Revolution, and subsequently restored (Like everything in Paris!)",
+                "es": "It was destroyed in the Revolution, and subsequently restored (Like everything in Paris!)",
+                "zh": "It was destroyed in the Revolution, and subsequently restored (Like everything in Paris!)"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Conciergerie3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After the king left, the conciergerie top floors were used for Parliament",
+                        "fr": "After the king left, the conciergerie top floors were used for Parliament",
+                        "es": "After the king left, the conciergerie top floors were used for Parliament",
+                        "zh": "After the king left, the conciergerie top floors were used for Parliament"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And the lower floors were a cavernous prison complex! Spooky!",
+                        "fr": "And the lower floors were a cavernous prison complex! Spooky!",
+                        "es": "And the lower floors were a cavernous prison complex! Spooky!",
+                        "zh": "And the lower floors were a cavernous prison complex! Spooky!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's the entrance: but don't be fooled by how it looks... the cells were notoriously horrible...",
+                        "fr": "That's the entrance: but don't be fooled by how it looks... the cells were notoriously horrible...",
+                        "es": "That's the entrance: but don't be fooled by how it looks... the cells were notoriously horrible...",
+                        "zh": "That's the entrance: but don't be fooled by how it looks... the cells were notoriously horrible..."
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Conciergerie3MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Conciergerie3MoreScary",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Horrible!",
+                            "fr": "Horrible!",
+                            "es": "Horrible!",
+                            "zh": "Horrible!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right...",
+                                    "fr": "Right...",
+                                    "es": "Right...",
+                                    "zh": "Right..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Conciergerie4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Conciergerie3MoreNice",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Sounds nice!",
+                            "fr": "Sounds nice!",
+                            "es": "Sounds nice!",
+                            "zh": "Sounds nice!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I assure you it wasn't!",
+                                    "fr": "I assure you it wasn't!",
+                                    "es": "I assure you it wasn't!",
+                                    "zh": "I assure you it wasn't!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Conciergerie4"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
