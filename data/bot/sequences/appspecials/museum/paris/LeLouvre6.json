@@ -1,0 +1,76 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway... Henri IV wanted to join it with the Tuileries castle in the 16th century",
+                "fr": "Anyway... Henri IV wanted to join it with the Tuileries castle in the 16th century",
+                "es": "Anyway... Henri IV wanted to join it with the Tuileries castle in the 16th century",
+                "zh": "Anyway... Henri IV wanted to join it with the Tuileries castle in the 16th century"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But this never panned out, and the Tuileries castle was burned to the ground in 1871...",
+                "fr": "But this never panned out, and the Tuileries castle was burned to the ground in 1871...",
+                "es": "But this never panned out, and the Tuileries castle was burned to the ground in 1871...",
+                "zh": "But this never panned out, and the Tuileries castle was burned to the ground in 1871..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre6Dear",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh dear",
+                "fr": "Oh dear",
+                "es": "Oh dear",
+                "zh": "Oh dear"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It was revolutionaries from the commune who did the burning...",
+                        "fr": "It was revolutionaries from the commune who did the burning...",
+                        "es": "It was revolutionaries from the commune who did the burning...",
+                        "zh": "It was revolutionaries from the commune who did the burning..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre7"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre6Revolutionaries",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Revolutionaries?",
+                "fr": "Revolutionaries?",
+                "es": "Revolutionaries?",
+                "zh": "Revolutionaries?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yep... revolutionaries from the commune!",
+                        "fr": "Yep... revolutionaries from the commune!",
+                        "es": "Yep... revolutionaries from the commune!",
+                        "zh": "Yep... revolutionaries from the commune!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre7"
+            }
+        }
+    ]
+}
