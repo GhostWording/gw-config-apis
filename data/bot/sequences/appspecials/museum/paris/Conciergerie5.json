@@ -1,0 +1,95 @@
+{
+    "Type": "Node",
+    "Id": "Conciergerie5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "While earlier I said the cells were horrible... there were some fancy ones!",
+                "fr": "While earlier I said the cells were horrible... there were some fancy ones!",
+                "es": "While earlier I said the cells were horrible... there were some fancy ones!",
+                "zh": "While earlier I said the cells were horrible... there were some fancy ones!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Reserved for wealthy inmates, of course!",
+                "fr": "Reserved for wealthy inmates, of course!",
+                "es": "Reserved for wealthy inmates, of course!",
+                "zh": "Reserved for wealthy inmates, of course!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 320,
+                "Height": 200,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568896831/mariecell.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This is the cell used to house Marie Antoinette!",
+                "fr": "This is the cell used to house Marie Antoinette!",
+                "es": "This is the cell used to house Marie Antoinette!",
+                "zh": "This is the cell used to house Marie Antoinette!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Conciergerie5Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Corruption!",
+                "fr": "Corruption!",
+                "es": "Corruption!",
+                "zh": "Corruption!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... the end result was the same for the prisoners, however they were kept!",
+                        "fr": "Well... the end result was the same for the prisoners, however they were kept!",
+                        "es": "Well... the end result was the same for the prisoners, however they were kept!",
+                        "zh": "Well... the end result was the same for the prisoners, however they were kept!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Conciergerie6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Conciergerie5No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good business..",
+                "fr": "Good business..",
+                "es": "Good business..",
+                "zh": "Good business.."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... the end result was the same for the prisoners, however they were kept!",
+                        "fr": "Well... the end result was the same for the prisoners, however they were kept!",
+                        "es": "Well... the end result was the same for the prisoners, however they were kept!",
+                        "zh": "Well... the end result was the same for the prisoners, however they were kept!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Conciergerie6"
+            }
+        }
+    ]
+}
