@@ -1,0 +1,113 @@
+{
+    "Type": "Node",
+    "Id": "Conciergerie6",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 480,
+                "Height": 345,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568898352/guillotine.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These dungeons were the last point before people were sent off to the guillotine",
+                "fr": "These dungeons were the last point before people were sent off to the guillotine",
+                "es": "These dungeons were the last point before people were sent off to the guillotine",
+                "zh": "These dungeons were the last point before people were sent off to the guillotine"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Most famously during 'The Terror' period of the French Revolution",
+                "fr": "Most famously during 'The Terror' period of the French Revolution",
+                "es": "Most famously during 'The Terror' period of the French Revolution",
+                "zh": "Most famously during 'The Terror' period of the French Revolution"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was 18th century France's death row!",
+                "fr": "It was 18th century France's death row!",
+                "es": "It was 18th century France's death row!",
+                "zh": "It was 18th century France's death row!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Conciergerie6Grisly",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How grisly",
+                "fr": "How grisly",
+                "es": "How grisly",
+                "zh": "How grisly"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!",
+                        "fr": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!",
+                        "es": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!",
+                        "zh": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And that's the end!",
+                        "fr": "And that's the end!",
+                        "es": "And that's the end!",
+                        "zh": "And that's the end!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ConciergerieFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Conciergerie6Cool",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cool!",
+                "fr": "Cool!",
+                "es": "Cool!",
+                "zh": "Cool!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!",
+                        "fr": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!",
+                        "es": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!",
+                        "zh": "These days, aside from being preserved as a monument, the conciergerie is primarily used for courts!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And that's the end!",
+                        "fr": "And that's the end!",
+                        "es": "And that's the end!",
+                        "zh": "And that's the end!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "ConciergerieFeedback"
+            }
+        }
+    ]
+}
