@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!",
-                "fr": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!",
+                "fr": "Voici l'église Saint-Sulpice, seconde en taille à Paris après Notre-Dame!",
                 "es": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!",
                 "zh": "Behold the Church of Saint-Sulpice, the second largest church in Paris after Notre-Dame!"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!",
-                "fr": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!",
+                "fr": "Si tu veux visiter une église immense et pas trop fréquentée, c'est la bonne !",
                 "es": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!",
                 "zh": "If you fancy visiting a huge, amazing church in Paris that isn’t incredibly busy, this is the one!"
             }
@@ -38,7 +38,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me about it!",
-                "fr": "Tell me about it!",
+                "fr": "Dis-m'en plus !",
                 "es": "Tell me about it!",
                 "zh": "Tell me about it!"
             },
@@ -47,7 +47,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Gladly!",
-                        "fr": "Gladly!",
+                        "fr": "Avec plaisir !",
                         "es": "Gladly!",
                         "zh": "Gladly!"
                     }
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "The facade of this church, while beautiful to look at, is very unusual!",
-                        "fr": "The facade of this church, while beautiful to look at, is very unusual!",
+                        "fr": "Sa façade est à la fois belle et inhabituelle!",
                         "es": "The facade of this church, while beautiful to look at, is very unusual!",
                         "zh": "The facade of this church, while beautiful to look at, is very unusual!"
                     }
@@ -75,7 +75,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It’s mostly due to several complications during its construction!",
-                        "fr": "It’s mostly due to several complications during its construction!",
+                        "fr": "Cela résulte de plusieurs complications pendant sa construction !",
                         "es": "It’s mostly due to several complications during its construction!",
                         "zh": "It’s mostly due to several complications during its construction!"
                     }
@@ -101,7 +101,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral",
-                                    "fr": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral",
+                                    "fr": "Les premiers plans prévoyaient une configuration comparable à la cathédrale Saitt Paul, à Londres",
                                     "es": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral",
                                     "zh": "The first design was supposed to make the building look similar to London’s St Paul’s Cathedral"
                                 }
@@ -120,7 +120,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But after the designers and plans changed a few times, it ended up looking as it now does",
-                                    "fr": "But after the designers and plans changed a few times, it ended up looking as it now does",
+                                    "fr": "Mais après quelques changements d'architectes et de plans, le projet est devenu conforme à ce que l'on peut voir maintenant",
                                     "es": "But after the designers and plans changed a few times, it ended up looking as it now does",
                                     "zh": "But after the designers and plans changed a few times, it ended up looking as it now does"
                                 }
@@ -137,7 +137,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "I like it!",
-                                        "fr": "I like it!",
+                                        "fr": "J'aime bien !",
                                         "es": "I like it!",
                                         "zh": "I like it!"
                                     },
@@ -146,7 +146,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Great taste!",
-                                                "fr": "Great taste!",
+                                                "fr": "Très bon goût!",
                                                 "es": "Great taste!",
                                                 "zh": "Great taste!"
                                             }
@@ -162,7 +162,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Not a fan",
-                                        "fr": "Not a fan",
+                                        "fr": "Je ne suis pas fan",
                                         "es": "Not a fan",
                                         "zh": "Not a fan"
                                     },
@@ -171,7 +171,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I'll make you a fan!",
-                                                "fr": "I'll make you a fan!",
+                                                "fr": "Je vais voir si je peux te faire changer d'avis !",
                                                 "es": "I'll make you a fan!",
                                                 "zh": "I'll make you a fan!"
                                             }
