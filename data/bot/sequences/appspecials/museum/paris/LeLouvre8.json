@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre8",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He packed it full of all the items he 'acquired' during his empire",
+                "fr": "He packed it full of all the items he 'acquired' during his empire",
+                "es": "He packed it full of all the items he 'acquired' during his empire",
+                "zh": "He packed it full of all the items he 'acquired' during his empire"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LeLouvreC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If you visit, you'll definitely see some of these!",
+                "fr": "If you visit, you'll definitely see some of these!",
+                "es": "If you visit, you'll definitely see some of these!",
+                "zh": "If you visit, you'll definitely see some of these!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre8Awesome",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Awesome!",
+                "fr": "Awesome!",
+                "es": "Awesome!",
+                "zh": "Awesome!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But it was actually during the 20th century that the museum became the biggest in the world",
+                        "fr": "But it was actually during the 20th century that the museum became the biggest in the world",
+                        "es": "But it was actually during the 20th century that the museum became the biggest in the world",
+                        "zh": "But it was actually during the 20th century that the museum became the biggest in the world"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre9"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre8Thief",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thief!",
+                "fr": "Thief!",
+                "es": "Thief!",
+                "zh": "Thief!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, it was actually during the 20th century that the museum became the biggest in the world",
+                        "fr": "Well, it was actually during the 20th century that the museum became the biggest in the world",
+                        "es": "Well, it was actually during the 20th century that the museum became the biggest in the world",
+                        "zh": "Well, it was actually during the 20th century that the museum became the biggest in the world"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre9"
+            }
+        }
+    ]
+}
