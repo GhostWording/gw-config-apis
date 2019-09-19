@@ -1,0 +1,87 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre2",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 418,
+                "Height": 389,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568891190/louvrepalace.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You can still see the foundations in the basement of the museum today!",
+                "fr": "You can still see the foundations in the basement of the museum today!",
+                "es": "You can still see the foundations in the basement of the museum today!",
+                "zh": "You can still see the foundations in the basement of the museum today!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 320,
+                "Height": 213,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568907196/foundations.jpg"
+            }
+        },
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre2Impressive",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Impressive!",
+                "fr": "Impressive!",
+                "es": "Impressive!",
+                "zh": "Impressive!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let's talk about that castle...",
+                        "fr": "Let's talk about that castle...",
+                        "es": "Let's talk about that castle...",
+                        "zh": "Let's talk about that castle..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Anything else?",
+                "fr": "Anything else?",
+                "es": "Anything else?",
+                "zh": "Anything else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yeah! Keep reading...",
+                        "fr": "Yeah! Keep reading...",
+                        "es": "Yeah! Keep reading...",
+                        "zh": "Yeah! Keep reading..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre3"
+            }
+        }
+    ]
+}
