@@ -1,0 +1,86 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was built by Philippe Auguste in 1200, who wanted to reinforce the outer walls of Paris",
+                "fr": "It was built by Philippe Auguste in 1200, who wanted to reinforce the outer walls of Paris",
+                "es": "It was built by Philippe Auguste in 1200, who wanted to reinforce the outer walls of Paris",
+                "zh": "It was built by Philippe Auguste in 1200, who wanted to reinforce the outer walls of Paris"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 387,
+                "Height": 428,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568907680/castlewallsmap.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The city was a lot smaller then!",
+                "fr": "The city was a lot smaller then!",
+                "es": "The city was a lot smaller then!",
+                "zh": "The city was a lot smaller then!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre3Cool",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I never knew!",
+                "fr": "I never knew!",
+                "es": "I never knew!",
+                "zh": "I never knew!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Eventually, as the city expanded, it no longer lay on the outer walls",
+                        "fr": "Eventually, as the city expanded, it no longer lay on the outer walls",
+                        "es": "Eventually, as the city expanded, it no longer lay on the outer walls",
+                        "zh": "Eventually, as the city expanded, it no longer lay on the outer walls"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre4"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Eventually, as the city expanded, it no longer lay on the outer walls",
+                        "fr": "Eventually, as the city expanded, it no longer lay on the outer walls",
+                        "es": "Eventually, as the city expanded, it no longer lay on the outer walls",
+                        "zh": "Eventually, as the city expanded, it no longer lay on the outer walls"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre4"
+            }
+        }
+    ]
+}
