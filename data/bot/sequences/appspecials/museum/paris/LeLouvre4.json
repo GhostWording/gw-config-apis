@@ -1,0 +1,86 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the 14th century, the French king Charles V was in the market for a new palace",
+                "fr": "In the 14th century, the French king Charles V was in the market for a new palace",
+                "es": "In the 14th century, the French king Charles V was in the market for a new palace",
+                "zh": "In the 14th century, the French king Charles V was in the market for a new palace"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And the Louvre castle's location suited him perfectly, so he moved there!",
+                "fr": "And the Louvre castle's location suited him perfectly, so he moved there!",
+                "es": "And the Louvre castle's location suited him perfectly, so he moved there!",
+                "zh": "And the Louvre castle's location suited him perfectly, so he moved there!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 418,
+                "Height": 389,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568891190/louvrepalace.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre4Interesting",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Interesting!",
+                "fr": "Interesting!",
+                "es": "Interesting!",
+                "zh": "Interesting!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After all, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!",
+                        "fr": "After all, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!",
+                        "es": "After all, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!",
+                        "zh": "After all, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre4Why",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why?",
+                "fr": "Why?",
+                "es": "Why?",
+                "zh": "Why?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!",
+                        "fr": "Well, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!",
+                        "es": "Well, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!",
+                        "zh": "Well, many of his advisors had been murdered in his old palace on the Ile de la Cite, so he didn't exactly feel safe there anymore!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre5"
+            }
+        }
+    ]
+}
