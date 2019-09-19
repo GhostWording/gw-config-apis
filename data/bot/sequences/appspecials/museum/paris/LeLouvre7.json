@@ -1,0 +1,142 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, the Louvre castle almost burned as well... ",
+                "fr": "In fact, the Louvre castle almost burned as well... ",
+                "es": "In fact, the Louvre castle almost burned as well... ",
+                "zh": "In fact, the Louvre castle almost burned as well... "
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 384,
+                "Height": 260,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568908302/tuileriesburning.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the picture, the burning part is the Tuileries, and the building just above it is Le Louvre! What a close call",
+                "fr": "In the picture, the burning part is the Tuileries, and the building just above it is Le Louvre! What a close call",
+                "es": "In the picture, the burning part is the Tuileries, and the building just above it is Le Louvre! What a close call",
+                "zh": "In the picture, the burning part is the Tuileries, and the building just above it is Le Louvre! What a close call"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre7Thanks",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thank goodness!",
+                "fr": "Thank goodness!",
+                "es": "Thank goodness!",
+                "zh": "Thank goodness!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway...",
+                        "fr": "Anyway...",
+                        "es": "Anyway...",
+                        "zh": "Anyway..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The palace had already started to become full of art over the years, as the French kings accumulated their collection",
+                        "fr": "The palace had already started to become full of art over the years, as the French kings accumulated their collection",
+                        "es": "The palace had already started to become full of art over the years, as the French kings accumulated their collection",
+                        "zh": "The palace had already started to become full of art over the years, as the French kings accumulated their collection"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After all, what's a French king without a fancy palace full of art!",
+                        "fr": "After all, what's a French king without a fancy palace full of art!",
+                        "es": "After all, what's a French king without a fancy palace full of art!",
+                        "zh": "After all, what's a French king without a fancy palace full of art!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LeLouvre7ThanksStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LeLouvre7ThanksExactly",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exactly",
+                            "fr": "Exactly",
+                            "es": "Exactly",
+                            "zh": "Exactly"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But it was Napoleon who actually made it an official museum",
+                                    "fr": "But it was Napoleon who actually made it an official museum",
+                                    "es": "But it was Napoleon who actually made it an official museum",
+                                    "zh": "But it was Napoleon who actually made it an official museum"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LeLouvre8"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LeLouvre7ThanksEat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Eat the rich!",
+                            "fr": "Eat the rich!",
+                            "es": "Eat the rich!",
+                            "zh": "Eat the rich!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I knew you were a revolutionary...",
+                                    "fr": "I knew you were a revolutionary...",
+                                    "es": "I knew you were a revolutionary...",
+                                    "zh": "I knew you were a revolutionary..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, it was Napoleon who actually made it an official museum",
+                                    "fr": "Anyway, it was Napoleon who actually made it an official museum",
+                                    "es": "Anyway, it was Napoleon who actually made it an official museum",
+                                    "zh": "Anyway, it was Napoleon who actually made it an official museum"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LeLouvre8"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
