@@ -23,6 +23,29 @@
       "Arrondissement": "14e arrondissement"
   },
   {
+      "Id": "LeLouvre",
+      "Caption": {
+          "en": "Louvre Museum",
+          "fr": "Le Musée du Louvre",
+          "es": "Museo del Louvre",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631111/louvre_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631108/louvre_thumbnail.jpg"
+      },
+      "SequenceId": "LeLouvre",
+      "Location": {
+          "Latitude": "48.8606111",
+          "Longitude": "2.3376439999999548"
+      },
+      "Arrondissement": "1er arrondissement"
+  },
+  {
       "Id": "IleCite",
       "Caption": {
           "en": "Île de la Cité",
@@ -65,6 +88,29 @@
       "Location": {
           "Latitude": "48.8675839",
           "Longitude": "2.3293456000000106"
+      },
+      "Arrondissement": "1er arrondissement"
+  },
+  {
+      "Id": "Conciergerie",
+      "Caption": {
+          "en": "Conciergerie",
+          "fr": "La Conciergerie",
+          "es": "La Conciergerie",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626426/conciergerie_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626527/conciergerie_thumbnail.jpg"
+      },
+      "SequenceId": "Conciergerie",
+      "Location": {
+          "Latitude": "48.85601139999999",
+          "Longitude": "2.3454953000000387"
       },
       "Arrondissement": "1er arrondissement"
   },
