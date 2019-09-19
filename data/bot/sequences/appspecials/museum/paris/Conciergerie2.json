@@ -1,0 +1,105 @@
+{
+    "Type": "Node",
+    "Id": "Conciergerie2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So it was the perfect spot for a palace!",
+                "fr": "So it was the perfect spot for a palace!",
+                "es": "So it was the perfect spot for a palace!",
+                "zh": "So it was the perfect spot for a palace!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 364,
+                "Height": 265,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568898464/palace.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, the French kings lived here all the way up to 1358, when Charles V moved to a fancier palace in the Louvre!",
+                "fr": "In fact, the French kings lived here all the way up to 1358, when Charles V moved to a fancier palace in the Louvre!",
+                "es": "In fact, the French kings lived here all the way up to 1358, when Charles V moved to a fancier palace in the Louvre!",
+                "zh": "In fact, the French kings lived here all the way up to 1358, when Charles V moved to a fancier palace in the Louvre!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 418,
+                "Height": 389,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568891190/louvrepalace.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They say he moved as he no longer felt safe, likely due to multiple advisors being murdered in front of him!",
+                "fr": "They say he moved as he no longer felt safe, likely due to multiple advisors being murdered in front of him!",
+                "es": "They say he moved as he no longer felt safe, likely due to multiple advisors being murdered in front of him!",
+                "zh": "They say he moved as he no longer felt safe, likely due to multiple advisors being murdered in front of him!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Conciergerie2Understandable",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Understandable",
+                "fr": "Understandable",
+                "es": "Understandable",
+                "zh": "Understandable"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!",
+                        "fr": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!",
+                        "es": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!",
+                        "zh": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Conciergerie3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Conciergerie2Coward",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Coward",
+                "fr": "Coward",
+                "es": "Coward",
+                "zh": "Coward"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!!",
+                        "fr": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!!",
+                        "es": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!!",
+                        "zh": "After he had left, he appointed a concierge to run the old palace, which is where it gets its current name from!!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Conciergerie3"
+            }
+        }
+    ]
+}
