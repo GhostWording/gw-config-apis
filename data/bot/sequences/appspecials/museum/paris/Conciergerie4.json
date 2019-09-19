@@ -1,0 +1,130 @@
+{
+    "Type": "Node",
+    "Id": "Conciergerie4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there...",
+                "fr": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there...",
+                "es": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there...",
+                "zh": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
+                "fr": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
+                "es": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
+                "zh": "It's a joke about how the prisoners used to 'sing' like a bird in pain..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Conciergerie4Dear",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh dear",
+                "fr": "Oh dear",
+                "es": "Oh dear",
+                "zh": "Oh dear"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As a bird, I find that offensive",
+                        "fr": "As a bird, I find that offensive",
+                        "es": "As a bird, I find that offensive",
+                        "zh": "As a bird, I find that offensive"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless... over the years, many famous people have been housed in these cells",
+                        "fr": "Regardless... over the years, many famous people have been housed in these cells",
+                        "es": "Regardless... over the years, many famous people have been housed in these cells",
+                        "zh": "Regardless... over the years, many famous people have been housed in these cells"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/museum/ConciergerieC1.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Recognise any faces?",
+                        "fr": "Recognise any faces?",
+                        "es": "Recognise any faces?",
+                        "zh": "Recognise any faces?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Conciergerie4DearStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Conciergerie4DearYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yeah!",
+                            "fr": "Yeah!",
+                            "es": "Yeah!",
+                            "zh": "Yeah!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You know your history!",
+                                    "fr": "You know your history!",
+                                    "es": "You know your history!",
+                                    "zh": "You know your history!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Conciergerie5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Conciergerie4DearNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No",
+                            "zh": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They're mostly famous French revolutionaries!",
+                                    "fr": "They're mostly famous French revolutionaries!",
+                                    "es": "They're mostly famous French revolutionaries!",
+                                    "zh": "They're mostly famous French revolutionaries!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Conciergerie5"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
