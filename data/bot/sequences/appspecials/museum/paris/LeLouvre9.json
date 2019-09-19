@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre9",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This is thanks mainly to the efforts of President Francois Mitterand",
+                "fr": "This is thanks mainly to the efforts of President Francois Mitterand",
+                "es": "This is thanks mainly to the efforts of President Francois Mitterand",
+                "zh": "This is thanks mainly to the efforts of President Francois Mitterand"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Famously, he is responsible for adding the famous pyramid",
+                "fr": "Famously, he is responsible for adding the famous pyramid",
+                "es": "Famously, he is responsible for adding the famous pyramid",
+                "zh": "Famously, he is responsible for adding the famous pyramid"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 400,
+                "Height": 300,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568908424/pyramid.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And that's how it became what it is today!",
+                "fr": "And that's how it became what it is today!",
+                "es": "And that's how it became what it is today!",
+                "zh": "And that's how it became what it is today!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre9Cool",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cool!",
+                "fr": "Cool!",
+                "es": "Cool!",
+                "zh": "Cool!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If you want to learn more about the art inside, I have a whole special app for that!",
+                        "fr": "If you want to learn more about the art inside, I have a whole special app for that!",
+                        "es": "If you want to learn more about the art inside, I have a whole special app for that!",
+                        "zh": "If you want to learn more about the art inside, I have a whole special app for that!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvreFeedback"
+            }
+        }
+    ]
+}
