@@ -1,0 +1,86 @@
+{
+    "Type": "Node",
+    "Id": "LeLouvre5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Louvre castle was heavily renovated, and the famous wings were added!",
+                "fr": "The Louvre castle was heavily renovated, and the famous wings were added!",
+                "es": "The Louvre castle was heavily renovated, and the famous wings were added!",
+                "zh": "The Louvre castle was heavily renovated, and the famous wings were added!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 388,
+                "Height": 258,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568908120/louvrewings.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was a palace truly worthy of the wealth of renaissance France!",
+                "fr": "It was a palace truly worthy of the wealth of renaissance France!",
+                "es": "It was a palace truly worthy of the wealth of renaissance France!",
+                "zh": "It was a palace truly worthy of the wealth of renaissance France!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LeLouvre5Showoffs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Showoffs!",
+                "fr": "Showoffs!",
+                "es": "Showoffs!",
+                "zh": "Showoffs!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, showing off was a huge part of being a king in those times!",
+                        "fr": "Well, showing off was a huge part of being a king in those times!",
+                        "es": "Well, showing off was a huge part of being a king in those times!",
+                        "zh": "Well, showing off was a huge part of being a king in those times!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre5Heroes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My heroes",
+                "fr": "My heroes",
+                "es": "My heroes",
+                "zh": "My heroes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Looks like their showing off worked on you!",
+                        "fr": "Looks like their showing off worked on you!",
+                        "es": "Looks like their showing off worked on you!",
+                        "zh": "Looks like their showing off worked on you!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvre6"
+            }
+        }
+    ]
+}
