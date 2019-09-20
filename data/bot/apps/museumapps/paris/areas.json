@@ -1,9 +1,9 @@
 [
   {
-    "Id": "Museums",
+    "Id": "NorthParis",
     "Caption": {
-      "en": "Museums",
-      "fr": "Musées",
+      "en": "North Bank",
+      "fr": "Rive Droite",
       "es": "Museos"
     },
       "DefaultImage": {
@@ -12,14 +12,19 @@
     },
     "AreaSequenceId" : "BestTestFragmentEver",
     "Places" : [
-      {"Id": "LeLouvre"}
+      {"Id": "LeLouvre"},
+      {"Id": "FontaineInnocents"},
+      {"Id": "LesHalles"},
+      {"Id": "PlaceVendome"},
+      {"Id": "Lachaise"},
+      {"Id": "PalaisGarnier"}
     ]
   },
   {
-    "Id": "Monuments",
+    "Id": "CentreParis",
     "Caption": {
-      "en": "Monuments",
-      "fr": "Monuments",
+      "en": "Île de la Cité (Centre)",
+      "fr": "Île de la Cité",
       "es": "Monumentos"
     },
       "DefaultImage": {
@@ -28,14 +33,16 @@
     },
     "AreaSequenceId" : "BestTestFragmentEver",
     "Places" : [
-      {"Id": "BoulevardHaussmann"}
+      {"Id": "IleCite"},
+      {"Id": "Conciergerie"},
+      {"Id": "SainteChapelle"}
     ]
   },
   {
-    "Id": "Anecdotes",
+    "Id": "SouthParis",
     "Caption": {
-      "en": "Anecdotes",
-      "fr": "Anecdotes",
+      "en": "South Bank",
+      "fr": "Rive Gauche",
       "es": "Anecdotes"
     },
     "DefaultImage": {
@@ -44,7 +51,9 @@
     },
     "AreaSequenceId" : "BestTestFragmentEver",
     "Places" : [
-      {"Id": "LesHalles"}
+      {"Id": "Sulpice"},
+      {"Id": "Catacombs"},
+      {"Id": "PontDesArts"}
     ]
   }
 ]
