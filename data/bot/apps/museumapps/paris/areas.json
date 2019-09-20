@@ -29,13 +29,14 @@
     },
       "DefaultImage": {
       "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964949/printemps.jpg"
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630391/ile_de_la_cite_thumbnail.jpg"
     },
     "AreaSequenceId" : "BestTestFragmentEver",
     "Places" : [
       {"Id": "IleCite"},
       {"Id": "Conciergerie"},
-      {"Id": "SainteChapelle"}
+      {"Id": "SainteChapelle"},
+      {"Id": "PontDesArts"}
     ]
   },
   {
@@ -47,13 +48,12 @@
     },
     "DefaultImage": {
       "Type": "Web",
-      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1537964951/les_halles.jpg"
+      "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714227/saint_sulpice_thumbnail.jpg"
     },
     "AreaSequenceId" : "BestTestFragmentEver",
     "Places" : [
       {"Id": "Sulpice"},
-      {"Id": "Catacombs"},
-      {"Id": "PontDesArts"}
+      {"Id": "Catacombs"}
     ]
   }
 ]
