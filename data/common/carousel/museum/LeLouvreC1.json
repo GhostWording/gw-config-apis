@@ -1,0 +1,35 @@
+{
+    "Id": "LeLouvreC1",
+    "Elements": [
+        {
+            "Title": {
+                "en": "The Lamassu",
+                "fr": "Les Lamassus"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Lamassu.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Victory of Samothrace",
+                "fr": "La Victoire de Samothrace"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541152311/victory_thumbnail.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Michelangelo's Slaves",
+                "fr": "Les Esclaves de Michel-Ange"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/thumbnail_slaves2.jpg"
+            }
+        }
+    ]
+}
