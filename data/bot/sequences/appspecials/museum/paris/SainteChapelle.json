@@ -62,16 +62,16 @@
                     }
                 },
                 {
-                                "Type": "Action",
-                                "Name": "NativeExecuteFragment",
-                                "Parameters": {
-                                "FragmentPath": "Exit"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "MessengerExitFragment"
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
                         }
+                    }
+               ],
+               "LinksToFragment": {
+              "FragmentPath": "MessengerExitFragment"
+             }
         },
         {
             "Type": "Node",
