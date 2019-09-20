@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I'm sure you've heard of the Louvre museum",
-                "fr": "I'm sure you've heard of the Louvre museum",
+                "fr": "Je suis sûr que tu as entendu parler du Musée du Louvre",
                 "es": "I'm sure you've heard of the Louvre museum",
                 "zh": "I'm sure you've heard of the Louvre museum"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The largest museum in the world... 10 million visitors in 2019",
-                "fr": "The largest museum in the world... 10 million visitors in 2019",
+                "fr": "Le plus grand musée du monde... 10 millions de visiteurs en 2019",
                 "es": "The largest museum in the world... 10 million visitors in 2019",
                 "zh": "The largest museum in the world... 10 million visitors in 2019"
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "But did you know that it used to be a castle?",
-                "fr": "But did you know that it used to be a castle?",
+                "fr": "Mais savais-tu qu'à l'origine c'était un chateau ?",
                 "es": "But did you know that it used to be a castle?",
                 "zh": "But did you know that it used to be a castle?"
             }
@@ -47,7 +47,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It was! Hundreds of years ago",
-                        "fr": "It was! Hundreds of years ago",
+                        "fr": "C'était le cas ! Il y a plusieurs centaines d'années",
                         "es": "It was! Hundreds of years ago",
                         "zh": "It was! Hundreds of years ago"
                     }
@@ -81,7 +81,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "It was! Hundreds of years ago!",
-                        "fr": "It was! Hundreds of years ago!",
+                        "fr": "C'était le cas ! Il y a plusieurs centaines d'années !",
                         "es": "It was! Hundreds of years ago!",
                         "zh": "It was! Hundreds of years ago!"
                     }
