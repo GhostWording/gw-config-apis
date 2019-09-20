@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Let's talk about the Conciergerie!",
-                "fr": "Let's talk about the Conciergerie!",
+                "fr": "Parlons un peu de La Conciergerie!",
                 "es": "Let's talk about the Conciergerie!",
                 "zh": "Let's talk about the Conciergerie!"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It's located here, on the Ile de la Cite",
-                "fr": "It's located here, on the Ile de la Cite",
+                "fr": "Elle est située ici, sur l'île de la Cité",
                 "es": "It's located here, on the Ile de la Cite",
                 "zh": "It's located here, on the Ile de la Cite"
             }
@@ -33,7 +33,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Have you read my story about the Ile de La Cite?",
-                "fr": "Have you read my story about the Ile de La Cite?",
+                "fr": "As-tu lu mon histoire sur l'île de La Cité ?",
                 "es": "Have you read my story about the Ile de La Cite?",
                 "zh": "Have you read my story about the Ile de La Cite?"
             }
@@ -46,7 +46,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
-                "fr": "Yes!",
+                "fr": "Oui !",
                 "es": "Yes!",
                 "zh": "Yes!"
             },
@@ -55,7 +55,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Then you'll know that this is the traditional and historical centre of Paris!",
-                        "fr": "Then you'll know that this is the traditional and historical centre of Paris!",
+                        "fr": "Tu sais donc que c'est le centre traditionel et historique de Paris !",
                         "es": "Then you'll know that this is the traditional and historical centre of Paris!",
                         "zh": "Then you'll know that this is the traditional and historical centre of Paris!"
                     }
@@ -71,7 +71,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
@@ -80,7 +80,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well, it's the traditional and historical centre of Paris!",
-                        "fr": "Well, it's the traditional and historical centre of Paris!",
+                        "fr": "Eh bien, c'est le centre traditionel et historique de Paris !",
                         "es": "Well, it's the traditional and historical centre of Paris!",
                         "zh": "Well, it's the traditional and historical centre of Paris!"
                     }
