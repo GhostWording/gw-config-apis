@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there...",
-                "fr": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there...",
+                "fr": "L'une des tours portait un nom abominable: 'Bonbec', un jeu de mots sur les tortures qui s'y déroulaient...",
                 "es": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there...",
                 "zh": "In fact, one of the towers in the building even has a grisly name: 'Bonbec', as a pun on the torture that used to happen there..."
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
-                "fr": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
+                "fr": "Une blague sur les prisonniers qui 'chantaient' comme des oiseaux en train de souffrir...",
                 "es": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
                 "zh": "It's a joke about how the prisoners used to 'sing' like a bird in pain..."
             }
@@ -28,7 +28,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Oh dear",
-                "fr": "Oh dear",
+                "fr": "Ah bigre",
                 "es": "Oh dear",
                 "zh": "Oh dear"
             },
@@ -37,7 +37,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "As a bird, I find that offensive",
-                        "fr": "As a bird, I find that offensive",
+                        "fr": "En tant qu'oiseau je trouve cela particulièrement insultant. Je suis prêt à lutter bec et ongles contre ce genre de pratiques",
                         "es": "As a bird, I find that offensive",
                         "zh": "As a bird, I find that offensive"
                     }
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Regardless... over the years, many famous people have been housed in these cells",
-                        "fr": "Regardless... over the years, many famous people have been housed in these cells",
+                        "fr": "Quoi qu'il en soit... au fil des ans, de nombreuses personne célèbres séjournèrent dans ces cellules",
                         "es": "Regardless... over the years, many famous people have been housed in these cells",
                         "zh": "Regardless... over the years, many famous people have been housed in these cells"
                     }
@@ -62,7 +62,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Recognise any faces?",
-                        "fr": "Recognise any faces?",
+                        "fr": "Tu reconnais des visages ?",
                         "es": "Recognise any faces?",
                         "zh": "Recognise any faces?"
                     }
@@ -79,7 +79,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Yeah!",
-                            "fr": "Yeah!",
+                            "fr": "Oui !",
                             "es": "Yeah!",
                             "zh": "Yeah!"
                         },
@@ -88,7 +88,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "You know your history!",
-                                    "fr": "You know your history!",
+                                    "fr": "Tu t'y connais en Histoire de France !",
                                     "es": "You know your history!",
                                     "zh": "You know your history!"
                                 }
@@ -104,7 +104,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "No",
-                            "fr": "No",
+                            "fr": "Non",
                             "es": "No",
                             "zh": "No"
                         },
@@ -113,7 +113,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "They're mostly famous French revolutionaries!",
-                                    "fr": "They're mostly famous French revolutionaries!",
+                                    "fr": "Ce sont surtout de célèbres révolutionnaires français !",
                                     "es": "They're mostly famous French revolutionaries!",
                                     "zh": "They're mostly famous French revolutionaries!"
                                 }
