@@ -1,0 +1,143 @@
+{
+    "Type": "Node",
+    "Id": "NotreDame",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There are a lot of churches in Paris, as you might know..",
+                "fr": "There are a lot of churches in Paris, as you might know..",
+                "es": "There are a lot of churches in Paris, as you might know..",
+                "zh": "There are a lot of churches in Paris, as you might know.."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But the queen of them all is Notre-Dame",
+                "fr": "But the queen of them all is Notre-Dame",
+                "es": "But the queen of them all is Notre-Dame",
+                "zh": "But the queen of them all is Notre-Dame"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
+                "fr": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
+                "es": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
+                "zh": "This means 'Our Lady', and of course refers to Mary, mother of Jesus"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NotreDameMore",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me more",
+                "fr": "Tell me more",
+                "es": "Tell me more",
+                "zh": "Tell me more"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!",
+                        "fr": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!",
+                        "es": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!",
+                        "zh": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year...",
+                        "fr": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year...",
+                        "es": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year...",
+                        "zh": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NotreDameMoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDameMoreAmazing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Amazing!",
+                            "fr": "Amazing!",
+                            "es": "Amazing!",
+                            "zh": "Amazing!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "There are a few things that contribute to its fame...",
+                                    "fr": "There are a few things that contribute to its fame...",
+                                    "es": "There are a few things that contribute to its fame...",
+                                    "zh": "There are a few things that contribute to its fame..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame2"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDameMoreWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why, though?",
+                            "fr": "Why, though?",
+                            "es": "Why, though?",
+                            "zh": "Why, though?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, there are a few things that contribute to its fame...",
+                                    "fr": "Well, there are a few things that contribute to its fame...",
+                                    "es": "Well, there are a few things that contribute to its fame...",
+                                    "zh": "Well, there are a few things that contribute to its fame..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame2"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
