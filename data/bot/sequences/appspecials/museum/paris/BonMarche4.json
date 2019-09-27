@@ -1,0 +1,95 @@
+{
+    "Type": "Node",
+    "Id": "BonMarche4",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Similarly, standardised clothes sizes... like S, M, L, XL...",
+                "fr": "Similarly, standardised clothes sizes... like S, M, L, XL...",
+                "es": "Similarly, standardised clothes sizes... like S, M, L, XL...",
+                "zh": "Similarly, standardised clothes sizes... like S, M, L, XL..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "before that, you would have needed a tailor to measure you!",
+                "fr": "before that, you would have needed a tailor to measure you!",
+                "es": "before that, you would have needed a tailor to measure you!",
+                "zh": "before that, you would have needed a tailor to measure you!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BonMarche4Pain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a pain",
+                "fr": "What a pain",
+                "es": "What a pain",
+                "zh": "What a pain"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Le Bon Marché really revolutionised the way people shopped...",
+                        "fr": "Le Bon Marché really revolutionised the way people shopped...",
+                        "es": "Le Bon Marché really revolutionised the way people shopped...",
+                        "zh": "Le Bon Marché really revolutionised the way people shopped..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BonMarche5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BonMarche4Prefer",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That seems better",
+                "fr": "That seems better",
+                "es": "That seems better",
+                "zh": "That seems better"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It might give you a better fit... but would take forever!",
+                        "fr": "It might give you a better fit... but would take forever!",
+                        "es": "It might give you a better fit... but would take forever!",
+                        "zh": "It might give you a better fit... but would take forever!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Le Bon Marche really revolutionised the way people shopped...",
+                        "fr": "Le Bon Marche really revolutionised the way people shopped...",
+                        "es": "Le Bon Marche really revolutionised the way people shopped...",
+                        "zh": "Le Bon Marche really revolutionised the way people shopped..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BonMarche5"
+            }
+        }
+    ]
+}
