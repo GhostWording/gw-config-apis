@@ -1,0 +1,133 @@
+{
+    "Type": "Node",
+    "Id": "BonMarche2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They've been hugely successful over the past century!",
+                "fr": "They've been hugely successful over the past century!",
+                "es": "They've been hugely successful over the past century!",
+                "zh": "They've been hugely successful over the past century!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And the first one ever started in Paris!",
+                "fr": "And the first one ever started in Paris!",
+                "es": "And the first one ever started in Paris!",
+                "zh": "And the first one ever started in Paris!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BonMarche2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me!",
+                "fr": "Tell me!",
+                "es": "Tell me!",
+                "zh": "Tell me!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As you might know... back in the day, most shopping was done in markets and individual stores",
+                        "fr": "As you might know... back in the day, most shopping was done in markets and individual stores",
+                        "es": "As you might know... back in the day, most shopping was done in markets and individual stores",
+                        "zh": "As you might know... back in the day, most shopping was done in markets and individual stores"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But in 1848 a French entrepreneur had a vision of centralising these shops into one...",
+                        "fr": "But in 1848 a French entrepreneur had a vision of centralising these shops into one...",
+                        "es": "But in 1848 a French entrepreneur had a vision of centralising these shops into one...",
+                        "zh": "But in 1848 a French entrepreneur had a vision of centralising these shops into one..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He created the first modern department store: Le Bon Marché!",
+                        "fr": "He created the first modern department store: Le Bon Marché!",
+                        "es": "He created the first modern department store: Le Bon Marché!",
+                        "zh": "He created the first modern department store: Le Bon Marché!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BonMarche2MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "BonMarche2MoreConvenient",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How convenient!",
+                            "fr": "How convenient!",
+                            "es": "How convenient!",
+                            "zh": "How convenient!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The store was an enormous success!",
+                                    "fr": "The store was an enormous success!",
+                                    "es": "The store was an enormous success!",
+                                    "zh": "The store was an enormous success!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "BonMarche3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "BonMarche2MoreGenius",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "A real genius!",
+                            "fr": "A real genius!",
+                            "es": "A real genius!",
+                            "zh": "A real genius!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The store was an enormous success!",
+                                    "fr": "The store was an enormous success!",
+                                    "es": "The store was an enormous success!",
+                                    "zh": "The store was an enormous success!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "BonMarche3"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
