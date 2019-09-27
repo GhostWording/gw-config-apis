@@ -1,0 +1,150 @@
+{
+    "Type": "Node",
+    "Id": "NotreDame5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway... another key reason for its fame: The Hunchback of Notre-Dame!",
+                "fr": "Anyway... another key reason for its fame: The Hunchback of Notre-Dame!",
+                "es": "Anyway... another key reason for its fame: The Hunchback of Notre-Dame!",
+                "zh": "Anyway... another key reason for its fame: The Hunchback of Notre-Dame!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Both the book by Victor Hugo in 1831... and the later Disney adaptation!",
+                "fr": "Both the book by Victor Hugo in 1831... and the later Disney adaptation!",
+                "es": "Both the book by Victor Hugo in 1831... and the later Disney adaptation!",
+                "zh": "Both the book by Victor Hugo in 1831... and the later Disney adaptation!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/BonMarcheC1.json"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NotreDame5More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Is that it?",
+                "fr": "Is that it?",
+                "es": "Is that it?",
+                "zh": "Is that it?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Lots of interesting events have happened to it, too!",
+                        "fr": "Lots of interesting events have happened to it, too!",
+                        "es": "Lots of interesting events have happened to it, too!",
+                        "zh": "Lots of interesting events have happened to it, too!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Napoleon the I was crowned there... like in this 1807 painting by Jaques-Louis David!",
+                        "fr": "Napoleon the I was crowned there... like in this 1807 painting by Jaques-Louis David!",
+                        "es": "Napoleon the I was crowned there... like in this 1807 painting by Jaques-Louis David!",
+                        "zh": "Napoleon the I was crowned there... like in this 1807 painting by Jaques-Louis David!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And Philippe Petit walked between the towers in 1971",
+                        "fr": "And Philippe Petit walked between the towers in 1971",
+                        "es": "And Philippe Petit walked between the towers in 1971",
+                        "zh": "And Philippe Petit walked between the towers in 1971"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NotreDame5MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame5MoreCriminal",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Criminal!",
+                            "fr": "Criminal!",
+                            "es": "Criminal!",
+                            "zh": "Criminal!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But the Cathedral's history hasn't all been happy!",
+                                    "fr": "But the Cathedral's history hasn't all been happy!",
+                                    "es": "But the Cathedral's history hasn't all been happy!",
+                                    "zh": "But the Cathedral's history hasn't all been happy!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame6"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame5MoreCool",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "So cool!",
+                            "fr": "So cool!",
+                            "es": "So cool!",
+                            "zh": "So cool!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But the Cathedral's history hasn't all been happy!",
+                                    "fr": "But the Cathedral's history hasn't all been happy!",
+                                    "es": "But the Cathedral's history hasn't all been happy!",
+                                    "zh": "But the Cathedral's history hasn't all been happy!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame6"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
