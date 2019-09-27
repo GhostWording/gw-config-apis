@@ -3,15 +3,6 @@
     "Id": "LeLouvre8",
     "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "He packed it full of all the items he 'acquired' during his empire",
-                "fr": "Il l'a rempli de pièces 'acquises' durant son règne",
-                "es": "He packed it full of all the items he 'acquired' during his empire",
-                "zh": "He packed it full of all the items he 'acquired' during his empire"
-            }
-        },
-        {
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
@@ -21,10 +12,19 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "If you visit, you'll definitely see some of these!",
+                "en": "He packed it full of items like these that he 'acquired' during his empire",
+                "fr": "Il l'a rempli de pièces 'acquises' durant son règne",
+                "es": "He packed it full of items like these that he 'acquired' during his empire",
+                "zh": "He packed it full of items like these that he 'acquired' during his empire"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If you visit, you'll definitely see some of them!",
                 "fr": "Si tu visites tu pourras en voir pal mal !",
-                "es": "If you visit, you'll definitely see some of these!",
-                "zh": "If you visit, you'll definitely see some of these!"
+                "es": "If you visit, you'll definitely see some of them!",
+                "zh": "If you visit, you'll definitely see some of them!"
             }
         }
     ],
