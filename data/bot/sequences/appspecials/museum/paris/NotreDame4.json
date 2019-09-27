@@ -1,0 +1,143 @@
+{
+    "Type": "Node",
+    "Id": "NotreDame4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Especially these famous rose windows...",
+                "fr": "Especially these famous rose windows...",
+                "es": "Especially these famous rose windows...",
+                "zh": "Especially these famous rose windows..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NotreDame4More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Another reason for the Cathedral's fame would have to be the gargoyles...",
+                        "fr": "Another reason for the Cathedral's fame would have to be the gargoyles...",
+                        "es": "Another reason for the Cathedral's fame would have to be the gargoyles...",
+                        "zh": "Another reason for the Cathedral's fame would have to be the gargoyles..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Can you guess their purpose?",
+                        "fr": "Can you guess their purpose?",
+                        "es": "Can you guess their purpose?",
+                        "zh": "Can you guess their purpose?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NotreDame4MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame4MoreRain",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Drains for rain",
+                            "fr": "Drains for rain",
+                            "es": "Drains for rain",
+                            "zh": "Drains for rain"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "That's right... you're smart!",
+                                    "fr": "That's right... you're smart!",
+                                    "es": "That's right... you're smart!",
+                                    "zh": "That's right... you're smart!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They made rain run off away from the rest of the stone to protect it!",
+                                    "fr": "They made rain run off away from the rest of the stone to protect it!",
+                                    "es": "They made rain run off away from the rest of the stone to protect it!",
+                                    "zh": "They made rain run off away from the rest of the stone to protect it!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame5"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame4MoreScare",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Intimidation!",
+                            "fr": "Intimidation!",
+                            "es": "Intimidation!",
+                            "zh": "Intimidation!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, I suppose so...",
+                                    "fr": "Well, I suppose so...",
+                                    "es": "Well, I suppose so...",
+                                    "zh": "Well, I suppose so..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But the main reason was to protect the stone structure from rain!",
+                                    "fr": "But the main reason was to protect the stone structure from rain!",
+                                    "es": "But the main reason was to protect the stone structure from rain!",
+                                    "zh": "But the main reason was to protect the stone structure from rain!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame5"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
