@@ -1,0 +1,134 @@
+{
+    "Type": "Node",
+    "Id": "NotreDame2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The first is, of course, its impressive size and architecture!",
+                "fr": "The first is, of course, its impressive size and architecture!",
+                "es": "The first is, of course, its impressive size and architecture!",
+                "zh": "The first is, of course, its impressive size and architecture!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889",
+                "fr": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889",
+                "es": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889",
+                "zh": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NotreDame2More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Continue",
+                "fr": "Continue",
+                "es": "Continue",
+                "zh": "Continue"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
+                        "fr": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
+                        "es": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
+                        "zh": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "An entire forest's worth!",
+                        "fr": "An entire forest's worth!",
+                        "es": "An entire forest's worth!",
+                        "zh": "An entire forest's worth!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NotreDame2MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame2MoreImpressive",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Impressive",
+                            "fr": "Impressive",
+                            "es": "Impressive",
+                            "zh": "Impressive"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I see you appreciate good architecture!",
+                                    "fr": "I see you appreciate good architecture!",
+                                    "es": "I see you appreciate good architecture!",
+                                    "zh": "I see you appreciate good architecture!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame3"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame2MoreSave",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Save the forests!",
+                            "fr": "Save the forests!",
+                            "es": "Save the forests!",
+                            "zh": "Save the forests!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I appreciate your environmentalist spirit!",
+                                    "fr": "I appreciate your environmentalist spirit!",
+                                    "es": "I appreciate your environmentalist spirit!",
+                                    "zh": "I appreciate your environmentalist spirit!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame3"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
