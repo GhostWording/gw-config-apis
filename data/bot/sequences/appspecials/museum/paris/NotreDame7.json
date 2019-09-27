@@ -1,0 +1,124 @@
+{
+    "Type": "Node",
+    "Id": "NotreDame7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But the efforts of Victor Hugo, and his novel in 1831, the Hunchback of Notre Dame, changed public opinion!",
+                "fr": "But the efforts of Victor Hugo, and his novel in 1831, the Hunchback of Notre Dame, changed public opinion!",
+                "es": "But the efforts of Victor Hugo, and his novel in 1831, the Hunchback of Notre Dame, changed public opinion!",
+                "zh": "But the efforts of Victor Hugo, and his novel in 1831, the Hunchback of Notre Dame, changed public opinion!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NotreDame7Hooray",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hooray!",
+                "fr": "Hooray!",
+                "es": "Hooray!",
+                "zh": "Hooray!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A public fund was set up, and it was fixed and renovated..",
+                        "fr": "A public fund was set up, and it was fixed and renovated..",
+                        "es": "A public fund was set up, and it was fixed and renovated..",
+                        "zh": "A public fund was set up, and it was fixed and renovated.."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It remained without major incidents all the way up until 2019!",
+                        "fr": "It remained without major incidents all the way up until 2019!",
+                        "es": "It remained without major incidents all the way up until 2019!",
+                        "zh": "It remained without major incidents all the way up until 2019!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "While doing some small renovations, it caught fire... burning the famous spire and ''forest'!",
+                        "fr": "While doing some small renovations, it caught fire... burning the famous spire and ''forest'!",
+                        "es": "While doing some small renovations, it caught fire... burning the famous spire and ''forest'!",
+                        "zh": "While doing some small renovations, it caught fire... burning the famous spire and ''forest'!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NotreDame7HoorayStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame7HooraySaw",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I saw that!",
+                            "fr": "I saw that!",
+                            "es": "I saw that!",
+                            "zh": "I saw that!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Luckily, the main structures are still intact",
+                                    "fr": "Luckily, the main structures are still intact",
+                                    "es": "Luckily, the main structures are still intact",
+                                    "zh": "Luckily, the main structures are still intact"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame8"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame7HoorayAwful",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How awful!",
+                            "fr": "How awful!",
+                            "es": "How awful!",
+                            "zh": "How awful!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Luckily, the main structures are still intact",
+                                    "fr": "Luckily, the main structures are still intact",
+                                    "es": "Luckily, the main structures are still intact",
+                                    "zh": "Luckily, the main structures are still intact"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame8"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
