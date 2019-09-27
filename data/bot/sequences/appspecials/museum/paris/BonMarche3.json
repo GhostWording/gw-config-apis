@@ -1,0 +1,170 @@
+{
+    "Type": "Node",
+    "Id": "BonMarche3",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 800,
+                "Source": "Web",
+                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But it wasn't only due to combining multiple stores into one...",
+                "fr": "But it wasn't only due to combining multiple stores into one...",
+                "es": "But it wasn't only due to combining multiple stores into one...",
+                "zh": "But it wasn't only due to combining multiple stores into one..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He also came up with a number of other innovations!",
+                "fr": "He also came up with a number of other innovations!",
+                "es": "He also came up with a number of other innovations!",
+                "zh": "He also came up with a number of other innovations!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BonMarche3More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What were they?",
+                "fr": "What were they?",
+                "es": "What were they?",
+                "zh": "What were they?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You see this?",
+                        "fr": "You see this?",
+                        "es": "You see this?",
+                        "zh": "You see this?"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Totally normal, right?",
+                        "fr": "Totally normal, right?",
+                        "es": "Totally normal, right?",
+                        "zh": "Totally normal, right?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, before Le Bon Marché, prices weren't displayed like this...",
+                        "fr": "Well, before Le Bon Marché, prices weren't displayed like this...",
+                        "es": "Well, before Le Bon Marché, prices weren't displayed like this...",
+                        "zh": "Well, before Le Bon Marché, prices weren't displayed like this..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Everything was market-style haggling, with different prices for each customer!",
+                        "fr": "Everything was market-style haggling, with different prices for each customer!",
+                        "es": "Everything was market-style haggling, with different prices for each customer!",
+                        "zh": "Everything was market-style haggling, with different prices for each customer!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BonMarche3MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "BonMarche3MoreDear",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Oh no!",
+                            "fr": "Oh no!",
+                            "es": "Oh no!",
+                            "zh": "Oh no!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yes...",
+                                    "fr": "Yes...",
+                                    "es": "Yes...",
+                                    "zh": "Yes..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It sounds like an accounting nightmare!",
+                                    "fr": "It sounds like an accounting nightmare!",
+                                    "es": "It sounds like an accounting nightmare!",
+                                    "zh": "It sounds like an accounting nightmare!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "BonMarche4"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "BonMarche3MorePrefer",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I prefer haggling",
+                            "fr": "I prefer haggling",
+                            "es": "I prefer haggling",
+                            "zh": "I prefer haggling"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, that still exists!",
+                                    "fr": "Well, that still exists!",
+                                    "es": "Well, that still exists!",
+                                    "zh": "Well, that still exists!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But to me, it sounds like an accounting nightmare!",
+                                    "fr": "But to me, it sounds like an accounting nightmare!",
+                                    "es": "But to me, it sounds like an accounting nightmare!",
+                                    "zh": "But to me, it sounds like an accounting nightmare!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "BonMarche4"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
