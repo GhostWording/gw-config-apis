@@ -1,0 +1,94 @@
+{
+    "Type": "Node",
+    "Id": "BonMarche6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It had women make up over 50% of its workforce... very unusual for the time!",
+                "fr": "It had women make up over 50% of its workforce... very unusual for the time!",
+                "es": "It had women make up over 50% of its workforce... very unusual for the time!",
+                "zh": "It had women make up over 50% of its workforce... very unusual for the time!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And the company even provided dormitories for unmarried women to live in, right above the store!",
+                "fr": "And the company even provided dormitories for unmarried women to live in, right above the store!",
+                "es": "And the company even provided dormitories for unmarried women to live in, right above the store!",
+                "zh": "And the company even provided dormitories for unmarried women to live in, right above the store!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BonMarche6Kind",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's kind!",
+                "fr": "That's kind!",
+                "es": "That's kind!",
+                "zh": "That's kind!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right! It might seem a bit dystopian now... but at the time, it was a huge step forward!",
+                        "fr": "Right! It might seem a bit dystopian now... but at the time, it was a huge step forward!",
+                        "es": "Right! It might seem a bit dystopian now... but at the time, it was a huge step forward!",
+                        "zh": "Right! It might seem a bit dystopian now... but at the time, it was a huge step forward!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless, go check out the store if you enjoy shopping at all!",
+                        "fr": "Regardless, go check out the store if you enjoy shopping at all!",
+                        "es": "Regardless, go check out the store if you enjoy shopping at all!",
+                        "zh": "Regardless, go check out the store if you enjoy shopping at all!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BonMarcheFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BonMarche6Horrible",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's horrible!",
+                "fr": "That's horrible!",
+                "es": "That's horrible!",
+                "zh": "That's horrible!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, it might seem a bit dystopian now... but at the time, it was a huge step forward!",
+                        "fr": "Well, it might seem a bit dystopian now... but at the time, it was a huge step forward!",
+                        "es": "Well, it might seem a bit dystopian now... but at the time, it was a huge step forward!",
+                        "zh": "Well, it might seem a bit dystopian now... but at the time, it was a huge step forward!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless, go check out the store if you enjoy shopping at all!",
+                        "fr": "Regardless, go check out the store if you enjoy shopping at all!",
+                        "es": "Regardless, go check out the store if you enjoy shopping at all!",
+                        "zh": "Regardless, go check out the store if you enjoy shopping at all!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BonMarcheFeedback"
+            }
+        }
+    ]
+}
