@@ -1,0 +1,124 @@
+{
+    "Type": "Node",
+    "Id": "NotreDame6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was built between 1162 and 1260, and has been continually modified over the centuries",
+                "fr": "It was built between 1162 and 1260, and has been continually modified over the centuries",
+                "es": "It was built between 1162 and 1260, and has been continually modified over the centuries",
+                "zh": "It was built between 1162 and 1260, and has been continually modified over the centuries"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Right up until... you guessed it... the French Revolution of the 1790s!",
+                "fr": "Right up until... you guessed it... the French Revolution of the 1790s!",
+                "es": "Right up until... you guessed it... the French Revolution of the 1790s!",
+                "zh": "Right up until... you guessed it... the French Revolution of the 1790s!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "NotreDame6Dear",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh no",
+                "fr": "Oh no",
+                "es": "Oh no",
+                "zh": "Oh no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh yes... they of course trashed the Cathedral...",
+                        "fr": "Oh yes... they of course trashed the Cathedral...",
+                        "es": "Oh yes... they of course trashed the Cathedral...",
+                        "zh": "Oh yes... they of course trashed the Cathedral..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And even hacked the heads off statues of biblical figures, thinking them to be Kings of France!",
+                        "fr": "And even hacked the heads off statues of biblical figures, thinking them to be Kings of France!",
+                        "es": "And even hacked the heads off statues of biblical figures, thinking them to be Kings of France!",
+                        "zh": "And even hacked the heads off statues of biblical figures, thinking them to be Kings of France!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 800,
+                        "Source": "Web",
+                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "NotreDame6DearStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame6DearEasy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "An easy mistake",
+                            "fr": "An easy mistake",
+                            "es": "An easy mistake",
+                            "zh": "An easy mistake"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
+                                    "fr": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
+                                    "es": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
+                                    "zh": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame7"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "NotreDame6DearBad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How annoying",
+                            "fr": "How annoying",
+                            "es": "How annoying",
+                            "zh": "How annoying"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
+                                    "fr": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
+                                    "es": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
+                                    "zh": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "NotreDame7"
+                        }
+                    }
+                ]
+            }
+        }      
+    ]
+}
