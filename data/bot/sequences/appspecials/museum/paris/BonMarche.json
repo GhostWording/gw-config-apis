@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "BonMarche",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are you familiar with places like this?",
+                "fr": "Are you familiar with places like this?",
+                "es": "Are you familiar with places like this?",
+                "zh": "Are you familiar with places like this?"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/BonMarcheC1.json"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BonMarcheYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes",
+                "zh": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yeah! Department stores!",
+                        "fr": "Yeah! Department stores!",
+                        "es": "Yeah! Department stores!",
+                        "zh": "Yeah! Department stores!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BonMarche2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BonMarcheNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you live under a rock?!",
+                        "fr": "Do you live under a rock?!",
+                        "es": "Do you live under a rock?!",
+                        "zh": "Do you live under a rock?!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They're department stores!",
+                        "fr": "They're department stores!",
+                        "es": "They're department stores!",
+                        "zh": "They're department stores!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "BonMarche2"
+            }
+        }
+    ]
+}
