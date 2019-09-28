@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The first is, of course, its impressive size and architecture!",
-                "fr": "The first is, of course, its impressive size and architecture!",
+                "fr": "La première est naturellement l'association de sa taille et de son architecture !",
                 "es": "The first is, of course, its impressive size and architecture!",
                 "zh": "The first is, of course, its impressive size and architecture!"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889",
-                "fr": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889",
+                "fr": "C'était le plus haut bâtiment de Paris ... avant l'arrivée de la Tour Eiffel en 1889",
                 "es": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889",
                 "zh": "It was the tallest building in Paris... until the arrival of the Eiffel Tower in 1889"
             }
@@ -46,8 +46,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
-                        "fr": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
+                        "en": "Indeed the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
+                        "fr": "Les structures en bois utilisées dans la Cathédrale étaient nommée 'la forêt', en raison de la quantité de bois utilisée...",
                         "es": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it...",
                         "zh": "Indeedm the wooden beam structures that were in the Cathedral are called 'the forest', since that was how much wood was needed to construct it..."
                     }
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "An entire forest's worth!",
-                        "fr": "An entire forest's worth!",
+                        "fr": "L'équivalent d'une forêt !",
                         "es": "An entire forest's worth!",
                         "zh": "An entire forest's worth!"
                     }
@@ -83,7 +83,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Impressive",
-                            "fr": "Impressive",
+                            "fr": "Impressionnant",
                             "es": "Impressive",
                             "zh": "Impressive"
                         },
@@ -92,7 +92,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I see you appreciate good architecture!",
-                                    "fr": "I see you appreciate good architecture!",
+                                    "fr": "Je suis content que tu apprécies la belle architecture !",
                                     "es": "I see you appreciate good architecture!",
                                     "zh": "I see you appreciate good architecture!"
                                 }
@@ -108,7 +108,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Save the forests!",
-                            "fr": "Save the forests!",
+                            "fr": "Sauvez les arbres !",
                             "es": "Save the forests!",
                             "zh": "Save the forests!"
                         },
@@ -116,8 +116,8 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "I appreciate your environmentalist spirit!",
-                                    "fr": "I appreciate your environmentalist spirit!",
+                                    "en": "As an owl, I appreciate your environmentalist spirit!",
+                                    "fr": "En tant que chouette j'aurais du mal à dire le contraire !",
                                     "es": "I appreciate your environmentalist spirit!",
                                     "zh": "I appreciate your environmentalist spirit!"
                                 }
