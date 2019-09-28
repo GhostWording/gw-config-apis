@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Are you familiar with places like this?",
-                "fr": "Are you familiar with places like this?",
+                "fr": "Tu fréquentes ce genre d'endroits ?",
                 "es": "Are you familiar with places like this?",
                 "zh": "Are you familiar with places like this?"
             }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes",
                 "zh": "Yes"
             },
@@ -35,7 +35,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Yeah! Department stores!",
-                        "fr": "Yeah! Department stores!",
+                        "fr": "Eh oui ! Les grands magazins !",
                         "es": "Yeah! Department stores!",
                         "zh": "Yeah! Department stores!"
                     }
@@ -51,7 +51,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
@@ -60,7 +60,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Do you live under a rock?!",
-                        "fr": "Do you live under a rock?!",
+                        "fr": "Tu vis sous un rocher ?!",
                         "es": "Do you live under a rock?!",
                         "zh": "Do you live under a rock?!"
                     }
@@ -69,7 +69,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They're department stores!",
-                        "fr": "They're department stores!",
+                        "fr": "Il s'agit des grands magazins !",
                         "es": "They're department stores!",
                         "zh": "They're department stores!"
                     }
