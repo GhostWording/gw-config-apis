@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "There are a lot of churches in Paris, as you might know..",
-                "fr": "There are a lot of churches in Paris, as you might know..",
+                "fr": "Comme tu le sais, il y a plein d'églises à Paris..",
                 "es": "There are a lot of churches in Paris, as you might know..",
                 "zh": "There are a lot of churches in Paris, as you might know.."
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "But the queen of them all is Notre-Dame",
-                "fr": "But the queen of them all is Notre-Dame",
+                "fr": "Mais la reine d'entre elles est certainement Notre-Dame",
                 "es": "But the queen of them all is Notre-Dame",
                 "zh": "But the queen of them all is Notre-Dame"
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
-                "fr": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
+                "fr": "'Notre-Dame' est l'un des noms employés pour désigner la mère de Jésus, également appelée Sainte Vierge, Vierge Marie, Marie de Nazareth ou Mère de Dieu",
                 "es": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
                 "zh": "This means 'Our Lady', and of course refers to Mary, mother of Jesus"
             }
@@ -47,7 +47,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me more",
-                "fr": "Tell me more",
+                "fr": "Dis-m'en plus",
                 "es": "Tell me more",
                 "zh": "Tell me more"
             },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!",
-                        "fr": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!",
+                        "fr": "C'est comme tu le sais l'un des sites les plus connus de Paris, avec Le Louvre et la Tour Eiffel",
                         "es": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!",
                         "zh": "Alongside Le Louvre and the Eiffel Tower, it's one of the most famous landmarks in Paris!"
                     }
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year...",
-                        "fr": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year...",
+                        "fr": "Et en terme de nombre de visiteurs, c'est en fait le plus populaires avec plus de 12 millions d'entrées par an...",
                         "es": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year...",
                         "zh": "And, in terms of the number of visitors, it's actually the most popular! Over 12 million people visit every year..."
                     }
@@ -92,7 +92,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Amazing!",
-                            "fr": "Amazing!",
+                            "fr": "Dingue !",
                             "es": "Amazing!",
                             "zh": "Amazing!"
                         },
@@ -101,7 +101,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "There are a few things that contribute to its fame...",
-                                    "fr": "There are a few things that contribute to its fame...",
+                                    "fr": "Sûr, sa renommée tient à plusieurs choses...",
                                     "es": "There are a few things that contribute to its fame...",
                                     "zh": "There are a few things that contribute to its fame..."
                                 }
@@ -117,7 +117,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Why, though?",
-                            "fr": "Why, though?",
+                            "fr": "Comment cela se fait-il ?",
                             "es": "Why, though?",
                             "zh": "Why, though?"
                         },
@@ -126,7 +126,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, there are a few things that contribute to its fame...",
-                                    "fr": "Well, there are a few things that contribute to its fame...",
+                                    "fr": "Eh bien, sa renommée tient à plusieurs choses...",
                                     "es": "Well, there are a few things that contribute to its fame...",
                                     "zh": "Well, there are a few things that contribute to its fame..."
                                 }
