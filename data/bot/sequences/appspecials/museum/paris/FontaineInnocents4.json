@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "To fill the space, they moved this fountain here!",
-                "fr": "Et ils y ont déplacé une fontaine pour marquer l'endroit!",
+                "fr": "Et ils y ont transporté une fontaine pour marquer l'endroit!",
                 "es": "To fill the space, they moved this fountain here!",
                 "zh": "To fill the space, they moved this fountain here!"
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It's now a popular square for relaxing, with many shops and attractions around",
-                "fr": "C'est maintenant une place populaire pour se détendre, entourée de nombreuses boutiques",
+                "fr": "C'est maintenant une place populaire, entourée de nombreuses boutiques",
                 "es": "It's now a popular square for relaxing, with many shops and attractions around",
                 "zh": "It's now a popular square for relaxing, with many shops and attractions around"
             }
@@ -56,7 +56,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yeah!",
-                "fr": "Yeah!",
+                "fr": "Yops !",
                 "es": "Yeah!",
                 "zh": "Yeah!"
             },
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So, because the area was so famous for being horrible, it has been popular in fiction!",
-                        "fr": "Etant donné que l'endroit avec la réputation d'ête horrible, il a été popularité dans les fictions!",
+                        "fr": "Etant donné que l'endroit avec la réputation d'être horrible, il est populaire auprès des auteurs de fictions !",
                         "es": "So, because the area was so famous for being horrible, it has been popular in fiction!",
                         "zh": "So, because the area was so famous for being horrible, it has been popular in fiction!"
                     }
@@ -74,7 +74,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "In particular, the home of several groups of vampires...",
-                        "fr": "En particulier, comme base de plusieurs groupes de vampires..",
+                        "fr": "Et c'est le camps de base de plusieurs groupes de vampires..",
                         "es": "In particular, the home of several groups of vampires...",
                         "zh": "In particular, the home of several groups of vampires..."
                     }
@@ -93,7 +93,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
-                        "fr": "Et lieu de naissance d'un méchant avec de super-pouvoirs offalctifs dans 'Parfum' de Patrick Suskind",
+                        "fr": "Et lle ieu de naissance d'un méchant avec de super-pouvoirs offalctifs dans le roman 'Parfum' de Patrick Suskind",
                         "es": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind",
                         "zh": "And the birthplace of the villain with smelling superpowers in 'Perfume' by Patrick Suskind"
                     }
@@ -110,7 +110,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Seems suitable",
-                            "fr": "Cela semble adéquat",
+                            "fr": "Cela paraît adéquat",
                             "es": "Seems suitable",
                             "zh": "Seems suitable"
                         },
@@ -144,7 +144,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yeah... it kinda fits",
-                                    "fr": "Oui...cela semble coller",
+                                    "fr": "Oui...cela semble bien coller",
                                     "es": "Yeah... it kinda fits",
                                     "zh": "Yeah... it kinda fits"
                                 }
@@ -163,7 +163,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thanks!",
-                "fr": "Non merci !!",
+                "fr": "Non merci !",
                 "es": "No thanks!",
                 "zh": "No thanks!"
             },
