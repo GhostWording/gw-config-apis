@@ -46,6 +46,29 @@
       "Arrondissement": "1er arrondissement"
   },
   {
+      "Id": "NotreDame",
+      "Caption": {
+          "en": "Notre-Dame de Paris",
+          "fr": "La Cathédrale Notre-Dame de Paris",
+          "es": "Catedral de Notre Dame de París",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632666/notre_dame_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632751/notre_dame_thumbnail.jpg"
+      },
+      "SequenceId": "NotreDame",
+      "Location": {
+          "Latitude": "48.85296820000001",
+          "Longitude": "2.3499021000000084"
+      },
+      "Arrondissement": "4e arrondissement"
+  },
+  {
       "Id": "IleCite",
       "Caption": {
           "en": "Île de la Cité",
@@ -136,6 +159,29 @@
           "Longitude": "2.3471531999999797"
       },
       "Arrondissement": "1er arrondissement"
+  },
+  {
+      "Id": "BonMarche",
+      "Caption": {
+          "en": "Le Bon Marché",
+          "fr": "Le Bon Marché",
+          "es": "Le Bon Marché",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624743/bon_marche_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Web",
+          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624870/bon_marche_thumbnail.jpg"
+      },
+      "SequenceId": "BonMarche",
+      "Location": {
+          "Latitude": "48.8511354",
+          "Longitude": "2.324364800000012"
+      },
+      "Arrondissement": "7e arrondissement"
   },
   {
       "Id": "FontaineInnocents",
