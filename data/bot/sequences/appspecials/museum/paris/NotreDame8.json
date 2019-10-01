@@ -21,6 +21,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 401,
+                "Source": "Internal",
+                "Path": "/museums/paris/notredame/burningnotre.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "So... really... no harm done!",
