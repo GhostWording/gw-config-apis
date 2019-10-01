@@ -8,12 +8,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626126/catacombes_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/catacombes_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626234/catacombes_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/catacombes_preview.jpg"
       },
       "SequenceId": "Catacombs",
       "Location": {
@@ -98,7 +98,7 @@
           "fr": "La Place Vendôme",
           "es": "La Plaza Vendôme",
           "zh": ""
-      },
+     },
       "DefaultImage": {
           "Type": "Web",
           "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712350/vendome_preview.jpg"
@@ -192,12 +192,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626959/fontaine_innocents_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/fontaine_innocents_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542627045/fontaine_innocents_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/fontaine_innocents_preview.jpg"
       },
       "SequenceId": "FontaineInnocents",
       "Location": {
@@ -261,12 +261,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713294/pont_des_arts_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/pont_des_arts_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713387/pont_des_arts_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/pont_des_arts_preview.jpg"
       },
       "SequenceId": "PontDesArts",
       "Location": {
