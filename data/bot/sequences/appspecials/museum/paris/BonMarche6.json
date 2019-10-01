@@ -12,6 +12,15 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 600,
+                "Source": "Internal",
+                "Path": "/museums/paris/bonmarche/shutterstock_88922491.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "And the company even provided dormitories for unmarried women to live in, right above the store!",
