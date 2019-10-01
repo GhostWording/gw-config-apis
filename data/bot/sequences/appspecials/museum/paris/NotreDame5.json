@@ -24,7 +24,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousel/museum/BonMarcheC1.json"
+                "Path": "/data/common/carousel/museum/NotreDameC1.json"
             }
         }
     ],
@@ -61,11 +61,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Display": "FullScreenWidth",
-                        "Width": 600,
-                        "Height": 800,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                        "Width": 280,
+                        "Height": 200,
+                        "Source": "Internal",
+                        "Path": "/museums/louvre/thumbnails/Coronation_Napoleon.jpg"
                     }
                 },
                 {
@@ -82,9 +81,9 @@
                     "Parameters": {
                         "Display": "FullScreenWidth",
                         "Width": 600,
-                        "Height": 800,
+                        "Height": 375,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                        "Path": "/museums/paris/notredame/petittightrope.jpg"
                     }
                 }
             ],
