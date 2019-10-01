@@ -21,16 +21,6 @@
             }
         },
         {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 600,
-                "Height": 800,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
-            }
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "This means 'Our Lady', and of course refers to Mary, mother of Jesus",
@@ -75,9 +65,9 @@
                     "Parameters": {
                         "Display": "FullScreenWidth",
                         "Width": 600,
-                        "Height": 800,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                        "Height": 455,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/notredame/notredamecrowded.jpg"
                     }
                 }
             ],
