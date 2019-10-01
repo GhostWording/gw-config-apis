@@ -1,0 +1,25 @@
+{
+    "Id": "NotreDameC1",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Disney",
+                "fr": "Disney"
+            },
+            "Image": {
+                "Source": "Internal",
+                "Path": "/museums/paris/notredame/hunchbackdisney.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Victor Hugo",
+                "fr": "Victor Hugo"
+            },
+            "Image": {
+                "Source": "Internal",
+                "Path": "/museums/paris/notredame/hugohunchback.jpg"
+            }
+        }
+    ]
+}
