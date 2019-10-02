@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 364,
-                "Height": 265,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568898464/palace.jpg"
+                "Width": 600,
+                "Height": 437,
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/palace.jpg"
             }
         },
         {
@@ -34,10 +34,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 418,
-                "Height": 389,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568891190/louvrepalace.jpg"
+                "Width": 600,
+                "Height": 558,
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/louvrepalace.jpg"
             }
         },
         {
