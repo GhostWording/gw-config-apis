@@ -6,10 +6,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 320,
-                "Height": 207,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568907900/castle.jpg"
+                "Width": 600,
+                "Height": 388,
+                "Source": "Internal",
+                "Path": "/museums/paris/lelouvre/castle.jpg"
             }
         },
         {
@@ -25,10 +25,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 320,
-                "Height": 213,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568907196/foundations.jpg"
+                "Width": 600,
+                "Height": 399,
+                "Source": "Internal",
+                "Path": "/museums/paris/lelouvre/foundations.jpg"
             }
         },
     ],
