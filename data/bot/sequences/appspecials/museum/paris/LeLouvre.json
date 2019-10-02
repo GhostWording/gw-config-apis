@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 403,
-                "Height": 302,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631111/louvre_preview.jpg"
+                "Width": 460,
+                "Height": 397,
+                "Source": "Internal",
+                "Path": "/museums/paris/thumbnails/louvre_thumbnail.jpg"
             }
         },
         {
