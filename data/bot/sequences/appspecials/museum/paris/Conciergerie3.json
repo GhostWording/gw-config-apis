@@ -23,10 +23,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 600,
-                "Height": 800,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892156/conciergerieclock.jpg"
+                "Width": 450,
+                "Height": 600,
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/conciergerieclock.jpg"
             }
         },
         {
@@ -76,7 +76,7 @@
                         "Width": 600,
                         "Height": 441,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568892556/conciergerieprison.jpg"
+                        "Path": "/museums/paris/conciergerie/conciergerieprison.jpg"
                     }
                 },
                 {
