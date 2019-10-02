@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 1024,
-                "Height": 683,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232842/4sainte_chapelle.jpg"
+                "Width": 600,
+                "Height": 400,
+                "Source": "Internal",
+                "Path": "/museums/paris/saintechapelle/4sainte_chapelle.jpg"
             }
         },
         {
@@ -64,10 +64,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 826,
-                        "Height": 768,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232947/5flagellation.jpg"
+                        "Width": 600,
+                        "Height": 558,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/saintechapelle/5flagellation.jpg"
                     }
                 },
                 {
