@@ -14,10 +14,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 640,
-                "Height": 480,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577831/parisromance.jpg"
+                "Width": 600,
+                "Height": 450,
+                "Source": "Internal",
+                "Path": "/museums/paris/pontdesarts/parisromance.jpg"
             }
         }
     ],
@@ -54,10 +54,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 500,
-                        "Height": 334,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577919/parisseine.jpg"
+                        "Width": 600,
+                        "Height": 401,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/pontdesarts/parisseine.jpg"
                     }
                 },
                 {
@@ -135,10 +135,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 500,
-                        "Height": 334,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577919/parisseine.jpg"
+                        "Width": 600,
+                        "Height": 401,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/pontdesarts/parisseine.jpg"
                     }
                 },
                 {
