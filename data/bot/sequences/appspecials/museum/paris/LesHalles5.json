@@ -24,10 +24,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 1200,
-                "Height": 576,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543230799/7halles_pavillion.jpg"
+                "Width": 600,
+                "Height": 288,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/7halles_pavillion.jpg"
             }
         },
         {
