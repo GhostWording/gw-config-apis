@@ -33,10 +33,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 1024,
-                "Height": 663,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543229719/3halles_food.jpg"
+                "Width": 600,
+                "Height": 388,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/3halles_food.jpg"
             }
         }
     ],
@@ -73,10 +73,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Width": 1063,
-                        "Height": 648,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543230042/4halles_inside.jpg"
+                        "Width": 600,
+                        "Height": 366,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/leshalles/4halles_inside.jpg"
                     }
                 },
                 {
