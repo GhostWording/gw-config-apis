@@ -7,8 +7,8 @@
                 "fr": "Les Lamassus"
             },
             "Image": {
-                "Source": "Web",
-                "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/Lamassu.jpg"
+                "Source": "Internal",
+                "Path": "/museums/louvre/thumbnails/Lamassu.jpg"
             }
         },
         {
@@ -27,8 +27,8 @@
                 "fr": "Les Esclaves de Michel-Ange"
             },
             "Image": {
-                "Source": "Web",
-                "Path": "http://az767698.vo.msecnd.net/museums/louvre/thumbnails/thumbnail_slaves2.jpg"
+                "Source": "Internal",
+                "Path": "/museums/louvre/thumbnails/thumbnail_slaves2.jpg"
             }
         }
     ]
