@@ -13,7 +13,7 @@
       },
       "Thumbnail": {
           "Type": "Internal",
-          "Path": "/museums/paris/previews/catacombes_preview.jpg"
+          "Path": "/museums/paris/thumbnails/catacombes_preview.jpg"
       },
       "SequenceId": "Catacombs",
       "Location": {
@@ -31,12 +31,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631111/louvre_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/louvre_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631108/louvre_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/louvre_thumbnail.jpg"
       },
       "SequenceId": "LeLouvre",
       "Location": {
@@ -54,12 +54,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632666/notre_dame_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/notre_dame_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542632751/notre_dame_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/notre_dame_thumbnail.jpg"
       },
       "SequenceId": "NotreDame",
       "Location": {
@@ -77,12 +77,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630307/ile_de_la_cite_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/ile_de_la_cite_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542630391/ile_de_la_cite_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/ile_de_la_cite_thumbnail.jpg"
       },
       "SequenceId": "IleCite",
       "Location": {
@@ -100,12 +100,12 @@
           "zh": ""
      },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712350/vendome_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/vendome_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542712436/vendome_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/vendome_thumbnail.jpg"
       },
       "SequenceId": "PlaceVendome",
       "Location": {
@@ -123,12 +123,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626426/conciergerie_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/conciergerie_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542626527/conciergerie_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/conciergerie_thumbnail.jpg"
       },
       "SequenceId": "Conciergerie",
       "Location": {
@@ -146,12 +146,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631403/les_halles_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/les_halles_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542631492/les_halles_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/les_halles_thumbnail.jpg"
       },
       "SequenceId": "LesHalles",
       "Location": {
@@ -169,12 +169,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624743/bon_marche_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/bon_marche_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542624870/bon_marche_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/bon_marche_thumbnail.jpg"
       },
       "SequenceId": "BonMarche",
       "Location": {
@@ -197,7 +197,7 @@
       },
       "Thumbnail": {
           "Type": "Internal",
-          "Path": "/museums/paris/previews/fontaine_innocents_preview.jpg"
+          "Path": "/museums/paris/thumbnails/fontaine_innocents_preview.jpg"
       },
       "SequenceId": "FontaineInnocents",
       "Location": {
@@ -215,12 +215,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649250/palais_garnier_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/palais_garnier_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542649344/palais_garnier_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/palais_garnier_thumbnail.jpg"
       },
       "SequenceId": "PalaisGarnier",
       "Location": {
@@ -238,12 +238,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542710860/pere_lachaise_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/pere_lachaise_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542710960/pere_lachaise_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/pere_lachaise_thumbnail.jpg"
       },
       "SequenceId": "Lachaise",
       "Location": {
@@ -266,7 +266,7 @@
       },
       "Thumbnail": {
           "Type": "Internal",
-          "Path": "/museums/paris/previews/pont_des_arts_preview.jpg"
+          "Path": "/museums/paris/thumbnails/pont_des_arts_preview.jpg"
       },
       "SequenceId": "PontDesArts",
       "Location": {
@@ -284,12 +284,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713865/sainte_chapelle_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/sainte_chapelle_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542713985/sainte_chapelle_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/sainte_chapelle_thumbnail.jpg"
       },
       "SequenceId": "SainteChapelle",
       "Location": {
@@ -307,12 +307,12 @@
           "zh": ""
       },
       "DefaultImage": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714137/saint_sulpice_preview.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/saint_sulpice_preview.jpg"
       },
       "Thumbnail": {
-          "Type": "Web",
-          "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542714227/saint_sulpice_thumbnail.jpg"
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/saint_sulpice_thumbnail.jpg"
       },
       "SequenceId": "Sulpice",
       "Location": {
