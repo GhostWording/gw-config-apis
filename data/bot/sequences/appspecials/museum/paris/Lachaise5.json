@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 308,
-                "Height": 205,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577497/victornoir.jpg"
+                "Width": 600,
+                "Height": 399,
+                "Source": "Internal",
+                "Path": "/museums/paris/lachaise/victornoir.jpg"
             }
         },
         {
@@ -58,8 +58,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 600,
                         "Height": 428,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577593/stroganoff.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/paris/lachaise/stroganoff.jpg"
                     }
                 },
                 {
@@ -212,8 +212,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 600,
                         "Height": 428,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564577593/stroganoff.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/paris/lachaise/stroganoff.jpg"
                     }
                 },
                 {
