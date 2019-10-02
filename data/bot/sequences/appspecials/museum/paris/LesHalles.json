@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 485,
-                "Height": 370,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1569587372/leshalles2019.jpg"
+                "Width": 600,
+                "Height": 458,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/leshalles2019.jpg"
             }
         },
         {
@@ -88,10 +88,10 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
-                        "Width": 888,
-                        "Height": 724,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543228957/2halles_location.jpg"
+                        "Width": 600,
+                        "Height": 489,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/leshalles/2halles_location.jpg"
                     }
                 },
                 {
