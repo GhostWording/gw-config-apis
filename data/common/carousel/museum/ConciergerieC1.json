@@ -6,8 +6,8 @@
                 "en": "Marie Antoinette"
             },
             "Image": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568981719/marieantoinette.jpg"
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/marieantoinette.jpg"
             }
         },
         {
@@ -15,8 +15,8 @@
                 "en": "Charlotte Corday"
             },
             "Image": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568981834/Charlotte_Corday.png"
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/Charlotte_Corday.jpg"
             }
         },
         {
@@ -24,8 +24,8 @@
                 "en": "Robespierre"
             },
             "Image": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568981719/robespierre.jpg"
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/robespierre.jpg"
             }
         },
         {
@@ -33,8 +33,8 @@
                 "en": "Georges Danton"
             },
             "Image": {
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1568981715/384px-Georges_Danton.jpg"
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/danton.jpg"
             }
         }
     ]
