@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 1088,
-                "Height": 725,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543231065/8halles_today.jpg"
+                "Width": 600,
+                "Height": 400,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/8halles_today.jpg"
             }
         },
         {
