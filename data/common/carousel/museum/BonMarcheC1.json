@@ -1,0 +1,35 @@
+{
+    "Id": "BonMarcheC1",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Macy's",
+                "fr": "Macy's"
+            },
+            "Image": {
+                "Source": "Internal",
+                "Path": "/museums/paris/bonmarche/macys.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Hyundai",
+                "fr": "Hyundai"
+            },
+            "Image": {
+                "Source": "Internal",
+                "Path": "/museums/paris/bonmarche/hyundaistore.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Selfridges",
+                "fr": "Selfridges"
+            },
+            "Image": {
+                "Source": "Internal",
+                "Path": "/museums/paris/bonmarche/selfridges.jpg"
+            }
+        }
+    ]
+}
