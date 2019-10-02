@@ -39,8 +39,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 400,
                         "Height": 600,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565091959/trajancolumn.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/paris/placevendome/trajancolumn.jpg"
                     }
                 },
                 {
@@ -91,10 +91,10 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
-                                    "Width": 340,
-                                    "Height": 463,
+                                    "Width": 441,
+                                    "Height": 600,
                                     "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565092151/placevendome2.jpg"
+                                    "Path": "/museums/paris/placevendome/placevendome2.jpg"
                                 }
                             },
                             {
@@ -109,10 +109,10 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Width": 187,
-                                    "Height": 400,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/wavemining/image/upload/v1565092201/napoleonstatue.jpg"
+                                    "Width": 281,
+                                    "Height": 600,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/placevendome/napoleonstatue.jpg"
                                 }
                             }
                         ],
