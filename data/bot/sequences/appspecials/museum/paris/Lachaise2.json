@@ -90,10 +90,10 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
-                                    "Width": 576,
-                                    "Height": 768,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1564576963/famousgrave.jpg"
+                                    "Width": 450,
+                                    "Height": 600,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/lachaise/famousgrave.jpg"
                                 }
                             },
                             {
