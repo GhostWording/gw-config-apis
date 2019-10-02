@@ -39,11 +39,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Display": "FullScreenWidth",
                 "Width": 222,
                 "Height": 500,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543235899/10saint_louis_final.jpg"
+                "Source": "Internal",
+                "Path": "/museums/paris/saintechapelle/10saint_louis_final.jpg"
             }
         },
         {
