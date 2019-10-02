@@ -24,10 +24,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 768,
-                "Height": 1024,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1543232594/3reliquary.jpg"
+                "Width": 450,
+                "Height": 600,
+                "Source": "Internal",
+                "Path": "/museums/paris/saintechapelle/3reliquary.jpg"
             }
         },
         {
