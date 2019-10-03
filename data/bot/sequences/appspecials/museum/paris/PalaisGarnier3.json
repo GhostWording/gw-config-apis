@@ -24,10 +24,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Width": 794,
-                "Height": 794,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/Opera_Garnier_Beethoven.jpg"
+                "Width": 600,
+                "Height": 600,
+                "Source": "Internal",
+                "Path": "/museums/paris/palaisgarnier/beethoven.jpg"
             }
         }
     ],
@@ -56,10 +56,10 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
-                        "Width": 1000,
-                        "Height": 667,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236363/Minute%20Art/Sequences/GarnierInterior.jpg"
+                        "Width": 600,
+                        "Height": 400,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/palaisgarnier/garnierinterior.jpg"
                     }
                 },
                 {
@@ -100,10 +100,10 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Width": 747,
-                                    "Height": 1000,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236362/Minute%20Art/Sequences/Emperor_s_Pavilion.jpg"
+                                    "Width": 448,
+                                    "Height": 600,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/palaisgarnier/building.jpg"
                                 }
                             },
                             {
