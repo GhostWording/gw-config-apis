@@ -66,6 +66,16 @@
                     }
                 },
                 {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Internal",
+                            "Path": "/owls/gifs/chathead/avtar_surprised132x132.gif"
+                        }
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "They're department stores!",
