@@ -14,10 +14,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Width": 696,
-                "Height": 392,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/garnierlogo.jpg"
+                "Width": 600,
+                "Height": 338,
+                "Source": "Internal",
+                "Path": "/museums/paris/palaisgarnier/garnierlogo.jpg"
             }
         },
         {
@@ -131,10 +131,10 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
-                                    "Width": 900,
-                                    "Height": 586,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1543236359/Minute%20Art/Sequences/Webp.net-compress-image_1.jpg"
+                                    "Width": 600,
+                                    "Height": 391,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/palaisgarnier/oldbuilding.jpg"
                                 }
                             },
                             {
