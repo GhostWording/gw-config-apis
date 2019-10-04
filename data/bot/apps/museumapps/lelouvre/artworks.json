@@ -386,5 +386,28 @@
         },
         "SequenceId": "Martyr",
         "LocationSequenceId": "MonaLisaMap"
+    },
+    {
+      "Id": "LeLouvre",
+      "Caption": {
+          "en": "Louvre Museum",
+          "fr": "Le Musée du Louvre"
+      },
+      "DefaultImage": {
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/louvre_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/louvre_thumbnail.jpg"
+      },
+      "Artist": {
+          "en": "NA",
+          "fr": "NA",
+          "es": "NA",
+          "zh": "NA"
+        },
+      "SequenceId": "LeLouvre",
+      "LocationSequenceId": "MonaLisaMap"
     }
 ]
