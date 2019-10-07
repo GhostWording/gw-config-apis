@@ -12,6 +12,15 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 280,
+                "Height": 200,
+                "Source": "Internal",
+                "Path": "/museums/louvre/thumbnails/LouisXIV.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "But once those victories turned out to be a bit less important than initially thought, they changed the name to Place Louis le Grand",
