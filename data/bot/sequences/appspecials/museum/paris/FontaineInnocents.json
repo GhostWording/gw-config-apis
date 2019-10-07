@@ -17,7 +17,7 @@
                 "Display": "FullScreenWidth",
                 "Width": 600,
                 "Height": 538,
-                "Source": "Web",
+                "Source": "Internal",
                 "Path": "/museums/paris/fontaineinnocents/0fontaine.jpg"
             }
         },
@@ -62,6 +62,16 @@
                     }
                 },
                 {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 538,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/fontaineinnocents/cemeteryinnocents.jpg"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "I guess you're wondering how that one got it's name?",
@@ -103,6 +113,16 @@
                                     "fr": "Il tient son nom de l'église qui s'y trouvait précédemment...appelée... l'église des Innocents!",
                                     "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
                                     "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 600,
+                                    "Height": 538,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/fontaineinnocents/churchinnocents.jpg"
                                 }
                             },
                             {
@@ -191,6 +211,16 @@
                                     "fr": "Il tient son nom de l'église qui s'y trouvait précédemment...appelée... l'église des Innocents !",
                                     "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
                                     "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 600,
+                                    "Height": 538,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/fontaineinnocents/churchinnocents.jpg"
                                 }
                             },
                             {
@@ -285,6 +315,16 @@
                     }
                 },
                 {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 600,
+                        "Height": 538,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/fontaineinnocents/cemeteryinnocents.jpg"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "I guess you're wondering how that one got it's name?",
@@ -326,6 +366,16 @@
                                     "fr": "Il tient son nom de l'église qui s'y trouvait précédemment...appelée... l'église des Innocents!",
                                     "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
                                     "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 600,
+                                    "Height": 538,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/fontaineinnocents/churchinnocents.jpg"
                                 }
                             },
                             {
@@ -414,6 +464,16 @@
                                     "fr": "Il tient son nom de l'église qui s'y trouvait précédemment...appelée... l'église des Innocents!",
                                     "es": "It was named after a church that was there previously... called... the Church of the Innocents!",
                                     "zh": "It was named after a church that was there previously... called... the Church of the Innocents!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 600,
+                                    "Height": 538,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/fontaineinnocents/churchinnocents.jpg"
                                 }
                             },
                             {
