@@ -71,6 +71,16 @@
                     }
                 },
                 {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 750,
+                        "Height": 396,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/catacombs/catacombsparty.jpg"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "And it’s not the only thing of that kind! The remains of illegal parties and events are regularly found… and people often go missing down there...",
