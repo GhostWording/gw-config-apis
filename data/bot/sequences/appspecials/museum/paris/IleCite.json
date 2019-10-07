@@ -105,6 +105,15 @@
                                 }
                             },
                             {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 279,
+                                    "Height": 181,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/ilecite/riversettlement.jpg"
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "After all, they gave protection from enemies, opportunities for trade and transport, fertile soil for farming, water to drink, and opportunities for fishing!",
