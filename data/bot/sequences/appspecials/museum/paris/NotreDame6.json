@@ -12,6 +12,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 450,
+                "Source": "Internal",
+                "Path": "/museums/paris/notredame/blueprints.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Right up until... you guessed it... the French Revolution of the 1790s!",
