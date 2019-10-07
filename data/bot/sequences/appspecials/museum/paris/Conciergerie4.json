@@ -12,6 +12,15 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 455,
+                "Height": 600,
+                "Source": "Internal",
+                "Path": "/museums/paris/conciergerie/bonbec.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "It's a joke about how the prisoners used to 'sing' like a bird in pain...",
