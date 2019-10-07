@@ -12,6 +12,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 600,
+                "Source": "Internal",
+                "Path": "/museums/paris/bonmarche/shoppingmall.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "There were rooms for men to read in while their wives shopped",
