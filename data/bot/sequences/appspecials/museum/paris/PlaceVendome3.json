@@ -12,6 +12,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 360,
+                "Height": 225,
+                "Source": "Internal",
+                "Path": "/museums/paris/placevendome/louistopple.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Unfortunately, in their zeal to pull it down, they disregarded safety somewhat…",
