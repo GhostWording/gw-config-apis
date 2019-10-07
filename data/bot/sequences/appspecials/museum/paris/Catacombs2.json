@@ -88,6 +88,16 @@
                                 }
                             },
                             {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Display": "FullScreenWidth",
+                                    "Width": 400,
+                                    "Height": 423,
+                                    "Source": "Internal",
+                                    "Path": "/museums/paris/catacombs/parisbodies.jpg"
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The tunnels were the ideal venue to dump a whole load of bones! 6 million bodies’ worth, in fact!",
