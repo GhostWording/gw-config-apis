@@ -43,11 +43,14 @@
                     }
                 },
                 {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                      "Source": "Giphy",
-                      "Path": "2ZFuPKWcSw16E"
-                  }
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 400,
+                        "Height": 423,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/catacombs/catacombscollapse.jpg"
+                    }
                 }
             ],
             "LinksTo": {
