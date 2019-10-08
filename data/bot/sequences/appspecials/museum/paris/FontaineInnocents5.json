@@ -78,6 +78,14 @@
                         },
                         "Steps": [
                             {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It certainly seems so...",
@@ -102,6 +110,14 @@
                             "zh": "Bravo!"
                         },
                         "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
@@ -175,6 +191,14 @@
                         },
                         "Steps": [
                             {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "It certainly seems so...",
@@ -199,6 +223,14 @@
                             "zh": "Bravo!"
                         },
                         "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
