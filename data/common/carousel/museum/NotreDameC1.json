@@ -3,22 +3,22 @@
     "Elements": [
         {
             "Title": {
-                "en": "Disney",
-                "fr": "Disney"
-            },
-            "Image": {
-                "Source": "Web",
-                "Path": "http://az767698.vo.msecnd.net/museums/paris/notredame/hunchbackdisney.jpg"
-            }
-        },
-        {
-            "Title": {
                 "en": "Victor Hugo",
                 "fr": "Victor Hugo"
             },
             "Image": {
                 "Source": "Web",
                 "Path": "http://az767698.vo.msecnd.net/museums/paris/notredame/hugobook.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Disney",
+                "fr": "Disney"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/museums/paris/notredame/hunchbackdisney.jpg"
             }
         }
     ]
