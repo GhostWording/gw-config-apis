@@ -104,14 +104,6 @@
                         },
                         "Steps": [
                             {
-                                "Type": "Action",
-                                "Name": "DoVote"
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowSurveyResults"
-                            },
-                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "But the Cathedral's history hasn't all been happy!",
@@ -136,14 +128,6 @@
                             "zh": "So cool!"
                         },
                         "Steps": [
-                            {
-                                "Type": "Action",
-                                "Name": "DoVote"
-                            },
-                            {
-                                "Type": "Action",
-                                "Name": "ShowSurveyResults"
-                            },
                             {
                                 "Type": "Text",
                                 "Label": {
