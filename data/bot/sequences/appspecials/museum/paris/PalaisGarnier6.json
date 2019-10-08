@@ -48,6 +48,7 @@
                 "Id": "PalaisGarnier6WhatStep",
                 "ElementValue": "1",
                 "Commands": [
+                    
                     {
                         "Type": "Node",
                         "Id": "PalaisGarnier6WhatCursed",
@@ -58,6 +59,16 @@
                             "es": "",
                             "zh": ""
                         },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
                         "LinksToFragment": {
                             "FragmentPath": "PalaisGarnier7"
                         }
@@ -72,6 +83,16 @@
                             "es": "",
                             "zh": ""
                         },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            }
+                        ],
                         "LinksToFragment": {
                             "FragmentPath": "PalaisGarnier7"
                         }
