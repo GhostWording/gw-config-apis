@@ -176,6 +176,14 @@
                         },
                         "Steps": [
                             {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Anyway, those are some of the cool stories about the island",
@@ -200,6 +208,14 @@
                             "zh": "Death to kings!"
                         },
                         "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
