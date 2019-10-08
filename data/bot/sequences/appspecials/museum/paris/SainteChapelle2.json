@@ -51,6 +51,16 @@
                 "es": "",
                 "zh": ""
             },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
             "LinksToFragment": {
                 "FragmentPath": "SainteChapelle3"
             }
@@ -65,6 +75,16 @@
                 "es": "",
                 "zh": ""
             },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
             "LinksToFragment": {
                 "FragmentPath": "SainteChapelle3"
             }
