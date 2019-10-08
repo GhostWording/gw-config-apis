@@ -312,6 +312,14 @@
                                     },
                                     "Steps": [
                                         {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Why not start today? I'll see you in a year...",
@@ -336,6 +344,14 @@
                                         "zh": "No thanks"
                                     },
                                     "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
                                         {
                                             "Type": "Text",
                                             "Label": {
