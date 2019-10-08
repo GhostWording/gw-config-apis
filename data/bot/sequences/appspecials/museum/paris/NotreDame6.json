@@ -89,6 +89,14 @@
                         },
                         "Steps": [
                             {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "For a while, it was in danger of being totally destroyed... such was the antipathy towards Catholicism and gothic architecture",
@@ -113,6 +121,14 @@
                             "zh": "How annoying"
                         },
                         "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
