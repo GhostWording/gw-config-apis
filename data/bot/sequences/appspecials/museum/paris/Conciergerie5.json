@@ -53,6 +53,14 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Well... the end result was the same for the prisoners, however they were kept!",
@@ -77,6 +85,14 @@
                 "zh": "Good business.."
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "Text",
                     "Label": {
