@@ -132,6 +132,14 @@
                                     },
                                     "Steps": [
                                         {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "If you say so! 😆",
@@ -156,6 +164,14 @@
                                         "zh": "So cringe.."
                                     },
                                     "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
                                         {
                                             "Type": "Text",
                                             "Label": {
