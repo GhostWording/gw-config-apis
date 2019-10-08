@@ -22,6 +22,15 @@
             }
         },
         {
+            "Type": "Text",
+            "Label": {
+                "en": "It was a palace truly worthy of the wealth of renaissance France!",
+                "fr": "C'était un palais digne de la riche renaissance Française !",
+                "es": "It was a palace truly worthy of the wealth of renaissance France!",
+                "zh": "It was a palace truly worthy of the wealth of renaissance France!"
+            }
+        },
+        {
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
@@ -29,15 +38,6 @@
                 "Height": 425,
                 "Source": "Internal",
                 "Path": "/museums/paris/lelouvre/lelouvrewings.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It was a palace truly worthy of the wealth of renaissance France!",
-                "fr": "C'était un palais digne de la riche renaissance Française !",
-                "es": "It was a palace truly worthy of the wealth of renaissance France!",
-                "zh": "It was a palace truly worthy of the wealth of renaissance France!"
             }
         }
     ],
