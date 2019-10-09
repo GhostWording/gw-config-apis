@@ -43,6 +43,14 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Right! It might seem a bit dystopian now... but at the time, it was a huge step forward!",
@@ -76,6 +84,14 @@
                 "zh": "That's horrible!"
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "Text",
                     "Label": {
