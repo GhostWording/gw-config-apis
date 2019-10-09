@@ -33,25 +33,66 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "And that's how it became what it is today!",
+                "en": "So who do you think was more responsible for how Le Louvre is today? Mitterand or Napoleon?",
                 "fr": "Et voilà pourquoi, aujourd'hui, on voit ce qu'on voit !",
-                "es": "And that's how it became what it is today!",
-                "zh": "And that's how it became what it is today!"
+                "es": "So who do you think was more responsible for how Le Louvre is today? Mitterand or Napoleon?",
+                "zh": "So who do you think was more responsible for how Le Louvre is today? Mitterand or Napoleon?"
             }
         }
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "LeLouvre9Cool",
+            "Id": "LeLouvre9Mitterand",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Cool!",
-                "fr": "Cool!",
-                "es": "Cool!",
-                "zh": "Cool!"
+                "en": "Mitterand",
+                "fr": "Mitterand",
+                "es": "Mitterand",
+                "zh": "Mitterand"
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If you want to learn more about the art inside, I have a whole special app for that!",
+                        "fr": "Les oeuvres hébergées par le musée sont passionnantes. Je raconte leur histoire dans une app dédiée !",
+                        "es": "If you want to learn more about the art inside, I have a whole special app for that!",
+                        "zh": "If you want to learn more about the art inside, I have a whole special app for that!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LeLouvreFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LeLouvre9Napoleon",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Napoleon",
+                "fr": "Napoleon",
+                "es": "Napoleon",
+                "zh": "Napoleon"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "Text",
                     "Label": {
