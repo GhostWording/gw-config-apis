@@ -5,6 +5,25 @@
         {
             "Type": "Text",
             "Label": {
+                "en": "The chimaeras are also famous... but unlike the gargoyles, they're for decoration only!",
+                "fr": "Les chimères sont également célèbres...contrairement aux gargouilles, leur but est entièrement décoratif",
+                "es": "The chimaeras are also famous... but unlike the gargoyles, they're for decoration only!",
+                "zh": "The chimaeras are also famous... but unlike the gargoyles, they're for decoration only!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Display": "FullScreenWidth",
+            "Parameters": {
+                "Width": 600,
+                "Height": 484,
+                "Source": "Internal",
+                "Path": "/museums/paris/notredame/gargoyle.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
                 "en": "Anyway... another key reason for its fame: The Hunchback of Notre-Dame!",
                 "fr": "En tout cas, une autre chose la rendu célèbre : 'Notre-Dame de Paris' (The Hunchback of Notre-Dame pour les anglais) !",
                 "es": "Anyway... another key reason for its fame: The Hunchback of Notre-Dame!",
