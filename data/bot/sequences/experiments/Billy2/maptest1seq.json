@@ -12,6 +12,7 @@
             }
         },
         {
+            "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
                 "Path": "/data/common/carousel/TestComic.json"                 
