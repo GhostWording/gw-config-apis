@@ -1,5 +1,5 @@
 {
-    "Type": "Leaf",
+    "Type": "Node",
     "Id": "maptest1seq",
     "Steps": [
         {
@@ -15,8 +15,32 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousel/maptest1.json"                 
+                "Path": "/data/common/carousel/TestComic.json"                 
             }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "maptest1seq2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "exit",
+                "fr": "exit",
+                "es": "exit",
+                "zh": "exit"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "ok",
+                        "fr": "ok",
+                        "es": "ok",
+                        "zh": "ok"
+                    }
+                }
+            ]
         }
     ]
 }
