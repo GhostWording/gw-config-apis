@@ -1,5 +1,5 @@
 {
-    "Type": "Node",
+    "Type": "Leaf",
     "Id": "maptest1seq",
     "Steps": [
         {
@@ -10,27 +10,12 @@
                 "es": "should show a carousel with a map that takes ages to load",
                 "zh": "should show a carousel with a map that takes ages to load"
             }
-        }
-    ],
-    "Commands": [
+        },
         {
-            "Type": "Leaf",
-            "Id": "maptest1seq2",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "show me",
-                "fr": "show me",
-                "es": "show me",
-                "zh": "show me"
-            },
-            "Steps": [
-                {
-                    "Name": "ShowCarouselFromList",
-                    "Parameters": {
-                        "Path": "/data/common/carousel/TestComic.json"                 
-                    }
-                }
-            ]
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/TestComic.json"                 
+            }
         }
     ]
 }
