@@ -1,0 +1,36 @@
+{
+    "Type": "Node",
+    "Id": "maptest1seq",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "should show a carousel with a map that takes ages to load",
+                "fr": "should show a carousel with a map that takes ages to load",
+                "es": "should show a carousel with a map that takes ages to load",
+                "zh": "should show a carousel with a map that takes ages to load"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "maptest1seq2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "show me",
+                "fr": "show me",
+                "es": "show me",
+                "zh": "show me"
+            },
+            "Steps": [
+                {
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/kitten/PtolemyCard.json"                 
+                    }
+                }
+            ]
+        }
+    ]
+}
