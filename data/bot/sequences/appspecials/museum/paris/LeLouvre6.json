@@ -12,6 +12,16 @@
             }
         },
         {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 425,
+                "Source": "Internal",
+                "Path": "/museums/paris/lelouvre/lelouvrewings.jpg"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "But this never fully panned out, and the Tuileries castle was burned to the ground in 1871...",
