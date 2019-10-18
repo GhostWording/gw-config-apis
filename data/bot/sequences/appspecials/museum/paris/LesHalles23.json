@@ -1,0 +1,111 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles23",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/image25.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well... thousands of small businesses were involved in running the market, and had to move away all at the same time",
+                "fr": "Well... thousands of small businesses were involved in running the market, and had to move away all at the same time",
+                "es": "Well... thousands of small businesses were involved in running the market, and had to move away all at the same time",
+                "zh": "Well... thousands of small businesses were involved in running the market, and had to move away all at the same time"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Also, many businesses around the market itself were involved in...",
+                "fr": "Also, many businesses around the market itself were involved in...",
+                "es": "Also, many businesses around the market itself were involved in...",
+                "zh": "Also, many businesses around the market itself were involved in..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles23Accountancy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Accountancy?",
+                "fr": "Accountancy?",
+                "es": "Accountancy?",
+                "zh": "Accountancy?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No... providing food and drinks to all the businesses and their customers!",
+                        "fr": "No... providing food and drinks to all the businesses and their customers!",
+                        "es": "No... providing food and drinks to all the businesses and their customers!",
+                        "zh": "No... providing food and drinks to all the businesses and their customers!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles24"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles23Recycling",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Recycling?",
+                "fr": "Recycling?",
+                "es": "Recycling?",
+                "zh": "Recycling?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No... providing food and drinks to all the businesses and their customers!",
+                        "fr": "No... providing food and drinks to all the businesses and their customers!",
+                        "es": "No... providing food and drinks to all the businesses and their customers!",
+                        "zh": "No... providing food and drinks to all the businesses and their customers!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles24"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles23Catering",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Catering?",
+                "fr": "Catering?",
+                "es": "Catering?",
+                "zh": "Catering?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Kind of, yes! They provided food and drinks to all the businesses and their customers!",
+                        "fr": "Kind of, yes! They provided food and drinks to all the businesses and their customers!",
+                        "es": "Kind of, yes! They provided food and drinks to all the businesses and their customers!",
+                        "zh": "Kind of, yes! They provided food and drinks to all the businesses and their customers!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles24"
+            }
+        }
+    ]
+}
