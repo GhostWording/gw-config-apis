@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles17",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well... the initial building he created was a total disaster!",
+                "fr": "Well... the initial building he created was a total disaster!",
+                "es": "Well... the initial building he created was a total disaster!",
+                "zh": "Well... the initial building he created was a total disaster!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/HalleBaltard1853.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Many people, including the current Emperor Napoleon III, saw it as ugly and heavy... so it was demolished!",
+                "fr": "Many people, including the current Emperor Napoleon III, saw it as ugly and heavy... so it was demolished!",
+                "es": "Many people, including the current Emperor Napoleon III, saw it as ugly and heavy... so it was demolished!",
+                "zh": "Many people, including the current Emperor Napoleon III, saw it as ugly and heavy... so it was demolished!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles17Disagree",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Looks ok...",
+                "fr": "Looks ok...",
+                "es": "Looks ok...",
+                "zh": "Looks ok..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles18"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles17Agree",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good call",
+                "fr": "Good call",
+                "es": "Good call",
+                "zh": "Good call"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles18"
+            }
+        }
+    ]
+}
