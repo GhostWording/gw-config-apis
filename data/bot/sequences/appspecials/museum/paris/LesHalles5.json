@@ -1,0 +1,84 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They took refuge in the largest Parisian cemetery, the Cimetière des Innocents",
+                "fr": "They took refuge in the largest Parisian cemetery, the Cimetière des Innocents",
+                "es": "They took refuge in the largest Parisian cemetery, the Cimetière des Innocents",
+                "zh": "They took refuge in the largest Parisian cemetery, the Cimetière des Innocents"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/InnocentTomb.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Beggars, thieves and prostitutes would not be prosecuted on these holy grounds",
+                "fr": "Beggars, thieves and prostitutes would not be prosecuted on these holy grounds",
+                "es": "Beggars, thieves and prostitutes would not be prosecuted on these holy grounds",
+                "zh": "Beggars, thieves and prostitutes would not be prosecuted on these holy grounds"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So it was used as an unofficial, duty-free, marketplace!",
+                "fr": "So it was used as an unofficial, duty-free, marketplace!",
+                "es": "So it was used as an unofficial, duty-free, marketplace!",
+                "zh": "So it was used as an unofficial, duty-free, marketplace!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles5Bad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds bad",
+                "fr": "Sounds bad",
+                "es": "Sounds bad",
+                "zh": "Sounds bad"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It wasn't all bad...",
+                        "fr": "It wasn't all bad...",
+                        "es": "It wasn't all bad...",
+                        "zh": "It wasn't all bad..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles6"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles5Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good idea!",
+                "fr": "Good idea!",
+                "es": "Good idea!",
+                "zh": "Good idea!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles6"
+            }
+        }
+    ]
+}
