@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Question: what are French people most passionate about?",
+                "fr": "Question: what are French people most passionate about?",
+                "es": "Question: what are French people most passionate about?",
+                "zh": "Question: what are French people most passionate about?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHallesProtesting",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Protesting!",
+                "fr": "Protesting!",
+                "es": "Protesting!",
+                "zh": "Protesting!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "True! That and food...",
+                        "fr": "True! That and food...",
+                        "es": "True! That and food...",
+                        "zh": "True! That and food..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHallesFood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Food!",
+                "fr": "Food!",
+                "es": "Food!",
+                "zh": "Food!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Exactly",
+                        "fr": "Exactly",
+                        "es": "Exactly",
+                        "zh": "Exactly"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles2"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHallesBoomerang",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Boomerangs!",
+                "fr": "Boomerangs!",
+                "es": "Boomerangs!",
+                "zh": "Boomerangs!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I wouldn't say so... I was thinking of food!",
+                        "fr": "I wouldn't say so... I was thinking of food!",
+                        "es": "I wouldn't say so... I was thinking of food!",
+                        "zh": "I wouldn't say so... I was thinking of food!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles2"
+            }
+        }
+    ]
+}
