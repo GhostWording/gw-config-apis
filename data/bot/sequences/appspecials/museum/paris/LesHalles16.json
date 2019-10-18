@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles16",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Unfortunately for Napoleon, war kept him busy until his final defeat in 1815... so the project was hardly started",
+                "fr": "Unfortunately for Napoleon, war kept him busy until his final defeat in 1815... so the project was hardly started",
+                "es": "Unfortunately for Napoleon, war kept him busy until his final defeat in 1815... so the project was hardly started",
+                "zh": "Unfortunately for Napoleon, war kept him busy until his final defeat in 1815... so the project was hardly started"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/LesHallesProjectNapoleon.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Later governments studied even more alternative projects, until Victor Baltard's plan won out...",
+                "fr": "Later governments studied even more alternative projects, until Victor Baltard's plan won out...",
+                "es": "Later governments studied even more alternative projects, until Victor Baltard's plan won out...",
+                "zh": "Later governments studied even more alternative projects, until Victor Baltard's plan won out..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles16Know",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I know him!",
+                "fr": "I know him!",
+                "es": "I know him!",
+                "zh": "I know him!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles17"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles16Who",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I don't know him",
+                "fr": "I don't know him",
+                "es": "I don't know him",
+                "zh": "I don't know him"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles17"
+            }
+        }
+    ]
+}
