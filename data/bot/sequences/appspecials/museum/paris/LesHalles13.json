@@ -1,0 +1,88 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles13",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles",
+                "fr": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles",
+                "es": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles",
+                "zh": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/FortsDesHalles.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!",
+                "fr": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!",
+                "es": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!",
+                "zh": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "... That's the end of the first third of this long story! Shall we continue?",
+                "fr": "... That's the end of the first third of this long story! Shall we continue?",
+                "es": "... That's the end of the first third of this long story! Shall we continue?",
+                "zh": "... That's the end of the first third of this long story! Shall we continue?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles13Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "Yes!",
+                "es": "Yes!",
+                "zh": "Yes!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles14"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles13No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "No thanks",
+                "es": "No thanks",
+                "zh": "No thanks"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! You can restart at this point if you ever get curious!",
+                        "fr": "Alright! You can restart at this point if you ever get curious!",
+                        "es": "Alright! You can restart at this point if you ever get curious!",
+                        "zh": "Alright! You can restart at this point if you ever get curious!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
+        }
+    ]
+}
