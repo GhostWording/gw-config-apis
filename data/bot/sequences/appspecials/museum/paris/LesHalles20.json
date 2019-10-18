@@ -1,0 +1,69 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles20",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So... maybe... the pavilions should have been called 'Napoleon Pavilions' or 'Horeau Pavilions'",
+                "fr": "So... maybe... the pavilions should have been called 'Napoleon Pavilions' or 'Horeau Pavilions'",
+                "es": "So... maybe... the pavilions should have been called 'Napoleon Pavilions' or 'Horeau Pavilions'",
+                "zh": "So... maybe... the pavilions should have been called 'Napoleon Pavilions' or 'Horeau Pavilions'"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway... that's the end of part two! Ready for the third?",
+                "fr": "Anyway... that's the end of part two! Ready for the third?",
+                "es": "Anyway... that's the end of part two! Ready for the third?",
+                "zh": "Anyway... that's the end of part two! Ready for the third?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles20Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, let's go!",
+                "fr": "Yes, let's go!",
+                "es": "Yes, let's go!",
+                "zh": "Yes, let's go!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles21"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles20No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Maybe later",
+                "fr": "Maybe later",
+                "es": "Maybe later",
+                "zh": "Maybe later"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Understood... check it out later then!",
+                        "fr": "Understood... check it out later then!",
+                        "es": "Understood... check it out later then!",
+                        "zh": "Understood... check it out later then!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
+        }
+    ]
+}
