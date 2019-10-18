@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles15",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This was the layout he chose, documented in decrees of 1811",
+                "fr": "This was the layout he chose, documented in decrees of 1811",
+                "es": "This was the layout he chose, documented in decrees of 1811",
+                "zh": "This was the layout he chose, documented in decrees of 1811"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/LesHallesProjectNapoleon.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was quite close to the 'Boffrand Project', created 60 years earlier for Louis XV, who also wanted to keep food at the heart of Paris",
+                "fr": "It was quite close to the 'Boffrand Project', created 60 years earlier for Louis XV, who also wanted to keep food at the heart of Paris",
+                "es": "It was quite close to the 'Boffrand Project', created 60 years earlier for Louis XV, who also wanted to keep food at the heart of Paris",
+                "zh": "It was quite close to the 'Boffrand Project', created 60 years earlier for Louis XV, who also wanted to keep food at the heart of Paris"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/ProjetBoffrand1748.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles15Copycat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Copycat!",
+                "fr": "Copycat!",
+                "es": "Copycat!",
+                "zh": "Copycat!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles16"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles15Different",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Totally different",
+                "fr": "Totally different",
+                "es": "Totally different",
+                "zh": "Totally different"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles16"
+            }
+        }
+    ]
+}
