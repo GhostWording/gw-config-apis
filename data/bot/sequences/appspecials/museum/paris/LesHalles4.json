@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "There are two constants in life, right? Death and taxes...",
-                "fr": "There are two constants in life, right? Death and taxes...",
+                "fr": "Il se dit que «rien en ce monde n'est certain, sauf la mort et les impôts»",
                 "es": "There are two constants in life, right? Death and taxes...",
                 "zh": "There are two constants in life, right? Death and taxes..."
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Well... in the early 12th century... Parisians could avoid taxes with death!",
-                "fr": "Well... in the early 12th century... Parisians could avoid taxes with death!",
+                "fr": "Seulement au début du 12e siècle les parisiens pouvaient utiliser la mort pour échapper à l'impôt !",
                 "es": "Well... in the early 12th century... Parisians could avoid taxes with death!",
                 "zh": "Well... in the early 12th century... Parisians could avoid taxes with death!"
             }
@@ -38,7 +38,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me how",
-                "fr": "Tell me how",
+                "fr": "Comment ?",
                 "es": "Tell me how",
                 "zh": "Tell me how"
             },
@@ -52,7 +52,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "I don't believe it",
-                "fr": "I don't believe it",
+                "fr": "Pas possible",
                 "es": "I don't believe it",
                 "zh": "I don't believe it"
             },
@@ -61,7 +61,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Let me explain..",
-                        "fr": "Let me explain..",
+                        "fr": "Laisse-moi expliquer..",
                         "es": "Let me explain..",
                         "zh": "Let me explain.."
                     }
