@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles22",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/image16.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The whole area was once again overflowing with food and people...",
+                "fr": "The whole area was once again overflowing with food and people...",
+                "es": "The whole area was once again overflowing with food and people...",
+                "zh": "The whole area was once again overflowing with food and people..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/LesHallesBaltardCars.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So... the government made the decision to move the food market away from Paris in 1960, and implemented it in 1969",
+                "fr": "So... the government made the decision to move the food market away from Paris in 1960, and implemented it in 1969",
+                "es": "So... the government made the decision to move the food market away from Paris in 1960, and implemented it in 1969",
+                "zh": "So... the government made the decision to move the food market away from Paris in 1960, and implemented it in 1969"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It was called the 'Relocation of the Ages', and possibly had more impact on Paris than either World War!",
+                "fr": "It was called the 'Relocation of the Ages', and possibly had more impact on Paris than either World War!",
+                "es": "It was called the 'Relocation of the Ages', and possibly had more impact on Paris than either World War!",
+                "zh": "It was called the 'Relocation of the Ages', and possibly had more impact on Paris than either World War!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles22How",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How?",
+                "fr": "How?",
+                "es": "How?",
+                "zh": "How?"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles23"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles22No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way",
+                "fr": "No way",
+                "es": "No way",
+                "zh": "No way"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles23"
+            }
+        }
+    ]
+}
