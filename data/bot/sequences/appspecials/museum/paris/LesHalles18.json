@@ -1,0 +1,81 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles18",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Napoleon III liked the thin steel structures of some Parisian railway stations, so in the end he instructed Baltard to deliver the building along those lines",
+                "fr": "Napoleon III liked the thin steel structures of some Parisian railway stations, so in the end he instructed Baltard to deliver the building along those lines",
+                "es": "Napoleon III liked the thin steel structures of some Parisian railway stations, so in the end he instructed Baltard to deliver the building along those lines",
+                "zh": "Napoleon III liked the thin steel structures of some Parisian railway stations, so in the end he instructed Baltard to deliver the building along those lines"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC2.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you think?",
+                "fr": "What do you think?",
+                "es": "What do you think?",
+                "zh": "What do you think?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles18Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It's nice",
+                "fr": "It's nice",
+                "es": "It's nice",
+                "zh": "It's nice"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles19"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles18Bad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Looks bad",
+                "fr": "Looks bad",
+                "es": "Looks bad",
+                "zh": "Looks bad"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles19"
+            }
+        }
+    ]
+}
