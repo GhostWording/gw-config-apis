@@ -1,0 +1,130 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles10",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Soon, merchants would come from all the Paris region, and international goods would be sold there too",
+                "fr": "Soon, merchants would come from all the Paris region, and international goods would be sold there too",
+                "es": "Soon, merchants would come from all the Paris region, and international goods would be sold there too",
+                "zh": "Soon, merchants would come from all the Paris region, and international goods would be sold there too"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris",
+                "fr": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris",
+                "es": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris",
+                "zh": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/MerianNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Can you guess what came down here from the North?",
+                "fr": "Can you guess what came down here from the North?",
+                "es": "Can you guess what came down here from the North?",
+                "zh": "Can you guess what came down here from the North?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles10Troops",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fresh troops",
+                "fr": "Fresh troops",
+                "es": "Fresh troops",
+                "zh": "Fresh troops"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess... at times... but mainly fish!",
+                        "fr": "I guess... at times... but mainly fish!",
+                        "es": "I guess... at times... but mainly fish!",
+                        "zh": "I guess... at times... but mainly fish!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles11"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles10Wind",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fresh wind",
+                "fr": "Fresh wind",
+                "es": "Fresh wind",
+                "zh": "Fresh wind"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes... I suppose so... but also fish!",
+                        "fr": "Yes... I suppose so... but also fish!",
+                        "es": "Yes... I suppose so... but also fish!",
+                        "zh": "Yes... I suppose so... but also fish!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles11"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles10Fish",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fresh fish",
+                "fr": "Fresh fish",
+                "es": "Fresh fish",
+                "zh": "Fresh fish"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're right! Fish!",
+                        "fr": "You're right! Fish!",
+                        "es": "You're right! Fish!",
+                        "zh": "You're right! Fish!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles11"
+            }
+        }
+    ]
+}
