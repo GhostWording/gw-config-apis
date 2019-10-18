@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles12",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Roads from Dieppe to Paris were well kept, protected, and fish merchants were exempt from local tolls and taxes",
+                "fr": "Roads from Dieppe to Paris were well kept, protected, and fish merchants were exempt from local tolls and taxes",
+                "es": "Roads from Dieppe to Paris were well kept, protected, and fish merchants were exempt from local tolls and taxes",
+                "zh": "Roads from Dieppe to Paris were well kept, protected, and fish merchants were exempt from local tolls and taxes"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/ChasseMareeGroup.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Once they got to Paris they could sell all their fish at once, and also be paid immediately, which was very unusual!",
+                "fr": "Once they got to Paris they could sell all their fish at once, and also be paid immediately, which was very unusual!",
+                "es": "Once they got to Paris they could sell all their fish at once, and also be paid immediately, which was very unusual!",
+                "zh": "Once they got to Paris they could sell all their fish at once, and also be paid immediately, which was very unusual!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As a legacy to this, to this day, fish that you eat in seaside restaurants in France often comes from Paris",
+                "fr": "As a legacy to this, to this day, fish that you eat in seaside restaurants in France often comes from Paris",
+                "es": "As a legacy to this, to this day, fish that you eat in seaside restaurants in France often comes from Paris",
+                "zh": "As a legacy to this, to this day, fish that you eat in seaside restaurants in France often comes from Paris"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles12Efficient",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Efficient!",
+                "fr": "Efficient!",
+                "es": "Efficient!",
+                "zh": "Efficient!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles13"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles12Ridiculous",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Ridiculous",
+                "fr": "Ridiculous",
+                "es": "Ridiculous",
+                "zh": "Ridiculous"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles13"
+            }
+        }
+    ]
+}
