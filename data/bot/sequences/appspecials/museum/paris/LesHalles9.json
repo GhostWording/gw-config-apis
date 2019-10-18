@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles9",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway... back to business",
+                "fr": "Anyway... back to business",
+                "es": "Anyway... back to business",
+                "zh": "Anyway... back to business"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "All merchants were legally required to sell at this market three times per week!",
+                "fr": "All merchants were legally required to sell at this market three times per week!",
+                "es": "All merchants were legally required to sell at this market three times per week!",
+                "zh": "All merchants were legally required to sell at this market three times per week!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/InterieurHalle.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "it was a measure against hoarding, price speculation and fraud... as well as allowing for quality control!",
+                "fr": "it was a measure against hoarding, price speculation and fraud... as well as allowing for quality control!",
+                "es": "it was a measure against hoarding, price speculation and fraud... as well as allowing for quality control!",
+                "zh": "it was a measure against hoarding, price speculation and fraud... as well as allowing for quality control!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles9Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good initiative!",
+                "fr": "Good initiative!",
+                "es": "Good initiative!",
+                "zh": "Good initiative!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles10"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles9Tyranny",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tyranny...",
+                "fr": "Tyranny...",
+                "es": "Tyranny...",
+                "zh": "Tyranny..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles10"
+            }
+        }
+    ]
+}
