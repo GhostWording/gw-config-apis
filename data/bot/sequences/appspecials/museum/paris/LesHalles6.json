@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the 12th century, King Louis VI 'the Fat' needed lots of money to build Cathedrals, to show how pious he was",
+                "fr": "In the 12th century, King Louis VI 'the Fat' needed lots of money to build Cathedrals, to show how pious he was",
+                "es": "In the 12th century, King Louis VI 'the Fat' needed lots of money to build Cathedrals, to show how pious he was",
+                "zh": "In the 12th century, King Louis VI 'the Fat' needed lots of money to build Cathedrals, to show how pious he was"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/LouisVICoin.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So he moved the official Paris market to the area next to the Cemetery of the Innocents!",
+                "fr": "So he moved the official Paris market to the area next to the Cemetery of the Innocents!",
+                "es": "So he moved the official Paris market to the area next to the Cemetery of the Innocents!",
+                "zh": "So he moved the official Paris market to the area next to the Cemetery of the Innocents!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This allowed him to raise more taxes, fixed sanitary issues, and freed up space on the Ile de la Cite, where the previous market was",
+                "fr": "This allowed him to raise more taxes, fixed sanitary issues, and freed up space on the Ile de la Cite, where the previous market was",
+                "es": "This allowed him to raise more taxes, fixed sanitary issues, and freed up space on the Ile de la Cite, where the previous market was",
+                "zh": "This allowed him to raise more taxes, fixed sanitary issues, and freed up space on the Ile de la Cite, where the previous market was"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles6Easy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "An easy call...",
+                "fr": "An easy call...",
+                "es": "An easy call...",
+                "zh": "An easy call..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles7"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles6Genius",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a genius!",
+                "fr": "What a genius!",
+                "es": "What a genius!",
+                "zh": "What a genius!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles7"
+            }
+        }
+    ]
+}
