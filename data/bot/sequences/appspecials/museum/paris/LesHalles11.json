@@ -1,0 +1,153 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles11",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/FishingBoat.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It came from Dieppe, or other ports on the Channel",
+                "fr": "It came from Dieppe, or other ports on the Channel",
+                "es": "It came from Dieppe, or other ports on the Channel",
+                "zh": "It came from Dieppe, or other ports on the Channel"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/FishOnBeach.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!",
+                "fr": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!",
+                "es": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!",
+                "zh": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles11More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Go on",
+                "fr": "Go on",
+                "es": "Go on",
+                "zh": "Go on"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets",
+                        "fr": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets",
+                        "es": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets",
+                        "zh": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 568,
+                        "Height": 320,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/leshalles/ChasseMaree.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They were called the Chasse-Marée",
+                        "fr": "They were called the Chasse-Marée",
+                        "es": "They were called the Chasse-Marée",
+                        "zh": "They were called the Chasse-Marée"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "After each tide, they would walk day and night to Paris",
+                        "fr": "After each tide, they would walk day and night to Paris",
+                        "es": "After each tide, they would walk day and night to Paris",
+                        "zh": "After each tide, they would walk day and night to Paris"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LesHalles11MoreStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LesHalles11MoreFar",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Too far!",
+                            "fr": "Too far!",
+                            "es": "Too far!",
+                            "zh": "Too far!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "No way... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "fr": "No way... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "es": "No way... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "zh": "No way... walking 200km only takes two or three days with the right incentives... and there were many!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LesHalles12"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LesHalles11MoreEasy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Easy...",
+                            "fr": "Easy...",
+                            "es": "Easy...",
+                            "zh": "Easy..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "fr": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "es": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "zh": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "LesHalles12"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
