@@ -1,0 +1,75 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There are two constants in life, right? Death and taxes...",
+                "fr": "There are two constants in life, right? Death and taxes...",
+                "es": "There are two constants in life, right? Death and taxes...",
+                "zh": "There are two constants in life, right? Death and taxes..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/Holbein_Danse_Macabre_37.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well... in the early 12th century... Parisians could avoid taxes with death!",
+                "fr": "Well... in the early 12th century... Parisians could avoid taxes with death!",
+                "es": "Well... in the early 12th century... Parisians could avoid taxes with death!",
+                "zh": "Well... in the early 12th century... Parisians could avoid taxes with death!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles4Tell",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me how",
+                "fr": "Tell me how",
+                "es": "Tell me how",
+                "zh": "Tell me how"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles5"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles4No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I don't believe it",
+                "fr": "I don't believe it",
+                "es": "I don't believe it",
+                "zh": "I don't believe it"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me explain..",
+                        "fr": "Let me explain..",
+                        "es": "Let me explain..",
+                        "zh": "Let me explain.."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles5"
+            }
+        }
+    ]
+}
