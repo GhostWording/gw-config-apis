@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Another question: what was in the centre of Paris for most of its existence?",
+                "fr": "Another question: what was in the centre of Paris for most of its existence?",
+                "es": "Another question: what was in the centre of Paris for most of its existence?",
+                "zh": "Another question: what was in the centre of Paris for most of its existence?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles2Market",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A food market",
+                "fr": "A food market",
+                "es": "A food market",
+                "zh": "A food market"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Exactly!",
+                        "fr": "Exactly!",
+                        "es": "Exactly!",
+                        "zh": "Exactly!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles2Garden",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A tulip garden",
+                "fr": "A tulip garden",
+                "es": "A tulip garden",
+                "zh": "A tulip garden"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm afraid not",
+                        "fr": "I'm afraid not",
+                        "es": "I'm afraid not",
+                        "zh": "I'm afraid not"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles3"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles2Zoo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A zoo",
+                "fr": "A zoo",
+                "es": "A zoo",
+                "zh": "A zoo"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm afraid not",
+                        "fr": "I'm afraid not",
+                        "es": "I'm afraid not",
+                        "zh": "I'm afraid not"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles3"
+            }
+        }
+    ]
+}
