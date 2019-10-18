@@ -16,7 +16,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Shall I tell you why it was created?",
-                "fr": "Shall I tell you why it was created?",
+                "fr": "Je te raconte pourquoi il a été créé ?",
                 "es": "Shall I tell you why it was created?",
                 "zh": "Shall I tell you why it was created?"
             }
@@ -29,7 +29,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes, tell me",
-                "fr": "Yes, tell me",
+                "fr": "Dis-moi !",
                 "es": "Yes, tell me",
                 "zh": "Yes, tell me"
             },
@@ -38,7 +38,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": " Great! Let's start...",
-                        "fr": " Great! Let's start...",
+                        "fr": " Super ! C'est parti...",
                         "es": " Great! Let's start...",
                         "zh": " Great! Let's start..."
                     }
@@ -54,7 +54,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thanks, skip!",
-                "fr": "No thanks, skip!",
+                "fr": "Non merci, on saute !",
                 "es": "No thanks, skip!",
                 "zh": "No thanks, skip!"
             },
@@ -63,7 +63,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright... let's talk about more recent times then!",
-                        "fr": "Alright... let's talk about more recent times then!",
+                        "fr": "Ok... parlons des époques plus récentes alors !",
                         "es": "Alright... let's talk about more recent times then!",
                         "zh": "Alright... let's talk about more recent times then!"
                     }
