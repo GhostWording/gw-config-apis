@@ -1,0 +1,80 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles19",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The high steel and glass structures were called 'Baltard Pavilions'",
+                "fr": "The high steel and glass structures were called 'Baltard Pavilions'",
+                "es": "The high steel and glass structures were called 'Baltard Pavilions'",
+                "zh": "The high steel and glass structures were called 'Baltard Pavilions'"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC3.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Ten were built between 1852 and 1889... over 300 houses were demolished to make space!",
+                "fr": "Ten were built between 1852 and 1889... over 300 houses were demolished to make space!",
+                "es": "Ten were built between 1852 and 1889... over 300 houses were demolished to make space!",
+                "zh": "Ten were built between 1852 and 1889... over 300 houses were demolished to make space!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/leshallesbeforedemolition.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They were strongly inspired by the proposal of the leading unlucky competitor for the planning competition - Hector Horeau, who also managed to lose the competition for London's Crystal Palace a few years later",
+                "fr": "They were strongly inspired by the proposal of the leading unlucky competitor for the planning competition - Hector Horeau, who also managed to lose the competition for London's Crystal Palace a few years later",
+                "es": "They were strongly inspired by the proposal of the leading unlucky competitor for the planning competition - Hector Horeau, who also managed to lose the competition for London's Crystal Palace a few years later",
+                "zh": "They were strongly inspired by the proposal of the leading unlucky competitor for the planning competition - Hector Horeau, who also managed to lose the competition for London's Crystal Palace a few years later"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles19Poor",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Poor guy",
+                "fr": "Poor guy",
+                "es": "Poor guy",
+                "zh": "Poor guy"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles20"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles19Bad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Too bad!",
+                "fr": "Too bad!",
+                "es": "Too bad!",
+                "zh": "Too bad!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles20"
+            }
+        }
+    ]
+}
