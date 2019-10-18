@@ -1,0 +1,182 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles14",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In Les Halles from the 15th to the 19th century, there was a growing concern...",
+                "fr": "In Les Halles from the 15th to the 19th century, there was a growing concern...",
+                "es": "In Les Halles from the 15th to the 19th century, there was a growing concern...",
+                "zh": "In Les Halles from the 15th to the 19th century, there was a growing concern..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles14What",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What?",
+                "fr": "What?",
+                "es": "What?",
+                "zh": "What?"
+            },
+            "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Overcrowding! The space was simply too small to keep up with its popularity",
+                "fr": "Overcrowding! The space was simply too small to keep up with its popularity",
+                "es": "Overcrowding! The space was simply too small to keep up with its popularity",
+                "zh": "Overcrowding! The space was simply too small to keep up with its popularity"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Many solutions were considered, but none were implemented",
+                "fr": "Many solutions were considered, but none were implemented",
+                "es": "Many solutions were considered, but none were implemented",
+                "zh": "Many solutions were considered, but none were implemented"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the end, a guy who used to live in the area claimed that creating a new market was the most important issue facing Paris at the time",
+                "fr": "In the end, a guy who used to live in the area claimed that creating a new market was the most important issue facing Paris at the time",
+                "es": "In the end, a guy who used to live in the area claimed that creating a new market was the most important issue facing Paris at the time",
+                "zh": "In the end, a guy who used to live in the area claimed that creating a new market was the most important issue facing Paris at the time"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles14WhatXIV",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Louis XIV?",
+                "fr": "Louis XIV?",
+                "es": "Louis XIV?",
+                "zh": "Louis XIV?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite... it was Napoleon!",
+                        "fr": "Not quite... it was Napoleon!",
+                        "es": "Not quite... it was Napoleon!",
+                        "zh": "Not quite... it was Napoleon!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles15"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles14WhatXV",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Louis XV?",
+                "fr": "Louis XV?",
+                "es": "Louis XV?",
+                "zh": "Louis XV?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite... it was Napoleon!",
+                        "fr": "Not quite... it was Napoleon!",
+                        "es": "Not quite... it was Napoleon!",
+                        "zh": "Not quite... it was Napoleon!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles15"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles14WhatXVI",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Louis XVI?",
+                "fr": "Louis XVI?",
+                "es": "Louis XVI?",
+                "zh": "Louis XVI?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite... it was Napoleon!",
+                        "fr": "Not quite... it was Napoleon!",
+                        "es": "Not quite... it was Napoleon!",
+                        "zh": "Not quite... it was Napoleon!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles15"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles14WhatNapoleon",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Napoleon?",
+                "fr": "Napoleon?",
+                "es": "Napoleon?",
+                "zh": "Napoleon?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes, nice one!",
+                        "fr": "Yes, nice one!",
+                        "es": "Yes, nice one!",
+                        "zh": "Yes, nice one!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles15"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles14WhatPompidou",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "George Pompidou?",
+                "fr": "George Pompidou?",
+                "es": "George Pompidou?",
+                "zh": "George Pompidou?"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite... it was Napoleon!",
+                        "fr": "Not quite... it was Napoleon!",
+                        "es": "Not quite... it was Napoleon!",
+                        "zh": "Not quite... it was Napoleon!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles15"
+            }
+        }
+    ]
+}
