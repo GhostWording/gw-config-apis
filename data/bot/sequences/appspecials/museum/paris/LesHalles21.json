@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles21",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We continue just after the market had been redesigned... and it turned out to be very popular!",
+                "fr": "We continue just after the market had been redesigned... and it turned out to be very popular!",
+                "es": "We continue just after the market had been redesigned... and it turned out to be very popular!",
+                "zh": "We continue just after the market had been redesigned... and it turned out to be very popular!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/image32.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Products would arrive during the night, starting at 10pm, and sale would begin at 4am to businesses, then later to the public",
+                "fr": "Products would arrive during the night, starting at 10pm, and sale would begin at 4am to businesses, then later to the public",
+                "es": "Products would arrive during the night, starting at 10pm, and sale would begin at 4am to businesses, then later to the public",
+                "zh": "Products would arrive during the night, starting at 10pm, and sale would begin at 4am to businesses, then later to the public"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Over the next 100 years, though, it became clear that Les Halles were once again becoming too small...",
+                "fr": "Over the next 100 years, though, it became clear that Les Halles were once again becoming too small...",
+                "es": "Over the next 100 years, though, it became clear that Les Halles were once again becoming too small...",
+                "zh": "Over the next 100 years, though, it became clear that Les Halles were once again becoming too small..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles21No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh no...",
+                "fr": "Oh no...",
+                "es": "Oh no...",
+                "zh": "Oh no..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles22"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles21Show",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Show me",
+                "fr": "Show me",
+                "es": "Show me",
+                "zh": "Show me"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles22"
+            }
+        }
+    ]
+}
