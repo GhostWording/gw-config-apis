@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Soon, merchants would come from all the Paris region, and international goods would be sold there too",
-                "fr": "Bientôt, les marchands virent de tout la région Parisienne, voire des pays voisins",
+                "fr": "Bientôt, les marchands virent de toute la région Parisienne, voire des pays voisins",
                 "es": "Soon, merchants would come from all the Paris region, and international goods would be sold there too",
                 "zh": "Soon, merchants would come from all the Paris region, and international goods would be sold there too"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris",
-                "fr": "Sur ces cartes, tu peux voir la rue Saint Denis... the big horizontal road leading to the north (left side) of Paris",
+                "fr": "Sur ces cartes, tu peux voir la rue Saint Denis... C'est la grande rue horizontale. L'entrée nord de Paris, la porte Saint Denis, est représentée à gauche",
                 "es": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris",
                 "zh": "On these maps you can see Rue St Denis... the big horizontal road leading to the north (left side) of Paris"
             }
@@ -44,7 +44,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Can you guess what came down here from the North?",
-                "fr": "Can you guess what came down here from the North?",
+                "fr": "Devine ce qui venait du nord ?",
                 "es": "Can you guess what came down here from the North?",
                 "zh": "Can you guess what came down here from the North?"
             }
@@ -57,7 +57,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Fresh troops",
-                "fr": "Fresh troops",
+                "fr": "Des troupes fraîches",
                 "es": "Fresh troops",
                 "zh": "Fresh troops"
             },
@@ -66,7 +66,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I guess... at times... but mainly fish!",
-                        "fr": "I guess... at times... but mainly fish!",
+                        "fr": "Le poisson !",
                         "es": "I guess... at times... but mainly fish!",
                         "zh": "I guess... at times... but mainly fish!"
                     }
@@ -82,7 +82,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Fresh wind",
-                "fr": "Fresh wind",
+                "fr": "Du vent frais",
                 "es": "Fresh wind",
                 "zh": "Fresh wind"
             },
@@ -91,34 +91,9 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Yes... I suppose so... but also fish!",
-                        "fr": "Yes... I suppose so... but also fish!",
+                        "fr": "Du poisson !",
                         "es": "Yes... I suppose so... but also fish!",
                         "zh": "Yes... I suppose so... but also fish!"
-                    }
-                }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "LesHalles11"
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "LesHalles10Fish",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Fresh fish",
-                "fr": "Fresh fish",
-                "es": "Fresh fish",
-                "zh": "Fresh fish"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "You're right! Fish!",
-                        "fr": "You're right! Fish!",
-                        "es": "You're right! Fish!",
-                        "zh": "You're right! Fish!"
                     }
                 }
             ],
