@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles8",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "At first it was just an open space where merchants could set up their street stalls, but later, parts of the market were enclosed by walls or houses",
+                "fr": "At first it was just an open space where merchants could set up their street stalls, but later, parts of the market were enclosed by walls or houses",
+                "es": "At first it was just an open space where merchants could set up their street stalls, but later, parts of the market were enclosed by walls or houses",
+                "zh": "At first it was just an open space where merchants could set up their street stalls, but later, parts of the market were enclosed by walls or houses"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/Marche12e.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There actually was a popular pillory there... all the way until 1786!",
+                "fr": "There actually was a popular pillory there... all the way until 1786!",
+                "es": "There actually was a popular pillory there... all the way until 1786!",
+                "zh": "There actually was a popular pillory there... all the way until 1786!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/Pilori_des_halles.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "(alleged) criminals were put on display for hours... while being pelted by pedestrians. Don't worry though, stones were forbidden",
+                "fr": "(alleged) criminals were put on display for hours... while being pelted by pedestrians. Don't worry though, stones were forbidden",
+                "es": "(alleged) criminals were put on display for hours... while being pelted by pedestrians. Don't worry though, stones were forbidden",
+                "zh": "(alleged) criminals were put on display for hours... while being pelted by pedestrians. Don't worry though, stones were forbidden"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles8Deserved",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Deserved!",
+                "fr": "Deserved!",
+                "es": "Deserved!",
+                "zh": "Deserved!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles9"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles8Cruel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How cruel...",
+                "fr": "How cruel...",
+                "es": "How cruel...",
+                "zh": "How cruel..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles9"
+            }
+        }
+    ]
+}
