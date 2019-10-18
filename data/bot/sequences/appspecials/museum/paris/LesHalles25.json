@@ -1,0 +1,105 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles25",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They were horrified when it moved, then horrified again when it was decided that the Baltard Pavilions would be destroyed!",
+                "fr": "They were horrified when it moved, then horrified again when it was decided that the Baltard Pavilions would be destroyed!",
+                "es": "They were horrified when it moved, then horrified again when it was decided that the Baltard Pavilions would be destroyed!",
+                "zh": "They were horrified when it moved, then horrified again when it was decided that the Baltard Pavilions would be destroyed!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In the relocation, many rats were moved too... so it wasn't all bad!",
+                "fr": "In the relocation, many rats were moved too... so it wasn't all bad!",
+                "es": "In the relocation, many rats were moved too... so it wasn't all bad!",
+                "zh": "In the relocation, many rats were moved too... so it wasn't all bad!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/image15.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Regardless... the area was deserted in a matter of days, and all the stalls moved to the new location: Rungis",
+                "fr": "Regardless... the area was deserted in a matter of days, and all the stalls moved to the new location: Rungis",
+                "es": "Regardless... the area was deserted in a matter of days, and all the stalls moved to the new location: Rungis",
+                "zh": "Regardless... the area was deserted in a matter of days, and all the stalls moved to the new location: Rungis"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/LesHallesEmpty.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles25Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How sad!",
+                "fr": "How sad!",
+                "es": "How sad!",
+                "zh": "How sad!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It gets worse... the digging soon began...",
+                        "fr": "It gets worse... the digging soon began...",
+                        "es": "It gets worse... the digging soon began...",
+                        "zh": "It gets worse... the digging soon began..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles26"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles25Spooky",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Spooky!",
+                "fr": "Spooky!",
+                "es": "Spooky!",
+                "zh": "Spooky!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... it wasn't for long... once they started digging!",
+                        "fr": "Well... it wasn't for long... once they started digging!",
+                        "es": "Well... it wasn't for long... once they started digging!",
+                        "zh": "Well... it wasn't for long... once they started digging!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles26"
+            }
+        }
+    ]
+}
