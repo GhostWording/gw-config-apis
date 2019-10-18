@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles7",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The new market was called... 'novum forum'... which means... the new market!",
+                "fr": "The new market was called... 'novum forum'... which means... the new market!",
+                "es": "The new market was called... 'novum forum'... which means... the new market!",
+                "zh": "The new market was called... 'novum forum'... which means... the new market!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You can see how the area changed over the years from these maps...",
+                "fr": "You can see how the area changed over the years from these maps...",
+                "es": "You can see how the area changed over the years from these maps...",
+                "zh": "You can see how the area changed over the years from these maps..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As you can see, it was a meeting point for many important roads",
+                "fr": "As you can see, it was a meeting point for many important roads",
+                "es": "As you can see, it was a meeting point for many important roads",
+                "zh": "As you can see, it was a meeting point for many important roads"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles7Important",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds important",
+                "fr": "Sounds important",
+                "es": "Sounds important",
+                "zh": "Sounds important"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles8"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles7More",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What else?",
+                "fr": "What else?",
+                "es": "What else?",
+                "zh": "What else?"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles8"
+            }
+        }
+    ]
+}
