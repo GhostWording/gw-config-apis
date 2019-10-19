@@ -16,7 +16,7 @@
             "Type": "Text",
             "Label": {
                 "en": "It came from Dieppe, or other ports on the Channel",
-                "fr": "It came from Dieppe, or other ports on the Channel",
+                "fr": "Il venait de Dieppe et des autres ports de la manche",
                 "es": "It came from Dieppe, or other ports on the Channel",
                 "zh": "It came from Dieppe, or other ports on the Channel"
             }
@@ -35,7 +35,7 @@
             "Type": "Text",
             "Label": {
                 "en": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!",
-                "fr": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!",
+                "fr": "Le vendredi était jour de poisson (ou de jeûne...), alors le poisson devint une affaire sérieuse !",
                 "es": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!",
                 "zh": "On Fridays, people would either eat fish, or nothing at all, so it was pretty important!"
             }
@@ -48,7 +48,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Go on",
-                "fr": "Go on",
+                "fr": "Continue",
                 "es": "Go on",
                 "zh": "Go on"
             },
@@ -57,7 +57,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets",
-                        "fr": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets",
+                        "fr": "Pendant plusieurs siècles, des hommes à pied ont accompagé des cheveaux chargés de paniers de poissons",
                         "es": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets",
                         "zh": "For a few hundred years, men on food would walk alongside horses loaded with fish baskets"
                     }
@@ -76,7 +76,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They were called the Chasse-Marée",
-                        "fr": "They were called the Chasse-Marée",
+                        "fr": "On les appelait les Chasse-Marée",
                         "es": "They were called the Chasse-Marée",
                         "zh": "They were called the Chasse-Marée"
                     }
@@ -85,7 +85,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "After each tide, they would walk day and night to Paris",
-                        "fr": "After each tide, they would walk day and night to Paris",
+                        "fr": "Quand les bateaux de pêche rentraient avec la marée pour décharger, ils se relayaient nuit et jour jusqu'à Paris",
                         "es": "After each tide, they would walk day and night to Paris",
                         "zh": "After each tide, they would walk day and night to Paris"
                     }
@@ -102,7 +102,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Too far!",
-                            "fr": "Too far!",
+                            "fr": "C'est loin !",
                             "es": "Too far!",
                             "zh": "Too far!"
                         },
@@ -111,7 +111,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "No way... walking 200km only takes two or three days with the right incentives... and there were many!",
-                                    "fr": "No way... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "fr": "Pas si loin...marcher 200km ne prend que deux jours avec les bonnes incitations... et elles ne manquaient pas !",
                                     "es": "No way... walking 200km only takes two or three days with the right incentives... and there were many!",
                                     "zh": "No way... walking 200km only takes two or three days with the right incentives... and there were many!"
                                 }
@@ -127,7 +127,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Easy...",
-                            "fr": "Easy...",
+                            "fr": "Facile...",
                             "es": "Easy...",
                             "zh": "Easy..."
                         },
@@ -136,7 +136,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!",
-                                    "fr": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!",
+                                    "fr": "Surtout pour moi ! mais bon marcher 200km ne prend que deux jours avec les bonnes incitations... et elles ne manquaient pas !",
                                     "es": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!",
                                     "zh": "Right! After all... walking 200km only takes two or three days with the right incentives... and there were many!"
                                 }
