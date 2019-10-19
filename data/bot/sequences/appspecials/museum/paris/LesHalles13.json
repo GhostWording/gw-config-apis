@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles",
-                "fr": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles",
+                "fr": "A leur arrivage, tous les types de nourriture était pris en charge par la corporation des 'Forts des Halles'",
                 "es": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles",
                 "zh": "Upon arriving at the market, all the different types of food would be carried inside by members of a corporation: the Strongmen of Les Halles"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!",
-                "fr": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!",
+                "fr": "Ils se sont occupé de la manutention et de l'ordre pendant plus de 700 ans...on ne plaisante pas avec la nourriture des parisiens !",
                 "es": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!",
                 "zh": "They ran the place for over 700 years... making sure nothing came between Parisians and their food!"
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "... That's the end of the first third of this long story! Shall we continue?",
-                "fr": "... That's the end of the first third of this long story! Shall we continue?",
+                "fr": "... Fin de la première partie de l'histoire. On continue maintenant ?",
                 "es": "... That's the end of the first third of this long story! Shall we continue?",
                 "zh": "... That's the end of the first third of this long story! Shall we continue?"
             }
@@ -47,7 +47,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
-                "fr": "Yes!",
+                "fr": "Oui !",
                 "es": "Yes!",
                 "zh": "Yes!"
             },
@@ -61,7 +61,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No thanks",
-                "fr": "No thanks",
+                "fr": "Plus tard",
                 "es": "No thanks",
                 "zh": "No thanks"
             },
@@ -70,7 +70,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright! You can restart at this point if you ever get curious!",
-                        "fr": "Alright! You can restart at this point if you ever get curious!",
+                        "fr": "Ok ! Je te retrouve plus tard pour la deuxième partie !",
                         "es": "Alright! You can restart at this point if you ever get curious!",
                         "zh": "Alright! You can restart at this point if you ever get curious!"
                     }
