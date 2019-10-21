@@ -1,0 +1,77 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles27",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/image6.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit...",
+                "fr": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit...",
+                "es": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit...",
+                "zh": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles27No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way...",
+                "fr": "No way...",
+                "es": "No way...",
+                "zh": "No way..."
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm serious! Have a look at these pictures...",
+                        "fr": "I'm serious! Have a look at these pictures...",
+                        "es": "I'm serious! Have a look at these pictures...",
+                        "zh": "I'm serious! Have a look at these pictures..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles28"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles27Show",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Show me!",
+                "fr": "Show me!",
+                "es": "Show me!",
+                "zh": "Show me!"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Have a look at these pictures...",
+                        "fr": "Have a look at these pictures...",
+                        "es": "Have a look at these pictures...",
+                        "zh": "Have a look at these pictures..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles28"
+            }
+        }
+    ]
+}
