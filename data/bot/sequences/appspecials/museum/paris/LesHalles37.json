@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Fair enough... and do you think it looks better than the previous project from the 70s?",
-                "fr": "Fair enough... and do you think it looks better than the previous project from the 70s?",
+                "en": "Fair enough... and do you think it looks better than the previous project from the 70s ?",
+                "fr": "D'accord....tu trouves cela plus joli que ce qui avait été construit dans les années 70 ?",
                 "es": "Fair enough... and do you think it looks better than the previous project from the 70s?",
                 "zh": "Fair enough... and do you think it looks better than the previous project from the 70s?"
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes",
                 "zh": "Yes"
             },
@@ -43,7 +43,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
