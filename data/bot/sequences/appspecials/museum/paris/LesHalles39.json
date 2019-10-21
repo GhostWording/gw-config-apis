@@ -1,0 +1,46 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles39",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But the money from these taxes is used for healthcare and pensions, and other nice stuff...!",
+                "fr": "But the money from these taxes is used for healthcare and pensions, and other nice stuff...!",
+                "es": "But the money from these taxes is used for healthcare and pensions, and other nice stuff...!",
+                "zh": "But the money from these taxes is used for healthcare and pensions, and other nice stuff...!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, while in the 12th century Parisians used death to dodge taxes...",
+                "fr": "So, while in the 12th century Parisians used death to dodge taxes...",
+                "es": "So, while in the 12th century Parisians used death to dodge taxes...",
+                "zh": "So, while in the 12th century Parisians used death to dodge taxes..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/cour_des_miracles.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Nowadays we use taxes to dodge death...",
+                "fr": "Nowadays we use taxes to dodge death...",
+                "es": "Nowadays we use taxes to dodge death...",
+                "zh": "Nowadays we use taxes to dodge death..."
+            }
+        }
+    ],
+    "LinksToFragment": {
+        "FragmentPath": "LesHallesFeedback"
+    }
+}
