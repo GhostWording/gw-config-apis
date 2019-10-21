@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles37",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Fair enough... and do you think it looks better than the previous project from the 70s?",
+                "fr": "Fair enough... and do you think it looks better than the previous project from the 70s?",
+                "es": "Fair enough... and do you think it looks better than the previous project from the 70s?",
+                "zh": "Fair enough... and do you think it looks better than the previous project from the 70s?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles37Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes",
+                "zh": "Yes"
+            },
+            "Steps":[
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles38"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles37No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps":[
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles38"
+            }
+        }
+    ]
+}
