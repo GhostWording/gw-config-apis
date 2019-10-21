@@ -1,0 +1,63 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles31",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We're now reaching the end of the story...",
+                "fr": "We're now reaching the end of the story...",
+                "es": "We're now reaching the end of the story...",
+                "zh": "We're now reaching the end of the story..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let's look at what was built on top of the station",
+                "fr": "Let's look at what was built on top of the station",
+                "es": "Let's look at what was built on top of the station",
+                "zh": "Let's look at what was built on top of the station"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Once again, a competition was held for designs of what to build!",
+                "fr": "Once again, a competition was held for designs of what to build!",
+                "es": "Once again, a competition was held for designs of what to build!",
+                "zh": "Once again, a competition was held for designs of what to build!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles31Exciting",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How exciting!",
+                "fr": "How exciting!",
+                "es": "How exciting!",
+                "zh": "How exciting!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles32"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles31Show",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Show me",
+                "fr": "Show me",
+                "es": "Show me",
+                "zh": "Show me"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles32"
+            }
+        }
+    ]
+}
