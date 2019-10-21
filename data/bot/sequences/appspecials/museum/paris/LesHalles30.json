@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles30",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So the RER train network was built!",
+                "fr": "So the RER train network was built!",
+                "es": "So the RER train network was built!",
+                "zh": "So the RER train network was built!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/RERLesHalles.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Les Halles was the logical place to connect it... and for that, they needed a huge hole!",
+                "fr": "Les Halles was the logical place to connect it... and for that, they needed a huge hole!",
+                "es": "Les Halles was the logical place to connect it... and for that, they needed a huge hole!",
+                "zh": "Les Halles was the logical place to connect it... and for that, they needed a huge hole!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's now the biggest underground station in Europe!",
+                "fr": "It's now the biggest underground station in Europe!",
+                "es": "It's now the biggest underground station in Europe!",
+                "zh": "It's now the biggest underground station in Europe!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles30Thanks",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thanks",
+                "fr": "Thanks",
+                "es": "Thanks",
+                "zh": "Thanks"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles31"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles30Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Impressive!",
+                "fr": "Impressive!",
+                "es": "Impressive!",
+                "zh": "Impressive!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles31"
+            }
+        }
+    ]
+}
