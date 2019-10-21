@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles33",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, it was this one that was selected:",
+                "fr": "In fact, it was this one that was selected:",
+                "es": "In fact, it was this one that was selected:",
+                "zh": "In fact, it was this one that was selected:"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/ProjetWillerval.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Buildings were then crammed into these canopies to make the project more cost efficient",
+                "fr": "Buildings were then crammed into these canopies to make the project more cost efficient",
+                "es": "Buildings were then crammed into these canopies to make the project more cost efficient",
+                "zh": "Buildings were then crammed into these canopies to make the project more cost efficient"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles33Bad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh dear",
+                "fr": "Oh dear",
+                "es": "Oh dear",
+                "zh": "Oh dear"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles34"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles33OK",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not too bad",
+                "fr": "Not too bad",
+                "es": "Not too bad",
+                "zh": "Not too bad"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles34"
+            }
+        }
+    ]
+}
