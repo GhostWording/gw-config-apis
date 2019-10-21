@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles34",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here are a few more pictures of it...",
+                "fr": "Here are a few more pictures of it...",
+                "es": "Here are a few more pictures of it...",
+                "zh": "Here are a few more pictures of it..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC5.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A few years ago, though, the mayor of Paris decided that the buildings were getting old and unfashionable",
+                "fr": "A few years ago, though, the mayor of Paris decided that the buildings were getting old and unfashionable",
+                "es": "A few years ago, though, the mayor of Paris decided that the buildings were getting old and unfashionable",
+                "zh": "A few years ago, though, the mayor of Paris decided that the buildings were getting old and unfashionable"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So he launched yet another competition!",
+                "fr": "So he launched yet another competition!",
+                "es": "So he launched yet another competition!",
+                "zh": "So he launched yet another competition!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles34Again",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Again?!",
+                "fr": "Again?!",
+                "es": "Again?!",
+                "zh": "Again?!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles35"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles34Sure",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Of course...",
+                "fr": "Of course...",
+                "es": "Of course...",
+                "zh": "Of course..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles35"
+            }
+        }
+    ]
+}
