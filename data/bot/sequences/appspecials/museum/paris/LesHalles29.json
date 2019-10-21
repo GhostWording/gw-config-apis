@@ -1,0 +1,84 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles29",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "When the Paris underground was created in the early 1900s, it was meant to be strictly for the centre...",
+                "fr": "When the Paris underground was created in the early 1900s, it was meant to be strictly for the centre...",
+                "es": "When the Paris underground was created in the early 1900s, it was meant to be strictly for the centre...",
+                "zh": "When the Paris underground was created in the early 1900s, it was meant to be strictly for the centre..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/metropolitain.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This is because the designers were scared that it would encourage people to leave Paris for the suburbs!",
+                "fr": "This is because the designers were scared that it would encourage people to leave Paris for the suburbs!",
+                "es": "This is because the designers were scared that it would encourage people to leave Paris for the suburbs!",
+                "zh": "This is because the designers were scared that it would encourage people to leave Paris for the suburbs!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But later, in the 1970s, the Paris regional government changed their minds, and wanted to connect the city with the suburbs...",
+                "fr": "But later, in the 1970s, the Paris regional government changed their minds, and wanted to connect the city with the suburbs...",
+                "es": "But later, in the 1970s, the Paris regional government changed their minds, and wanted to connect the city with the suburbs...",
+                "zh": "But later, in the 1970s, the Paris regional government changed their minds, and wanted to connect the city with the suburbs..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles29Changeable",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So changeable",
+                "fr": "So changeable",
+                "es": "So changeable",
+                "zh": "So changeable"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hey, government priorities change over time!",
+                        "fr": "Hey, government priorities change over time!",
+                        "es": "Hey, government priorities change over time!",
+                        "zh": "Hey, government priorities change over time!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles30"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles29Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good call!",
+                "fr": "Good call!",
+                "es": "Good call!",
+                "zh": "Good call!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles30"
+            }
+        }
+    ]
+}
