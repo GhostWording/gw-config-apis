@@ -1,0 +1,61 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles32",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here are a few of the leading ones... take your time to zoom in and look at them closely!",
+                "fr": "Here are a few of the leading ones... take your time to zoom in and look at them closely!",
+                "es": "Here are a few of the leading ones... take your time to zoom in and look at them closely!",
+                "zh": "Here are a few of the leading ones... take your time to zoom in and look at them closely!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC5.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Personally, I like the first one... with the parking lot on the roof. It's perfect for a bird like me",
+                "fr": "Personally, I like the first one... with the parking lot on the roof. It's perfect for a bird like me",
+                "es": "Personally, I like the first one... with the parking lot on the roof. It's perfect for a bird like me",
+                "zh": "Personally, I like the first one... with the parking lot on the roof. It's perfect for a bird like me"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles32Lazy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Lazy",
+                "fr": "Lazy",
+                "es": "Lazy",
+                "zh": "Lazy"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles33"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles32Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good choice",
+                "fr": "Good choice",
+                "es": "Good choice",
+                "zh": "Good choice"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles33"
+            }
+        }
+    ]
+}
