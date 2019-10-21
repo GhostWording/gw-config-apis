@@ -1,0 +1,93 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles26",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/image6.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In place of the market, there was simply a big hole...",
+                "fr": "In place of the market, there was simply a big hole...",
+                "es": "In place of the market, there was simply a big hole...",
+                "zh": "In place of the market, there was simply a big hole..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC4.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Check out those photos!",
+                "fr": "Check out those photos!",
+                "es": "Check out those photos!",
+                "zh": "Check out those photos!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles26Small",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not so big...",
+                "fr": "Not so big...",
+                "es": "Not so big...",
+                "zh": "Not so big..."
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... it stayed there for years! A huge empty space right in the centre of Paris!",
+                        "fr": "Well... it stayed there for years! A huge empty space right in the centre of Paris!",
+                        "es": "Well... it stayed there for years! A huge empty space right in the centre of Paris!",
+                        "zh": "Well... it stayed there for years! A huge empty space right in the centre of Paris!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles27"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles26WW2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Looks like WW2",
+                "fr": "Looks like WW2",
+                "es": "Looks like WW2",
+                "zh": "Looks like WW2"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're thinking on the right lines... it was a huge hole, right in the centre of Paris... and it stayed there for years!",
+                        "fr": "You're thinking on the right lines... it was a huge hole, right in the centre of Paris... and it stayed there for years!",
+                        "es": "You're thinking on the right lines... it was a huge hole, right in the centre of Paris... and it stayed there for years!",
+                        "zh": "You're thinking on the right lines... it was a huge hole, right in the centre of Paris... and it stayed there for years!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles27"
+            }
+        }
+    ]
+}
