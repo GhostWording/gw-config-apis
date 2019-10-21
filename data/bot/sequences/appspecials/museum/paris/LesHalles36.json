@@ -1,0 +1,100 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles36",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That was just the project plan... here's what it looked like after completion",
+                "fr": "That was just the project plan... here's what it looked like after completion",
+                "es": "That was just the project plan... here's what it looked like after completion",
+                "zh": "That was just the project plan... here's what it looked like after completion"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/CanopeeNW.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "At least... it looked like that for birds like me! Here's what people like you might see..",
+                "fr": "At least... it looked like that for birds like me! Here's what people like you might see..",
+                "es": "At least... it looked like that for birds like me! Here's what people like you might see..",
+                "zh": "At least... it looked like that for birds like me! Here's what people like you might see.."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/LesHallesC6.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you think it looks good?",
+                "fr": "Do you think it looks good?",
+                "es": "Do you think it looks good?",
+                "zh": "Do you think it looks good?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles36Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes",
+                "zh": "Yes"
+            },
+            "Steps":[
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles37"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles36No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps":[
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles37"
+            }
+        }
+    ]
+}
