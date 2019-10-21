@@ -1,0 +1,26 @@
+{
+    "Type": "Node",
+    "Id": "Isendsomenews",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Hey, times to times, I can also send some news!",
+          "fr": "Juste pour te prévenir, de temps je peux aussi t'envoyer des infos sur l'actualité!",
+          "es": "¡Solo para advertirte, también puedo enviarte noticias sobre las noticias!"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "Isendsomenews-ok",
+        "CommandLabel": {
+          "en": "Ok, thanks!",
+          "fr": "Ok, merci!",
+          "es": "¡OK gracias!"
+        }
+      }
+    ]
+  }
