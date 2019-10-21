@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "That was just the project plan... here's what it looked like after completion",
-                "fr": "That was just the project plan... here's what it looked like after completion",
+                "fr": "Après réalisation, voilà ce à quoi cela ressemble pour de vrai",
                 "es": "That was just the project plan... here's what it looked like after completion",
                 "zh": "That was just the project plan... here's what it looked like after completion"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "At least... it looked like that for birds like me! Here's what people like you might see..",
-                "fr": "At least... it looked like that for birds like me! Here's what people like you might see..",
+                "fr": "En tout cas, si tu es un oiseau comme moi! Voici ce que les gens voient dans la pratique.",
                 "es": "At least... it looked like that for birds like me! Here's what people like you might see..",
                 "zh": "At least... it looked like that for birds like me! Here's what people like you might see.."
             }
@@ -40,8 +40,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Do you think it looks good?",
-                "fr": "Do you think it looks good?",
+                "en": "Do you like it?",
+                "fr": "Cela te plaît ?",
                 "es": "Do you think it looks good?",
                 "zh": "Do you think it looks good?"
             }
@@ -54,7 +54,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "Yes",
+                "fr": "Oui",
                 "es": "Yes",
                 "zh": "Yes"
             },
@@ -78,7 +78,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No",
-                "fr": "No",
+                "fr": "Non",
                 "es": "No",
                 "zh": "No"
             },
