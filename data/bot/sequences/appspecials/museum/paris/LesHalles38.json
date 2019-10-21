@@ -1,0 +1,65 @@
+{
+    "Type": "Node",
+    "Id": "LesHalles38",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Personally... I don't mind them... but I think I prefer the old market!",
+                "fr": "Personally... I don't mind them... but I think I prefer the old market!",
+                "es": "Personally... I don't mind them... but I think I prefer the old market!",
+                "zh": "Personally... I don't mind them... but I think I prefer the old market!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Can you guess why they created shopping malls, over anything else?",
+                "fr": "Can you guess why they created shopping malls, over anything else?",
+                "es": "Can you guess why they created shopping malls, over anything else?",
+                "zh": "Can you guess why they created shopping malls, over anything else?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LesHalles38Tax",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Taxes",
+                "fr": "Taxes",
+                "es": "Taxes",
+                "zh": "Taxes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're correct! The same reason as all the way back in 1136...",
+                        "fr": "You're correct! The same reason as all the way back in 1136...",
+                        "es": "You're correct! The same reason as all the way back in 1136...",
+                        "zh": "You're correct! The same reason as all the way back in 1136..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles39"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LesHalles38Aesthetics",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Taxes, actually! The same reason as all the way back in 1136!",
+                "fr": "Taxes, actually! The same reason as all the way back in 1136!",
+                "es": "Taxes, actually! The same reason as all the way back in 1136!",
+                "zh": "Taxes, actually! The same reason as all the way back in 1136!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "LesHalles39"
+            }
+        }
+    ]
+}
