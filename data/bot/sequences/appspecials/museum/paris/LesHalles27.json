@@ -3,22 +3,22 @@
     "Id": "LesHalles27",
     "Steps": [
         {
-            "Type": "Image",
-            "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 568,
-                "Height": 320,
-                "Source": "Internal",
-                "Path": "/museums/paris/leshalles/image6.jpg"
-            }
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit...",
                 "fr": "Il est resté si longtemps qu'on a eu le temps d'y tourner un western...",
                 "es": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit...",
                 "zh": "In fact... it stayed so long, that a (w)hole western movie was shot inside the pit..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/TrouAndHorses.jpg"
             }
         }
     ],
