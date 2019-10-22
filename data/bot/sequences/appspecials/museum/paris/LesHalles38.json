@@ -52,11 +52,22 @@
             "Id": "LesHalles38Aesthetics",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Taxes, actually! The same reason as all the way back in 1136!",
-                "fr": "Les rentrées fiscales, comme pour le marché d'origine en 1136 !",
-                "es": "Taxes, actually! The same reason as all the way back in 1136!",
-                "zh": "Taxes, actually! The same reason as all the way back in 1136!"
+                "en": "Fashion",
+                "fr": "La mode",
+                "es": "Fashion",
+                "zh": "Fashion"
             },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Taxes, actually! The same reason as all the way back in 1136!",
+                        "fr": "Les rentrées fiscales, comme pour le marché d'origine en 1136 !",
+                        "es": "You're correct! The same reason as all the way back in 1136...",
+                        "zh": "You're correct! The same reason as all the way back in 1136..."
+                    }
+                }
+            ],
             "LinksToFragment": {
                 "FragmentPath": "LesHalles39"
             }
