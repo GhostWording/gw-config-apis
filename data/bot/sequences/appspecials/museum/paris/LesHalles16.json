@@ -12,13 +12,10 @@
             }
         },
         {
-            "Type": "Image",
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 568,
-                "Height": 320,
-                "Source": "Internal",
-                "Path": "/museums/paris/leshalles/LesHallesProjectNapoleon.jpg"
+                "Path": "/data/common/carousel/museum/LesHallesC4.json"
             }
         },
         {
