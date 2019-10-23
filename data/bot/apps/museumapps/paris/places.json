@@ -147,13 +147,59 @@
       },
       "DefaultImage": {
           "Type": "Internal",
+          "Path": "/museums/paris/leshalles/rejoicing_at_les_halles_to_cel.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/leshalles/rejoicing_at_les_halles_to_cel.jpg"
+      },
+      "SequenceId": "LesHalles",
+      "Location": {
+          "Latitude": "48.8620508",
+          "Longitude": "2.3471531999999797"
+      },
+      "Arrondissement": "1er arrondissement"
+  },
+  {
+      "Id": "LesHallesPart2",
+      "Caption": {
+          "en": "Les Halles 2",
+          "fr": "Les Halles 2",
+          "es": "Las Halles 2",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Internal",
+          "Path": "/museums/paris/leshalles/image7.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/leshalles/image7.jpg"
+      },
+      "SequenceId": "LesHalles14",
+      "Location": {
+          "Latitude": "48.8620508",
+          "Longitude": "2.3471531999999797"
+      },
+      "Arrondissement": "1er arrondissement"
+  },
+  {
+      "Id": "LesHallesPart3",
+      "Caption": {
+          "en": "Les Halles 3",
+          "fr": "Les Halles 3",
+          "es": "Las Halles 3",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Internal",
           "Path": "/museums/paris/previews/les_halles_preview.jpg"
       },
       "Thumbnail": {
           "Type": "Internal",
           "Path": "/museums/paris/thumbnails/les_halles_thumbnail.jpg"
       },
-      "SequenceId": "LesHalles",
+      "SequenceId": "LesHalles21",
       "Location": {
           "Latitude": "48.8620508",
           "Longitude": "2.3471531999999797"
