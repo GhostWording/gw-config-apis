@@ -9,7 +9,7 @@
                 "Width": 568,
                 "Height": 320,
                 "Source": "Internal",
-                "Path": "/museums/paris/leshalles/image16.jpg"
+                "Path": "/museums/paris/leshalles/LesHallesByNight.jpg"
             }
         },
         {
@@ -22,13 +22,10 @@
             }
         },
         {
-            "Type": "Image",
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 568,
-                "Height": 320,
-                "Source": "Internal",
-                "Path": "/museums/paris/leshalles/LesHallesBaltardCars.jpg"
+                "Path": "/data/common/carousel/museum/LesHallesC6.json"
             }
         },
         {
