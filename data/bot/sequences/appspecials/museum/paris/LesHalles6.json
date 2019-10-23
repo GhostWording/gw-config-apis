@@ -12,13 +12,10 @@
             }
         },
         {
-            "Type": "Image",
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 568,
-                "Height": 320,
-                "Source": "Internal",
-                "Path": "/museums/paris/leshalles/LouisVICoin.jpg"
+                "Path": "/data/common/carousel/museum/LesHallesC1.json"
             }
         },
         {
