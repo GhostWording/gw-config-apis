@@ -37,7 +37,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Many solutions were considered, but none were implemented",
-                        "fr": "De nombreuses solutions furent envisagées, mais aucune ne fût mise en oeuvre",
+                        "fr": "De nombreuses solutions furent envisagées, mais aucune ne fut mise en oeuvre",
                         "es": "Many solutions were considered, but none were implemented",
                         "zh": "Many solutions were considered, but none were implemented"
                     }
@@ -72,7 +72,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Not quite... it was Napoleon!",
-                                    "fr": "Louis était trop bien à Versailles...C'est Napoléon !",
+                                    "fr": "Pas vraiment... C'est Napoléon !",
                                     "es": "Not quite... it was Napoleon!",
                                     "zh": "Not quite... it was Napoleon!"
                                 }
@@ -97,7 +97,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Not quite... it was Napoleon!",
-                                    "fr": "Il y a réfléchi, mais non...C'était Napoléon !",
+                                    "fr": "Il y a réfléchi, mais non... c'était Napoléon !",
                                     "es": "Not quite... it was Napoleon!",
                                     "zh": "Not quite... it was Napoleon!"
                                 }
@@ -162,17 +162,17 @@
                         "Id": "LesHalles14WhatPompidou",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "George Pompidou?",
-                            "fr": "George Pompidou ?",
-                            "es": "George Pompidou?",
-                            "zh": "George Pompidou?"
+                            "en": "Georges Pompidou?",
+                            "fr": "Georges Pompidou ?",
+                            "es": "Georges Pompidou?",
+                            "zh": "Georges Pompidou?"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Not quite... it was Napoleon!",
-                                    "fr": "Mais non....Napoléon !",
+                                    "fr": "Mais non... Napoléon !",
                                     "es": "Not quite... it was Napoleon!",
                                     "zh": "Not quite... it was Napoleon!"
                                 }
