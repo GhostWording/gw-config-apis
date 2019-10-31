@@ -67,6 +67,29 @@
           "Longitude": "2.3471531999999797"
       },
       "Arrondissement": "1er arrondissement"
+ }, 
+ {
+      "Id": "Conciergerie",
+      "Caption": {
+          "en": "Conciergerie",
+          "fr": "La Conciergerie",
+          "es": "La Conciergerie",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/conciergerie_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/conciergerie_thumbnail.jpg"
+      },
+      "SequenceId": "Conciergerie",
+      "Location": {
+          "Latitude": "48.85601139999999",
+          "Longitude": "2.3454953000000387"
+      },
+      "Arrondissement": "1er arrondissement"
   }, 
   {
       "Id": "LeLouvre",
@@ -115,6 +138,52 @@
       "Arrondissement": "4e arrondissement"
   },
   {
+      "Id": "PlaceVendome",
+      "Caption": {
+          "en": "Place Vendôme",
+          "fr": "La Place Vendôme",
+          "es": "La Plaza Vendôme",
+          "zh": ""
+     },
+      "DefaultImage": {
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/vendome_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/vendome_thumbnail.jpg"
+      },
+      "SequenceId": "PlaceVendome",
+      "Location": {
+          "Latitude": "48.8675839",
+          "Longitude": "2.3293456000000106"
+      },
+      "Arrondissement": "1er arrondissement"
+ },
+ {
+      "Id": "Lachaise",
+      "Caption": {
+          "en": "Père Lachaise Cemetery",
+          "fr": "Le Cimetière du Père-Lachaise",
+          "es": "El Cementerio del Père-Lachaise",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Internal",
+          "Path": "/museums/paris/previews/pere_lachaise_preview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/thumbnails/pere_lachaise_thumbnail.jpg"
+      },
+      "SequenceId": "Lachaise",
+      "Location": {
+          "Latitude": "48.8627872",
+          "Longitude": "2.3928086999999323"
+      },
+      "Arrondissement": "20e arrondissement"
+  },  
+  {
       "Id": "Catacombs",
       "Caption": {
           "en": "Catacombs of Paris",
@@ -136,8 +205,7 @@
           "Longitude": "2.3324221999999963"
       },
       "Arrondissement": "14e arrondissement"
-  },
-  
+  }, 
   {
       "Id": "IleCite",
       "Caption": {
@@ -160,52 +228,6 @@
           "Longitude": "2.3474928000000546"
       },
       "Arrondissement": "1er & 4e arrondissements"
-  },
-  {
-      "Id": "PlaceVendome",
-      "Caption": {
-          "en": "Place Vendôme",
-          "fr": "La Place Vendôme",
-          "es": "La Plaza Vendôme",
-          "zh": ""
-     },
-      "DefaultImage": {
-          "Type": "Internal",
-          "Path": "/museums/paris/previews/vendome_preview.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Internal",
-          "Path": "/museums/paris/thumbnails/vendome_thumbnail.jpg"
-      },
-      "SequenceId": "PlaceVendome",
-      "Location": {
-          "Latitude": "48.8675839",
-          "Longitude": "2.3293456000000106"
-      },
-      "Arrondissement": "1er arrondissement"
-  },
-  {
-      "Id": "Conciergerie",
-      "Caption": {
-          "en": "Conciergerie",
-          "fr": "La Conciergerie",
-          "es": "La Conciergerie",
-          "zh": ""
-      },
-      "DefaultImage": {
-          "Type": "Internal",
-          "Path": "/museums/paris/previews/conciergerie_preview.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Internal",
-          "Path": "/museums/paris/thumbnails/conciergerie_thumbnail.jpg"
-      },
-      "SequenceId": "Conciergerie",
-      "Location": {
-          "Latitude": "48.85601139999999",
-          "Longitude": "2.3454953000000387"
-      },
-      "Arrondissement": "1er arrondissement"
   },
   {
       "Id": "BonMarche",
@@ -275,29 +297,6 @@
           "Longitude": "2.331601399999954"
       },
       "Arrondissement": "9e arrondissement"
-  },
-  {
-      "Id": "Lachaise",
-      "Caption": {
-          "en": "Père Lachaise Cemetery",
-          "fr": "Le Cimetière du Père-Lachaise",
-          "es": "El Cementerio del Père-Lachaise",
-          "zh": ""
-      },
-      "DefaultImage": {
-          "Type": "Internal",
-          "Path": "/museums/paris/previews/pere_lachaise_preview.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Internal",
-          "Path": "/museums/paris/thumbnails/pere_lachaise_thumbnail.jpg"
-      },
-      "SequenceId": "Lachaise",
-      "Location": {
-          "Latitude": "48.8627872",
-          "Longitude": "2.3928086999999323"
-      },
-      "Arrondissement": "20e arrondissement"
   },
   {
       "Id": "PontDesArts",
