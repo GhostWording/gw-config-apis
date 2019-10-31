@@ -16,21 +16,21 @@
     "LocationSequenceId": "ParisMap",
     "Topic": "paris",
     "Places" : [
-      {"Id": "Catacombs"},
-      {"Id": "LeLouvre"},
-      {"Id": "NotreDame"},  
       {"Id": "LesHalles"},
       {"Id": "LesHallesPart2"},
-      {"Id": "LesHallesPart3"},
-      {"Id": "IleCite"},
-      {"Id": "PalaisGarnier"},
-      {"Id": "BonMarche"},  
-      {"Id": "PlaceVendome"},
+      {"Id": "LesHallesPart3"},       
       {"Id": "Conciergerie"},
+      {"Id": "LeLouvre"},
+      {"Id": "NotreDame"},  
+      {"Id": "SainteChapelle"},       
+      {"Id": "PlaceVendome"},
+      {"Id": "PalaisGarnier"},
       {"Id": "Lachaise"},
+      {"Id": "Catacombs"},
+      {"Id": "IleCite"},
       {"Id": "FontaineInnocents"},
       {"Id": "PontDesArts"},
-      {"Id": "SainteChapelle"},
-      {"Id": "Sulpice"}
+      {"Id": "Sulpice"},
+      {"Id": "BonMarche"}
     ]
 }
