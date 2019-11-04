@@ -1,0 +1,70 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel06",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I mean... just look at the effort that went into constructing it!",
+                "fr": "I mean... just look at the effort that went into constructing it!",
+                "es": "I mean... just look at the effort that went into constructing it!",
+                "zh": "I mean... just look at the effort that went into constructing it!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TourEiffelC1.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "That said... it was built remarkably efficiently and safely for that time...",
+                "fr": "That said... it was built remarkably efficiently and safely for that time...",
+                "es": "That said... it was built remarkably efficiently and safely for that time...",
+                "zh": "That said... it was built remarkably efficiently and safely for that time..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "only one worked died throughout the whole process... which was unheard of then",
+                "fr": "only one worked died throughout the whole process... which was unheard of then",
+                "es": "only one worked died throughout the whole process... which was unheard of then",
+                "zh": "only one worked died throughout the whole process... which was unheard of then"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel06Impressive",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Impressive",
+                "fr": "Impressive",
+                "es": "Impressive",
+                "zh": "Impressive"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel07"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel06Sad",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How sad..",
+                "fr": "How sad..",
+                "es": "How sad..",
+                "zh": "How sad.."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel07"
+            }
+        }
+    ]
+}
