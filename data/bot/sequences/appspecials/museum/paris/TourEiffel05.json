@@ -1,0 +1,95 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel05",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!",
+                "fr": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!",
+                "es": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!",
+                "zh": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair...",
+                "fr": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair...",
+                "es": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair...",
+                "zh": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "it was intended that it would be dismantled after the event",
+                "fr": "it was intended that it would be dismantled after the event",
+                "es": "it was intended that it would be dismantled after the event",
+                "zh": "it was intended that it would be dismantled after the event"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel05No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way!",
+                "fr": "No way!",
+                "es": "No way!",
+                "zh": "No way!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm dead serious..!",
+                        "fr": "I'm dead serious..!",
+                        "es": "I'm dead serious..!",
+                        "zh": "I'm dead serious..!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel06"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel05Silly",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Seems silly",
+                "fr": "Seems silly",
+                "es": "Seems silly",
+                "zh": "Seems silly"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I certainly think so...",
+                        "fr": "I certainly think so...",
+                        "es": "I certainly think so...",
+                        "zh": "I certainly think so..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel06"
+            }
+        }
+    ]
+}
