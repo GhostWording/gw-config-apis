@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel08",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "During construction, the French public heavily protested the creation of the tower",
+                "fr": "During construction, the French public heavily protested the creation of the tower",
+                "es": "During construction, the French public heavily protested the creation of the tower",
+                "zh": "During construction, the French public heavily protested the creation of the tower"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This also included several important public figures such as Charles Garnier, the architect of the Palais Opera..",
+                "fr": "This also included several important public figures such as Charles Garnier, the architect of the Palais Opera..",
+                "es": "This also included several important public figures such as Charles Garnier, the architect of the Palais Opera..",
+                "zh": "This also included several important public figures such as Charles Garnier, the architect of the Palais Opera.."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But our hero Eiffel vehemently defended it, comparing it to the pyramids of Egypt!",
+                "fr": "But our hero Eiffel vehemently defended it, comparing it to the pyramids of Egypt!",
+                "es": "But our hero Eiffel vehemently defended it, comparing it to the pyramids of Egypt!",
+                "zh": "But our hero Eiffel vehemently defended it, comparing it to the pyramids of Egypt!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel08Much",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Too much",
+                "fr": "Too much",
+                "es": "Too much",
+                "zh": "Too much"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel09"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel08Right",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's right",
+                "fr": "He's right",
+                "es": "He's right",
+                "zh": "He's right"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel09"
+            }
+        }
+    ]
+}
