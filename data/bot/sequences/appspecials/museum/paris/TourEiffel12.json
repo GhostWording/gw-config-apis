@@ -1,0 +1,106 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel12",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions",
+                "fr": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions",
+                "es": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions",
+                "zh": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TourEiffelC3.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "These were anti-wealth, anti-corporation, anti-bourgeois",
+                "fr": "These were anti-wealth, anti-corporation, anti-bourgeois",
+                "es": "These were anti-wealth, anti-corporation, anti-bourgeois",
+                "zh": "These were anti-wealth, anti-corporation, anti-bourgeois"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel12So",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So?",
+                "fr": "So?",
+                "es": "So?",
+                "zh": "So?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
+                        "fr": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
+                        "es": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
+                        "zh": "Well... the industrial revolution was really the first time that mega-corporations began to come about"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But France had just been through a revolution championing the rights of the little guy...",
+                        "fr": "But France had just been through a revolution championing the rights of the little guy...",
+                        "es": "But France had just been through a revolution championing the rights of the little guy...",
+                        "zh": "But France had just been through a revolution championing the rights of the little guy..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods",
+                        "fr": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods",
+                        "es": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods",
+                        "zh": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "TourEiffel12SoStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "TourEiffel12SoSense",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Makes sense",
+                            "fr": "Makes sense",
+                            "es": "Makes sense"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "TourEiffel13"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "TourEiffel12SoThanks",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Thanks",
+                            "fr": "Thanks",
+                            "es": "Thanks"
+                        },
+                        "LinksToFragment": {
+                            "FragmentPath": "TourEiffel13"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
