@@ -1,0 +1,138 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris...",
+                "fr": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris...",
+                "es": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris...",
+                "zh": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Look at the view of the Paris skyline from the Montmartre hill",
+                "fr": "Look at the view of the Paris skyline from the Montmartre hill",
+                "es": "Look at the view of the Paris skyline from the Montmartre hill",
+                "zh": "Look at the view of the Paris skyline from the Montmartre hill"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/MerianNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There's a huge metal structure sticking out of the middle of Paris!",
+                "fr": "There's a huge metal structure sticking out of the middle of Paris!",
+                "es": "There's a huge metal structure sticking out of the middle of Paris!",
+                "zh": "There's a huge metal structure sticking out of the middle of Paris!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Shall we find out why?",
+                "fr": "Shall we find out why?",
+                "es": "Shall we find out why?",
+                "zh": "Shall we find out why?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffelStart",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, let's start!",
+                "fr": "Yes, let's start!",
+                "es": "Yes, let's start!",
+                "zh": "Yes, let's start!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all",
+                        "fr": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all",
+                        "es": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all",
+                        "zh": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So... I suppose you know why the tower is named 'Eiffel'?",
+                        "fr": "So... I suppose you know why the tower is named 'Eiffel'?",
+                        "es": "So... I suppose you know why the tower is named 'Eiffel'?",
+                        "zh": "So... I suppose you know why the tower is named 'Eiffel'?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "TourEiffelStartStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "TourEiffelStartMan",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Mr Eiffel",
+                            "fr": "Mr Eiffel",
+                            "es": "Mr Eiffel"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! But actually... both are correct!",
+                                    "fr": "Right! But actually... both are correct!",
+                                    "es": "Right! But actually... both are correct!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "TourEiffel02"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "TourEiffelStartMountains",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Eifel Mountains",
+                            "fr": "Eifel Mountains",
+                            "es": "Eifel Mountains"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! But actually... both are correct!",
+                                    "fr": "Right! But actually... both are correct!",
+                                    "es": "Right! But actually... both are correct!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "TourEiffel02"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
