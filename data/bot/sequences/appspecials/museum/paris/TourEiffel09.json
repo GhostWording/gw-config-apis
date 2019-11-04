@@ -1,0 +1,86 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel09",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What is more, the Paris government, much like that of Barcelona, were very reluctant to fund the project, even though it was a public work!",
+                "fr": "What is more, the Paris government, much like that of Barcelona, were very reluctant to fund the project, even though it was a public work!",
+                "es": "What is more, the Paris government, much like that of Barcelona, were very reluctant to fund the project, even though it was a public work!",
+                "zh": "What is more, the Paris government, much like that of Barcelona, were very reluctant to fund the project, even though it was a public work!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As a result, Eiffel had to take out multiple loans and use his personal funds",
+                "fr": "As a result, Eiffel had to take out multiple loans and use his personal funds",
+                "es": "As a result, Eiffel had to take out multiple loans and use his personal funds",
+                "zh": "As a result, Eiffel had to take out multiple loans and use his personal funds"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel09Classic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Classic bureaucrats",
+                "fr": "Classic bureaucrats",
+                "es": "Classic bureaucrats",
+                "zh": "Classic bureaucrats"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They certainly weren't very forthcoming...",
+                        "fr": "They certainly weren't very forthcoming...",
+                        "es": "They certainly weren't very forthcoming...",
+                        "zh": "They certainly weren't very forthcoming..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel10"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel09Reasonable",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "It's reasonable",
+                "fr": "It's reasonable",
+                "es": "It's reasonable",
+                "zh": "It's reasonable"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I guess you could argue they were just being safe...",
+                        "fr": "I guess you could argue they were just being safe...",
+                        "es": "I guess you could argue they were just being safe...",
+                        "zh": "I guess you could argue they were just being safe..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel10"
+            }
+        }
+    ]
+}
