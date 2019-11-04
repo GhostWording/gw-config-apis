@@ -1,0 +1,81 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel14",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But, then... why did a rich, clever man like Eiffel make a tower with his money and skills?",
+                "fr": "But, then... why did a rich, clever man like Eiffel make a tower with his money and skills?",
+                "es": "But, then... why did a rich, clever man like Eiffel make a tower with his money and skills?",
+                "zh": "But, then... why did a rich, clever man like Eiffel make a tower with his money and skills?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "After all, that was the fashion for young wealthy men in Britain and other countries... to make oneself wealthier in business!",
+                "fr": "After all, that was the fashion for young wealthy men in Britain and other countries... to make oneself wealthier in business!",
+                "es": "After all, that was the fashion for young wealthy men in Britain and other countries... to make oneself wealthier in business!",
+                "zh": "After all, that was the fashion for young wealthy men in Britain and other countries... to make oneself wealthier in business!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TourEiffelC3.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well... it has to do with what I said earlier about the French mindset",
+                "fr": "Well... it has to do with what I said earlier about the French mindset",
+                "es": "Well... it has to do with what I said earlier about the French mindset",
+                "zh": "Well... it has to do with what I said earlier about the French mindset"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel14Explain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What do you mean?",
+                "fr": "What do you mean?",
+                "es": "What do you mean?",
+                "zh": "What do you mean?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me try to explain...",
+                        "fr": "Let me try to explain...",
+                        "es": "Let me try to explain...",
+                        "zh": "Let me try to explain..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel15"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel14Understood",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I think I get it",
+                "fr": "I think I get it",
+                "es": "I think I get it",
+                "zh": "I think I get it"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel15"
+            }
+        }
+    ]
+}
