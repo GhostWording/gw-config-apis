@@ -1,0 +1,95 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel02",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Mr Gustave Eiffel took his name from the German 'Eifel' mountain range, from which his family originally hailed",
+                "fr": "Mr Gustave Eiffel took his name from the German 'Eifel' mountain range, from which his family originally hailed",
+                "es": "Mr Gustave Eiffel took his name from the German 'Eifel' mountain range, from which his family originally hailed",
+                "zh": "Mr Gustave Eiffel took his name from the German 'Eifel' mountain range, from which his family originally hailed"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "However, he was not actually the tower's designer, as many believe...",
+                "fr": "However, he was not actually the tower's designer, as many believe...",
+                "es": "However, he was not actually the tower's designer, as many believe...",
+                "zh": "However, he was not actually the tower's designer, as many believe..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In reality, he bought the patent from the designers!",
+                "fr": "In reality, he bought the patent from the designers!",
+                "es": "In reality, he bought the patent from the designers!",
+                "zh": "In reality, he bought the patent from the designers!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel02Fraud",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fraud!",
+                "fr": "Fraud!",
+                "es": "Fraud!",
+                "zh": "Fraud!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... don't jump to conclusions...",
+                        "fr": "Well... don't jump to conclusions...",
+                        "es": "Well... don't jump to conclusions...",
+                        "zh": "Well... don't jump to conclusions..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel03"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel02Fine",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "That's fine",
+                "fr": "That's fine",
+                "es": "That's fine",
+                "zh": "That's fine"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right...",
+                        "fr": "Right...",
+                        "es": "Right...",
+                        "zh": "Right..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel03"
+            }
+        }
+    ]
+}
