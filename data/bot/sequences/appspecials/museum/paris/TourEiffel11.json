@@ -1,0 +1,155 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel11",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And a lot of it... 7300 tons",
+                "fr": "And a lot of it... 7300 tons",
+                "es": "And a lot of it... 7300 tons",
+                "zh": "And a lot of it... 7300 tons"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How easy is it to get hold of 7300 tons of iron..?",
+                "fr": "How easy is it to get hold of 7300 tons of iron..?",
+                "es": "How easy is it to get hold of 7300 tons of iron..?",
+                "zh": "How easy is it to get hold of 7300 tons of iron..?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well... it depends which century you're in!",
+                "fr": "Well... it depends which century you're in!",
+                "es": "Well... it depends which century you're in!",
+                "zh": "Well... it depends which century you're in!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel11Explain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Explain",
+                "fr": "Explain",
+                "es": "Explain",
+                "zh": "Explain"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As you may know, much of Europe went through the industrial revolution in the 19th century",
+                        "fr": "As you may know, much of Europe went through the industrial revolution in the 19th century",
+                        "es": "As you may know, much of Europe went through the industrial revolution in the 19th century",
+                        "zh": "As you may know, much of Europe went through the industrial revolution in the 19th century"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 568,
+                        "Height": 320,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "During this time, iron production methods improved drastically, meaning that it was a great time to build stuff out of iron!",
+                        "fr": "During this time, iron production methods improved drastically, meaning that it was a great time to build stuff out of iron!",
+                        "es": "During this time, iron production methods improved drastically, meaning that it was a great time to build stuff out of iron!",
+                        "zh": "During this time, iron production methods improved drastically, meaning that it was a great time to build stuff out of iron!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/museum/TourEiffelC2.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But France was a little behind, despite being a rich country",
+                        "fr": "But France was a little behind, despite being a rich country",
+                        "es": "But France was a little behind, despite being a rich country",
+                        "zh": "But France was a little behind, despite being a rich country"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "TourEiffel11ExplainStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "TourEiffel11ExplainWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why?",
+                            "fr": "Why?",
+                            "es": "Why?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, we have to consider the social and political situation...",
+                                    "fr": "Well, we have to consider the social and political situation...",
+                                    "es": "Well, we have to consider the social and political situation..."
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "TourEiffel12"
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "TourEiffel11ExplainGB",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Not surprising! 🇬🇧",
+                            "fr": "Not surprising! 🇬🇧",
+                            "es": "Not surprising! 🇬🇧"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let's consider the social and political situation of the time",
+                                    "fr": "Let's consider the social and political situation of the time",
+                                    "es": "Let's consider the social and political situation of the time"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "TourEiffel12"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
