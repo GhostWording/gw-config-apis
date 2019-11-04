@@ -1,0 +1,83 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel07",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The process took two years, two months, and five days... and was well documented",
+                "fr": "The process took two years, two months, and five days... and was well documented",
+                "es": "The process took two years, two months, and five days... and was well documented",
+                "zh": "The process took two years, two months, and five days... and was well documented"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/museum/TourEiffelC2.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I looking at those pictures to see how it progressed month by month",
+                "fr": "I looking at those pictures to see how it progressed month by month",
+                "es": "I looking at those pictures to see how it progressed month by month",
+                "zh": "I looking at those pictures to see how it progressed month by month"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel07Cool",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cool!",
+                "fr": "Cool!",
+                "es": "Cool!",
+                "zh": "Cool!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, here comes yet another reason the tower is lucky to be here...",
+                        "fr": "Anyway, here comes yet another reason the tower is lucky to be here...",
+                        "es": "Anyway, here comes yet another reason the tower is lucky to be here...",
+                        "zh": "Anyway, here comes yet another reason the tower is lucky to be here..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel08"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel07Next",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What's next?",
+                "fr": "What's next?",
+                "es": "What's next?",
+                "zh": "What's next?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, I have yet another reason the tower is lucky to be here...",
+                        "fr": "Well, I have yet another reason the tower is lucky to be here...",
+                        "es": "Well, I have yet another reason the tower is lucky to be here...",
+                        "zh": "Well, I have yet another reason the tower is lucky to be here..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel08"
+            }
+        }
+    ]
+}
