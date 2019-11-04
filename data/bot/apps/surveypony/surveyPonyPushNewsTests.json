@@ -1,6 +1,8 @@
 {
   "title" : "Suveypony news",
   "news" : [
-    { "MinOrder" : 10, "Fragment" : { "file" : "/data/bot/sequences/news/surveypony/Isendsomenews.json"} }
+    { "MinOrder" : 10, "Fragment" : { "file" : "/data/bot/sequences/news/surveypony/Isendsomenews.json","id":"Isendsomenews"} },
+    { "MinOrder" : 10, "Fragment" : { "file" : "/data/bot/sequences/smalltalk/FirstTimeBot.json", "id":"FirstTimeBot"}},
+    { "MinOrder" : 20, "Fragment" : { "file" : "/data/bot/sequences/smalltalk/WhatBringsYouUp.json", "id":"WhatBringsYouUp"}}
   ]
 }
