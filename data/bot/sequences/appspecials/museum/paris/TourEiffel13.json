@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel13",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "To add that, unlike Britain and some other countries, they didn't have access to vast stores of coal under their feet",
+                "fr": "To add that, unlike Britain and some other countries, they didn't have access to vast stores of coal under their feet",
+                "es": "To add that, unlike Britain and some other countries, they didn't have access to vast stores of coal under their feet",
+                "zh": "To add that, unlike Britain and some other countries, they didn't have access to vast stores of coal under their feet"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So they had to buy it from the other countries... who they had just been warring with in the last few decades...",
+                "fr": "So they had to buy it from the other countries... who they had just been warring with in the last few decades...",
+                "es": "So they had to buy it from the other countries... who they had just been warring with in the last few decades...",
+                "zh": "So they had to buy it from the other countries... who they had just been warring with in the last few decades..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "All that said, France managed to join in on the industrial fun late in the 19th century",
+                "fr": "All that said, France managed to join in on the industrial fun late in the 19th century",
+                "es": "All that said, France managed to join in on the industrial fun late in the 19th century",
+                "zh": "All that said, France managed to join in on the industrial fun late in the 19th century"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel13Time",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "About time!",
+                "fr": "About time!",
+                "es": "About time!",
+                "zh": "About time!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel14"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel13Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Great!",
+                "fr": "Great!",
+                "es": "Great!",
+                "zh": "Great!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel14"
+            }
+        }
+    ]
+}
