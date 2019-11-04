@@ -1,0 +1,117 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel10",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?",
+                "fr": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?",
+                "es": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?",
+                "zh": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel10Steel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Steel",
+                "fr": "Steel",
+                "es": "Steel",
+                "zh": "Steel"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not quite... iron!",
+                        "fr": "Not quite... iron!",
+                        "es": "Not quite... iron!",
+                        "zh": "Not quite... iron!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel11"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel10Iron",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Iron",
+                "fr": "Iron",
+                "es": "Iron",
+                "zh": "Iron"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct... nice one!",
+                        "fr": "Correct... nice one!",
+                        "es": "Correct... nice one!",
+                        "zh": "Correct... nice one!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel11"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel10Aluminium",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Aluminium",
+                "fr": "Aluminium",
+                "es": "Aluminium",
+                "zh": "Aluminium"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don't think that would be strong enough! It's iron in fact",
+                        "fr": "I don't think that would be strong enough! It's iron in fact",
+                        "es": "I don't think that would be strong enough! It's iron in fact",
+                        "zh": "I don't think that would be strong enough! It's iron in fact"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel11"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel10Adamantium",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Adamantium",
+                "fr": "Adamantium",
+                "es": "Adamantium",
+                "zh": "Adamantium"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Not in this universe! It's actually iron",
+                        "fr": "Not in this universe! It's actually iron",
+                        "es": "Not in this universe! It's actually iron",
+                        "zh": "Not in this universe! It's actually iron"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel11"
+            }
+        }
+    ]
+}
