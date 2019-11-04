@@ -1,0 +1,96 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel03",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "After all, there's much more that goes intro the construction of a building like the Eiffel Tower than just design... as we'll soon see!",
+                "fr": "After all, there's much more that goes intro the construction of a building like the Eiffel Tower than just design... as we'll soon see!",
+                "es": "After all, there's much more that goes intro the construction of a building like the Eiffel Tower than just design... as we'll soon see!",
+                "zh": "After all, there's much more that goes intro the construction of a building like the Eiffel Tower than just design... as we'll soon see!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So... not only was there the chance that the Eiffel tower could have been called something different... but also that it could have been in a different city!",
+                "fr": "So... not only was there the chance that the Eiffel tower could have been called something different... but also that it could have been in a different city!",
+                "es": "So... not only was there the chance that the Eiffel tower could have been called something different... but also that it could have been in a different city!",
+                "zh": "So... not only was there the chance that the Eiffel tower could have been called something different... but also that it could have been in a different city!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The project was originally offered to Barcelona!",
+                "fr": "The project was originally offered to Barcelona!",
+                "es": "The project was originally offered to Barcelona!",
+                "zh": "The project was originally offered to Barcelona!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel03No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Oh no!",
+                "fr": "Oh no!",
+                "es": "Oh no!",
+                "zh": "Oh no!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona",
+                        "fr": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona",
+                        "es": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona",
+                        "zh": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel04"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel03Wish",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I wish it was",
+                "fr": "I wish it was",
+                "es": "I wish it was",
+                "zh": "I wish it was"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona",
+                        "fr": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona",
+                        "es": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona",
+                        "zh": "Once the designs and plans and price had all been figured out, Eiffel pitched the project to the government of Barcelona"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel04"
+            }
+        }
+    ]
+}
