@@ -1,0 +1,75 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel04",
+    "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 540,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But their response was rather cold - calling the project 'unrealistic and above all too expensive'",
+                "fr": "But their response was rather cold - calling the project 'unrealistic and above all too expensive'",
+                "es": "But their response was rather cold - calling the project 'unrealistic and above all too expensive'",
+                "zh": "But their response was rather cold - calling the project 'unrealistic and above all too expensive'"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Guess they were wrong! It's one of the most visited paid monuments in the world",
+                "fr": "Guess they were wrong! It's one of the most visited paid monuments in the world",
+                "es": "Guess they were wrong! It's one of the most visited paid monuments in the world",
+                "zh": "Guess they were wrong! It's one of the most visited paid monuments in the world"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel04Deserve",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Serves them right",
+                "fr": "Serves them right",
+                "es": "Serves them right",
+                "zh": "Serves them right"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I admire your nationalistic passion",
+                        "fr": "I admire your nationalistic passion",
+                        "es": "I admire your nationalistic passion",
+                        "zh": "I admire your nationalistic passion"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel05"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel04True",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "True...",
+                "fr": "True...",
+                "es": "True...",
+                "zh": "True..."
+            },
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffel05"
+            }
+        }
+    ]
+}
