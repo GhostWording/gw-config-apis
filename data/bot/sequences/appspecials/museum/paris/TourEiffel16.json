@@ -1,0 +1,129 @@
+{
+    "Type": "Node",
+    "Id": "TourEiffel16",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's telling that Eiffel was also strongly involved in the construction of the Statue of Liberty in New York, too!",
+                "fr": "It's telling that Eiffel was also strongly involved in the construction of the Statue of Liberty in New York, too!",
+                "es": "It's telling that Eiffel was also strongly involved in the construction of the Statue of Liberty in New York, too!",
+                "zh": "It's telling that Eiffel was also strongly involved in the construction of the Statue of Liberty in New York, too!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As well as being responsible for huge developments in wind resistance technology...",
+                "fr": "As well as being responsible for huge developments in wind resistance technology...",
+                "es": "As well as being responsible for huge developments in wind resistance technology...",
+                "zh": "As well as being responsible for huge developments in wind resistance technology..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, what do you think? Was he an arrogant megalomaniac or a man of the people?",
+                "fr": "So, what do you think? Was he an arrogant megalomaniac or a man of the people?",
+                "es": "So, what do you think? Was he an arrogant megalomaniac or a man of the people?",
+                "zh": "So, what do you think? Was he an arrogant megalomaniac or a man of the people?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "TourEiffel16Arrogant",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Arrogant!",
+                "fr": "Arrogant!",
+                "es": "Arrogant!",
+                "zh": "Arrogant!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day...",
+                        "fr": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day...",
+                        "es": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day...",
+                        "zh": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A real success story!",
+                        "fr": "A real success story!",
+                        "es": "A real success story!",
+                        "zh": "A real success story!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffelFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "TourEiffel16Hero",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hero!",
+                "fr": "Hero!",
+                "es": "Hero!",
+                "zh": "Hero!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day...",
+                        "fr": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day...",
+                        "es": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day...",
+                        "zh": "Anyway, despite all these hiccups, the Eiffel tower was completed and has remained until this day..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A real success story!",
+                        "fr": "A real success story!",
+                        "es": "A real success story!",
+                        "zh": "A real success story!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "TourEiffelFeedback"
+            }
+        }
+    ]
+}
