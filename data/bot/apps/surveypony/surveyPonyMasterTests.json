@@ -3,7 +3,8 @@
     "GroupName":"Test",
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/MyCoffeJokeSequence.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorldTestDuplicate.json"]}
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorldTestDuplicate.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]}
     ]
   }
 ]
