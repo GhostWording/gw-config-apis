@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris...",
-                "fr": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris...",
+                "fr": "La tour Eiffel est bien sûr célèbre, mais on peut se demander ce qu'elle fait à Paris...",
                 "es": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris...",
                 "zh": "The Eiffel tower is very famous, for sure, but it also seems very out of place in Paris..."
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Look at the view of the Paris skyline from the Montmartre hill",
-                "fr": "Look at the view of the Paris skyline from the Montmartre hill",
+                "fr": "Regarde cette vue depuis la butte Montmartre",
                 "es": "Look at the view of the Paris skyline from the Montmartre hill",
                 "zh": "Look at the view of the Paris skyline from the Montmartre hill"
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "There's a huge metal structure sticking out of the middle of Paris!",
-                "fr": "There's a huge metal structure sticking out of the middle of Paris!",
+                "fr": "On voit une grande structure metallique qui jaillit du paysage",
                 "es": "There's a huge metal structure sticking out of the middle of Paris!",
                 "zh": "There's a huge metal structure sticking out of the middle of Paris!"
             }
@@ -43,7 +43,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Shall we find out why?",
-                "fr": "Shall we find out why?",
+                "fr": "On essaye de comprendre ce qu'elle fait là ?",
                 "es": "Shall we find out why?",
                 "zh": "Shall we find out why?"
             }
@@ -56,7 +56,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes, let's start!",
-                "fr": "Yes, let's start!",
+                "fr": "Allons-y !",
                 "es": "Yes, let's start!",
                 "zh": "Yes, let's start!"
             },
@@ -65,7 +65,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all",
-                        "fr": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all",
+                        "fr": "Au cours de l'histoire on verra à quel point il était improbable qu'une tour Eiffel existe à Paris",
                         "es": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all",
                         "zh": "Through this story we'll discover how much of a marvel it is that the Eiffel Tower exists at all"
                     }
@@ -74,7 +74,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So... I suppose you know why the tower is named 'Eiffel'?",
-                        "fr": "So... I suppose you know why the tower is named 'Eiffel'?",
+                        "fr": "Bon...j'imagine que tu sais d'où vient le nom de la tour ?",
                         "es": "So... I suppose you know why the tower is named 'Eiffel'?",
                         "zh": "So... I suppose you know why the tower is named 'Eiffel'?"
                     }
@@ -91,7 +91,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Mr Eiffel",
-                            "fr": "Mr Eiffel",
+                            "fr": "Monsieur Eiffel",
                             "es": "Mr Eiffel"
                         },
                         "Steps": [
@@ -99,7 +99,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right! But actually... both are correct!",
-                                    "fr": "Right! But actually... both are correct!",
+                                    "fr": "Oui ! Mais en fait les deux réponses sont justes !",
                                     "es": "Right! But actually... both are correct!"
                                 }
                             }
@@ -114,7 +114,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Eifel Mountains",
-                            "fr": "Eifel Mountains",
+                            "fr": "Les montagnes Eifel",
                             "es": "Eifel Mountains"
                         },
                         "Steps": [
@@ -122,7 +122,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right! But actually... both are correct!",
-                                    "fr": "Right! But actually... both are correct!",
+                                    "fr": "Oui ! Mais en fait les deux réponses sont justes !",
                                     "es": "Right! But actually... both are correct!"
                                 }
                             }
