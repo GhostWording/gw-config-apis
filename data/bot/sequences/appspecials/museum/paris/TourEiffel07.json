@@ -12,10 +12,12 @@
             }
         },
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/museum/TourEiffelC2.json"
+             "Type": "Image",
+             "Parameters": {
+                 "Width": 500,
+                 "Height": 500,
+                 "Source": "Internal",
+                 "Path": "/museums/paris/toureiffel/timelapseeiffel.jpg"
             }
         },
         {
