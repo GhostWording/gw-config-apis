@@ -15,7 +15,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousel/museum/TourEiffelC3.json"
+                "Path": "/data/common/carousel/museum/TourEiffelC4.json"
             }
         },
         {
@@ -47,6 +47,15 @@
                         "fr": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
                         "es": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
                         "zh": "Well... the industrial revolution was really the first time that mega-corporations began to come about"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 500,
+                        "Height": 500,
+                        "Source": "Internal",
+                        "Path": "/museums/paris/toureiffel/industrialworkers.jpg"
                     }
                 },
                 {
