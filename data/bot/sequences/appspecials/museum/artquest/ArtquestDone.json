@@ -1,0 +1,104 @@
+{
+    "Type": "Node",
+    "Id": "ArtquestDone",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi there!",
+                "fr": "Hi there!",
+                "es": "Hi there!",
+                "zh": "Hi there!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Thank you so much for continuing to use Art Saga and read my stories!",
+                "fr": "Thank you so much for continuing to use Art Saga and read my stories!",
+                "es": "Thank you so much for continuing to use Art Saga and read my stories!",
+                "zh": "Thank you so much for continuing to use Art Saga and read my stories!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 568,
+                "Height": 320,
+                "Source": "Internal",
+                "Path": "/owls/images/small/babyowls.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In fact, you've learned so much that currently I don't have any more to teach you!",
+                "fr": "In fact, you've learned so much that currently I don't have any more to teach you!",
+                "es": "In fact, you've learned so much that currently I don't have any more to teach you!",
+                "zh": "In fact, you've learned so much that currently I don't have any more to teach you!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ArtquestDoneWow",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Wow!",
+                "fr": "Wow!",
+                "es": "Wow!",
+                "zh": "Wow!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have to think up some new stories... but it's not easy",
+                        "fr": "I have to think up some new stories... but it's not easy",
+                        "es": "I have to think up some new stories... but it's not easy",
+                        "zh": "I have to think up some new stories... but it's not easy"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The stories take a long time to write, and I don't even get paid!",
+                        "fr": "The stories take a long time to write, and I don't even get paid!",
+                        "es": "The stories take a long time to write, and I don't even get paid!",
+                        "zh": "The stories take a long time to write, and I don't even get paid!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Width": 568,
+                        "Height": 320,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlyawning.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But you can help! Please leave a kind review on the store!",
+                        "fr": "But you can help! Please leave a kind review on the store!",
+                        "es": "But you can help! Please leave a kind review on the store!",
+                        "zh": "But you can help! Please leave a kind review on the store!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And if you have suggestions for stories or things you'd like to hear about, send me an email!",
+                        "fr": "And if you have suggestions for stories or things you'd like to hear about, send me an email!",
+                        "es": "And if you have suggestions for stories or things you'd like to hear about, send me an email!",
+                        "zh": "And if you have suggestions for stories or things you'd like to hear about, send me an email!"
+                    }
+                }
+            ]
+        }
+    ]
+}
