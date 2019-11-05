@@ -23,11 +23,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Display": "FullScreenWidth",
-                "Width": 568,
-                "Height": 320,
+                "Width": 500,
+                "Height": 500,
                 "Source": "Internal",
-                "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+                "Path": "/museums/paris/toureiffel/iron.jpg"
             }
         },
         {
@@ -68,7 +67,7 @@
                         "Width": 568,
                         "Height": 320,
                         "Source": "Internal",
-                        "Path": "/museums/paris/leshalles/StVictorNWSmall.jpg"
+                        "Path": "/museums/paris/toureiffel/industrialrevolution.jpg"
                     }
                 },
                 {
@@ -84,7 +83,7 @@
                     "Type": "Action",
                     "Name": "ShowCarouselFromList",
                     "Parameters": {
-                        "Path": "/data/common/carousel/museum/TourEiffelC2.json"
+                        "Path": "/data/common/carousel/museum/TourEiffelC3.json"
                     }
                 },
                 {
