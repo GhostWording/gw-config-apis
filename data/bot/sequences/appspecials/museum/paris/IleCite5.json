@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Id": "IleCite5",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Fortunately, it was recast and restored later on, and rests there today!",
+                "fr": "Heureusement, elle a été remoulée et réinstallée plus tard !",
+                "es": "Fortunately, it was recast and restored later on, and rests there today!",
+                "zh": "Fortunately, it was recast and restored later on, and rests there today!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "IleCite5Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thank goodness!",
+                "fr": "Dieu merci !",
+                "es": "Thank goodness!",
+                "zh": "Thank goodness!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, those are some of the cool stories about the island",
+                        "fr": "En tout cas, voici qui conclut mes histoires sur l'île",
+                        "es": "Anyway, those are some of the cool stories about the island",
+                        "zh": "Anyway, those are some of the cool stories about the island"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "IleCiteFeedback"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "IleCite5Death",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Death to kings!",
+                "fr": "Mort au roi !",
+                "es": "Death to kings!",
+                "zh": "Death to kings!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I think you're a couple of centuries late!",
+                        "fr": "Tu as probablement deux siècles de retard !",
+                        "es": "I think you're a couple of centuries late!",
+                        "zh": "I think you're a couple of centuries late!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, those are some of the cool stories about the island",
+                        "fr": "En tout cas, voici qui conclut mes histoires sur l'île",
+                        "es": "Anyway, those are some of the cool stories about the island",
+                        "zh": "Anyway, those are some of the cool stories about the island"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "IleCiteFeedback"
+            }
+        }
+    ]
+}
