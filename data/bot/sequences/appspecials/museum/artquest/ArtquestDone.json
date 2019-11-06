@@ -33,10 +33,10 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "In fact, you've learned so much that currently I don't have any more to teach you!",
-                "fr": "In fact, you've learned so much that currently I don't have any more to teach you!",
-                "es": "In fact, you've learned so much that currently I don't have any more to teach you!",
-                "zh": "In fact, you've learned so much that currently I don't have any more to teach you!"
+                "en": "In fact, I'm fully out of stories for the moment!",
+                "fr": "In fact, I'm fully out of stories for the moment!",
+                "es": "In fact, I'm fully out of stories for the moment!",
+                "zh": "In fact, I'm fully out of stories for the moment!"
             }
         }
     ],
@@ -92,11 +92,15 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "And if you have suggestions for stories or things you'd like to hear about, send me an email!",
-                        "fr": "And if you have suggestions for stories or things you'd like to hear about, send me an email!",
-                        "es": "And if you have suggestions for stories or things you'd like to hear about, send me an email!",
-                        "zh": "And if you have suggestions for stories or things you'd like to hear about, send me an email!"
+                        "en": "And if you have suggestions for stories or things you'd like to hear about, let me know in the review!",
+                        "fr": "And if you have suggestions for stories or things you'd like to hear about, let me know in the review!",
+                        "es": "And if you have suggestions for stories or things you'd like to hear about, let me know in the review!",
+                        "zh": "And if you have suggestions for stories or things you'd like to hear about, let me know in the review!"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "LeaveReview"
                 }
             ]
         }
