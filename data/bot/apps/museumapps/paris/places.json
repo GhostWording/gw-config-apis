@@ -276,6 +276,29 @@
       "Arrondissement": "1er arrondissement"
   },
   {
+      "Id": "TourEiffel",
+      "Caption": {
+          "en": "Eiffel Tower",
+          "fr": "La Tour Eiffel",
+          "es": "La Torre Eiffel",
+          "zh": ""
+      },
+      "DefaultImage": {
+          "Type": "Internal",
+          "Path": "/museums/paris/toureiffel/toureiffelpreview.jpg"
+      },
+      "Thumbnail": {
+          "Type": "Internal",
+          "Path": "/museums/paris/toureiffel/toureiffelthumbnail.jpg"
+      },
+      "SequenceId": "TourEiffel",
+      "Location": {
+          "Latitude": "48.8558986",
+          "Longitude": "2.298087500000065"
+      },
+      "Arrondissement": "7e arrondissement"
+  },
+  {
       "Id": "PalaisGarnier",
       "Caption": {
           "en": "Palais Garnier opera house",
