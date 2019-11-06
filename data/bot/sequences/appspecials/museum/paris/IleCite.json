@@ -73,10 +73,26 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "We think it has been the traditional centre of the city for thousands of years!",
+                        "en": "Check out how Paris has developed around this little island throughout the centuries...",
+                        "fr": "Regarde comment la ville s'est développée au fil des siècles autour de cette petite île. N'hésite-pas à zoomer les images !",
+                        "es": "Check out how Paris has developed around this little island throughout the centuries...",
+                        "zh": "Check out how Paris has developed around this little island throughout the centuries..."
+                    }
+                },
+                {
+                        "Type": "Action",
+                        "Name": "ShowCarouselFromList",
+                        "Parameters": {
+                            "Path": "/data/common/carousel/museum/IleCiteC1.json"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Clearly, it has been the traditional centre of the city for thousands of years!",
                         "fr": "On pense que c'est le centre traditionnel de la ville depuis toujours",
-                        "es": "We think it has been the traditional centre of the city for thousands of years!",
-                        "zh": "We think it has been the traditional centre of the city for thousands of years!"
+                        "es": "Clearly, it has been the traditional centre of the city for thousands of years!",
+                        "zh": "Clearly, it has been the traditional centre of the city for thousands of years!"
                     }
                 }
             ],
