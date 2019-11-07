@@ -52,6 +52,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
+                        "Display": "FullScreenWidth",
                         "Width": 500,
                         "Height": 500,
                         "Source": "Internal",
