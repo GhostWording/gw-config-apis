@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!",
-                "fr": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!",
+                "fr": "Mais le rejet se comprend mieux si l'on sait que le bâtiment devait être temporaire !",
                 "es": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!",
                 "zh": "However, their rejection may have been partially due to the fact that it was supposed to be a temporary building!"
             }
@@ -25,7 +25,7 @@
             "Type": "Text",
             "Label": {
                 "en": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair...",
-                "fr": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair...",
+                "fr": "La tour devait servir d'attraction pendant la durée de l'exposition universelle...",
                 "es": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair...",
                 "zh": "If you can believe it... the tower was planned as a temporary exhibition for the 1889 World Fair..."
             }
@@ -34,7 +34,7 @@
             "Type": "Text",
             "Label": {
                 "en": "it was intended that it would be dismantled after the event",
-                "fr": "it was intended that it would be dismantled after the event",
+                "fr": "pour être démontée ensuite",
                 "es": "it was intended that it would be dismantled after the event",
                 "zh": "it was intended that it would be dismantled after the event"
             }
@@ -47,7 +47,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "No way!",
-                "fr": "No way!",
+                "fr": "Tu plaisantes ?",
                 "es": "No way!",
                 "zh": "No way!"
             },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'm dead serious..!",
-                        "fr": "I'm dead serious..!",
+                        "fr": "Je suis super sérieux !",
                         "es": "I'm dead serious..!",
                         "zh": "I'm dead serious..!"
                     }
@@ -72,7 +72,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Seems silly",
-                "fr": "Seems silly",
+                "fr": "Bizarre comme idée",
                 "es": "Seems silly",
                 "zh": "Seems silly"
             },
@@ -81,7 +81,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I certainly think so...",
-                        "fr": "I certainly think so...",
+                        "fr": "Je suis bien d'accord...",
                         "es": "I certainly think so...",
                         "zh": "I certainly think so..."
                     }
