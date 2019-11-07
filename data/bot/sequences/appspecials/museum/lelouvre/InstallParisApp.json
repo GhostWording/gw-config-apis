@@ -42,7 +42,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "InstallParisAppAndroid",
             "ElementValue": "1",
             "CommandLabel": {
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "InstallParisAppIOS",
             "ElementValue": "1",
             "CommandLabel": {
