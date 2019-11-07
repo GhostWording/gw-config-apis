@@ -1,0 +1,117 @@
+{
+    "Type": "Node",
+    "Id": "InstallParisApp",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If you like these stories about Le Louvre, check out my other app: the Paris Chatbot Guide!",
+                "fr": "If you like these stories about Le Louvre, check out my other app: the Paris Chatbot Guide!",
+                "es": "If you like these stories about Le Louvre, check out my other app: the Paris Chatbot Guide!",
+                "zh": "If you like these stories about Le Louvre, check out my other app: the Paris Chatbot Guide!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I'm sure you'll like learning about this wonderful city!",
+                "fr": "I'm sure you'll like learning about this wonderful city!",
+                "es": "I'm sure you'll like learning about this wonderful city!",
+                "zh": "I'm sure you'll like learning about this wonderful city!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 400,
+                "Source": "Internal",
+                "Path": "/museums/paris/sequenceimages/ile_de_la_cite_preview.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What type of phone are you using?",
+                "fr": "What type of phone are you using?",
+                "es": "What type of phone are you using?",
+                "zh": "What type of phone are you using?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "InstallParisAppAndroid",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Android",
+                "fr": "Android",
+                "es": "Android",
+                "zh": "Android"
+            },
+            "Steps": [
+                {
+                    "Type": "ShowPersistentLink",
+                    "Title": {
+                      "en": "Paris Chatbot Guide",
+                      "fr": "Paris Chatbot Guide"
+                    },
+                    "LinkLabel" : {
+                      "en": "Install",
+                      "fr": "Installer"
+                    },
+                    "url" : "https://play.google.com/store/apps/details?id=com.wavemining.parisguide",
+                    "Image" : {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/images/small/1024.png"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "InstallParisAppIOS",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "iOS (Apple)",
+                "fr": "iOS (Apple)",
+                "es": "iOS (Apple)",
+                "zh": "iOS (Apple)"
+            },
+            "Steps": [
+                {
+                    "Type": "ShowPersistentLink",
+                    "Title": {
+                      "en": "Paris Chatbot Guide",
+                      "fr": "Paris Chatbot Guide"
+                    },
+                    "LinkLabel" : {
+                      "en": "Install",
+                      "fr": "Installer"
+                    },
+                    "url" : "https://apps.apple.com/app/paris-chatbot-guide/id1438385169?ls=1",
+                    "Image" : {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/images/small/1024.png"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
+        }
+    ]
+}
