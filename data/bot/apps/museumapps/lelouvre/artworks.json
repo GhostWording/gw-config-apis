@@ -409,28 +409,5 @@
         },
       "SequenceId": "LeLouvre",
       "LocationSequenceId": "MonaLisaMap"
-    },
-    {
-      "Id": "ParisGuide",
-      "Caption": {
-          "en": "Guide to Paris",
-          "fr": "Guide à Paris"
-      },
-      "DefaultImage": {
-          "Type": "Internal",
-          "Path": "/museums/paris/previews/toureiffelpreview.jpg"
-      },
-      "Thumbnail": {
-          "Type": "Internal",
-          "Path": "/museums/paris/thumbnail/toureiffelthumbnail.jpg"
-      },
-      "Artist": {
-          "en": "Robin Hoot",
-          "fr": "Robin Hoot",
-          "es": "Robin Hoot",
-          "zh": "Robin Hoot"
-        },
-      "SequenceId": "InstallParisApp",
-      "LocationSequenceId": "MonaLisaMap"
     }
 ]
