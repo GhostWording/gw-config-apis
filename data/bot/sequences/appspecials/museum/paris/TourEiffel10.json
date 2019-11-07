@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?",
-                "fr": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?",
+                "fr": "D'après toi la tour Eiffel est construite en ...?",
                 "es": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?",
                 "zh": "Now... I don't suppose you know from which material the Eiffel Tower is primarily made?"
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Steel",
-                "fr": "Steel",
+                "fr": "Acier",
                 "es": "Steel",
                 "zh": "Steel"
             },
@@ -28,7 +28,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Not quite... iron!",
-                        "fr": "Not quite... iron!",
+                        "fr": "Presque...en fer !",
                         "es": "Not quite... iron!",
                         "zh": "Not quite... iron!"
                     }
@@ -44,7 +44,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Iron",
-                "fr": "Iron",
+                "fr": "Fer",
                 "es": "Iron",
                 "zh": "Iron"
             },
@@ -53,7 +53,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Correct... nice one!",
-                        "fr": "Correct... nice one!",
+                        "fr": "Bravo !",
                         "es": "Correct... nice one!",
                         "zh": "Correct... nice one!"
                     }
@@ -78,7 +78,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I don't think that would be strong enough! It's iron in fact",
-                        "fr": "I don't think that would be strong enough! It's iron in fact",
+                        "fr": "Pas assez costaud. Elle est en fer !",
                         "es": "I don't think that would be strong enough! It's iron in fact",
                         "zh": "I don't think that would be strong enough! It's iron in fact"
                     }
@@ -103,7 +103,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Not in this universe! It's actually iron",
-                        "fr": "Not in this universe! It's actually iron",
+                        "fr": "Pas dans cet univers ! Elle est en fer",
                         "es": "Not in this universe! It's actually iron",
                         "zh": "Not in this universe! It's actually iron"
                     }
