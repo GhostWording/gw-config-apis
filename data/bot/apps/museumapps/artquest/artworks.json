@@ -1210,6 +1210,38 @@
         "es": "Museo del Louvre, París",
         "zh": "卢浮宫博物馆 巴黎"
       }
+    },
+    {
+      "Id": "ArtquestDone",
+      "Caption": {
+        "en": "Out of Stories!",
+        "fr": "Fin des histoires!"
+      },
+      "DefaultImage": {
+        "Type": "Internal",
+        "Path": "/museums/artquest/large/Friedrich_WandererAboveTheSeaofFog1818.jpg"
+      },
+      "Thumbnail": {
+        "Type": "Internal",
+        "Path": "/museums/artquest/large/Friedrich_WandererAboveTheSeaofFog1818.jpg"
+      },
+      "Artist": {
+        "en": "Robin Hoot the Owl",
+        "fr": "Robin Hoot",
+        "es": "Robin Hoot",
+        "zh": "Robin Hoot"
+      },
+      "SequenceId": "ArtquestDone",
+      "Year": {
+        "en": "Today",
+        "fr": "Today"
+      },
+      "Museum": {
+        "en": "",
+        "fr": "",
+        "es": "",
+        "zh": ""
+      }
     }
   ]
   
