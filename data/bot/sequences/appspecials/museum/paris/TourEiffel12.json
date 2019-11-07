@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions",
-                "fr": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions",
+                "fr": "Comme évoqué dans les autres histoires, la France a traversé son lot de révolutions",
                 "es": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions",
                 "zh": "As you might know from the other stories, France had been through, and continued to feel the effects of, several important revolutions"
             }
@@ -22,7 +22,7 @@
             "Type": "Text",
             "Label": {
                 "en": "These were anti-wealth, anti-corporation, anti-bourgeois",
-                "fr": "These were anti-wealth, anti-corporation, anti-bourgeois",
+                "fr": "Il y avait un esprit anti-aristocrates, anti-riches, anti-corporate, anti-bourgeois....",
                 "es": "These were anti-wealth, anti-corporation, anti-bourgeois",
                 "zh": "These were anti-wealth, anti-corporation, anti-bourgeois"
             }
@@ -35,7 +35,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "So?",
-                "fr": "So?",
+                "fr": "Et ?",
                 "es": "So?",
                 "zh": "So?"
             },
@@ -44,7 +44,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
-                        "fr": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
+                        "fr": "Eh bien la révolution industrielle c'était le début des mega-corporations",
                         "es": "Well... the industrial revolution was really the first time that mega-corporations began to come about",
                         "zh": "Well... the industrial revolution was really the first time that mega-corporations began to come about"
                     }
@@ -63,7 +63,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But France had just been through a revolution championing the rights of the little guy...",
-                        "fr": "But France had just been through a revolution championing the rights of the little guy...",
+                        "fr": "La France venait de traverser une révolution sur le thème des droits des petites gens...",
                         "es": "But France had just been through a revolution championing the rights of the little guy...",
                         "zh": "But France had just been through a revolution championing the rights of the little guy..."
                     }
@@ -72,7 +72,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods",
-                        "fr": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods",
+                        "fr": "Les méthodes industrielles, le commerce et l'enrichissement rapide n'étaient pas en odeur de sainteté",
                         "es": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods",
                         "zh": "So there was definitely some ideological conflict... which caused France to be a bit slower in adopting industrial methods"
                     }
@@ -89,7 +89,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Makes sense",
-                            "fr": "Makes sense",
+                            "fr": "Logique",
                             "es": "Makes sense"
                         },
                         "LinksToFragment": {
@@ -102,7 +102,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Thanks",
-                            "fr": "Thanks",
+                            "fr": "Merci",
                             "es": "Thanks"
                         },
                         "LinksToFragment": {
