@@ -3,7 +3,18 @@
 "apps": 
   [   
     {
-      "availablefor" : ["en","fr","es"],
+      "availablefor" : ["fr"],
+      "title": {
+        "fr": "Cela s'est passé à Paris...",
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/PCGpng.png",
+      "storeUrl": "https://apps.apple.com/app/paris-chatbot-guide/id1438385169?ls=1",
+      "storeUrlLocalized": {
+        "fr": "https://apps.apple.com/app/paris-chatbot-guide/id1438385169?ls=1"
+         }           
+    },       
+    {
+      "availablefor" : ["en","fr"],
       "title": "Art explained by an owl",
       "titleLocalized": {
         "en": "Unbelievable art stories!",
