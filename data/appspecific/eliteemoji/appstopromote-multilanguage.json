@@ -1,6 +1,14 @@
 {
   "apps": [   
     {
+      "availablefor" : ["fr"],
+      "title": {
+        "fr": "Cela s'est passé à Paris...",
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/PCGpng.png",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.parisguide&hl=fr"
+    },    
+    {
       "availablefor" : ["en","fr"],
       "title": {
         "en": "Art explained by an owl",
