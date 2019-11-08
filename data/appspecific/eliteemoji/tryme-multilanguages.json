@@ -20,7 +20,23 @@
         "es": "https://play.google.com/store/apps/details?id=com.wavemining.hugs"
       }
     }
-    ,              
+    ,
+      "availablefor" : ["fr"],
+      "header": {
+        "fr": "Cela s'est passé à Paris"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/PCGpng.png",
+      "button": {
+        "fr": "Voir les histoires"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.parisguide&hl=fr",
+      "storeUrlLocalized": {
+        "en": "https://play.google.com/store/apps/details?id=com.wavemining.parisguide&hl=fr",
+        "fr": "https://play.google.com/store/apps/details?id=com.wavemining.parisguide&hl=fr",
+        "es": "https://play.google.com/store/apps/details?id=com.wavemining.parisguide&hl=fr"
+      }
+    }
+    ,                  
     {
      "availablefor" : ["en","fr","es"], 
       "header": {
@@ -40,14 +56,12 @@
       "availablefor" : ["en", "fr"],
       "header": {
         "en": "Try me, I know stories!",
-        "fr": "Essaye-moi, je connais des histoires",
-        "es": "¡Salva al gatito!"
+        "fr": "L'art expliqué par une chouette"
       },
       "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
       "button": {
         "en": "Let's try!",
-        "fr": "Essayer",
-        "es": "Salva un gatito"
+        "fr": "Essayer"
       },
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.artquest"
     }
