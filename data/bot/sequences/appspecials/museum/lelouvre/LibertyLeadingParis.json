@@ -1,0 +1,117 @@
+{
+    "Type": "Node",
+    "Id": "LibertyLeadingParis",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If stories like this about the French revolution and Paris are your thing, please check out my other app",
+                "fr": "Si vous aimez les histoires sur Le Louvre, vous adorerez les histoires du Paris Chatbot Guide",
+                "es": "If stories like this about the French revolution and Paris are your thing, please check out my other app",
+                "zh": "If stories like this about the French revolution and Paris are your thing, please check out my other app"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It should keep you entertained while you're waiting for your next story!",
+                "fr": "Elle permettent de découvrir les événements incroyables (mais vrais) qui se sont déroulés dans les quartiers et les sites historiques",
+                "es": "It should keep you entertained while you're waiting for your next story!",
+                "zh": "It should keep you entertained while you're waiting for your next story!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Display": "FullScreenWidth",
+                "Width": 600,
+                "Height": 400,
+                "Source": "Internal",
+                "Path": "/museums/paris/sequenceimages/ile_de_la_cite_preview.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What type of phone are you using?",
+                "fr": "Quel type de téléphone avez-vous ?",
+                "es": "What type of phone are you using?",
+                "zh": "What type of phone are you using?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "LibertyLeadingParisAndroid",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Android",
+                "fr": "Android",
+                "es": "Android",
+                "zh": "Android"
+            },
+            "Steps": [
+                {
+                    "Type": "ShowPersistentLink",
+                    "Title": {
+                      "en": "Paris Chatbot Guide",
+                      "fr": "Paris Chatbot Guide"
+                    },
+                    "LinkLabel" : {
+                      "en": "Install",
+                      "fr": "Installer"
+                    },
+                    "url" : "https://play.google.com/store/apps/details?id=com.wavemining.parisguide",
+                    "Image" : {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/images/small/PCGpng.png"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "LibertyLeadingParisIOS",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "iOS (Apple)",
+                "fr": "iPhone",
+                "es": "iOS (Apple)",
+                "zh": "iOS (Apple)"
+            },
+            "Steps": [
+                {
+                    "Type": "ShowPersistentLink",
+                    "Title": {
+                      "en": "Paris Chatbot Guide",
+                      "fr": "Paris Chatbot Guide"
+                    },
+                    "LinkLabel" : {
+                      "en": "Install",
+                      "fr": "Installer"
+                    },
+                    "url" : "https://apps.apple.com/app/paris-chatbot-guide/id1438385169?ls=1",
+                    "Image" : {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/images/small/PCGpng.png"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NativeExecuteFragment",
+                    "Parameters": {
+                        "FragmentPath": "Exit"
+                    }
+                }
+            ]
+        }
+    ]
+}
