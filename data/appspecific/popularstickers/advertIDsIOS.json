@@ -10,15 +10,23 @@
   "FirstResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/9443557945",
-    "Fallback": {
+    "FallbackRemovedNovember2019": {
        "Provider": "AdMob",
        "ID": "ca-app-pub-7822741681642396/9911261466"
      } 
   },
+  "After6InterstitialDisplays": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2230340387",
+     "FallbackRemovedNovember2019": {
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/2071767060"
+    } 
+ },   
  "OtherResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2230340387",
-       "Fallback": {
+       "FallbackRemovedNovember2019": {
        "Provider": "AdMob",
        "ID": "ca-app-pub-7822741681642396/2071767060"
     } 
