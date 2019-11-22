@@ -31,6 +31,12 @@
       "ID": "ca-app-pub-7822741681642396/7339681866"
     }  
   },
+   "InsteadOfPaying": {
+     "Provider": "AdMob",
+     "ID": "ca-app-pub-7822741681642396/2854789165",
+     "Offset": 3,
+     "Frequency" : 2
+  }, 
   "AfterSharing": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2854789165"
