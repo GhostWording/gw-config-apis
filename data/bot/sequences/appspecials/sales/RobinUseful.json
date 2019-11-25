@@ -1,0 +1,325 @@
+{
+    "Type": "Node",
+    "Id": "RobinUseful",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So I was wondering - how can I be useful to you?",
+                "fr": "So I was wondering - how can I be useful to you?",
+                "es": "So I was wondering - how can I be useful to you?",
+                "zh": "So I was wondering - how can I be useful to you?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulEntertain",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Entertain me",
+                "fr": "Entertain me",
+                "es": "Entertain me",
+                "zh": "Entertain me"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_507175378.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulCheer",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cheer me up",
+                "fr": "Cheer me up",
+                "es": "Cheer me up",
+                "zh": "Cheer me up"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_29105245.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulTeach",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Teach me something",
+                "fr": "Teach me something",
+                "es": "Teach me something",
+                "zh": "Teach me something"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_116710153.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulCompany",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Keep me company",
+                "fr": "Keep me company",
+                "es": "Keep me company",
+                "zh": "Keep me company"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_499647217.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulBetter",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Make me a better person",
+                "fr": "Make me a better person",
+                "es": "Make me a better person",
+                "zh": "Make me a better person"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_670606195.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulWorld",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Tell me about the world",
+                "fr": "Tell me about the world",
+                "es": "Tell me about the world",
+                "zh": "Tell me about the world"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_46969171.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulDiscover",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Help me discover new things",
+                "fr": "Help me discover new things",
+                "es": "Help me discover new things",
+                "zh": "Help me discover new things"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_498917674.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulSpend",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Help me spend money",
+                "fr": "Help me spend money",
+                "es": "Help me spend money",
+                "zh": "Help me spend money"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_500866813.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulCope",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Help me cope with my problems",
+                "fr": "Help me cope with my problems",
+                "es": "Help me cope with my problems",
+                "zh": "Help me cope with my problems"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_29275450.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, I'll help you with that!",
+                        "fr": "Alright, I'll help you with that!",
+                        "es": "Alright, I'll help you with that!",
+                        "zh": "Alright, I'll help you with that!"
+                    }
+                }
+            ]
+        }
+    ]
+}
