@@ -1,0 +1,291 @@
+{
+    "Type": "Node",
+    "Id": "RobinYourself",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How would you describe yourself?",
+                "fr": "How would you describe yourself?",
+                "es": "How would you describe yourself?",
+                "zh": "How would you describe yourself?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfImaginative",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Imaginative",
+                "fr": "Imaginative",
+                "es": "Imaginative",
+                "zh": "Imaginative"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_485354782.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfFun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fun",
+                "fr": "Fun",
+                "es": "Fun",
+                "zh": "Fun"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_29105212.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfReliable",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Reliable",
+                "fr": "Reliable",
+                "es": "Reliable",
+                "zh": "Reliable"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_26821234.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfCaring",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Caring",
+                "fr": "Caring",
+                "es": "Caring",
+                "zh": "Caring"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_26821258.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfHardworking",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hardworking",
+                "fr": "Hardworking",
+                "es": "Hardworking",
+                "zh": "Hardworking"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emojiNewOther/small/shutterstock_483756244.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfRebellious",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Rebellious",
+                "fr": "Rebellious",
+                "es": "Rebellious",
+                "zh": "Rebellious"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emojiNewOther/small/shutterstock_548521537.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfLogical",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Logical",
+                "fr": "Logical",
+                "es": "Logical",
+                "zh": "Logical"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_28414933.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinYourselfDynamic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Dynamic",
+                "fr": "Dynamic",
+                "es": "Dynamic",
+                "zh": "Dynamic"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_499645444.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, let's keep talking and I'll see if I agree!",
+                        "fr": "Well, let's keep talking and I'll see if I agree!",
+                        "es": "Well, let's keep talking and I'll see if I agree!",
+                        "zh": "Well, let's keep talking and I'll see if I agree!"
+                    }
+                }
+            ]
+        }
+    ]
+}
