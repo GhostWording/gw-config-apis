@@ -33,12 +33,8 @@
     "ID": "ca-app-pub-7822741681642396/4418097055"
   },
   "GalleryNative": {
-    "Provider": "AmazonAffiliates",
-    "Countries": "United States, Ukraine",
-    "Fallback": {
       "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/1491112667"
-    }
+      "ID": "ca-app-pub-7822741681642396/1491112667"    
   },
   "GalleryDailyNative": {
     "Provider": "AdMob",
@@ -48,7 +44,7 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/3147766425",
     "Offset": 4,
-    "Frequency" : 4
+    "Frequency" : 5
   },
    "After10InterstitialDisplaysNewlyDisabled": {
     "Provider": "AdMob",
