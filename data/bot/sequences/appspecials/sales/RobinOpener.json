@@ -1,0 +1,114 @@
+{
+    "Type": "Node",
+    "Id": "RobinOpener",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello! 🦉",
+                "fr": "Hello! 🦉",
+                "es": "Hello! 🦉",
+                "zh": "Hello! 🦉"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "An all-consuming passion for emoji brought you here, right?!",
+                "fr": "An all-consuming passion for emoji brought you here, right?!",
+                "es": "An all-consuming passion for emoji brought you here, right?!",
+                "zh": "An all-consuming passion for emoji brought you here, right?!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinOpenerRight",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Right",
+                "fr": "Right",
+                "es": "Right",
+                "zh": "Right"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Then you're going to be happy...",
+                        "fr": "Then you're going to be happy...",
+                        "es": "Then you're going to be happy...",
+                        "zh": "Then you're going to be happy..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        }
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/themes/holidays/small/shutterstock_258312134_8.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "RobinInterests"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinOpenerNo",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not exactly",
+                "fr": "Not exactly",
+                "es": "Not exactly",
+                "zh": "Not exactly"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm relieved... and curious...",
+                        "fr": "I'm relieved... and curious...",
+                        "es": "I'm relieved... and curious...",
+                        "zh": "I'm relieved... and curious..."
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        }
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/themes/emojiOwls/small/shutterstock_386688127_5.jpg"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "RobinInterests"
+            }
+        }
+    ]
+}
