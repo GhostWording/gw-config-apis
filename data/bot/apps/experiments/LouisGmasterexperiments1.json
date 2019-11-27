@@ -2,6 +2,7 @@
   {
     "GroupName": "MinuteArt",
     "SequenceFiles": [
+      { "order" : 16, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
       { "order" : 17, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 18, "file":["/data/bot/sequences/appspecials/sales/RobinInterests.json"]},
       { "order" : 19, "file":["/data/bot/sequences/appspecials/sales/RobinYourself.json"]},
