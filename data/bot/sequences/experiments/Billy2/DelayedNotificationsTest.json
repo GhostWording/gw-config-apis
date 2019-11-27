@@ -1,0 +1,99 @@
+{
+    "Type": "Node",
+    "Id": "DelayedNotificationTest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "say yes to receive a delayed notification",
+                "fr": "say yes to receive a delayed notification",
+                "es": "say yes to receive a delayed notification",
+                "zh": "say yes to receive a delayed notification"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "An all-consuming passion for emoji brought you here, right?!",
+                "fr": "An all-consuming passion for emoji brought you here, right?!",
+                "es": "An all-consuming passion for emoji brought you here, right?!",
+                "zh": "An all-consuming passion for emoji brought you here, right?!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DelayedNotificationTestYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "yes",
+                "fr": "yes",
+                "es": "yes",
+                "zh": "yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "notification will be sent in 1 minute",
+                        "fr": "notification will be sent in 1 minute",
+                        "es": "notification will be sent in 1 minute",
+                        "zh": "notification will be sent in 1 minute"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "NotifyDeferredStory",
+                    "Parameters": {
+                        "fragmentId": "LibertyLeading",
+                        "notificationDelay": {
+                            "unit": "minutes",
+                            "quantity": "1"
+                        },
+                        "notificationTitle": {
+                            "en": "Your story is ready",
+                            "fr": "Votre histoire est prête"
+                        },
+                        "notficationText": {
+                            "en": "and yes, it's another kitten story",
+                            "fr": "et oui, c'est encore une histoire de chatons"
+                        },
+                        "notificationIcon" : "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_488876992.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "sequence ends",
+                        "fr": "sequence ends",
+                        "es": "sequence ends",
+                        "zh": "sequence ends"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "DelayedNotificationTestNo",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No",
+                "zh": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "sequence ends",
+                        "fr": "sequence ends",
+                        "es": "sequence ends",
+                        "zh": "sequence ends"
+                    }
+                }
+            ]
+        }
+    ]
+}
