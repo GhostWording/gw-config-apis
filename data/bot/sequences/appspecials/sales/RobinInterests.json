@@ -18,7 +18,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsCats",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Cats",
                 "fr": "Cats",
                 "es": "Cats",
@@ -40,7 +40,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsArt",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Art",
                 "fr": "Art",
                 "es": "Art",
@@ -62,7 +62,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsSports",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Sports",
                 "fr": "Sports",
                 "es": "Sports",
@@ -84,7 +84,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsCelebrities",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Celebrities",
                 "fr": "Celebrities",
                 "es": "Celebrities",
@@ -106,7 +106,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsFood",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Food",
                 "fr": "Food",
                 "es": "Food",
@@ -128,7 +128,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsMovies",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Movies",
                 "fr": "Movies",
                 "es": "Movies",
@@ -150,7 +150,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsHealth",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Health & Fitness",
                 "fr": "Health & Fitness",
                 "es": "Health & Fitness",
@@ -172,7 +172,7 @@
             "Type": "Leaf",
             "Id": "RobinInterestsAstrology",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Astrology",
                 "fr": "Astrology",
                 "es": "Astrology",
@@ -186,6 +186,182 @@
                         "fr": "Cool! I'm most interested in interior nest design",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsDogs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Dogs",
+                "fr": "Dogs",
+                "es": "Dogs",
+                "zh": "Dogs"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsTravel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Travel",
+                "fr": "Travel",
+                "es": "Travel",
+                "zh": "Travel"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsLearning",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Learning",
+                "fr": "Learning",
+                "es": "Learning",
+                "zh": "Learning"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsMusic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Music",
+                "fr": "Music",
+                "es": "Music",
+                "zh": "Music"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsBooks",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Books",
+                "fr": "Books",
+                "es": "Books",
+                "zh": "Books"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsLove",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Finding Love",
+                "fr": "Finding Love",
+                "es": "Finding Love",
+                "zh": "Finding Love"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsNature",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Nature",
+                "fr": "Nature",
+                "es": "Nature",
+                "zh": "Nature"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! I'm most interested in interior nest design",
+                        "es": "Cool! I'm most interested in interior nest design",
+                        "zh": "Cool! I'm most interested in interior nest design"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinInterestsOwls",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Owls",
+                "fr": "Owls",
+                "es": "Owls",
+                "zh": "Owls"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Really?! No wonder you're talking to me then...",
+                        "fr": "Really?! No wonder you're talking to me then...",
+                        "es": "Really?! No wonder you're talking to me then...",
+                        "zh": "Really?! No wonder you're talking to me then..."
                     }
                 }
             ]
