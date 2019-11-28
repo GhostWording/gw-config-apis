@@ -5,32 +5,23 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Hello! 🦉",
-                "fr": "Hello! 🦉",
-                "es": "Hello! 🦉",
-                "zh": "Hello! 🦉"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "An all-consuming passion for emoji brought you here, right?!",
-                "fr": "An all-consuming passion for emoji brought you here, right?!",
-                "es": "An all-consuming passion for emoji brought you here, right?!",
-                "zh": "An all-consuming passion for emoji brought you here, right?!"
+                "en": "An all-consuming passion for emoji brought you here, right?! 😉",
+                "fr": "An all-consuming passion for emoji brought you here, right?! 😉",
+                "es": "An all-consuming passion for emoji brought you here, right?! 😉",
+                "zh": "An all-consuming passion for emoji brought you here, right?! 😉"
             }
         }
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "RobinOpenerRight",
+            "Id": "RobinOpenerYes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Right",
-                "fr": "Right",
-                "es": "Right",
-                "zh": "Right"
+                "en": "Of course! 😉",
+                "fr": "Of course! 😉",
+                "es": "Of course! 😉",
+                "zh": "Of course! 😉"
             },
             "Steps": [
                 {
@@ -71,10 +62,10 @@
             "Id": "RobinOpenerNo",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Not exactly",
-                "fr": "Not exactly",
-                "es": "Not exactly",
-                "zh": "Not exactly"
+                "en": "I like other things, too",
+                "fr": "I like other things, too",
+                "es": "I like other things, too",
+                "zh": "I like other things, too"
             },
             "Steps": [
                 {
