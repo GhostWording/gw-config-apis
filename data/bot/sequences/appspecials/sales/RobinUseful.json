@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "So I was wondering - how can I be useful to you?",
-                "fr": "So I was wondering - how can I be useful to you?",
+                "fr": "Au fait, comment puis-je t'être utile ?",
                 "es": "So I was wondering - how can I be useful to you?",
                 "zh": "So I was wondering - how can I be useful to you?"
             }
@@ -21,7 +21,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Entertain me",
-                "fr": "Entertain me",
+                "fr": "Divertis-moi",
                 "es": "Entertain me",
                 "zh": "Entertain me"
             },
@@ -42,7 +42,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Ok, je vais m'y employer !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -55,7 +55,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Cheer me up",
-                "fr": "Cheer me up",
+                "fr": "Remonte-moi le moral",
                 "es": "Cheer me up",
                 "zh": "Cheer me up"
             },
@@ -76,7 +76,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Avec plaisir !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -89,7 +89,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Teach me something",
-                "fr": "Teach me something",
+                "fr": "Apprends-moi quelque chose",
                 "es": "Teach me something",
                 "zh": "Teach me something"
             },
@@ -110,7 +110,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Avec plaisirs !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -123,7 +123,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Keep me company",
-                "fr": "Keep me company",
+                "fr": "Tiens-moi compagnie",
                 "es": "Keep me company",
                 "zh": "Keep me company"
             },
@@ -144,7 +144,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Avec plaisir !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -157,7 +157,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Make me a better person",
-                "fr": "Make me a better person",
+                "fr": "Aide-moi à progresser",
                 "es": "Make me a better person",
                 "zh": "Make me a better person"
             },
@@ -178,7 +178,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Ok, je peux peut-être aider !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -191,7 +191,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Tell me about the world",
-                "fr": "Tell me about the world",
+                "fr": "Parle-moi de l'état du monde",
                 "es": "Tell me about the world",
                 "zh": "Tell me about the world"
             },
@@ -212,7 +212,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Ok, j'adore barvarder de cela !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -225,7 +225,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Help me discover new things",
-                "fr": "Help me discover new things",
+                "fr": "Aide-moi à découvrir de nouvelles choses",
                 "es": "Help me discover new things",
                 "zh": "Help me discover new things"
             },
@@ -246,7 +246,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "fr": "Avec plaisir !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -259,7 +259,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Help me spend money",
-                "fr": "Help me spend money",
+                "fr": "Aide-moi à dépenser de l'argent",
                 "es": "Help me spend money",
                 "zh": "Help me spend money"
             },
@@ -279,8 +279,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "en": "I'll see what I can do about that!",
+                        "fr": "Je vais voir ce que je peux faire !",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
@@ -293,7 +293,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Help me cope with my problems",
-                "fr": "Help me cope with my problems",
+                "fr": "Aide-moi à résoudre mes problèmes",
                 "es": "Help me cope with my problems",
                 "zh": "Help me cope with my problems"
             },
@@ -313,8 +313,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Alright, I'll help you with that!",
+                        "en": "Alright, I'm ok to give it a try!",
+                        "fr": "Je suis d'accord pour essayer!",
                         "es": "Alright, I'll help you with that!",
                         "zh": "Alright, I'll help you with that!"
                     }
