@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Which of these would you say interests you the most?",
-                "fr": "Which of these would you say interests you the most?",
+                "fr": "Qu'est-ce qui t'intéresse le plus ?",
                 "es": "Which of these would you say interests you the most?",
                 "zh": "Which of these would you say interests you the most?"
             }
@@ -20,7 +20,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Cats",
-                "fr": "Cats",
+                "fr": "les chats",
                 "es": "Cats",
                 "zh": "Cats"
             },
@@ -28,8 +28,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "en": "They are dangerous! I'm most interested in interior nest design",
+                        "fr": "Ils sont dangereux ! Moi je préfère la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -42,7 +42,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Art",
-                "fr": "Art",
+                "fr": "l'art",
                 "es": "Art",
                 "zh": "Art"
             },
@@ -50,8 +50,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "en": "I love Art and will prove it to you! Though I'm also interested in interior nest design",
+                        "fr": "J'adore ! Ca et et la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -64,7 +64,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Sports",
-                "fr": "Sports",
+                "fr": "le sport",
                 "es": "Sports",
                 "zh": "Sports"
             },
@@ -72,8 +72,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "en": "Sounds brave! I'm most interested in interior nest design",
+                        "fr": "Quel courage! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -86,7 +86,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Celebrities",
-                "fr": "Celebrities",
+                "fr": "la vie des stars",
                 "es": "Celebrities",
                 "zh": "Celebrities"
             },
@@ -95,7 +95,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -108,7 +108,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Food",
-                "fr": "Food",
+                "fr": "la nourriture",
                 "es": "Food",
                 "zh": "Food"
             },
@@ -117,7 +117,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Miam! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -130,7 +130,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Movies",
-                "fr": "Movies",
+                "fr": "le cinéma",
                 "es": "Movies",
                 "zh": "Movies"
             },
@@ -139,7 +139,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -152,7 +152,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Health & Fitness",
-                "fr": "Health & Fitness",
+                "fr": "avoir la santé & la forme",
                 "es": "Health & Fitness",
                 "zh": "Health & Fitness"
             },
@@ -160,8 +160,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "en": "How wise of you! I'm most interested in interior nest design",
+                        "fr": "Tu as probablement raison! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -174,7 +174,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Astrology",
-                "fr": "Astrology",
+                "fr": "l'astrologie",
                 "es": "Astrology",
                 "zh": "Astrology"
             },
@@ -182,8 +182,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "en": "Cool, my cousin is a bit of an expert! I'm most interested in interior nest design",
+                        "fr": "Cool, j'ai un cousin très fort là dedans ! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -196,7 +196,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Dogs",
-                "fr": "Dogs",
+                "fr": "les chiens",
                 "es": "Dogs",
                 "zh": "Dogs"
             },
@@ -205,7 +205,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -218,7 +218,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Travel",
-                "fr": "Travel",
+                "fr": "les voyages",
                 "es": "Travel",
                 "zh": "Travel"
             },
@@ -227,7 +227,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -240,7 +240,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Learning",
-                "fr": "Learning",
+                "fr": "apprendre",
                 "es": "Learning",
                 "zh": "Learning"
             },
@@ -249,7 +249,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -262,7 +262,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Music",
-                "fr": "Music",
+                "fr": "la musique",
                 "es": "Music",
                 "zh": "Music"
             },
@@ -271,7 +271,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -284,7 +284,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Books",
-                "fr": "Books",
+                "fr": "les livres",
                 "es": "Books",
                 "zh": "Books"
             },
@@ -293,7 +293,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -306,7 +306,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Finding Love",
-                "fr": "Finding Love",
+                "fr": "trouver l'amour",
                 "es": "Finding Love",
                 "zh": "Finding Love"
             },
@@ -315,7 +315,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -328,7 +328,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Nature",
-                "fr": "Nature",
+                "fr": "la nature",
                 "es": "Nature",
                 "zh": "Nature"
             },
@@ -337,7 +337,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! I'm most interested in interior nest design",
+                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! I'm most interested in interior nest design",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
@@ -350,7 +350,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Owls",
-                "fr": "Owls",
+                "fr": "les chouettes",
                 "es": "Owls",
                 "zh": "Owls"
             },
@@ -358,8 +358,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Really?! No wonder you're talking to me then...",
-                        "fr": "Really?! No wonder you're talking to me then...",
+                        "en": "Really?! You must be pulling my leg :)",
+                        "fr": "Vraiment ?! Tu me fais marcher :)",
                         "es": "Really?! No wonder you're talking to me then...",
                         "zh": "Really?! No wonder you're talking to me then..."
                     }
