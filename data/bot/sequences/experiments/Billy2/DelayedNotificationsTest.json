@@ -14,7 +14,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "DelayedNotificationTestYes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "DelayedNotificationTestNo",
             "ElementValue": "1",
             "CommandLabel": {
