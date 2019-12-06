@@ -104,28 +104,6 @@
         },
         {
             "Type": "Leaf",
-            "Id": "RobinInterestsLearning",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Learning",
-                "fr": "apprendre",
-                "es": "aprender",
-                "zh": "Learning"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
-                        "es": "Cool! Aunque también me interesa el diseño de nidos interiores",
-                        "zh": "Cool! I'm most interested in interior nest design"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
             "Id": "RobinInterestsMusic",
             "ElementValue": "1",
             "CommandLabel": {
@@ -164,28 +142,6 @@
                         "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! Aunque también me interesa el diseño de nidos interiores",
                         "zh": "Cool! I'm most interested in interior nest design"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
-            "Id": "RobinInterestsOwls",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Owls",
-                "fr": "les chouettes",
-                "es": "los búhos",
-                "zh": "Owls"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Really?! You must be pulling my leg 😁",
-                        "fr": "Vraiment ?! Tu me fais marcher 😁",
-                        "es": "Really?! Debes estar bromeando/a 😁",
-                        "zh": "Really?! No wonder you're talking to me then..."
                     }
                 }
             ]
