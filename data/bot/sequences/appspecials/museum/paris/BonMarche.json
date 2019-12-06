@@ -33,26 +33,6 @@
             },
             "Steps": [
                 {
-                    "Type": "Action",
-                    "Name": "NotifyDeferredStory",
-                    "Parameters": {
-                        "fragmentId": "BonMarche",
-                        "notificationDelay": {
-                            "unit": "minute",
-                            "quantity": "1"
-                        },
-                        "notificationTitle": {
-                            "en": "Your story is ready",
-                            "fr": "Votre histoire est prête"
-                        },
-                        "notificationText": {
-                            "en": "and yes, it's another kitten story",
-                            "fr": "et oui, c'est encore une histoire de chatons"
-                        },
-                        "notificationIcon" : "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_488876992.jpg"
-                    }
-                },
-                {
                     "Type": "Text",
                     "Label": {
                         "en": "Oh yeah! Department stores!",
