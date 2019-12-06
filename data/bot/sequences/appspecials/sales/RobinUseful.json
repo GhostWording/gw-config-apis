@@ -17,40 +17,6 @@
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "RobinUsefulEntertain",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Entertain me",
-                "fr": "Divertis-moi",
-                "es": "Entretenme",
-                "zh": "Entertain me"
-            },
-            "CarouselElements": {
-                "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_507175378.jpg"
-                }
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Ok, je vais m'y employer !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
             "Id": "RobinUsefulCheer",
             "ElementValue": "1",
             "CommandLabel": {
@@ -187,40 +153,6 @@
         },
         {
             "Type": "Leaf",
-            "Id": "RobinUsefulWorld",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Tell me about the world",
-                "fr": "Parle-moi de l'état du monde",
-                "es": "Háblame del mundo",
-                "zh": "Tell me about the world"
-            },
-            "CarouselElements": {
-                "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_46969171.jpg"
-                }
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Ok, j'adore barvarder de cela !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
             "Id": "RobinUsefulDiscover",
             "ElementValue": "1",
             "CommandLabel": {
@@ -247,40 +179,6 @@
                     "Label": {
                         "en": "Alright, I'll help you with that!",
                         "fr": "Avec plaisir !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
-            "Id": "RobinUsefulSpend",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Help me spend money",
-                "fr": "Aide-moi à dépenser de l'argent",
-                "es": "Ayúdame a gastar dinero",
-                "zh": "Help me spend money"
-            },
-            "CarouselElements": {
-                "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_500866813.jpg"
-                }
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I'll see what I can do about that!",
-                        "fr": "Je vais voir ce que je peux faire !",
                         "es": "De acuerdo, te ayudaré con eso",
                         "zh": "Alright, I'll help you with that!"
                     }
