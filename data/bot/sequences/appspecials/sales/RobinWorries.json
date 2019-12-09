@@ -1,0 +1,322 @@
+{
+    "Type": "Node",
+    "Id": "RobinWorries",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "We owls keep vast stores of knowledge hidden in the forests 🦉",
+                "fr": "We owls keep vast stores of knowledge hidden in the forests 🦉",
+                "es": "We owls keep vast stores of knowledge hidden in the forests 🦉",
+                "zh": "We owls keep vast stores of knowledge hidden in the forests 🦉"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "JfLdIahamXQI0"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So I should be able to help you out..!",
+                "fr": "So I should be able to help you out..!",
+                "es": "So I should be able to help you out..!",
+                "zh": "So I should be able to help you out..!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What's worrying you at the moment?",
+                "fr": "What's worrying you at the moment?",
+                "es": "What's worrying you at the moment?",
+                "zh": "What's worrying you at the moment?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesFamily",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Friends or family",
+                "fr": "Friends or family",
+                "es": "Friends or family",
+                "zh": "Friends or family"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesWork",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Work",
+                "fr": "Work",
+                "es": "Work",
+                "zh": "Work"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesMoney",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Money",
+                "fr": "Money",
+                "es": "Money",
+                "zh": "Money"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesLove",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Love and romance",
+                "fr": "Love and romance",
+                "es": "Love and romance",
+                "zh": "Love and romance"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesBoredom",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Boredom",
+                "fr": "Boredom",
+                "es": "Boredom",
+                "zh": "Boredom"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesHealth",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Health",
+                "fr": "Health",
+                "es": "Health",
+                "zh": "Health"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesOther",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Other",
+                "fr": "Other",
+                "es": "Other",
+                "zh": "Other"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesWorld",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "The state of the world",
+                "fr": "The state of the world",
+                "es": "The state of the world",
+                "zh": "The state of the world"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinWorriesPeople",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "People",
+                "fr": "People",
+                "es": "People",
+                "zh": "People"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "zh": "Sorry to hear it... but you came to the right owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
