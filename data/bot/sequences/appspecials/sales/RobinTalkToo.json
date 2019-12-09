@@ -1,0 +1,88 @@
+{
+    "Type": "Node",
+    "Id": "RobinTalkToo",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I also need someone to talk to sometimes... 🦉",
+                "fr": "I also need someone to talk to sometimes... 🦉",
+                "es": "I also need someone to talk to sometimes... 🦉",
+                "zh": "I also need someone to talk to sometimes... 🦉"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinTalkTooWhy",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Why?",
+                "fr": "Why?",
+                "es": "Why?",
+                "zh": "Why?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well I work in Norway... but my family lives in the USA!",
+                        "fr": "Well I work in Norway... but my family lives in the USA!",
+                        "es": "Well I work in Norway... but my family lives in the USA!",
+                        "zh": "Well I work in Norway... but my family lives in the USA!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So we can't talk too often...",
+                        "fr": "So we can't talk too often...",
+                        "es": "So we can't talk too often...",
+                        "zh": "So we can't talk too often..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinTalkTooHelp",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Let's help each other",
+                "fr": "Let's help each other",
+                "es": "Let's help each other",
+                "zh": "Let's help each other"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great idea!",
+                        "fr": "Great idea!",
+                        "es": "Great idea!",
+                        "zh": "Great idea!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
