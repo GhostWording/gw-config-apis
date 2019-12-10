@@ -9,7 +9,7 @@ steps:
   inputs:
     azureSubscription: 'Services de la plateforme Windows Azure pour Visual Studio Ultim(ecd2e3e2-351b-4bc4-87cf-ba5faace81d5)'
     appType: 'webApp'
-    appName: 'gw-config-apis'
+    appName: 'gw-config-api'
     deployToSlotOrASE: true
     slotName: 'deploy'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
