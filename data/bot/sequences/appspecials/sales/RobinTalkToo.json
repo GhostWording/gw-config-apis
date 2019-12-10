@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I also need someone to talk to sometimes... 🦉",
-                "fr": "I also need someone to talk to sometimes... 🦉",
+                "fr": "Il m'arrive aussi d'avoir besoin de parler... 🦉",
                 "es": "I also need someone to talk to sometimes... 🦉",
                 "zh": "I also need someone to talk to sometimes... 🦉"
             }
@@ -19,7 +19,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Why?",
-                "fr": "Why?",
+                "fr": "Pourquoi ?",
                 "es": "Why?",
                 "zh": "Why?"
             },
@@ -27,8 +27,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Well I work in Norway... but my family lives in the USA!",
-                        "fr": "Well I work in Norway... but my family lives in the USA!",
+                        "en": "Well I live  in a Norvegian forest... but my parents have emigrated in the USA!",
+                        "fr": "J'habite dans une forêt norvégienne mais mes parents ont émigré aux USA !",
                         "es": "Well I work in Norway... but my family lives in the USA!",
                         "zh": "Well I work in Norway... but my family lives in the USA!"
                     }
@@ -45,8 +45,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "So we can't talk too often...",
-                        "fr": "So we can't talk too often...",
+                        "en": "So we can't really talk...",
+                        "fr": "J'ai donc très peu de contact avec eux...",
                         "es": "So we can't talk too often...",
                         "zh": "So we can't talk too often..."
                     }
@@ -62,8 +62,8 @@
                         "Id": "RobinTalkTooWhyMore",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "Tell me more!",
-                            "fr": "Tell me more!",
+                            "en": "Tell me more",
+                            "fr": "Dis-m'en plus",
                             "es": "Tell me more!",
                             "zh": "Tell me more!"
                         },
@@ -72,7 +72,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Your interest in my life is heartwarming!",
-                                    "fr": "Your interest in my life is heartwarming!",
+                                    "fr": "Tes marques d'intérêt me réchauffent le coeur !",
                                     "es": "Your interest in my life is heartwarming!",
                                     "zh": "Your interest in my life is heartwarming!"
                                 }
@@ -93,8 +93,8 @@
                         "Id": "RobinTalkTooWhySad",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "You can talk to me!",
-                            "fr": "You can talk to me!",
+                            "en": "You can talk to me",
+                            "fr": "Tu peux toujours me parler",
                             "es": "You can talk to me!",
                             "zh": "You can talk to me!"
                         },
@@ -103,7 +103,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "That's so kind! Let's keep chatting",
-                                    "fr": "That's so kind! Let's keep chatting",
+                                    "fr": "Chouette ! Parlons !",
                                     "es": "That's so kind! Let's keep chatting",
                                     "zh": "That's so kind! Let's keep chatting!"
                                 }
@@ -128,7 +128,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Let's help each other",
-                "fr": "Let's help each other",
+                "fr": "On peut s'entraider",
                 "es": "Let's help each other",
                 "zh": "Let's help each other"
             },
@@ -137,7 +137,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Great idea!",
-                        "fr": "Great idea!",
+                        "fr": "Chouette idée !",
                         "es": "Great idea!",
                         "zh": "Great idea!"
                     }
