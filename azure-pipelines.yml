@@ -12,7 +12,7 @@ steps:
     appName: 'gw-config-api'
     deployToSlotOrASE: true
     slotName: 'deploy'
-    package: '$(System.DefaultWorkingDirectory)/**/*'
+    package: '$(repo.)/**/*'
     deploymentMethod: 'auto'
 - script: echo Done!
   displayName: 'say it is done'
