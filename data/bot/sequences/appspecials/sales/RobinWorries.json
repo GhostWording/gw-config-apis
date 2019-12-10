@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "We owls keep vast stores of knowledge hidden in the forests 🦉",
-                "fr": "We owls keep vast stores of knowledge hidden in the forests 🦉",
+                "fr": "Nous autres chouettes entretenons de vastes réserves de connaissances cachées dans les forêts 🦉",
                 "es": "We owls keep vast stores of knowledge hidden in the forests 🦉",
                 "zh": "We owls keep vast stores of knowledge hidden in the forests 🦉"
             }
@@ -21,8 +21,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "So I should be able to help you out..!",
-                "fr": "So I should be able to help you out..!",
+                "en": "So I maybe able to help you out..!",
+                "fr": "Je vais peut-être pouvoir t'aider..!",
                 "es": "So I should be able to help you out..!",
                 "zh": "So I should be able to help you out..!"
             }
@@ -31,7 +31,7 @@
             "Type": "Text",
             "Label": {
                 "en": "What's worrying you at the moment?",
-                "fr": "What's worrying you at the moment?",
+                "fr": "Qu'est-ce qui te préoccupe en ce moment ? ?",
                 "es": "What's worrying you at the moment?",
                 "zh": "What's worrying you at the moment?"
             }
@@ -45,7 +45,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Friends or family",
-                "fr": "Friends or family",
+                "fr": "Famille et amis",
                 "es": "Friends or family",
                 "zh": "Friends or family"
             },
@@ -54,7 +54,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Ah flûte alors...mais tu t'adresses à la bonne chouette !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -76,7 +76,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Work",
-                "fr": "Work",
+                "fr": "Le boulot",
                 "es": "Work",
                 "zh": "Work"
             },
@@ -85,7 +85,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Je connais le problème ...tu t'adresses à la bonne chouette !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -107,7 +107,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Money",
-                "fr": "Money",
+                "fr": "L'argent",
                 "es": "Money",
                 "zh": "Money"
             },
@@ -116,7 +116,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Une vraie source de soucis...mais tu t'adresses à la bonne chouette !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -138,7 +138,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Love and romance",
-                "fr": "Love and romance",
+                "fr": "L'amour",
                 "es": "Love and romance",
                 "zh": "Love and romance"
             },
@@ -147,7 +147,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "C'est un vrai problème...mais j'adore me rendre utile dans ce domaine !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -169,7 +169,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Boredom",
-                "fr": "Boredom",
+                "fr": "L'ennui",
                 "es": "Boredom",
                 "zh": "Boredom"
             },
@@ -178,7 +178,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Haha ! Tu t'adresses à la bonne chouette !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -200,7 +200,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Health",
-                "fr": "Health",
+                "fr": "La santé",
                 "es": "Health",
                 "zh": "Health"
             },
@@ -209,7 +209,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "fr": "Ah flûte ! Je fais faire un effort pour me rendre utile",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -231,7 +231,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Other",
-                "fr": "Other",
+                "fr": "Autres",
                 "es": "Other",
                 "zh": "Other"
             },
@@ -239,8 +239,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "en": "I'll try to figure out what it is! Owl are very curious !",
+                        "fr": "Je vais essayer de trouver ce que c'est. Une chouette c'est très curieux !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -262,7 +262,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "The state of the world",
-                "fr": "The state of the world",
+                "fr": "L'état du monde",
                 "es": "The state of the world",
                 "zh": "The state of the world"
             },
@@ -270,8 +270,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "en": "Yeah... I'm worried too. You came to the right owl!",
+                        "fr": "Cela me préoccupe pas mal aussi. Tu t'adresses à la bonne chouette !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
@@ -293,7 +293,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "People",
-                "fr": "People",
+                "fr": "Les gens",
                 "es": "People",
                 "zh": "People"
             },
@@ -301,8 +301,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Sorry to hear it... but you came to the right owl!",
-                        "fr": "Sorry to hear it... but you came to the right owl!",
+                        "en": "Yeah, they can be...puzzling. I often think about it. You came to the right owl!",
+                        "fr": "Je m'interroge souvent à leur endroit ! Tu t'adresses à la bonne chouette !",
                         "es": "Sorry to hear it... but you came to the right owl!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
