@@ -51,7 +51,76 @@
                         "zh": "So we can't talk too often..."
                     }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RobinTalkTooWhyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "RobinTalkTooWhyMore",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tell me more!",
+                            "fr": "Tell me more!",
+                            "es": "Tell me more!",
+                            "zh": "Tell me more!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Your interest in my life is heartwarming!",
+                                    "fr": "Your interest in my life is heartwarming!",
+                                    "es": "Your interest in my life is heartwarming!",
+                                    "zh": "Your interest in my life is heartwarming!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 600,
+                                    "Height": 365,
+                                    "Source": "Internal",
+                                    "Path": "/owls/images/small/owlstogether.jpg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "RobinTalkTooWhySad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You can talk to me!",
+                            "fr": "You can talk to me!",
+                            "es": "You can talk to me!",
+                            "zh": "You can talk to me!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "That's so kind! Let's keep chatting",
+                                    "fr": "That's so kind! Let's keep chatting",
+                                    "es": "That's so kind! Let's keep chatting",
+                                    "zh": "That's so kind! Let's keep chatting!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Width": 600,
+                                    "Height": 365,
+                                    "Source": "Internal",
+                                    "Path": "/owls/images/small/owlstogether.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Node",
