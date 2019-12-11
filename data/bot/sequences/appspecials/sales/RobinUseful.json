@@ -27,10 +27,10 @@
             },
             "CarouselElements": {
                 "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
                 },
                 "Picture": {
                     "Source": "Web",
@@ -39,12 +39,29 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulCheer"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Avec plaisir !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
+                        "en": "That's what I'm best at!",
+                        "fr": "That's what I'm best at!",
+                        "es": "That's what I'm best at!",
+                        "zh": "That's what I'm best at!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
                     }
                 }
             ]
@@ -61,10 +78,10 @@
             },
             "CarouselElements": {
                 "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
                 },
                 "Picture": {
                     "Source": "Web",
@@ -73,18 +90,35 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulTeach"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Avec plaisirs !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
+                        "en": "I'm so glad you asked... I like to think of myself as a very wise owl",
+                        "fr": "I'm so glad you asked... I like to think of myself as a very wise owl",
+                        "es": "I'm so glad you asked... I like to think of myself as a very wise owl",
+                        "zh": "I'm so glad you asked... I like to think of myself as a very wise owl"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/1157352533.jpg"
                     }
                 }
             ]
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "RobinUsefulCompany",
             "ElementValue": "1",
             "CommandLabel": {
@@ -95,10 +129,10 @@
             },
             "CarouselElements": {
                 "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
                 },
                 "Picture": {
                     "Source": "Web",
@@ -107,15 +141,83 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulCompany"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Avec plaisir !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
+                        "en": "I'd be delighted to!",
+                        "fr": "I'd be delighted to!",
+                        "es": "I'd be delighted to!",
+                        "zh": "I'd be delighted to!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Shall we talk about you or me?",
+                        "fr": "Shall we talk about you or me?",
+                        "es": "Shall we talk about you or me?",
+                        "zh": "Shall we talk about you or me?"
                     }
                 }
-            ]
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RobinUsefulCompanyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RobinUsefulCompanyMe",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Me",
+                            "fr": "Me",
+                            "es": "Me",
+                            "zh": "Me"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK... good idea... let's talk about something you like!",
+                                    "fr": "OK... good idea... let's talk about something you like!",
+                                    "es": "OK... good idea... let's talk about something you like!",
+                                    "zh": "OK... good idea... let's talk about something you like!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "RobinUsefulCompanyYou",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You",
+                            "fr": "You",
+                            "es": "You",
+                            "zh": "You"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well...",
+                                    "fr": "Well...",
+                                    "es": "Well...",
+                                    "zh": "Well..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "Type": "Leaf",
@@ -129,10 +231,10 @@
             },
             "CarouselElements": {
                 "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
                 },
                 "Picture": {
                     "Source": "Web",
@@ -141,12 +243,38 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulBetter"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Ok, je peux peut-être aider !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
+                        "en": "I love your attitude... I wish I was as motivated...",
+                        "fr": "I love your attitude... I wish I was as motivated...",
+                        "es": "I love your attitude... I wish I was as motivated...",
+                        "zh": "I love your attitude... I wish I was as motivated..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Currently, I'm a bit stuck in my job...",
+                        "fr": "Currently, I'm a bit stuck in my job...",
+                        "es": "Currently, I'm a bit stuck in my job...",
+                        "zh": "Currently, I'm a bit stuck in my job..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/stuckowl.jpg"
                     }
                 }
             ]
@@ -163,10 +291,10 @@
             },
             "CarouselElements": {
                 "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
                 },
                 "Picture": {
                     "Source": "Web",
@@ -175,12 +303,47 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulDiscover"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'll help you with that!",
-                        "fr": "Avec plaisir !",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
+                        "en": "Of course! I also like discovering things... like human methods of transportation...",
+                        "fr": "Of course! I also like discovering things... like human methods of transportation...",
+                        "es": "Of course! I also like discovering things... like human methods of transportation...",
+                        "zh": "Of course! I also like discovering things... like human methods of transportation..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/cute_owl2.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me fly into action straight away and help you find some cool stuff...",
+                        "fr": "Let me fly into action straight away and help you find some cool stuff...",
+                        "es": "Let me fly into action straight away and help you find some cool stuff...",
+                        "zh": "Let me fly into action straight away and help you find some cool stuff..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/1143698260.jpg"
                     }
                 }
             ]
@@ -197,10 +360,10 @@
             },
             "CarouselElements": {
                 "Title": {
-                "en": ".",
-                "fr": ".",
-                "es": ".",
-                "zh": "."
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
                 },
                 "Picture": {
                     "Source": "Web",
@@ -209,12 +372,20 @@
             },
             "Steps": [
                 {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulCope"
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, I'm ok to give it a try!",
-                        "fr": "Je suis d'accord pour essayer!",
-                        "es": "De acuerdo, te ayudaré con eso",
-                        "zh": "Alright, I'll help you with that!"
+                        "en": "I would love to!",
+                        "fr": "I would love to!",
+                        "es": "I would love to!",
+                        "zh": "I would love to!"
                     }
                 }
             ]
