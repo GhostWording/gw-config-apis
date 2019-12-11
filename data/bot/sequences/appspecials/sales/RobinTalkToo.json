@@ -58,7 +58,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "RobinTalkTooWhyMore",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -83,13 +83,13 @@
                                     "Width": 600,
                                     "Height": 365,
                                     "Source": "Internal",
-                                    "Path": "/owls/images/small/owlstogether.jpg"
+                                    "Path": "/owls/images/small/131993453.jpg"
                                 }
                             }
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "RobinTalkTooWhySad",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -114,7 +114,7 @@
                                     "Width": 600,
                                     "Height": 365,
                                     "Source": "Internal",
-                                    "Path": "/owls/images/small/owlstogether.jpg"
+                                    "Path": "/owls/images/small/131993453.jpg"
                                 }
                             }
                         ]
@@ -123,7 +123,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "RobinTalkTooHelp",
             "ElementValue": "1",
             "Commandlabel": {
@@ -148,7 +148,7 @@
                         "Width": 600,
                         "Height": 365,
                         "Source": "Internal",
-                        "Path": "/owls/images/small/owlstogether.jpg"
+                        "Path": "/owls/images/small/131993453.jpg"
                     }
                 }
             ]
