@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Conditionjjj": "ppRobinUseful == 'RobinUsefulBetter'",
+    "Condition": "ppRobinUseful == 'RobinUsefulBetter'",
     "Id": "RobinImprove",
     "LinksToFragment": {
          "FragmentPath": "RobinImproveFragment"
