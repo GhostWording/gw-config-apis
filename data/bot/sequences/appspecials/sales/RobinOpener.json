@@ -14,7 +14,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "RobinOpenerYes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "RobinOpenerNo",
             "ElementValue": "1",
             "CommandLabel": {
