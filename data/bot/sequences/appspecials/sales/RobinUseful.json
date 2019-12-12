@@ -50,7 +50,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "That's what I'm best at!",
-                        "fr": "That's what I'm best at!",
+                        "fr": "C'est l'une de mes vocations !",
                         "es": "That's what I'm best at!",
                         "zh": "That's what I'm best at!"
                     }
@@ -101,7 +101,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'm so glad you asked... I like to think of myself as a very wise owl",
-                        "fr": "I'm so glad you asked... I like to think of myself as a very wise owl",
+                        "fr": "Je suis heurex que tu le proposes...J'ai pas mal de choses à raconter",
                         "es": "I'm so glad you asked... I like to think of myself as a very wise owl",
                         "zh": "I'm so glad you asked... I like to think of myself as a very wise owl"
                     }
@@ -152,7 +152,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I'd be delighted to!",
-                        "fr": "I'd be delighted to!",
+                        "fr": "Avec plaisir !",
                         "es": "I'd be delighted to!",
                         "zh": "I'd be delighted to!"
                     }
@@ -161,7 +161,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Shall we talk about you or me?",
-                        "fr": "Shall we talk about you or me?",
+                        "fr": "On commence par parler de toi ou de moi ?",
                         "es": "Shall we talk about you or me?",
                         "zh": "Shall we talk about you or me?"
                     }
@@ -178,7 +178,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Me",
-                            "fr": "Me",
+                            "fr": "De moi",
                             "es": "Me",
                             "zh": "Me"
                         },
@@ -186,8 +186,8 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "OK... good idea... let's talk about something you like!",
-                                    "fr": "OK... good idea... let's talk about something you like!",
+                                    "en": "OK... good idea... let's talk about something you like",
+                                    "fr": "Cool...parlons de quelque-chose que tu aimes bien",
                                     "es": "OK... good idea... let's talk about something you like!",
                                     "zh": "OK... good idea... let's talk about something you like!"
                                 }
@@ -200,7 +200,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "You",
-                            "fr": "You",
+                            "fr": "De toi",
                             "es": "You",
                             "zh": "You"
                         },
@@ -209,7 +209,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well...",
-                                    "fr": "Well...",
+                                    "fr": "Alors...",
                                     "es": "Well...",
                                     "zh": "Well..."
                                 }
@@ -254,7 +254,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I love your attitude... I wish I was as motivated...",
-                        "fr": "I love your attitude... I wish I was as motivated...",
+                        "fr": "J'admire ton attitude...J'aimerais être aussi motivé...",
                         "es": "I love your attitude... I wish I was as motivated...",
                         "zh": "I love your attitude... I wish I was as motivated..."
                     }
@@ -263,7 +263,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Currently, I'm a bit stuck in my job...",
-                        "fr": "Currently, I'm a bit stuck in my job...",
+                        "fr": "A l'heure actuelle, je me sens un peu coincé dans mon boulot...",
                         "es": "Currently, I'm a bit stuck in my job...",
                         "zh": "Currently, I'm a bit stuck in my job..."
                     }
@@ -314,7 +314,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Of course! I also like discovering things... like human methods of transportation...",
-                        "fr": "Of course! I also like discovering things... like human methods of transportation...",
+                        "fr": "Avec plaisir. J'aime aussi découvrir de nouvelles choses...comme les moyens de transport humains",
                         "es": "Of course! I also like discovering things... like human methods of transportation...",
                         "zh": "Of course! I also like discovering things... like human methods of transportation..."
                     }
@@ -332,7 +332,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Let me fly into action straight away and help you find some cool stuff...",
-                        "fr": "Let me fly into action straight away and help you find some cool stuff...",
+                        "fr": "Je me mets en route presto et je t'aide à découvrir des trucs cool...",
                         "es": "Let me fly into action straight away and help you find some cool stuff...",
                         "zh": "Let me fly into action straight away and help you find some cool stuff..."
                     }
@@ -382,8 +382,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "I would love to!",
-                        "fr": "I would love to!",
+                        "en": "I'll see what I can do!",
+                        "fr": "Je vais voir ce que je peux faire !",
                         "es": "I would love to!",
                         "zh": "I would love to!"
                     }
