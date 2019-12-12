@@ -1,5 +1,6 @@
 {
     "Type": "Node",
+    "Condition": "ppRobinUseful == 'RobinUsefulTeach'",
     "Id": "RobinInterests",
     "Steps": [
         {
