@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Condition": "ppRobinUsefulBetter == true",
+    "Condition": "ppRobinUseful == 'RobinUsefulBetter'",
     "Id": "RobinImprove",
     "Steps": [
         {
