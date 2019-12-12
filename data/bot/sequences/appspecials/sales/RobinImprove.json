@@ -2,7 +2,7 @@
     "Type": "Node",
     "Id": "RobinImprove",
     "LinksToFragment": {
-        "Condition": "ppRobinUseful == 'RobinUsefulBetter'",
+        "Condition": "ppLanguage == 'en'",
          "FragmentPath": "RobinImproveFragment"
       }
 }
