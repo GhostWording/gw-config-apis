@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Although I'm only a sales-owl, I know lots of history!",
-                "fr": "Although I'm only a sales-owl, I know lots of history!",
+                "fr": "Les chouettes sont hyper calées en histoire !",
                 "es": "Although I'm only a sales-owl, I know lots of history!",
                 "zh": "Although I'm only a sales-owl, I know lots of history!"
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Let me tell you a story!",
-                "fr": "Let me tell you a story!",
+                "fr": "Laisse-moi te raconter une histoire !",
                 "es": "Let me tell you a story!",
                 "zh": "Let me tell you a story!"
             }
@@ -36,8 +36,8 @@
             "Id": "RobinHistoryYes",
             "ElementValue": "1",
             "Commandlabel": {
-                "en": "Sure!",
-                "fr": "Sure!",
+                "en": "Sure",
+                "fr": "Vas-y",
                 "es": "Sure!",
                 "zh": "Sure!"
             },
@@ -46,7 +46,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "OK... here goes!",
-                        "fr": "OK... here goes!",
+                        "fr": "OK... c'est parti !",
                         "es": "OK... here goes!",
                         "zh": "OK... here goes!"
                     }
@@ -59,7 +59,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Not just now",
-                "fr": "Not just now",
+                "fr": "Pas maintenant",
                 "es": "Not just now",
                 "zh": "Not just now"
             },
@@ -68,7 +68,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
-                        "fr": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
+                        "fr": "Ok... Je t'en prépare une et je t'avertis quand elle est prête",
                         "es": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
                         "zh": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready"
                     }
@@ -80,15 +80,15 @@
                         "fragmentId": "Nebamun",		
                         "notificationDelay": {		
                             "unit": "hour",		
-                            "quantity": "4"		
+                            "quantity": "2"		
                         },		
                         "notificationTitle": {		
                             "en": "Here's the story from earlier!",		
-                            "fr": "Votre histoire est prête"		
+                            "fr": "ton histoire est prête"		
                         },		
                         "notificationText": {		
-                            "en": "It's about an Ancient Egyptian Priest...",		
-                            "fr": "et oui, c'est encore une histoire de chatons"		
+                            "en": "once upon a time in Ancient Egypt...",		
+                            "fr": "il était une fois un prêtre égyptiens..."		
                         },		
                         "notificationIcon" : "/owls/images/small/471848717.jpg"		
                     }		
