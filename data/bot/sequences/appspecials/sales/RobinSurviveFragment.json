@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I would have been alone for most of my childhood...",
-                "fr": "I would have been alone for most of my childhood...",
+                "fr": "Pour éviter de passer toute mon enfance seul dans les bois...",
                 "es": "I would have been alone for most of my childhood...",
                 "zh": "I would have been alone for most of my childhood..."
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "If I had not gone undercover as a kitten",
-                "fr": "If I had not gone undercover as a kitten",
+                "fr": "J'ai dû me faire passer pour un chaton",
                 "es": "If I had not gone undercover as a kitten",
                 "zh": "If I had not gone undercover as a kitten"
             }
@@ -36,8 +36,8 @@
             "Id": "RobinSurviveNonsense",
             "ElementValue": "1",
             "Commandlabel": {
-                "en": "Nonsense...",
-                "fr": "Nonsense...",
+                "en": "Nonsense",
+                "fr": "N'importe quoi",
                 "es": "Nonsense...",
                 "zh": "Nonsense..."
             },
@@ -45,8 +45,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "An owl never lies...",
-                        "fr": "An owl never lies...",
+                        "en": "An owl never lies!",
+                        "fr": "Une chouette ne ment jamais !",
                         "es": "An owl never lies...",
                         "zh": "An owl never lies..."
                     }
@@ -67,8 +67,8 @@
             "Id": "RobinSurviveCats",
             "ElementValue": "1",
             "Commandlabel": {
-                "en": "About these cats...",
-                "fr": "About these cats...",
+                "en": "Tell me about the cats...",
+                "fr": "A propos de ces chats...",
                 "es": "About these cats...",
                 "zh": "About these cats..."
             },
@@ -77,7 +77,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I am glad you asked... they are confusing creatures...",
-                        "fr": "I am glad you asked... they are confusing creatures...",
+                        "fr": "Je suis content que tu demandes... ce sont des créatures perturbantes...",
                         "es": "I am glad you asked... they are confusing creatures...",
                         "zh": "I am glad you asked... they are confusing creatures..."
                     }
