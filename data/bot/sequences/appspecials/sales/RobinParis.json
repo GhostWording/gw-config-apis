@@ -1,0 +1,8 @@
+{
+    "Type": "Node",
+    "Id": "RobinParis",
+    "LinksToFragment": {
+        "Condition": "ppXX == 'XX'",
+         "FragmentPath": "RobinParisFragment"
+      }
+}
