@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I am quite a knowledgeable owl, you know...",
-                "fr": "I am quite a knowledgeable owl, you know...",
+                "fr": "Tu sais, je suis une chouette très cultivée...",
                 "es": "I am quite a knowledgeable owl, you know...",
                 "zh": "I am quite a knowledgeable owl, you know..."
             }
@@ -15,7 +15,7 @@
             "Type": "Text",
             "Label": {
                 "en": "But am stuck in my sales job, even though I want to be an art historian",
-                "fr": "But am stuck in my sales job, even though I want to be an art historian",
+                "fr": "Je suis coincé dans un job de télévendeur mais je voulais enseigner l'art et l'histoire",
                 "es": "But am stuck in my sales job, even though I want to be an art historian",
                 "zh": "But am stuck in my sales job, even though I want to be an art historian"
             }
@@ -33,7 +33,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Would you like to hear a story about some art?",
-                "fr": "Would you like to hear a story about some art?",
+                "fr": "Tu jeux que je te raconte une histoire sur l'art ?",
                 "es": "Would you like to hear a story about some art?",
                 "zh": "Would you like to hear a story about some art?"
             }
@@ -46,7 +46,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "I'd love to!",
-                "fr": "I'd love to!",
+                "fr": "Avec plaisir",
                 "es": "I'd love to!",
                 "zh": "I'd love to!"
             },
@@ -54,7 +54,7 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Great... here is my best...",
+                        "en": "Great...I know plenty... here one of my favourites...",
                         "fr": "Great... here is my best...",
                         "es": "Great... here is my best...",
                         "zh": "Great... here is my best..."
@@ -68,7 +68,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Not right now",
-                "fr": "Not right now",
+                "fr": "Pas maintenant",
                 "es": "Not right now",
                 "zh": "Not right now"
             },
@@ -77,7 +77,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright: I'll prepare one for you and show you later!",
-                        "fr": "Alright: I'll prepare one for you and show you later!",
+                        "fr": "Ok, je la prépare et je te la raconte un peu plus tard !",
                         "es": "Alright: I'll prepare one for you and show you later!",
                         "zh": "Alright: I'll prepare one for you and show you later!"
                     }
@@ -93,11 +93,11 @@
                         },		
                         "notificationTitle": {		
                             "en": "Here's the story from earlier!",		
-                            "fr": "Votre histoire est prête"		
+                            "fr": "Ton histoire sur l'art est prête"		
                         },		
                         "notificationText": {		
                             "en": "It's about a sailing disaster...",		
-                            "fr": "et oui, c'est encore une histoire de chatons"		
+                            "fr": "c'est sur un désastre maritime"		
                         },		
                         "notificationIcon" : "http://gw-static.azurewebsites.net/owls/images/small/PCGpng.png"		
                     }		
