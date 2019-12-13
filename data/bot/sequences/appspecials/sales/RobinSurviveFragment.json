@@ -1,0 +1,97 @@
+{
+    "Type": "Node",
+    "Id": "RobinSurvive",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I would have been alone for most of my childhood...",
+                "fr": "I would have been alone for most of my childhood...",
+                "es": "I would have been alone for most of my childhood...",
+                "zh": "I would have been alone for most of my childhood..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If I had not gone undercover as a kitten",
+                "fr": "If I had not gone undercover as a kitten",
+                "es": "If I had not gone undercover as a kitten",
+                "zh": "If I had not gone undercover as a kitten"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/owlcats.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinSurviveNonsense",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Nonsense...",
+                "fr": "Nonsense...",
+                "es": "Nonsense...",
+                "zh": "Nonsense..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "An owl never lies...",
+                        "fr": "An owl never lies...",
+                        "es": "An owl never lies...",
+                        "zh": "An owl never lies..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/shutterstock619672676.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinSurviveCats",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "About these cats...",
+                "fr": "About these cats...",
+                "es": "About these cats...",
+                "zh": "About these cats..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I am glad you asked... they are confusing creatures...",
+                        "fr": "I am glad you asked... they are confusing creatures...",
+                        "es": "I am glad you asked... they are confusing creatures...",
+                        "zh": "I am glad you asked... they are confusing creatures..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/172316069.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
