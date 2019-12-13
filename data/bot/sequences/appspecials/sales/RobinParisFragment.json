@@ -1,0 +1,117 @@
+{
+    "Type": "Node",
+    "Id": "RobinParisFragment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As a travelling sales-owl, I have to travel a lot",
+                "fr": "As a travelling sales-owl, I have to travel a lot",
+                "es": "As a travelling sales-owl, I have to travel a lot",
+                "zh": "As a travelling sales-owl, I have to travel a lot"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have you ever been to Paris? It's my favourite city...",
+                "fr": "Have you ever been to Paris? It's my favourite city...",
+                "es": "Have you ever been to Paris? It's my favourite city...",
+                "zh": "Have you ever been to Paris? It's my favourite city..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/cute_owl1.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can tell you some stories about it, if you like!",
+                "fr": "I can tell you some stories about it, if you like!",
+                "es": "I can tell you some stories about it, if you like!",
+                "zh": "I can tell you some stories about it, if you like!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinParisYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Yes please!",
+                "fr": "Yes please!",
+                "es": "Yes please!",
+                "zh": "Yes please!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Awesome! Prepare to be amazed...",
+                        "fr": "Awesome! Prepare to be amazed...",
+                        "es": "Awesome! Prepare to be amazed...",
+                        "zh": "Awesome! Prepare to be amazed..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinParisLater",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Maybe later",
+                "fr": "Maybe later",
+                "es": "Maybe later",
+                "zh": "Maybe later"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No problem! I'll think of one and send it to you later!",
+                        "fr": "No problem! I'll think of one and send it to you later!",
+                        "es": "No problem! I'll think of one and send it to you later!",
+                        "zh": "No problem! I'll think of one and send it to you later!"
+                    }
+                },
+                {		
+                    "Type": "Action",		
+                    "Name": "NotifyDeferredStory",		
+                    "Parameters": {		
+                        "fragmentId": "NotreDame",		
+                        "notificationDelay": {		
+                            "unit": "hour",		
+                            "quantity": "4"		
+                        },		
+                        "notificationTitle": {		
+                            "en": "Here's the story from earlier!",		
+                            "fr": "Votre histoire est prête"		
+                        },		
+                        "notificationText": {		
+                            "en": "It's about the Notre-Dame Cathedral!",		
+                            "fr": "et oui, c'est encore une histoire de chatons"		
+                        },		
+                        "notificationIcon" : "/owls/images/small/471848717.jpg"		
+                    }		
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/471848717.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
