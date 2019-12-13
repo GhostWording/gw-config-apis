@@ -77,7 +77,7 @@
                     "Type": "Action",		
                     "Name": "NotifyDeferredStory",		
                     "Parameters": {		
-                        "fragmentId": "PlaceVendome",		
+                        "fragmentId": "Amenhotep",		
                         "notificationDelay": {		
                             "unit": "hour",		
                             "quantity": "4"		
@@ -87,7 +87,7 @@
                             "fr": "Votre histoire est prête"		
                         },		
                         "notificationText": {		
-                            "en": "It's about the crazy history of one square in Paris...",		
+                            "en": "It's about an Ancient Egyptian Pharaoh...",		
                             "fr": "et oui, c'est encore une histoire de chatons"		
                         },		
                         "notificationIcon" : "/owls/images/small/471848717.jpg"		
