@@ -1,0 +1,8 @@
+{
+    "Type": "Node",
+    "Id": "RobinArt",
+    "LinksToFragment": {
+        "Condition": "ppXX == 'XX'",
+         "FragmentPath": "RobinArtFragment"
+      }
+}
