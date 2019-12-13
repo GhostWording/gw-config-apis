@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "As a travelling sales-owl, I have to travel a lot",
-                "fr": "As a travelling sales-owl, I have to travel a lot",
+                "fr": "En tant que vendeur itinérant, je voyage beaucoup",
                 "es": "As a travelling sales-owl, I have to travel a lot",
                 "zh": "As a travelling sales-owl, I have to travel a lot"
             }
@@ -14,8 +14,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Have you ever been to Paris? It's my favourite city...",
-                "fr": "Have you ever been to Paris? It's my favourite city...",
+                "en": "Have you ever been to Paris? It's my favourite city",
+                "fr": "Tu as déjà visité Paris ? C'est ma ville préférée",
                 "es": "Have you ever been to Paris? It's my favourite city...",
                 "zh": "Have you ever been to Paris? It's my favourite city..."
             }
@@ -33,7 +33,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I can tell you some stories about it, if you like!",
-                "fr": "I can tell you some stories about it, if you like!",
+                "fr": "Je peux te raconter des histoires sur la ville si tu le souhaites !",
                 "es": "I can tell you some stories about it, if you like!",
                 "zh": "I can tell you some stories about it, if you like!"
             }
@@ -45,8 +45,8 @@
             "Id": "RobinParisYes",
             "ElementValue": "1",
             "Commandlabel": {
-                "en": "Yes please!",
-                "fr": "Yes please!",
+                "en": "Yes please",
+                "fr": "Avec plaisir",
                 "es": "Yes please!",
                 "zh": "Yes please!"
             },
@@ -54,8 +54,8 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Awesome! Prepare to be amazed...",
-                        "fr": "Awesome! Prepare to be amazed...",
+                        "en": "Awesome! I love telling stories...",
+                        "fr": "Super! J'adore raconter des histoires...",
                         "es": "Awesome! Prepare to be amazed...",
                         "zh": "Awesome! Prepare to be amazed..."
                     }
@@ -68,7 +68,7 @@
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Maybe later",
-                "fr": "Maybe later",
+                "fr": "Peut-être plus tard",
                 "es": "Maybe later",
                 "zh": "Maybe later"
             },
@@ -77,7 +77,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "No problem! I'll think of one and send it to you later!",
-                        "fr": "No problem! I'll think of one and send it to you later!",
+                        "fr": "Pas de soucis! J'en trouve une et je te la raconte un peu plus tard",
                         "es": "No problem! I'll think of one and send it to you later!",
                         "zh": "No problem! I'll think of one and send it to you later!"
                     }
@@ -89,15 +89,15 @@
                         "fragmentId": "NotreDame",		
                         "notificationDelay": {		
                             "unit": "hour",		
-                            "quantity": "4"		
+                            "quantity": "2"		
                         },		
                         "notificationTitle": {		
                             "en": "Here's the story from earlier!",		
-                            "fr": "Votre histoire est prête"		
+                            "fr": "Ton histoire sur Paris est prête"		
                         },		
                         "notificationText": {		
                             "en": "It's about the Notre-Dame Cathedral!",		
-                            "fr": "et oui, c'est encore une histoire de chatons"		
+                            "fr": "Cela parle de Notre Dame !"		
                         },		
                         "notificationIcon" : "/owls/images/small/471848717.jpg"		
                     }		
