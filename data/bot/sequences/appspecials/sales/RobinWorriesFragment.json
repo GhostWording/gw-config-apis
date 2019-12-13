@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "RobinWorries",
+    "Id": "RobinWorriesFragment",
     "Steps": [
         {
             "Type": "Text",
@@ -21,10 +21,18 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "So I maybe able to help you out..!",
+                "en": "So I may be able to help you out..!",
                 "fr": "Je vais peut-être pouvoir t'aider..!",
                 "es": "So I should be able to help you out..!",
                 "zh": "So I should be able to help you out..!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                "property": "ppRobinWorries",
+                "value": "RobinWorriesRead"
             }
         },
         {
