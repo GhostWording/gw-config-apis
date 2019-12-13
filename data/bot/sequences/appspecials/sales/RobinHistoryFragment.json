@@ -1,0 +1,108 @@
+{
+    "Type": "Node",
+    "Id": "RobinHistoryFragment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Although I'm only a sales-owl, I know lots of history!",
+                "fr": "Although I'm only a sales-owl, I know lots of history!",
+                "es": "Although I'm only a sales-owl, I know lots of history!",
+                "zh": "Although I'm only a sales-owl, I know lots of history!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let me tell you a story!",
+                "fr": "Let me tell you a story!",
+                "es": "Let me tell you a story!",
+                "zh": "Let me tell you a story!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/cute_owl1.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinHistoryYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Sure!",
+                "fr": "Sure!",
+                "es": "Sure!",
+                "zh": "Sure!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK... here goes!",
+                        "fr": "OK... here goes!",
+                        "es": "OK... here goes!",
+                        "zh": "OK... here goes!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinHistoryLater",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not just now",
+                "fr": "Not just now",
+                "es": "Not just now",
+                "zh": "Not just now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
+                        "fr": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
+                        "es": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
+                        "zh": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready"
+                    }
+                },
+                {		
+                    "Type": "Action",		
+                    "Name": "NotifyDeferredStory",		
+                    "Parameters": {		
+                        "fragmentId": "PlaceVendome",		
+                        "notificationDelay": {		
+                            "unit": "hour",		
+                            "quantity": "4"		
+                        },		
+                        "notificationTitle": {		
+                            "en": "Here's the story from earlier!",		
+                            "fr": "Votre histoire est prête"		
+                        },		
+                        "notificationText": {		
+                            "en": "It's about the crazy history of one square in Paris...",		
+                            "fr": "et oui, c'est encore une histoire de chatons"		
+                        },		
+                        "notificationIcon" : "/owls/images/small/471848717.jpg"		
+                    }		
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/471848717.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
