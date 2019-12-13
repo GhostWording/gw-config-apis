@@ -1,0 +1,117 @@
+{
+    "Type": "Node",
+    "Id": "RobinArtFragment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I am quite a knowledgeable owl, you know...",
+                "fr": "I am quite a knowledgeable owl, you know...",
+                "es": "I am quite a knowledgeable owl, you know...",
+                "zh": "I am quite a knowledgeable owl, you know..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But am stuck in my sales job, even though I want to be an art historian",
+                "fr": "But am stuck in my sales job, even though I want to be an art historian",
+                "es": "But am stuck in my sales job, even though I want to be an art historian",
+                "zh": "But am stuck in my sales job, even though I want to be an art historian"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/1043052056.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to hear a story about some art?",
+                "fr": "Would you like to hear a story about some art?",
+                "es": "Would you like to hear a story about some art?",
+                "zh": "Would you like to hear a story about some art?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinArtYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "I'd love to!",
+                "fr": "I'd love to!",
+                "es": "I'd love to!",
+                "zh": "I'd love to!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great... here is my best...",
+                        "fr": "Great... here is my best...",
+                        "es": "Great... here is my best...",
+                        "zh": "Great... here is my best..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinArtLater",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not right now",
+                "fr": "Not right now",
+                "es": "Not right now",
+                "zh": "Not right now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright: I'll prepare one for you and show you later!",
+                        "fr": "Alright: I'll prepare one for you and show you later!",
+                        "es": "Alright: I'll prepare one for you and show you later!",
+                        "zh": "Alright: I'll prepare one for you and show you later!"
+                    }
+                },
+                {		
+                    "Type": "Action",		
+                    "Name": "NotifyDeferredStory",		
+                    "Parameters": {		
+                        "fragmentId": "MedusaRaft",		
+                        "notificationDelay": {		
+                            "unit": "hour",		
+                            "quantity": "4"		
+                        },		
+                        "notificationTitle": {		
+                            "en": "Here's the story from earlier!",		
+                            "fr": "Votre histoire est prête"		
+                        },		
+                        "notificationText": {		
+                            "en": "It's about a sailing disaster...",		
+                            "fr": "et oui, c'est encore une histoire de chatons"		
+                        },		
+                        "notificationIcon" : "http://gw-static.azurewebsites.net/owls/images/small/PCGpng.png"		
+                    }		
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/snowowl1.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
