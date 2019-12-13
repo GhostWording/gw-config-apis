@@ -1,0 +1,101 @@
+{
+    "Type": "Node",
+    "Id": "RobinType",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to type a few words to explain?",
+                "fr": "Veux-tu m'expliquer en quelques mots ?",
+                "es": "Would you like to type a few words to explain?",
+                "zh": "Would you like to type a few words to explain?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinTypeYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "OK",
+                "fr": "OK",
+                "es": "OK",
+                "zh": "OK"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright... let me show you a bit of owl magic then!",
+                        "fr": "Allons-y...l'occasion d'invoquer mes pouvoirs super chouettes!",
+                        "es": "Alright... let me show you a bit of owl magic then!",
+                        "zh": "Alright... let me show you a bit of owl magic then!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "TypingBarShow"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You should now see a typing bar!",
+                        "fr": "Tu devrais maintenant voir une zone de saisie en bas de l'écran !",
+                        "es": "You should now see a typing bar!",
+                        "zh": "You should now see a typing bar!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/160101804closeUp.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Feel free to type a few words and let me know what you're thinking!",
+                        "fr": "Il ne reste plus qu'à y écrire quelques mots sur ce que tu as en tête",
+                        "es": "Feel free to type a few words and let me know what you're thinking!",
+                        "zh": "Feel free to type a few words and let me know what you're thinking!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinTypeNo",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not right now",
+                "fr": "Pas maintenant",
+                "es": "Not right now",
+                "zh": "Not right now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don't really like typing either! Let's keep chatting",
+                        "fr": "Taper sur un clavier ce n'est pas mon truc non plus. Continuons le bavardage !",
+                        "es": "I don't really like typing either! Let's keep chatting",
+                        "zh": "I don't really like typing either! Let's keep chatting"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/160101804closeUp.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
