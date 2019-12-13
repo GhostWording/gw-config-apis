@@ -77,7 +77,7 @@
                     "Type": "Action",		
                     "Name": "NotifyDeferredStory",		
                     "Parameters": {		
-                        "fragmentId": "Amenhotep",		
+                        "fragmentId": "Nebamun",		
                         "notificationDelay": {		
                             "unit": "hour",		
                             "quantity": "4"		
@@ -87,7 +87,7 @@
                             "fr": "Votre histoire est prête"		
                         },		
                         "notificationText": {		
-                            "en": "It's about an Ancient Egyptian Pharaoh...",		
+                            "en": "It's about an Ancient Egyptian Priest...",		
                             "fr": "et oui, c'est encore une histoire de chatons"		
                         },		
                         "notificationIcon" : "/owls/images/small/471848717.jpg"		
