@@ -1,6 +1,7 @@
 {
   "Type": "Node",
   "Comments":"this show how to use feedback",
+  "Condition":"ppThisVariableDoesNotExist == 'canard'",
   "Id": "MyCoffeJokeSequence",
   "Steps": [
     {
