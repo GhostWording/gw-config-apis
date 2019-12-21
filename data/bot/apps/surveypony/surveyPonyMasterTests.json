@@ -4,7 +4,10 @@
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/MyCoffeJokeSequence.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorldTestDuplicate.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]}
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"],
+        "condition" : "ppShowGif == true"},
+      { "order" : 50, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]}
     ]
   }
 ]
