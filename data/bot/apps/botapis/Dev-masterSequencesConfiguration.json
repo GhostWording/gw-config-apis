@@ -5,6 +5,10 @@
       "Source": "github",
       "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json",
       "NewsFile" : "/data/bot/apps/surveypony/surveyPonyPushNewsTests.json",
+    },
+    {
+      "Name": "surveypony",
+      "File": "/data/bot/apps/surveypony/surveyPonyMaster.json"
     }
   ],
   "FragmentsFiles": [
