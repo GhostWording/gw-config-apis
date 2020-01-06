@@ -4,7 +4,7 @@
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
       { "order" : 13, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
-      { "order" : 14, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
+      { "order" : 14, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"], "condition" : "ppRobinOpener == 'RobinOpenerYes'"},
       { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/RobinYourself.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro2.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro3.json"]},
