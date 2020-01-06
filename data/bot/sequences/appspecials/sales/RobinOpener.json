@@ -10,6 +10,14 @@
                 "es": "¡¿Es una pasión de emoji lo que te trae aquí?! 😉",
                 "zh": "An all-consuming passion for emoji brought you here, right?! 😉"
             }
+        },
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                "property": "ppRobinOpener",
+                "value": "RobinOpenerYes"
+            }
         }
     ],
     "Commands": [
