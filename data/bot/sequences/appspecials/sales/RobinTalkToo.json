@@ -7,8 +7,8 @@
             "Label": {
                 "en": "I also need someone to talk to sometimes... 🦉",
                 "fr": "Il m'arrive aussi d'avoir besoin de parler... 🦉",
-                "es": "I also need someone to talk to sometimes... 🦉",
-                "zh": "I also need someone to talk to sometimesXXXYYYYYYYY... 🦉"
+                "es": "También a veces necesito hablar... 🦉",
+                "zh": "I also need someone to talk to sometimes... 🦉"
             }
         }
     ],
@@ -20,7 +20,7 @@
             "Commandlabel": {
                 "en": "Why?",
                 "fr": "Pourquoi ?",
-                "es": "Why?",
+                "es": "¿Por qué?",
                 "zh": "Why?"
             },
             "Steps": [
@@ -29,7 +29,7 @@
                     "Label": {
                         "en": "Well I live in a Norwegian forest... but my parents have emigrated to the USA!",
                         "fr": "J'habite dans une forêt norvégienne mais mes parents ont émigré aux USA !",
-                        "es": "Well I work in Norway... but my family lives in the USA!",
+                        "es": "Vivo en un bosque noruego pero mis padres emigraron a los Estados Unidos!",
                         "zh": "Well I work in Norway... but my family lives in the USA!"
                     }
                 },
@@ -55,7 +55,7 @@
                     "Label": {
                         "en": "So we can't really talk...",
                         "fr": "J'ai donc très peu de contact avec eux...",
-                        "es": "So we can't talk too often...",
+                        "es": "Así que tengo muy poco contacto con ellos...",
                         "zh": "So we can't talk too often..."
                     }
                 }
@@ -72,7 +72,7 @@
                         "CommandLabel": {
                             "en": "Tell me more",
                             "fr": "Dis-m'en plus",
-                            "es": "Tell me more!",
+                            "es": "Cuéntame más",
                             "zh": "Tell me more!"
                         },
                         "Steps": [
@@ -81,7 +81,7 @@
                                 "Label": {
                                     "en": "Your interest in my life is heartwarming!",
                                     "fr": "Tes marques d'intérêt me réchauffent le coeur !",
-                                    "es": "Your interest in my life is heartwarming!",
+                                    "es": "¡Tus expresiones de interés me calientan el corazón!",
                                     "zh": "Your interest in my life is heartwarming!"
                                 }
                             },
@@ -103,7 +103,7 @@
                         "CommandLabel": {
                             "en": "You can talk to me",
                             "fr": "Tu peux toujours me parler",
-                            "es": "You can talk to me!",
+                            "es": "Siempre puedes hablar conmigo",
                             "zh": "You can talk to me!"
                         },
                         "Steps": [
@@ -112,7 +112,7 @@
                                 "Label": {
                                     "en": "That's so kind! Let's keep chatting",
                                     "fr": "Chouette ! Parlons !",
-                                    "es": "That's so kind! Let's keep chatting",
+                                    "es": "¡Eso es muy amable! Sigamos charlando",
                                     "zh": "That's so kind! Let's keep chatting!"
                                 }
                             },
@@ -137,7 +137,7 @@
             "Commandlabel": {
                 "en": "Let's help each other",
                 "fr": "On peut s'entraider",
-                "es": "Let's help each other",
+                "es": "Ayudémonos mutuamente",
                 "zh": "Let's help each other"
             },
             "Steps": [
@@ -147,7 +147,7 @@
                         "en": "Great idea!",
                         "fr": "Chouette idée !",
                         "es": "Great idea!",
-                        "zh": "Great idea!"
+                        "zh": "¡Gran idea!"
                     }
                 },
                 {
