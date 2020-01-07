@@ -7,7 +7,7 @@
             "Label": {
                 "en": "We owls keep vast stores of knowledge hidden in the forests 🦉",
                 "fr": "Nous autres chouettes entretenons de vastes réserves de connaissances cachées dans les forêts 🦉",
-                "es": "We owls keep vast stores of knowledge hidden in the forests 🦉",
+                "es": "Los búhos mantenemos vastos almacenes de conocimiento ocultos en los bosques... 🦉",
                 "zh": "We owls keep vast stores of knowledge hidden in the forests 🦉"
             }
         },
@@ -23,7 +23,7 @@
             "Label": {
                 "en": "So I may be able to help you out..!",
                 "fr": "Je vais peut-être pouvoir t'aider..!",
-                "es": "So I should be able to help you out..!",
+                "es": "¡Así que debería ser capaz de ayudarte...!",
                 "zh": "So I should be able to help you out..!"
             }
         },
@@ -39,8 +39,8 @@
             "Type": "Text",
             "Label": {
                 "en": "What's worrying you at the moment?",
-                "fr": "Qu'est-ce qui te préoccupe en ce moment ? ?",
-                "es": "What's worrying you at the moment?",
+                "fr": "Qu'est-ce qui te préoccupe en ce moment ?",
+                "es": "¿Qué tienes en mente ahora mismo?",
                 "zh": "What's worrying you at the moment?"
             }
         }
@@ -54,7 +54,7 @@
             "Commandlabel": {
                 "en": "Friends or family",
                 "fr": "Famille et amis",
-                "es": "Friends or family",
+                "es": "Familia y amigos",
                 "zh": "Friends or family"
             },
             "Steps": [
@@ -63,7 +63,7 @@
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
                         "fr": "Ah flûte alors...tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Oh, Dios mío... ¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -85,7 +85,7 @@
             "Commandlabel": {
                 "en": "Work",
                 "fr": "Le boulot",
-                "es": "Work",
+                "es": "Trabajo",
                 "zh": "Work"
             },
             "Steps": [
@@ -94,7 +94,7 @@
                     "Label": {
                         "en": "I feel your pain... but you came to the right owl!",
                         "fr": "Je connais le problème ...tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Oh, Dios mío... ¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -116,7 +116,7 @@
             "Commandlabel": {
                 "en": "Money",
                 "fr": "L'argent",
-                "es": "Money",
+                "es": "el dinero",
                 "zh": "Money"
             },
             "Steps": [
@@ -125,7 +125,7 @@
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
                         "fr": "Une vraie source de soucis...mais tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Oh, Dios mío... ¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -147,7 +147,7 @@
             "Commandlabel": {
                 "en": "Love and romance",
                 "fr": "L'amour",
-                "es": "Love and romance",
+                "es": "Amor",
                 "zh": "Love and romance"
             },
             "Steps": [
@@ -156,7 +156,7 @@
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
                         "fr": "Dur dur...mais tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Oh, Dios mío... ¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -178,7 +178,7 @@
             "Commandlabel": {
                 "en": "Boredom",
                 "fr": "L'ennui",
-                "es": "Boredom",
+                "es": "Aburrimiento",
                 "zh": "Boredom"
             },
             "Steps": [
@@ -187,7 +187,7 @@
                     "Label": {
                         "en": "Really? You came to the right owl!",
                         "fr": "Vraiment ? Tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -209,7 +209,7 @@
             "Commandlabel": {
                 "en": "Health",
                 "fr": "La santé",
-                "es": "Health",
+                "es": "Salud",
                 "zh": "Health"
             },
             "Steps": [
@@ -218,7 +218,7 @@
                     "Label": {
                         "en": "Sorry to hear it... but you came to the right owl!",
                         "fr": "Ah flûte ! Je fais essayer de me rendre utile",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Oh, Dios mío... ¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -240,7 +240,7 @@
             "Commandlabel": {
                 "en": "Other",
                 "fr": "Autre chose",
-                "es": "Other",
+                "es": "Otra cosa",
                 "zh": "Other"
             },
             "Steps": [
@@ -249,7 +249,7 @@
                     "Label": {
                         "en": "I'll try to figure out what it is! Owl are very curious !",
                         "fr": "Je vais essayer de trouver ce que c'est. Une chouette c'est très curieux !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "¡Intentaré averiguar qué es! ¡Los búhos son muy curiosos!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -271,7 +271,7 @@
             "Commandlabel": {
                 "en": "The state of the world",
                 "fr": "L'état du monde",
-                "es": "The state of the world",
+                "es": "El estado del mundo",
                 "zh": "The state of the world"
             },
             "Steps": [
@@ -280,7 +280,7 @@
                     "Label": {
                         "en": "Yeah... I'm worried too. You came to the right owl!",
                         "fr": "Cela me préoccupe pas mal aussi. Tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "Sí... yo también estoy preocupado. ¡Viniste al búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
@@ -302,16 +302,16 @@
             "Commandlabel": {
                 "en": "People",
                 "fr": "Les gens",
-                "es": "People",
+                "es": "Gente",
                 "zh": "People"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Yeah, they can be...puzzling. I often think about it. You came to the right owl!",
+                        "en": "Yeah, they can be... puzzling. I often think about it. You came to the right owl!",
                         "fr": "Je m'interroge souvent à leur endroit ! Tu t'adresses à la bonne chouette !",
-                        "es": "Sorry to hear it... but you came to the right owl!",
+                        "es": "A menudo me pregunto sobre ellos! ¡Estás hablando con el búho correcto!",
                         "zh": "Sorry to hear it... but you came to the right owl!"
                     }
                 },
