@@ -141,14 +141,6 @@
             },
             "Steps": [
                 {
-                    "Type": "Action",
-                    "Name": "SetUserProperty",
-                    "Parameters": {
-                        "property": "ppRobinUseful",
-                        "value": "RobinUsefulCompany"
-                    }
-                },
-                {
                     "Type": "Text",
                     "Label": {
                         "en": "I'd be delighted to!",
@@ -184,6 +176,14 @@
                         },
                         "Steps": [
                             {
+                                "Type": "Action",
+                                "Name": "SetUserProperty",
+                                "Parameters": {
+                                   "property": "ppRobinUseful",
+                                   "value": "RobinUsefulCompanyMe"
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "OK... good idea... let's talk about something you like",
@@ -205,6 +205,14 @@
                             "zh": "You"
                         },
                         "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "SetUserProperty",
+                                "Parameters": {
+                                   "property": "ppRobinUseful",
+                                   "value": "RobinUsefulCompanyYou"
+                                }
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
