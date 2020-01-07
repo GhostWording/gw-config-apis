@@ -4,10 +4,12 @@
     "SequenceFiles": [
       { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
       { "order" : 110, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
-      { "order" : 130, "file":["/data/bot/sequences/appspecials/sales/RobinTalkToo.json"]},
+      { "order" : 125, "file":["/data/bot/sequences/appspecials/sales/RobinImprove.json"], "condition" : "ppRobinUseful == 'RobinUsefulBetter'"},
+      { "order" : 130, "file":["/data/bot/sequences/appspecials/sales/RobinTalkToo.json"], "condition" : "ppRobinUseful == 'RobinUsefulCheer'"},
       { "order" : 140, "file":["/data/bot/sequences/appspecials/sales/RobinSurvive.json"]},
-      { "order" : 150, "file":["/data/bot/sequences/appspecials/sales/RobinWorries.json"]},
-      { "order" : 160, "file":["/data/bot/sequences/appspecials/sales/RobinType.json"]},
+      { "order" : 140, "file":["/data/bot/sequences/appspecials/sales/SalesKitten.json"], "condition" : "ppRobinSurvive == 'RobinSurviveCats'"},
+      { "order" : 150, "file":["/data/bot/sequences/appspecials/sales/RobinWorries.json"], "condition" : "ppRobinUseful == 'RobinUsefulCope'"}
+      { "order" : 160, "file":["/data/bot/sequences/appspecials/sales/RobinType.json"], "condition" : "ppRobinWorries == 'RobinWorriesRead'"},
       { "order" : 165, "file":["/data/bot/sequences/appspecials/sales/RobinGoal.json"]},
       { "order" : 170, "file":["/data/bot/sequences/appspecials/sales/RobinYourself.json"]},
       { "order" : 180, "file":["/data/bot/sequences/appspecials/sales/RobinInterests.json"]},
