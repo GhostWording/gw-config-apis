@@ -4,14 +4,6 @@
     "Id": "SalesKitten",
     "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Here we go!",
-                "fr": "C'est parti!",
-                "es": "¡Ahí vamos!"
-            }
-        },
-        {
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
