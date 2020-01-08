@@ -7,7 +7,7 @@
             "Label": {
                 "en": "As a travelling sales-owl, I have to travel a lot",
                 "fr": "En tant que vendeur itinérant, je voyage beaucoup",
-                "es": "As a travelling sales-owl, I have to travel a lot",
+                "es": "Como vendedor ambulante, viajo mucho...",
                 "zh": "As a travelling sales-owl, I have to travel a lot"
             }
         },
@@ -16,7 +16,7 @@
             "Label": {
                 "en": "Have you ever been to Paris? It's my favourite city",
                 "fr": "Tu as déjà visité Paris ? C'est ma ville préférée",
-                "es": "Have you ever been to Paris? It's my favourite city...",
+                "es": "¿Has estado alguna vez en París? Es mi ciudad favorita",
                 "zh": "Have you ever been to Paris? It's my favourite city..."
             }
         },
@@ -34,20 +34,20 @@
             "Label": {
                 "en": "I can tell you some stories about it, if you like!",
                 "fr": "Je peux te raconter des histoires sur la ville si tu le souhaites !",
-                "es": "I can tell you some stories about it, if you like!",
+                "es": "Puedo contarte algunas historias sobre ello, si quieres",
                 "zh": "I can tell you some stories about it, if you like!"
             }
         }
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "RobinParisYes",
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Yes please",
                 "fr": "Avec plaisir",
-                "es": "Yes please!",
+                "es": "Sí, por favor",
                 "zh": "Yes please!"
             },
             "Steps": [
@@ -56,11 +56,14 @@
                     "Label": {
                         "en": "Awesome! I love telling stories...",
                         "fr": "Super! J'adore raconter des histoires...",
-                        "es": "Awesome! Prepare to be amazed...",
+                        "es": "¡Oh, genial! Me encanta contar historias...",
                         "zh": "Awesome! Prepare to be amazed..."
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+               "FragmentPath": "NotreDame"
+            }
         },
         {
             "Type": "Leaf",
@@ -69,7 +72,7 @@
             "Commandlabel": {
                 "en": "Maybe later",
                 "fr": "Peut-être plus tard",
-                "es": "Maybe later",
+                "es": "Tal vez más tarde",
                 "zh": "Maybe later"
             },
             "Steps": [
@@ -78,7 +81,7 @@
                     "Label": {
                         "en": "No problem! I'll think of one and send it to you later!",
                         "fr": "Pas de soucis! J'en trouve une et je te la raconte un peu plus tard",
-                        "es": "No problem! I'll think of one and send it to you later!",
+                        "es": "No hay problema. ¡Pensaré en uno y te lo enviaré más tarde!",
                         "zh": "No problem! I'll think of one and send it to you later!"
                     }
                 },
@@ -93,11 +96,13 @@
                         },		
                         "notificationTitle": {		
                             "en": "Here's the story from earlier!",		
-                            "fr": "Ton histoire sur Paris est prête"		
+                            "fr": "Ton histoire sur Paris est prête",
+                            "es": "Tu historia de París está lista"
                         },		
                         "notificationText": {		
                             "en": "It's about the Notre-Dame Cathedral!",		
-                            "fr": "Cela parle de Notre Dame !"		
+                            "fr": "Cela parle de Notre Dame !",
+                            "es": "¡Se trata de Notre Dame!"
                         },		
                         "notificationIcon" : "/owls/images/small/471848717.jpg"		
                     }		
