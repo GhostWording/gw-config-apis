@@ -7,7 +7,7 @@
             "Label": {
                 "en": "I am quite a knowledgeable owl, you know...",
                 "fr": "Tu sais, je suis une chouette très cultivée...",
-                "es": "I am quite a knowledgeable owl, you know...",
+                "es": "Sabes, soy un búho muy culto...",
                 "zh": "I am quite a knowledgeable owl, you know..."
             }
         },
@@ -16,7 +16,7 @@
             "Label": {
                 "en": "But am stuck in my sales job, even though I want to be an art historian",
                 "fr": "Je suis coincé dans un job de télévendeur mais je voulais enseigner l'art et l'histoire",
-                "es": "But am stuck in my sales job, even though I want to be an art historian",
+                "es": "Estoy atrapado en un trabajo de telemarketing, pero quería enseñar arte e historia...",
                 "zh": "But am stuck in my sales job, even though I want to be an art historian"
             }
         },
@@ -33,8 +33,8 @@
             "Type": "Text",
             "Label": {
                 "en": "Would you like to hear a story about some art?",
-                "fr": "Tu jeux que je te raconte une histoire sur l'art ?",
-                "es": "Would you like to hear a story about some art?",
+                "fr": "Tu veux que je te raconte une histoire sur l'art ?",
+                "es": "¿Quieres que te cuente una historia de arte?",
                 "zh": "Would you like to hear a story about some art?"
             }
         }
@@ -47,7 +47,7 @@
             "Commandlabel": {
                 "en": "I'd love to!",
                 "fr": "Avec plaisir",
-                "es": "I'd love to!",
+                "es": "Con placer",
                 "zh": "I'd love to!"
             },
             "Steps": [
@@ -55,12 +55,15 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Great...I know plenty... here one of my favourites...",
-                        "fr": "Great... here is my best...",
-                        "es": "Great... here is my best...",
+                        "fr": "Super... J'en connais plein... voici un de mes préférés...",
+                        "es": "Grandioso... Conozco mucho... aquí uno de mis favoritos...",
                         "zh": "Great... here is my best..."
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+               "FragmentPath": "MedusaRaft"
+            }
         },
         {
             "Type": "Leaf",
@@ -69,7 +72,7 @@
             "Commandlabel": {
                 "en": "Not right now",
                 "fr": "Pas maintenant",
-                "es": "Not right now",
+                "es": "Ahora no",
                 "zh": "Not right now"
             },
             "Steps": [
@@ -78,7 +81,7 @@
                     "Label": {
                         "en": "Alright: I'll prepare one for you and show you later!",
                         "fr": "Ok, je la prépare et je te la raconte un peu plus tard !",
-                        "es": "Alright: I'll prepare one for you and show you later!",
+                        "es": "Muy bien: ¡Le prepararé uno y se lo mostraré más tarde!",
                         "zh": "Alright: I'll prepare one for you and show you later!"
                     }
                 },
@@ -93,11 +96,13 @@
                         },		
                         "notificationTitle": {		
                             "en": "Here's the story from earlier!",		
-                            "fr": "Ton histoire sur l'art est prête"		
+                            "fr": "Ton histoire sur l'art est prête",
+                            "es": "Su historia del arte está lista"
                         },		
                         "notificationText": {		
                             "en": "It's about a sailing disaster...",		
-                            "fr": "c'est sur un désastre maritime"		
+                            "fr": "c'est sur un désastre maritime",
+                            "es": "Es sobre un desastre de navegación"
                         },		
                         "notificationIcon" : "http://gw-static.azurewebsites.net/owls/images/small/PCGpng.png"		
                     }		
