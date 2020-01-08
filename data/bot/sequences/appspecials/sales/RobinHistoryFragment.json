@@ -7,7 +7,7 @@
             "Label": {
                 "en": "Although I'm only a sales-owl, I know lots of history!",
                 "fr": "Les chouettes sont hyper calées en histoire !",
-                "es": "Although I'm only a sales-owl, I know lots of history!",
+                "es": "Los búhos son muy conocedores de la historia!",
                 "zh": "Although I'm only a sales-owl, I know lots of history!"
             }
         },
@@ -16,7 +16,7 @@
             "Label": {
                 "en": "Let me tell you a story!",
                 "fr": "Laisse-moi te raconter une histoire !",
-                "es": "Let me tell you a story!",
+                "es": "¡Déjame contarte una historia!",
                 "zh": "Let me tell you a story!"
             }
         },
@@ -32,13 +32,13 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "RobinHistoryYes",
             "ElementValue": "1",
             "Commandlabel": {
                 "en": "Sure",
                 "fr": "Vas-y",
-                "es": "Sure!",
+                "es": "por supuesto",
                 "zh": "Sure!"
             },
             "Steps": [
@@ -47,11 +47,14 @@
                     "Label": {
                         "en": "OK... here goes!",
                         "fr": "OK... c'est parti !",
-                        "es": "OK... here goes!",
+                        "es": "OK... vamos",
                         "zh": "OK... here goes!"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun"
+            }
         },
         {
             "Type": "Leaf",
@@ -60,7 +63,7 @@
             "Commandlabel": {
                 "en": "Not just now",
                 "fr": "Pas maintenant",
-                "es": "Not just now",
+                "es": "Ahora no",
                 "zh": "Not just now"
             },
             "Steps": [
@@ -69,7 +72,7 @@
                     "Label": {
                         "en": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
                         "fr": "Ok... Je t'en prépare une et je t'avertis quand elle est prête",
-                        "es": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
+                        "es": "bueno... Haré uno para ti y te haré saber cuando esté listo.",
                         "zh": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready"
                     }
                 },
@@ -84,11 +87,13 @@
                         },		
                         "notificationTitle": {		
                             "en": "Here's the story from earlier!",		
-                            "fr": "ton histoire est prête"		
+                            "fr": "ton histoire est prête",
+                            "es": "tu historia está lista"
                         },		
                         "notificationText": {		
                             "en": "once upon a time in Ancient Egypt...",		
-                            "fr": "il était une fois un prêtre égyptiens..."		
+                            "fr": "il était une fois un prêtre égyptiens...",
+                            "es": "Érase una vez en el Antiguo Egipto..."
                         },		
                         "notificationIcon" : "/owls/images/small/471848717.jpg"		
                     }		
