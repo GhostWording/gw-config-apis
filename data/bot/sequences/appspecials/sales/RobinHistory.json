@@ -35,7 +35,7 @@
             "Type": "Node",
             "Id": "RobinHistoryYes",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Sure",
                 "fr": "Vas-y",
                 "es": "por supuesto",
@@ -60,7 +60,7 @@
             "Type": "Leaf",
             "Id": "RobinHistoryLater",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Not just now",
                 "fr": "Pas maintenant",
                 "es": "Ahora no",
