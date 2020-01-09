@@ -1,8 +1,223 @@
 {
     "Type": "Node",
     "Id": "RobinImprove",
-    "LinksToFragment": {
-        "Condition": "ppRobinUseful == 'RobinUsefulBetter'",
-         "FragmentPath": "RobinImproveFragment"
-      }
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What would you like to improve?",
+                "fr": "Que souhaites-tu améliorer ?",
+                "es": "¿Qué te gustaría mejorar?",
+                "zh": "What would you like to improve?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinImproveFinances",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My finances",
+                "fr": "Mes finances",
+                "es": "Mis finanzas",
+                "zh": "My finances"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_41895742.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will do my best!",
+                        "fr": "Je vais faire de mon mieux !",
+                        "es": "¡Haré lo mejor que pueda!",
+                        "zh": "I will do my best!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinImproveRelationships",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My relationships",
+                "fr": "Mes aptitues relationnelles",
+                "es": "Mis relaciones",
+                "zh": "My relationships"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_26821237.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will do my best!",
+                        "fr": "Je vais faire de mon mieux !",
+                        "es": "¡Haré lo mejor que pueda!",
+                        "zh": "I will do my best!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinImproveRomance",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Romance",
+                "fr": "Ma vie sentimentale",
+                "es": "Romance",
+                "zh": "Romance"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_29275486.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will do my best!",
+                        "fr": "Je vais faire de mon mieux !",
+                        "es": "¡Haré lo mejor que pueda!",
+                        "zh": "I will do my best!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinImproveConfidence",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "My confidence",
+                "fr": "Ma confiance en moi",
+                "es": "Mi confianza",
+                "zh": "My confidence"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_670596310.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will do my best!",
+                        "fr": "Je vais faire de mon mieux !",
+                        "es": "¡Haré lo mejor que pueda!",
+                        "zh": "I will do my best!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinImproveHealth",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Health & Fitness",
+                "fr": "Ma forme physique",
+                "es": "Salud y Fitness",
+                "zh": "Health & Fitness"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_26333918.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will do my best!",
+                        "fr": "Je vais faire de mon mieux !",
+                        "es": "¡Haré lo mejor que pueda!",
+                        "zh": "I will do my best!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinImproveHonesty",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Honesty",
+                "fr": "Mon intégrité",
+                "es": "Honestidad",
+                "zh": "Honesty"
+            },
+            "CarouselElements": {
+                "Title": {
+                "en": ".",
+                "fr": ".",
+                "es": ".",
+                "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/themes/emojiLittleRedSun/small/shutterstock_615479390_16.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I will do my best!",
+                        "fr": "Je vais faire de mon mieux !",
+                        "es": "¡Haré lo mejor que pueda!",
+                        "zh": "I will do my best!"
+                    }
+                }
+            ]
+        }
+    ]
 }
