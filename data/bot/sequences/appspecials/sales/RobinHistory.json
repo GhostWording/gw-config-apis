@@ -1,8 +1,113 @@
 {
     "Type": "Node",
-    "Id": "RobinHistory",
-    "LinksToFragment": {
-        "Condition": "ppXX == 'XX'",
-         "FragmentPath": "RobinHistoryFragment"
-      }
+    "Id": "RobinHistoryFragment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Although I'm only a sales-owl, I know lots of history!",
+                "fr": "Les chouettes sont hyper calées en histoire !",
+                "es": "Los búhos son muy conocedores de la historia!",
+                "zh": "Although I'm only a sales-owl, I know lots of history!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let me tell you a story!",
+                "fr": "Laisse-moi te raconter une histoire !",
+                "es": "¡Déjame contarte una historia!",
+                "zh": "Let me tell you a story!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/cute_owl1.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinHistoryYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Sure",
+                "fr": "Vas-y",
+                "es": "por supuesto",
+                "zh": "Sure!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK... here goes!",
+                        "fr": "OK... c'est parti !",
+                        "es": "OK... vamos",
+                        "zh": "OK... here goes!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Nebamun"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinHistoryLater",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not just now",
+                "fr": "Pas maintenant",
+                "es": "Ahora no",
+                "zh": "Not just now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready",
+                        "fr": "Ok... Je t'en prépare une et je t'avertis quand elle est prête",
+                        "es": "bueno... Haré uno para ti y te haré saber cuando esté listo.",
+                        "zh": "Alright... what I'll do is prepare one just for you, and then let you know when it's ready"
+                    }
+                },
+                {		
+                    "Type": "Action",		
+                    "Name": "NotifyDeferredStory",		
+                    "Parameters": {		
+                        "fragmentId": "Nebamun",		
+                        "notificationDelay": {		
+                            "unit": "hour",		
+                            "quantity": "2"		
+                        },		
+                        "notificationTitle": {		
+                            "en": "Here's the story from earlier!",		
+                            "fr": "ton histoire est prête",
+                            "es": "tu historia está lista"
+                        },		
+                        "notificationText": {		
+                            "en": "once upon a time in Ancient Egypt...",		
+                            "fr": "il était une fois un prêtre égyptiens...",
+                            "es": "Érase una vez en el Antiguo Egipto..."
+                        },		
+                        "notificationIcon" : "/owls/images/small/471848717.jpg"		
+                    }		
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/471848717.jpg"
+                    }
+                }
+            ]
+        }
+    ]
 }
