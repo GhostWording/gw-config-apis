@@ -1,8 +1,101 @@
 {
     "Type": "Node",
     "Id": "RobinType",
-    "LinksToFragment": {
-        "Condition": "ppRobinWorries == 'RobinWorriesRead'",
-         "FragmentPath": "RobinTypeFragment"
-      }
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to type a few words to explain?",
+                "fr": "Veux-tu m'expliquer en quelques mots ?",
+                "es": "¿Le gustaría escribir algunas palabras para explicarlo?",
+                "zh": "Would you like to type a few words to explain?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinTypeYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "OK",
+                "fr": "OK",
+                "es": "OK",
+                "zh": "OK"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright... let me show you a bit of owl magic then!",
+                        "fr": "Allons-y...c'est l'occasion d'invoquer mes super pouvoirs !",
+                        "es": "Vamos... ¡Esta es mi oportunidad de invocar mis superpoderes!",
+                        "zh": "Alright... let me show you a bit of owl magic then!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "TypingBarShow"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You should now see a typing bar!",
+                        "fr": "Tu devrais maintenant voir une zone de saisie en bas de l'écran",
+                        "es": "Ahora deberías ver una barra de escritura!",
+                        "zh": "You should now see a typing bar!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/160101804closeUp.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Feel free to type a few words and let me know what you're thinking!",
+                        "fr": "Il ne reste plus qu'à y écrire quelques mots sur ce que tu as en tête",
+                        "es": "Siéntase libre de escribir algunas palabras y déjeme saber lo que está pensando!",
+                        "zh": "Feel free to type a few words and let me know what you're thinking!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinTypeNo",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not right now",
+                "fr": "Pas maintenant",
+                "es": "no ahora",
+                "zh": "Not right now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don't really like typing either! Let's keep chatting",
+                        "fr": "Taper sur un clavier ce n'est pas mon truc non plus. Continuons le bavardage !",
+                        "es": "Escribir a máquina tampoco es lo mío. ¡Sigamos charlando!",
+                        "zh": "I don't really like typing either! Let's keep chatting"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/160101804closeUp.jpg"
+                    }
+                }
+            ]
+        }
+    ]
 }
