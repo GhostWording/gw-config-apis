@@ -1,8 +1,122 @@
 {
     "Type": "Node",
     "Id": "RobinParis",
-    "LinksToFragment": {
-        "Condition": "ppXX == 'XX'",
-         "FragmentPath": "RobinParisFragment"
-      }
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "As a travelling sales-owl, I have to travel a lot",
+                "fr": "En tant que vendeur itinérant, je voyage beaucoup",
+                "es": "Como vendedor ambulante, viajo mucho...",
+                "zh": "As a travelling sales-owl, I have to travel a lot"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Have you ever been to Paris? It's my favourite city",
+                "fr": "Tu as déjà visité Paris ? C'est ma ville préférée",
+                "es": "¿Has estado alguna vez en París? Es mi ciudad favorita",
+                "zh": "Have you ever been to Paris? It's my favourite city..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/cute_owl1.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can tell you some stories about it, if you like!",
+                "fr": "Je peux te raconter des histoires sur la ville si tu le souhaites !",
+                "es": "Puedo contarte algunas historias sobre ello, si quieres",
+                "zh": "I can tell you some stories about it, if you like!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinParisYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Yes please",
+                "fr": "Avec plaisir",
+                "es": "Sí, por favor",
+                "zh": "Yes please!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Awesome! I love telling stories...",
+                        "fr": "Super! J'adore raconter des histoires...",
+                        "es": "¡Oh, genial! Me encanta contar historias...",
+                        "zh": "Awesome! Prepare to be amazed..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+               "FragmentPath": "NotreDame"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinParisLater",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Maybe later",
+                "fr": "Peut-être plus tard",
+                "es": "Tal vez más tarde",
+                "zh": "Maybe later"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No problem! I'll think of one and send it to you later!",
+                        "fr": "Pas de soucis! J'en trouve une et je te la raconte un peu plus tard",
+                        "es": "No hay problema. ¡Pensaré en uno y te lo enviaré más tarde!",
+                        "zh": "No problem! I'll think of one and send it to you later!"
+                    }
+                },
+                {		
+                    "Type": "Action",		
+                    "Name": "NotifyDeferredStory",		
+                    "Parameters": {		
+                        "fragmentId": "NotreDame",		
+                        "notificationDelay": {		
+                            "unit": "hour",		
+                            "quantity": "2"		
+                        },		
+                        "notificationTitle": {		
+                            "en": "Here's the story from earlier!",		
+                            "fr": "Ton histoire sur Paris est prête",
+                            "es": "Tu historia de París está lista"
+                        },		
+                        "notificationText": {		
+                            "en": "It's about the Notre-Dame Cathedral!",		
+                            "fr": "Cela parle de Notre Dame !",
+                            "es": "¡Se trata de Notre Dame!"
+                        },		
+                        "notificationIcon" : "/owls/images/small/471848717.jpg"		
+                    }		
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/471848717.jpg"
+                    }
+                }
+            ]
+        }
+    ]
 }
