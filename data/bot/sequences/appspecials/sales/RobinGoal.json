@@ -1,8 +1,115 @@
 {
     "Type": "Node",
-    "Id": "RobinGoal",
-    "LinksToFragment": {
-        "Condition": "ppXX == 'XX'",
-         "FragmentPath": "RobinGoalFragment"
-      }
+    "Id": "RobinGoalFragment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I like to imagine what my extended family look like...",
+                "fr": "Parfois j'essaye d'imaginer ce à quoi ressemble ma famille étendue...",
+                "es": "I like to imagine what my extended family look like...",
+                "zh": "I like to imagine what my extended family look like..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/cartoonowls.png"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "My short term goal is to work hard and save money to visit them all!",
+                "fr": "Mon objectif à court terme c'est de travailler dur pour économiser et aller les voir !",
+                "es": "My goal is to work hard and save money to visit them all!",
+                "zh": "My goal is to work hard and save money to visit them all!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/486041604.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinGoalLuck",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Good luck!",
+                "fr": "Bonne chance",
+                "es": "Good luck!",
+                "zh": "Good luck!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks... I like to think of myself as a resilient owl!",
+                        "fr": "Merci...Je suis une chouette très déterminée !",
+                        "es": "Thanks... I like to think of myself as a resilient owl!",
+                        "zh": "Thanks... I like to think of myself as a resilient owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/450280961.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinGoalInspiring",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "You're so inspiring",
+                "fr": "Quelle source d'inspiration",
+                "es": "You're so inspiring",
+                "zh": "You're so inspiring"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Grandma Owl always said 'Be a model and an ideal. An example of what we can become and a precious help to achieve it'",
+                        "fr": "Mamie Chouette disait toujours 'Soyez un modèle et un idéal. Un exemple de ce que l'on peut devenir et une aide précieuse pour y parvenir'",
+                        "es": "Thanks... I like to think of myself as a resilient owl!",
+                        "zh": "Thanks... I like to think of myself as a resilient owl!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "On the other hand she also said 'be yourself'. Sounds like conflicting injunctions to me!",
+                        "fr": "D'une autre côté elle disait aussi d'être sois-même. Injonctions contradictoires ?",
+                        "es": "Thanks... I like to think of myself as a resilient owl!",
+                        "zh": "Thanks... I like to think of myself as a resilient owl!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/450280961.jpg"
+                    }
+                }
+            ]
+        }
+    ]
 }
