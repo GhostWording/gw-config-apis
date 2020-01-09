@@ -51,7 +51,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesFamily",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Friends or family",
                 "fr": "Famille et amis",
                 "es": "Familia y amigos",
@@ -82,7 +82,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesWork",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Work",
                 "fr": "Le boulot",
                 "es": "Trabajo",
@@ -113,7 +113,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesMoney",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Money",
                 "fr": "L'argent",
                 "es": "el dinero",
@@ -144,7 +144,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesLove",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Love and romance",
                 "fr": "L'amour",
                 "es": "Amor",
@@ -175,7 +175,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesBoredom",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Boredom",
                 "fr": "L'ennui",
                 "es": "Aburrimiento",
@@ -206,7 +206,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesHealth",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Health",
                 "fr": "La santé",
                 "es": "Salud",
@@ -237,7 +237,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesOther",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "Other",
                 "fr": "Autre chose",
                 "es": "Otra cosa",
@@ -268,7 +268,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesWorld",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "The state of the world",
                 "fr": "L'état du monde",
                 "es": "El estado del mundo",
@@ -299,7 +299,7 @@
             "Type": "Leaf",
             "Id": "RobinWorriesPeople",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "People",
                 "fr": "Les gens",
                 "es": "Gente",
