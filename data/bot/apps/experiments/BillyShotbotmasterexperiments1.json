@@ -50,11 +50,11 @@
       { "order" : 5000, "file":["/data/bot/sequences/settings/AreYouSingle.json"]},
       { "order" : 5000, "file":["/data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json"]},
       { "order" : 5000, "file":["/data/bot/sequences/appspecials/ShowAnAdvert.json"]},
-      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatDoesItSmell.json"]}, 
-      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
-      { "order" : 500, "file":["/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"]},
-      { "order" : 500, "file":["/data/bot/sequences/appspecials/IHaveAJokeForYou.json"]},
-      { "order" : 500, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]}
+      { "order" : 5000, "file":["/data/bot/sequences/smalltalk/WhatDoesItSmell.json"]}, 
+      { "order" : 5000, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
+      { "order" : 5000, "file":["/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"]},
+      { "order" : 5000, "file":["/data/bot/sequences/appspecials/IHaveAJokeForYou.json"]},
+      { "order" : 5000, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]}
       ]
    }
 ]
