@@ -1,8 +1,122 @@
 {
     "Type": "Node",
-    "Id": "RobinArt",
-    "LinksToFragment": {
-        "Condition": "ppXX == 'XX'",
-         "FragmentPath": "RobinArtFragment"
-      }
+    "Id": "RobinArtFragment",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I am quite a knowledgeable owl, you know...",
+                "fr": "Tu sais, je suis une chouette très cultivée...",
+                "es": "Sabes, soy un búho muy culto...",
+                "zh": "I am quite a knowledgeable owl, you know..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But am stuck in my sales job, even though I want to be an art historian",
+                "fr": "Je suis coincé dans un job de télévendeur mais je voulais enseigner l'art et l'histoire",
+                "es": "Estoy atrapado en un trabajo de telemarketing, pero quería enseñar arte e historia...",
+                "zh": "But am stuck in my sales job, even though I want to be an art historian"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/1043052056.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to hear a story about some art?",
+                "fr": "Tu veux que je te raconte une histoire sur l'art ?",
+                "es": "¿Quieres que te cuente una historia de arte?",
+                "zh": "Would you like to hear a story about some art?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "RobinArtYes",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "I'd love to!",
+                "fr": "Avec plaisir",
+                "es": "Con placer",
+                "zh": "I'd love to!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great...I know plenty... here one of my favourites...",
+                        "fr": "Super... J'en connais plein... voici un de mes préférés...",
+                        "es": "Grandioso... Conozco mucho... aquí uno de mis favoritos...",
+                        "zh": "Great... here is my best..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+               "FragmentPath": "MedusaRaft"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinArtLater",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "Not right now",
+                "fr": "Pas maintenant",
+                "es": "Ahora no",
+                "zh": "Not right now"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright: I'll prepare one for you and show you later!",
+                        "fr": "Ok, je la prépare et je te la raconte un peu plus tard !",
+                        "es": "Muy bien: ¡Le prepararé uno y se lo mostraré más tarde!",
+                        "zh": "Alright: I'll prepare one for you and show you later!"
+                    }
+                },
+                {		
+                    "Type": "Action",		
+                    "Name": "NotifyDeferredStory",		
+                    "Parameters": {		
+                        "fragmentId": "MedusaRaft",		
+                        "notificationDelay": {		
+                            "unit": "hour",		
+                            "quantity": "4"		
+                        },		
+                        "notificationTitle": {		
+                            "en": "Here's the story from earlier!",		
+                            "fr": "Ton histoire sur l'art est prête",
+                            "es": "Su historia del arte está lista"
+                        },		
+                        "notificationText": {		
+                            "en": "It's about a sailing disaster...",		
+                            "fr": "c'est sur un désastre maritime",
+                            "es": "Es sobre un desastre de navegación"
+                        },		
+                        "notificationIcon" : "http://gw-static.azurewebsites.net/owls/images/small/PCGpng.png"		
+                    }		
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/snowowl1.jpg"
+                    }
+                }
+            ]
+        }
+    ]
 }
