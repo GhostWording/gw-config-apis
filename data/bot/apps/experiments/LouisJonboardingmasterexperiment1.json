@@ -1,9 +1,10 @@
 [
     {
-        "GroupName":"Test",
+        "GroupName":"test",
         "SequenceFiles":[
       { "order" : 110, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
       { "oder" : 115, "file" : ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+      { "order" : 117, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro2.json"], "condition":"'duck' == 'duck'},                        
       { "order" : 123, "condition" : "ppICanUseConditionInMaster == 'maybe!'",
           "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
       { "order" : 140, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
