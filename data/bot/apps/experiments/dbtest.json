@@ -3,6 +3,7 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
+            { "order" : 5, "file": ["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json","/data/bot/sequences/smalltalk/AreYouReal.json"]},
             { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorld.json"]},
             { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
             { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
