@@ -1,0 +1,125 @@
+{
+    "Type": "Node",
+    "Id": "RobinGlassesJokeMan",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Do you know the joke about the owl and the guy who wears glasses?",
+                "fr": "Do you know the joke about the owl and the guy who wears glasses?",
+                "es": "Do you know the joke about the owl and the guy who wears glasses?",
+                "zh": "Do you know the joke about the owl and the guy who wears glasses?"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Width": 600,
+                "Height": 365,
+                "Source": "Internal",
+                "Path": "/owls/images/small/498116791.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I kinda forgot how it goes...",
+                "fr": "I kinda forgot how it goes...",
+                "es": "I kinda forgot how it goes...",
+                "zh": "I kinda forgot how it goes..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But you do wear glasses, right sir?",
+                "fr": "But you do wear glasses, right sir?",
+                "es": "But you do wear glasses, right sir?",
+                "zh": "But you do wear glasses, right sir?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinGlassesJokeManYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How did you know?",
+                "fr": "How did you know?",
+                "es": "How did you know?",
+                "zh": "How did you know?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My cousin Alfred told me. He works in the Silicon Valley",
+                        "fr": "My cousin Alfred told me. He works in the Silicon Valley",
+                        "es": "My cousin Alfred told me. He works in the Silicon Valley",
+                        "zh": "My cousin Alfred told me. He works in the Silicon Valley"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/498116791.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Those guys know everything!",
+                        "fr": "Those guys know everything!",
+                        "es": "Those guys know everything!",
+                        "zh": "Those guys know everything!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinGlassesJokeManNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I don't, no",
+                "fr": "I don't, no",
+                "es": "I don't, no",
+                "zh": "I don't, no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
+                        "fr": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
+                        "es": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
+                        "zh": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/498116791.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I thought those guys knew everything!",
+                        "fr": "I thought those guys knew everything!",
+                        "es": "I thought those guys knew everything!",
+                        "zh": "I thought those guys knew everything!"
+                    }
+                }
+            ]
+        }
+    ]
+}
