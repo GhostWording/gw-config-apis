@@ -143,22 +143,6 @@
         "en": "Pairs",
         "es": "Pares"
       }
-    },
-    {
-      "Path": {
-        "Source": "Web",
-        "Link": "https://www.messenger.com/t/QuoteoBot"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg"
-      },
-      "Labels": {
-        "fr": "Quoteo",
-        "en": "Quoteo",
-        "es": "Quoteo"
-      }
-    }
+    }   
   ]
 }
