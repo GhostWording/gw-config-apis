@@ -12,10 +12,9 @@
             }
         }
     ],
-    "LinksToFragment": [
+    "LinksToFragment": 
         {
             "Condition": "ppGender == 'male'",
             "FragmentPath": "RobinGlassesJokeMan"
-        }
-    ]
+        }    
 }
