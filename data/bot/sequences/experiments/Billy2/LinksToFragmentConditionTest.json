@@ -1,0 +1,21 @@
+{
+    "Type": "Node",
+    "Id": "LinksToFragmentConditionTest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "if youre male, you see sequence about glasses",
+                "fr": "Au fait, comment puis-je t'être utile ?",
+                "es": "Entonces, ¿cómo puedo serte útil?",
+                "zh": "So I was wondering - how can I be useful to you?"
+            }
+        }
+    ],
+    "LinksToFragment": [
+        {
+            "Condition": "ppGender == 'male'",
+            "FragmentPath": "RobinGlassesJokeMan"
+        }
+    ]
+}
