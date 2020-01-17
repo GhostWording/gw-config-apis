@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Do you know the joke about the owl and the guy who wears glasses?",
-                "fr": "Do you know the joke about the owl and the guy who wears glasses?",
+                "fr": "Connais-tu la blague de la chouette et de l'homme qui porte des lunettes ?",
                 "es": "Do you know the joke about the owl and the guy who wears glasses?",
                 "zh": "Do you know the joke about the owl and the guy who wears glasses?"
             }
@@ -24,7 +24,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I kinda forgot how it goes...",
-                "fr": "I kinda forgot how it goes...",
+                "fr": "J'ai un peu oublié comment elle fonctionne...",
                 "es": "I kinda forgot how it goes...",
                 "zh": "I kinda forgot how it goes..."
             }
@@ -33,7 +33,7 @@
             "Type": "Text",
             "Label": {
                 "en": "But you do wear glasses, right sir?",
-                "fr": "But you do wear glasses, right sir?",
+                "fr": "Mais tu portes des lunettes, n'est-ce pas monsieur ?",
                 "es": "But you do wear glasses, right sir?",
                 "zh": "But you do wear glasses, right sir?"
             }
@@ -47,7 +47,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "How did you know?",
-                "fr": "How did you know?",
+                "fr": "Comment le sais-tu ?",
                 "es": "How did you know?",
                 "zh": "How did you know?"
             },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "My cousin Alfred told me. He works in the Silicon Valley",
-                        "fr": "My cousin Alfred told me. He works in the Silicon Valley",
+                        "fr": "Mon cousin Alfred me l'a dit. Il travaille dans la Silicon Valley",
                         "es": "My cousin Alfred told me. He works in the Silicon Valley",
                         "zh": "My cousin Alfred told me. He works in the Silicon Valley"
                     }
@@ -74,7 +74,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Those guys know everything!",
-                        "fr": "Those guys know everything!",
+                        "fr": "Ces gars là savent tout !",
                         "es": "Those guys know everything!",
                         "zh": "Those guys know everything!"
                     }
@@ -87,7 +87,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "I don't, no",
-                "fr": "I don't, no",
+                "fr": "Non",
                 "es": "I don't, no",
                 "zh": "I don't, no"
             },
@@ -96,7 +96,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
-                        "fr": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
+                        "fr": "Jamais ? C'est étrange, mon cousin Alfred me dit que oui...il travaille dans la Silicon Valley",
                         "es": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
                         "zh": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley"
                     }
@@ -114,7 +114,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I thought those guys knew everything!",
-                        "fr": "I thought those guys knew everything!",
+                        "fr": "Je pensais que ces gars là savaient tout !",
                         "es": "I thought those guys knew everything!",
                         "zh": "I thought those guys knew everything!"
                     }
