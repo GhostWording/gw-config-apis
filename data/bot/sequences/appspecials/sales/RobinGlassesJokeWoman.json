@@ -7,8 +7,8 @@
             "Label": {
                 "en": "Do you know the joke about the owl and the woman who wears glasses?",
                 "fr": "Connais-tu la blague de la chouette et de la femme qui porte des lunettes ?",
-                "es": "Do you know the joke about the owl and the woman who wears glasses?",
-                "zh": "Do you know the joke about the owl and the woman who wears glasses?"
+                "es": "¿Conoces el chiste del búho y la mujer que lleva gafas?",
+                "zh": "Do you know the joke about the owl and the human who wears glasses?"
             }
         },
         {
@@ -25,17 +25,17 @@
             "Label": {
                 "en": "I kinda forgot how it goes...",
                 "fr": "J'ai un peu oublié comment elle fonctionne...",
-                "es": "I kinda forgot how it goes...",
+                "es": "He olvidado cómo funciona...",
                 "zh": "I kinda forgot how it goes..."
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "But you do wear glasses, right madam?",
-                "fr": "Mais tu portes des lunettes, n'est-ce pas madame ?",
-                "es": "But you do wear glasses, right madam?",
-                "zh": "But you do wear glasses, right madam?"
+                "en": "But you do wear glasses, right sir?",
+                "fr": "Mais tu portes des lunettes, n'est-ce pas monsieur ?",
+                "es": "Pero tú usas gafas, ¿verdad señora?",
+                "zh": "But you do wear glasses, right sir?"
             }
         }
     ],
@@ -48,7 +48,7 @@
             "CommandLabel": {
                 "en": "How did you know?",
                 "fr": "Comment le sais-tu ?",
-                "es": "How did you know?",
+                "es": "¿Cómo lo supo?",
                 "zh": "How did you know?"
             },
             "Steps": [
@@ -57,7 +57,7 @@
                     "Label": {
                         "en": "My cousin Alfred told me. He works in the Silicon Valley",
                         "fr": "Mon cousin Alfred me l'a dit. Il travaille dans la Silicon Valley",
-                        "es": "My cousin Alfred told me. He works in the Silicon Valley",
+                        "es": "Mi primo Alfred me lo dijo. Trabaja en el Silicon Valley",
                         "zh": "My cousin Alfred told me. He works in the Silicon Valley"
                     }
                 },
@@ -75,7 +75,7 @@
                     "Label": {
                         "en": "Those guys know everything!",
                         "fr": "Ces gars là savent tout !",
-                        "es": "Those guys know everything!",
+                        "es": "¡Estos tipos lo saben todo!",
                         "zh": "Those guys know everything!"
                     }
                 }
@@ -88,7 +88,7 @@
             "CommandLabel": {
                 "en": "I don't, no",
                 "fr": "Non",
-                "es": "I don't, no",
+                "es": "No",
                 "zh": "I don't, no"
             },
             "Steps": [
@@ -97,7 +97,7 @@
                     "Label": {
                         "en": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
                         "fr": "Jamais ? C'est étrange, mon cousin Alfred me dit que oui...il travaille dans la Silicon Valley",
-                        "es": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley",
+                        "es": "¿Nunca? Es extraño, mi primo Alfred me dice que sí... trabaja en Silicon Valley.",
                         "zh": "That's weird... my cousin Alfred told me you did... and he works in the Silicon Valley"
                     }
                 },
@@ -115,7 +115,7 @@
                     "Label": {
                         "en": "I thought those guys knew everything!",
                         "fr": "Je pensais que ces gars là savaient tout !",
-                        "es": "I thought those guys knew everything!",
+                        "es": "¡Pensé que esos tipos lo sabían todo!",
                         "zh": "I thought those guys knew everything!"
                     }
                 }
