@@ -4,8 +4,8 @@
         "GroupName":"test",
         "SequenceFiles":[
             { "order" : 5, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorld.json"]},
-            { "order" : 10, "file": ["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json","/data/bot/sequences/smalltalk/AreYouReal.json"]},
             { "order" : 9, "file": ["/data/bot/sequences/appspecials/sales/SalesUnicorn.json"],"condition": "ppGender == ''"},
+            { "order" : 10, "file": ["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json","/data/bot/sequences/smalltalk/AreYouReal.json"]},
             { "order" : 15, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","/data/bot/sequences/appspecials/sales/RobinGlassesJokeMan.json"],"condition": "ppGender == 'male'"},
             { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","/data/bot/sequences/appspecials/sales/RobinGlassesJokeWoman.json"],"condition": "ppGender == 'female'"},
             { "order" : 17, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"],"condition": "ppGender == ''"},
