@@ -12,7 +12,7 @@
             { "order" : 50, "file": ["/data/bot/sequences/experiments/rui/OneSimpleHelloWorld.json"]},
             { "order" : 55, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","data/bot/sequences/appspecials/sales/RobinGlassesJokeMan.json"],"condition": "ppGender == 'male'"},
             { "order" : 56, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","data/bot/sequences/appspecials/sales/RobinGlassesJokeWoman.json"],"condition": "ppGender == 'female'"},
-            { "order" : 57, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","data/bot/sequences/appspecials/sales/RobinGlassesHuman.json"],"condition": "ppGender == ''"},
+            { "order" : 57, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"],"condition": "ppGender == ''"},
             { "order" : 60, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorning.json"]},
             { "order" : 70, "file": ["/data/bot/sequences/experiments/dbtest/ShowTextForPrototypeYoureTheBest.json"]},
             { "order" : 80, "file": ["/data/bot/sequences/experiments/dbtest/ShowCardForPrototypeGoodMorningWithImage.json"]},
