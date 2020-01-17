@@ -17,7 +17,7 @@
       { "order" : 170, "file":["/data/bot/sequences/appspecials/sales/RobinYourself.json"]},
       { "order" : 180, "file":["/data/bot/sequences/appspecials/sales/RobinInterests.json"]},
       { "order" : 185, "file":["/data/bot/sequences/appspecials/sales/RobinParis.json"], "condition" : "ppRobinInterests == 'RobinInterestsParis'"},
-      { "order" : 190, "file":["/data/bot/sequences/appspecials/sales/RobinArt.json"], "condition" : "ppRobinInterests == 'RobinInterestsArt'"},,
+      { "order" : 190, "file":["/data/bot/sequences/appspecials/sales/RobinArt.json"], "condition" : "ppRobinInterests == 'RobinInterestsArt'"},
       { "order" : 195, "file":["/data/bot/sequences/appspecials/sales/RobinHistory.json"], "condition" : "ppRobinInterests == 'RobinInterestsHistory'"},
       { "order" : 200, "file":["/data/bot/sequences/appspecials/sales/SalesCooking.json"]},
       { "order" : 210, "file":["/data/bot/sequences/experiments/Billy2/GifTestExperiment.json"]},
