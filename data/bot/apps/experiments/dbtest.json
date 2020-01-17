@@ -8,7 +8,7 @@
             { "order" : 9, "file": ["/data/bot/sequences/appspecials/sales/SalesUnicorn.json"],"condition": "ppGender == ''"},
             { "order" : 15, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","data/bot/sequences/appspecials/sales/RobinGlassesJokeMan.json"],"condition": "ppGender == 'male'"},
             { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","data/bot/sequences/appspecials/sales/RobinGlassesJokeWoman.json"],"condition": "ppGender == 'female'"},
-            { "order" : 17, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json","condition": "ppGender == ''"]},
+            { "order" : 17, "file": ["/data/bot/sequences/appspecials/sales/RobinOpener.json","/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"],"condition": "ppGender == ''"]},
             { "order" : 44, "file": ["/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
             { "order" : 46, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
             { "order" : 48, "file": ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
