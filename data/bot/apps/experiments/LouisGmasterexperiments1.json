@@ -3,9 +3,9 @@
     "GroupName": "MinuteArt",
     "SequenceFiles": [
       { "order" : 10, "file":["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
-      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinGlassesJokeMan.json"]},
-      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"]},
-      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinGlassesJokeWoman.json"]},
+      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinGlassesJokeMan.json"], "condition" : "ppGender == 'male'"},
+      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"], "condition" : "ppGender != 'female' && ppGender != 'male'"},
+      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinGlassesJokeWoman.json"], "condition" : "ppGender == 'female'"},
       { "order" : 110, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 115, "file":["/data/bot/sequences/appspecials/sales/RobinInterests.json"], "condition" : "ppRobinUseful == 'RobinUsefulTeach' || ppRobinUseful == 'RobinUsefulCompanyMe'"},
       { "order" : 125, "file":["/data/bot/sequences/appspecials/sales/RobinImprove.json"], "condition" : "ppRobinUseful == 'RobinUsefulBetter'"},
