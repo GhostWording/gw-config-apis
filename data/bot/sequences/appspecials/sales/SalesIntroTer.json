@@ -1,0 +1,101 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntroTer",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi! 😁",
+                "fr": "Salut ! 😁",
+                "es": "Hola 😁"
+            },
+            "Vibration": "true"
+        },
+        {
+            "Type": "Action",
+            "Name": "TypingBarHide"
+        },
+        {
+            "Type": "Action",
+            "Name": "ChatheadChange",
+            "Parameters": {
+                "Image": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a pleasure to meet you",
+                "fr": "Content de te voir",
+                "es": "Es un placer conocerte"
+            },
+            "Vibration": "true"
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesIntroTerPressMe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Touch here to say hi!",
+                "fr": "Appuie ici pour dire bonjour !",
+                "es": "Presione aquí para saludar!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thanks for pressing! I was hoping you would. I'm a lucky owl with a fondness for unlikely causes.",
+                        "fr": "Merci d'avoir appuyé ! J'espérais que tu le ferais. Je suis un hibou chanceux amateur de causes improbables.",
+                        "es": "Gracias por presionar! Esperaba que lo hicieras. Soy un búho afortunado aficionado a las causas improbables."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My friends call me Robin Hoot",
+                        "fr": "Mes amis m'appellent Robin Hoot",
+                        "es": "Mis amigos me llaman Robin Hoot"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/Quoteo.jpg"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                }
+            ]
+        }       
+    ]
+}
