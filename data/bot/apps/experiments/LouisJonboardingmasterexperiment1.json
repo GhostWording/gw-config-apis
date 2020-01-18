@@ -2,7 +2,7 @@
     {
         "GroupName":"test",
         "SequenceFiles":[
-      { "order" : 110, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
+      { "order" : 110, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json","/data/bot/sequences/appspecials/sales/SalesIntroBis.json","/data/bot/sequences/appspecials/sales/SalesIntroTer.json"]},
       { "oder" : 111, "file" : ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
       { "order" : 116, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 117, "file": ["/data/bot/sequences/appspecials/sales/SalesWeather.json"], "condition":"ppRobinUseful == 'blabla'"},                                
