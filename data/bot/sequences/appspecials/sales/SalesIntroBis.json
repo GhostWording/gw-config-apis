@@ -1,0 +1,162 @@
+{
+    "Type": "Node",
+    "Id": "SalesIntroBis",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi! 😁",
+                "fr": "Salut ! 😁",
+                "es": "Hola 😁"
+            },
+            "Vibration": "true"
+        },
+        {
+            "Type": "Action",
+            "Name": "TypingBarHide"
+        },
+        {
+            "Type": "Action",
+            "Name": "ChatheadChange",
+            "Parameters": {
+                "Image": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                }
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a pleasure to meet you",
+                "fr": "Je suis content de faire ta connaissance",
+                "es": "Es un placer conocerte"
+            },
+            "Vibration": "true"
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SalesIntroBisHi",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Hi!",
+                "fr": "Salut !",
+                "es": "Hola"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm a lucky owl with a fondness for unlikely causes",
+                        "fr": "Je suis une sorte de chouette. Un hibou chanceux amateur de causes improbables",
+                        "es": "Yo soy un búho suertudo amante de causas improbables"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My friends call me Robin Hoot",
+                        "fr": "Mes amis m'appellent Robin Hoot",
+                        "es": "Mis amigos me llaman Robin Hoot"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/Quoteo.jpg"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SalesIntroBisWho",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Who are you?",
+                "fr": "Qui es-tu ?",
+                "es": "¿Quién eres tu?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm a lucky owl with a fondness for unlikely causes",
+                        "fr": "Je suis une sorte de chouette. Un hibou chanceux amateur de causes improbables",
+                        "es": "Yo soy un búho suertudo amante de causas improbables"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "My friends call me Robin Hoot",
+                        "fr": "Mes amis m'appellent Robin Hoot",
+                        "es": "Mis amigos me llaman Robin Hoot"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/Quoteo.jpg"
+                    },
+                    "Audio": {
+                      "en": {
+                        "Source": "Web",
+                        "Path": "http://www.simplysally.com/mods/owl.wav"
+                      }
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                }
+            ]
+        }
+    ]
+}
