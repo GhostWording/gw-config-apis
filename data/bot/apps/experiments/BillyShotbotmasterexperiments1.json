@@ -3,7 +3,7 @@
     "GroupName":"test",
     "SequenceFiles" : [
       { "order" : 90, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json"]},
-      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
+      { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json","/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"]},
       { "order" : 110, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 200, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro2.json"]},
       { "order" : 300, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro3.json"]},
