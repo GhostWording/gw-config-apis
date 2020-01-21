@@ -2,6 +2,16 @@
     "Type": "Node",
     "Id": "RobinUseful",
     "Steps": [
+            {
+              "Type": "Action",
+              "Name": "ChatheadChange",
+              "Parameters": {
+                  "Image": {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                  }
+              }
+          },           
         {
             "Type": "Text",
             "Label": {
