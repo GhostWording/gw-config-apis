@@ -1,0 +1,162 @@
+{
+  "Type": "Node",
+  "Id": "RobinBarJoke",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+          "en": "I'm currently trying to learn jokes. Do you know this one?",
+          "fr": "J'essaye d'apprendre des blagues. Connais-tu celle-ci ?",
+          "es": "Estoy tratando de aprender algunos chistes. ¿Conoces a este?"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 1000
+      }
+    },    
+    {
+          "Type": "Text",
+          "Label": {
+              "en": "A guy and an owl bot walk into a bar...",
+              "fr": "Un type et un chouette chatbot rentrent dans un bar...",
+              "es": "Un tipo y un búho entran en un bar..."
+          }
+      },
+      {
+        "Type": "Action",
+        "Name": "ChatheadChange",
+        "Parameters": {
+            "Image": {
+                "Source": "Internal",
+                "Path": "/owls/gifs/chathead/avtar_surprised132x132.gif"
+            }
+        }
+    }        
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "RobinBarJokeYes",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "Yes, obviously",
+              "fr": "Oui, évidemment",
+              "es": "Sí"
+          },
+          "Steps": [
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "Oh no!",
+                      "fr": "Ah flûte !",
+                      "es": "Oh non"
+                  }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 1000
+                }
+              },                
+              {
+                  "Type": "Image",
+                  "Parameters": {
+                      "Width": 600,
+                      "Height": 365,
+                      "Source": "Internal",
+                      "Path": "owls/images/small/owltiny.jpg"
+                  }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 500
+                }
+              },                
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "I'm probably bad at jokes",
+                      "fr": "Je dois vraiment être nul en blagues",
+                      "es": "Debo ser muy malo para los chistes"
+                  }
+              },              
+              {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 1000
+                }
+              },                
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "Let me try to do something useful instead",
+                      "fr": "Je vais plutôt essayer de me rendre utile",
+                      "es": "Voy a tratar de hacerme útil"
+                  }
+              }              
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "RobinBarJokeNo",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "No, not yet",
+              "fr": "Non, pas encore",
+              "es": "No"
+          },
+          "Steps": [
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "As soon as the guy walks into the bar, the owl bot says...",
+                      "fr": "Dès que le gars rentre dans le bar, la chouette  dit...",
+                      "es": "Tan pronto como el tipo entra en el bar, el robot búho dice..."
+                  }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 1000
+                }
+              },                
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "How can I help?",
+                      "fr": "Que puis-je faire pour toi ?",
+                      "es": "¿Cómo puedo ayudar?"
+                  }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                    "Width": 600,
+                    "Height": 365,
+                    "Source": "Internal",
+                    "Path": "owls/images/small/16mm_orange_owl_eyes.jpg"
+                }
+            },
+            {
+              "Type": "Action",
+              "Name": "ChatheadChange",
+              "Parameters": {
+                  "Image": {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                  }
+              }
+          }              
+          ]
+      }
+  ]
+}
