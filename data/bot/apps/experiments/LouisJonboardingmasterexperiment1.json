@@ -3,7 +3,7 @@
     "GroupName":"test",
     "SequenceFiles":[
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntroTer.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesBarJoke.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/RobinSalesBarJoke.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "oder" : 116, "file" : ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
       { "order" : 117, "file": ["/data/bot/sequences/appspecials/sales/SalesWeather.json"], "condition":"ppRobinUseful == 'blabla'"},                                
