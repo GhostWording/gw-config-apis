@@ -143,19 +143,9 @@
                     "Width": 600,
                     "Height": 365,
                     "Source": "Internal",
-                    "Path": "owls/images/small/16mm_orange_owl_eyes.jpg"
+                    "Path": "owls/images/small/cute_owl1.jpg"
                 }
-            },
-            {
-              "Type": "Action",
-              "Name": "ChatheadChange",
-              "Parameters": {
-                  "Image": {
-                      "Source": "Web",
-                      "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_happy132x132.gif"
-                  }
-              }
-          }              
+            }           
           ]
       }
   ]
