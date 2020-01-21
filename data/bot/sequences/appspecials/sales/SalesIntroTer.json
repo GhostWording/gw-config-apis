@@ -55,6 +55,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },                
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "My friends call me Robin Hoot",
@@ -72,7 +79,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 2000
+                        "ms": 1000
                     }
                 },
                 {
