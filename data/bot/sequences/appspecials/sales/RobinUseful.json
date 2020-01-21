@@ -1,17 +1,7 @@
 {
     "Type": "Node",
     "Id": "RobinUseful",
-    "Steps": [
-            {
-              "Type": "Action",
-              "Name": "ChatheadChange",
-              "Parameters": {
-                  "Image": {
-                      "Source": "Web",
-                      "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_happy132x132.gif"
-                  }
-              }
-          },           
+    "Steps": [         
         {
             "Type": "Text",
             "Label": {
@@ -20,7 +10,17 @@
                 "es": "Entonces, ¿cómo puedo serte útil?",
                 "zh": "So I was wondering - how can I be useful to you?"
             }
-        }
+        },
+         {
+              "Type": "Action",
+              "Name": "ChatheadChange",
+              "Parameters": {
+                  "Image": {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                  }
+              }
+         }        
     ],
     "DisplayHint": "Carousel",
     "Randomize": "true",
