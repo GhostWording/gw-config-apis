@@ -1,13 +1,11 @@
 [
     {
-        "GroupName":"test",
-        "SequenceFiles":[
-      { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro.json","/data/bot/sequences/appspecials/sales/SalesIntroBis.json","/data/bot/sequences/appspecials/sales/SalesIntroTer.json"]},
-      { "order" : 15, "file": ["/data/bot/sequences/appspecials/sales/RobinGlassesJokeMan.json"],"condition": "ppGender == 'male'"},
-      { "order" : 16, "file": ["/data/bot/sequences/appspecials/sales/RobinGlassesJokeWoman.json"],"condition": "ppGender == 'female'"},
-      { "order" : 17, "file": ["/data/bot/sequences/appspecials/sales/RobinGlassesJokeHuman.json"],"condition": "ppGender == ''"},
-      { "oder" : 111, "file" : ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
-      { "order" : 116, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
+    "GroupName":"test",
+    "SequenceFiles":[
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntroTer.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/sales/SalesBarJoke.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
+      { "oder" : 116, "file" : ["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
       { "order" : 117, "file": ["/data/bot/sequences/appspecials/sales/SalesWeather.json"], "condition":"ppRobinUseful == 'blabla'"},                                
       { "order" : 118, "file": ["/data/bot/sequences/appspecials/sales/SalesUnicorn.json"], "condition":"ppRobinUseful == 'RobinUsefulCheer'"},                    
       { "order" : 122, "file": ["/data/bot/sequences/appspecials/sales/SalesWinds.json"]},
