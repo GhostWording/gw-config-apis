@@ -15,15 +15,6 @@
             "Name": "TypingBarHide"
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "It's a pleasure to meet you 😁",
-                "fr": "Content de te voir 😁",
-                "es": "Es un placer conocerte 😁"
-            },
-            "Vibration": "true"
-        },
-        {
             "Type": "Action",
             "Name": "ChatheadChange",
             "Parameters": {
@@ -32,7 +23,16 @@
                     "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
                 }
             }
-        }        
+        } ,        
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a pleasure to meet you 😁",
+                "fr": "Content de te voir 😁",
+                "es": "Es un placer conocerte 😁"
+            },
+            "Vibration": "true"
+        }       
     ],
     "Commands": [
         {
