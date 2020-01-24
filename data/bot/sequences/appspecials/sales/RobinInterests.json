@@ -26,6 +26,14 @@
             },
             "Steps": [
                 {
+                    Type: "Action",
+                    Name: "SetUserProperty",
+                    Parameters: {
+                    property: "ppRobinInterests",
+                    value: "RobinInterestsCats"
+                    }
+                },                
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "They are dangerous! I'm most interested in interior nest design",
@@ -47,6 +55,15 @@
                 "zh": "Art"
             },
             "Steps": [
+                {
+                    Type: "Action",
+                    Name: "SetUserProperty",
+                    Parameters: {
+                    property: "ppRobinInterests",
+                    value: "RobinInterestsArt"
+                    }
+                },                
+                
                 {
                     "Type": "Text",
                     "Label": {
@@ -70,6 +87,15 @@
             },
             "Steps": [
                 {
+                    Type: "Action",
+                    Name: "SetUserProperty",
+                    Parameters: {
+                    property: "ppRobinInterests",
+                    value: "RobinInterestsHealth"
+                    }
+                },                
+                
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "How wise of you! I'm most interested in interior nest design",
@@ -91,6 +117,14 @@
                 "zh": "Travel"
             },
             "Steps": [
+                {
+                    Type: "Action",
+                    Name: "SetUserProperty",
+                    Parameters: {
+                    property: "ppRobinInterests",
+                    value: "RobinInterestsTravel"
+                    }
+                },                                
                 {
                     "Type": "Text",
                     "Label": {
@@ -114,6 +148,14 @@
             },
             "Steps": [
                 {
+                    Type: "Action",
+                    Name: "SetUserProperty",
+                    Parameters: {
+                    property: "ppRobinInterests",
+                    value: "RobinInterestsMusic"
+                    }
+                },                                
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Cool! I love that...interior nest design",
@@ -135,6 +177,14 @@
                 "zh": "Finding Love"
             },
             "Steps": [
+                {
+                    Type: "Action",
+                    Name: "SetUserProperty",
+                    Parameters: {
+                    property: "ppRobinInterests",
+                    value: "RobinInterestsLove"
+                    }
+                },                                
                 {
                     "Type": "Text",
                     "Label": {
