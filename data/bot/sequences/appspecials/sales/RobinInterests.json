@@ -27,7 +27,7 @@
             "Steps": [
                 {
                     "Type": "Action",
-                    "Name:" "SetUserProperty",
+                    "Name":"SetUserProperty",
                     "Parameters": {
                     "property": "ppRobinInterests",
                     "value": "RobinInterestsCats"
