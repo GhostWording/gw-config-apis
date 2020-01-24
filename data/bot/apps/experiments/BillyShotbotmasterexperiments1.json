@@ -2,7 +2,14 @@
   {
     "GroupName":"test",
     "SequenceFiles" : [
-      { "order" : 90, "file": ["/data/bot/sequences/appspecials/sales/SalesIntroBis.json","/data/bot/sequences/appspecials/sales/SalesIntroTer.json"]},
+     { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntroBis.json","/data/bot/sequences/appspecials/sales/SalesIntroTer.json"]},
+      { "order" : 20, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
+      { "order" : 30, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
+      { "order" : 50, "file":["/data/bot/sequences/appspecials/sales/Robinworries.json"],"condition" : "ppRobinUseful == 'RobinUsefulCheer' || ppRobinUseful == 'RobinUsefulCope'"},        
+      { "order" : 60, "file":["/data/bot/sequences/appspecials/sales/RobinInterests.json"],"condition" : "ppRobinUseful == 'RobinUsefulTeach' || ppRobinUseful == 'RobinUsefulDiscover'"},
+      { "order" : 66, "file":["/data/bot/sequences/appspecials/sales/RobinHistory.json"], "condition" : "ppRobinUseful == 'RobinUsefulTeach'"},       
+      { "order" : 68, "file":["/data/bot/sequences/appspecials/sales/RobinParis.json"], "condition" : "ppRobinInterests == 'RobinInterestsTravel'"},       
+      { "order" : 69, "file":["/data/bot/sequences/appspecials/sales/RobinArt.json"], "condition" : "ppRobinInterests == 'RobinInterestsArt'"},
       { "order" : 100, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
       { "order" : 110, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 200, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro2.json"]},
