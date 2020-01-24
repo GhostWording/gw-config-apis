@@ -26,11 +26,11 @@
             },
             "Steps": [
                 {
-                    Type: "Action",
-                    Name: "SetUserProperty",
-                    Parameters: {
-                    property: "ppRobinInterests",
-                    value: "RobinInterestsCats"
+                    "Type": "Action",
+                    "Name:" "SetUserProperty",
+                    "Parameters": {
+                    "property": "ppRobinInterests",
+                    "value": "RobinInterestsCats"
                     }
                 },                
                 {
@@ -56,11 +56,11 @@
             },
             "Steps": [
                 {
-                    Type: "Action",
-                    Name: "SetUserProperty",
-                    Parameters: {
-                    property: "ppRobinInterests",
-                    value: "RobinInterestsArt"
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                    "property": "ppRobinInterests",
+                    "value": "RobinInterestsArt"
                     }
                 },                
                 
@@ -87,11 +87,11 @@
             },
             "Steps": [
                 {
-                    Type: "Action",
-                    Name: "SetUserProperty",
-                    Parameters: {
-                    property: "ppRobinInterests",
-                    value: "RobinInterestsHealth"
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                    "property": "ppRobinInterests",
+                    "value": "RobinInterestsHealth"
                     }
                 },                
                 
@@ -118,11 +118,11 @@
             },
             "Steps": [
                 {
-                    Type: "Action",
-                    Name: "SetUserProperty",
-                    Parameters: {
-                    property: "ppRobinInterests",
-                    value: "RobinInterestsTravel"
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                    "property": "ppRobinInterests",
+                    "value": "RobinInterestsTravel"
                     }
                 },                                
                 {
@@ -148,11 +148,11 @@
             },
             "Steps": [
                 {
-                    Type: "Action",
-                    Name: "SetUserProperty",
-                    Parameters: {
-                    property: "ppRobinInterests",
-                    value: "RobinInterestsMusic"
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                    "property": "ppRobinInterests",
+                    "value": "RobinInterestsMusic"
                     }
                 },                                
                 {
@@ -178,11 +178,11 @@
             },
             "Steps": [
                 {
-                    Type: "Action",
-                    Name: "SetUserProperty",
-                    Parameters: {
-                    property: "ppRobinInterests",
-                    value: "RobinInterestsLove"
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                    "property": "ppRobinInterests",
+                    "value": "RobinInterestsLove"
                     }
                 },                                
                 {
