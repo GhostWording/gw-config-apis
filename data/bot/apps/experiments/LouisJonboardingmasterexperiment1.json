@@ -7,8 +7,9 @@
       { "order" : 30, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 50, "file":["/data/bot/sequences/appspecials/sales/Robinworries.json"],"condition" : "ppRobinUseful == 'RobinUsefulCheer' || ppRobinUseful == 'RobinUsefulCope'"},        
       { "order" : 60, "file":["/data/bot/sequences/appspecials/sales/RobinInterests.json"],"condition" : "ppRobinUseful == 'RobinUsefulTeach' || ppRobinUseful == 'RobinUsefulDiscover'"},
-      { "order" : 66, "file":["/data/bot/sequences/appspecials/sales/RobinHistory.json"], "condition" : "ppRobinUseful == 'RobinUsefulTeach' || ppRobinInterests == 'RobinInterestsArt'"},       
+      { "order" : 66, "file":["/data/bot/sequences/appspecials/sales/RobinHistory.json"], "condition" : "ppRobinUseful == 'RobinUsefulTeach'"},       
       { "order" : 68, "file":["/data/bot/sequences/appspecials/sales/RobinParis.json"], "condition" : "ppRobinInterests == 'RobinInterestsTravel'"},       
+      { "order" : 69, "file":["/data/bot/sequences/appspecials/sales/RobinArt.json"], "condition" : "ppRobinInterests == 'RobinInterestsArt'"},       
         
       { "order" : 100, "file": ["/data/bot/sequences/appspecials/sales/SalesIntro2.json"]},
                       
