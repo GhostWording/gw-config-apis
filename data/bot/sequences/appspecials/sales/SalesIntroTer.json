@@ -40,16 +40,16 @@
             "Id": "SalesIntroTerPressMe",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Touch here to say hi!",
-                "fr": "Appuie ici pour dire bonjour !",
-                "es": "Presione aquí para saludar!"
+                "en": "Hi",
+                "fr": "Bonjour",
+                "es": "Hola"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Thanks for pressing! I was hoping you would. I'm a lucky owl with a fondness for unlikely causes.",
-                        "fr": "Merci d'avoir appuyé ! J'espérais que tu le ferais. Je suis un hibou chanceux amateur de causes improbables.",
+                        "en": "Thanks for pressing that button! I was hoping you would. I'm a lucky owl with a fondness for unlikely causes.",
+                        "fr": "Merci d'avoir appuyé sur ce bouton ! J'espérais que tu le ferais. Je suis un hibou chanceux amateur de causes improbables.",
                         "es": "Gracias por presionar! Esperaba que lo hicieras. Soy un búho afortunado aficionado a las causas improbables."
                     }
                 },
