@@ -24,10 +24,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Source": "Web",
+                "Source": "Internal",
                 "Width": 1000,
                 "Height": 679,
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana.jpg"
+                "Path": "/museums/louvre/previews/WeddingCana_Half_60.jpg"
             }
         }
     ],
@@ -55,10 +55,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 1000,
                         "Height": 679,
-                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+                        "Path": "/museums/louvre/sequenceimages/weddingcanadogs.jpg"
                     }
                 },
                 {
@@ -98,10 +98,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 1000,
                         "Height": 679,
-                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+                        "Path": "/museums/louvre/sequenceimages/weddingcanadogs.jpg"
                     }
                 },
                 {
@@ -141,10 +141,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 1000,
                         "Height": 679,
-                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+                        "Path": "/museums/louvre/sequenceimages/weddingcanadogs.jpg"
                     }
                 },
                 {
@@ -184,10 +184,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 1000,
                         "Height": 679,
-                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana7.jpg"
+                        "Path": "/museums/louvre/sequenceimages/weddingcanadogs.jpg"
                     }
                 },
                 {
