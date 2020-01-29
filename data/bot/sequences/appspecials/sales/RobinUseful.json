@@ -239,66 +239,6 @@
         },
         {
             "Type": "Leaf",
-            "Id": "RobinUsefulBetter",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Make me a better person",
-                "fr": "Aide-moi à progresser",
-                "es": "Hazme una mejor persona",
-                "zh": "Make me a better person"
-            },
-            "CarouselElements": {
-                "Title": {
-                    "en": ".",
-                    "fr": ".",
-                    "es": ".",
-                    "zh": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_670606195.jpg"
-                }
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "SetUserProperty",
-                    "Parameters": {
-                        "property": "ppRobinUseful",
-                        "value": "RobinUsefulBetter"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I love your attitude... You are a role model for me...",
-                        "fr": "J'admire ton attitude...Je vais essayer de prendre exemple...",
-                        "es": "Me encanta tu actitud... Desearía estar tan motivado...",
-                        "zh": "I love your attitude... I wish I was as motivated..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Currently, I'm a bit stuck in my job...",
-                        "fr": "A l'heure actuelle, je me sens un peu coincé dans mon boulot...",
-                        "es": "Actualmente, estoy un poco atascado en mi trabajo...",
-                        "zh": "Currently, I'm a bit stuck in my job..."
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Width": 600,
-                        "Height": 365,
-                        "Source": "Internal",
-                        "Path": "/owls/images/small/stuckowl.jpg"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
             "Id": "RobinUsefulDiscover",
             "ElementValue": "1",
             "CommandLabel": {
@@ -362,48 +302,6 @@
                         "Height": 365,
                         "Source": "Internal",
                         "Path": "/owls/images/small/1143698260.jpg"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
-            "Id": "RobinUsefulCope",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Help me cope with my problems",
-                "fr": "Aide-moi à résoudre mes problèmes",
-                "es": "Ayúdame a lidiar con mis problemas",
-                "zh": "Help me cope with my problems"
-            },
-            "CarouselElements": {
-                "Title": {
-                    "en": ".",
-                    "fr": ".",
-                    "es": ".",
-                    "zh": "."
-                },
-                "Picture": {
-                    "Source": "Web",
-                    "Path": "http://az767698.vo.msecnd.net/themes/emoticons8/small/shutterstock_29275450.jpg"
-                }
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "SetUserProperty",
-                    "Parameters": {
-                        "property": "ppRobinUseful",
-                        "value": "RobinUsefulCope"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I'll see what I can do!",
-                        "fr": "Je vais voir ce que je peux faire !",
-                        "es": "¡Veré lo que puedo hacer!",
-                        "zh": "I would love to!"
                     }
                 }
             ]
