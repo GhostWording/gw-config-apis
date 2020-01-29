@@ -17,8 +17,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 750,
                 "Height": 868,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304587/museum%20app/Head_of_Hadrian_BM.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/hadrianfullhead.jpg"
             }
         },
         {
@@ -74,17 +74,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 330,
                         "Height": 261,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533304580/museum%20app/Hadrians-beard.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "…",
-                        "fr": "…",
-                        "es": "...",
-                        "zh": "..."
+                        "Source": "Internal",
+                        "Path": "/museums/britishmuseum/sequenceimages/hadrianbeard.jpg"
                     }
                 }
             ],
@@ -127,8 +118,8 @@
                                 "Parameters": {
                                     "Width": 777,
                                     "Height": 943,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540915965/augustus.jpg"
+                                    "Source": "Internal",
+                                    "Path": "/museums/britishmuseum/sequenceimages/rulersaugustus.jpg"
                                 }
                             },
                             {
