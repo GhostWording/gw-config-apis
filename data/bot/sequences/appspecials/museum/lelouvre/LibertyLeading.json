@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Source": "Web",                
+                "Source": "Internal",                
                 "Width": 960,
                 "Height": 720,
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534498142/1statue_of_liberty.jpg"
+                "Path": "/museums/louvre/sequenceimages/libertystatue.jpg"
             }
         },
         {
