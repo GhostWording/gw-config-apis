@@ -37,10 +37,10 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display":"FullScreenWidth",
-                        "Source": "Web",                
+                        "Source": "Internal",                
                         "Width": 1000,
                         "Height": 638,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534939389/family_tree_green.jpg"
+                        "Path": "/museums/louvre/sequenceimages/louisfamilytree.jpg"
                     }
                 },
                 {
@@ -130,19 +130,10 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display":"FullScreenWidth",
-                                    "Source": "Web",                
+                                    "Source": "Internal",                
                                     "Width": 635,
                                     "Height": 910,
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534939926/louisXIV_baby.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "...",
-                                    "fr": "...",
-                                    "es": "...",
-                                    "zh": "..."
+                                    "Path": "/museums/louvre/sequenceimages/louisbaby.jpg"
                                 }
                             }
                         ],
