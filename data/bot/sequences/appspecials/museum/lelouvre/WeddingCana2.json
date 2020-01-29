@@ -15,10 +15,10 @@
             "Type": "Image",
             "Parameters": {
                 "Display": "FullScreenWidth",
-                "Source": "Web",
+                "Source": "Internal",
                 "Width": 1000,
                 "Height": 679,
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana.jpg"
+                "Path": "/museums/louvre/previews/WeddingCana_Half_60.jpg"
             }
         },
         {
@@ -55,10 +55,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 800,
                         "Height": 544,
-                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana2.jpg"
+                        "Path": "/museums/louvre/sequenceimages/weddingcanasize.jpg"
                     }
                 },
                 {
@@ -107,10 +107,10 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Source": "Web",
+                                    "Source": "Internal",
                                     "Width": 611,
                                     "Height": 410,
-                                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana3.jpg"
+                                    "Path": "/museums/louvre/sequenceimages/weddingcanajesus.jpg"
                                 }
                             },
                             {
@@ -168,10 +168,10 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Source": "Web",
+                                    "Source": "Internal",
                                     "Width": 611,
                                     "Height": 410,
-                                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana3.jpg"
+                                    "Path": "/museums/louvre/sequenceimages/weddingcanajesus.jpg"
                                 }
                             }
                         ],
