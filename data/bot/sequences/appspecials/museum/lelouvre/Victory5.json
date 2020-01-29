@@ -104,11 +104,11 @@
                                     "Display": "FullScreenWidth",
                                     "Width": 805,
                                     "Height": 1085,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1541070627/7victory_move.jpg"
+                                    "Source": "Internal",
+                                    "Path": "/museums/louvre/sequenceimages/victorymoving.jpg"
                                 }
                             },
-                                                        {
+                            {
                                 "Type": "Pause",
                                 "Parameters": {
                                     "Mode": "Wait",
