@@ -26,17 +26,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 753,
                 "Height": 697,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1536839000/3slaves.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "…",
-                "fr": "…",
-                "es": "…",
-                "zh": "…"
+                "Source": "Internal",
+                "Path": "/museums/louvre/previews/slaves.jpg"
             }
         }
     ],
