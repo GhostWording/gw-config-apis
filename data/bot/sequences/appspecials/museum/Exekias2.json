@@ -17,8 +17,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 750,
                 "Height": 750,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685325/museum%20app/Exekias_Achilles_Penthesileia_close_up_2.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/exekiasreverse.jpg"
             }
         },
         {
@@ -43,8 +43,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 383,
                 "Height": 436,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685324/museum%20app/Exekias_Achilles_Penthesileia_close_up_2_clothes.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/exekiasreverseclose.jpg"
             }
         }
     ],
@@ -74,8 +74,8 @@
                     "Parameters": {
                         "Width": 1120,
                         "Height": 750,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532685326/museum%20app/side_by_side.png"
+                        "Source": "Internal",
+                        "Path": "/museums/britishmuseum/sequenceimages/exekiassidebyside.png"
                     }
                 },
                 {
