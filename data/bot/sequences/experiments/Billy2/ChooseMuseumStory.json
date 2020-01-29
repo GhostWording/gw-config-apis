@@ -15,6 +15,27 @@
     "DisplayHint": "Carousel",
     "Randomize": "true",
     "Commands": [
+       {
+            "Type": "Node",
+            "Id": "ChooseItemMeroe",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Continue talking",
+                "fr": "Continuer à bavarder",
+                "es": "Sigue hablando"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🗽",
+                    "fr": "🗽",
+                    "es": "🗽"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/owls/images/small/Quoteo3.jpg"
+                }
+            }
+        },
         {
             "Type": "Node",
             "Id": "ChooseItemMeroe",
