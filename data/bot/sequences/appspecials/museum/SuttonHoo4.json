@@ -7,8 +7,8 @@
             "Parameters": {
                 "Width": 273,
                 "Height": 261,
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1533731610/Sutton_Hoo_4.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/suttonhoodrawing.jpg"
             }
         },
         {
@@ -32,17 +32,8 @@
             "Parameters": {
                 "Width": 1100,
                 "Height": 753,
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534248288/Sutton_Hoo_5.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "…",
-                "fr": "…",
-                "es": "…",
-                "zh": "..."
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/suttonhoofinding.jpg"
             }
         }
     ],
