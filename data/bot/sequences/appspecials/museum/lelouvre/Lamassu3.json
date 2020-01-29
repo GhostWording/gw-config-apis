@@ -5,11 +5,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Display":"FullScreenWidth",
                 "Width": 763,
                 "Height": 1002,
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534865763/3.1lamassu_legs.jpg"
+                "Path": "/museums/louvre/sequenceimages/lamassulegs.jpg"
             }
         },
         {
@@ -31,10 +31,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Width": 412,
                 "Height": 610,
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776460/3lamassu_front.jpg"
+                "Path": "/museums/louvre/sequenceimages/lamassufront.jpg"
             }
         },
         {
@@ -59,8 +59,8 @@
                 "Display":"FullScreenWidth",
                 "Width": 500,
                 "Height": 463,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534778252/4lamassu_walkingbis.jpg"
+                "Source": "Internal",
+                "Path": "/museums/louvre/sequenceimages/lamassuside.jpg"
             }
         },
         {
@@ -114,8 +114,8 @@
                         "Display":"FullScreenWidth",                
                         "Width": 757,
                         "Height": 579,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534776996/5lamassu_map.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/louvre/sequenceimages/lamassuorigin.jpg"
                     }
                 },
                 {
@@ -158,8 +158,8 @@
                                 "Parameters": {
                                     "Width": 720,
                                     "Height": 480,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535622929/museum%20app/Wrecked_Ship.jpg"
+                                    "Source": "Internal",
+                                    "Path": "/museums/louvre/sequenceimages/wreckedship.jpg"
                                 }
                             },
                             {
