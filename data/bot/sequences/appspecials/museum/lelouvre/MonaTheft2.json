@@ -21,11 +21,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Display":"FullScreenWidth",                
                 "Width": 388,
                 "Height": 482,
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534415329/Mona_lisa_newspaper_theft.jpg"
+                "Path": "/museums/louvre/sequenceimages/theftnewspaper.jpg"
             }
         },
         {
@@ -38,11 +38,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Display":"FullScreenWidth",                
                 "Width": 535,
                 "Height": 331,
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1534415969/mona_lisa_newspaper_nyt.jpg"
+                "Path": "/museums/louvre/sequenceimages/theftnewspaperNY.jpg"
             }
         },
         {
