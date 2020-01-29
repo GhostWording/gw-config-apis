@@ -16,36 +16,6 @@
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "RobinInterestsCats",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Cats",
-                "fr": "les chats",
-                "es": "Los gatos",
-                "zh": "Cats"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name":"SetUserProperty",
-                    "Parameters": {
-                    "property": "ppRobinInterests",
-                    "value": "RobinInterestsCats"
-                    }
-                },                
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "They are dangerous! I'm most interested in interior nest design",
-                        "fr": "Ils sont dangereux ! Je préfère la décoration intérieure des nids",
-                        "es": "¡Son peligrosos! Prefiero la decoración interior de los nidos",
-                        "zh": "Cool! I'm most interested in interior nest design"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
             "Id": "RobinInterestsArt",
             "ElementValue": "1",
             "CommandLabel": {
@@ -100,36 +70,6 @@
                     "Label": {
                         "en": "How wise of you! I'm most interested in interior nest design",
                         "fr": "Tu as probablement raison! Moi c'est la décoration intérieure des nids",
-                        "es": "Cool! Aunque también me interesa el diseño de nidos interiores",
-                        "zh": "Cool! I'm most interested in interior nest design"
-                    }
-                }
-            ]
-        },
-        {
-            "Type": "Leaf",
-            "Id": "RobinInterestsTravel",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Travel",
-                "fr": "les voyages",
-                "es": "lo recorrido",
-                "zh": "Travel"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "SetUserProperty",
-                    "Parameters": {
-                    "property": "ppRobinInterests",
-                    "value": "RobinInterestsTravel"
-                    }
-                },                                
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Cool! I'm most interested in interior nest design",
-                        "fr": "Cool! Moi c'est la décoration intérieure des nids",
                         "es": "Cool! Aunque también me interesa el diseño de nidos interiores",
                         "zh": "Cool! I'm most interested in interior nest design"
                     }
