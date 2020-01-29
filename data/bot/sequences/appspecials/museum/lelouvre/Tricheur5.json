@@ -5,8 +5,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Il a été acheté par un dénommé Pierre Landry, à un mystérieux marchand d'art... ",
-                "fr": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... ",
+                "en": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... ",
+                "fr": "Il a été acheté par un dénommé Pierre Landry, à un mystérieux marchand d'art... ",
                 "es": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... ",
                 "zh": "It was purchased by a man called Pierre Landry, from a mysterious art dealer... "
             }
@@ -16,8 +16,8 @@
             "Parameters": {
                 "Width": 280,
                 "Height": 396,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1563536143/landry.jpg"
+                "Source": "Internal",
+                "Path": "/museums/louvre/sequenceimages/landry.jpg"
             }
         },
         {
