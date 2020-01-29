@@ -26,8 +26,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 305,
                 "Height": 298,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540920885/pastoral.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/urpastoral.jpg"
             }
         },
         {
@@ -52,8 +52,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 1024,
                 "Height": 434,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921015/standard_peace_general.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/urpeacewhole.jpg"
             }
         },
         {
@@ -91,7 +91,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice2.jpg"
+                    "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/urpeacechoice.jpg"
                 }
             },
             "Steps": [
@@ -111,7 +111,7 @@
                         "Width": 833,
                         "Height": 705,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                        "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/urruler.jpg"
                     }
                 },
                 {
@@ -144,7 +144,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice1.jpg"
+                    "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/otherchoice1.jpg"
                 }
             },
             "Steps": [
@@ -164,7 +164,7 @@
                         "Width": 833,
                         "Height": 705,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                        "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/urruler.jpg"
                     }
                 },
                 {
@@ -197,7 +197,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                    "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/urruler.jpg"
                 }
             },
             "Steps": [
@@ -240,7 +240,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921503/otherchoice3.jpg"
+                    "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/otherchoice3.jpg"
                 }
             },
             "Steps": [
@@ -260,7 +260,7 @@
                         "Width": 833,
                         "Height": 705,
                         "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1540921347/ruler.jpg"
+                        "Path": "http://gw-static.azurewebsites.net/museums/britishmuseum/sequenceimages/urruler.jpg"
                     }
                 },
                 {
