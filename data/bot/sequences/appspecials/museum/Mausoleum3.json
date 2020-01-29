@@ -7,8 +7,8 @@
             "Parameters": {
                 "Width": 608,
                 "Height": 627,
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660432/mausolus.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/mausoluswife.jpg"
             }
         },
         {
@@ -96,8 +96,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 463,
                         "Height": 375,
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/britishmuseum/sequenceimages/mausoleummain.jpg"
                     }
                 }
             ],
@@ -190,10 +190,10 @@
                                             "Type": "Image",
                                             "Parameters": {
                                                 "Display": "FullScreenWidth",
-                                                "Source": "Web",
+                                                "Source": "Internal",
                                                 "Width": 678,
                                                 "Height": 457,
-                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661083/wonders.jpg"
+                                                "Path": "/museums/britishmuseum/sequenceimages/ancientwonders.jpg"
                                             }
                                         },
                                         {
@@ -248,11 +248,12 @@
                                                     {
                                                         "Type": "Image",
                                                         "Parameters": {
-                                                            "Source": "Web",
+                                                            "Source": "Internal",
                                                             "Width": 1434,
                                                             "Height": 826,
                                                             "Display": "FullScreenWidth",
-                                                            "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1542207540/amazonomachy2.jpg"
+                                                            "Path": "/museums/britishmuseum/sequenceimages/amazonomachy.jpg
+"
                                                         }
                                                     },
                                                     {
@@ -319,8 +320,8 @@
                                                                         "Display": "FullScreenWidth",
                                                                         "Width": 655,
                                                                         "Height": 402,
-                                                                        "Source": "Web",
-                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661363/AmazonomachyPoses.jpg"
+                                                                        "Source": "Internal",
+                                                                        "Path": "/museums/britishmuseum/sequenceimages/amazonomachyposes.jpg"
                                                                     }
                                                                 }
                                                             ],
@@ -369,8 +370,8 @@
                                                                                     "Display": "FullScreenWidth",
                                                                                     "Width": 588,
                                                                                     "Height": 433,
-                                                                                    "Source": "Web",
-                                                                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529661766/saint_teresa.jpg"
+                                                                                    "Source": "Internal",
+                                                                                    "Path": "/museums/britishmuseum/sequenceimages/saintteresa.jpg"
                                                                                 }
                                                                             },
                                                                             {
