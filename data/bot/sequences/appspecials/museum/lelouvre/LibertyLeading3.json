@@ -14,17 +14,17 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Width": 735,
                 "Height": 435,
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534499921/7pileus_hat.jpg"
+                "Path": "/museums/louvre/sequenceimages/pileushat.jpg"
             }
         },
         {
             "Type": "Pause",
             "Parameters": {
                 "Mode": "Wait",
-                "ms": 11000
+                "ms": 2000
             }
         },
         {
@@ -76,10 +76,10 @@
                     "Type": "Image",
                     "Parameters": {
                         "Display": "FullScreenWidth",
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 752,
                         "Height": 575,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500148/8tricolor_flag.jpg"
+                        "Path": "/museums/louvre/sequenceimages/tricolorflag.jpg"
                     }
                 },
                 {
@@ -101,10 +101,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
+                        "Source": "Internal",
                         "Width": 777,
                         "Height": 786,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535015321/9Flag_Elys%C3%A9e.jpg"
+                        "Path": "/museums/louvre/sequenceimages/frenchflag.jpg"
                     }
                 },
                 {
@@ -146,10 +146,10 @@
                                 "Type": "Image",
                                 "Parameters": {
                                     "Display": "FullScreenWidth",
-                                    "Source": "Web",
+                                    "Source": "Internal",
                                     "Width": 749,
                                     "Height": 539,
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534500460/july_revolution.jpg"
+                                    "Path": "/museums/louvre/sequenceimages/julyrevolution.jpg"
                                 }
                             },
                             {
