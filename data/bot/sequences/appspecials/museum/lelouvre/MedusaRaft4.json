@@ -14,11 +14,11 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Display": "FullScreenWidth",
                 "Width": 619,
                 "Height": 440,
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535036119/meduse_sickly.jpg"
+                "Path": "/museums/louvre/sequenceimages/medusaraftsickly.jpg"
             }
         },
         {
@@ -40,10 +40,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Width": 400,
                 "Height": 400,
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1535036207/meduse_palette.png"
+                "Path": "/museums/louvre/sequenceimages/medusaraftpalette.png"
             }
         },
         {
