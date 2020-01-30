@@ -25,8 +25,8 @@
             "Parameters": {
                 "Width": 766,
                 "Height": 676,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534247684/holy_thorn4.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/holythorngod.jpg"
             }
         },
         {
@@ -41,17 +41,8 @@
             "Parameters": {
                 "Width": 683,
                 "Height": 841,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534247427/holy_thorn5.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "...",
-                "fr": "...",
-                "es": "...",
-                "zh": "..."
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/holythornjewels.jpg"
             }
         }
     ],
