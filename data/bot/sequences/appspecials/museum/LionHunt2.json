@@ -32,8 +32,8 @@
             "Parameters": {
                 "Width": 224,
                 "Height": 306,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1532942386/museum%20app/King_Assurbanipal_1.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/assurbanipal.jpg"
             }
         }
     ],
@@ -64,8 +64,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 787,
                         "Height": 496,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1533296711/museum%20app/Relief_2.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/britishmuseum/sequenceimages/lionhuntfull.jpg"
                     }
                 },
                 {
