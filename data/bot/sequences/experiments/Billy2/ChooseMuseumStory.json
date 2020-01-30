@@ -16,7 +16,7 @@
     "Randomize": "true",
     "Commands": [
        {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "ChooseItemContinueTalking",
             "ElementValue": "1",
             "CommandLabel": {
