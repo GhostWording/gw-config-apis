@@ -24,8 +24,8 @@
                 "Width": 587,
                 "Height": 692,
                 "Display": "FullScreenWidth",
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/La_Naissance_de_VEnus.jpg"
+                "Source": "Internal",
+                "Path": "/museums/louvre/sequenceimages/birthofvenus.jpg"
             }
         },
         {
@@ -81,8 +81,8 @@
                         "Width": 541,
                         "Height": 799,
                         "Display": "FullScreenWidth",
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040171/museum%20app/Venus_de_Milo_Size.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/louvre/sequenceimages/venussize.jpg"
                     }
                 },
                 {
@@ -123,8 +123,8 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://gw-static.azurewebsites.net/museums/gifs/venusdemilomap.gif"
+                                    "Source": "Internal",
+                                    "Path": "/museums/gifs/venusdemilomap.gif"
                                 }
                             },
                             {
@@ -149,8 +149,8 @@
                                     "Width": 793,
                                     "Height": 601,
                                     "Display": "FullScreenWidth",
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1535040170/museum%20app/Amphitrite_2.jpg"
+                                    "Source": "Internal",
+                                    "Path": "/museums/louvre/sequenceimages/amphitrite.jpg"
                                 }
                             },
                             {
