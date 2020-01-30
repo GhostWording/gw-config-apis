@@ -23,10 +23,10 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
+                "Source": "Internal",
                 "Width": 1024,
                 "Height": 685,
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1534957128/Museum%20Bot/Wedding%20Cana/WeddingCana1.jpg"
+                "Path": "/museums/louvre/sequenceimages/veniceisland.jpg"
             }
         },
         {
