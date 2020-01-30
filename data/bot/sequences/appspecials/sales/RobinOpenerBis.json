@@ -1,0 +1,106 @@
+{
+    "Type": "Node",
+    "Id": "RobinOpenerBis",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What brought you here?",
+                "fr": "Qu'est-ce qui t'amène ici ?",
+                "es": "¿Qué te trae por aquí?"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                "property": "ppRobinOpener",
+                "value": "RobinOpenerYes"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinOpenerBisEmoji",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Emoji envy 😉",
+                "fr": "Une soif d'emoji 😉",
+                "es": "Una sed de emoji 😉"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're going to be happy",
+                        "fr": "Tu vas te régaler",
+                        "es": "Entonces serás feliz"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "This is my favourite",
+                        "fr": "Mon préféré c'est celui-ci",
+                        "es": "Esta es mi favorita"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ChatheadChange",
+                    "Parameters": {
+                        "Image": {
+                            "Source": "Web",
+                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_happy132x132.gif"
+                        }
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 590,
+                        "Height": 600,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlpainting.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I wonder why so few people send it",
+                        "fr": "Je me demande pourquoi si peu de gens l'utilisent",
+                        "es": "Me pregunto por qué tan poca gente lo envía"
+                    }
+                }                
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinOpenerBisEmojiFate",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fate",
+                "fr": "Le destin",
+                "es": "Destino"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hey...I wonder if you're strange or funny!",
+                        "fr": "Hé...Je me demande si tu es drôle ou étrange !",
+                        "es": "Oye ... Me pregunto si eres extraño o divertido!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/owls/gifs/chathead/avtar_happy132x132Old.gif"
+                    }
+                }
+            ]
+        }
+    ]
+}
