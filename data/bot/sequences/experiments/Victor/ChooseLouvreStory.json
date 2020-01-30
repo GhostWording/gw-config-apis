@@ -6,8 +6,8 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Alright... choose what you want to hear about!",
-        "fr": "Choisis ton histoire !",
+        "en": "What do you want to hear about now?",
+        "fr": "Quelle histoire veux-tu maintenant",
         "es": "¡Elige tu historia!"
       }
     }
@@ -15,6 +15,30 @@
   "DisplayHint": "Carousel",
   "Randomize": "true",
   "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ChooseItemLouvreContinueTalking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "My own humble story",
+        "fr": "L'histoire de ma vie",
+        "es": "La historia de mi vida"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "My own humble story",
+          "fr": "L'histoire de ma modeste vie",
+          "es": "La historia de mi vida"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://az767698.vo.msecnd.net/owls/images/small/stuckowl.jpg"
+        }
+      },
+      "LinksToFragment": {
+        "FragmentPath": "MonaTheft"
+      }
+    },
     {
       "Type": "Node",
       "Id": "ChooseItemMonaTheft",
