@@ -69,10 +69,10 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",                
+                        "Source": "Internal",                
                         "Width": 419,
                         "Height": 856,
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1534957546/2.2Gavroche.jpg"
+                        "Path": "/museums/louvre/sequenceimages/gavroche.jpg"
                     }
                 },
                 {
@@ -150,10 +150,10 @@
                             {
                                 "Type": "Image",
                                 "Parameters": {
-                                    "Source": "Web",                
+                                    "Source": "Internal",                
                                     "Width": 560,
                                     "Height": 476,
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1535621403/phrygian_cap.jpg"
+                                    "Path": "/museums/louvre/sequenceimages/phrygiancap.jpg"
                                 }
                             },
                             {
@@ -161,15 +161,6 @@
                                 "Parameters": {
                                     "Mode": "Wait",
                                     "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "...",
-                                    "fr": "...",
-                                    "es": "...",
-                                    "zh": "..."
                                 }
                             }
                         ],
