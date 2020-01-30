@@ -42,17 +42,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 350,
                 "Height": 333,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dto1zpi0d/image/upload/v1536666318/The%20Lacemaker/Lacemaker5.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "…",
-                "fr": "…",
-                "es": "…",
-                "zh": "…"
+                "Source": "Internal",
+                "Path": "/museums/louvre/sequenceimages/lacemakerhands.jpg"
             }
         }
     ],
