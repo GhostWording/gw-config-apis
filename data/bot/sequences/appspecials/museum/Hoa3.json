@@ -24,8 +24,8 @@
                 "Display":"FullScreenWidth",
                 "Width": 559,
                 "Height": 675,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533632040/hoa_bird.jpg"
+                "Source": "Internal",
+                "Path": "/museums/britishmuseum/sequenceimages/hoabird.jpg"
             }
         }
     ],
@@ -78,17 +78,8 @@
                     "Parameters": {
                         "Width": 800,
                         "Height": 492,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533632120/hoa_ship.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "...",
-                        "fr": "...",
-                        "es": "...",
-                        "zh": "..."
+                        "Source": "Internal",
+                        "Path": "/museums/britishmuseum/sequenceimages/hoaship.jpg"
                     }
                 }
             ],
