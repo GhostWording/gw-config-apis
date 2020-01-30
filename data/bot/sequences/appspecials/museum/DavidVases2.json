@@ -80,17 +80,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 800,
                         "Height": 640,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739327/4davidvase_porcelain.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "...",
-                        "fr": "...",
-                        "es": "...",
-                        "zh": "..."
+                        "Source": "Internal",
+                        "Path": "/museums/britishmuseum/sequenceimages/davidvaseschina.jpg"
                     }
                 }
             ],
@@ -125,17 +116,8 @@
                                     "Display": "FullScreenWidth",
                                     "Width": 752,
                                     "Height": 591,
-                                    "Source": "Web",
-                                    "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1533739441/5davidvase_map.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "...",
-                                    "fr": "...",
-                                    "es": "...",
-                                    "zh": "..."
+                                    "Source": "Internal",
+                                    "Path": "/museums/britishmuseum/sequenceimages/yuanterritory.jpg"
                                 }
                             }
                         ],
