@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Would you like to see an advert?",
-                "fr": "Puis-je te montrer une pub ?",
+                "fr": "Veux-tu voir une pub ?",
                 "es": "¿Te gustaría ver un anuncio?"
             }
         }
@@ -26,7 +26,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Great! Here it comes...",
-                        "fr": "Super ! Le voilà qui arrive....",
+                        "fr": "Super ! La voilà....",
                         "es": "¡Genial! Aquí viene..."
                     }
                 },
@@ -49,9 +49,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Alright, no problem! Let's move on...",
-                        "fr": "D'accord, passons à autre chose !",
-                        "es": "¡Muy bien, sigamos adelante!"
+                        "en": "Ok...",
+                        "fr": "Ok...",
+                        "es": "Ok..."
                     }
                 }
             ]
