@@ -35,8 +35,8 @@
         {
             "Type": "AnimatedGif",
             "Parameters": {
-                "Source": "Giphy",
-                "Path": "cEYFeDD5aaCpr1YO6n6"
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriaborn.gif"
             }
         }
     ],
@@ -77,8 +77,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
+                        "Source": "Internal",
+                        "Path": "/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
                     }
                 },
                 {
@@ -116,8 +116,8 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "551ZQgkiytZsDfVH1N"
+                                    "Source": "Web",
+                                    "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriaantioch.gif"
                                 }
                             },
                             {
@@ -223,8 +223,8 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
+                        "Source": "Internal",
+                        "Path": "/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
                     }
                 }
             ],
@@ -254,8 +254,8 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "551ZQgkiytZsDfVH1N"
+                                    "Source": "Web",
+                                    "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriaantioch.gif"
                                 }
                             },
                             {
