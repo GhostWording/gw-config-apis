@@ -13,13 +13,26 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WouldLikeFamousStoryYes",
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
                 "es": "Si"
-            }
-        }
+            },
+          "LinksToFragment": {
+                "FragmentPath": "HadChooseFamousrian"
+            }            
+        },
+        {
+            "Type": "Leaf",
+            "Id": "FancyAFamousStoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No"
+            }                        
+        }        
     ]
 }
