@@ -1,0 +1,115 @@
+{
+    "Type": "Node",
+    "Comments": "follow up to Do you want to hear about someone famous?",
+    "Id": "ChooseFamous",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Great... Pick the one you prefer!",
+                "fr": "Super...Choisis celui que tu préfères !",
+                "es": "Genial... Elige el que prefieras"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ChooseFamousHadrian",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Emperor Hadrian",
+                "fr": "L'empereur Hadrien",
+                "es": "El emperador Adriano"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🗽",
+                    "fr": "🗽",
+                    "es": "🗽"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/museums/britishmuseum/sequenceimages/hadrianfullhead.jpghadrianfullhead.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Hadrian"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChooseFamousNapoleon",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Napoléon Ier",
+                "fr": "Napoléon Ier",
+                "es": "Napoléon Ier"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏛",
+                    "fr": "🏛",
+                    "es": "🏛"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/museums/louvre/sequenceimages/coronationdetail.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "DavidCoronation"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ChooseFamousLeonardo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Leonardo da Vinci",
+                "fr": "Léonard de Vinci",
+                "es": "Leonardo da Vinci"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏛",
+                    "fr": "🏛",
+                    "es": "🏛"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/museums/louvre/thumbnails/leonardo_da_vinci.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Leonardo"
+            }
+        },        
+        {
+            "Type": "Node",
+            "Id": "ChooseFamousMichelangelo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Michelangelo",
+                "fr": "Michel-Ange",
+                "es": "Miguel Ángel"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🏺",
+                    "fr": "🏺",
+                    "es": "🏺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/museums/louvre/sequenceimages/slavesgooddetail.jpg"
+                }
+            },
+            "LinksToFragment": {
+                "FragmentPath": "MichelangeloSlaves"
+            }
+        }
+    ]
+}
