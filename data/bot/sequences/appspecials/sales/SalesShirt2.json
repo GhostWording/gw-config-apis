@@ -16,8 +16,8 @@
                 "Display": "FullScreenWidth",
                 "Width": 700,
                 "Height": 886,
-                "Source": "Web",
-                "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560248114/holeshirt.jpg"
+                "Source": "Internal",
+                "Path": "/museums/sales/sequenceimages/holeshirt.jpg"
             }
         },
         {
@@ -76,8 +76,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 500,
                         "Height": 334,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560339304/shutterstock_44013220.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/sales/sequenceimages/shutterstock_44013220.jpg"
                     }
                 },
                 {
@@ -110,7 +110,7 @@
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Giphy",
+                        "Source": "Web",
                         "Path": "h5NmMolgdFcVW"
                     }
                 },
