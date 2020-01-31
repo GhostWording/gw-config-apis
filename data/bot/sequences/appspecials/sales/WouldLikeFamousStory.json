@@ -1,0 +1,41 @@
+{
+    "Type": "Node",
+    "Id": "WouldLikeFamousStory",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like me to tell you a story about someone famous?",
+                "fr": "Veux-tu que je te raconte une histoire sur quelqu'un de célèbre ?",
+                "es": "¿Quieres que te cuente una historia sobre alguien famoso?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FancyAFamousStoryYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Si"
+            },
+            "Steps": [
+                {
+                "LinksToFragment": { "FragmentPath": "ChooseFamous" }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "FancyAFamousStoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "Non",
+                "es": "No"
+            }
+        }
+    ]
+}
