@@ -15,7 +15,6 @@
         {
             "Type": "Node",
             "Id": "FancyAFamousStoryYes",
-            "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
@@ -26,26 +25,6 @@
                 "LinksToFragment": { "FragmentPath": "ChooseFamous" }
                 }
             ]
-        },
-        {
-            "Type": "Leaf",
-            "Id": "FancyAFamousStoryNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "No",
-                "fr": "Non",
-                "es": "No"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": " ",
-                        "fr": " ",
-                        "es": " "
-                    }
-                }
-            ]            
         }
     ]
 }
