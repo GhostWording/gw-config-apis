@@ -13,8 +13,8 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524752246/Victoria_on_Throne.jpg"
+                "Source": "Internal",
+                "Path": "/themes/kittens/victoriathrone.jpg"
             }
         },
         {
@@ -55,8 +55,8 @@
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "5W6HMvrJSn6rm"
+                        "Source": "Web",
+                        "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriaattack.gif"
                     }
                 },
                 {
@@ -124,8 +124,8 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "EaufJGoYKWtkA"
+                                    "Source": "Web",
+                                    "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriafall.gif"
                                 }
                             },
                             {
@@ -164,7 +164,7 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
-                                    "Source": "Giphy",
+                                    "Source": "Web",
                                     "Path": "Nj44tzG16JfsA"
                                 }
                             }
@@ -214,8 +214,8 @@
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "5W6HMvrJSn6rm"
+                        "Source": "Web",
+                        "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriaattack.gif"
                     }
                 },
                 {
@@ -283,8 +283,8 @@
                             {
                                 "Type": "AnimatedGif",
                                 "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "EaufJGoYKWtkA"
+                                    "Source": "Web",
+                                    "Path": "http://az767698.vo.msecnd.net/gifs/kitten/victoriafall.gif"
                                 }
                             },
                             {
