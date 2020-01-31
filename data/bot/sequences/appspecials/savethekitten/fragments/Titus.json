@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Comments": "The story of Titus the Clever (reduce size of gif)",
+    "Comments": "The story of Titus the Clever",
     "Id": "Titus",
     "Steps": [
         {
@@ -14,8 +14,8 @@
         {
             "Type": "AnimatedGif",
             "Parameters": {
-                "Source": "Giphy",
-                "Path": "3oKIPnAiaMCws8nOsE"
+                "Source": "Web",
+                "Path": "http://az767698.vo.msecnd.net/gifs/kitten/tituscomputer.gif"
             }
         },
         {
@@ -64,8 +64,8 @@
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "wyoUdfhunrDZ6"
+                        "Source": "Web",
+                        "Path": "http://az767698.vo.msecnd.net/gifs/kitten/titusdisguise.gif"
                     }
                 },
                 {
@@ -111,8 +111,8 @@
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "6S1k7SLbAH4f6"
+                        "Source": "Web",
+                        "Path": "http://az767698.vo.msecnd.net/gifs/kitten/titusjump.gif"
                     }
                 },
                 {
