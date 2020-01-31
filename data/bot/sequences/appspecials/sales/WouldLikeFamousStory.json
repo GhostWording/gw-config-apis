@@ -35,7 +35,17 @@
                 "en": "No",
                 "fr": "Non",
                 "es": "No"
-            }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": " ",
+                        "fr": " ",
+                        "es": " "
+                    }
+                }
+            ]            
         }
     ]
 }
