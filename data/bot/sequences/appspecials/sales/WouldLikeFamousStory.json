@@ -13,18 +13,13 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
-            "Id": "FancyAFamousStoryYes",
+            "Type": "Leaf",
+            "Id": "WouldLikeFamousStoryYes",
             "CommandLabel": {
                 "en": "Yes",
                 "fr": "Oui",
                 "es": "Si"
-            },
-            "Steps": [
-                {
-                "LinksToFragment": { "FragmentPath": "ChooseFamous" }
-                }
-            ]
+            }
         }
     ]
 }
