@@ -81,8 +81,8 @@
                         "Display": "FullScreenWidth",
                         "Width": 310,
                         "Height": 307,
-                        "Source": "Web",
-                        "Path": "https://res.cloudinary.com/dgg6oz8uy/image/upload/v1560249388/feettanner.jpg"
+                        "Source": "Internal",
+                        "Path": "/museums/sales/sequenceimages/feettanner.jpg"
                     }
                 },
                 {
@@ -129,7 +129,7 @@
                     "Parameters": {
                         "Image": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
+                            "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_sad132x132.gif"
                         }
                     }
                 }
