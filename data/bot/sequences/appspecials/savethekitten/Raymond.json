@@ -13,8 +13,8 @@
         {
             "Type": "Image",
             "Parameters": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+                "Source": "Internal",
+                "Path": "/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
             }
         },
         {
