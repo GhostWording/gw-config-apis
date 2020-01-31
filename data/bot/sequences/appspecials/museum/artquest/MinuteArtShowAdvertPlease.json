@@ -33,7 +33,14 @@
                 {
                     "Type": "Action",
                     "Name": "ShowAdvert"
-                }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                }                
             ]
         },
         {
