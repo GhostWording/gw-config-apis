@@ -46,6 +46,13 @@
                     }
                 },                              
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },                               
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "I'll try to make it up to you",
@@ -79,7 +86,14 @@
                         "Source": "Web",
                         "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_happy132x132Old.gif"
                     }
-                }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 1000
+                    }
+                }                
             ]
         }
     ]
