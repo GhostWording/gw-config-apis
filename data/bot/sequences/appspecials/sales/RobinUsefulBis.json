@@ -1,0 +1,310 @@
+{
+    "Type": "Node",
+    "Id": "RobinUsefulBis",
+    "Steps": [         
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How can I be useful to you?",
+                "fr": "Comment puis-je t'être utile ?",
+                "es": "Entonces, ¿cómo puedo serte útil?",
+                "zh": "So I was wondering - how can I be useful to you?"
+            }
+        },
+         {
+              "Type": "Action",
+              "Name": "ChatheadChange",
+              "Parameters": {
+                  "Image": {
+                      "Source": "Web",
+                      "Path": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif"
+                  }
+              }
+         }        
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulBisCheer",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cheer me up",
+                "fr": "Remonte-moi le moral",
+                "es": "Anímame",
+                "zh": "Cheer me up"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/specialoccasions/I-think-of-you/default/small/5672.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulCheer"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's what I'm best at!",
+                        "fr": "C'est l'une de mes vocations !",
+                        "es": "¡Eso es lo que mejor se me da!",
+                        "zh": "That's what I'm best at!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/owlstogether.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulBisTeach",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Teach me something",
+                "fr": "Apprends-moi quelque chose",
+                "es": "Enséñame algo",
+                "zh": "Teach me something"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/specialoccasions/jokes/default/small/Flying-Penguin-000020429879_Medium.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulTeach"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm so glad you asked... I like to think of myself as a very wise owl",
+                        "fr": "Je suis ravi que tu le proposes...J'ai pas mal de choses à raconter",
+                        "es": "Me alegro de que hayas preguntado... Me gusta pensar que soy un búho muy sabio...",
+                        "zh": "I'm so glad you asked... I like to think of myself as a very wise owl"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/1157352533.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RobinUsefulBisCompany",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Keep me company",
+                "fr": "Tiens-moi compagnie",
+                "es": "Acompáñame",
+                "zh": "Keep me company"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/specialoccasions/I-think-of-you/default/small/12074535_731551716999660_3352024841488509428_n.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'd be delighted to!",
+                        "fr": "Avec plaisir !",
+                        "es": "¡Con mucho gusto!",
+                        "zh": "I'd be delighted to!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Shall we talk about you or me?",
+                        "fr": "On commence par parler de toi ou de moi ?",
+                        "es": "¿Hablamos de ti o de mí?",
+                        "zh": "Shall we talk about you or me?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "RobinUsefulBisCompanyStep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "RobinUsefulBisCompanyMe",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Me",
+                            "fr": "De moi",
+                            "es": "de mí",
+                            "zh": "Me"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "SetUserProperty",
+                                "Parameters": {
+                                   "property": "ppRobinUseful",
+                                   "value": "RobinUsefulCompanyMe"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "OK... good idea... let's talk about something you like",
+                                    "fr": "Cool...parlons de quelque-chose que tu aimes bien",
+                                    "es": "OK... buena idea... hablemos de algo que te guste",
+                                    "zh": "OK... good idea... let's talk about something you like!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "RobinUsefulBisCompanyYou",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You",
+                            "fr": "De toi",
+                            "es": "de ti",
+                            "zh": "You"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "SetUserProperty",
+                                "Parameters": {
+                                   "property": "ppRobinUseful",
+                                   "value": "RobinUsefulCompanyYou"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well...",
+                                    "fr": "Alors...",
+                                    "es": "así que...",
+                                    "zh": "Well..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RobinUsefulBisDiscover",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Help me discover new things",
+                "fr": "Aide-moi à découvrir de nouvelles choses",
+                "es": "Ayúdame a descubrir cosas nuevas",
+                "zh": "Help me discover new things"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": ".",
+                    "fr": ".",
+                    "es": ".",
+                    "zh": "."
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/specialoccasions/I-think-of-you/default/small/iStock_000019339055_Medium.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppRobinUseful",
+                        "value": "RobinUsefulDiscover"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Of course! I also like discovering things... like human methods of transportation...",
+                        "fr": "Avec plaisir. J'aime aussi découvrir de nouvelles choses...comme les moyens de transport humains",
+                        "es": "¡Claro! También me gusta descubrir cosas... como los métodos de transporte humanos...",
+                        "zh": "Of course! I also like discovering things... like human methods of transportation..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/cute_owl2.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let me fly into action straight away and help you find some cool stuff...",
+                        "fr": "Je me mets en route presto et je t'aide à découvrir des trucs cool...",
+                        "es": "Voy a ir presto a ayudarte a encontrar algunas cosas geniales...",
+                        "zh": "Let me fly into action straight away and help you find some cool stuff..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Width": 600,
+                        "Height": 365,
+                        "Source": "Internal",
+                        "Path": "/owls/images/small/1143698260.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
