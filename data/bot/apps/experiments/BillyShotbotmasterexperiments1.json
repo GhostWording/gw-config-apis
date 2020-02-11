@@ -2,7 +2,7 @@
   {
     "GroupName":"test",
     "SequenceFiles" : [
-      { "order" : 10, "file":["/data/bot/sequences/appspecials/museum/MuseumIntro.json"]},
+      { "order" : 10, "file":["/data/bot/sequences/appspecials/museum/MuseumIntro.json","/data/bot/sequences/appspecials/museum/MuseumIntroOneStep.json","/data/bot/sequences/appspecials/museum/MuseumIntroOneStepGif.json"]},
       { "order" : 20, "file":["/data/bot/sequences/appspecials/sales/RobinOpenerBis.json"]},
       { "order" : 30, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json","/data/bot/sequences/appspecials/sales/RobinUsefulNoCarousel.json"]},
       { "order" : 35, "file":["/data/bot/sequences/appspecials/sales/RobinHistory.json"], "condition" : "ppRobinUseful == 'RobinUsefulTeach' || ppRobinUseful == 'RobinUsefulDiscover' || ppRobinUseful == 'RobinUsefulCompanyYou' "},
