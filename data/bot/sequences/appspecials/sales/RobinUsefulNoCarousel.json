@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "RobinUsefulBis",
+    "Id": "RobinUsefulNoCarousel",
     "Steps": [         
         {
             "Type": "Text",
@@ -26,7 +26,7 @@
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "RobinUsefulBisCheer",
+            "Id": "RobinUsefulNoCarouselCheer",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Cheer me up",
@@ -65,7 +65,7 @@
         },
         {
             "Type": "Leaf",
-            "Id": "RobinUsefulBisTeach",
+            "Id": "RobinUsefulNoCarouselTeach",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Teach me something",
@@ -104,7 +104,7 @@
         },
         {
             "Type": "Node",
-            "Id": "RobinUsefulBisCompany",
+            "Id": "RobinUsefulNoCarouselCompany",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Keep me company",
@@ -134,12 +134,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "RobinUsefulBisCompanyStep",
+                "Id": "RobinUsefulNoCarouselCompanyStep",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "RobinUsefulBisCompanyMe",
+                        "Id": "RobinUsefulNoCarouselCompanyMe",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Me",
@@ -160,7 +160,7 @@
                     },
                     {
                         "Type": "Leaf",
-                        "Id": "RobinUsefulBisCompanyYou",
+                        "Id": "RobinUsefulNoCarouselCompanyYou",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "You",
@@ -193,7 +193,7 @@
         },
         {
             "Type": "Leaf",
-            "Id": "RobinUsefulBisDiscover",
+            "Id": "RobinUsefulNoCarouselDiscover",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Help me discover new things",
