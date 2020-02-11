@@ -21,7 +21,7 @@
     ],
     "Commands": [
       {
-        "Type": "Node",
+        "Type": "Leaf",
         "Id": "MuseumIntroOneStepYes",
         "ElementValue": "1",
         "CommandLabel": {
@@ -57,7 +57,7 @@
         ]        
       },
       {
-        "Type": "Node",
+        "Type": "Leaf",
         "Id": "MuseumIntroOneStepMaybe",
         "ElementValue": "1",
         "CommandLabel": {
