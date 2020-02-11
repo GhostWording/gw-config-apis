@@ -1,0 +1,96 @@
+{
+    "Type": "Node",
+    "Id": "MuseumIntroOneStep",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Hi!",
+          "fr": "Salut !",
+          "es": "¡Hola!"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "I am an owl, and that means I am wise 🦉",
+          "fr": "Je suis une chouette, et cela signifie que je suis d'une grande sagesse 🦉",
+          "es": "Soy una lechuza, y significa que soy sabio 🦉"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Node",
+        "Id": "MuseumIntroOneStepYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Right!",
+          "fr": "Bien sûr !",
+          "es": "¡Por supuesto!",
+          "zh": ""
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I have been around in every era",
+              "fr": "J'ai traversé toutes les époques",
+              "es": "Pasé por todos los tiempos"
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+              "Path": "/data/common/carousel/museum/OwlPlaces.json"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Which means that I have incredible stories to tell!",
+              "fr": "Par conséquent j'ai des histoires incroyables à raconter !",
+              "es": "Por lo tanto, tengo historias increíbles que contar"
+            }
+          }
+        ]        
+      },
+      {
+        "Type": "Node",
+        "Id": "MuseumIntroOneStepMaybe",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Possibly",
+          "fr": "Vraiment ?",
+          "es": "Probablemente"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I have been around in every era",
+              "fr": "J'ai traversé toutes les époques",
+              "es": "Pasé por todos los tiempos",
+              "zh": ""
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+              "Path": "/data/common/carousel/museum/OwlPlaces.json"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Which means that I have incredible stories to tell!",
+              "fr": "Par conséquent j'ai des histoires incroyables à raconter !",
+              "es": "Por lo tanto, tengo historias increíbles que contar"
+            }
+          }
+        ]        
+      }
+    ]
+  }
