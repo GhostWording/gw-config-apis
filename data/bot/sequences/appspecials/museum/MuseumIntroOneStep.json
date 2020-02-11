@@ -23,12 +23,10 @@
       {
         "Type": "Leaf",
         "Id": "MuseumIntroOneStepYes",
-        "ElementValue": "1",
         "CommandLabel": {
           "en": "Right!",
           "fr": "Bien sûr !",
-          "es": "¡Por supuesto!",
-          "zh": ""
+          "es": "¡Por supuesto!"
         },
         "Steps": [
           {
@@ -59,7 +57,6 @@
       {
         "Type": "Leaf",
         "Id": "MuseumIntroOneStepMaybe",
-        "ElementValue": "1",
         "CommandLabel": {
           "en": "Possibly",
           "fr": "Vraiment ?",
@@ -71,8 +68,7 @@
             "Label": {
               "en": "I have been around in every era",
               "fr": "J'ai traversé toutes les époques",
-              "es": "Pasé por todos los tiempos",
-              "zh": ""
+              "es": "Pasé por todos los tiempos"
             }
           },
           {
@@ -93,4 +89,4 @@
         ]        
       }
     ]
-  }
+}
