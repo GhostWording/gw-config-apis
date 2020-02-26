@@ -3,8 +3,8 @@
     "GroupName":"test",
     "SequenceFiles":[
      { "order" : 10, "file": ["/data/bot/sequences/appspecials/sales/SalesIntroBis.json"]},
-     { "order" : 15, "file": ["/data/bot/sequences/experiments/rui/AskForPayment.json"]},        
-     { "order" : 15, "file": ["/data/bot/sequences/experiments/rui/AskForPaymentiOS.json"]},        
+     { "order" : 15, "file": ["/data/bot/sequences/experiments/rui/AskForPayment.json"],"condition" : "ppOsType != 'iOS'"},        
+     { "order" : 15, "file": ["/data/bot/sequences/experiments/rui/AskForPaymentiOS.json"],"condition" : "ppOsType == 'iOS'"},        
       { "order" : 20, "file":["/data/bot/sequences/appspecials/sales/RobinOpener.json"]},
       { "order" : 30, "file":["/data/bot/sequences/appspecials/sales/RobinUseful.json"]},
       { "order" : 50, "file":["/data/bot/sequences/appspecials/sales/Robinworries.json"],"condition" : "ppRobinUseful == 'RobinUsefulCheer' || ppRobinUseful == 'RobinUsefulCope'"},        
