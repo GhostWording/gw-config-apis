@@ -1,21 +1,19 @@
 {
-Type: "Leaf",
-Comments: "it should ask for payment in elite emoji",
-Id: "OneLeafWithPaymentiOS",
-Steps: [
-{
-Type: "Text",
-Label: {
-en: "Payment dialog should appear",
-fr: "Payment dialog should appear"
-}
-},
-{
-Type: "Action",
-Name: "AskForPayment",
-Parameters: {
-ProductId: "four_dollars_adfree_unlocking"
-}
-}
-]
+  "Type": "Leaf",
+  "Comments":"it should ask for payment in elite emoji",
+  "Id": "OneLeafWithPayment",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Payment dialog should appear",
+        "fr": "Payment dialog should appear"
+      }
+    },
+    {
+    "Type": "Action",
+    "Name": "AskForPayment",
+    "Parameters": { "ProductId": "four_dollars_adfree_unlocking"  }
+     }    
+  ]
 }
