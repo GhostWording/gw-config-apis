@@ -62,7 +62,7 @@
                             "Source": "Web",
                             "Path": "http://gw-static.azurewebsites.net/owls/gifs/chathead/avtar_sad132x132.gif"
                         },
-                        "ms":10000
+                        "ms":5000
                     }
                 }
             ]
@@ -95,7 +95,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 2000
+                        "ms": 1000
                     }
                 },
                 {
