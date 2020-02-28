@@ -92,7 +92,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 3000
+                        "ms": 2000
                     }
                 }
             ]
@@ -133,7 +133,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 3000
+                        "ms": 2000
                     }
                 },
                 {
@@ -153,7 +153,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 3000
+                        "ms": 2000
                     }
                 }
             ]
