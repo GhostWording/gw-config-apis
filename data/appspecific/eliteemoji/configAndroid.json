@@ -16,9 +16,21 @@
   "PaymentDialog": [
     {
       "iconUrl": "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
-      "message": "Please unlock the ad free version ($4)",
-      "buttonYes": "Yes",
-      "buttonNo": "No",
+      "message": {
+        "en": "Please unlock the ad free version ($4)",
+        "fr": "Please unlock the ad free version ($4)",
+        "es": "Please unlock the ad free version ($4)"
+      },
+      "buttonYes": {
+        "en": "Yes",
+        "fr": "Yes",
+        "es": "Yes"
+      },
+      "buttonNo": {
+        "en": "No",
+        "fr": "No",
+        "es": "No"
+      },
       "variations": [
         0,
         1,
@@ -27,9 +39,21 @@
     },
     {
       "iconUrl": "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
-      "message": "Welcome to experiment",
-      "buttonYes": "Yes",
-      "buttonNo": "No",
+      "message": {
+        "en": "Welcome",
+        "fr": "Welcome",
+        "es": "Welcome"
+      },
+      "buttonYes": {
+        "en": "Yes",
+        "fr": "Yes",
+        "es": "Yes"
+      },
+      "buttonNo": {
+        "en": "No",
+        "fr": "No",
+        "es": "No"
+      },
       "variations": [
         3,
         4,
