@@ -2,15 +2,39 @@
   "InternalRoot": "http://az767698.vo.msecnd.net",
   "GiphyTabKey": "Cp30RW0L0GPAkTOV8ZJETLVKUMZQonoD",
   "GiphyBotKey": "1WYzY6PZVYCoxznZ5Toxdru6j5JFpB9J",
-  "BotName":"billyshotbot",
-  "ShowEmojiKeyboardIcon":false,
-  "ShowEmojiKeyboardIconWhenKeyboardActivated":true,
-  "ShowEmojiOptionInSideMenu":true,
-  "ShowEmojiOptionInSettings":false,
+  "BotName": "billyshotbot",
+  "ShowEmojiKeyboardIcon": false,
+  "ShowEmojiKeyboardIconWhenKeyboardActivated": true,
+  "ShowEmojiOptionInSideMenu": true,
+  "ShowEmojiOptionInSettings": false,
   "FirstPaymentFragment": "OneLeafWithPayment",
   "FetchAdverts": "no",
   "SplashScreenGifs": [
     "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
     "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif"
+  ],
+  "PaymentDialog": [
+    {
+      "iconUrl": "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
+      "message": "Please unlock the ad free version ($4)",
+      "buttonYes": "Yes",
+      "buttonNo": "No",
+      "variations": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "iconUrl": "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
+      "message": "Welcome to experiment",
+      "buttonYes": "Yes",
+      "buttonNo": "No",
+      "variations": [
+        3,
+        4,
+        5
+      ]
+    }
   ]
 }
