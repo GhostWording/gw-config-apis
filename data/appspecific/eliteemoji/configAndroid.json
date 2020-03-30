@@ -15,21 +15,21 @@
   ],
   "PaymentDialog": [
     {
-      "iconUrl": "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif",
       "message": {
-        "en": "Please unlock the ad free version ($4)",
-        "fr": "Please unlock the ad free version ($4)",
-        "es": "Please unlock the ad free version ($4)"
+        "en": "Would you like to unlock the ad free version ($4)?",
+        "fr": "Veux-tu utiliser la version sans publicité ($4)?",
+        "es": "¿Quieres usar la versión sin publicidad? ($4)"
       },
       "buttonYes": {
-        "en": "Yes",
-        "fr": "Yes",
-        "es": "Yes"
+        "en": "Yes, I love this app",
+        "fr": "Oui, j'aime cette app",
+        "es": "Sí, me encanta esta aplicación"
       },
       "buttonNo": {
-        "en": "No",
-        "fr": "No",
-        "es": "No"
+        "en": "No thanks, I prefer adverts",
+        "fr": "Non merci, je préfère les pubs",
+        "es": "No gracias, prefiero los anuncios"
       },
       "variations": [
         0,
@@ -38,20 +38,20 @@
       ]
     },
     {
-      "iconUrl": "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif",
       "message": {
-        "en": "Welcome",
-        "fr": "Welcome",
-        "es": "Welcome"
+        "en": "Hi, would you help with a donation?",
+        "fr": "Hello, tu serais prêt à nous faire un don ?",
+        "es": "Hola, ¿estaría dispuesto a hacer una donación?"
       },
       "buttonYes": {
         "en": "Yes",
-        "fr": "Yes",
-        "es": "Yes"
+        "fr": "Oui",
+        "es": "Sí"
       },
       "buttonNo": {
         "en": "No",
-        "fr": "No",
+        "fr": "Non",
         "es": "No"
       },
       "variations": [
