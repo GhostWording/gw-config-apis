@@ -13,6 +13,51 @@
     "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif",
     "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif"
   ],
+  
+  "Notifications": [
+      {
+          "Type": "Action",
+          "Name": "NotifyDeferredStory",
+          "fragmentId": "PerfectGiftForYou",
+          "notificationDelay": 
+              {
+              "unit": "hours",
+              "quantity": "1"
+              },
+          "notificationTitle": {
+              "en": "I have something for you",
+              "fr": "J'ai quelque chose pour toi",
+              "es": "Tengo algo para ti"
+              },
+          "notficationText": {
+              "en": "and it's not a kitten story",
+              "fr": "et ce n'est pas une histoire de chatons",
+              "es": "y no es una historia de gatitos"
+              },
+          "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
+      },
+      {
+          "Type": "Action",
+          "Name": "NotifyDeferredStory",
+          "fragmentId": "WhatMakesYouHappy",
+          "notificationDelay": 
+              {
+              "unit": "days",
+              "quantity": "1"
+              },
+          "notificationTitle": {
+              "en": "I have a question for you",
+              "fr": "J'ai une question pour toi",
+              "es": "Tengo una pregunta para usted."
+              },
+          "notficationText": {
+              "en": "still not about kittens",
+              "fr": "toujours pas sur les chattons",
+              "es": "todavía no sobre los gatitos"
+              },
+          "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
+      }      
+  ],  
   "PaymentDialog": [
     {
       "iconUrl": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif",
