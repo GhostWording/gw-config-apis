@@ -82,7 +82,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "MinuteArtRatingOk",
             "ElementValue": "1",
             "CommandLabel": {
@@ -101,11 +101,7 @@
                         "zh": ""
                     }
                 }
-            ],
-            "LinksToFragment": {
-                "FragmentPath": "OneLeafWithPayment"
-            }
-
+            ]
         }
     ]
 }
