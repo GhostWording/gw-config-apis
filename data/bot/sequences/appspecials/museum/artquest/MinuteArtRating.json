@@ -103,7 +103,6 @@
                 }
             ],
             "LinksToFragment": {
-                "Condition": "ppOsType =='android'",
                 "FragmentPath": "OneLeafWithPayment"
             }
 
