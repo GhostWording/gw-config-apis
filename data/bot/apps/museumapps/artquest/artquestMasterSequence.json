@@ -4,7 +4,6 @@
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtStart.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtIntro.json"]},
-      { "order" : 25, "file": ["/data/bot/sequences/experiments/rui/DonationQuestion.json"]},   
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/artquest/QuizLargestMuseum.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtRating.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/artquest/PictureLacemaker.json"]},
@@ -22,6 +21,7 @@
       { "order" : 150, "file": ["/data/bot/sequences/appspecials/museum/artquest/ArtCulture.json"]},
       { "order" : 160, "file": ["/data/bot/sequences/appspecials/museum/artquest/AudioGuideUse.json"]},
       { "order" : 170, "file": ["/data/bot/sequences/appspecials/museum/artquest/BuyArt.json"]},
+      { "order" : 172, "file": ["/data/bot/sequences/experiments/rui/DonationQuestion.json"]},
       { "order" : 175, "file": ["/data/bot/sequences/smalltalk/FirstTimeBot.json"]},
       { "order" : 180, "file": ["/data/bot/sequences/appspecials/museum/artquest/GoMuseum.json"]},
       { "order" : 185, "file": ["/data/bot/sequences/smalltalk/LikeMakingArt.json"]},
