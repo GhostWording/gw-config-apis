@@ -4,6 +4,7 @@
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtStart.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtIntro.json"]},
+      { "order" : 25, "file": ["/data/bot/sequences/experiments/rui/DonationQuestion.json"]},   
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/museum/artquest/QuizLargestMuseum.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/museum/artquest/MinuteArtRating.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/museum/artquest/PictureLacemaker.json"]},
