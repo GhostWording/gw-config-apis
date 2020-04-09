@@ -21,16 +21,16 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "I can hear the android payment dialog preparing",
-        "fr": "J'entends la fenêtre de paiement Android qui se prépare",
-        "es": "Puedo oír la ventana de pago de Android acercándose"        
+        "en": "I can hear the android dialog preparing",
+        "fr": "J'entends la fenêtre de paiement  qui se prépare",
+        "es": "Puedo oír la ventana de pago acercándose"        
       }
     },    
     {
     "Type": "Pause",
     "Parameters": {
       "Mode": "Wait",
-      "ms": 2000
+      "ms": 3000
       }
     },    
     
@@ -44,7 +44,7 @@
     "Type": "Pause",
     "Parameters": {
       "Mode": "Wait",
-      "ms": 4000
+      "ms": 5000
       }
     }    
   ]
