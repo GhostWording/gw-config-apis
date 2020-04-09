@@ -1,0 +1,37 @@
+{
+  "Type": "Node",
+  "Id": "DonationQuestion",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you wish to make a donation so that the app lives?",
+        "fr": "Souhaites-tu faire un don pour que l'app vive ?",
+        "es": "¿Le gustaría hacer una donación para mantener la aplicación viva?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DonationQuestionYes",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+    "LinksToFragment": {
+        "FragmentPath":"OneLeafWithPayment"
+        }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DonationQuestionNo",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
