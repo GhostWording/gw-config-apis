@@ -42,8 +42,8 @@
           "fragmentId": "WhatMakesYouHappy",
           "notificationDelay": 
               {
-              "unit": "days",
-              "quantity": "1"
+              "unit": "minute",
+              "quantity": "2"
               },
           "notificationTitle": {
               "en": "I have a question for you",
