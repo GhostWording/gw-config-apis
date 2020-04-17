@@ -11,6 +11,13 @@
       }
     },  
     {
+      "Type": "Text",
+      "Label": {
+        "en": "Then this",
+        "fr": "Then this"
+      }
+    },      
+    {
       "Type": "Action",
       "Name": "ShowCards",
       "Parameters": {
@@ -18,6 +25,13 @@
         "Id": "E7E997"
       }
     },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Then that",
+        "fr": "Then that"
+      }
+    },          
     {
         "Type": "Pause",
         "Parameters": {
