@@ -54,6 +54,14 @@
                   "Id": "E7E997"
                 }
               }
+              ,
+              {
+                  "Type": "Pause",
+                  "Parameters": {
+                      "Mode": "Wait",
+                      "ms": 2000
+                  }
+              }              
             ]
           },
           {
