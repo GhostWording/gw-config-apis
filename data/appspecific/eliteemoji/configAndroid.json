@@ -25,7 +25,7 @@
           "fragmentId": "PerfectGiftForYou",
           "notificationDelay": 
               {
-              "unit": "minute",
+              "unit": "hour",
               "quantity": "1"
               },
           "notificationTitle": {
@@ -34,8 +34,8 @@
               "es": "Tengo algo para ti"
               },
           "notificationText": {
-              "en": "and it's not a kitten story",
-              "fr": "et ce n'est pas une histoire de chatons",
+              "en": "you can send it and it's not a kitten story",
+              "fr": "tu peux l'envoyer et ce n'est pas une histoire de chatons",
               "es": "y no es una historia de gatitos"
               },
           "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
@@ -46,8 +46,8 @@
           "fragmentId": "WhatMakesYouHappy",
           "notificationDelay": 
               {
-              "unit": "minute",
-              "quantity": "2"
+              "unit": "hour",
+              "quantity": "25"
               },
           "notificationTitle": {
               "en": "I have a question for you",
