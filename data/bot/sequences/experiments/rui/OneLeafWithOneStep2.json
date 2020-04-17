@@ -9,6 +9,21 @@
         "en": "OneLeafWithOneStep2:it should show one text and then continue",
         "fr": "OneLeafWithOneStep2:it should show one text and then continue"
       }
-    }
+    },  
+    {
+      "Type": "Action",
+      "Name": "ShowCards",
+      "Parameters": {
+        "Type": "TextImage",
+        "Id": "E7E997"
+      }
+    },
+    {
+        "Type": "Pause",
+        "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+        }
+    }   
   ]
 }
