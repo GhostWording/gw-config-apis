@@ -21,7 +21,7 @@
           "fragmentId": "PerfectGiftForYou",
           "notificationDelay": 
               {
-              "unit": "hour",
+              "unit": "day",
               "quantity": "1"
               },
           "notificationTitle": {
@@ -42,8 +42,8 @@
           "fragmentId": "UselessQuestion",
           "notificationDelay": 
               {
-              "unit": "hour",
-              "quantity": "22"
+              "unit": "day",
+              "quantity": "2"
               },
           "notificationTitle": {
               "en": "I have a question for you",
