@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Do you have something in particular that you want to talk about ?",
-        "fr": "Do you have something in particular that you want to talk about ?",
+        "fr": "Il y a une chose en particulier dont tu souhaites parler ?",
         "es": "Do you have something in particular that you want to talk about ?"
       }
     }
@@ -18,7 +18,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "How did you know ?",
-        "fr": "How did you know ?",
+        "fr": "Comment le savais-tu ?",
         "es": "How did you know ?"
       },
       "Steps": [
@@ -26,7 +26,7 @@
           "Type": "Text",
           "Label": {
             "en": "You'll be surprised by everything I know. I'm going to read your mind now to find what's on it..",
-            "fr": "You'll be surprised by everything I know. I'm going to read your mind now to find what's on it..",
+            "fr": "Tu n'est pas au bout de tes surprises. Je vais examiner ton état d'esprit",
             "es": "You'll be surprised by everything I know. I'm going to read your mind now to find what's on it.."
           }
         }
@@ -55,7 +55,7 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "I'd rather tell you",
-              "fr": "I'd rather tell you",
+              "fr": "Je préfère te dire",
               "es": "I'd rather tell you"
             },
             "Steps":[
@@ -63,7 +63,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "Ok if you insist, I am all out ",
-                  "fr": "Ok if you insist, I am all out ",
+                  "fr": "Si tu insistes. Je suis à fond.",
                   "es": "Ok if you insist, I am all out "
                 }
               }
@@ -81,7 +81,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "No, surprise me!",
-        "fr": "No, surprise me!",
+        "fr": "Non, surprends-moi !",
         "es": "No, surprise me!"
       },
       "LinksToFragment": {
