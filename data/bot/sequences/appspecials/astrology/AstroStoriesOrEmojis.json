@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en":"Welcome",
-        "fr":"Welcome",
+        "fr":"Bienvenue",
         "es":"Welcome"
       }
     },
@@ -14,7 +14,7 @@
       "Type": "Text",
       "Label": {
         "en":"What are you here for?",
-        "fr":"What are you here for?",
+        "fr":"Qu'est-ce qui t'amène ici ?",
         "es":"What are you here for?"
       }
     }
@@ -27,7 +27,7 @@
       "Id": "AstroEmojis",
       "CommandLabel": {
         "en":"Astrology emojis",
-        "fr":"Astrology emojis",
+        "fr":"Pour les emoji astrologie",
         "es":"Astrology emojis"
       },
       "Steps": [
@@ -55,7 +55,7 @@
       "Id": "AstroStories",
       "CommandLabel": {
         "en":"My future",
-        "fr":"My future",
+        "fr":"Mon futur",
         "es":"My future"
       }
     }
