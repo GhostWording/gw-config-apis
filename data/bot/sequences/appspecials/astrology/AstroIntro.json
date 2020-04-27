@@ -6,7 +6,7 @@
             "Type": "Text",
             "Label": {
                 "en": "Good day. I am a mystical owl, trained for years in the art of divination... 🦉",
-                "fr": "Good day. I am a mystical owl, trained for years in the art of divination... 🦉",
+                "fr": "Bonne journée à toi. Je suis une chouette mystique rompue aux arts de la divination... 🦉",
                 "es": "Good day. I am a mystical owl, trained for years in the art of divination... 🦉"
             }
         },
@@ -14,7 +14,7 @@
             "Type": "Text",
             "Label": {
                 "en": "I can tell you who you are, who you aren't, and who I am (which I just did)",
-                "fr": "I can tell you who you are, who you aren't, and who I am (which I just did)",
+                "fr": "Je peux te dire qui tu es, qui tu n'es pas, et qui je suis (je viens de le faire)",
                 "es": "I can tell you who you are, who you aren't, and who I am (which I just did)"
             }
         }
@@ -26,7 +26,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Amazing",
-                "fr": "Amazing",
+                "fr": "Etonnant",
                 "es": "Amazing"
             },
             "Steps": [
@@ -34,7 +34,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
-                        "fr": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
+                        "fr": "Je n'aime pas trop me vanter...mais laisse moi illustrer quelques uns de mes pouvoirs",
                         "es": "I don't much like to show off... but let me show you how powerful I am in the mystic arts"
                     }
                 },
@@ -56,7 +56,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I have scanned the area where the stars and your soul overlap",
-                        "fr": "I have scanned the area where the stars and your soul overlap",
+                        "fr": "J'ai examiné les zones où ton chemin recoupe celui des étoiles",
                         "es": "I have scanned the area where the stars and your soul overlap"
                     }
                 },
@@ -71,7 +71,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Prepare yourself for a psychic prediction!",
-                        "fr": "Prepare yourself for a psychic prediction!",
+                        "fr": "Prépare-toi à une prédiction maison !",
                         "es": "Prepare yourself for a psychic prediction!"
                     }
                 }
@@ -87,7 +87,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm ready",
-                            "fr": "I'm ready",
+                            "fr": "Je suis prêt",
                             "es": "I'm ready"
                         },
                         "Steps": [
@@ -95,7 +95,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I say boldly that you wear glasses!",
-                                    "fr": "I say boldly that you wear glasses!",
+                                    "fr": "Je suis à peu près sûr que tu portes des lunettes",
                                     "es": "I say boldly that you wear glasses!"
                                 }
                             }
@@ -111,7 +111,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Correct! Amazing!",
-                                        "fr": "Correct! Amazing!",
+                                        "fr": "Affirmatif. Etonnant !",
                                         "es": "Correct! Amazing!"
                                     },
                                     "Steps": [
@@ -119,7 +119,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The stars never lie",
-                                                "fr": "The stars never lie",
+                                                "fr": "Les étoiles se trompent rarement",
                                                 "es": "The stars never lie"
                                             }
                                         },
@@ -138,7 +138,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "That's not right",
-                                        "fr": "That's not right",
+                                        "fr": "Non non",
                                         "es": "That's not right"
                                     },
                                     "Steps": [
@@ -146,7 +146,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "How frustrating... I think my inner eye had some dust in it",
-                                                "fr": "How frustrating... I think my inner eye had some dust in it",
+                                                "fr": "Comme c'est frustrant... Il doit y avoir une poussière dans mon troisième oeil",
                                                 "es": "How frustrating... I think my inner eye had some dust in it"
                                             }
                                         },
@@ -171,7 +171,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Nice to meet you",
-                "fr": "Nice to meet you",
+                "fr": "Content de te voir",
                 "es": "Nice to meet you"
             },
             "Steps": [
@@ -179,7 +179,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
-                        "fr": "I don't much like to show off... but let me show you how powerful I am in the mystic arts",
+                        "fr": "Je n'aime pas trop me vanter...mais laisse moi illustrer quelques uns de mes pouvoirs",
                         "es": "I don't much like to show off... but let me show you how powerful I am in the mystic arts"
                     }
                 },
@@ -201,7 +201,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I have scanned the area where the stars and your soul overlap",
-                        "fr": "I have scanned the area where the stars and your soul overlap",
+                        "fr": "J'ai examiné les zones où ton chemin recoupe celui des étoiles",
                         "es": "I have scanned the area where the stars and your soul overlap"
                     }
                 },
@@ -216,7 +216,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Prepare yourself for a psychic prediction!",
-                        "fr": "Prepare yourself for a psychic prediction!",
+                        "fr": "Prépare-toi à une prédiction maison !",
                         "es": "Prepare yourself for a psychic prediction!"
                     }
                 }
@@ -232,7 +232,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I'm ready",
-                            "fr": "I'm ready",
+                            "fr": "Je suis prêt",
                             "es": "I'm ready"
                         },
                         "Steps": [
@@ -240,7 +240,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I say boldly that you wear glasses!",
-                                    "fr": "I say boldly that you wear glasses!",
+                                    "fr": "Je prédis sans rire et sans trembler que tu portes des lunettes",
                                     "es": "I say boldly that you wear glasses!"
                                 }
                             }
@@ -256,7 +256,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Correct! Amazing!",
-                                        "fr": "Correct! Amazing!",
+                                        "fr": "Correcte. Etonnant !",
                                         "es": "Correct! Amazing!"
                                     },
                                     "Steps": [
@@ -264,7 +264,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The stars never lie",
-                                                "fr": "The stars never lie",
+                                                "fr": "Les étoiles se trompent rarement",
                                                 "es": "The stars never lie"
                                             }
                                         },
@@ -283,7 +283,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "That's not right",
-                                        "fr": "That's not right",
+                                        "fr": "Eh non !",
                                         "es": "That's not right"
                                     },
                                     "Steps": [
@@ -291,7 +291,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "How frustrating... I think my inner eye had some dust in it",
-                                                "fr": "How frustrating... I think my inner eye had some dust in it",
+                                                "fr": "Comme c'est frustrant... Il doit y avoir une poussière dans mon troisième oeil",
                                                 "es": "How frustrating... I think my inner eye had some dust in it"
                                             }
                                         },
