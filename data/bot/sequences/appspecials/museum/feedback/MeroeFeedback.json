@@ -20,7 +20,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "It was great!",
-                "fr": "C'était super !",
+                "fr": "C'était super !!",
                 "es": "¡Fue genial!",
                 "zh": "非常棒！"
             },
@@ -32,17 +32,10 @@
                         "SequenceId": "Meroe",
                         "FeedbackValue": "Good"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "NativeExecuteFragment",
-                    "Parameters": {
-                        "FragmentPath": "Exit"
-                    }
                 }
             ],
             "LinksToFragment": {
-                "FragmentPath": "ChooseMuseumStory"
+                "FragmentPath": "DonationQuestion"
             }
         },
         {
