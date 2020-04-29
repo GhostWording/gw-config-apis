@@ -32,17 +32,10 @@
                         "SequenceId": "Mausoleum",
                         "FeedbackValue": "Good"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "NativeExecuteFragment",
-                    "Parameters": {
-                        "FragmentPath": "Exit"
-                    }
                 }
             ],
             "LinksToFragment": {
-                "FragmentPath": "ChooseMuseumStory"
+                "FragmentPath": "DonationQuestion"
             }
         },
         {
