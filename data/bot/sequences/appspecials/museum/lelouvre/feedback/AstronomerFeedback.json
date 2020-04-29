@@ -32,17 +32,10 @@
                         "SequenceId": "Astronomer",
                         "FeedbackValue": "Good"
                     }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "NativeExecuteFragment",
-                    "Parameters": {
-                        "FragmentPath": "Exit"
-                    }
                 }
             ],
             "LinksToFragment": {
-                "FragmentPath": "ChooseLouvreStory"
+                "FragmentPath": "DonationQuestion"
             }
         },
         {
