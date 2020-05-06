@@ -1,0 +1,109 @@
+{
+  "InternalRoot": "http://az767698.vo.msecnd.net",
+  "GiphyTabKey": "Cp30RW0L0GPAkTOV8ZJETLVKUMZQonoD",
+  "GiphyBotKey": "1WYzY6PZVYCoxznZ5Toxdru6j5JFpB9J",
+  "BotName": "billyshotbot",
+  "ShowEmojiKeyboardIcon": false,
+  "ShowEmojiKeyboardIconWhenKeyboardActivated": true,
+  "ShowEmojiOptionInSideMenu": true,
+  "ShowEmojiOptionInSettings": false,
+  "FirstPaymentFragmentXXRemovedXX": "OneLeafWithPayment",
+  "ShowNativeAdverts" : true,
+  "FetchAdverts": "no",
+  "IntroGifs": ["http://az767698.vo.msecnd.net/gifs/others/anim_welcome1.gif",
+                "http://az767698.vo.msecnd.net/gifs/others/anim_welcome2.gif",
+                "http://az767698.vo.msecnd.net/gifs/others/anim_welcome3.gif"
+  ],
+  "Notifications": [
+      {
+          "Type": "Action",
+          "Name": "NotifyDeferredStory",
+          "fragmentId": "PerfectGiftForYou",
+          "notificationDelay": 
+              {
+              "unit": "day",
+              "quantity": "1"
+              },
+          "notificationTitle": {
+              "en": "I have something for you",
+              "fr": "J'ai quelque chose pour toi",
+              "es": "Tengo algo para ti"
+              },
+          "notificationText": {
+              "en": "You can send it and it's not a kitten story",
+              "fr": "Tu peux l'envoyer et ce n'est pas une histoire de chatons",
+              "es": "Y no es una historia de gatitos"
+              },
+          "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
+      },
+      {
+          "Type": "Action",
+          "Name": "NotifyDeferredStory",
+          "fragmentId": "UselessQuestion",
+          "notificationDelay": 
+              {
+              "unit": "day",
+              "quantity": "2"
+              },
+          "notificationTitle": {
+              "en": "I have a question for you",
+              "fr": "J'ai une question pour toi",
+              "es": "Tengo una pregunta para usted."
+              },
+          "notificationText": {
+              "en": "Still not about kittens",
+              "fr": "Toujours pas sur les chattons",
+              "es": "Todavía no sobre los gatitos"
+              },
+          "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
+      }      
+  ],  
+  "PaymentDialog": [
+    {
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif",
+      "message": {
+        "en": "Would you like to unlock the ad free version ($4)?",
+        "fr": "Veux-tu utiliser la version sans publicité ($4)?",
+        "es": "¿Quieres usar la versión sin publicidad? ($4)"
+      },
+      "buttonYes": {
+        "en": "Yes, I love this app",
+        "fr": "Oui, j'aime cette app",
+        "es": "Sí, me encanta esta aplicación"
+      },
+      "buttonNo": {
+        "en": "No thanks, I prefer adverts",
+        "fr": "Non merci, je préfère les pubs",
+        "es": "No gracias, prefiero los anuncios"
+      },
+      "variations": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif",
+      "message": {
+        "en": "Hi, can you help us by buying the advert free version ?",
+        "fr": "Hello, tu peux nous aider en achetant la version sans pub ?",
+        "es": "Hola, ¿puede ayudarnos comprando la versión comercial gratuita?"
+      },
+      "buttonYes": {
+        "en": "Yes, I like the app",
+        "fr": "Oui, j'aime bien l'app",
+        "es": "Sí"
+      },
+      "buttonNo": {
+        "en": "No, I prefer watching adverts",
+        "fr": "Non, je préfère voir des pubs",
+        "es": "No gracias, prefiero los anuncios"
+      },
+      "variations": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}
