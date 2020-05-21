@@ -8,56 +8,69 @@
   "ShowEmojiOptionInSideMenu": true,
   "ShowEmojiOptionInSettings": false,
   "FirstPaymentFragmentXXRemovedXX": "OneLeafWithPayment",
-  "ShowNativeAdverts" : true,
+  "ShowNativeAdverts": true,
   "FetchAdverts": "no",
-  "IntroGifs": ["http://az767698.vo.msecnd.net/gifs/others/anim_welcome1.gif",
-                "http://az767698.vo.msecnd.net/gifs/others/anim_welcome2.gif",
-                "http://az767698.vo.msecnd.net/gifs/others/anim_welcome3.gif"
+  "IntroGifs": [
+    "http://az767698.vo.msecnd.net/gifs/others/anim_welcome1.gif",
+    "http://az767698.vo.msecnd.net/gifs/others/anim_welcome2.gif",
+    "http://az767698.vo.msecnd.net/gifs/others/anim_welcome3.gif"
+  ],
+  "FirstIntroScreens": [
+    {
+      "background": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg",
+      "gifIntro": "http://az767698.vo.msecnd.net/gifs/others/anim_welcome1.gif"
+    },
+    {
+      "background": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg",
+      "gifIntro": "http://az767698.vo.msecnd.net/gifs/others/anim_welcome2.gif"
+    },
+    {
+      "background": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg",
+      "gifIntro": "http://az767698.vo.msecnd.net/gifs/others/anim_welcome3.gif"
+    }
   ],
   "Notifications": [
-      {
-          "Type": "Action",
-          "Name": "NotifyDeferredStory",
-          "fragmentId": "PerfectGiftForYou",
-          "notificationDelay": 
-              {
-              "unit": "day",
-              "quantity": "1"
-              },
-          "notificationTitle": {
-              "en": "I have something for you",
-              "fr": "J'ai quelque chose pour toi",
-              "es": "Tengo algo para ti"
-              },
-          "notificationText": {
-              "en": "You can send it and it's not a kitten story",
-              "fr": "Tu peux l'envoyer et ce n'est pas une histoire de chatons",
-              "es": "Y no es una historia de gatitos"
-              },
-          "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
+    {
+      "Type": "Action",
+      "Name": "NotifyDeferredStory",
+      "fragmentId": "PerfectGiftForYou",
+      "notificationDelay": {
+        "unit": "day",
+        "quantity": "1"
       },
-      {
-          "Type": "Action",
-          "Name": "NotifyDeferredStory",
-          "fragmentId": "UselessQuestion",
-          "notificationDelay": 
-              {
-              "unit": "day",
-              "quantity": "2"
-              },
-          "notificationTitle": {
-              "en": "I have a question for you",
-              "fr": "J'ai une question pour toi",
-              "es": "Tengo una pregunta para usted."
-              },
-          "notificationText": {
-              "en": "Still not about kittens",
-              "fr": "Toujours pas sur les chattons",
-              "es": "Todavía no sobre los gatitos"
-              },
-          "notificationIcon" : "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg" 
-      }      
-  ],  
+      "notificationTitle": {
+        "en": "I have something for you",
+        "fr": "J'ai quelque chose pour toi",
+        "es": "Tengo algo para ti"
+      },
+      "notificationText": {
+        "en": "You can send it and it's not a kitten story",
+        "fr": "Tu peux l'envoyer et ce n'est pas une histoire de chatons",
+        "es": "Y no es una historia de gatitos"
+      },
+      "notificationIcon": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg"
+    },
+    {
+      "Type": "Action",
+      "Name": "NotifyDeferredStory",
+      "fragmentId": "UselessQuestion",
+      "notificationDelay": {
+        "unit": "day",
+        "quantity": "2"
+      },
+      "notificationTitle": {
+        "en": "I have a question for you",
+        "fr": "J'ai une question pour toi",
+        "es": "Tengo una pregunta para usted."
+      },
+      "notificationText": {
+        "en": "Still not about kittens",
+        "fr": "Toujours pas sur les chattons",
+        "es": "Todavía no sobre los gatitos"
+      },
+      "notificationIcon": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg"
+    }
+  ],
   "PaymentDialog": [
     {
       "iconUrl": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif",
