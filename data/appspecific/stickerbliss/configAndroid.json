@@ -14,6 +14,20 @@
                 "http://az767698.vo.msecnd.net/gifs/others/anim_welcome2.gif",
                 "http://az767698.vo.msecnd.net/gifs/others/anim_welcome3.gif"
   ],
+  "FirstIntroScreens": [
+    {
+      "background": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg",
+      "gifIntro": "http://az767698.vo.msecnd.net/gifs/others/anim_welcome1.gif"
+    },
+    {
+      "background": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg",
+      "gifIntro": "http://az767698.vo.msecnd.net/gifs/others/anim_welcome2.gif"
+    },
+    {
+      "background": "http://az767698.vo.msecnd.net/owls/images/small/1024.jpg",
+      "gifIntro": "http://az767698.vo.msecnd.net/gifs/others/anim_welcome3.gif"
+    }
+  ],
   "Notifications": [
       {
           "Type": "Action",
