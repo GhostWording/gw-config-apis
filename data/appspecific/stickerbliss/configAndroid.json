@@ -36,6 +36,24 @@
       "gifIntro": "http://az767698.vo.msecnd.net/owls/gifs/chathead/avtar_surprised132x132.gif"
     }    
   ],
+  "DefaultTab": [
+      {
+        "TabNumber": 1,
+        "variations": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "TabNumber": 2,
+        "variations": [
+          4,
+          5
+        ]     
+      }
+    ],  
   "Notifications": [
       {
           "Type": "Action",
