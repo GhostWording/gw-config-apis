@@ -3,24 +3,24 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2065204260",
     "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/3483340864"
+      "Provider": "StartApp",
+      "ID": "205540368"
     }
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2065204260",
     "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/2995313751"
+      "Provider": "StartApp",
+      "ID": "205540368"
     }
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2065204260",
     "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/6656299113"
+      "Provider": "StartApp",
+      "ID": "205540368"
     }
   },
   "AfterSending": {
@@ -35,8 +35,8 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2065204260",
     "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/2514273818"
+      "Provider": "StartApp",
+      "ID": "205540368"
     }   
   },  
   "GalleryNative": {
