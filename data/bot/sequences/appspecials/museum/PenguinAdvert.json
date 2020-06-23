@@ -52,6 +52,9 @@
                   "fr": "Voici la pub",
                   "es": "Aqui esta el anuncio"
               }
+            },            
+            {
+              "Type": "ShowAdvert"
             },
             {
                 "Type": "Pause",
@@ -59,9 +62,6 @@
                     "Mode": "Wait",
                     "ms": 6000
                 }
-            },            
-            {
-              "Type": "ShowAdvert"
             }
           ],
           "LinksToFragment": {
@@ -84,6 +84,9 @@
                   "Source": "Web",
                   "Path": "http://az767698.vo.msecnd.net/gifs/general/penguinknock.gif"
               }
+            },            
+            {
+              "Type": "ShowAdvert"
             },          
             {
                 "Type": "Pause",
@@ -91,9 +94,6 @@
                     "Mode": "Wait",
                     "ms": 6000
                 }
-            },            
-            {
-              "Type": "ShowAdvert"
             }
           ],
           "LinksToFragment": {
