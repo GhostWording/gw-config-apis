@@ -54,7 +54,8 @@
               }
             },            
             {
-              "Type": "ShowAdvert"
+              "Type": "Action",
+              "Name": "ShowAdvert"
             },
             {
                 "Type": "Pause",
@@ -86,7 +87,8 @@
               }
             },            
             {
-              "Type": "ShowAdvert"
+              "Type": "Action",
+              "Name": "ShowAdvert"
             },          
             {
                 "Type": "Pause",
