@@ -1,0 +1,104 @@
+{
+  "Type": "Node",
+  "Id": "PenguinAdvert",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "Do you wish to  finance new stories by watching a penguin advert?",
+              "fr": "CSouhaites-tu financer de nouvelles histoires en regardant une pub sur les pingouins ?",
+              "es": "¿Te gustaría financiar nuevas historias viendo un comercial de pingüinos?",
+              "zh": "您觉得这个故事怎么样？"
+          }
+      }
+  ],
+  "Commands": [
+      {
+          "Type": "Node",
+          "Id": "PenguinAdvertYes",
+          "CommandLabel": {
+              "en": "Yes!",
+              "fr": "Oui !",
+              "es": "¡Sí!",
+              "zh": "非常棒！"
+          },
+          "Steps": [
+            {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://az767698.vo.msecnd.net/gifs/general/penguinknock.gif"
+                }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                  "en": "Finally an interesting challenge",
+                  "fr": "Enfin un défi intéressant",
+                  "es": "Finalmente un reto interesante"
+              }
+            },
+            {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 1000
+                }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                  "en": "Here comes the ad",
+                  "fr": "Voici la pub",
+                  "es": "Aqui esta el anuncio"
+              }
+            },
+            {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 6000
+                }
+            },            
+            {
+              "Type": "ShowAdvert"
+            }
+          ],
+          "LinksToFragment": {
+              "FragmentPath": "Exit"
+          }
+      },
+      {
+          "Type": "Node",
+          "Id": "PenguinAdvertNo",
+          "CommandLabel": {
+              "en": "No",
+              "fr": "Non",
+              "es": "No",
+              "zh": "不错"
+          },
+          "Steps": [
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://az767698.vo.msecnd.net/gifs/general/penguinknock.gif"
+              }
+            },          
+            {
+                "Type": "Pause",
+                "Parameters": {
+                    "Mode": "Wait",
+                    "ms": 6000
+                }
+            },            
+            {
+              "Type": "ShowAdvert"
+            }
+          ],
+          "LinksToFragment": {
+              "FragmentPath": "Exit"
+          }
+      }
+  ]
+}
