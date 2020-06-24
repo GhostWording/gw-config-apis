@@ -4,7 +4,11 @@
   "Steps": [
       {
         "Type": "Action",
-        "Name": "PreloadAdvert"
+        "Name": "PreloadAdvert",
+        "Parameters": {                        
+                      "Provider": "AdMob",                        
+                      "Placement": "ca-app-pub-7822741681642396/6922465338"        
+                      }
       },
       {
           "Type": "Text",
@@ -59,7 +63,11 @@
             },            
             {
               "Type": "Action",
-              "Name": "ShowAdvert"
+              "Name": "ShowAdvert",
+              "Parameters": {                        
+                      "Provider": "AdMob",                        
+                      "Placement": "ca-app-pub-7822741681642396/6922465338"           
+                      }              
             },
             {
                 "Type": "Pause",
@@ -92,7 +100,11 @@
             },            
             {
               "Type": "Action",
-              "Name": "ShowAdvert"
+              "Name": "ShowAdvert",
+              "Parameters": {                        
+                      "Provider": "AdMob",                        
+                      "Placement": "ca-app-pub-7822741681642396/6922465338"           
+                      }              
             },          
             {
                 "Type": "Pause",
