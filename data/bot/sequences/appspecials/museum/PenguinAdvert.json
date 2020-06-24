@@ -3,6 +3,10 @@
   "Id": "PenguinAdvert",
   "Steps": [
       {
+        "Type": "Action",
+        "Name": "PreloadAdvert"
+      },
+      {
           "Type": "Text",
           "Label": {
               "en": "Do you wish to finance new stories by watching a penguin advert?",
@@ -33,8 +37,8 @@
             {
               "Type": "Text",
               "Label": {
-                  "en": "Finally an interesting challenge",
-                  "fr": "Enfin un défi intéressant",
+                  "en": "Finally an interesting challenge. I'll try to find one now.",
+                  "fr": "Enfin un défi intéressant. J'essaye de d'en trouver une.",
                   "es": "Finalmente un reto interesante"
               }
             },
@@ -48,8 +52,8 @@
             {
               "Type": "Text",
               "Label": {
-                  "en": "Here comes the ad",
-                  "fr": "Voici la pub",
+                  "en": "Here is what I found",
+                  "fr": "Voici ce que j'ai trouvé",
                   "es": "Aqui esta el anuncio"
               }
             },            
