@@ -65,7 +65,31 @@
                     "es": "¡Mereces un poco de descanso!",
                     "zh": "你应该休息一下"
                      }               
-               }   
+               },
+               {
+                   "Type": "Pause",
+                   "Parameters": {
+                       "Mode": "Wait",
+                       "ms": 1000
+                   }
+               },
+               {
+                "Type": "Text",
+                "Label": {
+                    "en": "Thank you for savouring this advertisement",
+                    "fr": "Merci de savourer cette publicité",
+                    "es": "Gracias por saborear este anuncio",
+                    "zh": "谢谢你欣赏这个广告"
+                     }               
+               },   
+               {
+                 "Type": "Action",
+                 "Name": "ShowAdvert",
+                 "Parameters": {                        
+                               "Provider": "AdMob",                        
+                               "Placement": "ca-app-pub-7822741681642396/7782809685"        
+                               }
+               }              
             ],
             "LinksToFragment": {
                 "FragmentPath": "LibertyLeadingFeedback"
