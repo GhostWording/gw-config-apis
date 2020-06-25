@@ -67,13 +67,6 @@
                      }               
                },
                {
-                   "Type": "Pause",
-                   "Parameters": {
-                       "Mode": "Wait",
-                       "ms": 1000
-                   }
-               },
-               {
                 "Type": "Text",
                 "Label": {
                     "en": "Thank you for savouring this well-deserved advert",
@@ -82,6 +75,13 @@
                     "zh": "谢谢你欣赏这个广告"
                      }               
                },   
+               {
+                   "Type": "Pause",
+                   "Parameters": {
+                       "Mode": "Wait",
+                       "ms": 3000
+                   }
+               },               
                {
                  "Type": "Action",
                  "Name": "ShowAdvert",
@@ -128,7 +128,7 @@
                        "Mode": "Wait",
                        "ms": 1000
                    }
-               },
+               },                 
                {
                 "Type": "Text",
                 "Label": {
@@ -138,6 +138,13 @@
                     "zh": "谢谢你欣赏这个广告"
                      }               
                },   
+               {
+                   "Type": "Pause",
+                   "Parameters": {
+                       "Mode": "Wait",
+                       "ms": 2000
+                   }
+               },                
                {
                  "Type": "Action",
                  "Name": "ShowAdvert",
