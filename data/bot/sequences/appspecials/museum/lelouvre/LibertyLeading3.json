@@ -89,7 +89,14 @@
                                "Provider": "AdMob",                        
                                "Placement": "ca-app-pub-7822741681642396/7782809685"        
                                }
-               }              
+               },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                }               
             ],
             "LinksToFragment": {
                 "FragmentPath": "LibertyLeadingFeedback"
@@ -138,7 +145,14 @@
                                "Provider": "AdMob",                        
                                "Placement": "ca-app-pub-7822741681642396/7782809685"        
                                }
-               },                 
+               },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },                 
                 {
                     "Type": "Text",
                     "Label": {
