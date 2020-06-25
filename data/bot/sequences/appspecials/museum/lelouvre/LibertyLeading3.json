@@ -20,6 +20,14 @@
                 "Path": "/museums/louvre/sequenceimages/pileushat.jpg"
             }
         },
+       {
+         "Type": "Action",
+         "Name": "PreloadAdvert",
+         "Parameters": {                        
+                       "Provider": "AdMob",                        
+                       "Placement": "ca-app-pub-7822741681642396/7782809685"        
+                       }
+       },               
         {
             "Type": "Pause",
             "Parameters": {
@@ -48,6 +56,15 @@
                 "es": "Conozco suficiente",
                 "zh": "这就足够了"
             },
+           "Steps": [
+                "Type": "Text",
+                "Label": {
+                    "en": "I guess you deserve a break",
+                    "fr": "Tu mérites un peu de repos !",
+                    "es": "¡Mereces un poco de descanso!",
+                    "zh": "你应该休息一下"
+                }               
+            ],
             "LinksToFragment": {
                 "FragmentPath": "LibertyLeadingFeedback"
             }
