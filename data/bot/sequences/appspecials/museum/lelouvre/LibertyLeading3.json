@@ -113,53 +113,6 @@
                 "zh": "再多给我讲讲！"
             },
             "Steps": [
-               {
-                "Type": "Text",
-                "Label": {
-                    "en": "How brave! You should take a break",
-                    "fr": "Quel courage ! Tu devrais faire une pause",
-                    "es": "¡Qué valiente! Mereces un poco de descanso",
-                    "zh": "真勇敢！ 你应该休息一下"
-                     }               
-               },
-               {
-                   "Type": "Pause",
-                   "Parameters": {
-                       "Mode": "Wait",
-                       "ms": 1000
-                   }
-               },                 
-               {
-                "Type": "Text",
-                "Label": {
-                    "en": "Thank you for savouring this well-deserved advert",
-                    "fr": "Merci de savourer cette pub bien méritée !",
-                    "es": "Gracias por disfrutar de esta merecida publicidad",
-                    "zh": "谢谢你欣赏这个广告"
-                     }               
-               },   
-               {
-                   "Type": "Pause",
-                   "Parameters": {
-                       "Mode": "Wait",
-                       "ms": 2000
-                   }
-               },                
-               {
-                 "Type": "Action",
-                 "Name": "ShowAdvert",
-                 "Parameters": {                        
-                               "Provider": "AdMob",                        
-                               "Placement": "ca-app-pub-7822741681642396/7782809685"        
-                               }
-               },
-                {
-                    "Type": "Pause",
-                    "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 4000
-                    }
-                },                 
                 {
                     "Type": "Text",
                     "Label": {
