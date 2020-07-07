@@ -51,6 +51,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 5000
+                    }
+                },                
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "The boy on the right is thought to have inspired the character “Gavroche” in Victor Hugo’s Les Miserables!",
@@ -63,7 +70,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 3000
+                        "ms": 1000
                     }
                 },
                 {
@@ -76,6 +83,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 3000
+                    }
+                },                
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Most importantly, though, the lady in the centre is known as Marianne, a French symbol of liberty!",
@@ -83,7 +97,17 @@
                         "es": "¡Más importante aún, la mujer en el medio es conocida con el nombre de Marianne, el símbolo francés de la libertad!",
                         "zh": "最重要的是，画中央的姑娘被称为玛丽娜安，是法国的自由象征！"
                     }
-                }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Display": "FullScreenWidth",
+                        "Source": "Internal",                
+                        "Width": 1974,
+                        "Height": 1563,
+                        "Path": "/museums/louvre/previews/Liberty.jpg"
+                    }
+                }                
             ],
             "LinksTo": {
                 "Type": "Node",
@@ -95,8 +119,8 @@
                         "Id": "LibertyLeading2ShowEnough",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "That’s enough",
-                            "fr": "J'en sais assez",
+                            "en": "I know all about her",
+                            "fr": "Je sais tout d'elle",
                             "es": "Conozco suficiente",
                             "zh": "这就足够了"
                         },
@@ -110,7 +134,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tell me about her",
-                            "fr": "Parle-moi d'elle !",
+                            "fr": "Qu'a-t-elle d'intéressant ?",
                             "es": "¡Dime más sobre ella!",
                             "zh": "给我讲讲她的故事"
                         },
