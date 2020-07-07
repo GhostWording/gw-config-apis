@@ -30,7 +30,23 @@
                 "zh": "但是您知道这是法国送给美国的礼物吗？"
             },
             "Vibration": "true"
-        }
+        },
+        {
+            "Type": "Pause",
+             "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+                }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Please select the Yes or No button right below",
+                "fr": "Merci d'appuyer sur le bouton Oui ou Non ci-dessous",
+                "es": "Presione el botón Sí o No a continuación",
+                "zh": "..."
+            }
+        }          
     ],
     "Commands": [
         {
