@@ -24,8 +24,8 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "The three characters on the left represent different classes, rising up together to overthrow the monarchy.",
-                "fr": "Les trois personnages à gauche représentent différentes classes sociales, s'unissant pour renverser la monarchie.",
+                "en": "The characters on the left represent different classes, rising up together to overthrow the monarchy.",
+                "fr": "Les personnages à gauche représentent différentes classes sociales, s'unissant pour renverser la monarchie.",
                 "es": "Los tres personajes a la izquierda representan diferentes clases sociales uniéndose para derrocar la monarquía",
                 "zh": "左边的三个人物代表了三个不同阶级，他们一起推翻君主制。"
             }
@@ -54,7 +54,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 5000
+                        "ms": 6000
                     }
                 },                
                 {
@@ -70,7 +70,7 @@
                     "Type": "Pause",
                     "Parameters": {
                         "Mode": "Wait",
-                        "ms": 1000
+                        "ms": 500
                     }
                 },
                 {
