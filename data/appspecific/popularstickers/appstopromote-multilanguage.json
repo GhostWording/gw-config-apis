@@ -7,7 +7,7 @@
         "fr": "Decouvrez les histoires du musée du Louvre",
         "es": "¡Salva al gatito!"
       },
-      "iconUrl": "https://res.cloudinary.com/wavemining-ltd/image/upload/v1537437838/Louvre_Icon_iOS_hvuyt5.jpg",
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/artquest.png",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
       "storeUrlLocalized": {
         "en": "https://play.google.com/store/apps/details?id=com.wavemining.storytellingguide",
@@ -33,21 +33,6 @@
     {
       "availablefor" : ["en","fr","es"],
       "title": {
-        "en": "Do people think like you? Ask our Messenger Pony!",
-        "fr": "Dis ce que tu penses à un robot-poney !",
-        "es": "¡Dígale lo que piensas a un poni-bot!"
-      },
-      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy",
-      "storeUrlLocalized": {
-        "en": "https://www.messenger.com/t/SurveyPonyy",
-        "fr": "https://www.messenger.com/t/SurveyPonyy",
-        "es": "https://www.messenger.com/t/SurveyPonyy"
-      }
-    },
-    {
-      "availablefor" : ["en","fr","es"],
-      "title": {
         "en": "Try me, I'm a quote bot!",
         "fr": "Essaie-moi, je suis un bot!",
         "es": "¡Pruébame, soy un bot!"
@@ -58,21 +43,6 @@
         "en": "https://m.me/QuoteoBot",
         "fr": "https://m.me/QuoteoBot",
         "es": "https://m.me/QuoteoBot"
-      }
-    },
-    {
-      "availablefor" : ["en","fr","es"],
-      "title": {
-        "en": "Hero, the Bot that recommends the best Emoji",
-        "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
-        "es": "Hero, el Bot que recomienda los mejores Emoji"
-      },
-      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon",
-      "storeUrlLocalized": {
-        "en": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon",
-        "fr": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon",
-        "es": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
       }
     }
   ]
