@@ -2,22 +2,22 @@
 {
 "apps": 
   [
-    {
-      "availablefor" : ["en","fr","es"],
-      "title": "Talk to me: I'm a pony!",
+   {
+      "availablefor" : ["en","fr"],
+      "title": "Art explained by an owl",
       "titleLocalized": {
-        "en": "Talk to me: I'm a pony!",
-        "fr": "Parle-moi: je suis un poney !",
-        "es": "¡Parlame, soy un poni !"
-      },
-      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy",
+        "en": "Unbelievable art stories!",
+        "fr": "La face cachée de l'art",
+        "es": "Historias de arte!"
+         },
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/artquest.png",
+      "storeUrl": "https://itunes.apple.com/us/app/art-saga/id1441650916?ls=1&mt=8",
       "storeUrlLocalized": {
-        "en": "https://www.messenger.com/t/SurveyPonyy",
-        "fr": "https://www.messenger.com/t/SurveyPonyy",
-        "es": "https://www.messenger.com/t/SurveyPonyy"
-      }
-    },       
+        "en": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
+        "fr": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8",
+        "es": "https://itunes.apple.com/us/app/louvre-chatbot-guide/id1433580907?ls=1&mt=8"
+         }
+    },          
     {
      "availablefor" : ["en","fr","es"],
       "title": "Try me, I'm a bot!",
