@@ -1,6 +1,20 @@
 {
   "apps": [
     {
+      "availablefor" : ["en", "fr"],
+      "header": {
+        "en": "Advert: Art stories told by an owl!",
+        "fr": "Pub : L'art expliqué par une chouette"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/artquest.png",
+      "button": {
+        "en": "INSTALL",
+        "fr": "INSTALLER",
+        "es": "INSTALAR"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.artquest"
+    },    
+    {
       "availablefor" : ["en","fr"],
       "title": {
         "en": "Discover the stories of Le Louvre museum",
