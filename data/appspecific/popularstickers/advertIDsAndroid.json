@@ -40,11 +40,12 @@
     }   
   },  
   "GalleryNative": {
-    "Provider": "AmazonAffiliates"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4239115490"
   },
    "InsteadOfPaying": {
-    "Provider": "StartApp",
-    "ID": "205540368",
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9472226537",
     "Offset": 3,
     "Frequency" : 4
   },
