@@ -2,9 +2,9 @@
   "apps": [
     {
       "availablefor" : ["en", "fr"],
-      "header": {
-        "en": "Advert: Art stories told by an owl!",
-        "fr": "Pub : L'art expliqué par une chouette"
+      "title": {
+        "en": "Art Saga: Art stories told by an owl!",
+        "fr": "Art & Histoires : L'art raconté par une chouette"
       },
       "iconUrl": "http://az767698.vo.msecnd.net/owls/images/small/artquest.png",
       "button": {
