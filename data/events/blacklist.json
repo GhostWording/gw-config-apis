@@ -4,5 +4,13 @@
   { "actionType":"TabSelect", "discard":true},
   { "actionType":"NetworkTest", "discard":true},
   { "actionType":"BackFromImage", "discard":true}, 
-  { "actionType":"SelectTab", "discard":true}
+  { "actionType":"SelectTab", "discard":true},
+  { "actionType":"AppLaunch", "discard":true},
+  { "actionType":"ConfigLoaded", "discard":true},
+  { "actionType":"ResumeActivity", "discard":true},
+  { "actionType":"AdNotRequested", "discard":true},
+  { "actionType":"DeviceBooted", "discard":true},
+  { "actionType":"AdPrefetch", "discard":true},
+  { "actionType":"AdRequested", "discard":true},
+  { "actionType":"AdPrefetchValue", "discard":true}
 ]
