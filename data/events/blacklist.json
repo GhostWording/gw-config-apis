@@ -12,5 +12,17 @@
   { "actionType":"DeviceBooted", "discard":true},
   { "actionType":"AdPrefetch", "discard":true},
   { "actionType":"AdRequested", "discard":true},
-  { "actionType":"AdPrefetchValue", "discard":true}
+  { "actionType":"AdPrefetchValue", "discard":true},
+  { "actionType":"Country", "discard":true},
+  { "actionType":"ScheduleNotification", "discard":true},
+  { "actionType":"NotificationReceived", "discard":true},
+  { "actionType":"FailedToLoadRemoteConfig", "discard":true},
+  { "actionType":"DailyIdeasReached", "discard":true},
+  { "actionType":"NativeAdLoaded", "discard":true},
+  { "actionType":"BackFromThemes", "discard":true},
+  { "actionType":"AdDismissed", "discard":true},
+  { "actionType":"AdLoaded", "discard":true},
+  { "actionType":"MoodTheme", "discard":true},
+  { "actionType":"UserOpenAppSeeAdvert", "discard":true},
+  { "actionType":"NativeAdDisplayed", "discard":true}
 ]
