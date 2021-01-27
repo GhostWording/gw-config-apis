@@ -24,5 +24,6 @@
   { "actionType":"AdLoaded", "discard":true},
   { "actionType":"MoodTheme", "discard":true},
   { "actionType":"UserOpenAppSeeAdvert", "discard":true},
-  { "actionType":"NativeAdDisplayed", "discard":true}
+  { "actionType":"NativeAdDisplayed", "discard":true},
+  { "actionType":"HuggyCommandBarOptionSelected", "discard":true}  
 ]
