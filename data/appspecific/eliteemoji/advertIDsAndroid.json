@@ -9,7 +9,11 @@
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/8159790386"
+    "ID": "ca-app-pub-7822741681642396/4311516963",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4077307864"
+    }    
   },
   "After10InterstitialDisplays": {
     "Provider": "AdMob",
