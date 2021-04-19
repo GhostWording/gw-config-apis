@@ -50,11 +50,7 @@
   },
    "InsteadOfPaying": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/3147766425",
-    "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/4077307864"
-    },   
+    "ID": "ca-app-pub-7822741681642396/3147766425", 
     "Offset": 4,
     "Frequency" : 5
   },
