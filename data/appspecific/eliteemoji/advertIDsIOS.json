@@ -25,7 +25,11 @@
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/6405273206"
+    "ID": "ca-app-pub-7822741681642396/6405273206",
+    "Fallback": {
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/6377353045"
+     }    
   },
   "InsteadOfPaying": {
      "Provider": "AdMob",
