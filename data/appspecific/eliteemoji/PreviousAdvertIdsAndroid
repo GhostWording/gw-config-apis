@@ -1,0 +1,69 @@
+{
+  "FirstLaunch": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/1598865126"
+  },
+  "FirstResumeActivity": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4657911417",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4077307864"
+    }    
+  },
+  "OtherResumeActivity": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4311516963",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4077307864"
+    }    
+  },
+  "After10InterstitialDisplays": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9714643610",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4077307864"
+    }   
+  },  
+  "OtherResumeActivityAlternativeOld": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4009261578",
+    "Countries": "United States",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/6224361378"
+    }
+  },
+  "AfterSending": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4418097055"
+  },
+  "GalleryNative": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/1491112667"    
+  },
+  "GalleryDailyNative": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4418097055"
+  },
+   "InsteadOfPaying": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/3147766425", 
+    "Offset": 4,
+    "Frequency" : 4
+  },
+   "After10InterstitialDisplaysNewlyDisabled": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9457475160",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/9218350757"
+    }   
+  },
+  "PermanentBannerDisabled": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/7553144125"
+  }
+}
