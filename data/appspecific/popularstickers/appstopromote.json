@@ -1,23 +1,11 @@
 
 {
 "apps": 
-  [
+  [  
     {
-      "title": "Do people think like you? Ask our Messenger Pony!",
-      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
-    }
-    ,    
-    {
-      "title": "Try me, I'm a bot!",
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
-      "storeUrl": "https://m.me/QuoteoBot"
-    }
-    ,
-    {
-      "title": "Hero, the Bot that recommends the best Emoji",
-      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
-    }
+      "title": "Art explained by an owl",
+      "iconUrl": "http://images.emojiapps.com/owls/images/small/artquest.png",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.artquest"
+    }      
   ]
 }
