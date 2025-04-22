@@ -1,6 +1,7 @@
 {
  "InternalRoot": "http://images.emojiapps.com",
  "SendEvents" : "no",
+ "SendUserData" : false, 
  "FirstLaunch": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4544914006",
